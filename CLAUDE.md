@@ -24,7 +24,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
   Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das
   `tools/nest_waechter.py` (läuft im Hintergrund einer Claude-Sitzung, beendet sich beim Fund).
-  Vorgehen: alle Portaltexte der Gruppe lesen → Websuche nach dem Inserat auf anderen Seiten
+  Vorgehen: alle Portaltexte der Gruppe lesen → Grundrisse unter den Fotos ansehen
+  (`python tools/grundrisse.py ID ZIEL` speichert sie; das Schriftfeld nennt oft Projekt und
+  Adresse, und gleiche Grundrisse entlarven Doppelte verschiedener Makler → review "gleich_wie")
+  → Websuche nach dem Inserat auf anderen Seiten
   (oft steht dort die Adresse) → bei Projekten alle Einheiten auf ImmoScout24 suchen (ohne
   Preisgrenze) und die zufällig versetzten Punkte mitteln → Gehzeiten/Entfernungen aus dem Text
   mit `tools/ortung.py` einmessen. Ergebnis mit `run.py review ID --lat --lon --sicherheit`

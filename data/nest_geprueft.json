@@ -6,7 +6,7 @@
    "ds-15244187"
   ],
   "titel": "Gersthof-Garten-Geothermie-Ganze Etage (B1)",
-  "ergebnis": "Alt-Gersthof bei Erndtgasse 28, ±100 m (Mittel aus 10 ImmoScout24-Punkten)",
+  "ergebnis": "Alt-Gersthof bei Erndtgasse 28, ±100 m (Mittel aus 10 ImmoScout24-Punkten); Grundriss geprüft: keine Adresse, Lageplan bestätigt langes Grundstück mit zwei Häusern",
   "datum": "2026-10-25"
  },
  "fm-5736189": {
@@ -25,26 +25,6 @@
   "ergebnis": "Lustkandlgasse 46 (genau)",
   "datum": "2026-10-25"
  },
- "wh-1309980503": {
-  "ids": [
-   "wh-1309980503",
-   "is-693992408430",
-   "is-678589082404",
-   "ds-15013268"
-  ],
-  "titel": "NEUER PREIS: Lichtdurchflutete 4 Zimmer mit Dachgeschossflair",
-  "ergebnis": "Kreuzgasse 35, ±100 m (aus Gehzeiten eingemessen)",
-  "datum": "2026-10-25"
- },
- "wh-2039112596": {
-  "ids": [
-   "wh-2039112596",
-   "is-983018811699"
-  ],
-  "titel": "VIEL PLATZ FÜR DAS LEBEN - 4 ZIMMER MIT FREIRAUM",
-  "ergebnis": "Lacknergasse 102, ±150 m (aus Software-Entfernungen eingemessen)",
-  "datum": "2026-10-25"
- },
  "wh-1296729808": {
   "ids": [
    "wh-1296729808",
@@ -52,7 +32,7 @@
    "ds-15129825"
   ],
   "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit Terrasse",
-  "ergebnis": "Alservorstadt nahe Spitalgasse, ±400 m (mehr Info gibt es nicht)",
+  "ergebnis": "Alservorstadt nahe Spitalgasse, ±400 m (mehr Info gibt es nicht); Fotos geprüft: kein Grundriss mit Adresse",
   "datum": "2026-10-25"
  },
  "wh-1849409386": {
@@ -236,5 +216,18 @@
   "titel": "NEU! 5-Zi-Wohnung mit Balkon in 1190 Wien - 131m² Wohnkomfort!",
   "ergebnis": "bestätigt: Flotowgasse 17 (willhaben- und ImmoScout24-Punkt identisch)",
   "datum": "2026-10-25"
+ },
+ "wh-1309980503": {
+  "ids": [
+   "wh-2039112596",
+   "is-983018811699",
+   "wh-1309980503",
+   "is-693992408430",
+   "is-678589082404",
+   "ds-15013268"
+  ],
+  "titel": "VIEL PLATZ FÜR DAS LEBEN - 4 ZIMMER MIT FREIRAUM",
+  "datum": "2026-10-25",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 15 (Grundriss-Schriftfeld); \"Viel Platz für das Leben\" (Tom Krauss) ist dieselbe Wohnung – zusammengelegt"
  }
 }

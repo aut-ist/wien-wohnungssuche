@@ -521,21 +521,22 @@
  },
  "wh-2039112596": {
   "lage": {
-   "adresse": "Lacknergasse 102 (± 150 m)",
-   "lat": 48.22774,
-   "lon": 16.33379,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Aus Entfernungen der Maklersoftware (Volksschule 60 m, Kindergarten 150 m, U-Bahn 970 m, Zentrum 3,56 km) und ImmoScout24-Punkt eingemessen"
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss TOP 15 (95,10 m²) deckt sich Raum für Raum mit dem Plan \"Staudgasse 40, Top 15\"; gleiche Wohnung wie bei Wohn3 Team"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-25",
+  "gleich_wie": "wh-1309980503"
  },
  "wh-1309980503": {
   "lage": {
-   "adresse": "Kreuzgasse 35 (± 100 m)",
-   "lat": 48.2231,
-   "lon": 16.3383,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Aus 7 Gehzeiten im Inserat eingemessen (Tram Eduardgasse 2 min, Martinstraße 7, RG Schopenhauerstraße 3, …) – zweiter ImmoScout24-Punkt liegt 6 m daneben"
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss: \"Wohnanlage Staudgasse, Staudgasse 40, Wien 1180\" – Top 15, 1. Dachgeschoß (Projekt MAISON WÄHRING)"
   },
   "datum": "2026-10-25"
  },

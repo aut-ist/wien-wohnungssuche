@@ -479,6 +479,14 @@ def build():
     verdaechtig = {p for p, t in titel_pro_punkt.items() if len(t) >= 3}
     aktiv = [{**r, "punkt_verdaechtig": True} if (r.get("lat"), r.get("lon")) in verdaechtig else r for r in aktiv]
     gruppen = gruppieren([r for r in aktiv if not (r.get("projekt") or "/neubauprojekt/" in r.get("url", ""))])
+    # von Hand erkannte Doppelte (z. B. gleicher Grundriss, verschiedene Makler): reviews "gleich_wie"
+    for a, rv in reviews.items():
+        b = rv.get("gleich_wie")
+        ga = next((g for g in gruppen if any(r["id"] == a for r in g)), None)
+        gb = next((g for g in gruppen if any(r["id"] == b for r in g)), None)
+        if ga is not None and gb is not None and ga is not gb:
+            ga.extend(gb)
+            gruppen.remove(gb)
     gruppen += [[r] for r in aktiv if r.get("projekt") or "/neubauprojekt/" in r.get("url", "")]
     doppelt = sum(len(g) - 1 for g in gruppen)
     for gruppe in gruppen:
@@ -557,7 +565,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY
