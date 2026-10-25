@@ -46,6 +46,20 @@ Platz oder eindeutige Landmarke ("direkt am Karmeliterplatz", "Blick auf den Aug
   "Zentralheizung" ohne Energieträger ist `unklar`.
 Ein Gasherd allein ist keine Gasheizung.
 
+## Frage `zustand`
+Die Käufer wollen selbst einziehen und nichts sanieren. Antworte mit
+`{"ergebnis": "raus" | "ok" | "hinweis", "begruendung": "..."}`:
+- `raus` wenn die Wohnung **unbefristet vermietet** ist. Das gilt auch, wenn "vermietet"
+  ohne jedes Enddatum dasteht, typisch bei Anleger- oder Vorsorgewohnungen mit
+  Mietertrag. Ebenso `raus`, wenn sie **saniert oder renoviert werden muss**:
+  sanierungs- oder renovierungsbedürftig, Originalzustand, für Handwerker,
+  Rohdachboden, "nach Ihren Vorstellungen sanieren".
+- `hinweis` wenn sie **befristet** vermietet ist (z. B. "befristet bis 2027") oder nur kleine
+  Arbeiten nötig sind. Die Wohnung bleibt drin, `begruendung` erscheint als Hinweis.
+- `ok` heißt bestandsfrei, saniert oder Erstbezug. Ebenso, wenn "Mieter" nur allgemein
+  erwähnt wird ("ideal für Eigennutzer oder Anleger") oder Arbeiten nur das Haus
+  betreffen (Fassade wird saniert).
+
 ## Frage `eckdaten`
 Zimmeranzahl und/oder Wohnfläche fehlen in den Inseratsfeldern. Such sie im Text,
 etwa "4-Zimmer-Wohnung", "ca. 95 m² Wohnfläche" oder eine Raumaufstellung, und trag ein,

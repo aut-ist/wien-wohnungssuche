@@ -18,7 +18,7 @@ import sys
 import threading
 import traceback
 
-from wohnungen import geo, heizung
+from wohnungen import geo, heizung, zustand
 from wohnungen.quellen import QUELLEN
 from wohnungen.config import CONFIG, DATA, DOCS, ROOT, load_json, save_json
 from wohnungen.geocode import geocode
@@ -201,7 +201,24 @@ def bewerten(r, rev):
     if out["ungefaehr"] and out["lat"] and not (lrev and lrev.get("sicherheit") == "ungefaehr"):
         out["lat"], out["lon"] = _jitter(r["id"], out["lat"], out["lon"])
 
-    # 2) Heizung
+    # 2) Zustand und Nutzung: unbefristet vermietet / sanierungsbedürftig -> raus
+    zrev = rev.get("zustand")
+    if zrev:
+        if zrev.get("ergebnis") == "raus":
+            return {**out, "status": "raus", "art": "zustand", "gruende": [zrev.get("begruendung") or "Zustand/Vermietung"]}
+        if zrev.get("ergebnis") == "hinweis" and zrev.get("begruendung"):
+            out["hinweis"] = zrev["begruendung"]
+    elif r.get("detail_am"):
+        z = zustand.einschaetzen(r)
+        if z["raus"]:
+            return {**out, "status": "raus", "art": "zustand", "gruende": [g[:200] for g in z["gruende"]]}
+        if not z["eindeutig"]:
+            out["fragen"].append("zustand")
+            grau.append("Zustand/Vermietung wird noch geprüft")
+        if z["hinweise"]:
+            out["hinweis"] = ", ".join(z["hinweise"])
+
+    # 3) Heizung
     hrev = rev.get("heizung")
     if hrev:
         h = {"ergebnis": hrev["ergebnis"], "text": hrev.get("begruendung", ""), "von": "Claude"}
@@ -220,7 +237,7 @@ def bewerten(r, rev):
         return {**out, "status": "raus", "art": "heizung", "gruende": ["Gasheizung: " + h["text"][:160]]}
     if h["ergebnis"] == "unklar":
         grau.append("Heizung unklar")
-    out["gruende"] = grau
+    out["gruende"] = grau + ([out["hinweis"]] if out.get("hinweis") else [])
     out["status"] = "grau" if grau else "gruen"
     return out
 
@@ -376,6 +393,9 @@ def zusammenfuehren(gruppe, reviews):
         e = [x["eckdaten"] for x in revs if "eckdaten" in x]
         if e:
             rev["eckdaten"] = next((x for x in e if x), e[0])
+        z = [x["zustand"] for x in revs if x.get("zustand")]
+        if z:
+            rev["zustand"] = next((x for x in z if x.get("ergebnis") == "raus"), z[0])
     return m, rev
 
 
@@ -462,7 +482,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten"):
+        for k in ("lage", "heizung", "eckdaten", "zustand"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY
