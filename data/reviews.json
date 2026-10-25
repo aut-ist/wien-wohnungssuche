@@ -525,9 +525,11 @@
  },
  "wh-1354035914": {
   "lage": {
-   "adresse": "Thimiggasse",
+   "adresse": "Erndtgasse 28 (Alt-Gersthof)",
+   "lat": 48.23502,
+   "lon": 16.32118,
    "sicherheit": "ungefaehr",
-   "begruendung": "Einkauf \"Alsegger Straße\" und \"Thimiggasse (Billa)\", 10 Gehminuten zur S Gersthof"
+   "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
   },
   "datum": "2026-10-25"
  },
@@ -562,6 +564,16 @@
    "adresse": "Nußdorf",
    "sicherheit": "ungefaehr",
    "begruendung": "\"im charmanten Nußdorf\", Einbahnstraße – keine Straße genannt"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-829691413": {
+  "lage": {
+   "adresse": "Erndtgasse 28 (Alt-Gersthof)",
+   "lat": 48.23502,
+   "lon": 16.32118,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
   },
   "datum": "2026-10-25"
  }
