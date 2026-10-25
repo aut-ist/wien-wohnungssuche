@@ -350,7 +350,7 @@ const mein = Object.assign({ gemerkt: {}, papierkorb: {}, gesehen: {}, filter: n
 const sichern = () => speicher.schreiben(mein);
 
 const gemeinsam = {
-  basis: null, verbunden: false, hochgeladen: false,
+  basis: null, verbunden: false,
   async start(onAenderung) {
     try {
       const e = await fetch('einstellungen.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : {});
@@ -367,10 +367,8 @@ const gemeinsam = {
       const teile = msg.path.split('/').filter(Boolean);
       if (!teile.length) {
         const d = msg.data || {};
-        if (!patch) {
-          if (!this.hochgeladen) this.altbestand(d);
-          for (const l of LISTEN) mein[l] = Object.assign({}, d[l] || {});
-        } else for (const [l, v] of Object.entries(d)) if (LISTEN.includes(l)) mein[l] = Object.assign({}, v || {});
+        if (!patch) for (const l of LISTEN) mein[l] = Object.assign({}, d[l] || {});
+        else for (const [l, v] of Object.entries(d)) if (LISTEN.includes(l)) mein[l] = Object.assign({}, v || {});
       } else if (teile.length === 1 && LISTEN.includes(teile[0])) {
         mein[teile[0]] = patch ? Object.assign(mein[teile[0]], msg.data) : Object.assign({}, msg.data || {});
       } else if (teile.length === 2 && LISTEN.includes(teile[0])) {
@@ -381,13 +379,8 @@ const gemeinsam = {
     es.addEventListener('put', e => anwenden(JSON.parse(e.data), false));
     es.addEventListener('patch', e => anwenden(JSON.parse(e.data), true));
   },
-  // Markierungen, die vor der Umstellung nur auf diesem Gerät lagen, einmalig hochladen
-  altbestand(server) {
-    this.hochgeladen = true;
-    if (NUR_NEST) return;
-    for (const l of LISTEN) for (const [id, t] of Object.entries(mein[l] || {}))
-      if (!(server[l] || {})[id]) { this.schreiben(l, id, t); (server[l] = server[l] || {})[id] = t; }
-  },
+  // Der Server ist maßgeblich: lokal Zwischengespeichertes wird nie hochgeladen, sonst holt ein
+  // Gerät mit altem Stand Wohnungen zurück in den Papierkorb, die anderswo herausgenommen wurden.
   schreiben(liste, id, wert) {
     if (!this.basis || NUR_NEST) return;
     fetch(`${this.basis}/${liste}/${encodeURIComponent(id)}.json`,
