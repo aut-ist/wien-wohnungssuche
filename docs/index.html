@@ -25,7 +25,7 @@
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
     font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
   button, input, select { font: inherit; color: inherit; }
-  #app { display: grid; grid-template-columns: 440px 1fr; grid-template-rows: auto 1fr; height: 100dvh; }
+  #app { display: grid; grid-template-columns: 500px 1fr; grid-template-rows: auto 1fr; height: 100dvh; }
 
   /* Kopfzeile */
   header { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; padding: 10px 16px;
@@ -76,9 +76,9 @@
   .karte { flex: none; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: #fff; transition: box-shadow .15s, border-color .15s; }
   .karte:hover, .karte.aktiv { box-shadow: var(--shadow); border-color: #d5d2ca; }
   .karte.gemerkt { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
-  .fotos { position: relative; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 190px; background: var(--soft); scrollbar-width: none; }
+  .fotos { position: relative; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 280px; background: var(--soft); scrollbar-width: none; }
   .fotos::-webkit-scrollbar { display: none; }
-  .fotos img { flex: 0 0 100%; width: 100%; height: 190px; object-fit: cover; scroll-snap-align: start; cursor: pointer; }
+  .fotos img { flex: 0 0 100%; width: 100%; height: 280px; object-fit: cover; scroll-snap-align: start; cursor: zoom-in; }
   .foto-wrap { position: relative; }
   .foto-zahl { position: absolute; left: 8px; bottom: 8px; background: rgba(0,0,0,.55); color: #fff; font-size: 11.5px; padding: 2px 7px; border-radius: 999px; pointer-events: none; }
   .foto-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border-radius: 50%; border: 0;
@@ -113,7 +113,35 @@
   .detail-kopf { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
   .detail-kopf .spacer { flex: 1; }
   .galerie { position: relative; background: #111; }
-  .galerie .gross { width: 100%; height: 300px; object-fit: contain; display: block; background: #111; }
+  .galerie .gross { width: 100%; height: 400px; object-fit: contain; display: block; background: #111; cursor: zoom-in; }
+  .galerie .voll-hinweis { position: absolute; right: 10px; bottom: 10px; background: rgba(0,0,0,.55); color: #fff;
+    font-size: 11.5px; padding: 3px 8px; border-radius: 999px; pointer-events: none; }
+
+  /* Vollbild-Fotos */
+  #vollbild { position: fixed; inset: 0; z-index: 5000; background: rgba(10,10,12,.96); display: none;
+    flex-direction: column; align-items: center; justify-content: center; touch-action: pan-y; }
+  #vollbild.offen { display: flex; }
+  #vollbild img { max-width: 100vw; max-height: calc(100dvh - 120px); object-fit: contain; user-select: none; }
+  #vollbild .vb-kopf { position: absolute; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 12px;
+    padding: 12px 16px; color: #fff; font-size: 13px; }
+  #vollbild .vb-kopf .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; opacity: .85; }
+  #vollbild button { border: 0; cursor: pointer; color: #fff; background: rgba(255,255,255,.14); border-radius: 50%;
+    width: 44px; height: 44px; font-size: 22px; display: grid; place-items: center; }
+  #vollbild button:hover { background: rgba(255,255,255,.28); }
+  #vollbild .vb-l, #vollbild .vb-r { position: absolute; top: 50%; transform: translateY(-50%); width: 52px; height: 52px; font-size: 28px; }
+  #vollbild .vb-l { left: 14px; } #vollbild .vb-r { right: 14px; }
+  #vollbild .vb-thumbs { position: absolute; bottom: 0; left: 0; right: 0; display: flex; gap: 6px; overflow-x: auto;
+    padding: 10px 16px; justify-content: safe center; scrollbar-width: thin; }
+  #vollbild .vb-thumbs img { width: 70px; height: 52px; object-fit: cover; border-radius: 5px; opacity: .5; cursor: pointer; flex: none; max-height: none; }
+  #vollbild .vb-thumbs img.an { opacity: 1; outline: 2px solid #fff; }
+
+  /* aktuell geöffnete Wohnung auf der Karte */
+  .ei-icon.aktiv { z-index: 9000 !important; }
+  .ei-icon.aktiv svg { animation: ei-hops 1.6s ease-in-out infinite; }
+  .ei-icon.aktiv::before { content: ''; position: absolute; left: 50%; top: 55%; width: 54px; height: 54px; margin: -27px 0 0 -27px;
+    border-radius: 50%; border: 3px solid #e3a400; background: rgba(227,164,0,.18); animation: ei-puls 1.6s ease-out infinite; }
+  @keyframes ei-puls { 0% { transform: scale(.55); opacity: 1; } 100% { transform: scale(1.35); opacity: 0; } }
+  @keyframes ei-hops { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
   .galerie .foto-nav { display: block; }
   .thumbs { display: flex; gap: 4px; overflow-x: auto; padding: 6px; background: #111; scrollbar-width: thin; }
   .thumbs img { width: 64px; height: 48px; object-fit: cover; border-radius: 4px; opacity: .55; cursor: pointer; flex: none; }
@@ -151,6 +179,8 @@
   .ei-icon:hover svg { transform: translateY(-2px) scale(1.08); transition: transform .15s; }
   .leg-ei { display: inline-block; vertical-align: -3px; margin: 0 2px 0 6px; }
   .leg-ei svg { overflow: visible; }
+  .nur-handy { display: none; }
+  @media (max-width: 800px) { .nur-handy { display: inline-flex; } }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
   @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
@@ -166,7 +196,9 @@
     #seite { grid-row: -2; border-right: 0; border-top: 1px solid var(--line); }
     #detail { position: fixed; z-index: 2000; transform: translateY(102%); }
     #detail.offen { transform: translateY(0); }
-    .galerie .gross { height: 260px; }
+    .galerie .gross { height: 320px; }
+    .fotos, .fotos img { height: 240px; }
+    #vollbild .vb-l, #vollbild .vb-r { display: none; }
     .kopf-rechts { margin-left: 0; }
     #stand, .trenner { display: none; }
     header > div:first-child, .marke, .marke > div { min-width: 0; }
@@ -242,6 +274,13 @@
     <div id="detail" aria-live="polite"></div>
   </aside>
   <div id="map"></div>
+  <div id="vollbild" role="dialog" aria-label="Fotos im Vollbild">
+    <div class="vb-kopf"><span class="vb-zahl"></span><span class="t"></span><button class="vb-zu" aria-label="Schließen">✕</button></div>
+    <button class="vb-l" aria-label="Foto zurück">‹</button>
+    <img alt="">
+    <button class="vb-r" aria-label="Foto weiter">›</button>
+    <div class="vb-thumbs"></div>
+  </div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -478,7 +517,7 @@ function karteHtml(w, papierkorb) {
   const bilder = (w.bilder || []).slice(0, 12);
   return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
-      <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="oeffnen"')).join('') : '<div style="flex:1"></div>'}</div>
+      <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="vollbild"')).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
       <span class="foto-zahl">${(w.bilder || []).length} Fotos</span>` : ''}
       <div class="aktionen">${aktionenHtml(w, papierkorb)}</div>
@@ -505,16 +544,26 @@ function eiSvg(w, groesse) {
     ${g ? '' : '<ellipse cx="6.6" cy="9" rx="2" ry="3.4" fill="#fff" opacity=".45" transform="rotate(-18 6.6 9)"/>'}</svg>`;
 }
 function eiIcon(w) {
+  const aktiv = state.aktiv === w.id, k = aktiv ? 1.6 : 1;  // gerade geöffnete Wohnung: großes Ei mit Puls
+  const cls = 'ei-icon' + (aktiv ? ' aktiv' : '');
   if (istGemerkt(w)) {  // Ei im Nest
-    return L.divIcon({ className: 'ei-icon', iconSize: [42, 40], iconAnchor: [21, 30], html: `
-      <svg viewBox="0 0 36 34" width="42" height="40">
+    return L.divIcon({ className: cls, iconSize: [42 * k, 40 * k], iconAnchor: [21 * k, 30 * k], html: `
+      <svg viewBox="0 0 36 34" width="${42 * k}" height="${40 * k}">
         <g transform="translate(8 0)">${eiSvg(w, 26).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>
         <path d="M2 20 Q18 36 34 20 Q33 28 26 31 Q18 34 10 31 Q3 28 2 20Z" fill="#9a6b3f" stroke="#fff" stroke-width="1.2"/>
         <path d="M5 23 Q15 29 25 26 M9 28 Q20 31 31 23" stroke="#6e4826" stroke-width="1.2" fill="none"/>
       </svg>` });
   }
-  const s = w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28;
-  return L.divIcon({ className: 'ei-icon', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: eiSvg(w, s) });
+  const s = (w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28) * (aktiv ? 1.7 : 1);
+  return L.divIcon({ className: cls, iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
+    html: eiSvg(aktiv ? { ...w, _gesehen: false, neu: false } : w, s) });
+}
+// Ei einer Wohnung neu zeichnen (z. B. wenn sie geöffnet/geschlossen wird)
+function eiAktualisieren(id) {
+  const m = state.marker[id], w = id && state.daten.find(x => x.id === id);
+  if (!m || !w) return;
+  m.setIcon(eiIcon(w));
+  m.setZIndexOffset(state.aktiv === id ? 10000 : istGemerkt(w) ? 1000 : ({ raus: 0, grau: 1, gruen: 2 })[w.status] * 100);
 }
 
 function zeichneMarker(liste) {
@@ -523,7 +572,8 @@ function zeichneMarker(liste) {
   const rang = { raus: 0, grau: 1, gruen: 2 };
   [...liste].sort((a, b) => rang[a.status] - rang[b.status] + (istGemerkt(a) - istGemerkt(b)) * 10).forEach(w => {
     if (!w.lat) return;
-    const m = L.marker([w.lat, w.lon], { icon: eiIcon(w), zIndexOffset: istGemerkt(w) ? 1000 : rang[w.status] * 100 });
+    const m = L.marker([w.lat, w.lon], { icon: eiIcon(w),
+      zIndexOffset: state.aktiv === w.id ? 10000 : istGemerkt(w) ? 1000 : rang[w.status] * 100 });
     m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
     m.on('click', () => oeffne(w.id, true));
@@ -562,13 +612,15 @@ async function zeigeDetail(id, neuLaden = true) {
   el.innerHTML = `
     <div class="detail-kopf">
       <button class="btn" data-akt="schliessen">← Zurück</button>
+      <button class="btn nur-handy" data-akt="aufkarte">📍 Karte</button>
       <span class="spacer"></span>
       ${papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
         : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
            <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
     </div>
     ${bilder.length ? `<div class="galerie">
-      ${img(bilder[state.bildIdx], 'class="gross"')}
+      ${img(bilder[state.bildIdx], 'class="gross" data-akt="vollbild-detail"')}
+      <span class="voll-hinweis">⤢ Vollbild</span>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="gal-l" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="gal-r" aria-label="Foto weiter">›</button>
       <span class="foto-zahl">${state.bildIdx + 1} / ${bilder.length}</span>` : ''}
     </div>
@@ -617,21 +669,72 @@ function textHtml(t) {
   return esc(t || '').replace(/^## (.+)$/gm, '<h4>$1</h4>').replace(/\n(<h4>)/g, '$1').replace(/(<\/h4>)\n/g, '$1');
 }
 function oeffne(id, vonKarte) {
+  const vorher = state.aktiv;
   state.aktiv = id; state.bildIdx = 0;
   const w = state.daten.find(x => x.id === id);
   if (w && !istGesehen(w)) {
     markiere('gesehen', id, new Date().toISOString());
     const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
     if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
-    if (w && state.marker[id]) state.marker[id].setIcon(eiIcon(w));
   }
+  if (vorher && vorher !== id) eiAktualisieren(vorher);
+  eiAktualisieren(id);
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
-  document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
+  const karte = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
+  karte?.classList.add('aktiv');
+  if (vonKarte) karte?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   zeigeDetail(id);
   const m = state.marker[id];
-  if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 15), { duration: .5 });
+  if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: .6 });
 }
-function schliesse() { state.aktiv = null; document.getElementById('detail').classList.remove('offen'); }
+function schliesse() {
+  const vorher = state.aktiv;
+  state.aktiv = null;
+  document.getElementById('detail').classList.remove('offen');
+  if (vorher) eiAktualisieren(vorher);
+}
+
+/* ---------- Fotos im Vollbild ---------- */
+const vb = { el: document.getElementById('vollbild'), w: null, i: 0, vonDetail: false };
+function vollbildAuf(w, i, vonDetail) {
+  const bilder = w.bilder?.length ? w.bilder : (w.bild ? [w.bild] : []);
+  if (!bilder.length) return;
+  Object.assign(vb, { w, i, vonDetail, bilder });
+  vb.el.querySelector('.t').textContent = `${eur(w.preis)} · ${w.flaeche ?? '?'} m² · ${w.titel || ''}`;
+  vb.el.querySelector('.vb-thumbs').innerHTML = bilder.map((b, k) => img(b, `data-i="${k}"`)).join('');
+  vb.el.classList.add('offen');
+  vollbildZeigen();
+}
+function vollbildZeigen() {
+  const n = vb.bilder.length;
+  vb.i = (vb.i + n) % n;
+  const bild = vb.el.querySelector(':scope > img');
+  bild.referrerPolicy = 'no-referrer';
+  bild.src = vb.bilder[vb.i];
+  vb.el.querySelector('.vb-zahl').textContent = `${vb.i + 1} / ${n}`;
+  vb.el.querySelectorAll('.vb-thumbs img').forEach((t, k) => t.classList.toggle('an', k === vb.i));
+  vb.el.querySelector('.vb-thumbs img.an')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  // nächstes Bild schon vorladen
+  const vor = new Image(); vor.referrerPolicy = 'no-referrer'; vor.src = vb.bilder[(vb.i + 1) % n];
+}
+function vollbildZu() {
+  vb.el.classList.remove('offen');
+  if (vb.vonDetail && state.aktiv) { state.bildIdx = vb.i; zeigeDetail(state.aktiv, false); }
+}
+vb.el.querySelector('.vb-zu').addEventListener('click', vollbildZu);
+vb.el.querySelector('.vb-l').addEventListener('click', () => { vb.i--; vollbildZeigen(); });
+vb.el.querySelector('.vb-r').addEventListener('click', () => { vb.i++; vollbildZeigen(); });
+vb.el.querySelector('.vb-thumbs').addEventListener('click', e => {
+  if (e.target.dataset.i) { vb.i = +e.target.dataset.i; vollbildZeigen(); }
+});
+vb.el.addEventListener('click', e => { if (e.target === vb.el) vollbildZu(); });  // Klick daneben schließt
+let vbStart = null;
+vb.el.addEventListener('touchstart', e => { vbStart = e.touches[0].clientX; }, { passive: true });
+vb.el.addEventListener('touchend', e => {
+  if (vbStart == null) return;
+  const dx = e.changedTouches[0].clientX - vbStart; vbStart = null;
+  if (Math.abs(dx) > 40) { vb.i += dx < 0 ? 1 : -1; vollbildZeigen(); }
+}, { passive: true });
 
 /* ---------- Aktionen ---------- */
 const punkt = id => state.daten.find(x => x.id === id) || { id };
@@ -658,7 +761,18 @@ document.getElementById('app').addEventListener('click', e => {
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);
   if (akt === 'oeffnen') return oeffne(id);
+  if (akt === 'vollbild') {  // Foto in der Liste: Vollbild ab dem gerade sichtbaren Foto
+    const streifen = t.closest('.fotos');
+    return vollbildAuf(punkt(id), Math.round(streifen.scrollLeft / streifen.clientWidth), false);
+  }
+  if (akt === 'vollbild-detail') return vollbildAuf(punkt(state.aktiv), state.bildIdx, true);
   if (akt === 'schliessen') return schliesse();
+  if (akt === 'aufkarte') {  // Handy: Details zuklappen, Wohnung bleibt auf der Karte hervorgehoben
+    document.getElementById('detail').classList.remove('offen');
+    const m = state.marker[state.aktiv];
+    if (m) setTimeout(() => map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: .6 }), 250);
+    return;
+  }
   if (akt === 'links' || akt === 'rechts') {
     const f = t.closest('.foto-wrap').querySelector('.fotos');
     f.scrollBy({ left: (akt === 'rechts' ? 1 : -1) * f.clientWidth, behavior: 'smooth' });
@@ -701,6 +815,12 @@ groesse.onAdd = () => {
 groesse.addTo(map);
 
 document.addEventListener('keydown', e => {
+  if (vb.el.classList.contains('offen')) {  // Vollbild hat Vorrang
+    if (e.key === 'Escape') vollbildZu();
+    if (e.key === 'ArrowRight') { vb.i++; vollbildZeigen(); }
+    if (e.key === 'ArrowLeft') { vb.i--; vollbildZeigen(); }
+    return;
+  }
   if (!state.aktiv || e.target.matches('input, select')) return;
   if (e.key === 'Escape') schliesse();
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
