@@ -26,6 +26,9 @@
     background: var(--panel); border-bottom: 1px solid var(--line); z-index: 3; flex-wrap: wrap; }
   h1 { font-size: 17px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
   .stand { color: var(--muted); font-size: 12.5px; }
+  #sync { margin-left: 6px; }
+  #sync::before { content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; background: #c9a227; vertical-align: 1px; }
+  #sync[data-ok="1"]::before { background: var(--gruen); }
   .kopf-rechts { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
   .btn { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 12px;
     cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; white-space: nowrap; }
@@ -133,7 +136,7 @@
     #detail.offen { transform: translateY(0); }
     .galerie .gross { height: 260px; }
     .kopf-rechts { margin-left: 0; }
-    .stand { display: none; }
+    #stand { display: none; }
     .legende:not(.offen) > div { display: none; }
     .legende:not(.offen)::before { content: 'Legende'; font-weight: 600; cursor: pointer; }
   }
@@ -144,7 +147,7 @@
   <header>
     <div>
       <h1>Wohnungssuche Wien</h1>
-      <div class="stand" id="stand">lädt …</div>
+      <div class="stand"><span id="stand">lädt …</span> <span id="sync" hidden></span></div>
     </div>
     <div class="kopf-rechts">
       <button class="btn" id="btnFilter" aria-pressed="false">Filter <span class="zahl" id="nTreffer">0</span></button>
@@ -194,7 +197,11 @@ const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-A
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const img = (src, extra = '') => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
 
-/* ---------- Speicher: Merken & Papierkorb (pro Gerät) ---------- */
+/* ---------- Speicher ----------
+   Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher (Firebase Realtime
+   Database, live). localStorage dient nur als Zwischenspeicher fürs schnelle Laden und als
+   Notlösung, solange keine Datenbank eingetragen ist. Filter bleiben pro Gerät. */
+const LISTEN = ['gemerkt', 'papierkorb', 'gesehen'];
 const speicher = {
   key: 'wohnungssuche.v1',
   lesen() { try { return JSON.parse(localStorage.getItem(this.key)) || {}; } catch { return {}; } },
@@ -202,6 +209,65 @@ const speicher = {
 };
 const mein = Object.assign({ gemerkt: {}, papierkorb: {}, gesehen: {}, filter: null }, speicher.lesen());
 const sichern = () => speicher.schreiben(mein);
+
+const gemeinsam = {
+  basis: null, verbunden: false, hochgeladen: false,
+  async start(onAenderung) {
+    try {
+      const e = await fetch('einstellungen.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : {});
+      if (e.firebase) this.basis = e.firebase.replace(/\/+$/, '') + '/markierungen';
+    } catch {}
+    this.status();
+    if (!this.basis) return;
+    let timer;
+    const neuZeichnen = () => { clearTimeout(timer); timer = setTimeout(onAenderung, 120); };
+    const es = new EventSource(this.basis + '.json');
+    es.onopen = () => { this.verbunden = true; this.status(); };
+    es.onerror = () => { this.verbunden = false; this.status(); };
+    const anwenden = (msg, patch) => {
+      const teile = msg.path.split('/').filter(Boolean);
+      if (!teile.length) {
+        const d = msg.data || {};
+        if (!patch) {
+          if (!this.hochgeladen) this.altbestand(d);
+          for (const l of LISTEN) mein[l] = Object.assign({}, d[l] || {});
+        } else for (const [l, v] of Object.entries(d)) if (LISTEN.includes(l)) mein[l] = Object.assign({}, v || {});
+      } else if (teile.length === 1 && LISTEN.includes(teile[0])) {
+        mein[teile[0]] = patch ? Object.assign(mein[teile[0]], msg.data) : Object.assign({}, msg.data || {});
+      } else if (teile.length === 2 && LISTEN.includes(teile[0])) {
+        if (msg.data == null) delete mein[teile[0]][teile[1]]; else mein[teile[0]][teile[1]] = msg.data;
+      }
+      sichern(); neuZeichnen();
+    };
+    es.addEventListener('put', e => anwenden(JSON.parse(e.data), false));
+    es.addEventListener('patch', e => anwenden(JSON.parse(e.data), true));
+  },
+  // Markierungen, die vor der Umstellung nur auf diesem Gerät lagen, einmalig hochladen
+  altbestand(server) {
+    this.hochgeladen = true;
+    for (const l of LISTEN) for (const [id, t] of Object.entries(mein[l] || {}))
+      if (!(server[l] || {})[id]) { this.schreiben(l, id, t); (server[l] = server[l] || {})[id] = t; }
+  },
+  schreiben(liste, id, wert) {
+    if (!this.basis) return;
+    fetch(`${this.basis}/${liste}/${encodeURIComponent(id)}.json`,
+      { method: wert == null ? 'DELETE' : 'PUT', body: wert == null ? undefined : JSON.stringify(wert) })
+      .catch(() => { this.verbunden = false; this.status(); });
+  },
+  status() {
+    const el = document.getElementById('sync');
+    if (!el) return;
+    el.hidden = false;
+    el.textContent = !this.basis ? 'nur auf diesem Gerät' : this.verbunden ? 'gemeinsam · live' : 'verbinde …';
+    el.dataset.ok = this.basis && this.verbunden ? '1' : '0';
+  },
+};
+// eine Markierung setzen (wert) oder entfernen (null) – lokal sofort, gemeinsam im Hintergrund
+function markiere(liste, id, wert) {
+  if (wert == null) delete mein[liste][id]; else mein[liste][id] = wert;
+  sichern();
+  gemeinsam.schreiben(liste, id, wert);
+}
 
 const STD_FILTER = { preis: null, flaeche: null, zimmer: null, bezirke: Object.keys(BEZIRKE).map(Number),
   status: ['gruen', 'grau'], neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
@@ -462,7 +528,7 @@ function textHtml(t) {
 function oeffne(id, vonKarte) {
   state.aktiv = id; state.bildIdx = 0;
   if (!mein.gesehen[id]) {
-    mein.gesehen[id] = new Date().toISOString(); sichern();
+    markiere('gesehen', id, new Date().toISOString());
     const w = state.daten.find(x => x.id === id);
     const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
     if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
@@ -478,14 +544,16 @@ function schliesse() { state.aktiv = null; document.getElementById('detail').cla
 
 /* ---------- Aktionen ---------- */
 function merken(id) {
-  if (mein.gemerkt[id]) delete mein.gemerkt[id]; else mein.gemerkt[id] = new Date().toISOString();
-  sichern(); zeichne();
+  markiere('gemerkt', id, mein.gemerkt[id] ? null : new Date().toISOString());
+  zeichne();
 }
 function wegwerfen(id) {
-  mein.papierkorb[id] = new Date().toISOString(); delete mein.gemerkt[id];
-  sichern(); if (state.aktiv === id) schliesse(); zeichne();
+  markiere('papierkorb', id, new Date().toISOString());
+  if (mein.gemerkt[id]) markiere('gemerkt', id, null);
+  if (state.aktiv === id) schliesse();
+  zeichne();
 }
-function wiederherstellen(id) { delete mein.papierkorb[id]; sichern(); zeichne(); }
+function wiederherstellen(id) { markiere('papierkorb', id, null); zeichne(); }
 
 document.getElementById('app').addEventListener('click', e => {
   const t = e.target.closest('[data-akt]'); if (!t) return;
@@ -571,6 +639,7 @@ document.getElementById('btnFilter').addEventListener('click', e => {
   state.daten = d.wohnungen;
   document.getElementById('stand').textContent = `Stand ${d.stand} · willhaben`;
   zeichne();
+  gemeinsam.start(zeichne);
 })();
 </script>
 </body>

@@ -25,6 +25,10 @@ jobs:
         run: python run.py all
         env:
           TZ: Europe/Vienna
+      - name: Gemeinsame Markierungen sichern
+        run: |
+          URL=$(python -c "import json;print(json.load(open('docs/einstellungen.json')).get('firebase',''))" 2>/dev/null || true)
+          if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
       - name: Speichern
         run: |
           git config user.name "wohnungssuche-bot"

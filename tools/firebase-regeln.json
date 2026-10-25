@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "markierungen": {
+      ".read": true,
+      "$liste": {
+        ".validate": "$liste === 'gemerkt' || $liste === 'papierkorb' || $liste === 'gesehen'",
+        "$id": {
+          ".write": true,
+          ".validate": "$id.matches(/^[a-z]{2}-[0-9]{4,15}$/) && newData.isString() && newData.val().length < 40"
+        }
+      }
+    }
+  }
+}
