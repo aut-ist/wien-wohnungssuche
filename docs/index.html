@@ -281,9 +281,9 @@
   </section>
   <aside id="seite">
     <div class="tabs" role="tablist">
-      <button class="tab" role="tab" data-tab="alle" aria-selected="true">Alle Nestle <span id="nAlle"></span></button>
+      <button class="tab" role="tab" data-tab="alle" aria-selected="true">Neue Nestle <span id="nAlle"></span></button>
       <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">🥚 Im Nest <span id="nGemerkt"></span></button>
-      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Aus'm Nest gheit <span id="nPapierkorb"></span></button>
+      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Aus'm Nest ghaut <span id="nPapierkorb"></span></button>
     </div>
     <div id="liste"></div>
     <div id="detail" aria-live="polite"></div>
@@ -504,7 +504,7 @@ function sichtbar() {
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
   return {
     karte: basis,
-    alle: basis,
+    alle: basis.filter(w => !istGemerkt(w)),  // "Neue Nestle": was schon im Nest ist, steht dort
     gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w)),
     papierkorb: state.daten.filter(imPapierkorb),
   };
@@ -640,10 +640,10 @@ function zeichne() {
   document.getElementById('nAlle').textContent = s.alle.length;
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
   document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
-  document.getElementById('nTreffer').textContent = s.alle.length;
-  const leer = { alle: 'Gigibird findet für diese Filter grad kein Nestle.',
+  document.getElementById('nTreffer').textContent = s.karte.length;  // Treffer auf der Karte inkl. Nest
+  const leer = { alle: 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
     gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
-    papierkorb: "Nix aus'm Nest gheit. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
+    papierkorb: "Nix aus'm Nest ghaut. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
   document.getElementById('liste').innerHTML = liste.length
     ? liste.map(w => karteHtml(w, state.tab === 'papierkorb')).join('')
     : `<div class="leer">${leer}</div>`;
