@@ -76,6 +76,9 @@
   #liste .leer { grid-column: 1 / -1; }
   .guertel { display: inline-block; margin-top: 5px; font-size: 12.5px; font-weight: 600; color: #8a1d4a;
     background: #fbeaf1; border-radius: 6px; padding: 2px 8px; }
+  .guertel-oben { margin-left: auto; align-self: center; font-size: 14px; font-weight: 700; color: #8a1d4a;
+    background: #fbeaf1; border: 1px solid #f3c9da; border-radius: 999px; padding: 5px 12px; white-space: nowrap; }
+  .guertel-oben.ungenau { font-weight: 500; color: #6b7079; background: var(--soft); border-color: var(--line); }
   .gmaps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .gmaps a { font-size: 12px; font-weight: 600; text-decoration: none; color: #1a56c4; background: #eef3fd;
     border: 1px solid #d6e2fb; border-radius: 999px; padding: 3px 10px; }
@@ -516,6 +519,12 @@ function fakten(w) {
 function guertelKurz(w) {
   return w.guertel ? `<span class="guertel" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel</span>` : '';
 }
+// Gürtelzeit groß oben in der Detailansicht (18./19. Bezirk)
+function guertelOben(w) {
+  if (w.plz !== 1180 && w.plz !== 1190) return '';
+  if (!w.guertel) return '<span class="guertel-oben ungenau" title="Ohne genaue Adresse lässt sich die Öffi-Zeit nicht schätzen">🚋 Gürtelzeit: Lage zu ungenau</span>';
+  return `<span class="guertel-oben" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel${w.guertel.ziel ? ` · ${esc(w.guertel.ziel)}` : ''}</span>`;
+}
 function guertelLang(w) {
   const g = w.guertel;
   if (!g) return w.plz === 1180 || w.plz === 1190 ? '<div class="meta">Öffi-Zeit zum Gürtel: Lage zu ungenau für eine Schätzung</div>' : '';
@@ -668,7 +677,8 @@ async function zeigeDetail(id, neuLaden = true) {
     </div>
     <div class="thumbs">${bilder.map((b, i) => img(b, `data-akt="gal" data-i="${i}" class="${i === state.bildIdx ? 'an' : ''}"`)).join('')}</div>` : ''}
     <div class="detail-body">
-      <div class="zeile1"><span class="preis" style="font-size:22px">${eur(w.preis)}</span><span class="meta">${f.qm}</span></div>
+      <div class="zeile1"><span class="preis" style="font-size:22px">${eur(w.preis)}</span><span class="meta">${f.qm}</span>
+        ${guertelOben(w)}</div>
       <h2>${esc(w.titel)}</h2>
       ${tagsHtml(w)}
       <div class="grid" style="margin-top:12px">
