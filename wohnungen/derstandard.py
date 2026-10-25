@@ -193,13 +193,13 @@ def _get(url):
     nach einer Sperre einmal länger warten. Keine Umgehung, nur weniger Last."""
     import time
     import urllib.error
-    for versuch in range(2):
+    for versuch in range(3):
         try:
-            return get(url, pause=(4.0, 7.0))
+            return get(url, pause=(7.0, 11.0))
         except urllib.error.HTTPError as e:
-            if e.code != 403 or versuch:
+            if e.code != 403 or versuch == 2:
                 raise
-            time.sleep(90)
+            time.sleep(150)
 
 
 def search(plz):
