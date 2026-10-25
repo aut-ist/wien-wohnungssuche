@@ -44779,7 +44779,29 @@
   "typ": "Wohnung",
   "erstmals": "2026-10-25",
   "zuletzt": "2026-10-25",
-  "aktiv": true
+  "aktiv": true,
+  "projekt": false,
+  "bilder": [
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-1312402345.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_1828614568.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-94067964.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_992829960.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_1708757172.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-165960689.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-1358112769.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-526764778.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-557534299.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_521077950.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-1435346557.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-767951566.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_2023339481.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_1780664655.jpg",
+   "https://cache.willhaben.at/mmo/5/189/977/1095_-991231975.jpg"
+  ],
+  "freiflaeche": [
+   "Balkon",
+   "Dachterrasse"
+  ]
  },
  "wh-1181616777": {
   "id": "wh-1181616777",
@@ -121759,6 +121781,44 @@
    "Balkon"
   ],
   "veroeffentlicht": "2026-10-20T12:46:34Z",
+  "anbieter": "OPTIN Immobilien GmbH",
+  "typ": "Wohnung",
+  "erstmals": "2026-10-25",
+  "zuletzt": "2026-10-25",
+  "aktiv": true
+ },
+ "wh-1043576572": {
+  "id": "wh-1043576572",
+  "quelle": "willhaben",
+  "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/3-zimmer-wohnung-mit-balkon-und-aussicht-auf-das-riesenrad-josephine-1043576572/",
+  "projekt": false,
+  "titel": "3-Zimmer-Wohnung mit Balkon und Aussicht auf das Riesenrad | JOSEPHINE",
+  "preis": 688900.0,
+  "flaeche": 69.0,
+  "zimmer": 3,
+  "plz": 1020,
+  "adresse": "Stoffellagasse",
+  "lat": 48.21441,
+  "lon": 16.392761,
+  "lage_genauigkeit": "adresse",
+  "bild": "https://cache.willhaben.at/mmo/2/104/357/6572_-496020786.jpg",
+  "bilder": [
+   "https://cache.willhaben.at/mmo/2/104/357/6572_-496020786.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_954372329.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_1443654287.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_1535451767.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_234963404.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_-2104979125.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_-405734895.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_-481583737.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_274539434.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_-529148186.jpg",
+   "https://cache.willhaben.at/mmo/2/104/357/6572_695163580.jpg"
+  ],
+  "freiflaeche": [
+   "Balkon"
+  ],
+  "veroeffentlicht": "2026-10-20T12:46:35Z",
   "anbieter": "OPTIN Immobilien GmbH",
   "typ": "Wohnung",
   "erstmals": "2026-10-25",
