@@ -84,6 +84,8 @@
   .tag.grau { background: #eceef1; color: #4d525a; }
   .tag.raus { background: #fbe5e2; color: #9c2f24; }
   .tag.gold { background: #fff3cc; color: #7a5a00; }
+  .tag.gesehen { background: #e8edff; color: #22337a; }
+  .karte.gesehen .preis, .karte.gesehen .titel { color: #555a62; }
 
   /* Detail */
   #detail { position: absolute; inset: 0; background: var(--panel); z-index: 5; overflow-y: auto; transform: translateX(-102%); transition: transform .22s ease; }
@@ -193,11 +195,11 @@ const speicher = {
   lesen() { try { return JSON.parse(localStorage.getItem(this.key)) || {}; } catch { return {}; } },
   schreiben(d) { try { localStorage.setItem(this.key, JSON.stringify(d)); } catch {} },
 };
-const mein = Object.assign({ gemerkt: {}, papierkorb: {}, filter: null }, speicher.lesen());
+const mein = Object.assign({ gemerkt: {}, papierkorb: {}, gesehen: {}, filter: null }, speicher.lesen());
 const sichern = () => speicher.schreiben(mein);
 
 const STD_FILTER = { preis: null, flaeche: null, zimmer: null, bezirke: Object.keys(BEZIRKE).map(Number),
-  status: ['gruen', 'grau'], neu: false, freiflaeche: false, sort: 'neu' };
+  status: ['gruen', 'grau'], neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
 let filter = Object.assign({}, STD_FILTER, mein.filter || {});
 const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
 
@@ -219,7 +221,8 @@ legende.onAdd = () => {
     '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('') +
-    '<div><span class="dot" style="background:#1f9d61"></span>passt <span class="dot" style="background:#8b9099;margin-left:8px"></span>unklar <span style="color:#e3a400;margin-left:8px">★</span> gemerkt</div>';
+    '<div><span class="dot" style="background:#1f9d61"></span>passt <span class="dot" style="background:#8b9099;margin-left:8px"></span>unklar <span style="color:#e3a400;margin-left:8px">★</span> gemerkt</div>' +
+    '<div><span class="dot" style="background:#fff;border:2px solid #1f9d61"></span>angesehen</div>';
   d.addEventListener('click', () => d.classList.toggle('offen'));
   L.DomEvent.disableClickPropagation(d);
   return d;
@@ -252,8 +255,10 @@ function passtFilter(w) {
   if (!filter.status.includes(w.status)) return false;
   if (filter.neu && !w.neu) return false;
   if (filter.freiflaeche && !(w.freiflaeche || []).length) return false;
+  if (filter.ungesehen && istGesehen(w)) return false;
   return true;
 }
+const istGesehen = w => !!mein.gesehen[w.id];
 function sortiere(l) {
   const s = {
     neu: (a, b) => b.erstmals.localeCompare(a.erstmals) || (b.preis ?? 0) - (a.preis ?? 0),
@@ -284,6 +289,7 @@ function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
     ${w.neu ? '<span class="tag neu">NEU</span>' : ''}
+    ${istGesehen(w) ? '<span class="tag gesehen">✓ Bereits angesehen</span>' : ''}
     <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
@@ -299,7 +305,7 @@ function aktionenHtml(w, papierkorb) {
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="oeffnen"')).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
@@ -326,9 +332,10 @@ function zeichneMarker(liste) {
     if (istGemerkt(w)) {
       m = L.marker([w.lat, w.lon], { icon: L.divIcon({ className: 'stern-icon', html: '★', iconSize: [26, 26], iconAnchor: [13, 14] }), zIndexOffset: 1000 });
     } else {
-      const c = FARBE[w.status];
-      m = L.circleMarker([w.lat, w.lon], { radius: w.status === 'raus' ? 5 : 8, color: w.neu && w.status !== 'raus' ? '#e3a400' : c,
-        weight: w.neu ? 3 : 2, dashArray: w.ungefaehr ? '3 3' : null, fillColor: c, fillOpacity: w.ungefaehr ? .35 : .9 });
+      const c = FARBE[w.status], g = istGesehen(w);
+      m = L.circleMarker([w.lat, w.lon], { radius: w.status === 'raus' ? 5 : g ? 6 : 8,
+        color: w.neu && !g && w.status !== 'raus' ? '#e3a400' : c, weight: w.neu && !g ? 3 : 2,
+        dashArray: w.ungefaehr ? '3 3' : null, fillColor: g ? '#fff' : c, fillOpacity: g ? .9 : w.ungefaehr ? .35 : .9 });
     }
     m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
@@ -418,6 +425,13 @@ function textHtml(t) {
 }
 function oeffne(id, vonKarte) {
   state.aktiv = id; state.bildIdx = 0;
+  if (!mein.gesehen[id]) {
+    mein.gesehen[id] = new Date().toISOString(); sichern();
+    const w = state.daten.find(x => x.id === id);
+    const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
+    if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
+    if (w && state.marker[id] && !istGemerkt(w)) state.marker[id].setStyle({ fillColor: '#fff', radius: 6, weight: 2, color: FARBE[w.status] });
+  }
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
   document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
   zeigeDetail(id);
@@ -500,7 +514,7 @@ function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); zeichn
 chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
 chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',
   v => `<span class="dot" style="background:${FARBE[v]}"></span>${STATUS_TXT[v]}`);
-document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button>';
+document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button><button class="chip" data-k="ungesehen">nur ungesehene</button>';
 document.querySelectorAll('#fExtra .chip').forEach(b => b.addEventListener('click', () => { filter[b.dataset.k] = !filter[b.dataset.k]; filterGeaendert(); }));
 [['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer']].forEach(([id, k]) =>
   document.getElementById(id).addEventListener('input', e => { filter[k] = e.target.value ? +e.target.value : null; filterGeaendert(); }));
