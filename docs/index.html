@@ -206,8 +206,14 @@
 
   @media (max-width: 800px) {
     /* Handy: Liste bekommt mehr Platz, Karte oben nur als Streifen (mit "Karte groß" aufziehbar) */
-    #app { grid-template-columns: 1fr; grid-template-rows: auto 28dvh 1fr; }
-    #app.filter-offen { grid-template-rows: auto auto 28dvh 1fr; }
+    #app { grid-template-columns: 1fr; grid-template-rows: auto 36dvh 1fr; }
+    #app.filter-offen { grid-template-rows: auto auto 36dvh 1fr; }
+    /* Quellenangabe (Lizenzpflicht OpenStreetMap) am Handy nur als kleines ⓘ, Tippen zeigt sie */
+    .leaflet-control-attribution { max-width: 22px; overflow: hidden; white-space: nowrap; border-radius: 10px;
+      font-size: 0; padding: 0 5px !important; cursor: pointer; }
+    .leaflet-control-attribution::before { content: 'ⓘ'; font-size: 13px; color: #555; }
+    .leaflet-control-attribution.offen { max-width: 100%; white-space: normal; font-size: 10px; }
+    .leaflet-control-attribution.offen::before { content: ''; }
     #map { grid-row: -3; }
     #app.karte-gross { grid-template-rows: auto 78dvh 1fr; }
     #app.karte-gross.filter-offen { grid-template-rows: auto auto 78dvh 1fr; }
@@ -401,7 +407,10 @@ let filter = Object.assign({}, STD_FILTER, mein.filter || {});
 const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
 
 /* ---------- Karte ---------- */
-const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], 13);
+const HANDY = matchMedia('(max-width: 800px)').matches;
+const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], HANDY ? 12 : 13);
+map.attributionControl.getContainer().addEventListener('click', e => e.currentTarget.classList.toggle('offen'));
+map.on('dragstart', () => { state.selbstBewegt = true; });  // ab dann nicht mehr automatisch einpassen
 L.control.zoom({ position: 'topright' }).addTo(map);
 // Vektorkarte (OpenFreeMap) mit Farben im Stil von Google Maps
 const basis = L.maplibreGL({
@@ -444,7 +453,7 @@ legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
   const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('');
   if (NUR_NEST) {  // Familie: nur das Nötige
-    d.innerHTML = `<div><span class="leg-ei">${goldEi(18)}</span> <b>goldenes Ei</b> = von uns ausgewählt</div>` +
+    d.innerHTML = `<div><span class="leg-ei">${goldEi(18)}</span> <b>Goldenes Ei</b> = von uns ausgewählt</div>` +
       '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
     d.addEventListener('click', () => d.classList.toggle('offen'));
     L.DomEvent.disableClickPropagation(d);
@@ -678,9 +687,10 @@ function zeichneMarker(liste) {
 function zeichne() {
   const s = sichtbar();
   zeichneMarker(s.karte);
-  if (NUR_NEST && !state.eingepasst && s.karte.length) {  // Familie: einmal auf alle goldenen Eier zoomen
-    state.eingepasst = true;
-    map.fitBounds(L.latLngBounds(s.karte.map(w => [w.lat, w.lon])), { padding: [40, 40], maxZoom: 15 });
+  // Familie: auf alle goldenen Eier zoomen, auch wenn das Nest erst nach und nach live geladen wird
+  if (NUR_NEST && !state.selbstBewegt && s.karte.length && s.karte.length !== state.eingepasst) {
+    state.eingepasst = s.karte.length;
+    map.fitBounds(L.latLngBounds(s.karte.map(w => [w.lat, w.lon])), { padding: HANDY ? [20, 20] : [40, 40], maxZoom: HANDY ? 13 : 14 });
   }
   const liste = sortiere([...s[state.tab]]);
   document.getElementById('nAlle').textContent = s.alle.length;
@@ -772,6 +782,7 @@ function textHtml(t) {
 function oeffne(id, vonKarte) {
   const vorher = state.aktiv;
   state.aktiv = id; state.bildIdx = 0;
+  state.selbstBewegt = true;  // Karte folgt jetzt der gewählten Wohnung, nicht mehr dem Einpassen
   const w = state.daten.find(x => x.id === id);
   if (w && !istGesehen(w) && !NUR_NEST) {
     markiere('gesehen', id, new Date().toISOString());
