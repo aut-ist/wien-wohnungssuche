@@ -542,9 +542,11 @@
  },
  "wh-1599795352": {
   "lage": {
-   "adresse": "Gersthofer Straße",
+   "adresse": null,
+   "lat": 48.23122,
+   "lon": 16.32736,
    "sicherheit": "ungefaehr",
-   "begruendung": "Linien 9, 40, 41 und S45 nahe, Türkenschanzpark – Raum Gersthof"
+   "begruendung": "Text: Straßenbahn 9, 40, 41 und S45 in der Nähe (treffen sich nur bei Gersthof), Türkenschanzpark nahe; ImmoScout24-Punkt (Gruppe) bei Gersthof"
   },
   "datum": "2026-10-25"
  },
@@ -560,9 +562,11 @@
  },
  "wh-988007885": {
   "lage": {
-   "adresse": "Sieveringer Straße 46",
+   "adresse": null,
+   "lat": 48.2472,
+   "lon": 16.3333,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Restaurant Eckel gleich gegenüber der Anlage\" (Sieveringer Straße 46)"
+   "begruendung": "Text: Restaurant Eckel (Sieveringer Straße 46) gleich gegenüber der Anlage"
   },
   "datum": "2026-10-25"
  },
@@ -669,6 +673,16 @@
    "lon": 16.34225,
    "sicherheit": "genau",
    "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+  },
+  "datum": "2026-10-25"
+ },
+ "is-436454419522": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2497,
+   "lon": 16.3095,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lageplan: Grundstück zwischen Krottenbachstraße und Zimmerlweg, Neustift am Walde (Fuß des Hackenbergs), 35A vor der Tür"
   },
   "datum": "2026-10-25"
  }
