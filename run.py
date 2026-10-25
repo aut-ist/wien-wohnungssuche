@@ -179,6 +179,7 @@ def bewerten(r, rev):
             drin, lage_txt, _ = geo.pruefe(*pos)
             lage_txt += f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})"
             out["ungefaehr"] = lrev.get("sicherheit") != "genau"
+            out["landmarke"] = out["ungefaehr"]  # Lage aus Hinweis wie "Nähe Kutschkermarkt"
             if not drin:
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
         else:
@@ -191,6 +192,9 @@ def bewerten(r, rev):
         elif r["plz"] in CONFIG["bezirke"]["ganz"]:
             lage_txt = f"{(r['plz'] - 1000) // 10}. Bezirk (genaue Adresse nicht angegeben)"
             out["ungefaehr"] = True
+            # Lage passt sowieso, aber für die Öffi-Zeit zum Gürtel (18./19.) braucht es die Adresse
+            if r["plz"] in (1180, 1190) and not (lrev or rev.get("lage")):
+                out["fragen"].append("lage")
         else:
             lage_txt = f"Lage unklar, nur {(r['plz'] - 1000) // 10}. Bezirk bekannt"
             out["ungefaehr"] = True
@@ -370,6 +374,25 @@ def _strassen_geocode(m):
     m["lage_genauigkeit"] = "bezirk"
 
 
+STRASSE_NR = re.compile(
+    r"\b([A-ZÄÖÜ][a-zäöüß]+(?:-[A-ZÄÖÜ][a-zäöüß]+)*(?:straße|strasse|gasse|platz|weg|allee|zeile|steig|kai|ring"
+    r"|lände|promenade|markt|hof|berg|gürtel))\s+(\d{1,3}[a-zA-Z]?)\b")
+
+
+def _adresse_aus_text(m):
+    """Straße + Hausnummer aus Titel/Text (häufigste Nennung), nur wenn sie im richtigen Bezirk liegt."""
+    text = f"{m.get('titel') or ''}\n{m.get('text') or ''}"
+    treffer = {}
+    for s, nr in STRASSE_NR.findall(text):
+        k = f"{s.replace('strasse', 'straße')} {nr}"
+        treffer[k] = treffer.get(k, 0) + 1
+    for adr, _ in sorted(treffer.items(), key=lambda x: -x[1])[:3]:
+        pos = geocode(f"{adr}, {m['plz']} Wien")
+        if pos and geo.bezirk_von(*pos) == (m["plz"] - 1000) // 10:
+            return adr, pos
+    return None
+
+
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
@@ -395,6 +418,10 @@ def zusammenfuehren(gruppe, reviews):
                 m.update({k: v for k, v in alt.items() if k != "adresse"})
         elif not m.get("adresse"):
             m["adresse"] = next((r["adresse"] for r in gruppe if r.get("adresse")), None)
+    if GENAU[m.get("lage_genauigkeit")] < 3 and (gefunden := _adresse_aus_text(m)):
+        # Adresse steht nur in der Beschreibung (z. B. "Projekt M86, Martinstraße 86")
+        m["adresse"], (m["lat"], m["lon"]) = gefunden[0], gefunden[1]
+        m["lage_genauigkeit"] = "adresse"
     if not m.get("lat"):  # gar keine Koordinaten (z. B. derStandard ohne Straße): Bezirksmitte
         m["lat"], m["lon"] = geo.bezirksmitte((m["plz"] - 1000) // 10) or (None, None)
         m["lage_genauigkeit"] = "bezirk"
@@ -470,7 +497,9 @@ def build():
             "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
             # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
-            "guertel": guertel_zeit(b["lat"], b["lon"]) if r["plz"] in (1180, 1190) and not b["ungefaehr"] else None,
+            "guertel": ({**g, "ungefaehr": bool(b.get("landmarke"))}
+                        if r["plz"] in (1180, 1190) and (not b["ungefaehr"] or b.get("landmarke"))
+                        and (g := guertel_zeit(b["lat"], b["lon"])) else None),
         })
         if r.get("text"):
             details[r["id"]] = {"text": r["text"], "heizung_felder": r.get("heizung_felder", [])}

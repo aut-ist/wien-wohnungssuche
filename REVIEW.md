@@ -24,6 +24,10 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
 - Ob ein Punkt drin ist, rechnet `run.py` selbst. Du lieferst nur die beste Adresse.
 
 ## Frage `lage`
+Im 1., 2. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. passt sie
+sowieso; dort wird die Adresse für die Öffi-Zeit zum Gürtel gebraucht. Achte deshalb auch auf
+Projektnamen mit Adresse ("M86" = Martinstraße 86), Hausnamen und Straßen in Grundriss-Texten.
+
 Finde aus Text und Titel die genaueste Lage: Straße mit Hausnummer, Straße, Kreuzung,
 Platz oder eindeutige Landmarke ("direkt am Karmeliterplatz", "Blick auf den Augarten",
 "Ecke Taborstraße/Heinestraße"). Vage Makler-Floskeln ("Nähe Innenstadt",

@@ -498,5 +498,71 @@
    "begruendung": "\"derzeit befristet vermietet\" – Ende der Befristung erfragen"
   },
   "datum": "2026-10-25"
+ },
+ "wh-2039112596": {
+  "lage": {
+   "adresse": "Kutschkermarkt",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Ruhige Seitenstraße in der Nähe des Kutschkermarkts\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1309980503": {
+  "lage": {
+   "adresse": "Eduardgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Straßenbahn 40, 41, 42 Eduardgasse (2 Gehminuten)\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1599795352": {
+  "lage": {
+   "adresse": "Gersthofer Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Linien 9, 40, 41 und S45 nahe, Türkenschanzpark – Raum Gersthof"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1354035914": {
+  "lage": {
+   "adresse": "Thimiggasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Einkauf \"Alsegger Straße\" und \"Thimiggasse (Billa)\", 10 Gehminuten zur S Gersthof"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-988007885": {
+  "lage": {
+   "adresse": "Sieveringer Straße 46",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Restaurant Eckel gleich gegenüber der Anlage\" (Sieveringer Straße 46)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1800851106": {
+  "lage": {
+   "adresse": "Salmannsdorfer Straße 47",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nähe AIS\" (American International School, Salmannsdorfer Straße), Bus 35A"
+  },
+  "datum": "2026-10-25"
+ },
+ "ds-15155466": {
+  "lage": {
+   "adresse": "Wertheimsteinpark",
+   "lat": 48.24297,
+   "lon": 16.35861,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nähe Wertheimsteinpark\""
+  },
+  "datum": "2026-10-25"
+ },
+ "is-314384452731": {
+  "lage": {
+   "adresse": "Nußdorf",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im charmanten Nußdorf\", Einbahnstraße – keine Straße genannt"
+  },
+  "datum": "2026-10-25"
  }
 }

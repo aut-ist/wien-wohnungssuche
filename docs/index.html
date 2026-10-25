@@ -523,14 +523,14 @@ function guertelKurz(w) {
 function guertelOben(w) {
   if (w.plz !== 1180 && w.plz !== 1190) return '';
   if (!w.guertel) return '<span class="guertel-oben ungenau" title="Ohne genaue Adresse lässt sich die Öffi-Zeit nicht schätzen">🚋 Gürtelzeit: Lage zu ungenau</span>';
-  return `<span class="guertel-oben" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel${w.guertel.ziel ? ` · ${esc(w.guertel.ziel)}` : ''}</span>`;
+  return `<span class="guertel-oben" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel${w.guertel.ziel ? ` · ${esc(w.guertel.ziel)}` : ''}${w.guertel.ungefaehr ? ' (Lage ungefähr)' : ''}</span>`;
 }
 function guertelLang(w) {
   const g = w.guertel;
   if (!g) return w.plz === 1180 || w.plz === 1190 ? '<div class="meta">Öffi-Zeit zum Gürtel: Lage zu ungenau für eine Schätzung</div>' : '';
   const weg = g.ab ? `${g.gehen} min zu Fuß zur Haltestelle ${esc(g.ab)}, dann Öffis` : `zu Fuß`;
   return `<div class="info gruen">🚋 <b>ca. ${g.min} min bis zur U6 am Gürtel</b>${g.ziel ? ` (${esc(g.ziel)})` : ''}<br>
-    <span class="meta">${weg} · Schnitt bei Abfahrt Werktag 7–8 Uhr, inkl. Warten und Umsteigen (Fahrplan Wiener Linien)</span></div>`;
+    <span class="meta">${g.ungefaehr ? 'Lage nur ungefähr bekannt (aus der Beschreibung), Zeit daher ± ein paar Minuten · ' : ''}${weg} · Schnitt bei Abfahrt Werktag 7–8 Uhr, inkl. Warten und Umsteigen (Fahrplan Wiener Linien)</span></div>`;
 }
 // Schnell-Links zu Google Maps / Street View. Bei ungefährer Lage sind die Koordinaten nur
 // gestreut (Bezirksmitte), daher dann nur eine Suche nach Straße bzw. Bezirk, kein Street View.

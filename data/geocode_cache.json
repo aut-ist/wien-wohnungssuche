@@ -324,5 +324,68 @@
  "obere donaustraße 19, 1020 wien": [
   48.22365,
   16.369906
+ ],
+ "martinstraße 86, 1180 wien": [
+  48.22319,
+  16.341797
+ ],
+ "zeltgasse 3, 1180 wien": [
+  48.20798,
+  16.350495
+ ],
+ "fernbahnhof 2, 1020 wien": null,
+ "fernbahnhof 0, 1090 wien": null,
+ "alliiertenstraße 13, 1020 wien": [
+  48.226994,
+  16.387701
+ ],
+ "barawitzkagasse 24, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "augasse 17, 1090 wien": [
+  48.23164,
+  16.356669
+ ],
+ "donaustraße 19, 1020 wien": [
+  48.289413,
+  16.34455
+ ],
+ "donaustraße 23, 1020 wien": [
+  48.223193,
+  16.371036
+ ],
+ "borschkegasse 15, 1090 wien": [
+  48.218162,
+  16.343424
+ ],
+ "kutschkermarkt, 1180 wien": [
+  48.224507,
+  16.344362
+ ],
+ "eduardgasse, 1180 wien": [
+  48.222229,
+  16.339693
+ ],
+ "gersthofer straße, 1180 wien": [
+  48.236712,
+  16.324777
+ ],
+ "thimiggasse, 1180 wien": [
+  48.231509,
+  16.320831
+ ],
+ "sieveringer straße 46, 1190 wien": [
+  48.246988,
+  16.333483
+ ],
+ "salmannsdorfer straße 47, 1190 wien": [
+  48.253465,
+  16.287161
+ ],
+ "wertheimsteinpark, 1190 wien": null,
+ "nußdorf, 1190 wien": [
+  48.259051,
+  16.364546
  ]
 }
