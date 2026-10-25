@@ -25,7 +25,8 @@
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
     font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
   button, input, select { font: inherit; color: inherit; }
-  #app { display: grid; grid-template-columns: 500px 1fr; grid-template-rows: auto 1fr; height: 100dvh; }
+  /* Leiste wächst mit dem Bildschirm; ab ~1700 px passen zwei Spalten Wohnungen nebeneinander */
+  #app { display: grid; grid-template-columns: clamp(480px, 40vw, 860px) 1fr; grid-template-rows: auto 1fr; height: 100dvh; }
 
   /* Kopfzeile */
   header { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; padding: 10px 16px;
@@ -70,7 +71,14 @@
   .tabs { display: flex; border-bottom: 1px solid var(--line); flex: none; }
   .tab { flex: 1; padding: 10px 6px; border: 0; background: none; cursor: pointer; font-weight: 600; font-size: 13px; color: var(--muted); border-bottom: 2px solid transparent; }
   .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
-  #liste { overflow-y: auto; flex: 1; padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+  #liste { overflow-y: auto; flex: 1; padding: 10px; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
+    grid-auto-rows: max-content; align-content: start; gap: 10px; }
+  #liste .leer { grid-column: 1 / -1; }
+  .gmaps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .gmaps a { font-size: 12px; font-weight: 600; text-decoration: none; color: #1a56c4; background: #eef3fd;
+    border: 1px solid #d6e2fb; border-radius: 999px; padding: 3px 10px; }
+  .gmaps a:hover { background: #e0eafc; }
+  .gmaps.gross a { font-size: 13px; padding: 7px 14px; }
   .leer { padding: 30px 12px; color: var(--muted); text-align: center; }
 
   .karte { flex: none; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: #fff; transition: box-shadow .15s, border-color .15s; }
@@ -495,6 +503,18 @@ function fakten(w) {
   const qm = w.preis && w.flaeche ? eur(w.preis / w.flaeche) + '/m²' : '';
   return { qm, txt: [`${w.flaeche ?? '?'} m²`, `${w.zimmer ?? '?'} Zimmer`, ...(w.freiflaeche || [])] };
 }
+// Schnell-Links zu Google Maps / Street View. Bei ungefährer Lage sind die Koordinaten nur
+// gestreut (Bezirksmitte), daher dann nur eine Suche nach Straße bzw. Bezirk, kein Street View.
+function mapsLinks(w, gross) {
+  const genau = !w.ungefaehr && w.lat;
+  const ziel = w.adresse && /[a-zäöüß]{4}/i.test(w.adresse) ? `${w.adresse}, ${w.plz} Wien`
+    : genau ? `${w.lat},${w.lon}` : `${w.plz} Wien`;
+  const suche = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ziel)}`;
+  const sv = genau ? `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${w.lat},${w.lon}` : null;
+  return `<div class="gmaps${gross ? ' gross' : ''}">
+    <a href="${esc(suche)}" target="_blank" rel="noopener" data-akt="link">📍 Google Maps${genau || w.adresse ? '' : ' (nur Bezirk)'}</a>
+    ${sv ? `<a href="${esc(sv)}" target="_blank" rel="noopener" data-akt="link">👁 Street View</a>` : ''}</div>`;
+}
 function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
@@ -528,6 +548,7 @@ function karteHtml(w, papierkorb) {
       <div class="fakten">${f.txt.map(esc).join('<span class="meta">·</span>')}</div>
       <div class="meta" style="margin-top:3px">${esc(w.adresse ? w.adresse + ' · ' : '')}${BEZIRKE[w.plz] || ''} Bezirk${w.status === 'raus' ? ' · ' + esc(w.gruende.join(' · ')) : ''}</div>
       <div class="quellen">${[...new Set((w.links || [{ quelle: w.quelle }]).map(l => l.quelle))].map(q => `<span>${esc(q)}</span>`).join('')}</div>
+      ${mapsLinks(w)}
       ${tagsHtml(w)}
     </div>
   </article>`;
@@ -641,6 +662,7 @@ async function zeigeDetail(id, neuLaden = true) {
       </div>
       <h3>Lage</h3>
       <div class="info ${w.ungefaehr ? 'grau' : 'gruen'}">${esc(w.adresse ? w.adresse + ' · ' : '')}${esc(w.lage || '')}</div>
+      ${mapsLinks(w, true)}
       <h3>Heizung</h3>
       <div class="info ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}"><b>${HEIZ_TXT[h.ergebnis] || '–'}</b>${h.von ? ` <span class="meta">(${esc(h.von)})</span>` : ''}<br>${esc(h.text || '')}</div>
       ${w.gruende?.length ? `<h3>Hinweise</h3><div class="info ${w.status}">${esc(w.gruende.join(' · '))}</div>` : ''}
@@ -757,6 +779,7 @@ document.getElementById('app').addEventListener('click', e => {
   const t = e.target.closest('[data-akt]'); if (!t) return;
   const id = t.dataset.id || t.closest('[data-id]')?.dataset.id;
   const akt = t.dataset.akt;
+  if (akt === 'link') return;  // externer Link (Google Maps): normal öffnen, Wohnung nicht aufklappen
   if (akt === 'merken') return merken(id);
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);

@@ -88,6 +88,51 @@ def fit(refs):
     return lambda x, y: (mlat - (y - my) / (s * ASPECT), mlon + (x - mx) / s)
 
 
+def _huelle(pts):
+    """Konvexe Hülle (Andrew), gegen den Uhrzeigersinn."""
+    pts = sorted(set(map(tuple, pts)))
+
+    def kreuz(o, a, b):
+        return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+    unten, oben = [], []
+    for p in pts:
+        while len(unten) >= 2 and kreuz(unten[-2], unten[-1], p) <= 0:
+            unten.pop()
+        unten.append(p)
+    for p in reversed(pts):
+        while len(oben) >= 2 and kreuz(oben[-2], oben[-1], p) <= 0:
+            oben.pop()
+        oben.append(p)
+    return unten[:-1] + oben[:-1]
+
+
+def auf_bezirk_zuschneiden(zone, bezirk):
+    """Bezirksgrenze (Sutherland-Hodgman) an der konvexen Hülle der Zone abschneiden."""
+    bez = json.loads((ROOT / "geo" / "bezirke.geojson").read_text(encoding="utf-8"))
+    ring = next(f["geometry"]["coordinates"][0] for f in bez["features"] if f["properties"]["bezirk"] == bezirk)
+    huelle = _huelle(zone)
+    poly = [tuple(p) for p in ring[:-1]]
+    for i in range(len(huelle)):
+        a, b = huelle[i], huelle[(i + 1) % len(huelle)]
+        innen = lambda p: (b[0] - a[0]) * (p[1] - a[1]) - (b[1] - a[1]) * (p[0] - a[0]) >= 0  # noqa: E731
+
+        def schnitt(p, q):
+            dx1, dy1, dx2, dy2 = q[0] - p[0], q[1] - p[1], b[0] - a[0], b[1] - a[1]
+            t = ((a[0] - p[0]) * dy2 - (a[1] - p[1]) * dx2) / (dx1 * dy2 - dy1 * dx2)
+            return (p[0] + t * dx1, p[1] + t * dy1)
+        neu = []
+        for j in range(len(poly)):
+            p, q = poly[j - 1], poly[j]
+            if innen(q):
+                if not innen(p):
+                    neu.append(schnitt(p, q))
+                neu.append(q)
+            elif innen(p):
+                neu.append(schnitt(p, q))
+        poly = neu
+    return [[round(x, 6), round(y, 6)] for x, y in poly]
+
+
 def main():
     feats = []
     for z in ZONES:
@@ -98,6 +143,9 @@ def main():
             to_geo = fit(shot["refs"])
             ring = [to_geo(x, y) for x, y in shot["line"]]
         ring = [[round(lon, 6), round(lat, 6)] for lat, lon in ring]
+        if z.get("nur_in_bezirk"):
+            # auf den Bezirk zuschneiden, damit die Karte nicht Nachbarbezirke rot färbt
+            ring = auf_bezirk_zuschneiden(ring, z["nur_in_bezirk"])
         ring.append(ring[0])
         props = {k: v for k, v in z.items()}
         feats.append({"type": "Feature", "properties": props,
