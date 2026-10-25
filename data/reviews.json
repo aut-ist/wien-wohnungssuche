@@ -397,5 +397,78 @@
    "flaeche": 94
   },
   "datum": "2026-10-25"
+ },
+ "is-800520876763": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 84
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-331005867": {
+  "lage": {
+   "adresse": "Schottenring",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"U-Bahn-Linien U2, U4 sowie Straßenbahnlinien am Ring\" – U2/U4 treffen sich am Schottenring"
+  },
+  "datum": "2026-10-25"
+ },
+ "is-830216055127": {
+  "eckdaten": {},
+  "datum": "2026-10-25"
+ },
+ "is-025630515813": {
+  "eckdaten": {
+   "flaeche": 106
+  },
+  "datum": "2026-10-25"
+ },
+ "is-432281292957": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "unklar",
+   "begruendung": "nur \"nahe Prater & Augarten\" – kann Karmeliter- oder Volkertviertel sein"
+  },
+  "datum": "2026-10-25"
+ },
+ "is-712800421548": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "unklar",
+   "begruendung": "keine Lageangabe außer 9. Bezirk"
+  },
+  "datum": "2026-10-25"
+ },
+ "fm-5703596": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "unklar",
+   "begruendung": "\"ruhige Gasse inmitten des ersten Bezirks\" – keine Straße"
+  },
+  "datum": "2026-10-25"
+ },
+ "fm-5383393": {
+  "lage": {
+   "adresse": "Obere Donaustraße 19",
+   "sicherheit": "genau",
+   "begruendung": "\"In der Oberen Donaustraße 19\""
+  },
+  "datum": "2026-10-25"
+ },
+ "fm-5736190": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "unklar",
+   "begruendung": "\"wenige Schritte von der U6-Station Nußdorfer Straße\", Seitengasse – liegt an der Grenze zur roten Zone"
+  },
+  "datum": "2026-10-25"
+ },
+ "fm-5736189": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "unklar",
+   "begruendung": "\"wenige Schritte von der U6-Station Nußdorfer Straße\", Seitengasse – liegt an der Grenze zur roten Zone"
+  },
+  "datum": "2026-10-25"
  }
 }

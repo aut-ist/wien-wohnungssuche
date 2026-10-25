@@ -1,3 +1,5 @@
 __pycache__/
 *.tmp
 data/scrape.log
+data/*.log
+x_*

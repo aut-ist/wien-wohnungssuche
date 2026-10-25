@@ -111,12 +111,13 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
                 save_json(LISTINGS, listings)
 
 
-def scrape():
+def scrape(nur=None):
     listings = load_json(LISTINGS, {})
     gesehen, fehler, lock = set(), [], threading.Lock()
+    quellen = [m for p, m in QUELLEN.items() if not nur or p in nur]
     threads = [threading.Thread(target=_scrape_quelle, args=(m, listings, gesehen, fehler, lock))
-               for m in QUELLEN.values()]
-    log("Quellen: " + ", ".join(m.QUELLE for m in QUELLEN.values()))
+               for m in quellen]
+    log("Quellen: " + ", ".join(m.QUELLE for m in quellen))
     for t in threads:
         t.start()
     for t in threads:
@@ -244,7 +245,7 @@ def ist_duplikat(a, b):
     if gleiche_quelle:  # auf demselben Portal nur echte Doppel-Inserate, keine Nachbar-Tops
         if df > 0.01 or dp > 0:
             return False
-    elif df > max(1.0, a["flaeche"] * 0.015) or dp > 0.03:
+    elif df > max(1.0, a["flaeche"] * 0.015) or dp > 0.015:
         return False
     genau = GENAU[a.get("lage_genauigkeit")] >= 2 and GENAU[b.get("lage_genauigkeit")] >= 2 and a.get("lat") and b.get("lat")
     if genau:
@@ -257,15 +258,22 @@ def ist_duplikat(a, b):
     return titel or bool(makler) or (df <= 0.5 and dp <= 0.005)
 
 
-def gruppieren(rs):
-    """Union-Find über alle Paare im selben Bezirk -> Liste von Gruppen (Listen von Inseraten)."""
-    eltern = {r["id"]: r["id"] for r in rs}
+def _vertraeglich(g):
+    """Darf diese Menge eine Wohnung sein? Verhindert Ketten (A≈B≈C, aber A≠C) in Neubauprojekten."""
+    preise = [r["preis"] for r in g]
+    flaechen = [r["flaeche"] for r in g]
+    if max(preise) / min(preise) - 1 > 0.015 or max(flaechen) - min(flaechen) > 1.5:
+        return False
+    pro_quelle = {}
+    for r in g:  # pro Portal nur eine Wohnung (exakte Doppel-Inserate zählen als eine)
+        pro_quelle.setdefault(r["id"][:2], set()).add((r["preis"], round(r["flaeche"], 1)))
+    return all(len(v) == 1 for v in pro_quelle.values())
 
-    def wurzel(x):
-        while eltern[x] != x:
-            eltern[x] = eltern[eltern[x]]
-            x = eltern[x]
-        return x
+
+def gruppieren(rs):
+    """Ähnlichste Paare zuerst zusammenführen, solange die Gruppe als eine Wohnung plausibel bleibt
+    -> Liste von Gruppen (Listen von Inseraten)."""
+    paare = []
     nach_plz = {}
     for r in rs:
         nach_plz.setdefault(r["plz"], []).append(r)
@@ -276,11 +284,18 @@ def gruppieren(rs):
                 if (b.get("flaeche") or 0) - (a.get("flaeche") or 0) > 3:
                     break
                 if ist_duplikat(a, b):
-                    eltern[wurzel(a["id"])] = wurzel(b["id"])
-    gruppen = {}
-    for r in rs:
-        gruppen.setdefault(wurzel(r["id"]), []).append(r)
-    return list(gruppen.values())
+                    dp = abs(a["preis"] - b["preis"]) / max(a["preis"], b["preis"])
+                    paare.append((dp + abs(a["flaeche"] - b["flaeche"]) / 100, a["id"], b["id"]))
+    paare.sort()
+    gruppe_von = {r["id"]: [r] for r in rs}
+    for _, a, b in paare:
+        ga, gb = gruppe_von[a], gruppe_von[b]
+        if ga is gb or not _vertraeglich(ga + gb):
+            continue
+        ga.extend(gb)
+        for r in gb:
+            gruppe_von[r["id"]] = ga
+    return list({id(g): g for g in gruppe_von.values()}.values())
 
 
 def _strassen_geocode(m):
@@ -468,9 +483,10 @@ def main():
     ap.add_argument("--sicherheit", choices=["genau", "ungefaehr", "unklar"])
     ap.add_argument("--heizung", choices=["gas", "kein_gas", "unklar"])
     ap.add_argument("--grund", default="")
+    ap.add_argument("--quellen", help="nur diese Portale, z. B. wh,ds,is")
     a = ap.parse_args()
     if a.cmd in ("scrape", "all"):
-        scrape()
+        scrape(a.quellen.split(",") if a.quellen else None)
     if a.cmd in ("build", "all"):
         build()
     if a.cmd == "pending":

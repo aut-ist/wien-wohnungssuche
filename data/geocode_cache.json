@@ -22,5 +22,307 @@
  "widerhofergasse, 1090 wien": [
   48.223215,
   16.354558
+ ],
+ "währinger straße, 1180 wien": [
+  48.23008,
+  16.329297
+ ],
+ "neustift am walde, 1190 wien": [
+  48.250994,
+  16.301896
+ ],
+ "breitenfelder gasse, 1080 wien": [
+  48.214164,
+  16.343553
+ ],
+ "herbeckstraße 130/4, 1180 wien": [
+  48.231974,
+  16.32239
+ ],
+ "herbeckstraße 130/2/v1, 1180 wien": null,
+ "herbeckstraße 130, 1180 wien": [
+  48.232518,
+  16.314092
+ ],
+ "gersthofer straße 119/13, 1180 wien": [
+  48.236712,
+  16.324777
+ ],
+ "gregor mendel straße 12 - 14, 1180 wien": [
+  48.231878,
+  16.337759
+ ],
+ "gersthofer straße 119/31, 1180 wien": [
+  48.236712,
+  16.324777
+ ],
+ "schöffelgasse, 1180 wien": [
+  48.231123,
+  16.325905
+ ],
+ "gentzgasse, 1180 wien": [
+  48.231275,
+  16.329708
+ ],
+ "antonigasse, 1180 wien": [
+  48.221096,
+  16.342611
+ ],
+ "herbeckstraße 130/2, 1180 wien": [
+  48.231974,
+  16.32239
+ ],
+ "währinger park, 1180 wien": [
+  48.233127,
+  16.346796
+ ],
+ "türkenschanzpark, kahlenberg, cobenzl, cottageviertel, wiener wald, schlosspark, schafbergbad, krapfenwaldbad, 1180 wien": null,
+ "türkenschanzpark, 1180 wien": null,
+ "zentrum, 3400 wien": [
+  48.206886,
+  16.271616
+ ],
+ "nähe wertheimsteinpark, 1190 wien": null,
+ "grinzing, 1190 wien": [
+  48.256302,
+  16.340623
+ ],
+ "muthgasse 56-68/2, 1190 wien": null,
+ "muthgasse 56-68, 1190 wien": [
+  48.244857,
+  16.366041
+ ],
+ "donau, döbling, 1190 wien": [
+  48.288327,
+  16.345204
+ ],
+ "karolingasse 17, 1010 wien": null,
+ "ausstellungsstraße 29/1, 1020 wien": [
+  48.217914,
+  16.403466
+ ],
+ "ausstellungsstraße 29/10, 1020 wien": [
+  48.217807,
+  16.40224
+ ],
+ "ausstellungsstraße 29/20, 1020 wien": [
+  48.217914,
+  16.403466
+ ],
+ "nahe donau, donauinsel, prater, messe prater, uno city und u2 marina tower., 1020 wien": null,
+ "nahe donau, 1020 wien": null,
+ "herminengasse, 1020 wien": [
+  48.218101,
+  16.373759
+ ],
+ "lessinggasse, 1020 wien": [
+  48.223993,
+  16.382473
+ ],
+ "ausstellungsstraße 29/2, 1020 wien": [
+  48.21791,
+  16.40458
+ ],
+ "praterstraße, 1020 wien": [
+  48.21667,
+  16.388231
+ ],
+ "pramergasse, 1090 wien": [
+  48.222255,
+  16.362764
+ ],
+ "arne-karlsson-park, 1090 wien": null,
+ "währinger gürtel, 1090 wien": [
+  48.230371,
+  16.351014
+ ],
+ "agnesgasse, 1190 wien": [
+  48.253342,
+  16.310609
+ ],
+ "heiligenstädter straße, 1190 wien": [
+  48.2496,
+  16.362877
+ ],
+ "barawitzkagasse, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "obere donaustraße, 1020 wien": [
+  48.221431,
+  16.369619
+ ],
+ "stoffellagasse, 1020 wien": [
+  48.2145,
+  16.392727
+ ],
+ "augasse, 1090 wien": [
+  48.231265,
+  16.356992
+ ],
+ "sechsschimmelgasse, 1090 wien": [
+  48.225608,
+  16.352235
+ ],
+ "sternwartestraße, 1180 wien": [
+  48.229548,
+  16.346935
+ ],
+ "martinstraße, 1180 wien": [
+  48.22319,
+  16.341797
+ ],
+ "semperstraße, 1180 wien": [
+  48.22917,
+  16.349103
+ ],
+ "kutschkergasse, 1180 wien": [
+  48.224775,
+  16.344447
+ ],
+ "muthgasse, 1190 wien": [
+  48.253515,
+  16.369812
+ ],
+ "radelmayergasse, 1190 wien": [
+  48.237118,
+  16.35557
+ ],
+ "raffelspergergasse, 1190 wien": [
+  48.245019,
+  16.3153
+ ],
+ "sieveringer straße, 1190 wien": [
+  48.256962,
+  16.311295
+ ],
+ "krottenbachstraße, 1190 wien": [
+  48.24356,
+  16.320918
+ ],
+ "schwedenplatz, 1010 wien": [
+  48.211792,
+  16.377606
+ ],
+ "große schiffgasse, 1020 wien": [
+  48.218171,
+  16.375798
+ ],
+ "wehlistraße, 1020 wien": [
+  48.208141,
+  16.427608
+ ],
+ "nordbergstraße, 1090 wien": [
+  48.228619,
+  16.361196
+ ],
+ "borschkegasse, 1090 wien": [
+  48.218312,
+  16.343148
+ ],
+ "strozzigasse, 1080 wien": [
+  48.208035,
+  16.349009
+ ],
+ "gentzgasse 138/9, 1180 wien": [
+  48.231012,
+  16.330041
+ ],
+ "buchleitengasse, 1180 wien": [
+  48.237614,
+  16.310626
+ ],
+ "/2, 1180 wien": [
+  48.213593,
+  16.408237
+ ],
+ "sollingergasse, 1190 wien": [
+  48.24403,
+  16.33565
+ ],
+ "billrothstraße, 1190 wien": [
+  48.237452,
+  16.349082
+ ],
+ "an den langen lüssen, 1190 wien": [
+  48.253403,
+  16.339545
+ ],
+ "straßergasse, 1190 wien": [
+  48.256225,
+  16.336862
+ ],
+ "heiligenstädter straße 170/39, 1190 wien": [
+  48.248303,
+  16.362384
+ ],
+ "heiligenstädter straße/5, 1190 wien": [
+  48.232314,
+  16.354992
+ ],
+ "krugerstraße 6/13+14, 1010 wien": null,
+ "kärntner ring, 1010 wien": [
+  48.201629,
+  16.372819
+ ],
+ "/3.16a v2+, 1020 wien": null,
+ "fugbachgasse, 1020 wien": [
+  48.221745,
+  16.388633
+ ],
+ "untere augartenstraße, 1020 wien": [
+  48.219984,
+  16.371879
+ ],
+ "wolfgang-schmälzl-gasse 4/rdb, 1020 wien": null,
+ "max-winter-platz 19/rdb, 1020 wien": null,
+ "/8, 1020 wien": [
+  48.20384,
+  16.425513
+ ],
+ "/9, 1020 wien": [
+  48.203251,
+  16.426294
+ ],
+ "heiligenstädter straße/10, 1090 wien": [
+  48.232261,
+  16.355618
+ ],
+ "rögergasse 14b/4, 1090 wien": [
+  48.222687,
+  16.366235
+ ],
+ "hebragasse, 1090 wien": [
+  48.215874,
+  16.343692
+ ],
+ "josefstädter straße, 1080 wien": [
+  48.211471,
+  16.339166
+ ],
+ "u6 währinger straße - volksoper & nußdorfer straße, währinger park, 1180 wien": null,
+ "u6 währinger straße, 1180 wien": [
+  48.227487,
+  16.338764
+ ],
+ "krottenbachstraße 182/11, 1190 wien": [
+  48.250302,
+  16.307742
+ ],
+ "raffelspergergasse 26/3, 1190 wien": [
+  48.245019,
+  16.3153
+ ],
+ "zimmermanngasse, 1090 wien": [
+  48.215704,
+  16.34278
+ ],
+ "schottenring, 1010 wien": [
+  48.216561,
+  16.371945
+ ],
+ "obere donaustraße 19, 1020 wien": [
+  48.22365,
+  16.369906
  ]
 }
