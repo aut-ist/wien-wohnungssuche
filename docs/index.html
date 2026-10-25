@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Wohnungssuche Wien</title>
+<title>Gigibirds Nestlesuche</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#1f9d61">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Wohnungen">
+<meta name="apple-mobile-web-app-title" content="Nestlesuche">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" type="image/png" href="icon-180.png">
@@ -32,6 +32,16 @@
     background: var(--panel); border-bottom: 1px solid var(--line); z-index: 3; flex-wrap: wrap; }
   h1 { font-size: 17px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
   .stand { color: var(--muted); font-size: 12.5px; }
+  .marke { display: flex; align-items: center; gap: 10px; }
+  .gigibird { width: 52px; height: 44px; flex: none; overflow: visible; }
+  .gigibird .vogel { transform-origin: 25px 40px; animation: bruten 4s ease-in-out infinite; }
+  .gigibird .auge { transform-origin: 18.5px 23px; animation: zwinkern 5s infinite; }
+  .gigibird:hover .vogel { animation: hops .5s ease-in-out 2; }
+  .motto { font-style: italic; color: #b07a1c; }
+  @keyframes bruten { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-2.5deg) translateY(-.6px); } }
+  @keyframes zwinkern { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+  @keyframes hops { 50% { transform: translateY(-5px); } }
+  @media (prefers-reduced-motion: reduce) { .gigibird .vogel, .gigibird .auge { animation: none; } }
   #sync { margin-left: 6px; }
   #sync::before { content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; background: #c9a227; vertical-align: 1px; }
   #sync[data-ok="1"]::before { background: var(--gruen); }
@@ -136,7 +146,11 @@
   .vorschau div { padding: 6px 9px; font: 12.5px/1.35 Inter, system-ui, sans-serif; }
   .leaflet-tooltip.station { background: rgba(255,255,255,.88); border: 0; box-shadow: none; padding: 1px 5px; font: 11px/1.3 Inter, system-ui, sans-serif; color: #1d1f23; }
   .leaflet-tooltip.station::before { display: none; }
-  .stern-icon { color: var(--gold); font-size: 26px; line-height: 26px; text-align: center; text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 1px 4px rgba(0,0,0,.45); }
+  .ei-icon { background: none; border: 0; }
+  .ei-icon svg { display: block; overflow: visible; filter: drop-shadow(0 1px 1.5px rgba(0,0,0,.35)); }
+  .ei-icon:hover svg { transform: translateY(-2px) scale(1.08); transition: transform .15s; }
+  .leg-ei { display: inline-block; vertical-align: -3px; margin: 0 2px 0 6px; }
+  .leg-ei svg { overflow: visible; }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
   @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
@@ -154,7 +168,12 @@
     #detail.offen { transform: translateY(0); }
     .galerie .gross { height: 260px; }
     .kopf-rechts { margin-left: 0; }
-    #stand { display: none; }
+    #stand, .trenner { display: none; }
+    header > div:first-child, .marke, .marke > div { min-width: 0; }
+    h1 { font-size: 15.5px; }
+    .gigibird { width: 42px; height: 36px; }
+    .motto { display: block; font-size: 11.5px; }
+    header > div:first-child { flex: 1 1 100%; }
     .legende:not(.offen) > div { display: none; }
     .legende:not(.offen)::before { content: 'Legende'; font-weight: 600; cursor: pointer; }
   }
@@ -164,8 +183,32 @@
 <div id="app">
   <header>
     <div>
-      <h1>Wohnungssuche Wien</h1>
-      <div class="stand"><span id="stand">lädt …</span> <span id="sync" hidden></span></div>
+      <div class="marke">
+        <svg class="gigibird" viewBox="0 0 64 54" aria-hidden="true">
+          <!-- Nest -->
+          <path d="M6 36 Q32 58 58 36 Q57 46 46 50 Q32 55 18 50 Q7 46 6 36Z" fill="#9a6b3f"/>
+          <path d="M8 38 Q20 46 34 45 M14 44 Q30 50 50 42 M22 49 Q36 51 54 39" stroke="#6e4826" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+          <!-- Eier -->
+          <ellipse cx="44" cy="35" rx="5.2" ry="6.6" fill="#fff6e6" stroke="#e5d3b3" stroke-width="1"/>
+          <ellipse cx="53" cy="36.5" rx="4.4" ry="5.6" fill="#f3fbff" stroke="#cfe3ee" stroke-width="1"/>
+          <circle cx="45.5" cy="33" r="0.9" fill="#d9c09a"/><circle cx="52" cy="35" r="0.8" fill="#a9c9da"/>
+          <!-- Gigibird, brütet und hält schützend den Flügel über die Eier -->
+          <g class="vogel">
+            <ellipse cx="25" cy="27" rx="15" ry="13" fill="#f6b73c"/>
+            <ellipse cx="22" cy="31" rx="9" ry="7.5" fill="#ffe2a3"/>
+            <path d="M28 25 Q44 22 50 31 Q41 30 33 33 Q28 31 28 25Z" fill="#e0952a"/>
+            <path d="M20 14 Q22 8 26 12 Q27 7 30 13" stroke="#e0952a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+            <circle class="auge" cx="18.5" cy="23" r="2.3" fill="#1d1f23"/>
+            <circle cx="19.3" cy="22.2" r="0.7" fill="#fff"/>
+            <path d="M10.5 26 L5 28.2 L10.8 29.8Z" fill="#f07d2e"/>
+            <circle cx="14.5" cy="28.5" r="2" fill="#f7a08a" opacity=".7"/>
+          </g>
+        </svg>
+        <div>
+          <h1>Gigibirds Nestlesuche</h1>
+          <div class="stand"><span class="motto">Nestle schaua, Nestle suacha</span><span class="trenner"> · </span><span id="stand">Gigibird suacht Nestle …</span> <span id="sync" hidden></span></div>
+        </div>
+      </div>
     </div>
     <div class="kopf-rechts">
       <button class="btn" id="btnFilter" aria-pressed="false">Filter <span class="zahl" id="nTreffer">0</span></button>
@@ -191,9 +234,9 @@
   </section>
   <aside id="seite">
     <div class="tabs" role="tablist">
-      <button class="tab" role="tab" data-tab="alle" aria-selected="true">Alle <span id="nAlle"></span></button>
-      <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">★ Gemerkt <span id="nGemerkt"></span></button>
-      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Papierkorb <span id="nPapierkorb"></span></button>
+      <button class="tab" role="tab" data-tab="alle" aria-selected="true">Alle Nestle <span id="nAlle"></span></button>
+      <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">🥚 Im Nest <span id="nGemerkt"></span></button>
+      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Aus'm Nest gheit <span id="nPapierkorb"></span></button>
     </div>
     <div id="liste"></div>
     <div id="detail" aria-live="polite"></div>
@@ -206,6 +249,7 @@
 <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e' };
+const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
 const BEZIRKE = { 1010: '1.', 1020: '2.', 1080: '8.', 1090: '9.', 1180: '18.', 1190: '19.' };
@@ -328,6 +372,9 @@ map.createPane('oeffis').style.zIndex = 380;
 const oeffiEbene = L.layerGroup().addTo(map);
 const markerEbene = L.layerGroup().addTo(map);
 
+// kleines Ei für die Legende (eiSvg ist weiter unten definiert, wird aber erst beim Aufruf gebraucht)
+const legEi = (status, o = {}) => `<span class="leg-ei">${eiSvg({ status, neu: o.neu, ungefaehr: o.ungefaehr, ids: ['_leg'],
+  _gesehen: !!o.gesehen }, 16)}</span>`;
 const legende = L.control({ position: 'bottomright' });
 legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
@@ -335,8 +382,9 @@ legende.onAdd = () => {
     '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('') +
-    '<div><span class="dot" style="background:#1f9d61"></span>passt <span class="dot" style="background:#8b9099;margin-left:8px"></span>unklar <span style="color:#e3a400;margin-left:8px">★</span> gemerkt</div>' +
-    '<div><span class="dot" style="background:#fff;border:2px solid #1f9d61"></span>angesehen</div>';
+    `<div>${legEi('gruen')} passt ${legEi('grau')} unklar ${legEi('raus')} raus</div>` +
+    `<div>${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { neu: true })} neu</div>` +
+    `<div>${legEi('gruen', { ungefaehr: true })} Lage ungefähr · 🪺 im Nest</div>`;
   d.addEventListener('click', () => d.classList.toggle('offen'));
   L.DomEvent.disableClickPropagation(d);
   return d;
@@ -412,7 +460,7 @@ function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
     ${w.neu ? '<span class="tag neu">NEU</span>' : ''}
-    ${istGesehen(w) ? '<span class="tag gesehen">✓ Bereits angesehen</span>' : ''}
+    ${istGesehen(w) ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
     <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
@@ -421,9 +469,9 @@ function tagsHtml(w) {
 }
 function aktionenHtml(w, papierkorb) {
   return papierkorb
-    ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Wiederherstellen" aria-label="Wiederherstellen">↺</button>`
-    : `<button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="Merken" aria-label="Merken">★</button>
-       <button class="rund x" data-akt="weg" data-id="${esc(w.id)}" title="In den Papierkorb" aria-label="In den Papierkorb">✕</button>`;
+    ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Zurückholen" aria-label="Zurückholen">↺</button>`
+    : `<button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${istGemerkt(w) ? 'Aus dem Nest nehmen' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
+       <button class="rund x" data-akt="weg" data-id="${esc(w.id)}" title="Aus'm Nest werfen" aria-label="Aus'm Nest werfen">✕</button>`;
 }
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
@@ -446,21 +494,36 @@ function karteHtml(w, papierkorb) {
   </article>`;
 }
 
+/* Marker als Eier: Farbe = Status, gestrichelt = Lage ungefähr, weiß = scho gschaut,
+   goldener Rand = neu, im Nest = gemerkt */
+function eiSvg(w, groesse) {
+  const c = FARBE[w.status], g = w._gesehen ?? istGesehen(w), n = w.neu && !g && w.status !== 'raus';
+  const rand = g ? c : n ? '#e3a400' : '#ffffff';
+  return `<svg viewBox="-2 -2 24 30" width="${groesse * .8}" height="${groesse}">
+    <path d="${EI}" fill="${g ? '#fff' : c}" fill-opacity="${!g && w.ungefaehr ? .5 : 1}"
+      stroke="${rand}" stroke-width="${n || g ? 2.6 : 1.8}" ${w.ungefaehr ? 'stroke-dasharray="3 2.2"' : ''}/>
+    ${g ? '' : '<ellipse cx="6.6" cy="9" rx="2" ry="3.4" fill="#fff" opacity=".45" transform="rotate(-18 6.6 9)"/>'}</svg>`;
+}
+function eiIcon(w) {
+  if (istGemerkt(w)) {  // Ei im Nest
+    return L.divIcon({ className: 'ei-icon', iconSize: [42, 40], iconAnchor: [21, 30], html: `
+      <svg viewBox="0 0 36 34" width="42" height="40">
+        <g transform="translate(8 0)">${eiSvg(w, 26).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>
+        <path d="M2 20 Q18 36 34 20 Q33 28 26 31 Q18 34 10 31 Q3 28 2 20Z" fill="#9a6b3f" stroke="#fff" stroke-width="1.2"/>
+        <path d="M5 23 Q15 29 25 26 M9 28 Q20 31 31 23" stroke="#6e4826" stroke-width="1.2" fill="none"/>
+      </svg>` });
+  }
+  const s = w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28;
+  return L.divIcon({ className: 'ei-icon', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: eiSvg(w, s) });
+}
+
 function zeichneMarker(liste) {
   markerEbene.clearLayers();
   state.marker = {};
   const rang = { raus: 0, grau: 1, gruen: 2 };
   [...liste].sort((a, b) => rang[a.status] - rang[b.status] + (istGemerkt(a) - istGemerkt(b)) * 10).forEach(w => {
     if (!w.lat) return;
-    let m;
-    if (istGemerkt(w)) {
-      m = L.marker([w.lat, w.lon], { icon: L.divIcon({ className: 'stern-icon', html: '★', iconSize: [26, 26], iconAnchor: [13, 14] }), zIndexOffset: 1000 });
-    } else {
-      const c = FARBE[w.status], g = istGesehen(w);
-      m = L.circleMarker([w.lat, w.lon], { radius: w.status === 'raus' ? 5 : g ? 6 : 8,
-        color: w.neu && !g && w.status !== 'raus' ? '#e3a400' : c, weight: w.neu && !g ? 3 : 2,
-        dashArray: w.ungefaehr ? '3 3' : null, fillColor: g ? '#fff' : c, fillOpacity: g ? .9 : w.ungefaehr ? .35 : .9 });
-    }
+    const m = L.marker([w.lat, w.lon], { icon: eiIcon(w), zIndexOffset: istGemerkt(w) ? 1000 : rang[w.status] * 100 });
     m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
     m.on('click', () => oeffne(w.id, true));
@@ -477,8 +540,9 @@ function zeichne() {
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
   document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
   document.getElementById('nTreffer').textContent = s.alle.length;
-  const leer = { alle: 'Keine Wohnungen für diese Filter.', gemerkt: 'Noch nichts gemerkt. Tippe auf ★ bei einer Wohnung.',
-    papierkorb: 'Papierkorb ist leer. Mit ✕ entfernte Wohnungen landen hier und lassen sich wiederherstellen.' }[state.tab];
+  const leer = { alle: 'Gigibird findet für diese Filter grad kein Nestle.',
+    gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
+    papierkorb: "Nix aus'm Nest gheit. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
   document.getElementById('liste').innerHTML = liste.length
     ? liste.map(w => karteHtml(w, state.tab === 'papierkorb')).join('')
     : `<div class="leer">${leer}</div>`;
@@ -499,9 +563,9 @@ async function zeigeDetail(id, neuLaden = true) {
     <div class="detail-kopf">
       <button class="btn" data-akt="schliessen">← Zurück</button>
       <span class="spacer"></span>
-      ${papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Wiederherstellen</button>`
-        : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">★ ${istGemerkt(w) ? 'Gemerkt' : 'Merken'}</button>
-           <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Papierkorb</button>`}
+      ${papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
+        : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
+           <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
     </div>
     ${bilder.length ? `<div class="galerie">
       ${img(bilder[state.bildIdx], 'class="gross"')}
@@ -559,7 +623,7 @@ function oeffne(id, vonKarte) {
     markiere('gesehen', id, new Date().toISOString());
     const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
     if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
-    if (w && state.marker[id] && !istGemerkt(w)) state.marker[id].setStyle({ fillColor: '#fff', radius: 6, weight: 2, color: FARBE[w.status] });
+    if (w && state.marker[id]) state.marker[id].setIcon(eiIcon(w));
   }
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
   document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
@@ -679,7 +743,7 @@ function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); zeichn
 chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
 chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',
   v => `<span class="dot" style="background:${FARBE[v]}"></span>${STATUS_TXT[v]}`);
-document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button><button class="chip" data-k="ungesehen">nur ungesehene</button>';
+document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button><button class="chip" data-k="ungesehen">no ned gschaut</button>';
 document.querySelectorAll('#fExtra .chip').forEach(b => b.addEventListener('click', () => { filter[b.dataset.k] = !filter[b.dataset.k]; filterGeaendert(); }));
 [['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer']].forEach(([id, k]) =>
   document.getElementById(id).addEventListener('input', e => { filter[k] = e.target.value ? +e.target.value : null; filterGeaendert(); }));

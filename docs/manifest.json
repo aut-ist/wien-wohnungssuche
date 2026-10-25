@@ -1,6 +1,6 @@
 {
-  "name": "Wohnungssuche Wien",
-  "short_name": "Wohnungen",
+  "name": "Gigibirds Nestlesuche",
+  "short_name": "Nestlesuche",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f5f2",
