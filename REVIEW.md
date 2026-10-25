@@ -53,7 +53,8 @@ Die Käufer wollen selbst einziehen und nichts sanieren. Antworte mit
   ohne jedes Enddatum dasteht, typisch bei Anleger- oder Vorsorgewohnungen mit
   Mietertrag. Ebenso `raus`, wenn sie **saniert oder renoviert werden muss**:
   sanierungs- oder renovierungsbedürftig, Originalzustand, für Handwerker,
-  Rohdachboden, "nach Ihren Vorstellungen sanieren".
+  Rohdachboden, "nach Ihren Vorstellungen sanieren". Auch **belagsfertig**, Edelrohbau oder
+  ohne Bodenbeläge (Böden, Fliesen oder Bad fehlen noch) sind `raus`; schlüsselfertig ist ok.
 - `hinweis` wenn sie **befristet** vermietet ist (z. B. "befristet bis 2027") oder nur kleine
   Arbeiten nötig sind. Die Wohnung bleibt drin, `begruendung` erscheint als Hinweis.
 - `ok` heißt bestandsfrei, saniert oder Erstbezug. Ebenso, wenn "Mieter" nur allgemein

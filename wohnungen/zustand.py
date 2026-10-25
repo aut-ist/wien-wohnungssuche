@@ -1,11 +1,13 @@
 """Ausschlüsse nach Zustand und Nutzung (wie heizung.py: eindeutig -> automatisch, sonst Prüfung).
 
 - unbefristet vermietet -> raus (befristet vermietet bleibt drin, mit Hinweis)
-- sanierungs-/renovierungsbedürftig -> raus ("saniert", "generalsaniert" sind positiv und bleiben)
+- sanierungs-/renovierungsbedürftig oder belagsfertig -> raus ("saniert", "generalsaniert",
+  "schlüsselfertig" sind positiv und bleiben)
 """
 import re
 
-ZUSTAND_SCHLECHT = re.compile(r"(?i)sanierungsbed|renovierungsbed|modernisierungsbed|abbruch|needs? renovation|in need of")
+ZUSTAND_SCHLECHT = re.compile(r"(?i)sanierungsbed|renovierungsbed|modernisierungsbed|abbruch|needs? renovation|in need of"
+                              r"|belagsfertig|rohbau")
 
 VERMIETET_STARK = re.compile(
     r"(?i)unbefristet\w*[^.\n]{0,40}(vermietet|vermietung|miet|bestand)"
@@ -18,7 +20,9 @@ SANIERUNG_STARK = re.compile(
     r"(?i)(?<!nicht )(?<!kaum )sanierungsbed[üu]rftig|(?<!nicht )renovierungsbed[üu]rftig|modernisierungsbed[üu]rftig"
     r"|sanierungsobjekt|renovierungsobjekt|f[üu]r (handwerker|bastler)|handwerkerwohnung|abbruchreif"
     r"|rohdachboden|im rohbau|muss (komplett |vollständig |noch )?(saniert|renoviert) werden"
-    r"|zu sanierende|sanierungsfall")
+    r"|zu sanierende|sanierungsfall"
+    # belagsfertig: Böden/Fliesen/Bad fehlen noch -> Käufer muss selbst fertigstellen
+    r"|belagsfertig|belagsbereit|edelrohbau|rohbauzustand|ohne (boden)?bel[äa]ge?\b|ohne bodenbelag")
 SANIERUNG_SCHWACH = re.compile(
     r"(?i)(?<!kein )(?<!keinen )(?<!ohne )(sanierungs|renovierungs|modernisierungs)bedarf"
     r"|(sanierung|renovierung)\s+(ist\s+)?(erforderlich|notwendig|n[öo]tig)"
@@ -42,7 +46,8 @@ def einschaetzen(r):
     if ZUSTAND_SCHLECHT.search(zustand):
         gruende.append(f"Zustand: {zustand}")
     elif s := _stelle(SANIERUNG_STARK, text):
-        gruende.append(f"Sanierung nötig: {s}")
+        art = "nicht fertiggestellt (belagsfertig)" if re.search(r"(?i)belags|rohbau|ohne (boden)?bel", s) else "Sanierung nötig"
+        gruende.append(f"{art}: {s}")
     elif s := _stelle(SANIERUNG_SCHWACH, text):
         offen.append(f"Sanierung? {s}")
 
