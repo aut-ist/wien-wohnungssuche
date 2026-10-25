@@ -182,9 +182,11 @@
  },
  "wh-1296729808": {
   "lage": {
-   "adresse": "Alsergrund",
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"9. Bezirk\", \"Straßenbahn, Bus, U6 in wenigen Gehminuten\" - keine Straße"
+   "adresse": "Alservorstadt nahe Spitalgasse (± 400 m)",
+   "lat": 48.21885,
+   "lon": 16.34856,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Nur ein versetzter ImmoScout24-Punkt (± 400 m), Text nennt keine Straße (\"Öffis 3 Min., U6 in wenigen Gehminuten\")"
   },
   "datum": "2026-10-25"
  },
@@ -457,17 +459,21 @@
  },
  "fm-5736190": {
   "lage": {
-   "adresse": null,
-   "sicherheit": "unklar",
-   "begruendung": "\"wenige Schritte von der U6-Station Nußdorfer Straße\", Seitengasse – liegt an der Grenze zur roten Zone"
+   "adresse": "Lustkandlgasse 46",
+   "lat": 48.229517,
+   "lon": 16.352035,
+   "sicherheit": "genau",
+   "begruendung": "Selbes Haus wie \"Wohnen über den Dächern Wiens\" (KLASAN, gleicher Lagetext): Lustkandlgasse 46"
   },
   "datum": "2026-10-25"
  },
  "fm-5736189": {
   "lage": {
-   "adresse": null,
-   "sicherheit": "unklar",
-   "begruendung": "\"wenige Schritte von der U6-Station Nußdorfer Straße\", Seitengasse – liegt an der Grenze zur roten Zone"
+   "adresse": "Lustkandlgasse 46",
+   "lat": 48.229517,
+   "lon": 16.352035,
+   "sicherheit": "genau",
+   "begruendung": "Gleiche Wohnung auf immomarktplatz.at: Bild beschriftet \"Lustkandlgasse 46\", Umgebungsliste \"in der Nähe der Lustkandlgasse 48\"; derStandard: \"Lagebeschreibung für Lustkandlgasse, 1090 Wien\""
   },
   "datum": "2026-10-25"
  },
@@ -501,17 +507,21 @@
  },
  "wh-2039112596": {
   "lage": {
-   "adresse": "Kutschkermarkt",
+   "adresse": "Lacknergasse 102 (± 150 m)",
+   "lat": 48.22774,
+   "lon": 16.33379,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Ruhige Seitenstraße in der Nähe des Kutschkermarkts\""
+   "begruendung": "Aus Entfernungen der Maklersoftware (Volksschule 60 m, Kindergarten 150 m, U-Bahn 970 m, Zentrum 3,56 km) und ImmoScout24-Punkt eingemessen"
   },
   "datum": "2026-10-25"
  },
  "wh-1309980503": {
   "lage": {
-   "adresse": "Eduardgasse",
+   "adresse": "Kreuzgasse 35 (± 100 m)",
+   "lat": 48.2231,
+   "lon": 16.3383,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Straßenbahn 40, 41, 42 Eduardgasse (2 Gehminuten)\""
+   "begruendung": "Aus 7 Gehzeiten im Inserat eingemessen (Tram Eduardgasse 2 min, Martinstraße 7, RG Schopenhauerstraße 3, …) – zweiter ImmoScout24-Punkt liegt 6 m daneben"
   },
   "datum": "2026-10-25"
  },

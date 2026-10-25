@@ -20,6 +20,14 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Wiener Linien die mittlere Zeit je Haltestelle bis zu einer U6-Station am Gürtel ->
   `geo/guertel_zeiten.json`; `guertel_zeit()` in run.py addiert den Fußweg. Neu rechnen, wenn
   sich Fahrpläne ändern (z. B. zum Fahrplanwechsel im Dezember).
+- Nest-Recherche: Landet eine Wohnung mit unsicherer Lage im Nest, meldet das
+  `tools/nest_waechter.py` (läuft im Hintergrund einer Claude-Sitzung, beendet sich beim Fund).
+  Vorgehen: alle Portaltexte der Gruppe lesen → Websuche nach dem Inserat auf anderen Seiten
+  (oft steht dort die Adresse) → bei Projekten alle Einheiten auf ImmoScout24 suchen (ohne
+  Preisgrenze) und die zufällig versetzten Punkte mitteln → Gehzeiten/Entfernungen aus dem Text
+  mit `tools/ortung.py` einmessen. Ergebnis mit `run.py review ID --lat --lon --sicherheit`
+  eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+  Reicht schon die Info im Inserat für ±100 m, nicht weiter recherchieren.
 - Duplikate: `gruppieren()` in run.py führt dieselbe Wohnung über Portale zu einem Punkt
   zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat).
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
