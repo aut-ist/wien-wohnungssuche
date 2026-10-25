@@ -194,6 +194,9 @@
   .leg-ei svg { overflow: visible; }
   .nur-handy { display: none; }
   @media (max-width: 800px) { .nur-handy { display: inline-flex; } }
+  /* Nur-Ansicht für Familie */
+  .nur-nest #btnFilter, .nur-nest #filter, .nur-nest .tab:not([data-tab="alle"]) { display: none !important; }
+  .nur-nest .tab[data-tab="alle"] { cursor: default; }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
   @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
@@ -201,8 +204,9 @@
   .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
 
   @media (max-width: 800px) {
-    #app { grid-template-columns: 1fr; grid-template-rows: auto 42dvh 1fr; }
-    #app.filter-offen { grid-template-rows: auto auto 42dvh 1fr; }
+    /* Handy: Liste bekommt mehr Platz, Karte oben nur als Streifen (mit "Karte groß" aufziehbar) */
+    #app { grid-template-columns: 1fr; grid-template-rows: auto 28dvh 1fr; }
+    #app.filter-offen { grid-template-rows: auto auto 28dvh 1fr; }
     #map { grid-row: -3; }
     #app.karte-gross { grid-template-rows: auto 78dvh 1fr; }
     #app.karte-gross.filter-offen { grid-template-rows: auto auto 78dvh 1fr; }
@@ -251,7 +255,7 @@
         </svg>
         <div>
           <h1>Gigibirds Nestlesuche</h1>
-          <div class="stand"><span class="motto">Nestle schaua, Nestle suacha</span><span class="trenner"> · </span><span id="stand">Gigibird suacht Nestle …</span> <span id="sync" hidden></span></div>
+          <div class="stand"><span class="motto">Nestle suacha, Nestle finda</span><span class="trenner"> · </span><span id="stand">Gigibird suacht Nestle …</span> <span id="sync" hidden></span></div>
         </div>
       </div>
     </div>
@@ -302,6 +306,9 @@
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>
+// Nur-Ansicht für Familie (?nest): zeigt nur die Wohnungen im Nest, nichts ist änderbar
+const NUR_NEST = new URLSearchParams(location.search).has('nest');
+if (NUR_NEST) document.documentElement.classList.add('nur-nest');
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
@@ -361,11 +368,12 @@ const gemeinsam = {
   // Markierungen, die vor der Umstellung nur auf diesem Gerät lagen, einmalig hochladen
   altbestand(server) {
     this.hochgeladen = true;
+    if (NUR_NEST) return;
     for (const l of LISTEN) for (const [id, t] of Object.entries(mein[l] || {}))
       if (!(server[l] || {})[id]) { this.schreiben(l, id, t); (server[l] = server[l] || {})[id] = t; }
   },
   schreiben(liste, id, wert) {
-    if (!this.basis) return;
+    if (!this.basis || NUR_NEST) return;
     fetch(`${this.basis}/${liste}/${encodeURIComponent(id)}.json`,
       { method: wert == null ? 'DELETE' : 'PUT', body: wert == null ? undefined : JSON.stringify(wert) })
       .catch(() => { this.verbunden = false; this.status(); });
@@ -374,12 +382,13 @@ const gemeinsam = {
     const el = document.getElementById('sync');
     if (!el) return;
     el.hidden = false;
-    el.textContent = !this.basis ? 'nur auf diesem Gerät' : this.verbunden ? 'gemeinsam · live' : 'verbinde …';
+    el.textContent = !this.basis ? 'nur auf diesem Gerät' : !this.verbunden ? 'verbinde …' : NUR_NEST ? 'live' : 'gemeinsam · live';
     el.dataset.ok = this.basis && this.verbunden ? '1' : '0';
   },
 };
 // eine Markierung setzen (wert) oder entfernen (null) – lokal sofort, gemeinsam im Hintergrund
 function markiere(liste, id, wert) {
+  if (NUR_NEST) return;  // Nur-Ansicht: nichts ändern, auch nicht "scho gschaut"
   if (wert == null) delete mein[liste][id]; else mein[liste][id] = wert;
   sichern();
   gemeinsam.schreiben(liste, id, wert);
@@ -432,11 +441,20 @@ const legEi = (status, o = {}) => `<span class="leg-ei">${eiSvg({ status, neu: o
 const legende = L.control({ position: 'bottomright' });
 legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
+  const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('');
+  if (NUR_NEST) {  // Familie: nur das Nötige
+    d.innerHTML = `<div><b>🪺 Ei im Nest</b> = von uns ausgewählt</div>` +
+      `<div>${legEi('gruen', { ungefaehr: true })} gestrichelt: Lage nur ungefähr</div>` +
+      '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
+    d.addEventListener('click', () => d.classList.toggle('offen'));
+    L.DomEvent.disableClickPropagation(d);
+    return d;
+  }
   d.innerHTML =
     '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
     '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
-    Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('') +
+    oeffiLeg +
     `<div>${legEi('gruen')} passt ${legEi('grau')} unklar ${legEi('raus')} raus</div>` +
     `<div>${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { neu: true })} neu</div>` +
     `<div>${legEi('gruen', { ungefaehr: true })} Lage ungefähr · 🪺 im Nest</div>`;
@@ -454,10 +472,9 @@ async function ladeGebiete() {
     style: f => [8, 9, 18, 19].includes(f.properties.bezirk)
       ? { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillColor: '#3b5bdb', fillOpacity: .05 }
       : { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillOpacity: 0 } }).addTo(map);
-  L.geoJSON(zonen, { pane: 'gebiete',
-    style: f => f.properties.rolle === 'erlaubt'
-      ? { color: '#3b5bdb', weight: 2, fillOpacity: .12 }
-      : { color: '#d24b3e', weight: 2, fillOpacity: .15 },
+  // nur die rote Zone zeichnen; die blauen Zonen (1./2. Bezirk) wirken nur im Filter
+  if (!NUR_NEST) L.geoJSON(zonen, { pane: 'gebiete', filter: f => f.properties.rolle !== 'erlaubt',
+    style: { color: '#d24b3e', weight: 2, fillOpacity: .15 },
     onEachFeature: (f, l) => l.bindTooltip(f.properties.name, { sticky: true }) }).addTo(map);
   if (oeffis) {
     L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
@@ -501,6 +518,10 @@ function sortiere(l) {
 const imPapierkorb = w => hat('papierkorb', w);
 const istGemerkt = w => hat('gemerkt', w);
 function sichtbar() {
+  if (NUR_NEST) {  // Familie sieht nur das Nest, ohne Filter
+    const nest = state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w));
+    return { karte: nest, alle: nest, gemerkt: nest, papierkorb: [] };
+  }
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
   return {
     karte: basis,
@@ -548,7 +569,7 @@ function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
     ${w.neu ? '<span class="tag neu">NEU</span>' : ''}
-    ${istGesehen(w) ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
+    ${istGesehen(w) && !NUR_NEST ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
     <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
@@ -556,6 +577,7 @@ function tagsHtml(w) {
   </div>`;
 }
 function aktionenHtml(w, papierkorb) {
+  if (NUR_NEST) return '';
   return papierkorb
     ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Zurückholen" aria-label="Zurückholen">↺</button>`
     : `<button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${istGemerkt(w) ? 'Aus dem Nest nehmen' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
@@ -641,7 +663,8 @@ function zeichne() {
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
   document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
   document.getElementById('nTreffer').textContent = s.karte.length;  // Treffer auf der Karte inkl. Nest
-  const leer = { alle: 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
+  const leer = { alle: NUR_NEST ? 'Noch nichts im Nest – Gigibird sucht noch.'
+      : 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
     gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
     papierkorb: "Nix aus'm Nest ghaut. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
   document.getElementById('liste').innerHTML = liste.length
@@ -665,7 +688,7 @@ async function zeigeDetail(id, neuLaden = true) {
       <button class="btn" data-akt="schliessen">← Zurück</button>
       <button class="btn nur-handy" data-akt="aufkarte">📍 Karte</button>
       <span class="spacer"></span>
-      ${papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
+      ${NUR_NEST ? '' : papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
         : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
            <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
     </div>
@@ -726,7 +749,7 @@ function oeffne(id, vonKarte) {
   const vorher = state.aktiv;
   state.aktiv = id; state.bildIdx = 0;
   const w = state.daten.find(x => x.id === id);
-  if (w && !istGesehen(w)) {
+  if (w && !istGesehen(w) && !NUR_NEST) {
     markiere('gesehen', id, new Date().toISOString());
     const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
     if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
@@ -934,6 +957,12 @@ document.getElementById('btnFilter').addEventListener('click', e => {
 
 /* ---------- Start ---------- */
 (async () => {
+  if (NUR_NEST) {
+    document.title = 'Gigibirds Nest';
+    document.querySelector('h1').textContent = 'Gigibirds Nest';
+    document.querySelector('.motto').textContent = 'Unsere Nestle-Favoriten, zum Anschauen';
+    document.querySelector('[data-tab="alle"]').innerHTML = '🥚 Im Nest <span id="nAlle"></span>';
+  }
   filterUi();
   ladeGebiete().catch(console.error);
   const d = await fetch('listings.json', { cache: 'no-store' }).then(r => r.json());
