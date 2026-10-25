@@ -83,6 +83,11 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
         except Exception as e:  # eine kaputte Quelle soll den Rest nicht stoppen
             fehler.append(f"{name} {plz}: {e}")
             traceback.print_exc()
+            # Ausfall heißt nicht "Inserate weg": bisherige Inserate dieses Portals im Bezirk behalten
+            with lock:
+                for r in listings.values():
+                    if r["id"].startswith(m.PREFIX + "-") and r.get("plz") == plz and r.get("aktiv"):
+                        r["zuletzt"] = TODAY
 
     # Detailseiten nur für Kandidaten, die die Vorab-Filter bestehen
     with lock:

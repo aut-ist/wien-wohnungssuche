@@ -188,6 +188,20 @@ def _summary(e, plz, entries=()):
     }
 
 
+def _get(url):
+    """derStandard bremst Server-Adressen (GitHub Actions) mit 403: langsam abfragen und
+    nach einer Sperre einmal länger warten. Keine Umgehung, nur weniger Last."""
+    import time
+    import urllib.error
+    for versuch in range(2):
+        try:
+            return get(url, pause=(4.0, 7.0))
+        except urllib.error.HTTPError as e:
+            if e.code != 403 or versuch:
+                raise
+            time.sleep(90)
+
+
 def search(plz):
     """Eigentumswohnungen im Bezirk mit Preis-/Flächenfilter des Portals (16 Treffer pro Seite)."""
     from .config import CONFIG
@@ -196,7 +210,7 @@ def search(plz):
     for seite in range(1, MAX_SEITEN + 1):
         url = (f"{BASE}/suche/{SLUGS[plz]}/kaufen-wohnung?priceTo={int(f['preis_max'])}"
                f"&areaFrom={int(f['flaeche_min'])}&page={seite}")
-        page = get(url)
+        page = _get(url)
         if not page:  # hinter der letzten Seite antwortet das Portal mit 404
             break
         res = _objekt(_flight(page), '{"__typename":"PaginatedPropertyEntriesResponse"')
@@ -219,7 +233,7 @@ def search(plz):
 def detail(listing_id):
     """Volltext, Heizung, Energieausweis und Adresse eines Inserats."""
     ad_id = listing_id.removeprefix(PREFIX + "-")
-    page = get(f"{BASE}/detail/{ad_id}")
+    page = _get(f"{BASE}/detail/{ad_id}")
     if not page:
         return None
     flight = _flight(page)
