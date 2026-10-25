@@ -418,7 +418,12 @@ def zusammenfuehren(gruppe, reviews):
                 m.update({k: v for k, v in alt.items() if k != "adresse"})
         elif not m.get("adresse"):
             m["adresse"] = next((r["adresse"] for r in gruppe if r.get("adresse")), None)
-    if GENAU[m.get("lage_genauigkeit")] < 3 and (gefunden := _adresse_aus_text(m)):
+    if m.get("punkt_verdaechtig") and (gefunden := _adresse_aus_text(m)) and \
+            _abstand_m(m, {"lat": gefunden[1][0], "lon": gefunden[1][1]}) > 120:
+        # geteilter Standardpunkt, aber der Text nennt eine andere Adresse (z. B. "Staudgasse 40")
+        m["adresse"], (m["lat"], m["lon"]) = gefunden[0], gefunden[1]
+        m["lage_genauigkeit"] = "adresse"
+    elif GENAU[m.get("lage_genauigkeit")] < 3 and (gefunden := _adresse_aus_text(m)):
         # Adresse steht nur in der Beschreibung (z. B. "Projekt M86, Martinstraße 86")
         m["adresse"], (m["lat"], m["lon"]) = gefunden[0], gefunden[1]
         m["lage_genauigkeit"] = "adresse"
@@ -465,6 +470,14 @@ def build():
     erster_lauf = min((r["erstmals"] for r in listings.values()), default=TODAY)
     zaehler = {"gruen": 0, "grau": 0, "raus": 0}
     aktiv = [r for r in listings.values() if r.get("aktiv")]
+    # Makler setzen manchmal denselben Standardpunkt für viele Inserate. Teilen sich 3+ verschiedene
+    # Inserate exakt dieselben Koordinaten, ist der Punkt verdächtig (zusammenfuehren prüft dann den Text)
+    titel_pro_punkt = {}
+    for r in aktiv:
+        if r.get("lat") and GENAU[r.get("lage_genauigkeit")] >= 2:
+            titel_pro_punkt.setdefault((r["lat"], r["lon"]), set()).add((r.get("titel") or "")[:25].lower())
+    verdaechtig = {p for p, t in titel_pro_punkt.items() if len(t) >= 3}
+    aktiv = [{**r, "punkt_verdaechtig": True} if (r.get("lat"), r.get("lon")) in verdaechtig else r for r in aktiv]
     gruppen = gruppieren([r for r in aktiv if not (r.get("projekt") or "/neubauprojekt/" in r.get("url", ""))])
     gruppen += [[r] for r in aktiv if r.get("projekt") or "/neubauprojekt/" in r.get("url", "")]
     doppelt = sum(len(g) - 1 for g in gruppen)

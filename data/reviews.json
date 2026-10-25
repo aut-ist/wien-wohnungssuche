@@ -482,14 +482,28 @@
    "ergebnis": "hinweis",
    "begruendung": "Neubau, als Vorsorgewohnung für Anleger beworben – nicht vermietet, Eigennutzung beim Makler klären"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-25",
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
+  }
  },
  "wh-995729007": {
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "Neubau, als Vorsorgewohnung für Anleger beworben – nicht vermietet, Eigennutzung beim Makler klären"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-25",
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
+  }
  },
  "is-180870860971": {
   "zustand": {
@@ -584,6 +598,76 @@
    "lon": 16.32118,
    "sicherheit": "ungefaehr",
    "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1164047911": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1521015679": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1017542154": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": 48.22362,
+   "lon": 16.33997,
+   "sicherheit": "genau",
+   "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1810653507": {
+  "lage": {
+   "adresse": "Martinstraße 86",
+   "lat": 48.22541,
+   "lon": 16.34225,
+   "sicherheit": "genau",
+   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+  },
+  "datum": "2026-10-25"
+ },
+ "is-913919867359": {
+  "lage": {
+   "adresse": "Martinstraße 86",
+   "lat": 48.22541,
+   "lon": 16.34225,
+   "sicherheit": "genau",
+   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1959877344": {
+  "lage": {
+   "adresse": "Martinstraße 86",
+   "lat": 48.22541,
+   "lon": 16.34225,
+   "sicherheit": "genau",
+   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+  },
+  "datum": "2026-10-25"
+ },
+ "is-139220585181": {
+  "lage": {
+   "adresse": "Martinstraße 86",
+   "lat": 48.22541,
+   "lon": 16.34225,
+   "sicherheit": "genau",
+   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
   },
   "datum": "2026-10-25"
  }

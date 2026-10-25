@@ -54,5 +54,187 @@
   "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit Terrasse",
   "ergebnis": "Alservorstadt nahe Spitalgasse, ±400 m (mehr Info gibt es nicht)",
   "datum": "2026-10-25"
+ },
+ "wh-1849409386": {
+  "ids": [
+   "wh-1849409386",
+   "wh-991072087",
+   "ds-15037691",
+   "is-872690675259",
+   "ds-15168300",
+   "wh-1084383112",
+   "is-877293695140"
+  ],
+  "titel": "MAISON WÄHRING",
+  "ergebnis": "korrigiert: Staudgasse 40 (Projekt MAISON WÄHRING; willhaben zeigte Standardpunkt Kreuzgasse 23)",
+  "datum": "2026-10-25"
+ },
+ "wh-995729007": {
+  "ids": [
+   "wh-995729007",
+   "is-028092133517",
+   "ds-15170425"
+  ],
+  "titel": "MAISON WÄHRING",
+  "ergebnis": "korrigiert: Staudgasse 40 (MAISON WÄHRING)",
+  "datum": "2026-10-25"
+ },
+ "wh-1164047911": {
+  "ids": [
+   "wh-1164047911",
+   "is-994036005387",
+   "ds-15170445"
+  ],
+  "titel": "PREISREDUZIERT- Großzügige 4-Zimmer-Wohnung mit Westterrasse nahe AKH - Wohnen & Investieren",
+  "ergebnis": "korrigiert: Staudgasse 40 (Text: MAISON WÄHRING)",
+  "datum": "2026-10-25"
+ },
+ "wh-1521015679": {
+  "ids": [
+   "wh-1521015679",
+   "is-898805484674",
+   "ds-15170446"
+  ],
+  "titel": "PREISREDUKTION -4 Zimmer-Wohnung mit Westterrasse nahe AKH - attraktiv für Eigennutzer & Anleger",
+  "ergebnis": "korrigiert: Staudgasse 40 (Text: MAISON WÄHRING)",
+  "datum": "2026-10-25"
+ },
+ "wh-1017542154": {
+  "ids": [
+   "wh-1017542154",
+   "ds-15037694"
+  ],
+  "titel": "4-Zimmer-Erstbezugs-Wohnung mit Terrasse/Loggia nahe AKH",
+  "ergebnis": "korrigiert: Staudgasse 40 (Text: \"Neubauprojekt in der Staudgasse 40\")",
+  "datum": "2026-10-25"
+ },
+ "is-913919867359": {
+  "ids": [
+   "is-913919867359",
+   "wh-1959877344"
+  ],
+  "titel": "M86 - Perfekte Familienwohnung mit 3- Schlafzimmer",
+  "ergebnis": "korrigiert: Martinstraße 86 (Punkt lag ~250 m zu weit südlich)",
+  "datum": "2026-10-25"
+ },
+ "wh-1810653507": {
+  "ids": [
+   "wh-1810653507",
+   "is-139220585181"
+  ],
+  "titel": "M86 - Eigentumswohnung im 18. Bezirk - 4 Zimmer und Garten",
+  "ergebnis": "korrigiert: Martinstraße 86 (Punkt lag ~250 m zu weit südlich)",
+  "datum": "2026-10-25"
+ },
+ "wh-1189143375": {
+  "ids": [
+   "wh-1189143375",
+   "wh-2112582298",
+   "is-004736730590",
+   "is-084732306455",
+   "is-961112648527",
+   "ds-15293838",
+   "ds-15288144",
+   "ds-15036035",
+   "is-014241264224",
+   "fm-5591192"
+  ],
+  "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Altbauwohnung mit rund 14 m² großer Terrasse und Grünfläche",
+  "ergebnis": "bestätigt: Kutschkergasse (willhaben-Adresse, mehrere Portale nennen Kutschkergasse)",
+  "datum": "2026-10-25"
+ },
+ "wh-1925658613": {
+  "ids": [
+   "wh-1925658613",
+   "wh-1385741007",
+   "is-546597163503",
+   "is-052417641301",
+   "ds-15290943",
+   "ds-15036037",
+   "is-437978220444",
+   "fm-5591190"
+  ],
+  "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Neubauwohnung mit Balkon",
+  "ergebnis": "bestätigt: Kutschkergasse (willhaben-Adresse, mehrere Portale nennen Kutschkergasse)",
+  "datum": "2026-10-25"
+ },
+ "wh-1249521365": {
+  "ids": [
+   "wh-1249521365",
+   "is-644215973483",
+   "wh-1786897455",
+   "is-480213811841",
+   "ds-15012552"
+  ],
+  "titel": "Familientraum mit perfektem Grundriss - sofort bezugsfertig nahe AKH!",
+  "ergebnis": "bestätigt: Kreuzgasse 21 (willhaben- und ImmoScout24-Punkt identisch)",
+  "datum": "2026-10-25"
+ },
+ "wh-1125947689": {
+  "ids": [
+   "wh-1125947689",
+   "fm-5613866",
+   "is-311329472763",
+   "ds-15209333"
+  ],
+  "titel": "Eden & Ivy - Moderne 4-Zimmer-Altbauwohnung",
+  "ergebnis": "bestätigt: Weitlofgasse Ecke Gymnasiumstraße (Text \"Die Weitlofgasse …\", willhaben-Punkt dort)",
+  "datum": "2026-10-25"
+ },
+ "wh-1610587856": {
+  "ids": [
+   "wh-1610587856",
+   "is-887572981819",
+   "ds-15255239"
+  ],
+  "titel": "Exklusive Dachgeschoss-Maisonette mit Panoramaterrasse - Stilvolle Wohnkultur im Herzen von Währing",
+  "ergebnis": "bestätigt: Staudgasse beim Aumannplatz (willhaben-Adresse, Text nennt Staudgasse und Aumannplatz)",
+  "datum": "2026-10-25"
+ },
+ "wh-1301343986": {
+  "ids": [
+   "wh-1301343986",
+   "is-498490497227"
+  ],
+  "titel": "Moderne Gartenwohnung - Erstbezug | Provisionsfrei",
+  "ergebnis": "bestätigt: Krottenbachstraße 105 (willhaben- und ImmoScout24-Adresse)",
+  "datum": "2026-10-25"
+ },
+ "wh-1725543422": {
+  "ids": [
+   "wh-1725543422",
+   "is-802967549260"
+  ],
+  "titel": "Erstbezug! Exklusive 4-Zimmer Gartenwohnung mit Loggia und TG-Platz!",
+  "ergebnis": "bestätigt: Nußberggasse 14 (willhaben- und ImmoScout24-Punkt identisch)",
+  "datum": "2026-10-25"
+ },
+ "wh-977565627": {
+  "ids": [
+   "wh-977565627",
+   "is-156254806188"
+  ],
+  "titel": "Provisionsfreie 4-Zimmer Neubauwohnungen mit Freiflächen ab Euro 749.900!",
+  "ergebnis": "bestätigt: Greinergasse 38 (willhaben- und ImmoScout24-Punkt identisch)",
+  "datum": "2026-10-25"
+ },
+ "wh-1033362768": {
+  "ids": [
+   "wh-1033362768",
+   "is-628126108293"
+  ],
+  "titel": "Familien-Apartment in Kutschkermarkt-Nähe",
+  "ergebnis": "bestätigt: Kreuzgasse 25 (willhaben und ImmoScout24 nennen die Adresse)",
+  "datum": "2026-10-25"
+ },
+ "wh-1046812803": {
+  "ids": [
+   "wh-1046812803",
+   "is-561306833127",
+   "ds-15293823"
+  ],
+  "titel": "NEU! 5-Zi-Wohnung mit Balkon in 1190 Wien - 131m² Wohnkomfort!",
+  "ergebnis": "bestätigt: Flotowgasse 17 (willhaben- und ImmoScout24-Punkt identisch)",
+  "datum": "2026-10-25"
  }
 }

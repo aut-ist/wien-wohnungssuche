@@ -20,7 +20,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Wiener Linien die mittlere Zeit je Haltestelle bis zu einer U6-Station am Gürtel ->
   `geo/guertel_zeiten.json`; `guertel_zeit()` in run.py addiert den Fußweg. Neu rechnen, wenn
   sich Fahrpläne ändern (z. B. zum Fahrplanwechsel im Dezember).
-- Nest-Recherche: Landet eine Wohnung mit unsicherer Lage im Nest, meldet das
+- Nest-Recherche: JEDE Wohnung, die ins Nest gelegt wird, wird auf ihre Lage geprüft (auch mit
+  "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
+  Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das
   `tools/nest_waechter.py` (läuft im Hintergrund einer Claude-Sitzung, beendet sich beim Fund).
   Vorgehen: alle Portaltexte der Gruppe lesen → Websuche nach dem Inserat auf anderen Seiten
   (oft steht dort die Adresse) → bei Projekten alle Einheiten auf ImmoScout24 suchen (ohne

@@ -1,4 +1,4 @@
-"""Wartet, bis im Nest eine Wohnung mit unsicherer Lage liegt, die noch nicht recherchiert wurde.
+"""Wartet, bis im Nest eine Wohnung liegt, deren Lage noch nicht geprüft wurde (jede neue Nest-Wohnung).
 
 Läuft im Hintergrund einer Claude-Sitzung: sobald ein Fall auftaucht, gibt er ihn als JSON-Zeile
 aus und beendet sich – dadurch wird Claude geweckt, recherchiert die Lage (siehe REVIEW.md /
@@ -36,8 +36,7 @@ def offene_faelle():
     geprueft = json.loads(GEPRUEFT.read_text(encoding="utf-8")) if GEPRUEFT.exists() else {}
     erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)
     return [w for w in daten["wohnungen"]
-            if set(w["ids"]) & nest and not set(w["ids"]) & korb
-            and w.get("ungefaehr") and not set(w["ids"]) & erledigt]
+            if set(w["ids"]) & nest and not set(w["ids"]) & korb and not set(w["ids"]) & erledigt]
 
 
 def main():

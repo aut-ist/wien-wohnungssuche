@@ -395,5 +395,81 @@
  "lustkandlgasse 48, 1090 wien": [
   48.229687,
   16.35207
+ ],
+ "staudgasse 40, 1180 wien": [
+  48.223622,
+  16.339966
+ ],
+ "sternwartestraße 18/7, 1180 wien": [
+  48.229185,
+  16.349998
+ ],
+ "eduard-pötzl-gasse 1/top 39, 1190 wien": null,
+ "eduard-pötzl-gasse 1, 1190 wien": [
+  48.244847,
+  16.359735
+ ],
+ "eduard-pötzl-gasse 1/top 33, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 30, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 24, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 21, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 15, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 13, 1190 wien": null,
+ "eduard-pötzl-gasse 1/top 12, 1190 wien": null,
+ "salmannsdorfer straße 43a, 1190 wien": [
+  48.253868,
+  16.290549
+ ],
+ "barawitzkagasse 32/31, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "barawitzkagasse 32/33, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "barawitzkagasse 32/30, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "barawitzkagasse 32/32, 1190 wien": [
+  48.244605,
+  16.357972
+ ],
+ "messe wien & wu & donauinsel & prater, 1020 wien": null,
+ "heinestraße, 1020 wien": [
+  48.220023,
+  16.386713
+ ],
+ "stuwerstraße 18/18, 1020 wien": [
+  48.218787,
+  16.406109
+ ],
+ "akh, zimmermannplatz, 1090 wien": null,
+ "rögergasse 14b/10, 1090 wien": [
+  48.225571,
+  16.364737
+ ],
+ "rögergasse 14b/7, 1090 wien": [
+  48.223883,
+  16.365852
+ ],
+ "eduard-pötzl-gasse 1/top 02, 1190 wien": null,
+ "sternwartestraße 18, 1180 wien": [
+  48.229665,
+  16.346993
+ ],
+ "rögergasse 14b, 1090 wien": [
+  48.224206,
+  16.365809
+ ],
+ "fernbahnhof 0, 1190 wien": null,
+ "obersteinergasse 11, 1190 wien": [
+  48.241083,
+  16.346581
+ ],
+ "barawitzkagasse 32, 1190 wien": [
+  48.244535,
+  16.360715
  ]
 }
