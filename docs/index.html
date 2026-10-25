@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wohnungssuche Wien</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f5f2; --panel: #fff; --ink: #1d1f23; --muted: #6b7079; --line: #e6e4de; --soft: #f1f0ec;
+    --gruen: #1f9d61; --grau: #8b9099; --raus: #d24b3e; --gold: #e3a400; --zone: #3b5bdb;
+    --shadow: 0 8px 28px rgba(20, 22, 26, .14); --r: 12px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+    font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  button, input, select { font: inherit; color: inherit; }
+  #app { display: grid; grid-template-columns: 440px 1fr; grid-template-rows: auto 1fr; height: 100dvh; }
+
+  /* Kopfzeile */
+  header { grid-column: 1 / -1; display: flex; align-items: center; gap: 12px; padding: 10px 16px;
+    background: var(--panel); border-bottom: 1px solid var(--line); z-index: 3; flex-wrap: wrap; }
+  h1 { font-size: 17px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+  .stand { color: var(--muted); font-size: 12.5px; }
+  .kopf-rechts { margin-left: auto; display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn { border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 6px 12px;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 13px; white-space: nowrap; }
+  .btn:hover { background: var(--soft); }
+  .btn[aria-pressed="true"] { background: var(--ink); color: #fff; border-color: var(--ink); }
+  .btn .zahl { background: var(--soft); color: var(--ink); border-radius: 999px; padding: 0 7px; font-size: 12px; font-weight: 600; }
+  .btn[aria-pressed="true"] .zahl { background: rgba(255,255,255,.2); color: #fff; }
+
+  /* Filter */
+  #filter { grid-column: 1 / -1; display: none; gap: 14px 22px; flex-wrap: wrap; align-items: flex-end;
+    padding: 12px 16px; background: var(--panel); border-bottom: 1px solid var(--line); z-index: 3; }
+  #filter.offen { display: flex; }
+  #app.filter-offen { grid-template-rows: auto auto 1fr; }
+  .feld { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+  .feld input[type=number] { width: 110px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: #fff; }
+  .chips { display: flex; gap: 5px; flex-wrap: wrap; }
+  .chip { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 4px 10px; cursor: pointer; font-size: 12.5px; color: var(--ink); }
+  .chip[aria-pressed="true"] { background: #e8edff; border-color: #b7c4ff; color: #22337a; font-weight: 600; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+
+  /* Seitenleiste */
+  #seite { position: relative; overflow: hidden; background: var(--panel); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; }
+  .tabs { display: flex; border-bottom: 1px solid var(--line); flex: none; }
+  .tab { flex: 1; padding: 10px 6px; border: 0; background: none; cursor: pointer; font-weight: 600; font-size: 13px; color: var(--muted); border-bottom: 2px solid transparent; }
+  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--ink); }
+  #liste { overflow-y: auto; flex: 1; padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+  .leer { padding: 30px 12px; color: var(--muted); text-align: center; }
+
+  .karte { flex: none; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: #fff; transition: box-shadow .15s, border-color .15s; }
+  .karte:hover, .karte.aktiv { box-shadow: var(--shadow); border-color: #d5d2ca; }
+  .karte.gemerkt { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+  .fotos { position: relative; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 190px; background: var(--soft); scrollbar-width: none; }
+  .fotos::-webkit-scrollbar { display: none; }
+  .fotos img { flex: 0 0 100%; width: 100%; height: 190px; object-fit: cover; scroll-snap-align: start; cursor: pointer; }
+  .foto-wrap { position: relative; }
+  .foto-zahl { position: absolute; left: 8px; bottom: 8px; background: rgba(0,0,0,.55); color: #fff; font-size: 11.5px; padding: 2px 7px; border-radius: 999px; pointer-events: none; }
+  .foto-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border-radius: 50%; border: 0;
+    background: rgba(255,255,255,.9); cursor: pointer; font-size: 16px; display: none; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+  .foto-wrap:hover .foto-nav { display: block; }
+  .foto-nav.l { left: 8px; } .foto-nav.r { right: 8px; }
+  .aktionen { position: absolute; top: 8px; right: 8px; display: flex; gap: 6px; }
+  .rund { width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center;
+    font-size: 17px; background: rgba(255,255,255,.95); box-shadow: 0 2px 8px rgba(0,0,0,.2); line-height: 1; }
+  .rund.stern { color: #9a9a9a; } .rund.stern.an { color: var(--gold); }
+  .rund.x { color: var(--raus); font-weight: 700; }
+  .rund.zurueck { color: var(--gruen); }
+  .karte-body { padding: 10px 12px 12px; cursor: pointer; }
+  .zeile1 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .preis { font-weight: 700; font-size: 17px; }
+  .meta { color: var(--muted); font-size: 12.5px; }
+  .titel { font-size: 13px; margin: 3px 0 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .fakten { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12.5px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 7px; }
+  .tag { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--soft); color: #4d525a; }
+  .tag.neu { background: #fff1c2; color: #7a5a00; }
+  .tag.gruen { background: #e2f4ea; color: #146b42; }
+  .tag.grau { background: #eceef1; color: #4d525a; }
+  .tag.raus { background: #fbe5e2; color: #9c2f24; }
+  .tag.gold { background: #fff3cc; color: #7a5a00; }
+
+  /* Detail */
+  #detail { position: absolute; inset: 0; background: var(--panel); z-index: 5; overflow-y: auto; transform: translateX(-102%); transition: transform .22s ease; }
+  #detail.offen { transform: translateX(0); }
+  .detail-kopf { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
+  .detail-kopf .spacer { flex: 1; }
+  .galerie { position: relative; background: #111; }
+  .galerie .gross { width: 100%; height: 300px; object-fit: contain; display: block; background: #111; }
+  .galerie .foto-nav { display: block; }
+  .thumbs { display: flex; gap: 4px; overflow-x: auto; padding: 6px; background: #111; scrollbar-width: thin; }
+  .thumbs img { width: 64px; height: 48px; object-fit: cover; border-radius: 4px; opacity: .55; cursor: pointer; flex: none; }
+  .thumbs img.an { opacity: 1; outline: 2px solid #fff; }
+  .detail-body { padding: 14px 16px 30px; }
+  .detail-body h2 { font-size: 16px; margin: 6px 0 10px; line-height: 1.35; }
+  .detail-body h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 18px 0 6px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .fakt { background: var(--soft); border-radius: 10px; padding: 8px 10px; }
+  .fakt b { display: block; font-size: 14.5px; }
+  .fakt span { font-size: 11.5px; color: var(--muted); }
+  .info { border-left: 3px solid var(--line); padding: 4px 10px; margin: 6px 0; font-size: 13px; }
+  .info.gruen { border-color: var(--gruen); } .info.grau { border-color: var(--grau); } .info.raus { border-color: var(--raus); }
+  .text { white-space: pre-wrap; font-size: 13.5px; line-height: 1.55; }
+  .text h4 { margin: 14px 0 4px; font-size: 13.5px; }
+  .gross-btn { display: block; text-align: center; background: var(--ink); color: #fff; text-decoration: none; border-radius: 10px; padding: 11px; font-weight: 600; margin-top: 16px; }
+
+  /* Karte */
+  #map { height: 100%; min-height: 0; }
+  .leaflet-tooltip.vorschau { padding: 0; border: 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); }
+  .vorschau img { width: 200px; height: 120px; object-fit: cover; display: block; }
+  .vorschau div { padding: 6px 9px; font: 12.5px/1.35 Inter, system-ui, sans-serif; }
+  .stern-icon { color: var(--gold); font-size: 26px; line-height: 26px; text-align: center; text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 1px 4px rgba(0,0,0,.45); }
+  .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
+  .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
+  .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
+
+  @media (max-width: 800px) {
+    #app { grid-template-columns: 1fr; grid-template-rows: auto 42dvh 1fr; }
+    #app.filter-offen { grid-template-rows: auto auto 42dvh 1fr; }
+    #map { grid-row: -3; }
+    #seite { grid-row: -2; border-right: 0; border-top: 1px solid var(--line); }
+    #detail { position: fixed; z-index: 2000; transform: translateY(102%); }
+    #detail.offen { transform: translateY(0); }
+    .galerie .gross { height: 260px; }
+    .kopf-rechts { margin-left: 0; }
+    .stand { display: none; }
+    .legende:not(.offen) > div { display: none; }
+    .legende:not(.offen)::before { content: 'Legende'; font-weight: 600; cursor: pointer; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div>
+      <h1>Wohnungssuche Wien</h1>
+      <div class="stand" id="stand">lädt …</div>
+    </div>
+    <div class="kopf-rechts">
+      <button class="btn" id="btnFilter" aria-pressed="false">Filter <span class="zahl" id="nTreffer">0</span></button>
+      <button class="btn" id="btnOeffis" aria-pressed="true">Öffis 18./19.</button>
+    </div>
+  </header>
+  <section id="filter" aria-label="Filter">
+    <label class="feld">Preis bis (€)<input type="number" id="fPreis" step="10000" min="0" placeholder="1.000.000"></label>
+    <label class="feld">m² ab<input type="number" id="fFlaeche" step="5" min="0" placeholder="70"></label>
+    <label class="feld">Zimmer ab<input type="number" id="fZimmer" step="1" min="0" placeholder="4"></label>
+    <div class="feld">Bezirk<div class="chips" id="fBezirke"></div></div>
+    <div class="feld">Status<div class="chips" id="fStatus"></div></div>
+    <div class="feld">Sonstiges<div class="chips" id="fExtra"></div></div>
+    <div class="feld">Sortierung
+      <select id="fSort" class="chip">
+        <option value="neu">Neueste zuerst</option>
+        <option value="preis">Preis aufsteigend</option>
+        <option value="qm">€/m² aufsteigend</option>
+        <option value="flaeche">Größte zuerst</option>
+      </select>
+    </div>
+    <button class="btn" id="fReset">Zurücksetzen</button>
+  </section>
+  <aside id="seite">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="alle" aria-selected="true">Alle <span id="nAlle"></span></button>
+      <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">★ Gemerkt <span id="nGemerkt"></span></button>
+      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Papierkorb <span id="nPapierkorb"></span></button>
+    </div>
+    <div id="liste"></div>
+    <div id="detail" aria-live="polite"></div>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e' };
+const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
+const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
+const BEZIRKE = { 1010: '1.', 1020: '2.', 1080: '8.', 1090: '9.', 1180: '18.', 1190: '19.' };
+const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e8710a', w: 2, d: '5 4', n: 'Bus' },
+  ubahn: { c: '#6d4c41', w: 4, n: 'U-Bahn' }, sbahn: { c: '#0277bd', w: 3, d: '8 4', n: 'S-Bahn' } };
+const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-AT');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const img = (src, extra = '') => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
+
+/* ---------- Speicher: Merken & Papierkorb (pro Gerät) ---------- */
+const speicher = {
+  key: 'wohnungssuche.v1',
+  lesen() { try { return JSON.parse(localStorage.getItem(this.key)) || {}; } catch { return {}; } },
+  schreiben(d) { try { localStorage.setItem(this.key, JSON.stringify(d)); } catch {} },
+};
+const mein = Object.assign({ gemerkt: {}, papierkorb: {}, filter: null }, speicher.lesen());
+const sichern = () => speicher.schreiben(mein);
+
+const STD_FILTER = { preis: null, flaeche: null, zimmer: null, bezirke: Object.keys(BEZIRKE).map(Number),
+  status: ['gruen', 'grau'], neu: false, freiflaeche: false, sort: 'neu' };
+let filter = Object.assign({}, STD_FILTER, mein.filter || {});
+const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
+
+/* ---------- Karte ---------- */
+const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], 13);
+L.control.zoom({ position: 'topright' }).addTo(map);
+L.tileLayer('https://mapsneu.wien.gv.at/basemap/bmapgrau/normal/google3857/{z}/{y}/{x}.png', {
+  maxZoom: 19, attribution: 'Karte: <a href="https://basemap.at">basemap.at</a> · Daten: Stadt Wien, willhaben'
+}).addTo(map);
+map.createPane('gebiete').style.zIndex = 350;
+map.createPane('oeffis').style.zIndex = 380;
+const oeffiEbene = L.layerGroup().addTo(map);
+const markerEbene = L.layerGroup().addTo(map);
+
+const legende = L.control({ position: 'bottomright' });
+legende.onAdd = () => {
+  const d = L.DomUtil.create('div', 'legende');
+  d.innerHTML =
+    '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
+    '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
+    Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('') +
+    '<div><span class="dot" style="background:#1f9d61"></span>passt <span class="dot" style="background:#8b9099;margin-left:8px"></span>unklar <span style="color:#e3a400;margin-left:8px">★</span> gemerkt</div>';
+  d.addEventListener('click', () => d.classList.toggle('offen'));
+  L.DomEvent.disableClickPropagation(d);
+  return d;
+};
+legende.addTo(map);
+
+async function ladeGebiete() {
+  const j = p => fetch(p).then(r => r.json());
+  const [bez, zonen, oeffis] = await Promise.all([j('geo/bezirke.geojson'), j('geo/zones.geojson'), j('geo/oeffis.geojson').catch(() => null)]);
+  L.geoJSON(bez, { pane: 'gebiete', interactive: false,
+    style: f => [8, 9, 18, 19].includes(f.properties.bezirk)
+      ? { color: '#3b5bdb', weight: 1.5, fillOpacity: .06 }
+      : { color: '#3b5bdb', weight: 1, dashArray: '4 4', fillOpacity: 0 } }).addTo(map);
+  L.geoJSON(zonen, { pane: 'gebiete',
+    style: f => f.properties.rolle === 'erlaubt'
+      ? { color: '#3b5bdb', weight: 2, fillOpacity: .12 }
+      : { color: '#d24b3e', weight: 2, fillOpacity: .15 },
+    onEachFeature: (f, l) => l.bindTooltip(f.properties.name, { sticky: true }) }).addTo(map);
+  if (oeffis) L.geoJSON(oeffis, { pane: 'oeffis',
+    style: f => { const o = OEFFI[f.properties.typ]; return { color: o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
+    onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(oeffiEbene);
+}
+
+/* ---------- Filtern ---------- */
+function passtFilter(w) {
+  if (filter.preis && w.preis > filter.preis) return false;
+  if (filter.flaeche && w.flaeche && w.flaeche < filter.flaeche) return false;
+  if (filter.zimmer && w.zimmer && w.zimmer < filter.zimmer) return false;
+  if (!filter.bezirke.includes(w.plz)) return false;
+  if (!filter.status.includes(w.status)) return false;
+  if (filter.neu && !w.neu) return false;
+  if (filter.freiflaeche && !(w.freiflaeche || []).length) return false;
+  return true;
+}
+function sortiere(l) {
+  const s = {
+    neu: (a, b) => b.erstmals.localeCompare(a.erstmals) || (b.preis ?? 0) - (a.preis ?? 0),
+    preis: (a, b) => (a.preis ?? 1e12) - (b.preis ?? 1e12),
+    qm: (a, b) => (a.preis / a.flaeche || 1e9) - (b.preis / b.flaeche || 1e9),
+    flaeche: (a, b) => (b.flaeche ?? 0) - (a.flaeche ?? 0),
+  }[filter.sort];
+  return l.sort(s);
+}
+const imPapierkorb = w => !!mein.papierkorb[w.id];
+const istGemerkt = w => !!mein.gemerkt[w.id];
+function sichtbar() {
+  const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
+  return {
+    karte: basis,
+    alle: basis,
+    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w)),
+    papierkorb: state.daten.filter(imPapierkorb),
+  };
+}
+
+/* ---------- Darstellung ---------- */
+function fakten(w) {
+  const qm = w.preis && w.flaeche ? eur(w.preis / w.flaeche) + '/m²' : '';
+  return { qm, txt: [`${w.flaeche ?? '?'} m²`, `${w.zimmer ?? '?'} Zimmer`, ...(w.freiflaeche || [])] };
+}
+function tagsHtml(w) {
+  const h = w.heizung || {};
+  return `<div class="tags">
+    ${w.neu ? '<span class="tag neu">NEU</span>' : ''}
+    <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
+    ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
+    ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
+    ${w.preis_historie?.length ? '<span class="tag gold">Preis geändert</span>' : ''}
+  </div>`;
+}
+function aktionenHtml(w, papierkorb) {
+  return papierkorb
+    ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Wiederherstellen" aria-label="Wiederherstellen">↺</button>`
+    : `<button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="Merken" aria-label="Merken">★</button>
+       <button class="rund x" data-akt="weg" data-id="${esc(w.id)}" title="In den Papierkorb" aria-label="In den Papierkorb">✕</button>`;
+}
+function karteHtml(w, papierkorb) {
+  const f = fakten(w);
+  const bilder = (w.bilder || []).slice(0, 12);
+  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+    <div class="foto-wrap">
+      <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="oeffnen"')).join('') : '<div style="flex:1"></div>'}</div>
+      ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
+      <span class="foto-zahl">${(w.bilder || []).length} Fotos</span>` : ''}
+      <div class="aktionen">${aktionenHtml(w, papierkorb)}</div>
+    </div>
+    <div class="karte-body" data-akt="oeffnen">
+      <div class="zeile1"><span class="preis">${eur(w.preis)}</span><span class="meta">${f.qm}</span></div>
+      <div class="titel">${esc(w.titel)}</div>
+      <div class="fakten">${f.txt.map(esc).join('<span class="meta">·</span>')}</div>
+      <div class="meta" style="margin-top:3px">${esc(w.adresse ? w.adresse + ' · ' : '')}${BEZIRKE[w.plz] || ''} Bezirk${w.status === 'raus' ? ' · ' + esc(w.gruende.join(' · ')) : ''}</div>
+      ${tagsHtml(w)}
+    </div>
+  </article>`;
+}
+
+function zeichneMarker(liste) {
+  markerEbene.clearLayers();
+  state.marker = {};
+  const rang = { raus: 0, grau: 1, gruen: 2 };
+  [...liste].sort((a, b) => rang[a.status] - rang[b.status] + (istGemerkt(a) - istGemerkt(b)) * 10).forEach(w => {
+    if (!w.lat) return;
+    let m;
+    if (istGemerkt(w)) {
+      m = L.marker([w.lat, w.lon], { icon: L.divIcon({ className: 'stern-icon', html: '★', iconSize: [26, 26], iconAnchor: [13, 14] }), zIndexOffset: 1000 });
+    } else {
+      const c = FARBE[w.status];
+      m = L.circleMarker([w.lat, w.lon], { radius: w.status === 'raus' ? 5 : 8, color: w.neu && w.status !== 'raus' ? '#e3a400' : c,
+        weight: w.neu ? 3 : 2, dashArray: w.ungefaehr ? '3 3' : null, fillColor: c, fillOpacity: w.ungefaehr ? .35 : .9 });
+    }
+    m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
+      { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
+    m.on('click', () => oeffne(w.id, true));
+    m.addTo(markerEbene);
+    state.marker[w.id] = m;
+  });
+}
+
+function zeichne() {
+  const s = sichtbar();
+  zeichneMarker(s.karte);
+  const liste = sortiere([...s[state.tab]]);
+  document.getElementById('nAlle').textContent = s.alle.length;
+  document.getElementById('nGemerkt').textContent = s.gemerkt.length;
+  document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
+  document.getElementById('nTreffer').textContent = s.alle.length;
+  const leer = { alle: 'Keine Wohnungen für diese Filter.', gemerkt: 'Noch nichts gemerkt. Tippe auf ★ bei einer Wohnung.',
+    papierkorb: 'Papierkorb ist leer. Mit ✕ entfernte Wohnungen landen hier und lassen sich wiederherstellen.' }[state.tab];
+  document.getElementById('liste').innerHTML = liste.length
+    ? liste.map(w => karteHtml(w, state.tab === 'papierkorb')).join('')
+    : `<div class="leer">${leer}</div>`;
+  if (state.aktiv) zeigeDetail(state.aktiv, false);
+}
+
+/* ---------- Detailansicht ---------- */
+async function zeigeDetail(id, neuLaden = true) {
+  const w = state.daten.find(x => x.id === id);
+  const el = document.getElementById('detail');
+  if (!w) { el.classList.remove('offen'); return; }
+  const f = fakten(w), h = w.heizung || {}, e = w.energie || {};
+  const bilder = w.bilder?.length ? w.bilder : (w.bild ? [w.bild] : []);
+  state.bildIdx = Math.min(state.bildIdx, Math.max(0, bilder.length - 1));
+  const papierkorb = imPapierkorb(w);
+  const hist = (w.preis_historie || []).map(([d, p]) => `${esc(d)}: ${eur(p)}`).join(', ');
+  el.innerHTML = `
+    <div class="detail-kopf">
+      <button class="btn" data-akt="schliessen">← Zurück</button>
+      <span class="spacer"></span>
+      ${papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Wiederherstellen</button>`
+        : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">★ ${istGemerkt(w) ? 'Gemerkt' : 'Merken'}</button>
+           <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Papierkorb</button>`}
+    </div>
+    ${bilder.length ? `<div class="galerie">
+      ${img(bilder[state.bildIdx], 'class="gross"')}
+      ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="gal-l" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="gal-r" aria-label="Foto weiter">›</button>
+      <span class="foto-zahl">${state.bildIdx + 1} / ${bilder.length}</span>` : ''}
+    </div>
+    <div class="thumbs">${bilder.map((b, i) => img(b, `data-akt="gal" data-i="${i}" class="${i === state.bildIdx ? 'an' : ''}"`)).join('')}</div>` : ''}
+    <div class="detail-body">
+      <div class="zeile1"><span class="preis" style="font-size:22px">${eur(w.preis)}</span><span class="meta">${f.qm}</span></div>
+      <h2>${esc(w.titel)}</h2>
+      ${tagsHtml(w)}
+      <div class="grid" style="margin-top:12px">
+        <div class="fakt"><b>${w.flaeche ?? '?'} m²</b><span>Wohnfläche</span></div>
+        <div class="fakt"><b>${w.zimmer ?? '?'}</b><span>Zimmer</span></div>
+        <div class="fakt"><b>${esc((w.freiflaeche || []).join(', ') || '–')}</b><span>Freifläche</span></div>
+        <div class="fakt"><b>${w.stockwerk != null ? esc(w.stockwerk) : '–'}</b><span>Stockwerk</span></div>
+        <div class="fakt"><b>${esc([w.bauart, w.baujahr].filter(Boolean).join(', ') || '–')}</b><span>Gebäude</span></div>
+        <div class="fakt"><b>${esc(w.zustand || '–')}</b><span>Zustand</span></div>
+        <div class="fakt"><b>${w.monatlich ? eur(w.monatlich) : '–'}</b><span>monatliche Kosten</span></div>
+        <div class="fakt"><b>${e.hwb ? 'HWB ' + esc(e.hwb) + (e.hwb_class ? ' (' + esc(e.hwb_class) + ')' : '') : '–'}</b><span>Energie${e.fgee ? ' · fGEE ' + esc(e.fgee) : ''}</span></div>
+      </div>
+      <h3>Lage</h3>
+      <div class="info ${w.ungefaehr ? 'grau' : 'gruen'}">${esc(w.adresse ? w.adresse + ' · ' : '')}${esc(w.lage || '')}</div>
+      <h3>Heizung</h3>
+      <div class="info ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}"><b>${HEIZ_TXT[h.ergebnis] || '–'}</b>${h.von ? ` <span class="meta">(${esc(h.von)})</span>` : ''}<br>${esc(h.text || '')}</div>
+      ${w.gruende?.length ? `<h3>Hinweise</h3><div class="info ${w.status}">${esc(w.gruende.join(' · '))}</div>` : ''}
+      ${hist ? `<h3>Preisverlauf</h3><div class="info">vorher ${hist}, jetzt ${eur(w.preis)}</div>` : ''}
+      <h3>Beschreibung</h3>
+      <div class="text" id="dText">${state.details[w.id] ? textHtml(state.details[w.id].text) : '<span class="meta">lädt …</span>'}</div>
+      <div class="meta" style="margin-top:14px">${esc(w.anbieter || '')} · online seit ${esc(w.erstmals)} · ${esc(w.quelle)}</div>
+      <a class="gross-btn" href="${esc(w.url)}" target="_blank" rel="noopener">Inserat auf ${esc(w.quelle)} öffnen</a>
+    </div>`;
+  el.classList.add('offen');
+  if (neuLaden) el.scrollTop = 0;
+  if (!state.details[w.id]) {
+    try {
+      state.details[w.id] = await fetch(`d/${encodeURIComponent(w.id)}.json`).then(r => r.ok ? r.json() : { text: '' });
+    } catch { state.details[w.id] = { text: '' }; }
+    const t = document.getElementById('dText');
+    if (t && state.aktiv === w.id) t.innerHTML = textHtml(state.details[w.id].text) || '<span class="meta">Keine Beschreibung gespeichert.</span>';
+  }
+}
+function textHtml(t) {
+  return esc(t || '').replace(/^## (.+)$/gm, '<h4>$1</h4>').replace(/\n(<h4>)/g, '$1').replace(/(<\/h4>)\n/g, '$1');
+}
+function oeffne(id, vonKarte) {
+  state.aktiv = id; state.bildIdx = 0;
+  document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
+  document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
+  zeigeDetail(id);
+  const m = state.marker[id];
+  if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 15), { duration: .5 });
+}
+function schliesse() { state.aktiv = null; document.getElementById('detail').classList.remove('offen'); }
+
+/* ---------- Aktionen ---------- */
+function merken(id) {
+  if (mein.gemerkt[id]) delete mein.gemerkt[id]; else mein.gemerkt[id] = new Date().toISOString();
+  sichern(); zeichne();
+}
+function wegwerfen(id) {
+  mein.papierkorb[id] = new Date().toISOString(); delete mein.gemerkt[id];
+  sichern(); if (state.aktiv === id) schliesse(); zeichne();
+}
+function wiederherstellen(id) { delete mein.papierkorb[id]; sichern(); zeichne(); }
+
+document.getElementById('app').addEventListener('click', e => {
+  const t = e.target.closest('[data-akt]'); if (!t) return;
+  const id = t.dataset.id || t.closest('[data-id]')?.dataset.id;
+  const akt = t.dataset.akt;
+  if (akt === 'merken') return merken(id);
+  if (akt === 'weg') return wegwerfen(id);
+  if (akt === 'zurueck') return wiederherstellen(id);
+  if (akt === 'oeffnen') return oeffne(id);
+  if (akt === 'schliessen') return schliesse();
+  if (akt === 'links' || akt === 'rechts') {
+    const f = t.closest('.foto-wrap').querySelector('.fotos');
+    f.scrollBy({ left: (akt === 'rechts' ? 1 : -1) * f.clientWidth, behavior: 'smooth' });
+    return;
+  }
+  if (akt.startsWith('gal')) {
+    const w = state.daten.find(x => x.id === state.aktiv), n = (w.bilder || []).length || 1;
+    state.bildIdx = akt === 'gal' ? +t.dataset.i : (state.bildIdx + (akt === 'gal-r' ? 1 : -1) + n) % n;
+    zeigeDetail(state.aktiv, false);
+  }
+});
+document.addEventListener('keydown', e => {
+  if (!state.aktiv || e.target.matches('input, select')) return;
+  if (e.key === 'Escape') schliesse();
+  if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+    const w = state.daten.find(x => x.id === state.aktiv), n = (w?.bilder || []).length || 1;
+    state.bildIdx = (state.bildIdx + (e.key === 'ArrowRight' ? 1 : -1) + n) % n;
+    zeigeDetail(state.aktiv, false);
+  }
+});
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+  state.tab = b.dataset.tab;
+  document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === b));
+  schliesse(); zeichne();
+}));
+document.getElementById('btnOeffis').addEventListener('click', e => {
+  const an = e.currentTarget.getAttribute('aria-pressed') !== 'true';
+  e.currentTarget.setAttribute('aria-pressed', an);
+  an ? oeffiEbene.addTo(map) : oeffiEbene.remove();
+  document.querySelectorAll('.oeffi-leg').forEach(x => x.style.display = an ? '' : 'none');
+});
+
+/* ---------- Filter-UI ---------- */
+function chipGruppe(el, werte, key, label) {
+  el.innerHTML = werte.map(v => `<button class="chip" data-v="${esc(v)}">${label(v)}</button>`).join('');
+  el.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    const v = isNaN(+b.dataset.v) ? b.dataset.v : +b.dataset.v;
+    filter[key] = filter[key].includes(v) ? filter[key].filter(x => x !== v) : [...filter[key], v];
+    filterGeaendert();
+  }));
+}
+function filterUi() {
+  document.getElementById('fPreis').value = filter.preis ?? '';
+  document.getElementById('fFlaeche').value = filter.flaeche ?? '';
+  document.getElementById('fZimmer').value = filter.zimmer ?? '';
+  document.getElementById('fSort').value = filter.sort;
+  document.querySelectorAll('#fBezirke .chip').forEach(b => b.setAttribute('aria-pressed', filter.bezirke.includes(+b.dataset.v)));
+  document.querySelectorAll('#fStatus .chip').forEach(b => b.setAttribute('aria-pressed', filter.status.includes(b.dataset.v)));
+  document.querySelectorAll('#fExtra .chip').forEach(b => b.setAttribute('aria-pressed', !!filter[b.dataset.k]));
+}
+function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); zeichne(); }
+chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
+chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',
+  v => `<span class="dot" style="background:${FARBE[v]}"></span>${STATUS_TXT[v]}`);
+document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button>';
+document.querySelectorAll('#fExtra .chip').forEach(b => b.addEventListener('click', () => { filter[b.dataset.k] = !filter[b.dataset.k]; filterGeaendert(); }));
+[['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer']].forEach(([id, k]) =>
+  document.getElementById(id).addEventListener('input', e => { filter[k] = e.target.value ? +e.target.value : null; filterGeaendert(); }));
+document.getElementById('fSort').addEventListener('change', e => { filter.sort = e.target.value; filterGeaendert(); });
+document.getElementById('fReset').addEventListener('click', () => { filter = Object.assign({}, STD_FILTER); filterGeaendert(); });
+document.getElementById('btnFilter').addEventListener('click', e => {
+  const an = document.getElementById('filter').classList.toggle('offen');
+  document.getElementById('app').classList.toggle('filter-offen', an);
+  e.currentTarget.setAttribute('aria-pressed', an);
+  setTimeout(() => map.invalidateSize(), 50);
+});
+
+/* ---------- Start ---------- */
+(async () => {
+  filterUi();
+  ladeGebiete().catch(console.error);
+  const d = await fetch('listings.json', { cache: 'no-store' }).then(r => r.json());
+  state.daten = d.wohnungen;
+  document.getElementById('stand').textContent = `Stand ${d.stand} · willhaben`;
+  zeichne();
+})();
+</script>
+</body>
+</html>

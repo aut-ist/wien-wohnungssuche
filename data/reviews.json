@@ -1,0 +1,401 @@
+{
+ "wh-2078219425": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Die Wohnung wird derzeit mit einem Gas-Konvektor beheizt\" (Haus hat Wärmepumpe, Wohnung getrennt)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1056644702": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\"; Wärmepumpe nur als Möglichkeit"
+  },
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 100
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-988498465": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", Zentralheizung"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-806109089": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Die Wohnung verfügt über Gaszentralheizung\"; Wärmepumpe nur auf eigene Kosten"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1664940010": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Die Beheizung erfolgt derzeit über eine Gas-Zentralheizung\"; Wärmepumpe-Anschluss nur optional"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-2144413810": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", Zentralheizung"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-920081885": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Die Heizung erfolgt über einen zentralen Gas-Heizkessel im Keller\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1476454107": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", Zentralheizung"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1077060274": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\" (Fußbodenheizung über Gas-Zentralheizung)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1608703437": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\"; Wärmepumpe nur als Umbaumöglichkeit"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1536012468": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Hauszentralheizung (Gas)\"; Pellets nur angedacht"
+  },
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 108
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1757229925": {
+  "heizung": {
+   "ergebnis": "unklar",
+   "begruendung": "Widerspruch: Felder \"Fernwärme\"/\"Fernheizung\"/\"Etagenheizung\", Text aber \"Heizungsart: Gas bezogen von Wienenergie\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-807488188": {
+  "lage": {
+   "adresse": "Dammhaufengasse 4",
+   "sicherheit": "genau",
+   "begruendung": "\"Wer großzügig wohnen will, findet in der Dammhaufengasse 4 ...\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-824706917": {
+  "heizung": {
+   "ergebnis": "kein_gas",
+   "begruendung": "Feld \"Elektroheizung\", Text \"Öl-Zentralheizung\" - beides kein Gas"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1846253598": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", Etagenheizung; Umstieg auf Wärmepumpe erst nach Dachausbau (ab 2027)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1324892633": {
+  "lage": {
+   "adresse": "Dammhaufengasse 4",
+   "sicherheit": "genau",
+   "begruendung": "\"In der Dammhaufengasse 4 stehen 14 ... Eigentumswohnungen\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1574867061": {
+  "lage": {
+   "adresse": "Vorgartenstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lage-Abschnitt nennt \"Vorgartenstraße\" (auch U1-Station), Titel \"Stuwerviertel\""
+  },
+  "eckdaten": {
+   "flaeche": 145
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-939754805": {
+  "lage": {
+   "adresse": "Dammhaufengasse",
+   "sicherheit": "genau",
+   "begruendung": "\"In der ruhigen und grünen Dammhaufengasse ... Neubauprojekt\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1935103229": {
+  "lage": {
+   "adresse": "Dammhaufengasse 4",
+   "sicherheit": "genau",
+   "begruendung": "\"In der Dammhaufengasse 4 stehen 14 ... Eigentumswohnungen\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1777745530": {
+  "lage": {
+   "adresse": "Kleine Stadtgutgasse",
+   "sicherheit": "genau",
+   "begruendung": "\"Die Liegenschaft in der Kleinen Stadtgutgasse ... nahe Praterstern\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1267583817": {
+  "lage": {
+   "adresse": "Karmelitermarkt",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nur wenige Schritte vom Augarten entfernt\"; Karmelitermarkt-Umgebung (Karmelitermarkt-Umfeld)"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1526938287": {
+  "lage": {
+   "adresse": "Friedensbrücke",
+   "sicherheit": "unklar",
+   "begruendung": "\"Donaukanal nahe Friedensbrücke\" – genau an der Grenze zur roten Zone"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-2137200149": {
+  "lage": {
+   "adresse": "Widerhofergasse",
+   "sicherheit": "genau",
+   "begruendung": "Titel/Lage: \"4 Zimmer-Wohnung in der Widerhofergasse\""
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1296729808": {
+  "lage": {
+   "adresse": "Alsergrund",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"9. Bezirk\", \"Straßenbahn, Bus, U6 in wenigen Gehminuten\" - keine Straße"
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1606800969": {
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 130
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1201496877": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1600847766": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1678813897": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-977735216": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1700301413": {
+  "eckdaten": {
+   "flaeche": 75
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1757773984": {
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 120
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1861675237": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 98
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1347742091": {
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1345406146": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 89
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1819822940": {
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 103
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-992524857": {
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 231
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1092784971": {
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 78
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1940824815": {
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 104
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1562591559": {
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1457477508": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 85
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1105280993": {
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 79
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1193054134": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 85
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1661592918": {
+  "eckdaten": {
+   "flaeche": 74
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-2115525630": {
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 116
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1227883659": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 92
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-787915065": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1483492318": {
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 71
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-958059229": {
+  "eckdaten": {
+   "flaeche": 97
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-2130774146": {
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 82
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1046546258": {
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1195053795": {
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1094026969": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1035179637": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1236610005": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1472364145": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-2068724008": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-1106387551": {
+  "datum": "2026-10-25",
+  "eckdaten": {}
+ },
+ "wh-848945410": {
+  "eckdaten": {
+   "flaeche": 71
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-852917313": {
+  "eckdaten": {
+   "flaeche": 101
+  },
+  "datum": "2026-10-25"
+ },
+ "wh-1887757954": {
+  "eckdaten": {
+   "flaeche": 94
+  },
+  "datum": "2026-10-25"
+ }
+}

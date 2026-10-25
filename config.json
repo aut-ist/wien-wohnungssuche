@@ -1,0 +1,14 @@
+{
+  "filter": {
+    "preis_max": 1000000,
+    "flaeche_min": 70,
+    "zimmer_min": 4
+  },
+  "bezirke": {
+    "ganz": [1080, 1180, 1190],
+    "mit_zonen": [1010, 1020, 1090]
+  },
+  "offline_nach_tagen": 3,
+  "loeschen_nach_tagen": 30,
+  "neu_tage": 3
+}

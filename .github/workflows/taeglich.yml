@@ -1,0 +1,34 @@
+name: Täglich scrapen
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # 06:15 Wiener Sommerzeit / 05:15 Winterzeit
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daten
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scrapen und Karte bauen
+        run: python run.py all
+      - name: Speichern
+        run: |
+          git config user.name "wohnungssuche-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet && exit 0
+          git commit -m "Daten $(date +%F)"
+          git pull --rebase
+          git push
