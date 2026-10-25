@@ -198,6 +198,7 @@
   /* Nur-Ansicht für Familie */
   .nur-nest #btnFilter, .nur-nest #filter, .nur-nest .tab:not([data-tab="alle"]) { display: none !important; }
   .nur-nest .tab[data-tab="alle"] { cursor: default; }
+  .nur-nest #sync, .nur-nest .trenner { display: none !important; }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
   @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
@@ -223,13 +224,16 @@
     .galerie .gross { height: 320px; }
     .fotos, .fotos img { height: 240px; }
     #vollbild .vb-l, #vollbild .vb-r { display: none; }
-    .kopf-rechts { margin-left: 0; }
-    #stand, .trenner { display: none; }
+    /* Kopf am Handy in einer Zeile: Titel links, kleine Knöpfe rechts untereinander, ohne Live-Anzeige */
+    header { flex-wrap: nowrap; padding: 8px 12px; }
+    .kopf-rechts { margin-left: auto; flex: none; flex-direction: column; align-items: flex-end; gap: 4px; }
+    .kopf-rechts .btn { padding: 4px 9px; font-size: 12px; }
+    #stand, .trenner, #sync { display: none !important; }
     header > div:first-child, .marke, .marke > div { min-width: 0; }
     h1 { font-size: 15.5px; }
     .gigibird { width: 42px; height: 36px; }
     .motto { display: block; font-size: 11.5px; }
-    header > div:first-child { flex: 1 1 100%; }
+    header > div:first-child { flex: 1 1 auto; }
     .legende:not(.offen) > div { display: none; }
     .legende:not(.offen)::before { content: 'Legende'; font-weight: 600; cursor: pointer; }
   }
