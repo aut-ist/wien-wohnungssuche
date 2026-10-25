@@ -188,6 +188,7 @@
   .leaflet-tooltip.station { background: rgba(255,255,255,.88); border: 0; box-shadow: none; padding: 1px 5px; font: 11px/1.3 Inter, system-ui, sans-serif; color: #1d1f23; }
   .leaflet-tooltip.station::before { display: none; }
   .ei-icon { background: none; border: 0; }
+  .ei-icon.gold svg { filter: drop-shadow(0 0 3px rgba(232,178,30,.75)) drop-shadow(0 1px 1.5px rgba(0,0,0,.35)); }
   .ei-icon svg { display: block; overflow: visible; filter: drop-shadow(0 1px 1.5px rgba(0,0,0,.35)); }
   .ei-icon:hover svg { transform: translateY(-2px) scale(1.08); transition: transform .15s; }
   .leg-ei { display: inline-block; vertical-align: -3px; margin: 0 2px 0 6px; }
@@ -309,7 +310,7 @@
 // Nur-Ansicht für Familie (?nest): zeigt nur die Wohnungen im Nest, nichts ist änderbar
 const NUR_NEST = new URLSearchParams(location.search).has('nest');
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
-const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e' };
+const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
@@ -443,8 +444,8 @@ legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
   const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('');
   if (NUR_NEST) {  // Familie: nur das Nötige
-    d.innerHTML = `<div><b>🪺 Ei im Nest</b> = von uns ausgewählt</div>` +
-      `<div>${legEi('gruen', { ungefaehr: true })} gestrichelt: Lage nur ungefähr</div>` +
+    d.innerHTML = `<div>${legEi('gold')} <b>goldenes Ei</b> = von uns ausgewählt</div>` +
+      `<div>${legEi('gold', { ungefaehr: true })} gestrichelt: Lage nur ungefähr</div>` +
       '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
     d.addEventListener('click', () => d.classList.toggle('offen'));
     L.DomEvent.disableClickPropagation(d);
@@ -619,6 +620,11 @@ function eiSvg(w, groesse) {
 function eiIcon(w) {
   const aktiv = state.aktiv === w.id, k = aktiv ? 1.6 : 1;  // gerade geöffnete Wohnung: großes Ei mit Puls
   const cls = 'ei-icon' + (aktiv ? ' aktiv' : '');
+  if (NUR_NEST) {  // Familien-Ansicht: alle ausgewählten Wohnungen als goldene Eier
+    const s = 30 * (aktiv ? 1.6 : 1);
+    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
+      html: eiSvg({ ...w, status: 'gold', _gesehen: false, neu: false }, s) });
+  }
   if (istGemerkt(w)) {  // Ei im Nest
     return L.divIcon({ className: cls, iconSize: [42 * k, 40 * k], iconAnchor: [21 * k, 30 * k], html: `
       <svg viewBox="0 0 36 34" width="${42 * k}" height="${40 * k}">
@@ -658,6 +664,10 @@ function zeichneMarker(liste) {
 function zeichne() {
   const s = sichtbar();
   zeichneMarker(s.karte);
+  if (NUR_NEST && !state.eingepasst && s.karte.length) {  // Familie: einmal auf alle goldenen Eier zoomen
+    state.eingepasst = true;
+    map.fitBounds(L.latLngBounds(s.karte.map(w => [w.lat, w.lon])), { padding: [40, 40], maxZoom: 15 });
+  }
   const liste = sortiere([...s[state.tab]]);
   document.getElementById('nAlle').textContent = s.alle.length;
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
