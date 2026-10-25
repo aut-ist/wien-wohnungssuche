@@ -212,8 +212,8 @@
 
   @media (max-width: 800px) {
     /* Handy: Liste bekommt mehr Platz, Karte oben nur als Streifen (mit "Karte groß" aufziehbar) */
-    #app { grid-template-columns: 1fr; grid-template-rows: auto 36dvh 1fr; }
-    #app.filter-offen { grid-template-rows: auto auto 36dvh 1fr; }
+    #app { grid-template-columns: 1fr; grid-template-rows: auto 30dvh 1fr; }
+    #app.filter-offen { grid-template-rows: auto auto 30dvh 1fr; }
     /* Quellenangabe (Lizenzpflicht OpenStreetMap) am Handy nur als kleines ⓘ, Tippen zeigt sie */
     .leaflet-control-attribution { max-width: 22px; overflow: hidden; white-space: nowrap; border-radius: 10px;
       font-size: 0; padding: 0 5px !important; cursor: pointer; }
@@ -418,7 +418,8 @@ const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, det
 /* ---------- Karte ---------- */
 const HANDY = matchMedia('(max-width: 800px)').matches;
 const MAUS = matchMedia('(hover: hover) and (pointer: fine)').matches;
-const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], HANDY ? 12 : 13);
+// am Handy feinere Zoomstufen, damit "auf alle Eier einpassen" in die kleine Karte passt
+const map = L.map('map', { zoomControl: false, zoomSnap: HANDY ? 0.25 : 1 }).setView([48.232, 16.345], HANDY ? 12 : 13);
 map.attributionControl.getContainer().addEventListener('click', e => e.currentTarget.classList.toggle('offen'));
 map.on('dragstart', () => { state.selbstBewegt = true; });  // ab dann nicht mehr automatisch einpassen
 L.control.zoom({ position: 'topright' }).addTo(map);
