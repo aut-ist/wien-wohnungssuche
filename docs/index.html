@@ -194,7 +194,8 @@
   .ei-icon { background: none; border: 0; }
   .ei-icon.gold svg { filter: drop-shadow(0 0 2px rgba(200,151,30,.6)) drop-shadow(0 1px 2px rgba(0,0,0,.4)); }
   .ei-icon svg { display: block; overflow: visible; filter: drop-shadow(0 1px 1.5px rgba(0,0,0,.35)); }
-  .ei-icon:hover svg { transform: translateY(-2px) scale(1.08); transition: transform .15s; }
+  /* Hover-Effekt nur mit Maus: auf iPhones schluckt sonst der erste Tipp den Klick */
+  @media (hover: hover) { .ei-icon:hover svg { transform: translateY(-2px) scale(1.08); transition: transform .15s; } }
   .leg-ei { display: inline-block; vertical-align: -3px; margin: 0 2px 0 6px; }
   .leg-ei svg { overflow: visible; }
   .nur-handy { display: none; }
@@ -416,6 +417,7 @@ const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, det
 
 /* ---------- Karte ---------- */
 const HANDY = matchMedia('(max-width: 800px)').matches;
+const MAUS = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], HANDY ? 12 : 13);
 map.attributionControl.getContainer().addEventListener('click', e => e.currentTarget.classList.toggle('offen'));
 map.on('dragstart', () => { state.selbstBewegt = true; });  // ab dann nicht mehr automatisch einpassen
@@ -688,7 +690,8 @@ function zeichneMarker(liste) {
     if (!w.lat) return;
     const m = L.marker([w.lat, w.lon], { icon: eiIcon(w),
       zIndexOffset: state.aktiv === w.id ? 10000 : istGemerkt(w) ? 1000 : rang[w.status] * 100 });
-    m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
+    // Vorschau beim Drüberfahren nur mit Maus; auf Touch-Geräten öffnet der Tipp direkt die Wohnung
+    if (MAUS) m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
     m.on('click', () => oeffne(w.id, true));
     m.addTo(markerEbene);
@@ -804,6 +807,9 @@ function oeffne(id, vonKarte) {
   const vorher = state.aktiv;
   state.aktiv = id; state.bildIdx = 0;
   state.selbstBewegt = true;  // Karte folgt jetzt der gewählten Wohnung, nicht mehr dem Einpassen
+  // Verlaufseintrag, damit Zurück (Taste/Wischgeste) zur Übersicht führt statt aus der Seite
+  if (history.state?.wohnung) history.replaceState({ wohnung: id }, '');
+  else history.pushState({ wohnung: id }, '');
   const w = state.daten.find(x => x.id === id);
   if (w && !istGesehen(w) && !NUR_NEST) {
     markiere('gesehen', id, new Date().toISOString());
@@ -820,7 +826,12 @@ function oeffne(id, vonKarte) {
   const m = state.marker[id];
   if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: .6 });
 }
+// Schließen über den Verlauf, damit Zurück-Taste und Zurück-Knopf dasselbe tun
 function schliesse() {
+  if (history.state?.wohnung) history.back();  // popstate ruft schliesseJetzt()
+  else schliesseJetzt();
+}
+function schliesseJetzt() {
   const vorher = state.aktiv;
   state.aktiv = null;
   document.getElementById('detail').classList.remove('offen');
@@ -836,6 +847,7 @@ function vollbildAuf(w, i, vonDetail) {
   vb.el.querySelector('.t').textContent = `${eur(w.preis)} · ${w.flaeche ?? '?'} m² · ${w.titel || ''}`;
   vb.el.querySelector('.vb-thumbs').innerHTML = bilder.map((b, k) => img(b, `data-i="${k}"`)).join('');
   vb.el.classList.add('offen');
+  history.pushState({ ...(history.state || {}), vollbild: true }, '');
   vollbildZeigen();
 }
 function vollbildZeigen() {
@@ -851,6 +863,15 @@ function vollbildZeigen() {
   const vor = new Image(); vor.referrerPolicy = 'no-referrer'; vor.src = vb.bilder[(vb.i + 1) % n];
 }
 function vollbildZu() {
+  if (history.state?.vollbild) history.back();  // popstate ruft vollbildZuJetzt()
+  else vollbildZuJetzt();
+}
+// Zurück-Taste/Wischgeste: erst Vollbild zu, dann Wohnung zu, dann bleibt man auf der Übersicht
+window.addEventListener('popstate', e => {
+  if (vb.el.classList.contains('offen') && !e.state?.vollbild) return vollbildZuJetzt();
+  if (state.aktiv && !e.state?.wohnung) schliesseJetzt();
+});
+function vollbildZuJetzt() {
   vb.el.classList.remove('offen');
   if (vb.vonDetail && state.aktiv) { state.bildIdx = vb.i; zeigeDetail(state.aktiv, false); }
 }
@@ -895,7 +916,8 @@ document.getElementById('app').addEventListener('click', e => {
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);
   if (akt === 'oeffnen') return oeffne(id);
-  if (akt === 'vollbild') {  // Foto in der Liste: Vollbild ab dem gerade sichtbaren Foto
+  if (akt === 'vollbild') {  // Foto in der Liste: Handy -> Wohnung öffnen, Computer -> Vollbild
+    if (HANDY) return oeffne(id);
     const streifen = t.closest('.fotos');
     return vollbildAuf(punkt(id), Math.round(streifen.scrollLeft / streifen.clientWidth), false);
   }
