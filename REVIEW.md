@@ -5,6 +5,12 @@ Lage oder Heizung nicht eindeutig beurteilen konnte. Jeder Eintrag hat `fragen`:
 `lage` und/oder `heizung`. Lies `titel`, `adresse_im_inserat`, `heizung_felder`
 und `text`, beantworte nur die gestellten Fragen und trag das Ergebnis ein.
 
+Steht dieselbe Wohnung auf mehreren Portalen, ist sie zu einem Eintrag zusammengeführt.
+`text` enthält dann die Texte aller Portale, jeweils mit einer Kopfzeile wie
+`## ===== ImmoScout24 =====`, und `heizung_felder` hat die Quelle in Klammern. Nutze alle
+Texte. Oft nennt ein Portal die Straße, ein anderes nicht. Widersprechen sich die Portale
+bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung.
+
 ## Suchgebiet (Kontext für `lage`)
 - Ganz erlaubt: 8., 18., 19. Bezirk.
 - 9. Bezirk erlaubt, **außer** Lichtental-Nord: nördlich der Alserbachstraße und östlich

@@ -4,6 +4,8 @@ import re
 
 from .http import get, next_data
 
+QUELLE = "willhaben"
+PREFIX = "wh"
 BASE = "https://www.willhaben.at/iad/"
 BILD_BASE = "https://cache.willhaben.at/mmo/"
 SLUGS = {

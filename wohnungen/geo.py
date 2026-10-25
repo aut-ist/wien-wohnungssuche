@@ -58,6 +58,15 @@ def _abstand_m(lon, lat, feature):
     return 0 if _in_polygon(lon, lat, c) else _dist_ring_m(lon, lat, c[0])
 
 
+def bezirksmitte(nr):
+    """Ungefährer Mittelpunkt eines Bezirks (Mittel der Randpunkte) -> (lat, lon)."""
+    for f in BEZIRKE:
+        if f["properties"]["bezirk"] == nr:
+            ring = f["geometry"]["coordinates"][0]
+            return round(sum(y for _, y in ring) / len(ring), 6), round(sum(x for x, _ in ring) / len(ring), 6)
+    return None
+
+
 def bezirk_von(lat, lon):
     best, nr = BEZIRK_TOLERANZ_M, None
     for f in BEZIRKE:

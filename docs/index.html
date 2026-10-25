@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Wohnungssuche Wien</title>
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1f9d61">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Wohnungen">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-180.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,6 +119,14 @@
   .info.gruen { border-color: var(--gruen); } .info.grau { border-color: var(--grau); } .info.raus { border-color: var(--raus); }
   .text { white-space: pre-wrap; font-size: 13.5px; line-height: 1.55; }
   .text h4 { margin: 14px 0 4px; font-size: 13.5px; }
+  .quellen { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .quellen span { font-size: 11px; color: #4d525a; border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; }
+  .links { display: flex; flex-direction: column; gap: 6px; }
+  .link { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px;
+    text-decoration: none; color: var(--ink); background: #fff; }
+  .link:hover { background: var(--soft); }
+  .link .q { font-weight: 600; flex: 1; }
+  .link .pfeil { color: var(--muted); }
   .gross-btn { display: block; text-align: center; background: var(--ink); color: #fff; text-decoration: none; border-radius: 10px; padding: 11px; font-weight: 600; margin-top: 16px; }
 
   /* Karte */
@@ -123,6 +137,8 @@
   .leaflet-tooltip.station { background: rgba(255,255,255,.88); border: 0; box-shadow: none; padding: 1px 5px; font: 11px/1.3 Inter, system-ui, sans-serif; color: #1d1f23; }
   .leaflet-tooltip.station::before { display: none; }
   .stern-icon { color: var(--gold); font-size: 26px; line-height: 26px; text-align: center; text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 1px 4px rgba(0,0,0,.45); }
+  .karte-groesse { display: none; box-shadow: var(--shadow); }
+  @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
   .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
   .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
@@ -131,6 +147,8 @@
     #app { grid-template-columns: 1fr; grid-template-rows: auto 42dvh 1fr; }
     #app.filter-offen { grid-template-rows: auto auto 42dvh 1fr; }
     #map { grid-row: -3; }
+    #app.karte-gross { grid-template-rows: auto 78dvh 1fr; }
+    #app.karte-gross.filter-offen { grid-template-rows: auto auto 78dvh 1fr; }
     #seite { grid-row: -2; border-right: 0; border-top: 1px solid var(--line); }
     #detail { position: fixed; z-index: 2000; transform: translateY(102%); }
     #detail.offen { transform: translateY(0); }
@@ -360,7 +378,10 @@ function passtFilter(w) {
   if (filter.ungesehen && istGesehen(w)) return false;
   return true;
 }
-const istGesehen = w => !!mein.gesehen[w.id];
+// Ein Punkt kann mehrere Inserate (Portale) bündeln: markiert ist er, wenn irgendeines markiert ist
+const idsVon = w => w.ids || [w.id];
+const hat = (liste, w) => idsVon(w).some(id => mein[liste][id]);
+const istGesehen = w => hat('gesehen', w);
 function sortiere(l) {
   const s = {
     neu: (a, b) => b.erstmals.localeCompare(a.erstmals) || (b.preis ?? 0) - (a.preis ?? 0),
@@ -370,8 +391,8 @@ function sortiere(l) {
   }[filter.sort];
   return l.sort(s);
 }
-const imPapierkorb = w => !!mein.papierkorb[w.id];
-const istGemerkt = w => !!mein.gemerkt[w.id];
+const imPapierkorb = w => hat('papierkorb', w);
+const istGemerkt = w => hat('gemerkt', w);
 function sichtbar() {
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
   return {
@@ -419,6 +440,7 @@ function karteHtml(w, papierkorb) {
       <div class="titel">${esc(w.titel)}</div>
       <div class="fakten">${f.txt.map(esc).join('<span class="meta">·</span>')}</div>
       <div class="meta" style="margin-top:3px">${esc(w.adresse ? w.adresse + ' · ' : '')}${BEZIRKE[w.plz] || ''} Bezirk${w.status === 'raus' ? ' · ' + esc(w.gruende.join(' · ')) : ''}</div>
+      <div class="quellen">${[...new Set((w.links || [{ quelle: w.quelle }]).map(l => l.quelle))].map(q => `<span>${esc(q)}</span>`).join('')}</div>
       ${tagsHtml(w)}
     </div>
   </article>`;
@@ -510,7 +532,12 @@ async function zeigeDetail(id, neuLaden = true) {
       <h3>Beschreibung</h3>
       <div class="text" id="dText">${state.details[w.id] ? textHtml(state.details[w.id].text) : '<span class="meta">lädt …</span>'}</div>
       <div class="meta" style="margin-top:14px">${esc(w.anbieter || '')} · online seit ${esc(w.erstmals)} · ${esc(w.quelle)}</div>
-      <a class="gross-btn" href="${esc(w.url)}" target="_blank" rel="noopener">Inserat auf ${esc(w.quelle)} öffnen</a>
+      <h3>${(w.links || []).length > 1 ? `Auf ${w.links.length} Inseraten` : 'Inserat'}</h3>
+      <div class="links">${(w.links || [{ quelle: w.quelle, url: w.url, preis: w.preis }]).map((l, i, alle) => `
+        <a class="link" href="${esc(l.url)}" target="_blank" rel="noopener">
+          <span class="q">${esc(l.quelle)}${alle.filter(x => x.quelle === l.quelle).length > 1
+            ? ` <span class="meta">Inserat ${alle.filter(x => x.quelle === l.quelle).indexOf(l) + 1}</span>` : ''}</span><span class="meta">${eur(l.preis)}</span><span class="pfeil">↗</span>
+        </a>`).join('')}</div>
     </div>`;
   el.classList.add('offen');
   if (neuLaden) el.scrollTop = 0;
@@ -527,9 +554,9 @@ function textHtml(t) {
 }
 function oeffne(id, vonKarte) {
   state.aktiv = id; state.bildIdx = 0;
-  if (!mein.gesehen[id]) {
+  const w = state.daten.find(x => x.id === id);
+  if (w && !istGesehen(w)) {
     markiere('gesehen', id, new Date().toISOString());
-    const w = state.daten.find(x => x.id === id);
     const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
     if (k && w) { k.classList.add('gesehen'); k.querySelector('.tags').outerHTML = tagsHtml(w); }
     if (w && state.marker[id] && !istGemerkt(w)) state.marker[id].setStyle({ fillColor: '#fff', radius: 6, weight: 2, color: FARBE[w.status] });
@@ -543,17 +570,21 @@ function oeffne(id, vonKarte) {
 function schliesse() { state.aktiv = null; document.getElementById('detail').classList.remove('offen'); }
 
 /* ---------- Aktionen ---------- */
+const punkt = id => state.daten.find(x => x.id === id) || { id };
+const entferneAlle = (liste, w) => idsVon(w).forEach(i => { if (mein[liste][i]) markiere(liste, i, null); });
 function merken(id) {
-  markiere('gemerkt', id, mein.gemerkt[id] ? null : new Date().toISOString());
+  const w = punkt(id);
+  if (istGemerkt(w)) entferneAlle('gemerkt', w); else markiere('gemerkt', id, new Date().toISOString());
   zeichne();
 }
 function wegwerfen(id) {
+  const w = punkt(id);
   markiere('papierkorb', id, new Date().toISOString());
-  if (mein.gemerkt[id]) markiere('gemerkt', id, null);
+  entferneAlle('gemerkt', w);
   if (state.aktiv === id) schliesse();
   zeichne();
 }
-function wiederherstellen(id) { markiere('papierkorb', id, null); zeichne(); }
+function wiederherstellen(id) { entferneAlle('papierkorb', punkt(id)); zeichne(); }
 
 document.getElementById('app').addEventListener('click', e => {
   const t = e.target.closest('[data-akt]'); if (!t) return;
@@ -575,6 +606,36 @@ document.getElementById('app').addEventListener('click', e => {
     zeigeDetail(state.aktiv, false);
   }
 });
+// Wischen durch die Fotos in der Detailansicht (Handy)
+let wischStart = null;
+document.getElementById('detail').addEventListener('touchstart', e => {
+  wischStart = e.target.closest('.galerie') ? e.touches[0].clientX : null;
+}, { passive: true });
+document.getElementById('detail').addEventListener('touchend', e => {
+  if (wischStart == null || !state.aktiv) return;
+  const dx = e.changedTouches[0].clientX - wischStart;
+  wischStart = null;
+  if (Math.abs(dx) < 40) return;
+  const w = state.daten.find(x => x.id === state.aktiv), n = (w?.bilder || []).length || 1;
+  state.bildIdx = (state.bildIdx + (dx < 0 ? 1 : -1) + n) % n;
+  zeigeDetail(state.aktiv, false);
+}, { passive: true });
+
+// Handy: Karte groß/klein
+const groesse = L.control({ position: 'topleft' });
+groesse.onAdd = () => {
+  const b = L.DomUtil.create('button', 'btn karte-groesse');
+  b.textContent = '⤢ Karte groß';
+  L.DomEvent.disableClickPropagation(b);
+  b.addEventListener('click', () => {
+    const gross = document.getElementById('app').classList.toggle('karte-gross');
+    b.textContent = gross ? '⤡ Liste zeigen' : '⤢ Karte groß';
+    setTimeout(() => map.invalidateSize(), 50);
+  });
+  return b;
+};
+groesse.addTo(map);
+
 document.addEventListener('keydown', e => {
   if (!state.aktiv || e.target.matches('input, select')) return;
   if (e.key === 'Escape') schliesse();
@@ -637,7 +698,9 @@ document.getElementById('btnFilter').addEventListener('click', e => {
   ladeGebiete().catch(console.error);
   const d = await fetch('listings.json', { cache: 'no-store' }).then(r => r.json());
   state.daten = d.wohnungen;
-  document.getElementById('stand').textContent = `Stand ${d.stand} · willhaben`;
+  const nq = (d.quellen || ['willhaben']).length;
+  document.getElementById('stand').textContent = `Stand ${d.stand} · ${nq} ${nq === 1 ? 'Portal' : 'Portale'}`;
+  document.getElementById('stand').title = (d.quellen || ['willhaben']).join(', ');
   zeichne();
   gemeinsam.start(zeichne);
 })();

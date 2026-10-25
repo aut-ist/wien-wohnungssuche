@@ -11,11 +11,15 @@
 import argparse
 import datetime as dt
 import hashlib
+import math
+import re
 import shutil
 import sys
+import threading
 import traceback
 
-from wohnungen import geo, heizung, willhaben
+from wohnungen import geo, heizung
+from wohnungen.quellen import QUELLEN
 from wohnungen.config import CONFIG, DATA, DOCS, ROOT, load_json, save_json
 from wohnungen.geocode import geocode
 
@@ -54,55 +58,69 @@ def lage_vorab_raus(r):
     return None
 
 
-def scrape():
-    listings = load_json(LISTINGS, {})
-    gesehen = set()
-    fehler = []
+def _scrape_quelle(m, listings, gesehen, fehler, lock):
+    """Ein Portal: Suche in allen Bezirken, dann Detailseiten der neuen Kandidaten."""
+    name = m.QUELLE
     for plz in ALLE_PLZ:
         try:
             n = 0
-            for s in willhaben.search(plz):
+            for s in m.search(plz):
                 n += 1
-                gesehen.add(s["id"])
-                r = listings.get(s["id"])
-                if r is None:
-                    r = listings[s["id"]] = {**s, "erstmals": TODAY}
-                else:
-                    if s.get("preis") and r.get("preis") and s["preis"] != r["preis"]:
-                        r.setdefault("preis_historie", []).append([TODAY, r["preis"]])
-                    for k, v in s.items():
-                        if v is not None and k not in ("lat", "lon", "lage_genauigkeit", "adresse", "flaeche", "zimmer"):
-                            r[k] = v
-                r["zuletzt"] = TODAY
-                r["aktiv"] = True
-            log(f"willhaben {plz}: {n} Inserate")
+                with lock:
+                    gesehen.add(s["id"])
+                    r = listings.get(s["id"])
+                    if r is None:
+                        r = listings[s["id"]] = {**s, "erstmals": TODAY}
+                    else:
+                        if s.get("preis") and r.get("preis") and s["preis"] != r["preis"]:
+                            r.setdefault("preis_historie", []).append([TODAY, r["preis"]])
+                        for k, v in s.items():
+                            if v is not None and k not in ("lat", "lon", "lage_genauigkeit", "adresse", "flaeche", "zimmer"):
+                                r[k] = v
+                    r["zuletzt"] = TODAY
+                    r["aktiv"] = True
+            log(f"{name} {plz}: {n} Inserate")
         except Exception as e:  # eine kaputte Quelle soll den Rest nicht stoppen
-            fehler.append(f"willhaben {plz}: {e}")
+            fehler.append(f"{name} {plz}: {e}")
             traceback.print_exc()
 
     # Detailseiten nur für Kandidaten, die die Vorab-Filter bestehen
-    todo = [r for r in listings.values()
-            if r["id"] in gesehen and not r.get("detail_am")
-            and not filter_grund(r) and not lage_vorab_raus(r)]
-    log(f"Detailseiten zu laden: {len(todo)}")
+    with lock:
+        todo = [r for r in listings.values()
+                if r["id"] in gesehen and m.PREFIX == r["id"].split("-")[0] and not r.get("detail_am")
+                and not filter_grund(r) and not lage_vorab_raus(r)]
+    log(f"{name}: {len(todo)} Detailseiten zu laden")
     for i, r in enumerate(todo, 1):
         try:
-            d = willhaben.detail(r["id"])
+            d = m.detail(r["id"])
         except Exception as e:
-            fehler.append(f"Detail {r['id']}: {e}")
+            fehler.append(f"{name} Detail {r['id']}: {e}")
             continue
-        if d is None:
-            r["aktiv"] = False
-            continue
-        for k, v in d.items():
-            if v not in (None, "", []):
-                r[k] = v
-        if d.get("lat") and d.get("adresse"):
-            r["lage_genauigkeit"] = r.get("lage_genauigkeit") if r.get("lage_genauigkeit") != "bezirk" else "strasse"
-        r["detail_am"] = TODAY
-        if i % 20 == 0:
-            log(f"  {i}/{len(todo)}")
-            save_json(LISTINGS, listings)
+        with lock:
+            if d is None:
+                r["aktiv"] = False
+                continue
+            for k, v in d.items():
+                if v not in (None, "", []):
+                    r[k] = v
+            if d.get("lat") and d.get("adresse") and r.get("lage_genauigkeit") in (None, "bezirk"):
+                r["lage_genauigkeit"] = "strasse"
+            r["detail_am"] = TODAY
+            if i % 25 == 0:
+                log(f"  {name}: {i}/{len(todo)}")
+                save_json(LISTINGS, listings)
+
+
+def scrape():
+    listings = load_json(LISTINGS, {})
+    gesehen, fehler, lock = set(), [], threading.Lock()
+    threads = [threading.Thread(target=_scrape_quelle, args=(m, listings, gesehen, fehler, lock))
+               for m in QUELLEN.values()]
+    log("Quellen: " + ", ".join(m.QUELLE for m in QUELLEN.values()))
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
 
     # nicht mehr gesehene Inserate offline nehmen / alte löschen
     heute = dt.date.today()
@@ -201,6 +219,146 @@ def bewerten(r, rev):
     return out
 
 
+# ---------------------------------------------------------------- Duplikate
+
+GENAU = {"adresse": 3, "strasse": 2, "bezirk": 0, None: 0}
+
+
+def _abstand_m(a, b):
+    return math.hypot((a["lat"] - b["lat"]) * 111320, (a["lon"] - b["lon"]) * 74200)
+
+
+def _woerter(s):
+    return {w for w in re.findall(r"[a-zäöüß]{4,}", (s or "").lower())}
+
+
+def ist_duplikat(a, b):
+    """Dieselbe Wohnung auf zwei Portalen (oder doppelt auf einem)?"""
+    if a["plz"] != b["plz"] or not (a.get("flaeche") and b.get("flaeche") and a.get("preis") and b.get("preis")):
+        return False
+    if a.get("zimmer") and b.get("zimmer") and a["zimmer"] != b["zimmer"]:
+        return False
+    df = abs(a["flaeche"] - b["flaeche"])
+    dp = abs(a["preis"] - b["preis"]) / max(a["preis"], b["preis"])
+    gleiche_quelle = a["id"][:2] == b["id"][:2]
+    if gleiche_quelle:  # auf demselben Portal nur echte Doppel-Inserate, keine Nachbar-Tops
+        if df > 0.01 or dp > 0:
+            return False
+    elif df > max(1.0, a["flaeche"] * 0.015) or dp > 0.03:
+        return False
+    genau = GENAU[a.get("lage_genauigkeit")] >= 2 and GENAU[b.get("lage_genauigkeit")] >= 2 and a.get("lat") and b.get("lat")
+    if genau:
+        return _abstand_m(a, b) <= 350
+    # ohne genaue Lage: zusätzlich ähnlicher Titel, gleicher Makler oder fast identische Eckdaten
+    wa, wb = _woerter(a.get("titel")), _woerter(b.get("titel"))
+    titel = len(wa & wb) / max(1, len(wa | wb)) >= 0.25
+    makler = a.get("anbieter") and b.get("anbieter") and \
+        _woerter(a["anbieter"]) & _woerter(b["anbieter"]) - {"immobilien", "gmbh", "real", "estate"}
+    return titel or bool(makler) or (df <= 0.5 and dp <= 0.005)
+
+
+def gruppieren(rs):
+    """Union-Find über alle Paare im selben Bezirk -> Liste von Gruppen (Listen von Inseraten)."""
+    eltern = {r["id"]: r["id"] for r in rs}
+
+    def wurzel(x):
+        while eltern[x] != x:
+            eltern[x] = eltern[eltern[x]]
+            x = eltern[x]
+        return x
+    nach_plz = {}
+    for r in rs:
+        nach_plz.setdefault(r["plz"], []).append(r)
+    for liste in nach_plz.values():
+        liste.sort(key=lambda r: r.get("flaeche") or 0)
+        for i, a in enumerate(liste):
+            for b in liste[i + 1:]:
+                if (b.get("flaeche") or 0) - (a.get("flaeche") or 0) > 3:
+                    break
+                if ist_duplikat(a, b):
+                    eltern[wurzel(a["id"])] = wurzel(b["id"])
+    gruppen = {}
+    for r in rs:
+        gruppen.setdefault(wurzel(r["id"]), []).append(r)
+    return list(gruppen.values())
+
+
+def _strassen_geocode(m):
+    """Nur Straße bekannt (andere Portale geben oft keine Koordinaten) -> Koordinaten suchen,
+    aber nur übernehmen, wenn das Ergebnis im angegebenen Bezirk liegt."""
+    adr = m.get("adresse")
+    if not adr or not re.search(r"[A-Za-zäöüß]{4}", adr) or re.search(r"(?i)bezirk|^wien", adr):
+        return
+    # Portale schreiben teils "Rudolfsplatz, Schwedenplatz, Donaukanal": erst alles, dann der erste Teil
+    for versuch in dict.fromkeys([adr, re.split(r"[,/;]| - ", adr)[0].strip()]):
+        if len(versuch) < 4:
+            continue
+        pos = geocode(f"{versuch}, {m['plz']} Wien")
+        if pos and geo.bezirk_von(*pos) == (m["plz"] - 1000) // 10:
+            m["lat"], m["lon"] = pos
+            m["lage_genauigkeit"] = "adresse" if re.search(r"\d", versuch) else "strasse"
+            return
+    m["lat"] = m["lon"] = None
+    m["lage_genauigkeit"] = "bezirk"
+
+
+def zusammenfuehren(gruppe, reviews):
+    """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
+    def rang(r):
+        return (GENAU[r.get("lage_genauigkeit")], bool(r.get("detail_am")), len(r.get("text") or ""))
+    gruppe = sorted(gruppe, key=lambda r: (rang(r), r["id"] == min(x["id"] for x in gruppe)), reverse=True)
+    kopf = gruppe[0]
+    m = dict(kopf)
+    for r in gruppe[1:]:
+        for k, v in r.items():
+            if m.get(k) in (None, "", [], {}) and v not in (None, "", [], {}):
+                m[k] = v
+    # Lage: genaueste Angabe mit Koordinaten; sonst eine Straßenangabe nachschlagen
+    beste = max(gruppe, key=lambda r: (bool(r.get("lat")) and GENAU[r.get("lage_genauigkeit")], bool(r.get("lat"))))
+    for k in ("lat", "lon", "lage_genauigkeit", "adresse"):
+        m[k] = beste.get(k)
+    if not m.get("lat") or GENAU[m.get("lage_genauigkeit")] < 2:
+        kandidat = max(gruppe, key=lambda r: GENAU[r.get("lage_genauigkeit")] if r.get("adresse") else -1)
+        if kandidat.get("adresse") and GENAU[kandidat.get("lage_genauigkeit")] >= GENAU[m.get("lage_genauigkeit")]:
+            alt = {k: m.get(k) for k in ("lat", "lon", "lage_genauigkeit", "adresse")}
+            m["adresse"] = kandidat["adresse"]
+            _strassen_geocode(m)
+            if not m.get("lat"):  # nichts gefunden: ungefähre Lage von vorher behalten
+                m.update({k: v for k, v in alt.items() if k != "adresse"})
+        elif not m.get("adresse"):
+            m["adresse"] = next((r["adresse"] for r in gruppe if r.get("adresse")), None)
+    if not m.get("lat"):  # gar keine Koordinaten (z. B. derStandard ohne Straße): Bezirksmitte
+        m["lat"], m["lon"] = geo.bezirksmitte((m["plz"] - 1000) // 10) or (None, None)
+        m["lage_genauigkeit"] = "bezirk"
+    if len(gruppe) > 1:
+        m["heizung_felder"] = list(dict.fromkeys(
+            f"{f} ({r['quelle']})" for r in gruppe for f in r.get("heizung_felder", [])))
+        m["text"] = "\n\n".join(f"## ===== {r['quelle']} =====\n{r['text']}" for r in gruppe if r.get("text"))
+        m["bilder"] = list(dict.fromkeys(b for r in gruppe for b in (r.get("bilder") or [])))[:40]
+        m["freiflaeche"] = list(dict.fromkeys(f for r in gruppe for f in (r.get("freiflaeche") or [])))
+        m["detail_am"] = next((r["detail_am"] for r in gruppe if r.get("detail_am")), None)
+    m["erstmals"] = min(r["erstmals"] for r in gruppe)
+    m["links"] = sorted(({"quelle": r["quelle"], "url": r["url"], "preis": r.get("preis"), "id": r["id"]}
+                         for r in gruppe), key=lambda l: (l["quelle"] != "willhaben", l["quelle"]))
+    m["ids"] = [r["id"] for r in gruppe]
+    # Prüfungen: Kopf zuerst; Gas von irgendeinem Portal schlägt alles; genaue Lage vor ungefährer
+    revs = [reviews[r["id"]] for r in gruppe if r["id"] in reviews]
+    rev = {}
+    if revs:
+        h = [x["heizung"] for x in revs if x.get("heizung")]
+        if h:
+            rev["heizung"] = next((x for x in h if x["ergebnis"] == "gas"), None) or \
+                next((x for x in h if x["ergebnis"] == "kein_gas"), h[0])
+        lg = [x["lage"] for x in revs if x.get("lage")]
+        if lg:
+            rev["lage"] = next((x for x in lg if x.get("sicherheit") == "genau"), None) or \
+                next((x for x in lg if x.get("sicherheit") == "ungefaehr"), lg[0])
+        e = [x["eckdaten"] for x in revs if "eckdaten" in x]
+        if e:
+            rev["eckdaten"] = next((x for x in e if x), e[0])
+    return m, rev
+
+
 def build():
     listings = load_json(LISTINGS, {})
     reviews = load_json(REVIEWS, {})
@@ -208,11 +366,14 @@ def build():
     karte, pending, details = [], [], {}
     erster_lauf = min((r["erstmals"] for r in listings.values()), default=TODAY)
     zaehler = {"gruen": 0, "grau": 0, "raus": 0}
-    for r in listings.values():
-        if not r.get("aktiv"):
-            continue
-        b = bewerten(r, reviews.get(r["id"], {}))
-        eck = reviews.get(r["id"], {}).get("eckdaten") or {}
+    aktiv = [r for r in listings.values() if r.get("aktiv")]
+    gruppen = gruppieren([r for r in aktiv if not (r.get("projekt") or "/neubauprojekt/" in r.get("url", ""))])
+    gruppen += [[r] for r in aktiv if r.get("projekt") or "/neubauprojekt/" in r.get("url", "")]
+    doppelt = sum(len(g) - 1 for g in gruppen)
+    for gruppe in gruppen:
+        r, rev = zusammenfuehren(gruppe, reviews)
+        b = bewerten(r, rev)
+        eck = rev.get("eckdaten") or {}
         zaehler[b["status"]] += 1
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus":
             pending.append({
@@ -220,15 +381,15 @@ def build():
                 "plz": r["plz"], "adresse_im_inserat": r.get("adresse"),
                 "heizung_felder": r.get("heizung_felder", []),
                 "heizung_vorab": b.get("heizung", {}).get("text"),
-                "text": (r.get("text") or "")[:6000],
+                "text": (r.get("text") or "")[:9000],
             })
         if b["status"] == "raus" and b.get("art") == "filter" or not b.get("lat"):
             continue
         # beim allerersten Lauf ist alles "neu" – das zählt nicht
         neu = r["erstmals"] > erster_lauf and (heute - dt.date.fromisoformat(r["erstmals"])).days < CONFIG["neu_tage"]
         karte.append({
-            "id": r["id"], "quelle": r["quelle"], "url": r["url"], "titel": r["titel"],
-            "status": b["status"], "gruende": b["gruende"], "lat": b["lat"], "lon": b["lon"],
+            "id": r["id"], "ids": r["ids"], "links": r["links"], "quelle": r["quelle"], "url": r["url"],
+            "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "lat": b["lat"], "lon": b["lon"],
             "ungefaehr": b["ungefaehr"], "preis": r.get("preis"), "flaeche": r.get("flaeche") or eck.get("flaeche"),
             "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
@@ -241,8 +402,9 @@ def build():
         if r.get("text"):
             details[r["id"]] = {"text": r["text"], "heizung_felder": r.get("heizung_felder", [])}
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
+    quellen = sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
-                         "wohnungen": karte}, indent=None)
+                         "quellen": quellen, "wohnungen": karte}, indent=None)
     save_json(PENDING, pending)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
@@ -256,7 +418,7 @@ def build():
         (DOCS / "geo").mkdir(exist_ok=True)
         shutil.copyfile(ROOT / "geo" / name, DOCS / "geo" / name)
     log(f"Karte: {zaehler['gruen']} passen, {zaehler['grau']} unklar, {zaehler['raus']} raus "
-        f"| offene Prüfungen: {len(pending)}")
+        f"| {doppelt} Duplikate zusammengeführt | offene Prüfungen: {len(pending)}")
 
 
 # ---------------------------------------------------------------- reviews
