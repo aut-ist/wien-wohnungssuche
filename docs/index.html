@@ -6,6 +6,7 @@
 <title>Wohnungssuche Wien</title>
 <meta name="robots" content="noindex, nofollow">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -116,6 +117,8 @@
   .leaflet-tooltip.vorschau { padding: 0; border: 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); }
   .vorschau img { width: 200px; height: 120px; object-fit: cover; display: block; }
   .vorschau div { padding: 6px 9px; font: 12.5px/1.35 Inter, system-ui, sans-serif; }
+  .leaflet-tooltip.station { background: rgba(255,255,255,.88); border: 0; box-shadow: none; padding: 1px 5px; font: 11px/1.3 Inter, system-ui, sans-serif; color: #1d1f23; }
+  .leaflet-tooltip.station::before { display: none; }
   .stern-icon { color: var(--gold); font-size: 26px; line-height: 26px; text-align: center; text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 1px 4px rgba(0,0,0,.45); }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
   .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
@@ -178,6 +181,8 @@
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e' };
 const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
@@ -206,9 +211,34 @@ const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, det
 /* ---------- Karte ---------- */
 const map = L.map('map', { zoomControl: false }).setView([48.232, 16.345], 13);
 L.control.zoom({ position: 'topright' }).addTo(map);
-L.tileLayer('https://mapsneu.wien.gv.at/basemap/bmapgrau/normal/google3857/{z}/{y}/{x}.png', {
-  maxZoom: 19, attribution: 'Karte: <a href="https://basemap.at">basemap.at</a> · Daten: Stadt Wien, willhaben'
+// Vektorkarte (OpenFreeMap) mit Farben im Stil von Google Maps
+const basis = L.maplibreGL({
+  style: 'https://tiles.openfreemap.org/styles/liberty',
+  attribution: '<a href="https://openfreemap.org">OpenFreeMap</a> © OpenMapTiles © OpenStreetMap · Daten: Stadt Wien, willhaben'
 }).addTo(map);
+basis.getMaplibreMap().on('load', () => googleFarben(basis.getMaplibreMap()));
+function googleFarben(m) {
+  const setze = (id, prop, wert) => { try { m.setPaintProperty(id, prop, wert); } catch {} };
+  for (const l of m.getStyle().layers) {
+    const id = l.id, t = l.type;
+    if (t === 'background') setze(id, 'background-color', '#f1f3f4');
+    else if (t === 'fill-extrusion') {  // 3D-Gebäude flach und hellgrau wie bei Google
+      setze(id, 'fill-extrusion-color', '#e3e3e3'); setze(id, 'fill-extrusion-height', 0);
+      setze(id, 'fill-extrusion-base', 0); setze(id, 'fill-extrusion-opacity', 1);
+    }
+    else if (/water/.test(id) && t === 'fill') setze(id, 'fill-color', '#a6d5f2');
+    else if (/waterway/.test(id) && t === 'line') setze(id, 'line-color', '#a6d5f2');
+    else if (/park|grass|wood|forest|garden|cemetery|pitch|landcover/.test(id) && t === 'fill') {
+      setze(id, 'fill-color', /cemetery/.test(id) ? '#d4ead0' : '#c9eac4'); setze(id, 'fill-opacity', 1);
+    }
+    else if (/landuse/.test(id) && t === 'fill') setze(id, 'fill-color', /residential/.test(id) ? '#f1f3f4' : '#ececec');
+    else if (/building/.test(id) && t === 'fill') { setze(id, 'fill-color', '#e6e6e6'); setze(id, 'fill-outline-color', '#d9d9d9'); }
+    else if (/road|highway|bridge|tunnel/.test(id) && t === 'line' && !/rail|path|track|pier/.test(id)) {
+      if (/casing/.test(id)) setze(id, 'line-color', '#dadce0');
+      else setze(id, 'line-color', /motorway|trunk/.test(id) ? '#fde293' : '#ffffff');
+    }
+  }
+}
 map.createPane('gebiete').style.zIndex = 350;
 map.createPane('oeffis').style.zIndex = 380;
 const oeffiEbene = L.layerGroup().addTo(map);
@@ -241,9 +271,15 @@ async function ladeGebiete() {
       ? { color: '#3b5bdb', weight: 2, fillOpacity: .12 }
       : { color: '#d24b3e', weight: 2, fillOpacity: .15 },
     onEachFeature: (f, l) => l.bindTooltip(f.properties.name, { sticky: true }) }).addTo(map);
-  if (oeffis) L.geoJSON(oeffis, { pane: 'oeffis',
-    style: f => { const o = OEFFI[f.properties.typ]; return { color: o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
-    onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(oeffiEbene);
+  if (oeffis) {
+    L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
+      style: f => { const o = OEFFI[f.properties.typ]; return { color: o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
+      onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(oeffiEbene);
+    L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
+      pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
+        .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' })
+    }).addTo(oeffiEbene);
+  }
 }
 
 /* ---------- Filtern ---------- */
