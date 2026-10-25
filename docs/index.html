@@ -497,10 +497,14 @@ async function ladeGebiete() {
     L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
       style: f => { const o = OEFFI[f.properties.typ]; return { color: o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
       onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(oeffiEbene);
-    L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
+    // Stationen nur nah herangezoomt zeigen, sonst überdecken die Namen in der Übersicht alles
+    const stationen = L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
       pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
         .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' })
-    }).addTo(oeffiEbene);
+    });
+    const stationenZeigen = () => map.getZoom() >= 14 ? oeffiEbene.addLayer(stationen) : oeffiEbene.removeLayer(stationen);
+    map.on('zoomend', stationenZeigen);
+    stationenZeigen();
   }
 }
 
@@ -700,10 +704,11 @@ function zeichne() {
     state.eingepasst = s.karte.length;
     map.fitBounds(L.latLngBounds(s.karte.map(w => [w.lat, w.lon])), { padding: HANDY ? [20, 20] : [40, 40], maxZoom: HANDY ? 13 : 14 });
   }
-  // Im Nest: nach Bezirk gruppiert (1., 2., 8., 9., 18., 19.), innerhalb nach Preis
+  // Im Nest: nach Bezirk gruppiert (Wunschreihenfolge 18., 19., 9., 8., dann 2., 1.), innerhalb günstigste zuerst
   const nachBezirk = NUR_NEST || state.tab === 'gemerkt';
+  const rang = plz => { const i = [1180, 1190, 1090, 1080, 1020, 1010].indexOf(plz); return i < 0 ? 99 : i; };
   const liste = nachBezirk
-    ? [...s[state.tab]].sort((a, b) => a.plz - b.plz || (a.preis ?? 1e12) - (b.preis ?? 1e12))
+    ? [...s[state.tab]].sort((a, b) => rang(a.plz) - rang(b.plz) || (a.preis ?? 1e12) - (b.preis ?? 1e12))
     : sortiere([...s[state.tab]]);
   document.getElementById('nAlle').textContent = s.alle.length;
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
