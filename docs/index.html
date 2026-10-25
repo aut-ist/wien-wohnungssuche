@@ -74,6 +74,8 @@
   #liste { overflow-y: auto; flex: 1; padding: 10px; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
     grid-auto-rows: max-content; align-content: start; gap: 10px; }
   #liste .leer { grid-column: 1 / -1; }
+  .guertel { display: inline-block; margin-top: 5px; font-size: 12.5px; font-weight: 600; color: #8a1d4a;
+    background: #fbeaf1; border-radius: 6px; padding: 2px 8px; }
   .gmaps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .gmaps a { font-size: 12px; font-weight: 600; text-decoration: none; color: #1a56c4; background: #eef3fd;
     border: 1px solid #d6e2fb; border-radius: 999px; padding: 3px 10px; }
@@ -258,6 +260,7 @@
   <section id="filter" aria-label="Filter">
     <label class="feld">Preis bis (€)<input type="number" id="fPreis" step="10000" min="0" placeholder="1.000.000"></label>
     <label class="feld">m² ab<input type="number" id="fFlaeche" step="5" min="0" placeholder="70"></label>
+    <label class="feld">🚋 Gürtel max. min<input type="number" id="fGuertel" step="5" min="0" placeholder="z. B. 15"></label>
     <label class="feld">Zimmer ab<input type="number" id="fZimmer" step="1" min="0" placeholder="4"></label>
     <div class="feld">Bezirk<div class="chips" id="fBezirke"></div></div>
     <div class="feld">Status<div class="chips" id="fStatus"></div></div>
@@ -268,6 +271,7 @@
         <option value="preis">Preis aufsteigend</option>
         <option value="qm">€/m² aufsteigend</option>
         <option value="flaeche">Größte zuerst</option>
+        <option value="guertel">Schnellste zum Gürtel</option>
       </select>
     </div>
     <button class="btn" id="fReset">Zurücksetzen</button>
@@ -378,7 +382,7 @@ function markiere(liste, id, wert) {
   gemeinsam.schreiben(liste, id, wert);
 }
 
-const STD_FILTER = { preis: null, flaeche: null, zimmer: null, bezirke: Object.keys(BEZIRKE).map(Number),
+const STD_FILTER = { preis: null, flaeche: null, zimmer: null, guertel: null, bezirke: Object.keys(BEZIRKE).map(Number),
   status: ['gruen', 'grau'], neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
 let filter = Object.assign({}, STD_FILTER, mein.filter || {});
 const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
@@ -427,6 +431,7 @@ legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
   d.innerHTML =
     '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
+    '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('') +
     `<div>${legEi('gruen')} passt ${legEi('grau')} unklar ${legEi('raus')} raus</div>` +
@@ -442,9 +447,10 @@ async function ladeGebiete() {
   const j = p => fetch(p).then(r => r.json());
   const [bez, zonen, oeffis] = await Promise.all([j('geo/bezirke.geojson'), j('geo/zones.geojson'), j('geo/oeffis.geojson').catch(() => null)]);
   L.geoJSON(bez, { pane: 'gebiete', interactive: false,
+    // Bezirksgrenzen gepunktet und dezent, damit sie nicht mit Öffi-Linien verwechselt werden
     style: f => [8, 9, 18, 19].includes(f.properties.bezirk)
-      ? { color: '#3b5bdb', weight: 1.5, fillOpacity: .06 }
-      : { color: '#3b5bdb', weight: 1, dashArray: '4 4', fillOpacity: 0 } }).addTo(map);
+      ? { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillColor: '#3b5bdb', fillOpacity: .05 }
+      : { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillOpacity: 0 } }).addTo(map);
   L.geoJSON(zonen, { pane: 'gebiete',
     style: f => f.properties.rolle === 'erlaubt'
       ? { color: '#3b5bdb', weight: 2, fillOpacity: .12 }
@@ -466,6 +472,8 @@ function passtFilter(w) {
   if (filter.preis && w.preis > filter.preis) return false;
   if (filter.flaeche && w.flaeche && w.flaeche < filter.flaeche) return false;
   if (filter.zimmer && w.zimmer && w.zimmer < filter.zimmer) return false;
+  // Gürtel-Filter nur für 18./19. mit bekannter Zeit; 8./9. liegen ohnehin am/innerhalb des Gürtels
+  if (filter.guertel && w.guertel && w.guertel.min > filter.guertel) return false;
   if (!filter.bezirke.includes(w.plz)) return false;
   if (!filter.status.includes(w.status)) return false;
   if (filter.neu && !w.neu) return false;
@@ -483,6 +491,7 @@ function sortiere(l) {
     preis: (a, b) => (a.preis ?? 1e12) - (b.preis ?? 1e12),
     qm: (a, b) => (a.preis / a.flaeche || 1e9) - (b.preis / b.flaeche || 1e9),
     flaeche: (a, b) => (b.flaeche ?? 0) - (a.flaeche ?? 0),
+    guertel: (a, b) => (a.guertel?.min ?? 99) - (b.guertel?.min ?? 99),
   }[filter.sort];
   return l.sort(s);
 }
@@ -502,6 +511,17 @@ function sichtbar() {
 function fakten(w) {
   const qm = w.preis && w.flaeche ? eur(w.preis / w.flaeche) + '/m²' : '';
   return { qm, txt: [`${w.flaeche ?? '?'} m²`, `${w.zimmer ?? '?'} Zimmer`, ...(w.freiflaeche || [])] };
+}
+// Öffi-Zeit bis zur U6 am Gürtel (nur 18./19. Bezirk mit bekannter Lage)
+function guertelKurz(w) {
+  return w.guertel ? `<span class="guertel" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel</span>` : '';
+}
+function guertelLang(w) {
+  const g = w.guertel;
+  if (!g) return w.plz === 1180 || w.plz === 1190 ? '<div class="meta">Öffi-Zeit zum Gürtel: Lage zu ungenau für eine Schätzung</div>' : '';
+  const weg = g.ab ? `${g.gehen} min zu Fuß zur Haltestelle ${esc(g.ab)}, dann Öffis` : `zu Fuß`;
+  return `<div class="info gruen">🚋 <b>ca. ${g.min} min bis zur U6 am Gürtel</b>${g.ziel ? ` (${esc(g.ziel)})` : ''}<br>
+    <span class="meta">${weg} · Schnitt bei Abfahrt Werktag 7–8 Uhr, inkl. Warten und Umsteigen (Fahrplan Wiener Linien)</span></div>`;
 }
 // Schnell-Links zu Google Maps / Street View. Bei ungefährer Lage sind die Koordinaten nur
 // gestreut (Bezirksmitte), daher dann nur eine Suche nach Straße bzw. Bezirk, kein Street View.
@@ -546,6 +566,7 @@ function karteHtml(w, papierkorb) {
       <div class="zeile1"><span class="preis">${eur(w.preis)}</span><span class="meta">${f.qm}</span></div>
       <div class="titel">${esc(w.titel)}</div>
       <div class="fakten">${f.txt.map(esc).join('<span class="meta">·</span>')}</div>
+      ${guertelKurz(w)}
       <div class="meta" style="margin-top:3px">${esc(w.adresse ? w.adresse + ' · ' : '')}${BEZIRKE[w.plz] || ''} Bezirk${w.status === 'raus' ? ' · ' + esc(w.gruende.join(' · ')) : ''}</div>
       <div class="quellen">${[...new Set((w.links || [{ quelle: w.quelle }]).map(l => l.quelle))].map(q => `<span>${esc(q)}</span>`).join('')}</div>
       ${mapsLinks(w)}
@@ -662,6 +683,7 @@ async function zeigeDetail(id, neuLaden = true) {
       </div>
       <h3>Lage</h3>
       <div class="info ${w.ungefaehr ? 'grau' : 'gruen'}">${esc(w.adresse ? w.adresse + ' · ' : '')}${esc(w.lage || '')}</div>
+      ${guertelLang(w)}
       ${mapsLinks(w, true)}
       <h3>Heizung</h3>
       <div class="info ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}"><b>${HEIZ_TXT[h.ergebnis] || '–'}</b>${h.von ? ` <span class="meta">(${esc(h.von)})</span>` : ''}<br>${esc(h.text || '')}</div>
@@ -876,6 +898,7 @@ function chipGruppe(el, werte, key, label) {
 function filterUi() {
   document.getElementById('fPreis').value = filter.preis ?? '';
   document.getElementById('fFlaeche').value = filter.flaeche ?? '';
+  document.getElementById('fGuertel').value = filter.guertel ?? '';
   document.getElementById('fZimmer').value = filter.zimmer ?? '';
   document.getElementById('fSort').value = filter.sort;
   document.querySelectorAll('#fBezirke .chip').forEach(b => b.setAttribute('aria-pressed', filter.bezirke.includes(+b.dataset.v)));
@@ -888,7 +911,7 @@ chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'statu
   v => `<span class="dot" style="background:${FARBE[v]}"></span>${STATUS_TXT[v]}`);
 document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button><button class="chip" data-k="ungesehen">no ned gschaut</button>';
 document.querySelectorAll('#fExtra .chip').forEach(b => b.addEventListener('click', () => { filter[b.dataset.k] = !filter[b.dataset.k]; filterGeaendert(); }));
-[['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer']].forEach(([id, k]) =>
+[['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer'], ['fGuertel', 'guertel']].forEach(([id, k]) =>
   document.getElementById(id).addEventListener('input', e => { filter[k] = e.target.value ? +e.target.value : null; filterGeaendert(); }));
 document.getElementById('fSort').addEventListener('change', e => { filter.sort = e.target.value; filterGeaendert(); });
 document.getElementById('fReset').addEventListener('click', () => { filter = Object.assign({}, STD_FILTER); filterGeaendert(); });

@@ -242,6 +242,37 @@ def bewerten(r, rev):
     return out
 
 
+# ---------------------------------------------------------------- Öffis zum Gürtel
+
+_GUERTEL = None
+GEHEN_M_PRO_MIN = 80 / 1.25  # wie in tools/oeffi_zeiten.py
+
+
+def guertel_zeit(lat, lon):
+    """Geschätzte Öffi-Zeit (Minuten) bis zur U6 am Gürtel: Fußweg zur besten Haltestelle +
+    mittlere Fahrzeit ab dort (aus geo/guertel_zeiten.json). -> dict oder None."""
+    global _GUERTEL
+    if _GUERTEL is None:
+        p = ROOT / "geo" / "guertel_zeiten.json"
+        _GUERTEL = load_json(p, {"haltestellen": {}, "ziele": {}})
+    beste = None
+    for s in _GUERTEL["haltestellen"].values():
+        d = math.hypot((s["lon"] - lon) * 74200, (s["lat"] - lat) * 111320)
+        if d > 1200:
+            continue
+        gehen = d / GEHEN_M_PRO_MIN
+        t = gehen + s["min"]
+        if beste is None or t < beste["min"]:  # Haltestelle direkt an der U6 = zu Fuß zur U6
+            beste = {"min": t, "ab": s["name"] if s["min"] else None, "gehen": gehen, "ziel": s.get("ziel")}
+    for name, z in _GUERTEL["ziele"].items():  # direkt zu Fuß zur U6
+        t = math.hypot((z["lon"] - lon) * 74200, (z["lat"] - lat) * 111320) / GEHEN_M_PRO_MIN
+        if beste is None or t <= beste["min"]:
+            beste = {"min": t, "ab": None, "gehen": t, "ziel": name}
+    if beste:
+        beste = {k: (round(v) if isinstance(v, float) else v) for k, v in beste.items()}
+    return beste
+
+
 # ---------------------------------------------------------------- Duplikate
 
 GENAU = {"adresse": 3, "strasse": 2, "bezirk": 0, None: 0}
@@ -438,6 +469,8 @@ def build():
             "monatlich": r.get("monatlich"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
+            # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
+            "guertel": guertel_zeit(b["lat"], b["lon"]) if r["plz"] in (1180, 1190) and not b["ungefaehr"] else None,
         })
         if r.get("text"):
             details[r["id"]] = {"text": r["text"], "heizung_felder": r.get("heizung_felder", [])}

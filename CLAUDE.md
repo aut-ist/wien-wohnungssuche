@@ -16,6 +16,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Liste: `wohnungen/quellen.py`). `python run.py scrape --quellen wh,is` scrapt nur einzelne.
   Nicht machbar (Stand 2026-10): immowelt (DataDome), RE/MAX (Cloudflare), wohnnet
   (Immobilienbereich liefert Fehlerseite), immmo (spiegelt nur andere Portale), EHL/Otto.
+- Öffi-Zeit zum Gürtel (18./19. Bezirk): `tools/oeffi_zeiten.py` rechnet aus dem GTFS-Fahrplan der
+  Wiener Linien die mittlere Zeit je Haltestelle bis zu einer U6-Station am Gürtel ->
+  `geo/guertel_zeiten.json`; `guertel_zeit()` in run.py addiert den Fußweg. Neu rechnen, wenn
+  sich Fahrpläne ändern (z. B. zum Fahrplanwechsel im Dezember).
 - Duplikate: `gruppieren()` in run.py führt dieselbe Wohnung über Portale zu einem Punkt
   zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat).
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
