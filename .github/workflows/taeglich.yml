@@ -2,7 +2,16 @@ name: Täglich scrapen
 
 on:
   schedule:
-    - cron: "15 4 * * *"   # 06:15 Wiener Sommerzeit / 05:15 Winterzeit
+    # GitHub lässt geplante Läufe zu Stoßzeiten (volle Stunde, :15) manchmal ausfallen, daher
+    # ungerade Minuten und zwei Ersatztermine; wer heute schon gescrapt hat, überspringt.
+    - cron: "23 4 * * *"   # 06:23 Wiener Sommerzeit / 05:23 Winterzeit
+    - cron: "53 5 * * *"
+    - cron: "37 7 * * *"
+  # Die tägliche Prüf-Routine (Claude) stößt den Lauf an, falls er bis dahin fehlt: sie
+  # committet data/anstoss.txt (GITHUB_TOKEN-Commits des Bots selbst lösen nichts aus).
+  push:
+    branches: [main]
+    paths: [data/anstoss.txt]
   workflow_dispatch:
 
 permissions:
@@ -18,23 +27,38 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+      - name: Heute schon gescrapt?
+        id: heute
+        run: |
+          git pull --quiet origin main || true
+          if [ "${{ github.event_name }}" = "schedule" ] && \
+             [ "$(cat data/letzter_scrape.txt 2>/dev/null)" = "$(TZ=Europe/Vienna date +%F)" ]; then
+            echo "Heute schon gescrapt, nichts zu tun."
+            echo "fertig=1" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.heute.outputs.fertig != '1'
         with:
           python-version: "3.12"
       - name: Scrapen und Karte bauen
-        run: python run.py all
+        if: steps.heute.outputs.fertig != '1'
+        run: |
+          python run.py all
+          date +%F > data/letzter_scrape.txt
         env:
           TZ: Europe/Vienna
       - name: Gemeinsame Markierungen sichern
+        if: steps.heute.outputs.fertig != '1'
         run: |
           URL=$(python -c "import json;print(json.load(open('docs/einstellungen.json')).get('firebase',''))" 2>/dev/null || true)
           if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
       - name: Speichern
+        if: steps.heute.outputs.fertig != '1'
         run: |
           git config user.name "wohnungssuche-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet && exit 0
-          git commit -m "Daten $(date +%F)"
+          git commit -m "Daten $(TZ=Europe/Vienna date +%F)"
           git pull --rebase
           git push

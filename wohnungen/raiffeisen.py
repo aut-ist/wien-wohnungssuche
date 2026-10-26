@@ -204,7 +204,8 @@ def detail(listing_id):
     if GEOCODE and strasse:
         try:
             from .geocode import geocode
-            pos = geocode(f"{strasse}, {re.search(r'/kauf/(\d{4})/', page).group(1) if re.search(r'/kauf/(\d{4})/', page) else ''} Wien")
+            plz = re.search(r'/kauf/(\d{4})/', page)
+            pos = geocode(f"{strasse}, {plz.group(1) if plz else ''} Wien")
             if pos:
                 lat, lon = pos
         except Exception:

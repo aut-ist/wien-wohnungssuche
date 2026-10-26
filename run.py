@@ -127,6 +127,9 @@ def scrape(nur=None):
         t.start()
     for t in threads:
         t.join()
+    if not gesehen:  # kein einziges Portal erreichbar (Netz/Proxy blockt): nichts verändern
+        log("FEHLER: kein Portal erreichbar, nichts gespeichert:\n  " + "\n  ".join(fehler[:10]))
+        sys.exit(2)
 
     # nicht mehr gesehene Inserate offline nehmen / alte löschen
     heute = dt.date.today()

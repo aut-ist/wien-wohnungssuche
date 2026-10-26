@@ -7,6 +7,11 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Kriterien: `config.json` (Preis, m², Zimmer) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: Gasheizung (`wohnungen/heizung.py`),
   unbefristet vermietet und sanierungsbedürftig (`wohnungen/zustand.py`).
+- Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
+  schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`). Um 05:04 UTC prüft eine
+  Claude-Cloud-Routine `data/pending.json`. In der Cloud blockt der Proxy die Portale, dort nie
+  scrapen; fehlt der Scrape, committet die Routine `data/anstoss.txt`, das startet den Workflow.
+  Erreicht `run.py scrape` gar kein Portal, bricht er ab (Exit 2), ohne etwas zu speichern.
 - Was die Automatik nicht eindeutig beurteilen kann, steht in `data/pending.json`.
   Das prüft Claude nach `REVIEW.md` und trägt es mit `python run.py review-file` ein.
 - `data/listings.json` ist der Zustand (alle Inserate), `data/reviews.json` die
