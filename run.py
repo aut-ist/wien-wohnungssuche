@@ -16,6 +16,7 @@ import re
 import shutil
 import sys
 import threading
+import time
 import traceback
 
 from wohnungen import geo, heizung, zustand
@@ -130,6 +131,17 @@ def scrape(nur=None):
     if not gesehen:  # kein einziges Portal erreichbar (Netz/Proxy blockt): nichts verändern
         log("FEHLER: kein Portal erreichbar, nichts gespeichert:\n  " + "\n  ".join(fehler[:10]))
         sys.exit(2)
+
+    # Portale, die in keinem Bezirk antworteten (kurzer Ausfall), nach einer Pause noch einmal
+    ausfall = [m for m in quellen
+               if all(any(f.startswith(f"{m.QUELLE} {plz}:") for f in fehler) for plz in ALLE_PLZ)]
+    if ausfall:
+        log("komplett ausgefallen, neuer Versuch in 3 Minuten: " + ", ".join(m.QUELLE for m in ausfall))
+        time.sleep(180)
+        for m in ausfall:
+            neu = []
+            _scrape_quelle(m, listings, gesehen, neu, lock)
+            fehler[:] = [f for f in fehler if not f.startswith(m.QUELLE + " ")] + neu
 
     # nicht mehr gesehene Inserate offline nehmen / alte löschen
     heute = dt.date.today()

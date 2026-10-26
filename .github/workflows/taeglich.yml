@@ -13,6 +13,11 @@ on:
     branches: [main]
     paths: [data/anstoss.txt]
   workflow_dispatch:
+    inputs:
+      quellen:
+        description: "nur diese Portale, z. B. fm oder wh,is (leer = alle)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -43,10 +48,11 @@ jobs:
       - name: Scrapen und Karte bauen
         if: steps.heute.outputs.fertig != '1'
         run: |
-          python run.py all
-          date +%F > data/letzter_scrape.txt
+          if [ -n "$QUELLEN" ]; then python run.py all --quellen "$QUELLEN"
+          else python run.py all && date +%F > data/letzter_scrape.txt; fi
         env:
           TZ: Europe/Vienna
+          QUELLEN: ${{ github.event.inputs.quellen }}
       - name: Gemeinsame Markierungen sichern
         if: steps.heute.outputs.fertig != '1'
         run: |
