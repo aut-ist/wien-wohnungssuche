@@ -25,6 +25,16 @@
   html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
   /* iPhone zoomt beim Antippen jedes Eingabefelds unter 16 px hinein und bleibt dann gezoomt */
   @media (hover: none), (max-width: 800px) { input, select, textarea { font-size: 16px !important; } }
+  #frage { border: 0; border-radius: 16px; padding: 18px 18px 14px; width: min(340px, calc(100vw - 32px));
+    background: var(--panel); color: var(--ink); box-shadow: var(--shadow); }
+  #frage::backdrop { background: rgba(20, 22, 26, .45); }
+  #frage h3 { margin: 0 0 6px; font-size: 17px; }
+  #frage p { margin: 0 0 4px; font-size: 14px; line-height: 1.4; }
+  #frage .warn { color: #8a1d4a; font-weight: 600; }
+  #frage .knoepfe { display: flex; gap: 8px; justify-content: flex-end; margin-top: 14px; }
+  #frage button { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 9px 16px;
+    font-size: 15px; font-weight: 600; cursor: pointer; color: var(--ink); }
+  #frage button.ja { background: #c0392b; border-color: #c0392b; color: #fff; }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
     font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
   button, input, select { font: inherit; color: inherit; }
@@ -312,6 +322,13 @@
     <div id="detail" aria-live="polite"></div>
   </aside>
   <div id="map"></div>
+  <dialog id="frage" aria-labelledby="frageTitel">
+    <form method="dialog">
+      <h3 id="frageTitel">Wirklich raushaun?</h3>
+      <div id="frageText"></div>
+      <div class="knoepfe"><button value="nein" autofocus>Na, doch ned</button><button value="ja" class="ja">Ja, raus damit</button></div>
+    </form>
+  </dialog>
   <div id="vollbild" role="dialog" aria-label="Fotos im Vollbild">
     <div class="vb-kopf"><span class="vb-zahl"></span><span class="t"></span><button class="vb-zu" aria-label="Schließen">✕</button></div>
     <button class="vb-l" aria-label="Foto zurück">‹</button>
@@ -895,8 +912,19 @@ function merken(id) {
   if (istGemerkt(w)) entferneAlle('gemerkt', w); else markiere('gemerkt', id, new Date().toISOString());
   zeichne();
 }
-function wegwerfen(id) {
+// vor dem Rauswerfen nachfragen (ein versehentlicher Tipp aufs X soll nichts aus dem Nest werfen)
+function nachfragen(w) {
+  const d = document.getElementById('frage');
+  if (!d.showModal) return Promise.resolve(confirm('Wirklich raushaun?'));
+  document.getElementById('frageText').innerHTML = `<p>${esc(w.titel || 'Diese Wohnung')}${w.preis ? ' · ' + eur(w.preis) : ''}</p>`
+    + (istGemerkt(w) ? '<p class="warn">Die liegt im Nest!</p>' : '');
+  d.returnValue = '';
+  d.showModal();
+  return new Promise(ok => d.addEventListener('close', () => ok(d.returnValue === 'ja'), { once: true }));
+}
+async function wegwerfen(id) {
   const w = punkt(id);
+  if (!await nachfragen(w)) return;
   markiere('papierkorb', id, new Date().toISOString());
   entferneAlle('gemerkt', w);
   if (state.aktiv === id) schliesse();
