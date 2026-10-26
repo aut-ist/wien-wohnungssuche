@@ -172,7 +172,9 @@ def bewerten(r, rev):
     out = {"gruende": [], "fragen": [], "ungefaehr": False, "lat": r.get("lat"), "lon": r.get("lon")}
     eck = rev.get("eckdaten") or {}
     r = {**r, **{k: eck[k] for k in ("zimmer", "flaeche") if eck.get(k)}}
-    grund = filter_grund(r)
+    # ohne Preis ("auf Anfrage") nicht zeigen; erst hier, nicht in filter_grund, weil manche
+    # Portale den Preis erst auf der Detailseite nennen
+    grund = filter_grund(r) or (None if r.get("preis") else "kein Preis angegeben")
     if grund:
         return {**out, "status": "raus", "art": "filter", "gruende": [grund]}
     grau = []
