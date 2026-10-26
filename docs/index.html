@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 <title>Gigibirds Nestlesuche</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#1f9d61">
@@ -21,7 +21,10 @@
     --gruen: #1f9d61; --grau: #8b9099; --raus: #d24b3e; --gold: #e3a400; --zone: #3b5bdb;
     --shadow: 0 8px 28px rgba(20, 22, 26, .14); --r: 12px;
   }
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; touch-action: manipulation; }  /* kein Doppeltipp-Zoom am Handy */
+  html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
+  /* iPhone zoomt beim Antippen jedes Eingabefelds unter 16 px hinein und bleibt dann gezoomt */
+  @media (hover: none), (max-width: 800px) { input, select, textarea { font-size: 16px !important; } }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
     font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
   button, input, select { font: inherit; color: inherit; }
