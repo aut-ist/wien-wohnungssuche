@@ -685,5 +685,15 @@
    "begruendung": "Lageplan: Grundstück zwischen Krottenbachstraße und Zimmerlweg, Neustift am Walde (Fuß des Hackenbergs), 35A vor der Tür"
   },
   "datum": "2026-10-25"
+ },
+ "fm-5498803": {
+  "lage": {
+   "adresse": "Hameaustraße, 1190 Wien",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt VILLE NEUVE, 9 Villen 'in den historischen Hameau Hills', Weinberge, Heurige fußläufig, Wienerwald/Pötzleinsdorf; Adresse nur auf Anfrage -> Gegend Hameaustraße"
+  },
+  "datum": "2026-10-26"
  }
 }
