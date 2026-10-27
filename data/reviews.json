@@ -312,7 +312,12 @@
    "zimmer": 4,
    "flaeche": 116
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-27",
+  "lage": {
+   "adresse": "Salmannsdorfer Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nähe American International School\", 35A vor der Haustür, 19. Bezirk"
+  }
  },
  "wh-1227883659": {
   "eckdaten": {
@@ -367,8 +372,13 @@
   "eckdaten": {}
  },
  "wh-1236610005": {
-  "datum": "2026-10-25",
-  "eckdaten": {}
+  "datum": "2026-10-27",
+  "eckdaten": {},
+  "lage": {
+   "adresse": "Untere Augartenstraße",
+   "sicherheit": "genau",
+   "begruendung": "\"auf der Unteren Augartenstraße\" (ohne Hausnummer)"
+  }
  },
  "wh-1472364145": {
   "datum": "2026-10-25",
@@ -1123,6 +1133,94 @@
    "lon": 16.33809,
    "sicherheit": "ungefaehr",
    "begruendung": "Staudgasse, Eckhaus, Top 31 DG/OG (Grundriss: 143,21 m², Terrasse 25 m²; Fotos 'Staudgasse Obj.3341'); Hausnummer unbekannt, willhaben-Punkt (Ecke Leitermayergasse) ist vermutlich nur Straßenmitte, Text sagt 'nahe Aumannplatz'. Adresse über DIMAG (Obj. 3341) erfragen"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-2142283594": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Währing zwischen Pötzleinsdorfer Schlosspark und Türkenschanzpark, keine Straße genannt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1610099394": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "\"19. Bezirk, nahe dem Nussberg\", keine Straße genannt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1959070102": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "nur \"19. Bezirk\", keine Straße genannt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-790240856": {
+  "lage": {
+   "adresse": "Neustift am Walde",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im idyllischen Neustift am Walde\", Bus 35A/43B fußläufig"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1524692429": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "U6 Nußdorfer Straße 5 Min, Spittelau 6 Min, Währinger Park 5 Min zu Fuß, keine Straße genannt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-739901546": {
+  "lage": {
+   "adresse": "Taborstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"U2 Taborstraße 2 Gehminuten\", Augarten 5 Gehminuten"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-2057873482": {
+  "lage": {
+   "adresse": "Nestroyplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"U1 Nestroyplatz in weniger als 100 Metern\""
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1404284395": {
+  "lage": {
+   "adresse": "Czerninplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel \"Hofidyll am Czerninplatz\", nahe Nestroyplatz/Urania"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1256244681": {
+  "lage": {
+   "adresse": "Untere Augartenstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Eingang zum Augarten nur etwa 100 Meter entfernt\", Nahversorger auf der Unteren Augartenstraße"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1174953762": {
+  "lage": {
+   "adresse": "Fürstengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"in der Nähe des Liechtensteinparks\" (9. Bezirk)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1820613807": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "nur \"9. Bezirk\", Bus 40A, Franz-Josefs-Bahnhof erreichbar, keine Straße"
   },
   "datum": "2026-10-27"
  }
