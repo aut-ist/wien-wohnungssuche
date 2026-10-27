@@ -57,11 +57,13 @@ SCREENSHOTS = {
 }
 
 # Zonen, die entlang echter Straßen definiert sind (lat, lon) statt nachgezeichnet.
-# Lichtental-Nord: Nußdorfer Straße (West) – Gürtel/Spittelau (Nord) – Donaukanal/Friedensbrücke (Ost)
-# – Alserbachstraße (Süd). Wird nur im 9. Bezirk angewendet, daher darf sie nach Norden/Osten überstehen.
+# Lichtental-Nord: Liechtensteinstraße (West, läuft fast genau nach Norden; bis 2026-10-27 war es die
+# Nußdorfer Straße) – Gürtel/Spittelau (Nord) – Donaukanal/Friedensbrücke (Ost) – Alserbachstraße (Süd).
+# Wird nur im 9. Bezirk angewendet, daher darf sie nach Norden/Osten überstehen.
 GEO_ZONEN = {
-    "alsergrund_rot": [(48.2253, 16.3550), (48.2308, 16.3547), (48.2318, 16.3527), (48.2450, 16.3500),
-                       (48.2450, 16.3720), (48.2275, 16.3720), (48.2272, 16.3650), (48.2262, 16.3600)],
+    "alsergrund_rot": [(48.2254, 16.3571), (48.2264, 16.3567), (48.2281, 16.3561), (48.2300, 16.3561),
+                       (48.2328, 16.3560), (48.2450, 16.3560), (48.2450, 16.3720), (48.2275, 16.3720),
+                       (48.2272, 16.3650), (48.2262, 16.3600)],
 }
 
 ZONES = [

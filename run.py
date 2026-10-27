@@ -173,6 +173,13 @@ def _jitter(rid, lat, lon):
     return round(lat + (h[0] - 128) / 128 * 0.0035, 6), round(lon + (h[1] - 128) / 128 * 0.005, 6)
 
 
+def rot_vielleicht_draussen(lat, lon, radius):
+    """Bei unsicherer Lage gilt die rote Zone (Ausschluss) nur, wenn der ganze Umkreis darin liegt –
+    im Zweifel bleibt die Wohnung (Wunsch). Die blauen Zonen gelten dagegen streng."""
+    (_, txt, _), anteil = geo.pruefe_umkreis(lat, lon, radius)
+    return txt.startswith("rote Zone") and anteil > 0
+
+
 def bewerten(r, rev):
     """-> dict mit status (gruen/grau/raus), gruende, lage, heizung, fragen (offene Prüfungen)."""
     out = {"gruende": [], "fragen": [], "ungefaehr": False, "lat": r.get("lat"), "lon": r.get("lon")}
@@ -203,7 +210,9 @@ def bewerten(r, rev):
             lage_txt += f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})"
             out["ungefaehr"] = lrev.get("sicherheit") != "genau"
             out["landmarke"] = out["ungefaehr"]  # Lage aus Hinweis wie "Nähe Kutschkermarkt"
-            if not drin:
+            if not drin and out["ungefaehr"] and rot_vielleicht_draussen(*pos, 200):
+                grau.append(f"Lage unklar: ungefähr {lage_txt}, kann auch knapp außerhalb liegen")
+            elif not drin:
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
         else:
             lrev = None
@@ -213,7 +222,7 @@ def bewerten(r, rev):
             # schneidet der Umkreis eine Grenze, bleibt die Lage offen
             radius = r["lage_radius"]
             (drin, lage_txt, _), anteil = geo.pruefe_umkreis(r["lat"], r["lon"], radius)
-            if not drin:
+            if not drin and not rot_vielleicht_draussen(r["lat"], r["lon"], radius):
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
             lage_txt += f" (Kartenpunkt bis zu {radius} m versetzt)"
             out["ungefaehr"] = out["versetzt"] = out["landmarke"] = True
@@ -223,7 +232,13 @@ def bewerten(r, rev):
                     out["fragen"].append("lage")
         elif r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
             drin, lage_txt, _ = geo.pruefe(r["lat"], r["lon"])
-            if not drin:
+            if not drin and r["lage_genauigkeit"] == "strasse" and rot_vielleicht_draussen(r["lat"], r["lon"], 200):
+                # nur die Straße bekannt, und die reicht aus der roten Zone hinaus
+                out["ungefaehr"] = True
+                grau.append(f"Lage unklar: {lage_txt}, nur die Straße ist bekannt")
+                if not rev.get("lage"):
+                    out["fragen"].append("lage")
+            elif not drin:
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
         elif r["plz"] in CONFIG["bezirke"]["ganz"]:
             lage_txt = f"{(r['plz'] - 1000) // 10}. Bezirk (genaue Adresse nicht angegeben)"
