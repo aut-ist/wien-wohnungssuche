@@ -31,6 +31,8 @@ PENDING = DATA / "pending.json"
 RECHERCHE = DATA / "recherche.json"
 GEPRUEFT = DATA / "nest_geprueft.json"
 RECHERCHE_AB = "2026-10-28"
+# Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
+PREISARCHIV = DATA / "preisverlauf.json"
 MAP_DATA = DOCS / "listings.json"
 TODAY = dt.date.today().isoformat()
 F = CONFIG["filter"]
@@ -444,6 +446,19 @@ def _adresse_aus_text(m):
     return None
 
 
+def _preisverlauf(gruppe):
+    """Je Portal der erste bekannte Preis und jede Änderung -> [[ab Datum, Preis, Portal], ...]."""
+    punkte = []
+    for r in gruppe:
+        if not r.get("preis"):
+            continue
+        alt = r.get("preis_historie") or []  # [Änderungsdatum, Preis davor]
+        preise = [p for _, p in alt] + [r["preis"]]
+        daten = [r["erstmals"]] + [d for d, _ in alt]
+        punkte += [[d, p, r["quelle"]] for d, p in zip(daten, preise)]
+    return sorted(punkte)
+
+
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
@@ -495,6 +510,12 @@ def zusammenfuehren(gruppe, reviews):
         m["freiflaeche"] = list(dict.fromkeys(f for r in gruppe for f in (r.get("freiflaeche") or [])))
         m["detail_am"] = next((r["detail_am"] for r in gruppe if r.get("detail_am")), None)
     m["erstmals"] = min(r["erstmals"] for r in gruppe)
+    m["zuletzt"] = max(r.get("zuletzt") or r["erstmals"] for r in gruppe)
+    m["preisverlauf"] = _preisverlauf(gruppe)
+    # frühestes Inseratsdatum auf irgendeinem Portal (Dauer am Markt = Verhandlungsargument)
+    datum = [str(r["veroeffentlicht"])[:10] for r in gruppe
+             if re.match(r"\d{4}-\d\d-\d\d", str(r.get("veroeffentlicht") or ""))]
+    m["online_seit"] = min(datum + [m["erstmals"]])
     m["links"] = sorted(({"quelle": r["quelle"], "url": r["url"], "preis": r.get("preis"), "id": r["id"]}
                          for r in gruppe), key=lambda l: (l["quelle"] != "willhaben", l["quelle"]))
     m["ids"] = [r["id"] for r in gruppe]
@@ -532,7 +553,10 @@ def build():
     reviews = load_json(REVIEWS, {})
     geprueft = load_json(GEPRUEFT, {})
     erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)
-    korb = set((load_json(DATA / "markierungen.json", {}).get("papierkorb") or {}))
+    markierungen = load_json(DATA / "markierungen.json", {})
+    korb = set(markierungen.get("papierkorb") or {})
+    nest = set(markierungen.get("gemerkt") or {})
+    archiv = load_json(PREISARCHIV, {})
     recherche = []
     heute = dt.date.today()
     karte, pending, details = [], [], {}
@@ -582,8 +606,16 @@ def build():
                 "heizung_vorab": b.get("heizung", {}).get("text"),
                 "text": (r.get("text") or "")[:9000],
             })
-        if b["status"] == "raus" and b.get("art") == "filter" or not b.get("lat"):
+        im_nest = bool(set(r["ids"]) & nest)
+        if (b["status"] == "raus" and b.get("art") == "filter" and not im_nest) or not b.get("lat"):
             continue
+        if im_nest:  # Preisverlauf sammeln, über Neu-Inserate desselben Objekts hinweg
+            schluessel = next((k for k, e in archiv.items() if set(e["ids"]) & set(r["ids"])), r["id"])
+            e = archiv.setdefault(schluessel, {"ids": [], "verlauf": []})
+            e["ids"] = sorted(set(e["ids"]) | set(r["ids"]))
+            e["verlauf"] = sorted({tuple(v) for v in e["verlauf"] + r["preisverlauf"]})
+            e["online_seit"] = min(e.get("online_seit") or r["online_seit"], r["online_seit"])
+            r["preisverlauf"], r["online_seit"] = [list(v) for v in e["verlauf"]], e["online_seit"]
         # beim allerersten Lauf ist alles "neu" – das zählt nicht
         neu = r["erstmals"] > erster_lauf and (heute - dt.date.fromisoformat(r["erstmals"])).days < CONFIG["neu_tage"]
         karte.append({
@@ -592,7 +624,7 @@ def build():
             "ungefaehr": b["ungefaehr"], "preis": r.get("preis"), "flaeche": r.get("flaeche") or eck.get("flaeche"),
             "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
-            "erstmals": r["erstmals"], "neu": neu, "preis_historie": r.get("preis_historie"),
+            "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
             "monatlich": r.get("monatlich"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
@@ -604,6 +636,19 @@ def build():
         })
         if r.get("text"):
             details[r["id"]] = {"text": r["text"], "heizung_felder": r.get("heizung_felder", [])}
+        if im_nest:
+            e["stand"] = {**karte[-1], "zuletzt": r["zuletzt"]}
+            e["details"] = details.get(r["id"])
+    # Nest-Wohnungen, deren Inserat verschwunden ist: letzter Stand bleibt sichtbar
+    auf_karte = {i for w in karte for i in w["ids"]}
+    for e in archiv.values():
+        w = e.get("stand")
+        if w and set(e["ids"]) & nest and not set(e["ids"]) & auf_karte:
+            karte.append({**w, "status": "grau", "neu": False, "preisverlauf": e["verlauf"],
+                          "gruende": [f"Inserat nicht mehr online (zuletzt gesehen {w.get('zuletzt', '?')})"]})
+            if e.get("details"):
+                details[w["id"]] = e["details"]
+    save_json(PREISARCHIV, archiv)
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     quellen = sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,

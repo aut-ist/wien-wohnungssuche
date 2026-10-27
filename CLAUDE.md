@@ -60,6 +60,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Preisverlauf: jedes Inserat merkt sich Preisänderungen (`preis_historie`), die Gruppe führt sie
+  über alle Portale zusammen (`preisverlauf`, dazu `online_seit` = frühestes Inseratsdatum). Für
+  Nest-Wohnungen hält `data/preisverlauf.json` den Verlauf und den letzten Stand fest, auch über
+  Neu-Inserate hinweg; verschwindet das Inserat, bleibt die Wohnung grau "nicht mehr online" sichtbar.
 - Duplikate: `gruppieren()` in run.py führt dieselbe Wohnung über Portale zu einem Punkt
   zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat).
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime

@@ -152,6 +152,8 @@
     flex-direction: column; align-items: center; justify-content: center; touch-action: pan-y; }
   #vollbild.offen { display: flex; }
   #vollbild img { max-width: 100vw; max-height: calc(100dvh - 120px); object-fit: contain; user-select: none; }
+  #vollbild > img { touch-action: none; will-change: transform; cursor: zoom-in; }
+  #vollbild > img.gezoomt { cursor: grab; }
   #vollbild .vb-kopf { position: absolute; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 12px;
     padding: 12px 16px; color: #fff; font-size: 13px; }
   #vollbild .vb-kopf .t { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; opacity: .85; }
@@ -184,6 +186,9 @@
   .fakt b { display: block; font-size: 14.5px; }
   .fakt span { font-size: 11.5px; color: var(--muted); }
   .info { border-left: 3px solid var(--line); padding: 4px 10px; margin: 6px 0; font-size: 13px; }
+  .preisverlauf table { border-collapse: collapse; margin: 6px 0; }
+  .preisverlauf td { padding: 2px 12px 2px 0; vertical-align: baseline; }
+  .preisverlauf .runter { color: #146b42; } .preisverlauf .rauf { color: #b3261e; }
   .info.gruen { border-color: var(--gruen); } .info.grau { border-color: var(--grau); } .info.raus { border-color: var(--raus); }
   .text { white-space: pre-wrap; font-size: 13.5px; line-height: 1.55; }
   .text h4 { margin: 14px 0 4px; font-size: 13.5px; }
@@ -602,6 +607,44 @@ function mapsLinks(w, gross) {
     <a href="${esc(suche)}" target="_blank" rel="noopener" data-akt="link">📍 Google Maps${genau || w.adresse ? '' : ' (nur Bezirk)'}</a>
     ${sv ? `<a href="${esc(sv)}" target="_blank" rel="noopener" data-akt="link">👁 Street View</a>` : ''}</div>`;
 }
+/* ---------- Preisverlauf (Verhandlungsspielraum) ---------- */
+const datumAT = d => d ? d.split('-').reverse().join('.') : '?';
+const tageSeit = d => Math.max(0, Math.round((Date.now() - new Date(d + 'T12:00:00')) / 864e5));
+// Änderung seit dem ersten bekannten Preis (gleiches Portal wie der angezeigte Preis, sonst irgendeins)
+function preisAenderung(w) {
+  const v = w.preisverlauf || [];
+  if (!v.length || !w.preis) return null;
+  const start = (v.find(x => x[2] === w.quelle) || v[0])[1];
+  if (!start || Math.abs(w.preis - start) < 500) return null;
+  return { start, diff: w.preis - start, prozent: (w.preis - start) / start * 100 };
+}
+function preisverlaufHtml(w) {
+  const v = w.preisverlauf || [];
+  if (!v.length && !w.online_seit) return '';
+  // gleiche Tage und Preise über Portale zusammenfassen
+  const zeilen = [];
+  for (const [d, p, q] of v) {
+    const z = zeilen.find(z => z.d === d && z.p === p);
+    if (z) z.q.push(q); else zeilen.push({ d, p, q: [q] });
+  }
+  let vorher = null;
+  const tabelle = zeilen.map(z => {
+    const diff = vorher != null && z.p !== vorher ? z.p - vorher : 0;
+    vorher = z.p;
+    return `<tr><td>ab ${datumAT(z.d)}</td><td><b>${eur(z.p)}</b>${diff ? ` <span class="${diff < 0 ? 'runter' : 'rauf'}">${diff < 0 ? '−' : '+'}${eur(Math.abs(diff)).replace('€ ', '')}</span>` : ''}</td><td class="meta">${esc(z.q.join(', '))}</td></tr>`;
+  }).join('');
+  const d = preisAenderung(w);
+  const tage = w.online_seit ? tageSeit(w.online_seit) : null;
+  const portale = (w.links || []).filter(l => l.preis);
+  const verschieden = new Set(portale.map(l => l.preis)).size > 1;
+  return `<h3>Preisverlauf</h3><div class="info preisverlauf">
+    ${w.online_seit ? `<div>Online seit <b>${datumAT(w.online_seit)}</b> · <b>${tage} Tage</b> am Markt</div>` : ''}
+    ${d ? `<div>Seit dem ersten Preis: <b class="${d.diff < 0 ? 'runter' : 'rauf'}">${d.diff < 0 ? '−' : '+'}${eur(Math.abs(d.diff))} (${d.diff < 0 ? '−' : '+'}${Math.abs(d.prozent).toLocaleString('de-AT', { maximumFractionDigits: 1 })} %)</b></div>` : ''}
+    ${tabelle ? `<table>${tabelle}</table>` : ''}
+    ${verschieden ? `<div class="meta">Gerade verschieden je Portal: ${portale.map(l => `${esc(l.quelle)} ${eur(l.preis)}`).join(' · ')}</div>` : ''}
+    <div class="meta">${istGemerkt(w) ? 'Im Nest: jede Preisänderung wird aufgehoben, auch wenn das Inserat verschwindet.' : 'Preise werden seit dem ersten Fund täglich verglichen.'}</div>
+  </div>`;
+}
 function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
@@ -610,7 +653,7 @@ function tagsHtml(w) {
     <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
-    ${w.preis_historie?.length ? '<span class="tag gold">Preis geändert</span>' : ''}
+    ${(d => d ? `<span class="tag gold">Preis ${d.prozent < 0 ? '−' : '+'}${Math.abs(d.prozent).toLocaleString('de-AT', { maximumFractionDigits: 1 })} %</span>` : '')(preisAenderung(w))}
   </div>`;
 }
 function aktionenHtml(w, papierkorb) {
@@ -754,7 +797,6 @@ async function zeigeDetail(id, neuLaden = true) {
   const bilder = w.bilder?.length ? w.bilder : (w.bild ? [w.bild] : []);
   state.bildIdx = Math.min(state.bildIdx, Math.max(0, bilder.length - 1));
   const papierkorb = imPapierkorb(w);
-  const hist = (w.preis_historie || []).map(([d, p]) => `${esc(d)}: ${eur(p)}`).join(', ');
   el.innerHTML = `
     <div class="detail-kopf">
       <button class="btn" data-akt="schliessen">← Zurück</button>
@@ -793,10 +835,10 @@ async function zeigeDetail(id, neuLaden = true) {
       <h3>Heizung</h3>
       <div class="info ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}"><b>${HEIZ_TXT[h.ergebnis] || '–'}</b>${h.von ? ` <span class="meta">(${esc(h.von)})</span>` : ''}<br>${esc(h.text || '')}</div>
       ${w.gruende?.length ? `<h3>Hinweise</h3><div class="info ${w.status}">${esc(w.gruende.join(' · '))}</div>` : ''}
-      ${hist ? `<h3>Preisverlauf</h3><div class="info">vorher ${hist}, jetzt ${eur(w.preis)}</div>` : ''}
+      ${preisverlaufHtml(w)}
       <h3>Beschreibung</h3>
       <div class="text" id="dText">${state.details[w.id] ? textHtml(state.details[w.id].text) : '<span class="meta">lädt …</span>'}</div>
-      <div class="meta" style="margin-top:14px">${esc(w.anbieter || '')} · online seit ${esc(w.erstmals)} · ${esc(w.quelle)}</div>
+      <div class="meta" style="margin-top:14px">${esc(w.anbieter || '')} · bei uns seit ${datumAT(w.erstmals)} · ${esc(w.quelle)}</div>
       <h3>${(w.links || []).length > 1 ? `Auf ${w.links.length} Inseraten` : 'Inserat'}</h3>
       <div class="links">${(w.links || [{ quelle: w.quelle, url: w.url, preis: w.preis }]).map((l, i, alle) => `
         <a class="link" href="${esc(l.url)}" target="_blank" rel="noopener">
@@ -868,6 +910,7 @@ function vollbildZeigen() {
   const n = vb.bilder.length;
   vb.i = (vb.i + n) % n;
   const bild = vb.el.querySelector(':scope > img');
+  zoomWeg();
   bild.referrerPolicy = 'no-referrer';
   bild.src = vb.bilder[vb.i];
   vb.el.querySelector('.vb-zahl').textContent = `${vb.i + 1} / ${n}`;
@@ -896,10 +939,76 @@ vb.el.querySelector('.vb-thumbs').addEventListener('click', e => {
   if (e.target.dataset.i) { vb.i = +e.target.dataset.i; vollbildZeigen(); }
 });
 vb.el.addEventListener('click', e => { if (e.target === vb.el) vollbildZu(); });  // Klick daneben schließt
+/* Zoomen im Vollbild (die Seite selbst zoomt am Handy nicht, siehe viewport): zwei Finger,
+   Doppeltipp oder Mausrad; gezoomt schiebt ein Finger bzw. die Maus das Bild */
+const vbImg = vb.el.querySelector(':scope > img');
+const zm = { s: 1, x: 0, y: 0, finger: new Map(), start: null, pinch: false, tipp: 0 };
+function zoomSetzen(s, x, y) {
+  zm.s = Math.min(5, Math.max(1, s));
+  const mx = (vbImg.offsetWidth * zm.s - vbImg.offsetWidth) / 2, my = (vbImg.offsetHeight * zm.s - vbImg.offsetHeight) / 2;
+  zm.x = Math.max(-mx, Math.min(mx, x)); zm.y = Math.max(-my, Math.min(my, y));
+  vbImg.style.transform = zm.s > 1 ? `translate(${zm.x}px, ${zm.y}px) scale(${zm.s})` : '';
+  vbImg.classList.toggle('gezoomt', zm.s > 1);
+}
+// um einen Punkt (Bildschirmkoordinaten) zoomen: der Punkt bleibt unter dem Finger
+function zoomUm(s, px, py, basis = zm) {
+  const r = vbImg.getBoundingClientRect();
+  const cx = r.left + r.width / 2 - zm.x, cy = r.top + r.height / 2 - zm.y;  // Mitte ohne Verschiebung
+  const f = Math.min(5, Math.max(1, s)) / basis.s;
+  zoomSetzen(s, px - cx - (px - cx - basis.x) * f, py - cy - (py - cy - basis.y) * f);
+}
+const zoomWeg = () => { zm.finger.clear(); zm.start = null; zoomSetzen(1, 0, 0); };
+vbImg.addEventListener('pointerdown', e => {
+  try { vbImg.setPointerCapture(e.pointerId); } catch {}
+  zm.finger.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  const f = [...zm.finger.values()];
+  if (f.length === 2) {
+    zm.pinch = true;
+    zm.start = { s: zm.s, x: zm.x, y: zm.y, d: Math.hypot(f[0].x - f[1].x, f[0].y - f[1].y) };
+  } else if (f.length === 1) {
+    zm.pinch = false;
+    zm.start = { s: zm.s, x: zm.x, y: zm.y, px: e.clientX, py: e.clientY };
+  }
+});
+vbImg.addEventListener('pointermove', e => {
+  if (!zm.finger.has(e.pointerId) || !zm.start) return;
+  zm.finger.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  const f = [...zm.finger.values()];
+  if (f.length === 2 && zm.start.d) {
+    const d = Math.hypot(f[0].x - f[1].x, f[0].y - f[1].y);
+    zoomUm(zm.start.s * d / zm.start.d, (f[0].x + f[1].x) / 2, (f[0].y + f[1].y) / 2, zm.start);
+  } else if (f.length === 1 && zm.s > 1 && zm.start.px != null) {
+    zoomSetzen(zm.s, zm.start.x + e.clientX - zm.start.px, zm.start.y + e.clientY - zm.start.py);
+  }
+});
+const fingerWeg = e => {
+  zm.finger.delete(e.pointerId);
+  if (zm.finger.size === 1) {  // vom Pinch zum Schieben mit dem verbliebenen Finger
+    const [p] = zm.finger.values();
+    zm.start = { s: zm.s, x: zm.x, y: zm.y, px: p.x, py: p.y };
+  } else if (!zm.finger.size) {
+    zm.start = null;
+    if (zm.s < 1.05) zoomSetzen(1, 0, 0);
+  }
+};
+vbImg.addEventListener('pointerup', e => {
+  // Doppeltipp: rein (2,5×) an der Stelle bzw. wieder raus
+  if (e.pointerType !== 'mouse' && zm.finger.size === 1 && !zm.pinch) {
+    if (Date.now() - zm.tipp < 300) { zm.tipp = 0; zm.s > 1 ? zoomWeg() : zoomUm(2.5, e.clientX, e.clientY); }
+    else zm.tipp = Date.now();
+  }
+  fingerWeg(e);
+});
+vbImg.addEventListener('pointercancel', fingerWeg);
+vbImg.addEventListener('dblclick', e => { zm.s > 1 ? zoomWeg() : zoomUm(2.5, e.clientX, e.clientY); });
+vbImg.addEventListener('wheel', e => { e.preventDefault(); zoomUm(zm.s * (e.deltaY < 0 ? 1.2 : 1 / 1.2), e.clientX, e.clientY); }, { passive: false });
 let vbStart = null;
-vb.el.addEventListener('touchstart', e => { vbStart = e.touches[0].clientX; }, { passive: true });
+vb.el.addEventListener('touchstart', e => {
+  if (e.touches.length === 1) zm.pinch = false;
+  vbStart = e.touches.length === 1 ? e.touches[0].clientX : null;
+}, { passive: true });
 vb.el.addEventListener('touchend', e => {
-  if (vbStart == null) return;
+  if (vbStart == null || zm.s > 1 || zm.pinch) { vbStart = null; return; }  // gezoomt: Wischen schiebt, blättert nicht
   const dx = e.changedTouches[0].clientX - vbStart; vbStart = null;
   if (Math.abs(dx) > 40) { vb.i += dx < 0 ? 1 : -1; vollbildZeigen(); }
 }, { passive: true });

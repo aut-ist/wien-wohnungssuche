@@ -45,6 +45,12 @@ jobs:
         if: steps.heute.outputs.fertig != '1'
         with:
           python-version: "3.12"
+      - name: Gemeinsame Markierungen sichern
+        # vor dem Bauen: Nest (Preisverlauf) und Papierkorb (Adress-Recherche) aktuell
+        if: steps.heute.outputs.fertig != '1'
+        run: |
+          URL=$(python -c "import json;print(json.load(open('docs/einstellungen.json')).get('firebase',''))" 2>/dev/null || true)
+          if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
       - name: Scrapen und Karte bauen
         if: steps.heute.outputs.fertig != '1'
         run: |
@@ -60,11 +66,6 @@ jobs:
         run: |
           pip install -q pillow
           python tools/grundrisse.py --recherche || echo "Grundrisse fehlgeschlagen"
-      - name: Gemeinsame Markierungen sichern
-        if: steps.heute.outputs.fertig != '1'
-        run: |
-          URL=$(python -c "import json;print(json.load(open('docs/einstellungen.json')).get('firebase',''))" 2>/dev/null || true)
-          if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
       - name: Speichern
         if: steps.heute.outputs.fertig != '1'
         run: |
