@@ -63,8 +63,31 @@ jobs:
         run: |
           git config user.name "wohnungssuche-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data docs
-          git diff --cached --quiet && exit 0
-          git commit -m "Daten $(TZ=Europe/Vienna date +%F)"
-          git pull --rebase
-          git push
+          # Der Scrape dauert bis zu einer Stunde; wer in der Zeit pusht (Prüf-Routine, Claude),
+          # würde beim Rebase in den erzeugten Dateien kollidieren. Dann: neuesten Stand von main
+          # nehmen, nur die Scrape-Ergebnisse darüberlegen, Karte neu bauen, nochmal pushen.
+          SICHER=$(mktemp -d)
+          cp data/listings.json data/geocode_cache.json data/markierungen.json data/letzter_scrape.txt "$SICHER"/ 2>/dev/null || true
+          for versuch in 1 2 3 4 5; do
+            git add data docs
+            git diff --cached --quiet || git commit -q -m "Daten $(TZ=Europe/Vienna date +%F)"
+            git push origin HEAD:main && exit 0
+            echo "Push abgelehnt (Versuch $versuch), übernehme neuen Stand von main"
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python - "$SICHER" <<'EOF'
+          import json, shutil, sys
+          s = sys.argv[1]
+          for f in ("listings.json", "markierungen.json", "letzter_scrape.txt"):
+              try: shutil.copyfile(f"{s}/{f}", f"data/{f}")
+              except FileNotFoundError: pass
+          cache = json.load(open("data/geocode_cache.json", encoding="utf-8"))
+          cache.update(json.load(open(f"{s}/geocode_cache.json", encoding="utf-8")))
+          json.dump(cache, open("data/geocode_cache.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          EOF
+            python run.py build
+            sleep $((versuch * 10))
+          done
+          exit 1
+        env:
+          TZ: Europe/Vienna

@@ -12,6 +12,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Claude-Cloud-Routine `data/pending.json`. In der Cloud blockt der Proxy die Portale, dort nie
   scrapen; fehlt der Scrape, committet die Routine `data/anstoss.txt`, das startet den Workflow.
   Erreicht `run.py scrape` gar kein Portal, bricht er ab (Exit 2), ohne etwas zu speichern.
+  Ein voller Scrape dauert 40 bis 60 Minuten; pusht in der Zeit jemand, nimmt der Workflow den
+  neuen Stand von main, legt nur die Scrape-Daten darüber und baut neu (kein Rebase-Konflikt).
 - Was die Automatik nicht eindeutig beurteilen kann, steht in `data/pending.json`.
   Das prüft Claude nach `REVIEW.md` und trägt es mit `python run.py review-file` ein.
 - `data/listings.json` ist der Zustand (alle Inserate), `data/reviews.json` die
@@ -29,7 +31,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
   Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das
   `tools/nest_waechter.py` (läuft im Hintergrund einer Claude-Sitzung, beendet sich beim Fund).
-  Vorgehen: alle Portaltexte der Gruppe lesen → Grundrisse unter den Fotos ansehen
+  Vorgehen: alle Portaltexte der Gruppe lesen → Bauträger bzw. Projekt herausfinden und dessen
+  eigene Webseite mit der Projektseite suchen: dort stehen meist Straße mit Hausnummer und eine
+  Einheitenliste (Top, Zimmer, m², Preis), an der man die Wohnung eindeutig erkennt. Das ist
+  verlässlicher als Portaladressen: Bei der ESTINA-Gartenwohnung nannten willhaben und
+  ImmoScout24 beide Krottenbachstraße 105, laut Einheitenliste ist es Krottenbachstraße 182, Top 2.7
+  ("Punkt identisch" auf zwei Portalen beweist nichts) → Grundrisse unter den Fotos ansehen
   (`python tools/grundrisse.py ID ZIEL` speichert sie; das Schriftfeld nennt oft Projekt und
   Adresse, und gleiche Grundrisse entlarven Doppelte verschiedener Makler → review "gleich_wie")
   → Websuche nach dem Inserat auf anderen Seiten
