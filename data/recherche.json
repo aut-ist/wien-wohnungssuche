@@ -1,1 +1,34 @@
-[]
+[
+ {
+  "id": "wh-1109460584",
+  "ids": [
+   "wh-1109460584",
+   "ds-14925214"
+  ],
+  "titel": "DG-Projekt im 9. Bezirk · 5 Wohnungen · Ost- & Westterrassen · 53-106 m² Urbanes Wohnen · Parks & Uni-Nähe · Sonne von morgens bis abends !",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/dg-projekt-im-9-bezirk-5-wohnungen-ost-westterrassen-53-106-m-urbanes-wohnen-parks-uni-naehe-sonne-von-morgens-bis-abends-1109460584/",
+   "https://immobilien.derstandard.at/detail/14925214"
+  ],
+  "anbieter": "TRISTAR Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk (Kartenpunkt bis zu 261 m versetzt)",
+  "punkt": [
+   48.22586,
+   16.355516
+  ],
+  "versatz_m": 261,
+  "preis": 845000.0,
+  "flaeche": 96.6,
+  "zimmer": null,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1109460584/"
+ }
+]

@@ -624,7 +624,11 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-27",
+  "preis": {
+   "eigennutzer": 772659,
+   "begruendung": "MAISON WÄHRING: 708.861 ist laut Schwester-Inserat (wh-1017542154, gleiche 95 m²) der Verkaufspreis für Anleger mit Vorsteuerabzug; Eigennutzer zahlen 772.659"
+  }
  },
  "wh-1521015679": {
   "lage": {
@@ -634,7 +638,11 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-27",
+  "preis": {
+   "eigennutzer": 745000,
+   "begruendung": "MAISON WÄHRING: 683.486 ist laut Schwester-Inserat (wh-1849409386, gleiche 99 m²) der Verkaufspreis für Anleger mit Vorsteuerabzug; Eigennutzer zahlen 745.000"
+  }
  },
  "wh-1017542154": {
   "lage": {

@@ -27,10 +27,10 @@ from wohnungen.geocode import geocode
 LISTINGS = DATA / "listings.json"
 REVIEWS = DATA / "reviews.json"
 PENDING = DATA / "pending.json"
-# passende neue Wohnungen ohne genaue Adresse: die tägliche Routine recherchiert sie wie Nest-Wohnungen
+# Wohnungen auf der Karte (grün oder grau, nicht im Papierkorb) ohne genaue Adresse – auch ältere,
+# die z. B. nach einer Regeländerung wieder auftauchen: die Routine recherchiert sie wie Nest-Wohnungen
 RECHERCHE = DATA / "recherche.json"
 GEPRUEFT = DATA / "nest_geprueft.json"
-RECHERCHE_AB = "2026-10-28"
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
 MAP_DATA = DOCS / "listings.json"
@@ -175,6 +175,41 @@ def _jitter(rid, lat, lon):
     return round(lat + (h[0] - 128) / 128 * 0.0035, 6), round(lon + (h[1] - 128) / 128 * 0.005, 6)
 
 
+# Anleger- vs. Eigennutzerpreis: manche Inserate zeigen den Nettopreis für Anleger (ohne 20 % USt);
+# das Paar zieht selbst ein, also zählt der Preis für Eigennutzer
+_BETRAG = r"(?:€|EUR)\s*(\d{1,3}(?:[.\u202f\u00a0 ]\d{3})+)(?:,[\d-]+)?"
+_EIGEN = [re.compile(r"(?i)(?:eigennutzer|endnutzer|selbstnutzer)\w*\s*[:=]?\s*(?:beträgt\s*)?" + _BETRAG),
+          re.compile(r"(?i)" + _BETRAG + r"[^.\n€]{0,25}?für\s+(?:eigennutzer|endnutzer|selbstnutzer)")]
+_ANLEGER = [re.compile(r"(?i)anleger\w*[^.\n€]{0,60}?" + _BETRAG),
+            re.compile(r"(?i)" + _BETRAG + r"[^.\n€]{0,40}?für\s+anleger")]
+_NETTO = re.compile(r"(?i)(?:angegebene\s+kaufpreis|kaufpreis\s+versteht\s+sich)[^.\n]{0,30}?"
+                    r"(?:zzgl|zuzüglich|exkl|plus)\.?\s*(?:der\s*)?(?:20\s*%\s*)?(?:ust|mwst|umsatzsteuer)")
+
+
+def _betrag(s):
+    return float(re.sub(r"\D", "", s))
+
+
+def eigennutzer_preis(r):
+    """-> {"preis", "text", "geschaetzt"} wenn der gezeigte Preis nicht der für Eigennutzer ist, sonst None."""
+    p = r.get("preis")
+    if not p:
+        return None
+    text = f"{r.get('titel') or ''}\n{r.get('text') or ''}"
+    for rx in _EIGEN:
+        for m in rx.finditer(text):
+            e = _betrag(m.group(1))
+            if e == p:
+                return None
+            if 1 < e / p < 1.3:
+                return {"preis": e, "text": "Eigennutzerpreis steht so im Inserat"}
+    anleger = {_betrag(m.group(1)) for rx in _ANLEGER for m in rx.finditer(text)}
+    if p in anleger or _NETTO.search(text):
+        return {"preis": round(p * 1.2), "geschaetzt": True,
+                "text": "geschätzt: Anlegerpreis + 20 % USt"}
+    return None
+
+
 def rot_vielleicht_draussen(lat, lon, radius):
     """Bei unsicherer Lage gilt die rote Zone (Ausschluss) nur, wenn der ganze Umkreis darin liegt –
     im Zweifel bleibt die Wohnung (Wunsch). Die blauen Zonen gelten dagegen streng."""
@@ -189,6 +224,12 @@ def bewerten(r, rev):
     r = {**r, **{k: eck[k] for k in ("zimmer", "flaeche") if eck.get(k)}}
     # ohne Preis ("auf Anfrage") nicht zeigen; erst hier, nicht in filter_grund, weil manche
     # Portale den Preis erst auf der Detailseite nennen
+    prev = rev.get("preis") or {}
+    ep = ({"preis": prev["eigennutzer"], "text": prev.get("begruendung") or "Preis für Eigennutzer (geprüft)"}
+          if prev.get("eigennutzer") else eigennutzer_preis(r))
+    if ep and ep["preis"] != r.get("preis"):
+        out["preis"], out["preis_hinweis"] = ep["preis"], ep["text"]
+        r = {**r, "preis": ep["preis"]}
     grund = filter_grund(r) or (None if r.get("preis") else "kein Preis angegeben")
     if grund:
         return {**out, "status": "raus", "art": "filter", "gruende": [grund]}
@@ -294,6 +335,9 @@ def bewerten(r, rev):
         return {**out, "status": "raus", "art": "heizung", "gruende": ["Gasheizung: " + h["text"][:160]]}
     if h["ergebnis"] == "unklar":
         grau.append("Heizung unklar")
+    if ep and ep.get("geschaetzt") and not prev:
+        out["fragen"].append("preis")
+        grau.append("Preis für Eigennutzer geschätzt (Inserat zeigt den Anlegerpreis)")
     out["gruende"] = grau + ([out["hinweis"]] if out.get("hinweis") else [])
     out["status"] = "grau" if grau else "gruen"
     return out
@@ -537,6 +581,9 @@ def zusammenfuehren(gruppe, reviews):
         z = [x["zustand"] for x in revs if x.get("zustand")]
         if z:
             rev["zustand"] = next((x for x in z if x.get("ergebnis") == "raus"), z[0])
+        p = [x["preis"] for x in revs if x.get("preis")]
+        if p:
+            rev["preis"] = p[0]
     return m, rev
 
 
@@ -587,7 +634,7 @@ def build():
         b = bewerten(r, rev)
         eck = rev.get("eckdaten") or {}
         zaehler[b["status"]] += 1
-        if (b["status"] == "gruen" and r["erstmals"] >= RECHERCHE_AB and not lage_genau(r, rev, b)
+        if (b["status"] != "raus" and not lage_genau(r, rev, b)
                 and not set(r["ids"]) & (erledigt | korb)):
             recherche.append({
                 "id": r["id"], "ids": r["ids"], "titel": r["titel"], "plz": r["plz"],
@@ -621,7 +668,9 @@ def build():
         karte.append({
             "id": r["id"], "ids": r["ids"], "links": r["links"], "quelle": r["quelle"], "url": r["url"],
             "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "lat": b["lat"], "lon": b["lon"],
-            "ungefaehr": b["ungefaehr"], "preis": r.get("preis"), "flaeche": r.get("flaeche") or eck.get("flaeche"),
+            "ungefaehr": b["ungefaehr"], "preis": b.get("preis") or r.get("preis"),
+            "preis_inserat": r.get("preis") if b.get("preis") else None, "preis_hinweis": b.get("preis_hinweis"),
+            "flaeche": r.get("flaeche") or eck.get("flaeche"),
             "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
@@ -691,7 +740,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY

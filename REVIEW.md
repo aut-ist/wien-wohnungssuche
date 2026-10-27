@@ -2,7 +2,7 @@
 
 `python run.py build` schreibt `data/pending.json`: Inserate, bei denen die Automatik
 Lage oder Heizung nicht eindeutig beurteilen konnte. Jeder Eintrag hat `fragen`:
-`lage` und/oder `heizung`. Lies `titel`, `adresse_im_inserat`, `heizung_felder`
+`lage`, `heizung`, `zustand`, `eckdaten` oder `preis`. Lies `titel`, `adresse_im_inserat`, `heizung_felder`
 und `text`, beantworte nur die gestellten Fragen und trag das Ergebnis ein.
 
 Steht dieselbe Wohnung auf mehreren Portalen, ist sie zu einem Eintrag zusammengeführt.
@@ -14,7 +14,8 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
 ## Suchgebiet (Kontext für `lage`)
 - Ganz erlaubt: 8., 18., 19. Bezirk.
 - 9. Bezirk erlaubt, **außer** Lichtental-Nord: nördlich der Alserbachstraße und östlich
-  der Nußdorfer Straße bis Spittelau, Franz-Josefs-Bahnhof und Friedensbrücke.
+  der Liechtensteinstraße bis Spittelau, Franz-Josefs-Bahnhof (Althan Quartier) und Friedensbrücke.
+  Im Zweifel (Lage nur ungefähr) bleibt die Wohnung drin.
   Servitenviertel, Rossau, Alservorstadt und Himmelpfortgrund sind super.
 - 2. Bezirk nur Karmeliterviertel und Augarten-Süd: Obere Augartenstraße, Donaukanal und
   Praterstraße als Grenzen (Taborstraße, Karmeliterplatz, Leopoldsgasse, Große Mohrengasse
@@ -71,6 +72,13 @@ etwa "4-Zimmer-Wohnung", "ca. 95 m² Wohnfläche" oder eine Raumaufstellung, und
 was du findest: `{"zimmer": 4, "flaeche": 95}`. Findest du nichts, trag `{}` ein.
 Halbe Zimmer werden abgerundet.
 
+## Frage `preis`
+Das Inserat zeigt vermutlich den **Anlegerpreis** (netto, "zzgl. 20 % USt", "für Anleger mit
+Vorsteuerabzug", Vorsorgewohnung). Das Paar will selbst einziehen, zählt also der Preis für
+Eigennutzer bzw. Endnutzer. Steht er im Text ("Eigennutzerpreis: € 899.000", "€ 899.000 für
+Endnutzer"), trag ihn ein: `{"eigennutzer": 899000, "begruendung": "..."}`. Steht nur der
+Nettopreis, rechne +20 % USt. Ist der gezeigte Preis schon der Eigennutzerpreis, trag ihn ein.
+
 ## Eintragen
 Viele auf einmal (bevorzugt): JSON-Liste in eine temporäre Datei schreiben, dann
 `python run.py review-file datei.json`:
@@ -80,7 +88,8 @@ Viele auf einmal (bevorzugt): JSON-Liste in eine temporäre Datei schreiben, dan
   {"id": "wh-123", "lage": {"adresse": "Karmeliterplatz", "sicherheit": "genau", "begruendung": "\"direkt am Karmeliterplatz\""},
    "heizung": {"ergebnis": "kein_gas", "begruendung": "Fernwärme laut Ausstattung"}},
   {"id": "wh-456", "heizung": {"ergebnis": "gas", "begruendung": "\"Gaskombitherme 2019 erneuert\""}},
-  {"id": "wh-789", "eckdaten": {"zimmer": 4, "flaeche": 102}}
+  {"id": "wh-789", "eckdaten": {"zimmer": 4, "flaeche": 102}},
+  {"id": "wh-321", "preis": {"eigennutzer": 899000, "begruendung": "\"€ 899.000,- für Endnutzer / € 810.500,- exkl. 20% USt. für Anleger\""}}
 ]
 ```
 

@@ -614,9 +614,9 @@ const tageSeit = d => Math.max(0, Math.round((Date.now() - new Date(d + 'T12:00:
 function preisAenderung(w) {
   const v = w.preisverlauf || [];
   if (!v.length || !w.preis) return null;
-  const start = (v.find(x => x[2] === w.quelle) || v[0])[1];
-  if (!start || Math.abs(w.preis - start) < 500) return null;
-  return { start, diff: w.preis - start, prozent: (w.preis - start) / start * 100 };
+  const start = (v.find(x => x[2] === w.quelle) || v[0])[1], jetzt = w.preis_inserat ?? w.preis;  // Inseratspreise vergleichen
+  if (!start || Math.abs(jetzt - start) < 500) return null;
+  return { start, diff: jetzt - start, prozent: (jetzt - start) / start * 100 };
 }
 function preisverlaufHtml(w) {
   const v = w.preisverlauf || [];
@@ -816,6 +816,7 @@ async function zeigeDetail(id, neuLaden = true) {
     <div class="detail-body">
       <div class="zeile1"><span class="preis" style="font-size:22px">${eur(w.preis)}</span><span class="meta">${f.qm}</span>
         ${guertelOben(w)}</div>
+      ${w.preis_inserat ? `<div class="info grau" style="margin-top:6px"><b>Preis für euch als Eigennutzer</b> · im Inserat steht ${eur(w.preis_inserat)}, der Anlegerpreis ohne USt.<br><span class="meta">${esc(w.preis_hinweis || '')}</span></div>` : ''}
       <h2>${esc(w.titel)}</h2>
       ${tagsHtml(w)}
       <div class="grid" style="margin-top:12px">

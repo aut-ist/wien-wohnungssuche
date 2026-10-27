@@ -40,7 +40,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
   Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das
   `tools/nest_waechter.py` (läuft im Hintergrund einer Claude-Sitzung, beendet sich beim Fund).
-  Genauso jede neue passende Wohnung (grün) ohne Adresse mit Hausnummer: `run.py build` listet sie
+  Genauso jede Wohnung auf der Karte (grün oder grau, nicht im Papierkorb, auch ältere, die nach einer
+  Regeländerung wieder auftaucht) ohne Adresse mit Hausnummer: `run.py build` listet sie
   in `data/recherche.json`, der Workflow legt ihre Grundrisse nach `data/grundrisse/ID/`, und die
   tägliche Routine recherchiert sie (in der Cloud sind die Portalseiten gesperrt, Bauträger- und
   Maklerseiten nicht). Erledigt = Eintrag in `data/nest_geprueft.json`, auch wenn nichts gefunden wurde.
@@ -60,6 +61,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Preis für Eigennutzer: manche Inserate zeigen den Anlegerpreis netto (ohne 20 % USt). Das Paar
+  zieht selbst ein, also zählt der Eigennutzerpreis (Filter und Anzeige): `eigennutzer_preis()` in
+  run.py liest ihn aus dem Text ("Eigennutzerpreis: € …", "… für Endnutzer"), sonst Anlegerpreis
+  + 20 % und Frage `preis` an die Routine; von Hand per review `{"preis": {"eigennutzer": N}}`.
 - Preisverlauf: jedes Inserat merkt sich Preisänderungen (`preis_historie`), die Gruppe führt sie
   über alle Portale zusammen (`preisverlauf`, dazu `online_seit` = frühestes Inseratsdatum). Für
   Nest-Wohnungen hält `data/preisverlauf.json` den Verlauf und den letzten Stand fest, auch über
