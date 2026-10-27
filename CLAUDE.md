@@ -29,8 +29,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   sich Fahrpläne ändern (z. B. zum Fahrplanwechsel im Dezember).
 - Versetzte Punkte: willhaben-Detailseiten nennen `POSITION_RADIUS_METERS` (oft 250–270 m), dann
   liegt das Haus nur irgendwo in diesem Umkreis (`lage_radius`; ImmoScout24 übernimmt denselben
-  Punkt). So ein Inserat ist "Lage ungefähr", raus nur, wenn der ganze Umkreis außerhalb liegt,
-  und grau mit Lage-Frage, wenn der Umkreis eine Zonengrenze schneidet (`geo.pruefe_umkreis`).
+  Punkt). So ein Inserat ist "Lage ungefähr", raus, wenn der Punkt selbst außerhalb liegt (die
+  Zonen gelten streng, Toleranz 50 m für Ungenauigkeit der Zeichnung), grau mit Lage-Frage, wenn
+  der Umkreis eine Zonengrenze schneidet (`geo.pruefe_umkreis`). Die blauen Zonen werden auf der
+  Karte nur nicht angezeigt (Wunsch), sie gelten aber.
 - Nest-Recherche: JEDE Wohnung, die ins Nest gelegt wird, wird auf ihre Lage geprüft (auch mit
   "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
   Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das

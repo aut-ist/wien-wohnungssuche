@@ -58,11 +58,6 @@ def filter_grund(r):
 
 def lage_vorab_raus(r):
     if r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
-        # willhaben-Punkte können versetzt sein; wie weit, steht erst auf der Detailseite
-        radius = r["lage_radius"] if "lage_radius" in r else (300 if r["id"].startswith("wh-") else 0)
-        if radius > 50:
-            (_, grund, _), anteil = geo.pruefe_umkreis(r["lat"], r["lon"], radius)
-            return None if anteil else grund
         drin, grund, _ = geo.pruefe(r["lat"], r["lon"])
         return None if drin else grund
     return None
@@ -214,11 +209,11 @@ def bewerten(r, rev):
             lrev = None
     if not lage_txt:
         if r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse") and (r.get("lage_radius") or 0) > 50:
-            # Punkt absichtlich versetzt: nur raus, wenn der ganze Umkreis außerhalb liegt
+            # Punkt absichtlich versetzt: der Punkt selbst muss passen (die Zonen gelten streng);
+            # schneidet der Umkreis eine Grenze, bleibt die Lage offen
             radius = r["lage_radius"]
             (drin, lage_txt, _), anteil = geo.pruefe_umkreis(r["lat"], r["lon"], radius)
-            if not anteil:
-                lage_txt += f" (auch im ganzen Umkreis von {radius} m)"
+            if not drin:
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
             lage_txt += f" (Kartenpunkt bis zu {radius} m versetzt)"
             out["ungefaehr"] = out["versetzt"] = out["landmarke"] = True

@@ -7,7 +7,7 @@
     "id": "leopoldstadt",
     "rolle": "erlaubt",
     "name": "Karmeliterviertel / Augarten-Süd",
-    "puffer_m": 150
+    "puffer_m": 50
    },
    "geometry": {
     "type": "Polygon",
@@ -223,7 +223,7 @@
     "id": "innere_stadt",
     "rolle": "erlaubt",
     "name": "Börse / Schottenviertel",
-    "puffer_m": 150
+    "puffer_m": 50
    },
    "geometry": {
     "type": "Polygon",

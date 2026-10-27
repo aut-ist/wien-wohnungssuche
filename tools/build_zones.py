@@ -66,9 +66,9 @@ GEO_ZONEN = {
 
 ZONES = [
     {"id": "leopoldstadt", "rolle": "erlaubt", "name": "Karmeliterviertel / Augarten-Süd",
-     "puffer_m": 150},
+     "puffer_m": 50},
     {"id": "innere_stadt", "rolle": "erlaubt", "name": "Börse / Schottenviertel",
-     "puffer_m": 150},
+     "puffer_m": 50},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
 ]
