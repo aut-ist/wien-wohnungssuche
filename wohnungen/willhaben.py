@@ -141,6 +141,9 @@ def detail(listing_id):
         "bauart": _first(a, "BUILDING_TYPE"),
         "zustand": _first(a, "BUILDING_CONDITION"),
         "stockwerk": _first(a, "FLOOR"),
+        # manche Makler lassen den Kartenpunkt absichtlich versetzen (oft 250–270 m), dann ist
+        # COORDINATES nicht das Haus; 0 = nicht versetzt
+        "lage_radius": int(_num(_first(a, "POSITION_RADIUS_METERS")) or 0),
         "monatlich": _num(_first(a, "ESTATE_PRICE/MONTHCOSTS_GROSS")),
         "adresse": _first(a, "LOCATION/ADDRESS_1"),
         "lat": lat,

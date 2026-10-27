@@ -2,9 +2,12 @@
 sie gut lesbar ab – dort steht oft ein Schriftfeld mit Projekt und Adresse. Für die Nest-Recherche.
 
     python tools/grundrisse.py WOHNUNGS-ID [ZIELORDNER]
+    python tools/grundrisse.py --recherche    für alle in data/recherche.json nach data/grundrisse/ID/
+                                              (alte Ordner werden entfernt; läuft im täglichen Workflow)
 """
 import io
 import json
+import shutil
 import sys
 import urllib.request
 from pathlib import Path
@@ -24,12 +27,10 @@ def bewerten(img):
     return 0.7 * weiss / len(px) + 0.3 * grau / len(px)
 
 
-def main():
-    wid = sys.argv[1]
-    ziel = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("grundrisse")
+def speichern(w, ziel, wid=None):
+    """Die bis zu 4 grundrissartigsten Bilder einer Wohnung (aus docs/listings.json) nach ziel."""
+    wid = wid or w["id"]
     ziel.mkdir(parents=True, exist_ok=True)
-    daten = json.loads((ROOT / "docs" / "listings.json").read_text(encoding="utf-8"))["wohnungen"]
-    w = next(x for x in daten if wid in x["ids"])
     kandidaten = []
     for i, url in enumerate(dict.fromkeys(w["bilder"])):
         try:
@@ -45,9 +46,28 @@ def main():
         if s < 0.55:
             break
         img.thumbnail((1600, 1600))
-        pfad = ziel / f"{wid}_{i:02d}.png"
-        img.convert("RGB").save(pfad)
+        pfad = ziel / f"{wid}_{i:02d}.jpg"  # JPEG: die Recherche-Grundrisse landen im Repo
+        img.convert("RGB").save(pfad, quality=85)
         print(f"{pfad}\t{s:.2f}\t{url}")
+
+
+def main():
+    daten = json.loads((ROOT / "docs" / "listings.json").read_text(encoding="utf-8"))["wohnungen"]
+    if sys.argv[1] == "--recherche":
+        basis = ROOT / "data" / "grundrisse"
+        offen = json.loads((ROOT / "data" / "recherche.json").read_text(encoding="utf-8"))
+        ids = {e["id"] for e in offen}
+        if basis.exists():
+            for d in basis.iterdir():
+                if d.name not in ids:
+                    shutil.rmtree(d)
+        for e in offen:
+            if not (basis / e["id"]).exists():
+                speichern(next(x for x in daten if x["id"] == e["id"]), basis / e["id"])
+        return
+    wid = sys.argv[1]
+    ziel = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("grundrisse")
+    speichern(next(x for x in daten if wid in x["ids"]), ziel, wid)
 
 
 if __name__ == "__main__":

@@ -78,6 +78,18 @@ def bezirk_von(lat, lon):
     return nr
 
 
+def pruefe_umkreis(lat, lon, radius):
+    """Für versetzte Punkte (echte Lage irgendwo im Umkreis): Mitte plus 16 Punkte auf zwei Ringen
+    prüfen. -> (Ergebnis der Mitte wie pruefe(), Anteil der Prüfpunkte, die passen)"""
+    punkte = [(lat, lon)]
+    for f in (0.5, 1.0):
+        for k in range(8):
+            w = k * math.pi / 4
+            punkte.append((lat + f * radius * math.sin(w) / K_LAT, lon + f * radius * math.cos(w) / K_LON))
+    ergebnisse = [pruefe(*p) for p in punkte]
+    return ergebnisse[0], sum(e[0] for e in ergebnisse) / len(ergebnisse)
+
+
 def pruefe(lat, lon):
     """-> (drin: bool, begruendung: str, bezirk: int|None)"""
     bez = bezirk_von(lat, lon)

@@ -499,5 +499,34 @@
  "weitlofgasse 9, 1180 wien": [
   48.229947,
   16.347491
+ ],
+ "gonzagagasse 4, 1180 wien": [
+  48.213292,
+  16.37381
+ ],
+ "schwedenplatz 2, 1190 wien": [
+  48.21124,
+  16.378177
+ ],
+ "tiefgaragenstellplatz 3, 1190 wien": null,
+ "schwedenplatz 3, 1010 wien": [
+  48.211091,
+  16.37893
+ ],
+ "fichtegasse 2a, 1020 wien": [
+  48.203656,
+  16.373871
+ ],
+ "czerningasse 7a, 1020 wien": [
+  48.214671,
+  16.386573
+ ],
+ "praterstraße 56, 1020 wien": [
+  48.215945,
+  16.387604
+ ],
+ "zimmermannplatz 6, 1090 wien": [
+  48.217115,
+  16.344246
  ]
 }

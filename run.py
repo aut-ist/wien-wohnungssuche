@@ -27,6 +27,10 @@ from wohnungen.geocode import geocode
 LISTINGS = DATA / "listings.json"
 REVIEWS = DATA / "reviews.json"
 PENDING = DATA / "pending.json"
+# passende neue Wohnungen ohne genaue Adresse: die tägliche Routine recherchiert sie wie Nest-Wohnungen
+RECHERCHE = DATA / "recherche.json"
+GEPRUEFT = DATA / "nest_geprueft.json"
+RECHERCHE_AB = "2026-10-28"
 MAP_DATA = DOCS / "listings.json"
 TODAY = dt.date.today().isoformat()
 F = CONFIG["filter"]
@@ -54,6 +58,11 @@ def filter_grund(r):
 
 def lage_vorab_raus(r):
     if r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
+        # willhaben-Punkte können versetzt sein; wie weit, steht erst auf der Detailseite
+        radius = r["lage_radius"] if "lage_radius" in r else (300 if r["id"].startswith("wh-") else 0)
+        if radius > 50:
+            (_, grund, _), anteil = geo.pruefe_umkreis(r["lat"], r["lon"], radius)
+            return None if anteil else grund
         drin, grund, _ = geo.pruefe(r["lat"], r["lon"])
         return None if drin else grund
     return None
@@ -93,7 +102,9 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
     # Detailseiten nur für Kandidaten, die die Vorab-Filter bestehen
     with lock:
         todo = [r for r in listings.values()
-                if r["id"] in gesehen and m.PREFIX == r["id"].split("-")[0] and not r.get("detail_am")
+                if r["id"] in gesehen and m.PREFIX == r["id"].split("-")[0]
+                # ältere willhaben-Detailseiten (vor 2026-10-27) einmal nachladen, um den Versatz zu kennen
+                and (not r.get("detail_am") or (m.PREFIX == "wh" and "lage_radius" not in r))
                 and not filter_grund(r) and not lage_vorab_raus(r)]
     log(f"{name}: {len(todo)} Detailseiten zu laden")
     for i, r in enumerate(todo, 1):
@@ -202,7 +213,20 @@ def bewerten(r, rev):
         else:
             lrev = None
     if not lage_txt:
-        if r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
+        if r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse") and (r.get("lage_radius") or 0) > 50:
+            # Punkt absichtlich versetzt: nur raus, wenn der ganze Umkreis außerhalb liegt
+            radius = r["lage_radius"]
+            (drin, lage_txt, _), anteil = geo.pruefe_umkreis(r["lat"], r["lon"], radius)
+            if not anteil:
+                lage_txt += f" (auch im ganzen Umkreis von {radius} m)"
+                return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
+            lage_txt += f" (Kartenpunkt bis zu {radius} m versetzt)"
+            out["ungefaehr"] = out["versetzt"] = out["landmarke"] = True
+            if anteil < 1:
+                grau.append(f"Lage unklar: Kartenpunkt bis zu {radius} m versetzt, Zonengrenze in der Nähe")
+                if not rev.get("lage"):
+                    out["fragen"].append("lage")
+        elif r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
             drin, lage_txt, _ = geo.pruefe(r["lat"], r["lon"])
             if not drin:
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
@@ -219,7 +243,7 @@ def bewerten(r, rev):
             if not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
     out["lage"] = lage_txt
-    if out["ungefaehr"] and out["lat"] and not (lrev and lrev.get("sicherheit") == "ungefaehr"):
+    if out["ungefaehr"] and out["lat"] and not out.get("versetzt") and not (lrev and lrev.get("sicherheit") == "ungefaehr"):
         out["lat"], out["lon"] = _jitter(r["id"], out["lat"], out["lon"])
 
     # 2) Zustand und Nutzung: unbefristet vermietet / sanierungsbedürftig -> raus
@@ -425,11 +449,14 @@ def zusammenfuehren(gruppe, reviews):
     beste = max(gruppe, key=lambda r: (bool(r.get("lat")) and GENAU[r.get("lage_genauigkeit")], bool(r.get("lat"))))
     for k in ("lat", "lon", "lage_genauigkeit", "adresse"):
         m[k] = beste.get(k)
+    # Versatz gilt auch, wenn ein anderes Portal denselben (vom Makler übernommenen) Punkt zeigt
+    m["lage_radius"] = max([r.get("lage_radius") or 0 for r in gruppe if r.get("lat") and m.get("lat")
+                            and _abstand_m(r, m) < 30] or [0])
     if not m.get("lat") or GENAU[m.get("lage_genauigkeit")] < 2:
         kandidat = max(gruppe, key=lambda r: GENAU[r.get("lage_genauigkeit")] if r.get("adresse") else -1)
         if kandidat.get("adresse") and GENAU[kandidat.get("lage_genauigkeit")] >= GENAU[m.get("lage_genauigkeit")]:
-            alt = {k: m.get(k) for k in ("lat", "lon", "lage_genauigkeit", "adresse")}
-            m["adresse"] = kandidat["adresse"]
+            alt = {k: m.get(k) for k in ("lat", "lon", "lage_genauigkeit", "adresse", "lage_radius")}
+            m["adresse"], m["lage_radius"] = kandidat["adresse"], 0
             _strassen_geocode(m)
             if not m.get("lat"):  # nichts gefunden: ungefähre Lage von vorher behalten
                 m.update({k: v for k, v in alt.items() if k != "adresse"})
@@ -439,11 +466,14 @@ def zusammenfuehren(gruppe, reviews):
             _abstand_m(m, {"lat": gefunden[1][0], "lon": gefunden[1][1]}) > 120:
         # geteilter Standardpunkt, aber der Text nennt eine andere Adresse (z. B. "Staudgasse 40")
         m["adresse"], (m["lat"], m["lon"]) = gefunden[0], gefunden[1]
-        m["lage_genauigkeit"] = "adresse"
-    elif GENAU[m.get("lage_genauigkeit")] < 3 and (gefunden := _adresse_aus_text(m)):
-        # Adresse steht nur in der Beschreibung (z. B. "Projekt M86, Martinstraße 86")
+        m["lage_genauigkeit"], m["lage_radius"] = "adresse", 0
+    elif (GENAU[m.get("lage_genauigkeit")] < 3 or (m.get("lage_radius") or 0) > 50) \
+            and (gefunden := _adresse_aus_text(m)) and not ((m.get("lage_radius") or 0) > 50 and _abstand_m(
+                m, {"lat": gefunden[1][0], "lon": gefunden[1][1]}) > m["lage_radius"] + 150):
+        # Adresse steht nur in der Beschreibung (z. B. "Projekt M86, Martinstraße 86"); bei versetztem
+        # Punkt nur, wenn sie im Umkreis liegt (sonst ist es eher eine Ortsangabe wie eine Station)
         m["adresse"], (m["lat"], m["lon"]) = gefunden[0], gefunden[1]
-        m["lage_genauigkeit"] = "adresse"
+        m["lage_genauigkeit"], m["lage_radius"] = "adresse", 0
     if not m.get("lat"):  # gar keine Koordinaten (z. B. derStandard ohne Straße): Bezirksmitte
         m["lat"], m["lon"] = geo.bezirksmitte((m["plz"] - 1000) // 10) or (None, None)
         m["lage_genauigkeit"] = "bezirk"
@@ -479,9 +509,21 @@ def zusammenfuehren(gruppe, reviews):
     return m, rev
 
 
+def lage_genau(r, rev, b):
+    """Adresse mit Hausnummer bekannt (geprüft oder aus dem Inserat, Punkt nicht versetzt)?"""
+    if (rev.get("lage") or {}).get("sicherheit") == "genau":
+        return True
+    return (not b["ungefaehr"] and r.get("lage_genauigkeit") == "adresse"
+            and bool(re.search(r"\d", r.get("adresse") or "")))
+
+
 def build():
     listings = load_json(LISTINGS, {})
     reviews = load_json(REVIEWS, {})
+    geprueft = load_json(GEPRUEFT, {})
+    erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)
+    korb = set((load_json(DATA / "markierungen.json", {}).get("papierkorb") or {}))
+    recherche = []
     heute = dt.date.today()
     karte, pending, details = [], [], {}
     erster_lauf = min((r["erstmals"] for r in listings.values()), default=TODAY)
@@ -511,6 +553,17 @@ def build():
         b = bewerten(r, rev)
         eck = rev.get("eckdaten") or {}
         zaehler[b["status"]] += 1
+        if (b["status"] == "gruen" and r["erstmals"] >= RECHERCHE_AB and not lage_genau(r, rev, b)
+                and not set(r["ids"]) & (erledigt | korb)):
+            recherche.append({
+                "id": r["id"], "ids": r["ids"], "titel": r["titel"], "plz": r["plz"],
+                "links": [l["url"] for l in r["links"]], "anbieter": r.get("anbieter"),
+                "adresse_im_inserat": r.get("adresse"), "lage": b.get("lage"),
+                "punkt": [b["lat"], b["lon"]], "versatz_m": r.get("lage_radius") or 0,
+                "preis": r.get("preis"), "flaeche": r.get("flaeche"), "zimmer": r.get("zimmer"),
+                "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
+                "grundrisse": f"data/grundrisse/{r['id']}/",
+            })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus":
             pending.append({
                 "id": r["id"], "fragen": b["fragen"], "url": r["url"], "titel": r["titel"],
@@ -546,6 +599,7 @@ def build():
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
                          "quellen": quellen, "wohnungen": karte}, indent=None)
     save_json(PENDING, pending)
+    save_json(RECHERCHE, recherche)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
     ddir.mkdir(exist_ok=True)
@@ -558,7 +612,7 @@ def build():
         (DOCS / "geo").mkdir(exist_ok=True)
         shutil.copyfile(ROOT / "geo" / name, DOCS / "geo" / name)
     log(f"Karte: {zaehler['gruen']} passen, {zaehler['grau']} unklar, {zaehler['raus']} raus "
-        f"| {doppelt} Duplikate zusammengeführt | offene Prüfungen: {len(pending)}")
+        f"| {doppelt} Duplikate zusammengeführt | offene Prüfungen: {len(pending)} | Adress-Recherchen: {len(recherche)}")
 
 
 # ---------------------------------------------------------------- reviews
