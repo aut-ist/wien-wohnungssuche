@@ -1223,5 +1223,35 @@
    "begruendung": "nur \"9. Bezirk\", Bus 40A, Franz-Josefs-Bahnhof erreichbar, keine Straße"
   },
   "datum": "2026-10-27"
+ },
+ "wh-1126470514": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2281,
+   "lon": 16.3524,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Teo-Lageplan im Inserat (Schubertviertel, zw. U6 Nußdorfer Str. und Volksoper) + Entfernungen daraus (U6 Volksoper ~300 m, Bim 37/38 ~200 m ab Canisiusgasse, Volksschule ~370 m) -> Canisiusgasse westlich der Nußdorfer Straße, ±150 m; willhaben-Punkt war 265 m versetzt (lag in der roten Zone)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-438057777871": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2281,
+   "lon": 16.3524,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Teo-Lageplan im Inserat (Schubertviertel, zw. U6 Nußdorfer Str. und Volksoper) + Entfernungen daraus (U6 Volksoper ~300 m, Bim 37/38 ~200 m ab Canisiusgasse, Volksschule ~370 m) -> Canisiusgasse westlich der Nußdorfer Straße, ±150 m; willhaben-Punkt war 265 m versetzt (lag in der roten Zone)"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15090408": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2281,
+   "lon": 16.3524,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Teo-Lageplan im Inserat (Schubertviertel, zw. U6 Nußdorfer Str. und Volksoper) + Entfernungen daraus (U6 Volksoper ~300 m, Bim 37/38 ~200 m ab Canisiusgasse, Volksschule ~370 m) -> Canisiusgasse westlich der Nußdorfer Straße, ±150 m; willhaben-Punkt war 265 m versetzt (lag in der roten Zone)"
+  },
+  "datum": "2026-10-27"
  }
 }
