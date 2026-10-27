@@ -6,7 +6,7 @@
    "ds-15244187"
   ],
   "titel": "Gersthof-Garten-Geothermie-Ganze Etage (B1)",
-  "ergebnis": "Alt-Gersthof bei Erndtgasse 28, ±100 m (Mittel aus 10 ImmoScout24-Punkten); Grundriss geprüft: keine Adresse, Lageplan bestätigt langes Grundstück mit zwei Häusern",
+  "ergebnis": "Alt-Gersthof bei Erndtgasse 28, ±100 m (Mittel aus 10 ImmoScout24-Punkten); Grundriss geprüft: keine Adresse, Lageplan bestätigt langes Grundstück mit zwei Häusern; 2026-10-27 Bauträger-Suche ohne Ergebnis (kein Bauträger genannt, PlanetHome Georg Tauzher)",
   "datum": "2026-10-25"
  },
  "fm-5736189": {
@@ -32,8 +32,8 @@
    "ds-15129825"
   ],
   "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit Terrasse",
-  "ergebnis": "Alservorstadt nahe Spitalgasse, ±400 m (mehr Info gibt es nicht); Fotos geprüft: kein Grundriss mit Adresse",
-  "datum": "2026-10-25"
+  "ergebnis": "korrigiert: Borschkegasse 15 (DG-Ausbau RIWOG), wahrscheinlich die 93,13-m²-Einheit; Schwester-Inserate von Immoexpress decken sich mit der RIWOG-Einheitenliste (Terrassen 27,32 / 4,78 m²). Top unbekannt, Raumaufteilung weicht ab",
+  "datum": "2026-10-27"
  },
  "wh-1849409386": {
   "ids": [
@@ -120,8 +120,8 @@
    "fm-5591192"
   ],
   "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Altbauwohnung mit rund 14 m² großer Terrasse und Grünfläche",
-  "ergebnis": "bestätigt: Kutschkergasse (willhaben-Adresse, mehrere Portale nennen Kutschkergasse)",
-  "datum": "2026-10-25"
+  "ergebnis": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)",
+  "datum": "2026-10-27"
  },
  "wh-1925658613": {
   "ids": [
@@ -135,8 +135,8 @@
    "fm-5591190"
   ],
   "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Neubauwohnung mit Balkon",
-  "ergebnis": "bestätigt: Kutschkergasse (willhaben-Adresse, mehrere Portale nennen Kutschkergasse)",
-  "datum": "2026-10-25"
+  "ergebnis": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt",
+  "datum": "2026-10-27"
  },
  "wh-1249521365": {
   "ids": [
@@ -147,8 +147,8 @@
    "ds-15012552"
   ],
   "titel": "Familientraum mit perfektem Grundriss - sofort bezugsfertig nahe AKH!",
-  "ergebnis": "bestätigt: Kreuzgasse 21 (willhaben- und ImmoScout24-Punkt identisch)",
-  "datum": "2026-10-25"
+  "ergebnis": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt",
+  "datum": "2026-10-27"
  },
  "wh-1125947689": {
   "ids": [
@@ -158,8 +158,8 @@
    "ds-15209333"
   ],
   "titel": "Eden & Ivy - Moderne 4-Zimmer-Altbauwohnung",
-  "ergebnis": "bestätigt: Weitlofgasse Ecke Gymnasiumstraße (Text \"Die Weitlofgasse …\", willhaben-Punkt dort)",
-  "datum": "2026-10-25"
+  "ergebnis": "korrigiert: Weitlofgasse 9, 1. Stock (Projekt Eden & Ivy, Sangreal; Projektseite weekend.at nennt Weitlofgasse 9, Einheitenliste hat genau eine 4-Zi-Einheit mit 121 m² im 1. Stock); willhaben-Punkt lag ~175 m westlich",
+  "datum": "2026-10-27"
  },
  "wh-1610587856": {
   "ids": [
@@ -168,8 +168,8 @@
    "ds-15255239"
   ],
   "titel": "Exklusive Dachgeschoss-Maisonette mit Panoramaterrasse - Stilvolle Wohnkultur im Herzen von Währing",
-  "ergebnis": "bestätigt: Staudgasse beim Aumannplatz (willhaben-Adresse, Text nennt Staudgasse und Aumannplatz)",
-  "datum": "2026-10-25"
+  "ergebnis": "Staudgasse, Eckhaus, Top 31 DG/OG (Grundriss: 143,21 m², Terrasse 25 m²; Fotos 'Staudgasse Obj.3341'); Hausnummer unbekannt, willhaben-Punkt (Ecke Leitermayergasse) ist vermutlich nur Straßenmitte, Text sagt 'nahe Aumannplatz'. Adresse über DIMAG (Obj. 3341) erfragen",
+  "datum": "2026-10-27"
  },
  "wh-1301343986": {
   "ids": [
@@ -186,8 +186,8 @@
    "is-802967549260"
   ],
   "titel": "Erstbezug! Exklusive 4-Zimmer Gartenwohnung mit Loggia und TG-Platz!",
-  "ergebnis": "bestätigt: Nußberggasse 14 (willhaben- und ImmoScout24-Punkt identisch)",
-  "datum": "2026-10-25"
+  "ergebnis": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)",
+  "datum": "2026-10-27"
  },
  "wh-977565627": {
   "ids": [
@@ -195,8 +195,8 @@
    "is-156254806188"
   ],
   "titel": "Provisionsfreie 4-Zimmer Neubauwohnungen mit Freiflächen ab Euro 749.900!",
-  "ergebnis": "bestätigt: Greinergasse 38 (willhaben- und ImmoScout24-Punkt identisch)",
-  "datum": "2026-10-25"
+  "ergebnis": "unklar: Projektpunkt (Radius 255 m), Greinergasse 38 unbewiesen; Makler-Exposé (rimmo.immo-export.at/objekt/16598290) nennt nur 'Heiligenstädter Strasse, Q19', 25 m² Terrasse, 2. Liftstock, Bezug Ende 2028; 749.900 ist ein Ab-Preis. Adresse nur über Makler (RIMMO Prime, Kevin Matyas)",
+  "datum": "2026-10-27"
  },
  "wh-1033362768": {
   "ids": [
@@ -204,8 +204,8 @@
    "is-628126108293"
   ],
   "titel": "Familien-Apartment in Kutschkermarkt-Nähe",
-  "ergebnis": "bestätigt: Kreuzgasse 25 (willhaben und ImmoScout24 nennen die Adresse)",
-  "datum": "2026-10-25"
+  "ergebnis": "bestätigt: Kreuzgasse 25, Top 12, 2. Stock (Bauträger CROWND, Projekt KRE25 auf crownd.at/projekte; Inseratnummer 'KRE25 - Top12')",
+  "datum": "2026-10-27"
  },
  "wh-1046812803": {
   "ids": [
@@ -214,8 +214,8 @@
    "ds-15293823"
   ],
   "titel": "NEU! 5-Zi-Wohnung mit Balkon in 1190 Wien - 131m² Wohnkomfort!",
-  "ergebnis": "bestätigt: Flotowgasse 17 (willhaben- und ImmoScout24-Punkt identisch)",
-  "datum": "2026-10-25"
+  "ergebnis": "unklar: Punkt absichtlich verschoben (Radius 263 m); Schwesterwohnung desselben Hauses (wh-1819822940, gleicher Energieausweis) liegt auf Weinberggasse 36, diese auf Flotowgasse 17, also Untersievering um Flotowgasse/Weinberggasse/Sollingergasse. Sanierte Wohnung im Bestand. Adresse nur über Makler (equilibria, Wolfgang Konsel)",
+  "datum": "2026-10-27"
  },
  "wh-1309980503": {
   "ids": [

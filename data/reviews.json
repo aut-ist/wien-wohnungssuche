@@ -182,13 +182,13 @@
  },
  "wh-1296729808": {
   "lage": {
-   "adresse": "Alservorstadt nahe Spitalgasse (± 400 m)",
-   "lat": 48.21885,
-   "lon": 16.34856,
+   "adresse": "Borschkegasse 15",
+   "lat": null,
+   "lon": null,
    "sicherheit": "ungefaehr",
-   "begruendung": "Nur ein versetzter ImmoScout24-Punkt (± 400 m), Text nennt keine Straße (\"Öffis 3 Min., U6 in wenigen Gehminuten\")"
+   "begruendung": "korrigiert: Borschkegasse 15 (DG-Ausbau RIWOG), wahrscheinlich die 93,13-m²-Einheit; Schwester-Inserate von Immoexpress decken sich mit der RIWOG-Einheitenliste (Terrassen 27,32 / 4,78 m²). Top unbekannt, Raumaufteilung weicht ab"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-27"
  },
  "wh-1606800969": {
   "eckdaten": {
@@ -715,5 +715,415 @@
    "begruendung": "Bauträger-Seite estina.at/immobilien-projekte/krottenbachstrasse-182: Top 2.7, 1.DG, 4 Zi, 82,03 m², 810.500 (Anleger) / 899.000 (Endnutzer); Pelletanlage Stiege 1+2 wie im Inserat"
   },
   "datum": "2026-10-26"
+ },
+ "wh-1189143375": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-2112582298": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-004736730590": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-084732306455": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-961112648527": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15293838": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15288144": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15036035": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-014241264224": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "fm-5591192": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 3 (Altbau 1. OG). EDEX-Einheitenliste (weekend.at) nennt Top 3 mit 106,13 m², 895.000; Hausnummer aus EDEX-Kartenpunkt (OSM-Gebäude Nr. 11, Nachbarhaus 13 nicht ganz ausgeschlossen)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1925658613": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1385741007": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-546597163503": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-052417641301": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15290943": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15036037": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-437978220444": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "fm-5591190": {
+  "lage": {
+   "adresse": "Kutschkergasse 11",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Kutschkergasse 11, Top 7 (Neubau 3. OG). EDEX-Einheitenliste: Top 7, 103,42 m², 998.000; Matterport-Tour 'Kutschkergasse Top7'; Hausnummer aus EDEX-Kartenpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1033362768": {
+  "lage": {
+   "adresse": "Kreuzgasse 25",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "bestätigt: Kreuzgasse 25, Top 12, 2. Stock (Bauträger CROWND, Projekt KRE25 auf crownd.at/projekte; Inseratnummer 'KRE25 - Top12')"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-628126108293": {
+  "lage": {
+   "adresse": "Kreuzgasse 25",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "bestätigt: Kreuzgasse 25, Top 12, 2. Stock (Bauträger CROWND, Projekt KRE25 auf crownd.at/projekte; Inseratnummer 'KRE25 - Top12')"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1249521365": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-644215973483": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1786897455": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-480213811841": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15012552": {
+  "lage": {
+   "adresse": "Staudgasse 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-973807616265": {
+  "lage": {
+   "adresse": "Borschkegasse 15",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "korrigiert: Borschkegasse 15 (DG-Ausbau RIWOG), wahrscheinlich die 93,13-m²-Einheit; Schwester-Inserate von Immoexpress decken sich mit der RIWOG-Einheitenliste (Terrassen 27,32 / 4,78 m²). Top unbekannt, Raumaufteilung weicht ab"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15129825": {
+  "lage": {
+   "adresse": "Borschkegasse 15",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "korrigiert: Borschkegasse 15 (DG-Ausbau RIWOG), wahrscheinlich die 93,13-m²-Einheit; Schwester-Inserate von Immoexpress decken sich mit der RIWOG-Einheitenliste (Terrassen 27,32 / 4,78 m²). Top unbekannt, Raumaufteilung weicht ab"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1725543422": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.261738,
+   "lon": 16.361963,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-802967549260": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.261738,
+   "lon": 16.361963,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1046812803": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.24263,
+   "lon": 16.33908,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: Punkt absichtlich verschoben (Radius 263 m); Schwesterwohnung desselben Hauses (wh-1819822940, gleicher Energieausweis) liegt auf Weinberggasse 36, diese auf Flotowgasse 17, also Untersievering um Flotowgasse/Weinberggasse/Sollingergasse. Sanierte Wohnung im Bestand. Adresse nur über Makler (equilibria, Wolfgang Konsel)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-561306833127": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.24263,
+   "lon": 16.33908,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: Punkt absichtlich verschoben (Radius 263 m); Schwesterwohnung desselben Hauses (wh-1819822940, gleicher Energieausweis) liegt auf Weinberggasse 36, diese auf Flotowgasse 17, also Untersievering um Flotowgasse/Weinberggasse/Sollingergasse. Sanierte Wohnung im Bestand. Adresse nur über Makler (equilibria, Wolfgang Konsel)"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15293823": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.24263,
+   "lon": 16.33908,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: Punkt absichtlich verschoben (Radius 263 m); Schwesterwohnung desselben Hauses (wh-1819822940, gleicher Energieausweis) liegt auf Weinberggasse 36, diese auf Flotowgasse 17, also Untersievering um Flotowgasse/Weinberggasse/Sollingergasse. Sanierte Wohnung im Bestand. Adresse nur über Makler (equilibria, Wolfgang Konsel)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-977565627": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.25944,
+   "lon": 16.365059,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: Projektpunkt (Radius 255 m), Greinergasse 38 unbewiesen; Makler-Exposé (rimmo.immo-export.at/objekt/16598290) nennt nur 'Heiligenstädter Strasse, Q19', 25 m² Terrasse, 2. Liftstock, Bezug Ende 2028; 749.900 ist ein Ab-Preis. Adresse nur über Makler (RIMMO Prime, Kevin Matyas)"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-156254806188": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.25944,
+   "lon": 16.365059,
+   "sicherheit": "ungefaehr",
+   "begruendung": "unklar: Projektpunkt (Radius 255 m), Greinergasse 38 unbewiesen; Makler-Exposé (rimmo.immo-export.at/objekt/16598290) nennt nur 'Heiligenstädter Strasse, Q19', 25 m² Terrasse, 2. Liftstock, Bezug Ende 2028; 749.900 ist ein Ab-Preis. Adresse nur über Makler (RIMMO Prime, Kevin Matyas)"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1125947689": {
+  "lage": {
+   "adresse": "Weitlofgasse 9",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Weitlofgasse 9, 1. Stock (Projekt Eden & Ivy, Sangreal; Projektseite weekend.at nennt Weitlofgasse 9, Einheitenliste hat genau eine 4-Zi-Einheit mit 121 m² im 1. Stock); willhaben-Punkt lag ~175 m westlich"
+  },
+  "datum": "2026-10-27"
+ },
+ "fm-5613866": {
+  "lage": {
+   "adresse": "Weitlofgasse 9",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Weitlofgasse 9, 1. Stock (Projekt Eden & Ivy, Sangreal; Projektseite weekend.at nennt Weitlofgasse 9, Einheitenliste hat genau eine 4-Zi-Einheit mit 121 m² im 1. Stock); willhaben-Punkt lag ~175 m westlich"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-311329472763": {
+  "lage": {
+   "adresse": "Weitlofgasse 9",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Weitlofgasse 9, 1. Stock (Projekt Eden & Ivy, Sangreal; Projektseite weekend.at nennt Weitlofgasse 9, Einheitenliste hat genau eine 4-Zi-Einheit mit 121 m² im 1. Stock); willhaben-Punkt lag ~175 m westlich"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15209333": {
+  "lage": {
+   "adresse": "Weitlofgasse 9",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "korrigiert: Weitlofgasse 9, 1. Stock (Projekt Eden & Ivy, Sangreal; Projektseite weekend.at nennt Weitlofgasse 9, Einheitenliste hat genau eine 4-Zi-Einheit mit 121 m² im 1. Stock); willhaben-Punkt lag ~175 m westlich"
+  },
+  "datum": "2026-10-27"
+ },
+ "wh-1610587856": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.22425,
+   "lon": 16.33809,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Staudgasse, Eckhaus, Top 31 DG/OG (Grundriss: 143,21 m², Terrasse 25 m²; Fotos 'Staudgasse Obj.3341'); Hausnummer unbekannt, willhaben-Punkt (Ecke Leitermayergasse) ist vermutlich nur Straßenmitte, Text sagt 'nahe Aumannplatz'. Adresse über DIMAG (Obj. 3341) erfragen"
+  },
+  "datum": "2026-10-27"
+ },
+ "is-887572981819": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.22425,
+   "lon": 16.33809,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Staudgasse, Eckhaus, Top 31 DG/OG (Grundriss: 143,21 m², Terrasse 25 m²; Fotos 'Staudgasse Obj.3341'); Hausnummer unbekannt, willhaben-Punkt (Ecke Leitermayergasse) ist vermutlich nur Straßenmitte, Text sagt 'nahe Aumannplatz'. Adresse über DIMAG (Obj. 3341) erfragen"
+  },
+  "datum": "2026-10-27"
+ },
+ "ds-15255239": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.22425,
+   "lon": 16.33809,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Staudgasse, Eckhaus, Top 31 DG/OG (Grundriss: 143,21 m², Terrasse 25 m²; Fotos 'Staudgasse Obj.3341'); Hausnummer unbekannt, willhaben-Punkt (Ecke Leitermayergasse) ist vermutlich nur Straßenmitte, Text sagt 'nahe Aumannplatz'. Adresse über DIMAG (Obj. 3341) erfragen"
+  },
+  "datum": "2026-10-27"
  }
 }
