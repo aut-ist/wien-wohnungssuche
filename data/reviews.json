@@ -1253,5 +1253,19 @@
    "begruendung": "Teo-Lageplan im Inserat (Schubertviertel, zw. U6 Nußdorfer Str. und Volksoper) + Entfernungen daraus (U6 Volksoper ~300 m, Bim 37/38 ~200 m ab Canisiusgasse, Volksschule ~370 m) -> Canisiusgasse westlich der Nußdorfer Straße, ±150 m; willhaben-Punkt war 265 m versetzt (lag in der roten Zone)"
   },
   "datum": "2026-10-27"
+ },
+ "is-041972714060": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2272,
+   "lon": 16.3605,
+   "sicherheit": "genau",
+   "begruendung": "Althan Quartier (Text: 'Das Althan Quartier', 151 Wohnungen, Dachterrasse 10. OG) über dem Franz-Josefs-Bahnhof, Nordbergstraße/Althanstraße – ganz in der roten Zone Lichtental-Nord"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Vorsorgewohnung: Kaufpreis 950.000 zzgl. 20 % USt (Eigennutzer zahlen 1.140.000) + 3 % Provision, zum Vermieten gedacht; liegt außerdem in der roten Zone"
+  },
+  "datum": "2026-10-27"
  }
 }
