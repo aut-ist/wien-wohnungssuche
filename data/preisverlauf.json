@@ -1945,10 +1945,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/familien-apartment-in-kutschkermarkt-naehe-1033362768/",
    "titel": "Familien-Apartment in Kutschkermarkt-Nähe",
-   "status": "grau",
-   "gruende": [
-    "Heizung unklar"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.222677,
    "lon": 16.339778,
@@ -2889,10 +2887,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/neu-5-zi-wohnung-mit-balkon-in-1190-wien-131m-wohnkomfort-1046812803/",
    "titel": "NEU! 5-Zi-Wohnung mit Balkon in 1190 Wien - 131m² Wohnkomfort!",
-   "status": "grau",
-   "gruende": [
-    "Heizung unklar"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.24263,
    "lon": 16.33908,

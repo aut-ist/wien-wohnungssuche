@@ -32,6 +32,7 @@ PENDING = DATA / "pending.json"
 # die z. B. nach einer Regeländerung wieder auftauchen: die Routine recherchiert sie wie Nest-Wohnungen
 RECHERCHE = DATA / "recherche.json"
 GEPRUEFT = DATA / "nest_geprueft.json"
+RECHERCHE_PRO_TAG = 15  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundrisse nur für diese
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
 MAP_DATA = DOCS / "listings.json"
@@ -381,11 +382,9 @@ def bewerten(r, rev):
             h["text"] = "wird noch geprüft: " + h["text"]
         elif auto.get("hinweis"):
             h["text"] = auto["hinweis"]
+    # Heizung schließt seit 2026-10-28 nichts mehr aus: Gas, kein Gas oder unklar ist ein Filter auf
+    # der Karte (Wunsch des Paares); die Prüfung läuft weiter, damit der Filter stimmt
     out["heizung"] = h
-    if h["ergebnis"] == "gas":
-        return {**out, "status": "raus", "art": "heizung", "gruende": ["Gasheizung: " + h["text"][:160]]}
-    if h["ergebnis"] == "unklar":
-        grau.append("Heizung unklar")
     if ep and ep.get("geschaetzt") and not prev:
         out["fragen"].append("preis")
         grau.append("Preis für Eigennutzer geschätzt (Inserat zeigt den Anlegerpreis)")
@@ -704,7 +703,8 @@ def build():
                 "punkt": [b["lat"], b["lon"]], "versatz_m": r.get("lage_radius") or 0,
                 "preis": r.get("preis"), "flaeche": r.get("flaeche"), "zimmer": r.get("zimmer"),
                 "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
-                "grundrisse": f"data/grundrisse/{r['id']}/",
+                "grundrisse": f"data/grundrisse/{r['id']}/", "im_nest": bool(set(r["ids"]) & nest),
+                "gas": (b.get("heizung") or {}).get("ergebnis") == "gas", "erstmals": r["erstmals"],
             })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:
             pending.append({
@@ -764,6 +764,9 @@ def build():
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
                          "quellen": quellen, "wohnungen": karte}, indent=None)
     save_json(PENDING, pending)
+    # Reihenfolge = Vorrang für die Routine (sie schafft RECHERCHE_PRO_TAG): Nest, dann ohne Gas, dann neueste
+    recherche.sort(key=lambda e: e["erstmals"], reverse=True)
+    recherche.sort(key=lambda e: (not e["im_nest"], e["gas"]))
     save_json(RECHERCHE, recherche)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"

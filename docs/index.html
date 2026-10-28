@@ -308,6 +308,7 @@
     <label class="feld">Zimmer ab<input type="number" id="fZimmer" step="1" min="0" placeholder="4"></label>
     <div class="feld">Bezirk<div class="chips" id="fBezirke"></div></div>
     <div class="feld">Status<div class="chips" id="fStatus"></div></div>
+    <div class="feld">Heizung<div class="chips" id="fHeizung"></div></div>
     <div class="feld">Sonstiges<div class="chips" id="fExtra"></div></div>
     <div class="feld">Sortierung
       <select id="fSort" class="chip">
@@ -432,7 +433,7 @@ function markiere(liste, id, wert) {
 }
 
 const STD_FILTER = { preis: null, flaeche: null, zimmer: null, guertel: null, bezirke: Object.keys(BEZIRKE).map(Number),
-  status: ['gruen', 'grau'], neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
+  status: ['gruen', 'grau'], heizung: ['kein_gas', 'unklar', 'gas'], neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
 let filter = Object.assign({}, STD_FILTER, mein.filter || {});
 const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
 
@@ -541,6 +542,7 @@ function passtFilter(w) {
   if (filter.guertel && w.guertel && w.guertel.min > filter.guertel) return false;
   if (!filter.bezirke.includes(w.plz)) return false;
   if (!filter.status.includes(w.status)) return false;
+  if (!(filter.heizung || STD_FILTER.heizung).includes(w.heizung?.ergebnis || 'unklar')) return false;
   if (filter.neu && !w.neu) return false;
   if (filter.freiflaeche && !(w.freiflaeche || []).length) return false;
   if (filter.ungesehen && istGesehen(w)) return false;
@@ -1156,12 +1158,15 @@ function filterUi() {
   document.getElementById('fSort').value = filter.sort;
   document.querySelectorAll('#fBezirke .chip').forEach(b => b.setAttribute('aria-pressed', filter.bezirke.includes(+b.dataset.v)));
   document.querySelectorAll('#fStatus .chip').forEach(b => b.setAttribute('aria-pressed', filter.status.includes(b.dataset.v)));
+  document.querySelectorAll('#fHeizung .chip').forEach(b => b.setAttribute('aria-pressed', filter.heizung.includes(b.dataset.v)));
   document.querySelectorAll('#fExtra .chip').forEach(b => b.setAttribute('aria-pressed', !!filter[b.dataset.k]));
 }
 function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); zeichne(); }
 chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
 chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',
   v => `<span class="dot" style="background:${FARBE[v]}"></span>${STATUS_TXT[v]}`);
+chipGruppe(document.getElementById('fHeizung'), ['kein_gas', 'unklar', 'gas'], 'heizung',
+  v => ({ kein_gas: 'kein Gas', unklar: 'unklar', gas: '🔥 Gasheizung' })[v]);
 document.getElementById('fExtra').innerHTML = '<button class="chip" data-k="neu">nur neue</button><button class="chip" data-k="freiflaeche">mit Freifläche</button><button class="chip" data-k="ungesehen">no ned gschaut</button>';
 document.querySelectorAll('#fExtra .chip').forEach(b => b.addEventListener('click', () => { filter[b.dataset.k] = !filter[b.dataset.k]; filterGeaendert(); }));
 [['fPreis', 'preis'], ['fFlaeche', 'flaeche'], ['fZimmer', 'zimmer'], ['fGuertel', 'guertel']].forEach(([id, k]) =>
