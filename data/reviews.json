@@ -1275,5 +1275,37 @@
    "begruendung": "Vorsorgewohnung: Kaufpreis 950.000 zzgl. 20 % USt (Eigennutzer zahlen 1.140.000) + 3 % Provision, zum Vermieten gedacht; liegt außerdem in der roten Zone"
   },
   "datum": "2026-10-27"
+ },
+ "wh-1109460584": {
+  "lage": {
+   "adresse": "Alsergrund",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"Herzen des 9. Bezirks\", U6, Türkenschanzpark/Währinger Park; keine Straße genannt"
+  },
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 96
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15233012": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.258364,
+   "lon": 16.318397,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Salmannsdorf, 35A; keine Adresse gefunden"
+  },
+  "datum": "2026-10-28"
+ },
+ "is-127562166319": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.239604,
+   "lon": 16.325637,
+   "sicherheit": "ungefaehr",
+   "begruendung": "gegenüber Raimund-Zoder-Park; Adresse nicht gefunden"
+  },
+  "datum": "2026-10-28"
  }
 }
