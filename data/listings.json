@@ -26066,7 +26066,7 @@
   "typ": "Wohnung",
   "erstmals": "2026-10-25",
   "zuletzt": "2026-10-27",
-  "aktiv": true,
+  "aktiv": false,
   "text": "## Ausstattung\n- Balkonanzahl:1\n- Abstellraum Anzahl: 1\n- Balkonfläche:18 m²\n- Bad mit Wanne\n- Heizung: Ofen\n- Abstellraum\n\n## Lage\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <1000m\nPost <1000m\nPolizei <1000m\n\n## Beschreibung\nWohnen wie im eigenen Haus in Döbling - Best- und Ruhelage mit Garten & FernblickIn einer der begehrtesten Wohnlagen Döblings erwartet Sie eine außergewöhnliche Immobilie mit besonderem Hauscharakter. Die Anlage besteht aus mehreren einzelnen Gebäuden, jedes Gebäude beherbergt lediglich zwei Wohneinheiten - zum Verkauf steht die obere Wohneinheit mit großzügigem privatem Gartenanteil, großer Terrasse und wunderschönem Fernblick.\nDie absolute Ruhelage sorgt für ein entspanntes und privates Wohngefühl. Gleichzeitig bietet die Immobilie mit einem eigenen Garagenstellplatz und einem gemeinschaftlichen Swimmingpool einen besonderen Wohnkomfort.\nDie Wohnung befindet sich insgesamt in einem gepflegten Zustand, entspricht in Teilen jedoch noch dem Ausstattungsstandard des Baujahres 1978. Einige Bereiche, darunter auch das Badezimmer, bieten Potenzial für eine zeitgemäße Modernisierung und individuelle Neugestaltung.\nEin besonderes Highlight ist das großzügige Wohnzimmer mit schönem Kamin und direktem Zugang zur großen Terrasse. Von hier eröffnet sich der schöne Fernblick - ein wunderbarer Ort zum Entspannen und Genießen. Beheizt wird die Wohnung mit Elektroöfen und dem Kamin. \nDer große Gartenanteil, die Terrasse und die ruhige Lage verleihen der Immobilie einen außergewöhnlichen Charakter. Wer Privatsphäre, Freiraum und naturnahes Wohnen schätzt, findet hier eine seltene Kombination mitten in Wien.\nDie Highlights\n- Best- und Ruhelage in Oberdöbling\n- Wohnen mit Hauscharakter\n- Gebäude mit nur zwei Wohneinheiten\n- 4 Zimmer / 3 Schlafzimmer\n- großer privater Gartenanteil\n- großzügige Terrasse mit Fernblick\n- schöner Kamin im Wohnzimmer\n- eigener Garagenstellplatz\n- gemeinschaftliches Swimmingpool\n- Badezimmer und separates WC\n- Abstellraum\n- guter Zustand\n- leichter Renovierungsbedarf\n- viel Privatsphäre und Gestaltungspotenzial\nEine besondere Gelegenheit für alle, die großzügiges Wohnen, Garten und Ruhe suchen und dabei die Vorzüge einer exklusiven Wiener Wohnlage nicht missen möchten.\nBesichtigungen:\n Melden Sie sich gerne unter der angegebenen Telefonnummer +43 664 1243625 oder per E-Mail an m.lewinter@remax-inspire.at. Wir finden schnell einen Termin!\nFür weitere Informationen stehen wir Ihnen jederzeit gerne zur Verfügung. Wir bitten um Verständnis, dass aufgrund der Nachweispflicht gegenüber dem Eigentümer nur Anfragen mit vollständigen Kontaktdaten (Name, Anschrift, Tel.-Nr., E-Mail) beantwortet werden können. Wir informieren Sie darüber, dass wir bei diesem Objekt eine Doppelmaklertätigkeit ausüben. (§ 5 Abs. 3 MaklerG).\nNebenkosten\n 3,5% Grunderwerbsteuer\n 1,1% Grundbucheintragung\n 3,0 % Vermittlungsprovision zzgl. 20% MwSt.\n Vertragserrichtung nach Vereinbarung\nEs wird darauf hingewiesen, dass die angeführten Daten auf Informationen des Abgeber oder Dritten ( z.B. Behörden) beruhen, so das für die Richtigkeit keine Gewähr übernommen werden kann!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 767,81 Eur\n- monatliche Kosten (inkl. MWSt): 802,32 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Monatliche Reparaturrücklage (excl. MWSt): 421,67 Eur\n- sonstige Kosten (exkl. MWSt): 422.67 Eur\n\n## Zusatzinformationen\n- Stiege: 1\n- Anzahl Badezimmer: 1\n- Stellplatz: Garage\n- Swimmingpool: Ja\n- Energiepass gültig bis: 2033-05-25\n- Energiepass HWB: 176 kWh/m²/Jahr\n- Verfügbar ab: sofort\n- Anzahl WC: 1\n\n## Flächen\n- Gartenfläche: 250 m²\n- Kellerfläche: 5.4 m²",
   "heizung_felder": [
    "Heizung: Sonstige",
@@ -26119,7 +26119,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 266
+  "lage_radius": 266,
+  "nachfolger": "wh-1108783478"
  },
  "wh-2118802960": {
   "id": "wh-2118802960",
@@ -99270,7 +99271,7 @@
   "typ": "Maisonette",
   "erstmals": "2026-10-25",
   "zuletzt": "2026-10-27",
-  "aktiv": true,
+  "aktiv": false,
   "text": "## Beschreibung\nWillkommen in einem Zuhause mit echtem Seltenheitswert. Diese außergewöhnliche Maisonette im begehrten 19. Bezirk verbindet großzügige Flächen, eindrucksvolle Ausblicke auf Park und Weingärten sowie ein Wohngefühl, das seinesgleichen sucht.\nAuf ca. 110 m² Wohnfläche und rund 66 m² Terrassenfläche entfaltet sich eine durchdachte Raumstruktur mit viel Gestaltungspotenzial. Im unteren Bereich befinden sich zwei helle Schlafzimmer, ein weiteres lässt sich bei Bedarf problemlos realisieren. Ergänzt wird diese Ebene durch eine Küche mit angrenzendem Esszimmer und direktem Zugang zur sonnigen Frühstücksterrasse, ein Badezimmer, ein separates WC sowie einen Abstellraum.\nDas obere Wohngeschoß beeindruckt mit einem großzügigen Wohnzimmer und weitem Rundumblick über die Dächer und Grünlagen des 19. Bezirks. Die umlaufende Dachterrasse erweitert den Wohnraum ins Freie und schafft einen sommerlichen Rückzugsort über den Dächern Wiens.\nDie Wohnung präsentiert sich gepflegt und bietet eine ideale Basis für eine stilvolle, individuelle Modernisierung. Ein geräumiger Kellerraum sowie ein Garagenplatz runden das Angebot ab.\nVereinbaren Sie noch heute Ihren persönlichen Besichtigungstermin.\n\n## Lage\nAttraktive Grünlage mit Top-Infrastruktur\n\nDas Wohnhaus liegt in ruhiger Bestlage direkt gegenüber dem Raimund-Zoder-Park – umgeben von viel Grün und hoher Lebensqualität. Der nahe Hugo-Wolff-Park sowie weitere Erholungsflächen laden zum Verweilen ein.\n\nTraditionelle Heurige in Neustift, Grinzing und Sievering bieten kulinarische Abwechslung und gesellige Abende.\n\nVerkehr & Infrastruktur:\n• Nur 5 Gehminuten zur Buslinie 35A mit direkter Anbindung an U-Bahn, S-Bahn und S45\n• Nahversorgung fußläufig: Ärzte, Kindergarten, Volksschule und Geschäfte\n• Schnelle Autofahrt ins Zentrum über Krottenbachstraße\n• Neuer Radweg mit Anbindung an das Wiener Radnetz\n• Höhenstraße Richtung Westen Wiens schnell erreichbar\n\nDiese Lage verbindet naturnahes Wohnen mit städtischem Komfort und bester Erreichbarkeit.\n\n## Merkmale\n- Maisonette\n- Baujahr 1996\n- Unterkellert\n- Dielen\n- Parkett\n- 3. Etage\n- Insgesamt 2 Etagen\n- Wohnfläche 110 m²\n- 3 Balkone\n- 5 Zimmer\n- 3 Schlafzimmer\n- 1 Badezimmer\n- Abstellraum\n- 1 Parkmöglichkeit\n- Einbauküche\n- Badewanne\n- Dusche\n- Klimatisiert\n- Kamin\n- Personenaufzug",
   "energie": {
    "hwb": 85.0,
@@ -99281,7 +99282,8 @@
   "baujahr": "1996",
   "stockwerk": "3",
   "monatlich": 1035.72,
-  "detail_am": "2026-10-25"
+  "detail_am": "2026-10-25",
+  "nachfolger": "is-632662390797"
  },
  "is-527191065150": {
   "id": "is-527191065150",
@@ -99947,7 +99949,7 @@
   "typ": "Wohnung",
   "erstmals": "2026-10-25",
   "zuletzt": "2026-10-27",
-  "aktiv": true,
+  "aktiv": false,
   "text": "## Beschreibung\nWohnen wie im eigenen Haus in Döbling – Best- und Ruhelage mit Garten & FernblickIn einer der begehrtesten Wohnlagen Döblings erwartet Sie eine außergewöhnliche Immobilie mit besonderem Hauscharakter. Die Anlage besteht aus mehreren einzelnen Gebäuden, jedes Gebäude beherbergt lediglich zwei Wohneinheiten – zum Verkauf steht die obere Wohneinheit mit großzügigem privatem Gartenanteil, großer Terrasse und wunderschönem Fernblick.\nDie absolute Ruhelage sorgt für ein entspanntes und privates Wohngefühl. Gleichzeitig bietet die Immobilie mit einem eigenen Garagenstellplatz und einem gemeinschaftlichen Swimmingpool einen besonderen Wohnkomfort.\nDie Wohnung befindet sich insgesamt in einem gepflegten Zustand, entspricht in Teilen jedoch noch dem Ausstattungsstandard des Baujahres 1978. Einige Bereiche, darunter auch das Badezimmer, bieten Potenzial für eine zeitgemäße Modernisierung und individuelle Neugestaltung.\nEin besonderes Highlight ist das großzügige Wohnzimmer mit schönem Kamin und direktem Zugang zur großen Terrasse. Von hier eröffnet sich der schöne Fernblick – ein wunderbarer Ort zum Entspannen und Genießen. Beheizt wird die Wohnung mit Elektroöfen und dem Kamin.\nDer große Gartenanteil, die Terrasse und die ruhige Lage verleihen der Immobilie einen außergewöhnlichen Charakter. Wer Privatsphäre, Freiraum und naturnahes Wohnen schätzt, findet hier eine seltene Kombination mitten in Wien.\nDie Highlights\n- Best- und Ruhelage in Oberdöbling\n\n- Wohnen mit Hauscharakter\n\n- Gebäude mit nur zwei Wohneinheiten\n\n- 4 Zimmer / 3 Schlafzimmer\n\n- großer privater Gartenanteil\n\n- großzügige Terrasse mit Fernblick\n\n- schöner Kamin im Wohnzimmer\n\n- eigener Garagenstellplatz\n\n- gemeinschaftliches Swimmingpool\n\n- Badezimmer und separates WC\n\n- Abstellraum\n\n- guter Zustand\n\n- leichter Renovierungsbedarf\n\n- viel Privatsphäre und Gestaltungspotenzial\n\nEine besondere Gelegenheit für alle, die großzügiges Wohnen, Garten und Ruhe suchen und dabei die Vorzüge einer exklusiven Wiener Wohnlage nicht missen möchten.\nBesichtigungen:\nMelden Sie sich gerne unter der angegebenen Telefonnummer [Telefonnummer entfernt] oder per E-Mail an [E-Mail-Adresse entfernt]. Wir finden schnell einen Termin!\nFür weitere Informationen stehen wir Ihnen jederzeit gerne zur Verfügung. Wir bitten um Verständnis, dass aufgrund der Nachweispflicht gegenüber dem Eigentümer nur Anfragen mit vollständigen Kontaktdaten (Name, Anschrift, Tel.-Nr., E-Mail) beantwortet werden können. Wir informieren Sie darüber, dass wir bei diesem Objekt eine Doppelmaklertätigkeit ausüben. (§ 5 Abs. 3 MaklerG).\nNebenkosten\n3,5% Grunderwerbsteuer\n1,1% Grundbucheintragung\n3,0 % Vermittlungsprovision zzgl. 20% MwSt.\nVertragserrichtung nach Vereinbarung\nEs wird darauf hingewiesen, dass die angeführten Daten auf Informationen des Abgeber oder Dritten ( z.B. Behörden) beruhen, so das für die Richtigkeit keine Gewähr übernommen werden kann!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <1.000m\nKlinik <1.000m\nKrankenhaus <1.000m\n\nKinder & Schulen\nSchule <1.000m\nKindergarten <500m\nUniversität <1.000m\nHöhere Schule <1.000m\n\nNahversorgung\nSupermarkt <500m\nBäckerei <1.000m\nEinkaufszentrum <1.500m\n\nSonstige\nGeldautomat <1.000m\nBank <1.000m\nPost <1.000m\nPolizei <1.000m\n\nVerkehr\nBus <500m\nU-Bahn <1.500m\nStraßenbahn <500m\nBahnhof <1.000m\nAutobahnanschluss <2.000m\n\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Merkmale\n- Verfügbar ab sofort\n- Wohnung\n- Renovierungsbedürftig\n- Unterkellert\n- Wohnfläche 105 m²\n- Gartenfläche 250 m²\n- 1 Balkon 18 m² südseitig\n- Garten\n- 4 Zimmer\n- Kellerfläche 5,4 m²\n- 1 Badezimmer\n- 1 Toilette\n- Gäste WC\n- Abstellraum\n- Garage\n- Fahrradabstellraum\n- 1 Parkmöglichkeit\n- Fernblick\n- Badewanne\n- Fenster im Badezimmer\n- Kamin\n- Garten\n- Swimmingpool",
   "heizung_felder": [
    "Heizung: Ofenheizung"
@@ -99960,7 +99962,8 @@
   },
   "zustand": "Renovierungsbedürftig",
   "monatlich": 2372.45,
-  "detail_am": "2026-10-25"
+  "detail_am": "2026-10-25",
+  "nachfolger": "is-099924899750"
  },
  "is-054316064514": {
   "id": "is-054316064514",
@@ -121910,7 +121913,7 @@
   ],
   "projekt": false,
   "erstmals": "2026-10-25",
-  "zuletzt": "2026-10-27",
+  "zuletzt": "2026-10-28",
   "aktiv": true,
   "text": "## Beschreibung\nLuxus-Dachgeschosswohnung mit Galerie und zwei Terrassen in bester Lage des 9. Bezirks\nWillkommen in Ihrem neuen Zuhause einer exquisiten Dachgeschosswohnung im Herzen des 9. Bezirks, die modernes Design, hochwertige Ausstattung und urbane Lebensqualität auf eindrucksvolle Weise vereint. Diese lichtdurchflutete 4-Zimmer-Wohnung bietet auf ca. 125 m² Wohnfläche zuzüglich rund 29 m² Terrassen ein Wohngefühl der Extraklasse. Die Kombination aus stilvoller Architektur, großzügiger Raumhöhe, edlem Parkett und klaren Linien schafft eine Atmosphäre von Ruhe und Eleganz mitten in der Stadt.\nDie Highlights im Überblick:\nGesamtnutzfläche: ca. 154 m² (83,96 m² DG + 41,45 m² Galerie + 28,65 m² Terrassen)\nZwei großzügige Terrassen mit Süd-/Südwest-Ausrichtung ideal für entspannte Stunden im Freien\nModerne Klimaanlage in allen Zimmern für ganzjährig angenehmes Raumklima\nExklusive Küche mit hochwertigen Geräten, stilvoll integriert in den offenen Wohnbereich\nZwei elegante Badezimmer eines mit Dusche, eines mit Badewanne\nDrei separate WCs für maximalen Komfort\nGaleriebereich mit flexiblem Nutzungspotenzial ideal für Homeoffice, Atelier oder Bibliothek\nZugewiesenes Kellerabteil (ca. 3 m²) & Fahrradraum\nMietgarage in unmittelbarer Nähe verfügbar (€ 140/Monat)\nDie Wohnung befindet sich im Dachgeschoss eines charmanten, gepflegten Altbaus und wurde im Zuge einer umfassenden Sanierung technisch wie optisch auf den neuesten Stand gebracht. Historischer Charakter trifft hier auf moderne Raffinesse.\nLage & Umgebung\nDie Wohnlage im Alsergrund gehört zu den gefragtesten Wiens. Nur wenige Schritte trennen Sie von der U6-Station Nußdorfer Straße, zahlreichen Einkaufsmöglichkeiten, ausgezeichneten Restaurants und einer lebendigen Kultur- und Bildungsszene. Gleichzeitig genießen Sie die Ruhe einer gepflegten Seitengasse ein perfekter Rückzugsort mitten im urbanen Leben.\nFazit:\nDiese Dachgeschosswohnung bietet alles, was anspruchsvolle Stadtmenschen suchen: Raum, Stil, Licht, Privatsphäre und das in einer der besten Lagen Wiens. Ein Ort, der nicht nur Wohnraum, sondern Lebensqualität verspricht.Noch nichts gefunden Wir informieren Sie über geeignete Immobilienangebote noch vor allen anderen.\nLegen Sie jetzt Ihren individuellen Suchagenten unter folgendem Link an. Wir schicken Ihnen passende Immobilien exklusiv vorab zu.\nSuchagent anlegen - https://klasan-partner-immobilien-gmbh-co.service.immo/registrieren/de\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.",
   "heizung_felder": [
@@ -127036,7 +127039,7 @@
   "veroeffentlicht": "2026-10-27T10:50:48Z",
   "anbieter": "REMAX Inspire",
   "typ": "Wohnung",
-  "erstmals": "2026-10-28",
+  "erstmals": "2026-10-25",
   "zuletzt": "2026-10-28",
   "aktiv": true,
   "text": "## Ausstattung\n- Balkonanzahl:1\n- Abstellraum Anzahl: 1\n- Balkonfläche:18 m²\n- Bad mit Wanne\n- Heizung: Ofen\n- Abstellraum\n\n## Lage\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <1000m\nPost <1000m\nPolizei <1000m\n\n## Beschreibung\nWohnen wie im eigenen Haus in Döbling - Best- und Ruhelage mit Garten & FernblickIn einer der begehrtesten Wohnlagen Döblings erwartet Sie eine außergewöhnliche Immobilie mit besonderem Hauscharakter. Die Anlage besteht aus mehreren einzelnen Gebäuden, jedes Gebäude beherbergt lediglich zwei Wohneinheiten - zum Verkauf steht die obere Wohneinheit mit großzügigem privatem Gartenanteil, großer Terrasse und wunderschönem Fernblick.\nDie absolute Ruhelage sorgt für ein entspanntes und privates Wohngefühl. Gleichzeitig bietet die Immobilie mit einem eigenen Garagenstellplatz und einem gemeinschaftlichen Swimmingpool einen besonderen Wohnkomfort.\nDie Wohnung befindet sich insgesamt in einem gepflegten Zustand, entspricht in Teilen jedoch noch dem Ausstattungsstandard des Baujahres 1978. Einige Bereiche, darunter auch das Badezimmer, bieten Potenzial für eine zeitgemäße Modernisierung und individuelle Neugestaltung.\nEin besonderes Highlight ist das großzügige Wohnzimmer mit schönem Kamin und direktem Zugang zur großen Terrasse. Von hier eröffnet sich der schöne Fernblick - ein wunderbarer Ort zum Entspannen und Genießen. Beheizt wird die Wohnung mit Elektroöfen und dem Kamin. \nDer große Gartenanteil, die Terrasse und die ruhige Lage verleihen der Immobilie einen außergewöhnlichen Charakter. Wer Privatsphäre, Freiraum und naturnahes Wohnen schätzt, findet hier eine seltene Kombination mitten in Wien.\nDie Highlights\n- Best- und Ruhelage in Oberdöbling\n- Wohnen mit Hauscharakter\n- Gebäude mit nur zwei Wohneinheiten\n- 4 Zimmer / 3 Schlafzimmer\n- großer privater Gartenanteil\n- großzügige Terrasse mit Fernblick\n- schöner Kamin im Wohnzimmer\n- eigener Garagenstellplatz\n- gemeinschaftliches Swimmingpool\n- Badezimmer und separates WC\n- Abstellraum\n- guter Zustand\n- leichter Renovierungsbedarf\n- viel Privatsphäre und Gestaltungspotenzial\nEine besondere Gelegenheit für alle, die großzügiges Wohnen, Garten und Ruhe suchen und dabei die Vorzüge einer exklusiven Wiener Wohnlage nicht missen möchten.\nBesichtigungen:\n Melden Sie sich gerne unter der angegebenen Telefonnummer +43 664 1243625 oder per E-Mail an m.lewinter@remax-inspire.at. Wir finden schnell einen Termin!\nFür weitere Informationen stehen wir Ihnen jederzeit gerne zur Verfügung. Wir bitten um Verständnis, dass aufgrund der Nachweispflicht gegenüber dem Eigentümer nur Anfragen mit vollständigen Kontaktdaten (Name, Anschrift, Tel.-Nr., E-Mail) beantwortet werden können. Wir informieren Sie darüber, dass wir bei diesem Objekt eine Doppelmaklertätigkeit ausüben. (§ 5 Abs. 3 MaklerG).\nNebenkosten\n 3,5% Grunderwerbsteuer\n 1,1% Grundbucheintragung\n 3,0 % Vermittlungsprovision zzgl. 20% MwSt.\n Vertragserrichtung nach Vereinbarung\nEs wird darauf hingewiesen, dass die angeführten Daten auf Informationen des Abgeber oder Dritten ( z.B. Behörden) beruhen, so das für die Richtigkeit keine Gewähr übernommen werden kann!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 767,81 Eur\n- monatliche Kosten (inkl. MWSt): 802,32 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Monatliche Reparaturrücklage (excl. MWSt): 421,67 Eur\n- sonstige Kosten (exkl. MWSt): 422.67 Eur\n\n## Zusatzinformationen\n- Stiege: 1\n- Anzahl Badezimmer: 1\n- Stellplatz: Garage\n- Swimmingpool: Ja\n- Energiepass gültig bis: 2033-05-25\n- Energiepass HWB: 176 kWh/m²/Jahr\n- Verfügbar ab: sofort\n- Anzahl WC: 1\n\n## Flächen\n- Gartenfläche: 250 m²\n- Kellerfläche: 5.4 m²",
@@ -127053,7 +127056,16 @@
   },
   "lage_radius": 266,
   "monatlich": 802.32,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "preis_historie": [
+   [
+    "2026-10-28",
+    995000.0
+   ]
+  ],
+  "vorgaenger": [
+   "wh-1927145195"
+  ]
  },
  "fm-5768418": {
   "id": "fm-5768418",
@@ -128006,7 +128018,7 @@
   "veroeffentlicht": "2026-10-28",
   "anbieter": "Golden Home Real LTD & CoKG",
   "typ": "Maisonette",
-  "erstmals": "2026-10-28",
+  "erstmals": "2026-10-25",
   "zuletzt": "2026-10-28",
   "aktiv": true,
   "text": "## Beschreibung\nGroßzügige Terrassen, beeindruckender Parkblick und Wohnen auf zwei Ebenen: Diese Maisonette im begehrten 19. Wiener Gemeindebezirk verbindet urbanes Wohnen mit den grünen Lagen Döblings.\n\nAuf ca. 110 m² Wohnfläche und rund 66 m² Terrassenfläche eröffnet sich viel Raum für individuelle Wohnideen. Das untere Geschoß bietet zwei helle Schlafzimmer, mit der Möglichkeit, ein drittes Zimmer zu schaffen. Die Küche mit angrenzendem Esszimmer führt direkt auf die sonnige Frühstücksterrasse. Ein Badezimmer, ein separates WC und ein Abstellraum ergänzen diese Ebene.\n\nIm oberen Geschoß bildet das großzügige Wohnzimmer mit weitem Blick über die Dächer Wiens, Parkanlagen und Weingärten den Mittelpunkt. Die umlaufende Dachterrasse lädt dazu ein, sonnige Tage und laue Sommerabende mit besonderem Ausblick zu genießen.\n\nDie Wohnung bietet eine hervorragende Grundlage, um durch eine zeitgemäße Modernisierung ein individuelles Zuhause nach eigenen Vorstellungen zu schaffen. Ein geräumiger Kellerraum und ein Garagenplatz runden das Angebot ab.\n\nVereinbaren Sie Ihren persönlichen Besichtigungstermin.\n\n## Lage\nAttraktive Grünlage mit Top-Infrastruktur\n\nDas Wohnhaus liegt in ruhiger Bestlage direkt gegenüber dem Raimund-Zoder-Park – umgeben von viel Grün und hoher Lebensqualität. Der nahe Hugo-Wolff-Park sowie weitere Erholungsflächen laden zum Verweilen ein.\n\nTraditionelle Heurige in Neustift, Grinzing und Sievering bieten kulinarische Abwechslung und gesellige Abende.\n\nVerkehr & Infrastruktur:\n• Nur 5 Gehminuten zur Buslinie 35A mit direkter Anbindung an U-Bahn, S-Bahn und S45\n• Nahversorgung fußläufig: Ärzte, Kindergarten, Volksschule und Geschäfte\n• Schnelle Autofahrt ins Zentrum über Krottenbachstraße\n• Neuer Radweg mit Anbindung an das Wiener Radnetz\n• Höhenstraße Richtung Westen Wiens schnell erreichbar\n\nDiese Lage verbindet naturnahes Wohnen mit städtischem Komfort und bester Erreichbarkeit.\n\n## Merkmale\n- Maisonette\n- Baujahr 1996\n- Unterkellert\n- Dielen\n- Parkett\n- 3. Etage\n- Insgesamt 2 Etagen\n- Wohnfläche 110 m²\n- 3 Terrassen  66 m²\n- Wintergarten\n- 5 Zimmer\n- 3 Schlafzimmer\n- 1 Badezimmer\n- Abstellraum\n- 1 Parkmöglichkeit\n- Einbauküche\n- Badewanne\n- Dusche\n- Klimatisiert\n- Kamin\n- Personenaufzug",
@@ -128019,7 +128031,16 @@
   "baujahr": "1996",
   "stockwerk": "3",
   "monatlich": 1035.72,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "preis_historie": [
+   [
+    "2026-10-28",
+    898700.0
+   ]
+  ],
+  "vorgaenger": [
+   "is-127562166319"
+  ]
  },
  "is-099924899750": {
   "id": "is-099924899750",
@@ -128075,7 +128096,7 @@
   "veroeffentlicht": "2026-10-22",
   "anbieter": "RE/MAX Inspire",
   "typ": "Wohnung",
-  "erstmals": "2026-10-28",
+  "erstmals": "2026-10-25",
   "zuletzt": "2026-10-28",
   "aktiv": true,
   "text": "## Beschreibung\nWohnen wie im eigenen Haus in Döbling – Best- und Ruhelage mit Garten & FernblickIn einer der begehrtesten Wohnlagen Döblings erwartet Sie eine außergewöhnliche Immobilie mit besonderem Hauscharakter. Die Anlage besteht aus mehreren einzelnen Gebäuden, jedes Gebäude beherbergt lediglich zwei Wohneinheiten – zum Verkauf steht die obere Wohneinheit mit großzügigem privatem Gartenanteil, großer Terrasse und wunderschönem Fernblick.\nDie absolute Ruhelage sorgt für ein entspanntes und privates Wohngefühl. Gleichzeitig bietet die Immobilie mit einem eigenen Garagenstellplatz und einem gemeinschaftlichen Swimmingpool einen besonderen Wohnkomfort.\nDie Wohnung befindet sich insgesamt in einem gepflegten Zustand, entspricht in Teilen jedoch noch dem Ausstattungsstandard des Baujahres 1978. Einige Bereiche, darunter auch das Badezimmer, bieten Potenzial für eine zeitgemäße Modernisierung und individuelle Neugestaltung.\nEin besonderes Highlight ist das großzügige Wohnzimmer mit schönem Kamin und direktem Zugang zur großen Terrasse. Von hier eröffnet sich der schöne Fernblick – ein wunderbarer Ort zum Entspannen und Genießen. Beheizt wird die Wohnung mit Elektroöfen und dem Kamin.\nDer große Gartenanteil, die Terrasse und die ruhige Lage verleihen der Immobilie einen außergewöhnlichen Charakter. Wer Privatsphäre, Freiraum und naturnahes Wohnen schätzt, findet hier eine seltene Kombination mitten in Wien.\nDie Highlights\n- Best- und Ruhelage in Oberdöbling\n\n- Wohnen mit Hauscharakter\n\n- Gebäude mit nur zwei Wohneinheiten\n\n- 4 Zimmer / 3 Schlafzimmer\n\n- großer privater Gartenanteil\n\n- großzügige Terrasse mit Fernblick\n\n- schöner Kamin im Wohnzimmer\n\n- eigener Garagenstellplatz\n\n- gemeinschaftliches Swimmingpool\n\n- Badezimmer und separates WC\n\n- Abstellraum\n\n- guter Zustand\n\n- leichter Renovierungsbedarf\n\n- viel Privatsphäre und Gestaltungspotenzial\n\nEine besondere Gelegenheit für alle, die großzügiges Wohnen, Garten und Ruhe suchen und dabei die Vorzüge einer exklusiven Wiener Wohnlage nicht missen möchten.\nBesichtigungen:\nMelden Sie sich gerne unter der angegebenen Telefonnummer [Telefonnummer entfernt] oder per E-Mail an [E-Mail-Adresse entfernt]. Wir finden schnell einen Termin!\nFür weitere Informationen stehen wir Ihnen jederzeit gerne zur Verfügung. Wir bitten um Verständnis, dass aufgrund der Nachweispflicht gegenüber dem Eigentümer nur Anfragen mit vollständigen Kontaktdaten (Name, Anschrift, Tel.-Nr., E-Mail) beantwortet werden können. Wir informieren Sie darüber, dass wir bei diesem Objekt eine Doppelmaklertätigkeit ausüben. (§ 5 Abs. 3 MaklerG).\nNebenkosten\n3,5% Grunderwerbsteuer\n1,1% Grundbucheintragung\n3,0 % Vermittlungsprovision zzgl. 20% MwSt.\nVertragserrichtung nach Vereinbarung\nEs wird darauf hingewiesen, dass die angeführten Daten auf Informationen des Abgeber oder Dritten ( z.B. Behörden) beruhen, so das für die Richtigkeit keine Gewähr übernommen werden kann!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <1.000m\nKlinik <1.000m\nKrankenhaus <1.000m\n\nKinder & Schulen\nSchule <1.000m\nKindergarten <500m\nUniversität <1.000m\nHöhere Schule <1.000m\n\nNahversorgung\nSupermarkt <500m\nBäckerei <1.000m\nEinkaufszentrum <1.500m\n\nSonstige\nGeldautomat <1.000m\nBank <1.000m\nPost <1.000m\nPolizei <1.000m\n\nVerkehr\nBus <500m\nU-Bahn <1.500m\nStraßenbahn <500m\nBahnhof <1.000m\nAutobahnanschluss <2.000m\n\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Merkmale\n- Verfügbar ab sofort\n- Wohnung\n- Renovierungsbedürftig\n- Unterkellert\n- Wohnfläche 105 m²\n- Gartenfläche 250 m²\n- 1 Balkon 18 m² südseitig\n- Garten\n- 4 Zimmer\n- Kellerfläche 5,4 m²\n- 1 Badezimmer\n- 1 Toilette\n- Gäste WC\n- Abstellraum\n- Garage\n- Fahrradabstellraum\n- 1 Parkmöglichkeit\n- Fernblick\n- Badewanne\n- Dusche\n- Fenster im Badezimmer\n- Kamin\n- Garten\n- Swimmingpool",
@@ -128090,7 +128111,16 @@
   },
   "zustand": "Renovierungsbedürftig",
   "monatlich": 2372.45,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "preis_historie": [
+   [
+    "2026-10-28",
+    995000.0
+   ]
+  ],
+  "vorgaenger": [
+   "is-722072134692"
+  ]
  },
  "is-406276086918": {
   "id": "is-406276086918",

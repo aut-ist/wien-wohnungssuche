@@ -1,62 +1,32 @@
 [
  {
-  "id": "ds-15233012",
+  "id": "ds-15259789",
   "ids": [
-   "ds-15233012"
+   "ds-15259789"
   ],
-  "titel": "Grünruhelage# große Terrasse# Nähe AIS",
+  "titel": "Exklusive Ruhelage in Döbling - 4-Zimmer-Wohnung mit Garten, Terrasse, Fernblick, Garage & Pool",
   "plz": 1190,
   "links": [
-   "https://immobilien.derstandard.at/detail/15233012"
+   "https://immobilien.derstandard.at/detail/15259789"
   ],
-  "anbieter": "Raiffeisen Immobilien Vermittlung",
+  "anbieter": "REMAX Inspire CaLa Immobilien GmbH",
   "adresse_im_inserat": null,
   "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
   "punkt": [
-   48.258364,
-   16.318397
+   48.262684,
+   16.317342
   ],
   "versatz_m": 0,
-  "preis": 695000.0,
-  "flaeche": 116.1,
+  "preis": 995000.0,
+  "flaeche": 105.0,
   "zimmer": 4,
   "stockwerk": null,
   "energie": {
-   "hwb": 152.5,
+   "hwb": 176,
    "hwb_class": "E",
-   "fgee": 1.98,
-   "fgee_class": "D"
+   "fgee": 3.53,
+   "fgee_class": "F"
   },
-  "grundrisse": "data/grundrisse/ds-15233012/"
- },
- {
-  "id": "is-127562166319",
-  "ids": [
-   "is-127562166319"
-  ],
-  "titel": "Exklusive Maisonette mit Panoramadachterrasse und Blick auf Park und Weingärten",
-  "plz": 1190,
-  "links": [
-   "https://www.immobilienscout24.at/expose/6aa27e5494a488aa40749c39"
-  ],
-  "anbieter": "Golden Home Real LTD & CoKG",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
-  "punkt": [
-   48.239604,
-   16.325637
-  ],
-  "versatz_m": 0,
-  "preis": 898700.0,
-  "flaeche": 110.0,
-  "zimmer": 5,
-  "stockwerk": "3",
-  "energie": {
-   "hwb": 85.0,
-   "hwb_class": "C",
-   "fgee": 1.71,
-   "fgee_class": "C"
-  },
-  "grundrisse": "data/grundrisse/is-127562166319/"
+  "grundrisse": "data/grundrisse/ds-15259789/"
  }
 ]

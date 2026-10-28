@@ -8,8 +8,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   erzeugt von `tools/build_zones.py`). Außerdem raus: Gasheizung (`wohnungen/heizung.py`),
   unbefristet vermietet und sanierungsbedürftig (`wohnungen/zustand.py`).
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
-  schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`). Um 05:04 UTC prüft eine
-  Claude-Cloud-Routine `data/pending.json`. In der Cloud blockt der Proxy die Portale, dort nie
+  schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`; die GitHub-Termine fallen oft
+  aus oder kommen Stunden später). Um 06:15 UTC startet eine Claude-Cloud-Routine, prüft
+  `data/pending.json` und recherchiert; sie wartet mit ihrer Zusammenfassung (= Benachrichtigung)
+  bis 09:15 Wiener Zeit, so will es das Paar. In der Cloud blockt der Proxy die Portale, dort nie
   scrapen; fehlt der Scrape, committet die Routine `data/anstoss.txt`, das startet den Workflow.
   Erreicht `run.py scrape` gar kein Portal, bricht er ab (Exit 2), ohne etwas zu speichern.
   Ein voller Scrape dauert 40 bis 60 Minuten; pusht in der Zeit jemand, nimmt der Workflow den
@@ -65,6 +67,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   zieht selbst ein, also zählt der Eigennutzerpreis (Filter und Anzeige): `eigennutzer_preis()` in
   run.py liest ihn aus dem Text ("Eigennutzerpreis: € …", "… für Endnutzer"), sonst Anlegerpreis
   + 20 % und Frage `preis` an die Routine; von Hand per review `{"preis": {"eigennutzer": N}}`.
+- Online-Status: Nest-Wohnungen werden beim Scrape einzeln aufgerufen (`online_pruefen`), auch
+  wenn die Suche sie nicht zeigt. Verschwundene Inserate bleiben 14 Tage in der Liste, ausgegraut
+  ("nicht mehr online"), aber nicht auf der Karte. Neu inserierte Wohnungen (gleicher Makler,
+  Portal, m², Zimmer, Stock, HWB; `neu_inseriert`) übernehmen Verlauf, Nest und Prüfungen der alten Nummer.
 - Preisverlauf: jedes Inserat merkt sich Preisänderungen (`preis_historie`), die Gruppe führt sie
   über alle Portale zusammen (`preisverlauf`, dazu `online_seit` = frühestes Inseratsdatum). Für
   Nest-Wohnungen hält `data/preisverlauf.json` den Verlauf und den letzten Stand fest, auch über

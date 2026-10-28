@@ -43,43 +43,50 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/maison-waehring-1849409386/",
      "preis": 745000.0,
-     "id": "wh-1849409386"
+     "id": "wh-1849409386",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/moderne-4-zimmer-wohnung-mit-loggia-und-stellplatz-in-1180-wien-erstbezug-991072087/",
      "preis": 745000.0,
-     "id": "wh-991072087"
+     "id": "wh-991072087",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gemeinsam-wohnen-freiraum-geniessen-1084383112/",
      "preis": 745000.0,
-     "id": "wh-1084383112"
+     "id": "wh-1084383112",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a29411340954ac69b2cffc6",
      "preis": 745000.0,
-     "id": "is-872690675259"
+     "id": "is-872690675259",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a7643466be22d693f98c761",
      "preis": 745000.0,
-     "id": "is-877293695140"
+     "id": "is-877293695140",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15037691",
      "preis": 745000.0,
-     "id": "ds-15037691"
+     "id": "ds-15037691",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15168300",
      "preis": 745000.0,
-     "id": "ds-15168300"
+     "id": "ds-15168300",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -89,6 +96,7 @@
    "gruende": [
     "Neubau, als Vorsorgewohnung für Anleger beworben – nicht vermietet, Eigennutzung beim Makler klären"
    ],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -250,13 +258,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/m86-perfekte-familienwohnung-mit-3-schlafzimmer-1959877344/",
      "preis": 899000.0,
-     "id": "wh-1959877344"
+     "id": "wh-1959877344",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69bac0ef14d2a7db24e2da7b",
      "preis": 899000.0,
-     "id": "is-913919867359"
+     "id": "is-913919867359",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "ImmoScout24",
@@ -264,6 +274,7 @@
    "titel": "M86 - Perfekte Familienwohnung mit 3- Schlafzimmer",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22541,
    "lon": 16.34225,
    "ungefaehr": false,
@@ -374,13 +385,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/m86-eigentumswohnung-im-18-bezirk-4-zimmer-und-garten-1810653507/",
      "preis": 999999.0,
-     "id": "wh-1810653507"
+     "id": "wh-1810653507",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69bac0ef14d2a7db24e2da77",
      "preis": 999999.0,
-     "id": "is-139220585181"
+     "id": "is-139220585181",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -388,6 +401,7 @@
    "titel": "M86 - Eigentumswohnung im 18. Bezirk - 4 Zimmer und Garten",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22541,
    "lon": 16.34225,
    "ungefaehr": false,
@@ -523,61 +537,71 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/am-kutschkermarkt-exklusive-4-zimmer-altbauwohnung-mit-rund-14-m-grosser-terrasse-und-gruenflaeche-1189143375/",
      "preis": 895000.0,
-     "id": "wh-1189143375"
+     "id": "wh-1189143375",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/heller-4-zimmer-erstbezug-mit-terrasse-naehe-kutschkermarkt-2112582298/",
      "preis": 895000.0,
-     "id": "wh-2112582298"
+     "id": "wh-2112582298",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "FindMyHome",
      "url": "https://www.findmyhome.at/5591192",
      "preis": 895000.0,
-     "id": "fm-5591192"
+     "id": "fm-5591192",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a9442574d5316e98e8d4ef7",
      "preis": 895000.0,
-     "id": "is-004736730590"
+     "id": "is-004736730590",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6ad5bfaa0fcbf47925ed4429",
      "preis": 895000.0,
-     "id": "is-084732306455"
+     "id": "is-084732306455",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6adb784a432881315c808367",
      "preis": 895000.0,
-     "id": "is-961112648527"
+     "id": "is-961112648527",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6953b04aa2dae73662a86d3c",
      "preis": 895000.0,
-     "id": "is-014241264224"
+     "id": "is-014241264224",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15293838",
      "preis": 895000.0,
-     "id": "ds-15293838"
+     "id": "ds-15293838",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15288144",
      "preis": 895000.0,
-     "id": "ds-15288144"
+     "id": "ds-15288144",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15036035",
      "preis": 895000.0,
-     "id": "ds-15036035"
+     "id": "ds-15036035",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -585,6 +609,7 @@
    "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Altbauwohnung mit rund 14 m² großer Terrasse und Grünfläche",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.223374,
    "lon": 16.343816,
    "ungefaehr": false,
@@ -771,37 +796,43 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/viel-platz-fuer-das-leben-4-zimmer-mit-freiraum-2039112596/",
      "preis": 772700.0,
-     "id": "wh-2039112596"
+     "id": "wh-2039112596",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neuer-preis-lichtdurchflutete-4-zimmer-mit-dachgeschossflair-1309980503/",
      "preis": 772659.0,
-     "id": "wh-1309980503"
+     "id": "wh-1309980503",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a770782b25f5832d5750e90",
      "preis": 772700.0,
-     "id": "is-983018811699"
+     "id": "is-983018811699",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a9711da52396f7ef1096875",
      "preis": 772659.0,
-     "id": "is-693992408430"
+     "id": "is-693992408430",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69674a89a1d7e32ac6259080",
      "preis": 772659.0,
-     "id": "is-678589082404"
+     "id": "is-678589082404",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15013268",
      "preis": 772659.0,
-     "id": "ds-15013268"
+     "id": "ds-15013268",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -809,6 +840,7 @@
    "titel": "VIEL PLATZ FÜR DAS LEBEN - 4 ZIMMER MIT FREIRAUM",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -979,19 +1011,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduziert-grosszuegige-4-zimmer-wohnung-mit-westterrasse-nahe-akh-wohnen-investieren-1164047911/",
      "preis": 708861.0,
-     "id": "wh-1164047911"
+     "id": "wh-1164047911",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a2bbe3c9faaec815c4f4e4e",
      "preis": 708861.0,
-     "id": "is-994036005387"
+     "id": "is-994036005387",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15170445",
      "preis": 708861.0,
-     "id": "ds-15170445"
+     "id": "ds-15170445",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -999,6 +1034,7 @@
    "titel": "PREISREDUZIERT- Großzügige 4-Zimmer-Wohnung mit Westterrasse nahe AKH - Wohnen & Investieren",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -1138,19 +1174,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduktion-4-zimmer-wohnung-mit-westterrasse-nahe-akh-attraktiv-fuer-eigennutzer-anleger-1521015679/",
      "preis": 683486.0,
-     "id": "wh-1521015679"
+     "id": "wh-1521015679",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a2bbcaf9faaec815c4f4c0b",
      "preis": 683486.0,
-     "id": "is-898805484674"
+     "id": "is-898805484674",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15170446",
      "preis": 683486.0,
-     "id": "ds-15170446"
+     "id": "ds-15170446",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -1158,6 +1197,7 @@
    "titel": "PREISREDUKTION -4 Zimmer-Wohnung mit Westterrasse nahe AKH - attraktiv für Eigennutzer & Anleger",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -1291,19 +1331,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/maison-waehring-995729007/",
      "preis": 772659.0,
-     "id": "wh-995729007"
+     "id": "wh-995729007",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a2bbcaf9faaec815c4f4c11",
      "preis": 772659.0,
-     "id": "is-028092133517"
+     "id": "is-028092133517",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15170425",
      "preis": 772659.0,
-     "id": "ds-15170425"
+     "id": "ds-15170425",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -1313,6 +1356,7 @@
    "gruende": [
     "Neubau, als Vorsorgewohnung für Anleger beworben – nicht vermietet, Eigennutzung beim Makler klären"
    ],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -1466,49 +1510,57 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/am-kutschkermarkt-exklusive-4-zimmer-neubauwohnung-mit-balkon-1925658613/",
      "preis": 998000.0,
-     "id": "wh-1925658613"
+     "id": "wh-1925658613",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/heller-4-zimmer-erstbezug-mit-balkon-naehe-kutschkermarkt-1385741007/",
      "preis": 998000.0,
-     "id": "wh-1385741007"
+     "id": "wh-1385741007",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "FindMyHome",
      "url": "https://www.findmyhome.at/5591190",
      "preis": 998000.0,
-     "id": "fm-5591190"
+     "id": "fm-5591190",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6ad8abbf058948f7efbb3b85",
      "preis": 998000.0,
-     "id": "is-546597163503"
+     "id": "is-546597163503",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a90089553fa9e404f01e616",
      "preis": 998000.0,
-     "id": "is-052417641301"
+     "id": "is-052417641301",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6953b04936bebc5a3453b624",
      "preis": 998000.0,
-     "id": "is-437978220444"
+     "id": "is-437978220444",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15290943",
      "preis": 998000.0,
-     "id": "ds-15290943"
+     "id": "ds-15290943",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15036037",
      "preis": 998000.0,
-     "id": "ds-15036037"
+     "id": "ds-15036037",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -1516,6 +1568,7 @@
    "titel": "Am Kutschkermarkt | Exklusive 4-Zimmer-Neubauwohnung mit Balkon",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.223374,
    "lon": 16.343816,
    "ungefaehr": false,
@@ -1689,31 +1742,36 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/familientraum-mit-perfektem-grundriss-sofort-bezugsfertig-nahe-akh-1249521365/",
      "preis": 745000.0,
-     "id": "wh-1249521365"
+     "id": "wh-1249521365",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neuer-preis-familientraum-mit-4-zimmern-und-sonniger-loggia-1786897455/",
      "preis": 745000.0,
-     "id": "wh-1786897455"
+     "id": "wh-1786897455",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6ac7b0a05e89ee975e9441cb",
      "preis": 745000.0,
-     "id": "is-644215973483"
+     "id": "is-644215973483",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69664ccb6238f77599a5f412",
      "preis": 745000.0,
-     "id": "is-480213811841"
+     "id": "is-480213811841",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15012552",
      "preis": 745000.0,
-     "id": "ds-15012552"
+     "id": "ds-15012552",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -1721,6 +1779,7 @@
    "titel": "Familientraum mit perfektem Grundriss - sofort bezugsfertig nahe AKH!",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.223622,
    "lon": 16.339966,
    "ungefaehr": false,
@@ -1872,13 +1931,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/familien-apartment-in-kutschkermarkt-naehe-1033362768/",
      "preis": 630000.0,
-     "id": "wh-1033362768"
+     "id": "wh-1033362768",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/697b8861053828e8963a19ab",
      "preis": 630000.0,
-     "id": "is-628126108293"
+     "id": "is-628126108293",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -1888,6 +1949,7 @@
    "gruende": [
     "Heizung unklar"
    ],
+   "offline": false,
    "lat": 48.222677,
    "lon": 16.339778,
    "ungefaehr": false,
@@ -2002,25 +2064,29 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/eden-ivy-moderne-4-zimmer-altbauwohnung-1125947689/",
      "preis": 998000.0,
-     "id": "wh-1125947689"
+     "id": "wh-1125947689",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "FindMyHome",
      "url": "https://www.findmyhome.at/5613866",
      "preis": 998000.0,
-     "id": "fm-5613866"
+     "id": "fm-5613866",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a679debc9791ccc0ab1f0b6",
      "preis": 998000.0,
-     "id": "is-311329472763"
+     "id": "is-311329472763",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15209333",
      "preis": 998000.0,
-     "id": "ds-15209333"
+     "id": "ds-15209333",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2028,6 +2094,7 @@
    "titel": "Eden & Ivy - Moderne 4-Zimmer-Altbauwohnung",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.229947,
    "lon": 16.347491,
    "ungefaehr": false,
@@ -2175,19 +2242,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gersthof-garten-geothermie-ganze-etage-b1-1354035914/",
      "preis": 997000.0,
-     "id": "wh-1354035914"
+     "id": "wh-1354035914",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a9ebb707ca336d58128041c",
      "preis": 997000.0,
-     "id": "is-455694791895"
+     "id": "is-455694791895",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15244187",
      "preis": 997000.0,
-     "id": "ds-15244187"
+     "id": "ds-15244187",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2195,6 +2265,7 @@
    "titel": "Gersthof-Garten-Geothermie-Ganze Etage (B1)",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.23502,
    "lon": 16.32118,
    "ungefaehr": true,
@@ -2330,19 +2401,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/exklusive-dachgeschoss-maisonette-mit-panoramaterrasse-stilvolle-wohnkultur-im-herzen-von-waehring-1610587856/",
      "preis": 995000.0,
-     "id": "wh-1610587856"
+     "id": "wh-1610587856",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6aad1ada9c3b63bfc25489b9",
      "preis": 995000.0,
-     "id": "is-887572981819"
+     "id": "is-887572981819",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15255239",
      "preis": 995000.0,
-     "id": "ds-15255239"
+     "id": "ds-15255239",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2350,6 +2424,7 @@
    "titel": "Exklusive Dachgeschoss-Maisonette mit Panoramaterrasse - Stilvolle Wohnkultur im Herzen von Währing",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22425,
    "lon": 16.33809,
    "ungefaehr": true,
@@ -2496,13 +2571,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/4-zimmer-erstbezugs-wohnung-mit-terrasse-loggia-nahe-akh-1017542154/",
      "preis": 772659.0,
-     "id": "wh-1017542154"
+     "id": "wh-1017542154",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15037694",
      "preis": 772659.0,
-     "id": "ds-15037694"
+     "id": "ds-15037694",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2510,6 +2587,7 @@
    "titel": "4-Zimmer-Erstbezugs-Wohnung mit Terrasse/Loggia nahe AKH",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.22362,
    "lon": 16.33997,
    "ungefaehr": false,
@@ -2650,13 +2728,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/moderne-gartenwohnung-erstbezug-provisionsfrei-1301343986/",
      "preis": 810500.0,
-     "id": "wh-1301343986"
+     "id": "wh-1301343986",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6ad239051b2d47d18b04ed42",
      "preis": 810500.0,
-     "id": "is-498490497227"
+     "id": "is-498490497227",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2664,6 +2744,7 @@
    "titel": "Moderne Gartenwohnung - Erstbezug | Provisionsfrei",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.249503,
    "lon": 16.309679,
    "ungefaehr": false,
@@ -2787,19 +2868,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/neu-5-zi-wohnung-mit-balkon-in-1190-wien-131m-wohnkomfort-1046812803/",
      "preis": 945000.0,
-     "id": "wh-1046812803"
+     "id": "wh-1046812803",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6adb6f0a432881315c807cc9",
      "preis": 945000.0,
-     "id": "is-561306833127"
+     "id": "is-561306833127",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15293823",
      "preis": 945000.0,
-     "id": "ds-15293823"
+     "id": "ds-15293823",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2809,6 +2893,7 @@
    "gruende": [
     "Heizung unklar"
    ],
+   "offline": false,
    "lat": 48.24263,
    "lon": 16.33908,
    "ungefaehr": true,
@@ -2923,13 +3008,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erstbezug-exklusive-4-zimmer-gartenwohnung-mit-loggia-und-tg-platz-1725543422/",
      "preis": 849000.0,
-     "id": "wh-1725543422"
+     "id": "wh-1725543422",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/6a9fef4ee4c7bfa69d242d81",
      "preis": 849000.0,
-     "id": "is-802967549260"
+     "id": "is-802967549260",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -2937,6 +3024,7 @@
    "titel": "Erstbezug! Exklusive 4-Zimmer Gartenwohnung mit Loggia und TG-Platz!",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.261738,
    "lon": 16.361963,
    "ungefaehr": true,
@@ -3054,13 +3142,15 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/provisionsfreie-4-zimmer-neubauwohnungen-mit-freiflaechen-ab-euro-749-900-977565627/",
      "preis": 749900.0,
-     "id": "wh-977565627"
+     "id": "wh-977565627",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69ca3d4de7d3bc2dce046d8a",
      "preis": 749900.0,
-     "id": "is-156254806188"
+     "id": "is-156254806188",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -3068,6 +3158,7 @@
    "titel": "Provisionsfreie 4-Zimmer Neubauwohnungen mit Freiflächen ab Euro 749.900!",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.25944,
    "lon": 16.365059,
    "ungefaehr": true,
@@ -3195,19 +3286,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/exklusive-dachgeschosswohnung-im-9-bezirk-mit-terrasse-1296729808/",
      "preis": 845000.0,
-     "id": "wh-1296729808"
+     "id": "wh-1296729808",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69f919112786f64d52ed107b",
      "preis": 845000.0,
-     "id": "is-973807616265"
+     "id": "is-973807616265",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15129825",
      "preis": 845000.0,
-     "id": "ds-15129825"
+     "id": "ds-15129825",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -3215,6 +3309,7 @@
    "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit Terrasse",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.218162,
    "lon": 16.343424,
    "ungefaehr": true,
@@ -3347,7 +3442,8 @@
      "quelle": "FindMyHome",
      "url": "https://www.findmyhome.at/5736189",
      "preis": null,
-     "id": "fm-5736189"
+     "id": "fm-5736189",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "FindMyHome",
@@ -3357,6 +3453,7 @@
    "gruende": [
     "kein Preis angegeben"
    ],
+   "offline": false,
    "lat": 48.223962,
    "lon": 16.354403,
    "ungefaehr": false,
@@ -3393,7 +3490,7 @@
    ],
    "zustand": null,
    "guertel": null,
-   "zuletzt": "2026-10-27"
+   "zuletzt": "2026-10-28"
   },
   "details": {
    "text": "## Beschreibung\nLuxus-Dachgeschosswohnung mit Galerie und zwei Terrassen in bester Lage des 9. Bezirks\nWillkommen in Ihrem neuen Zuhause einer exquisiten Dachgeschosswohnung im Herzen des 9. Bezirks, die modernes Design, hochwertige Ausstattung und urbane Lebensqualität auf eindrucksvolle Weise vereint. Diese lichtdurchflutete 4-Zimmer-Wohnung bietet auf ca. 125 m² Wohnfläche zuzüglich rund 29 m² Terrassen ein Wohngefühl der Extraklasse. Die Kombination aus stilvoller Architektur, großzügiger Raumhöhe, edlem Parkett und klaren Linien schafft eine Atmosphäre von Ruhe und Eleganz mitten in der Stadt.\nDie Highlights im Überblick:\nGesamtnutzfläche: ca. 154 m² (83,96 m² DG + 41,45 m² Galerie + 28,65 m² Terrassen)\nZwei großzügige Terrassen mit Süd-/Südwest-Ausrichtung ideal für entspannte Stunden im Freien\nModerne Klimaanlage in allen Zimmern für ganzjährig angenehmes Raumklima\nExklusive Küche mit hochwertigen Geräten, stilvoll integriert in den offenen Wohnbereich\nZwei elegante Badezimmer eines mit Dusche, eines mit Badewanne\nDrei separate WCs für maximalen Komfort\nGaleriebereich mit flexiblem Nutzungspotenzial ideal für Homeoffice, Atelier oder Bibliothek\nZugewiesenes Kellerabteil (ca. 3 m²) & Fahrradraum\nMietgarage in unmittelbarer Nähe verfügbar (€ 140/Monat)\nDie Wohnung befindet sich im Dachgeschoss eines charmanten, gepflegten Altbaus und wurde im Zuge einer umfassenden Sanierung technisch wie optisch auf den neuesten Stand gebracht. Historischer Charakter trifft hier auf moderne Raffinesse.\nLage & Umgebung\nDie Wohnlage im Alsergrund gehört zu den gefragtesten Wiens. Nur wenige Schritte trennen Sie von der U6-Station Nußdorfer Straße, zahlreichen Einkaufsmöglichkeiten, ausgezeichneten Restaurants und einer lebendigen Kultur- und Bildungsszene. Gleichzeitig genießen Sie die Ruhe einer gepflegten Seitengasse ein perfekter Rückzugsort mitten im urbanen Leben.\nFazit:\nDiese Dachgeschosswohnung bietet alles, was anspruchsvolle Stadtmenschen suchen: Raum, Stil, Licht, Privatsphäre und das in einer der besten Lagen Wiens. Ein Ort, der nicht nur Wohnraum, sondern Lebensqualität verspricht.Noch nichts gefunden Wir informieren Sie über geeignete Immobilienangebote noch vor allen anderen.\nLegen Sie jetzt Ihren individuellen Suchagenten unter folgendem Link an. Wir schicken Ihnen passende Immobilien exklusiv vorab zu.\nSuchagent anlegen - https://klasan-partner-immobilien-gmbh-co.service.immo/registrieren/de\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.",
@@ -3453,19 +3550,22 @@
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/raritaet-2015er-neubau-mit-balkon-ruhelage-hofseite-lift-1126470514/",
      "preis": 868000.0,
-     "id": "wh-1126470514"
+     "id": "wh-1126470514",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "ImmoScout24",
      "url": "https://www.immobilienscout24.at/expose/69c3ec61845696062ce4d222",
      "preis": 868000.0,
-     "id": "is-438057777871"
+     "id": "is-438057777871",
+     "zuletzt": "2026-10-28"
     },
     {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15090408",
      "preis": 868000.0,
-     "id": "ds-15090408"
+     "id": "ds-15090408",
+     "zuletzt": "2026-10-28"
     }
    ],
    "quelle": "willhaben",
@@ -3473,6 +3573,7 @@
    "titel": "Rarität: 2015er Neubau mit Balkon | Ruhelage | Hofseite | Lift",
    "status": "gruen",
    "gruende": [],
+   "offline": false,
    "lat": 48.2281,
    "lon": 16.3524,
    "ungefaehr": true,

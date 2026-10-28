@@ -136,6 +136,9 @@
   .tag.gold { background: #fff3cc; color: #7a5a00; }
   .tag.gesehen { background: #e8edff; color: #22337a; }
   .karte.gesehen .preis, .karte.gesehen .titel { color: #555a62; }
+  .karte.offline { opacity: .55; filter: grayscale(1); }
+  .karte.offline:hover { opacity: .8; }
+  .tag.offline { background: #3a3d42; color: #fff; }
 
   /* Detail */
   #detail { position: absolute; inset: 0; background: var(--panel); z-index: 5; overflow-y: auto; transform: translateX(-102%); transition: transform .22s ease; }
@@ -648,7 +651,8 @@ function preisverlaufHtml(w) {
 function tagsHtml(w) {
   const h = w.heizung || {};
   return `<div class="tags">
-    ${w.neu ? '<span class="tag neu">NEU</span>' : ''}
+    ${w.offline ? `<span class="tag offline">${esc(w.gruende?.[0] || 'Nicht mehr online')}</span>` : ''}
+    ${w.neu && !w.offline ? '<span class="tag neu">NEU</span>' : ''}
     ${istGesehen(w) && !NUR_NEST ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
     <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
@@ -666,7 +670,7 @@ function aktionenHtml(w, papierkorb) {
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="vollbild"')).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
@@ -758,6 +762,8 @@ function zeichneMarker(liste) {
 
 function zeichne() {
   const s = sichtbar();
+  // nicht mehr online: nicht auf der Karte, nur ausgegraut in der Liste (unten)
+  s.karte = s.karte.filter(w => !w.offline);
   zeichneMarker(s.karte);
   // Familie: auf alle goldenen Eier zoomen, auch wenn das Nest erst nach und nach live geladen wird
   if (NUR_NEST && !state.selbstBewegt && s.karte.length && s.karte.length !== state.eingepasst) {
@@ -768,8 +774,8 @@ function zeichne() {
   const nachBezirk = NUR_NEST || state.tab === 'gemerkt';
   const rang = plz => { const i = [1180, 1190, 1090, 1080, 1020, 1010].indexOf(plz); return i < 0 ? 99 : i; };
   const liste = nachBezirk
-    ? [...s[state.tab]].sort((a, b) => rang(a.plz) - rang(b.plz) || (a.preis ?? 1e12) - (b.preis ?? 1e12))
-    : sortiere([...s[state.tab]]);
+    ? [...s[state.tab]].sort((a, b) => rang(a.plz) - rang(b.plz) || !!a.offline - !!b.offline || (a.preis ?? 1e12) - (b.preis ?? 1e12))
+    : sortiere([...s[state.tab]]).sort((a, b) => !!a.offline - !!b.offline);
   document.getElementById('nAlle').textContent = s.alle.length;
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
   document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
@@ -844,7 +850,8 @@ async function zeigeDetail(id, neuLaden = true) {
       <div class="links">${(w.links || [{ quelle: w.quelle, url: w.url, preis: w.preis }]).map((l, i, alle) => `
         <a class="link" href="${esc(l.url)}" target="_blank" rel="noopener">
           <span class="q">${esc(l.quelle)}${alle.filter(x => x.quelle === l.quelle).length > 1
-            ? ` <span class="meta">Inserat ${alle.filter(x => x.quelle === l.quelle).indexOf(l) + 1}</span>` : ''}</span><span class="meta">${eur(l.preis)}</span><span class="pfeil">↗</span>
+            ? ` <span class="meta">Inserat ${alle.filter(x => x.quelle === l.quelle).indexOf(l) + 1}</span>` : ''}${
+            l.zuletzt && (w.offline || l.zuletzt < alle.reduce((m, x) => x.zuletzt > m ? x.zuletzt : m, '')) ? ` <span class="tag offline">nicht mehr online (zuletzt ${datumAT(l.zuletzt)})</span>` : ''}</span><span class="meta">${eur(l.preis)}</span><span class="pfeil">↗</span>
         </a>`).join('')}</div>
     </div>`;
   el.classList.add('offen');

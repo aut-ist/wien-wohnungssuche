@@ -23,6 +23,7 @@ from wohnungen import geo, heizung, zustand
 from wohnungen.quellen import QUELLEN
 from wohnungen.config import CONFIG, DATA, DOCS, ROOT, load_json, save_json
 from wohnungen.geocode import geocode
+from wohnungen.http import get
 
 LISTINGS = DATA / "listings.json"
 REVIEWS = DATA / "reviews.json"
@@ -125,6 +126,54 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
                 save_json(LISTINGS, listings)
 
 
+def neu_inseriert(listings, gesehen):
+    """Makler stellen Wohnungen gern mit neuer Nummer neu ein, oft billiger. Ist heute ein Inserat
+    verschwunden und ein neues desselben Maklers auf demselben Portal da (gleiche Fläche, Zimmer,
+    Stock, Energieausweis), ist es dieselbe Wohnung: Verlauf übernehmen, Preisänderung merken."""
+    weg = [r for r in listings.values() if r["id"] not in gesehen and r.get("aktiv") and r.get("zuletzt") != TODAY]
+    for n in [r for r in listings.values() if r["id"] in gesehen and r.get("erstmals") == TODAY]:
+        hwb = (n.get("energie") or {}).get("hwb")
+        for a in weg:
+            if (a["id"][:2] == n["id"][:2] and a.get("plz") == n.get("plz") and a.get("anbieter")
+                    and a.get("anbieter") == n.get("anbieter") and hwb and (a.get("energie") or {}).get("hwb") == hwb
+                    and a.get("flaeche") and n.get("flaeche") and abs(a["flaeche"] - n["flaeche"]) <= 0.5
+                    and a.get("zimmer") == n.get("zimmer") and str(a.get("stockwerk")) == str(n.get("stockwerk"))):
+                n["erstmals"] = min(a["erstmals"], n["erstmals"])
+                n["preis_historie"] = (a.get("preis_historie") or []) + (
+                    [[TODAY, a["preis"]]] if a.get("preis") and a["preis"] != n.get("preis") else []) + (n.get("preis_historie") or [])
+                n["vorgaenger"] = (a.get("vorgaenger") or []) + [a["id"]]
+                a["aktiv"], a["nachfolger"] = False, n["id"]
+                weg.remove(a)
+                log(f"neu inseriert: {a['id']} -> {n['id']} ({a.get('preis')} -> {n.get('preis')})")
+                break
+
+
+def online_pruefen(listings, gesehen):
+    """Nest-Wohnungen jeden Tag einzeln aufrufen: zeigt die Suche sie nicht mehr (z. B. Preis über
+    dem Filter), zählt nur, ob das Inserat selbst noch da ist. Weg -> aktiv False, weg_am."""
+    nest = set(load_json(DATA / "markierungen.json", {}).get("gemerkt") or {})
+    nest |= {i for e in load_json(PREISARCHIV, {}).values() if set(e["ids"]) & nest for i in e["ids"]}
+    module = {m.PREFIX: m for m in QUELLEN.values()}
+    for i in sorted(nest - gesehen):
+        r = listings.get(i)
+        if not r or r.get("nachfolger") or r.get("weg_am"):
+            continue
+        try:
+            if i.startswith("is-"):  # die Detailsuche kennt ImmoScout-Nummern nur nach search()
+                seite = get(r["url"])
+                da = bool(seite) and "Immobilie nicht gefunden" not in seite
+            else:
+                da = module[i.split("-")[0]].detail(i) is not None
+        except Exception as e:  # gesperrt o. Ä.: heute nichts entscheiden
+            log(f"Nest-Prüfung {i}: {e}")
+            continue
+        if da:
+            r["zuletzt"], r["aktiv"] = TODAY, True
+        else:
+            r["aktiv"], r["weg_am"] = False, TODAY
+            log(f"Nest-Wohnung nicht mehr online: {i}")
+
+
 def scrape(nur=None):
     listings = load_json(LISTINGS, {})
     gesehen, fehler, lock = set(), [], threading.Lock()
@@ -151,6 +200,8 @@ def scrape(nur=None):
             _scrape_quelle(m, listings, gesehen, neu, lock)
             fehler[:] = [f for f in fehler if not f.startswith(m.QUELLE + " ")] + neu
 
+    neu_inseriert(listings, gesehen)
+    online_pruefen(listings, gesehen)
     # nicht mehr gesehene Inserate offline nehmen / alte löschen
     heute = dt.date.today()
     for k in list(listings):
@@ -560,11 +611,13 @@ def zusammenfuehren(gruppe, reviews):
     datum = [str(r["veroeffentlicht"])[:10] for r in gruppe
              if re.match(r"\d{4}-\d\d-\d\d", str(r.get("veroeffentlicht") or ""))]
     m["online_seit"] = min(datum + [m["erstmals"]])
-    m["links"] = sorted(({"quelle": r["quelle"], "url": r["url"], "preis": r.get("preis"), "id": r["id"]}
+    m["links"] = sorted(({"quelle": r["quelle"], "url": r["url"], "preis": r.get("preis"), "id": r["id"],
+                          "zuletzt": r.get("zuletzt")}
                          for r in gruppe), key=lambda l: (l["quelle"] != "willhaben", l["quelle"]))
-    m["ids"] = [r["id"] for r in gruppe]
+    # frühere Nummern derselben Wohnung (neu inseriert): Nest, Papierkorb und Prüfungen gelten weiter
+    m["ids"] = [r["id"] for r in gruppe] + [v for r in gruppe for v in r.get("vorgaenger") or []]
     # Prüfungen: Kopf zuerst; Gas von irgendeinem Portal schlägt alles; genaue Lage vor ungefährer
-    revs = [reviews[r["id"]] for r in gruppe if r["id"] in reviews]
+    revs = [reviews[i] for i in m["ids"] if i in reviews]
     rev = {}
     if revs:
         h = [x["heizung"] for x in revs if x.get("heizung")]
@@ -609,7 +662,10 @@ def build():
     karte, pending, details = [], [], {}
     erster_lauf = min((r["erstmals"] for r in listings.values()), default=TODAY)
     zaehler = {"gruen": 0, "grau": 0, "raus": 0}
-    aktiv = [r for r in listings.values() if r.get("aktiv")]
+    # verschwundene Inserate noch zwei Wochen ausgegraut zeigen (damit man weiß, dass es sie nicht mehr gibt)
+    stichtag = (DATA / "letzter_scrape.txt").read_text().strip() if (DATA / "letzter_scrape.txt").exists() else TODAY
+    aktiv = [r for r in listings.values() if r.get("aktiv") or (
+        not r.get("nachfolger") and (heute - dt.date.fromisoformat(r.get("zuletzt", TODAY))).days <= 14)]
     # Makler setzen manchmal denselben Standardpunkt für viele Inserate. Teilen sich 3+ verschiedene
     # Inserate exakt dieselben Koordinaten, ist der Punkt verdächtig (zusammenfuehren prüft dann den Text)
     titel_pro_punkt = {}
@@ -632,9 +688,14 @@ def build():
     for gruppe in gruppen:
         r, rev = zusammenfuehren(gruppe, reviews)
         b = bewerten(r, rev)
+        offline = r["zuletzt"] < stichtag  # beim letzten Scrape auf keinem Portal mehr gefunden
+        if offline:
+            d = r["zuletzt"].split("-")
+            b["gruende"] = [f"Nicht mehr online (zuletzt gesehen {d[2]}.{d[1]}.)"] + b["gruende"]
         eck = rev.get("eckdaten") or {}
-        zaehler[b["status"]] += 1
-        if (b["status"] != "raus" and not lage_genau(r, rev, b)
+        if not offline:
+            zaehler[b["status"]] += 1
+        if (not offline and b["status"] != "raus" and not lage_genau(r, rev, b)
                 and not set(r["ids"]) & (erledigt | korb)):
             recherche.append({
                 "id": r["id"], "ids": r["ids"], "titel": r["titel"], "plz": r["plz"],
@@ -645,7 +706,7 @@ def build():
                 "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
                 "grundrisse": f"data/grundrisse/{r['id']}/",
             })
-        if b["fragen"] and r.get("detail_am") and b["status"] != "raus":
+        if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:
             pending.append({
                 "id": r["id"], "fragen": b["fragen"], "url": r["url"], "titel": r["titel"],
                 "plz": r["plz"], "adresse_im_inserat": r.get("adresse"),
@@ -667,7 +728,7 @@ def build():
         neu = r["erstmals"] > erster_lauf and (heute - dt.date.fromisoformat(r["erstmals"])).days < CONFIG["neu_tage"]
         karte.append({
             "id": r["id"], "ids": r["ids"], "links": r["links"], "quelle": r["quelle"], "url": r["url"],
-            "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "lat": b["lat"], "lon": b["lon"],
+            "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "offline": offline, "lat": b["lat"], "lon": b["lon"],
             "ungefaehr": b["ungefaehr"], "preis": b.get("preis") or r.get("preis"),
             "preis_inserat": r.get("preis") if b.get("preis") else None, "preis_hinweis": b.get("preis_hinweis"),
             "flaeche": r.get("flaeche") or eck.get("flaeche"),
@@ -693,7 +754,7 @@ def build():
     for e in archiv.values():
         w = e.get("stand")
         if w and set(e["ids"]) & nest and not set(e["ids"]) & auf_karte:
-            karte.append({**w, "status": "grau", "neu": False, "preisverlauf": e["verlauf"],
+            karte.append({**w, "status": "grau", "neu": False, "offline": True, "preisverlauf": e["verlauf"],
                           "gruende": [f"Inserat nicht mehr online (zuletzt gesehen {w.get('zuletzt', '?')})"]})
             if e.get("details"):
                 details[w["id"]] = e["details"]
