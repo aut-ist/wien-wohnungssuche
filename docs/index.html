@@ -94,7 +94,7 @@
   .guertel { display: inline-block; margin-top: 5px; font-size: 12.5px; font-weight: 600; color: #8a1d4a;
     background: #fbeaf1; border-radius: 6px; padding: 2px 8px; }
   .guertel-oben { margin-left: auto; align-self: center; font-size: 14px; font-weight: 700; color: #8a1d4a;
-    background: #fbeaf1; border: 1px solid #f3c9da; border-radius: 999px; padding: 5px 12px; white-space: nowrap; }
+    background: #fbeaf1; border: 1px solid #f3c9da; border-radius: 999px; padding: 5px 12px; max-width: 100%; }
   .guertel-oben.ungenau { font-weight: 500; color: #6b7079; background: var(--soft); border-color: var(--line); }
   .gmaps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
   .gmaps a { font-size: 12px; font-weight: 600; text-decoration: none; color: #1a56c4; background: #eef3fd;
@@ -141,7 +141,9 @@
   .tag.offline { background: #3a3d42; color: #fff; }
 
   /* Detail */
-  #detail { position: absolute; inset: 0; background: var(--panel); z-index: 5; overflow-y: auto; transform: translateX(-102%); transition: transform .22s ease; }
+  /* seitlich gesperrt: nichts darf breiter als der Bildschirm sein und sich verschieben lassen */
+  #detail { position: absolute; inset: 0; background: var(--panel); z-index: 5; overflow-y: auto; overflow-x: hidden;
+    overscroll-behavior-x: none; transform: translateX(-102%); transition: transform .22s ease; }
   #detail.offen { transform: translateX(0); }
   .detail-kopf { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
   .detail-kopf .spacer { flex: 1; }
@@ -246,6 +248,8 @@
     #app.karte-gross.filter-offen { grid-template-rows: auto auto 78dvh 1fr; }
     #seite { grid-row: -2; border-right: 0; border-top: 1px solid var(--line); }
     #detail { position: fixed; z-index: 2000; transform: translateY(102%); }
+    .detail-kopf { gap: 5px; padding: 8px 6px; }
+    .detail-kopf .btn { padding: 6px 8px; font-size: 12.5px; white-space: nowrap; }
     #detail.offen { transform: translateY(0); }
     .galerie .gross { height: 320px; }
     .fotos, .fotos img { height: 240px; }
