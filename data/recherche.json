@@ -121,10 +121,10 @@
   ],
   "anbieter": "H.S. Immomakler",
   "adresse_im_inserat": null,
-  "lage": "8. Bezirk (Kartenpunkt bis zu 257 m versetzt)",
+  "lage": "8. Bezirk (aus Beschreibung: Breitenfelder Gasse)",
   "punkt": [
-   48.214535,
-   16.343218
+   48.214164,
+   16.343553
   ],
   "versatz_m": 257,
   "preis": 795000.0,
@@ -193,10 +193,10 @@
   ],
   "anbieter": "16EAST Real Estate GmbH",
   "adresse_im_inserat": null,
-  "lage": "8. Bezirk (Kartenpunkt bis zu 259 m versetzt)",
+  "lage": "8. Bezirk (aus Beschreibung: Lerchenfelder Straße)",
   "punkt": [
-   48.20902,
-   16.344013
+   48.206812,
+   16.355008
   ],
   "versatz_m": 259,
   "preis": 738000.0,
@@ -229,10 +229,10 @@
   ],
   "anbieter": "Spiegelfeld Immobilien GmbH",
   "adresse_im_inserat": null,
-  "lage": "8. Bezirk (Kartenpunkt bis zu 261 m versetzt)",
+  "lage": "8. Bezirk (aus Beschreibung: Strozzigasse)",
   "punkt": [
-   48.208115,
-   16.346312
+   48.208035,
+   16.349009
   ],
   "versatz_m": 261,
   "preis": 890000.0,
@@ -263,10 +263,10 @@
   ],
   "anbieter": "Rauch Immobilien GmbH",
   "adresse_im_inserat": null,
-  "lage": "8. Bezirk (Kartenpunkt bis zu 269 m versetzt)",
+  "lage": "8. Bezirk (aus Beschreibung: Breitenfelder Gasse)",
   "punkt": [
-   48.214092,
-   16.343061
+   48.214164,
+   16.343553
   ],
   "versatz_m": 269,
   "preis": 749000.0,
@@ -583,10 +583,10 @@
   ],
   "anbieter": "Immosan Immobilien GesmbH",
   "adresse_im_inserat": null,
-  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "18. Bezirk (aus Beschreibung: Eduardgasse)",
   "punkt": [
-   48.225419,
-   16.343477
+   48.222229,
+   16.339693
   ],
   "versatz_m": 0,
   "preis": 350000.0,
@@ -647,10 +647,10 @@
   ],
   "anbieter": "privat",
   "adresse_im_inserat": null,
-  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "18. Bezirk (aus Beschreibung: Pötzleinsdorfer Höhe)",
   "punkt": [
-   48.226087,
-   16.335228
+   48.246732,
+   16.297919
   ],
   "versatz_m": 0,
   "preis": 949000.0,
@@ -895,10 +895,10 @@
   ],
   "anbieter": "Kuhn Immobilien GmbH",
   "adresse_im_inserat": null,
-  "lage": "18. Bezirk (Kartenpunkt bis zu 269 m versetzt)",
+  "lage": "18. Bezirk (aus Beschreibung: Gersthofer Straße)",
   "punkt": [
-   48.22729,
-   16.325624
+   48.236712,
+   16.324777
   ],
   "versatz_m": 269,
   "preis": 899000.0,
@@ -965,10 +965,10 @@
   ],
   "anbieter": "GEZI Immobilienvermittlung,",
   "adresse_im_inserat": null,
-  "lage": "18. Bezirk (Kartenpunkt bis zu 255 m versetzt)",
+  "lage": "18. Bezirk (aus Beschreibung: Eduardgasse)",
   "punkt": [
-   48.222717,
-   16.336708
+   48.222229,
+   16.339693
   ],
   "versatz_m": 255,
   "preis": 375000.0,
@@ -1275,10 +1275,10 @@
   ],
   "anbieter": "PlanetHome Immobilien Austria GmbH",
   "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "19. Bezirk (aus Beschreibung: Felix-Dahn-Straße)",
   "punkt": [
-   48.247042,
-   16.327874
+   48.241732,
+   16.323454
   ],
   "versatz_m": 0,
   "preis": 990000.0,
@@ -1521,10 +1521,10 @@
   ],
   "anbieter": "Von Poll Immobilien Wien",
   "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "19. Bezirk (aus Beschreibung: Pfarrplatz)",
   "punkt": [
-   48.253139,
-   16.324202
+   48.254848,
+   16.358609
   ],
   "versatz_m": 0,
   "preis": 380000.0,
@@ -1933,10 +1933,10 @@
   ],
   "anbieter": "Von Poll Immobilien Wien",
   "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "19. Bezirk (aus Beschreibung: Rudolf-Kassner-Gasse)",
   "punkt": [
-   48.258724,
-   16.354351
+   48.255329,
+   16.350046
   ],
   "versatz_m": 0,
   "preis": 975000.0,
@@ -1950,42 +1950,6 @@
    "fgee_class": null
   },
   "grundrisse": "data/grundrisse/is-311260295487/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "wh-2030115317",
-  "ids": [
-   "wh-2030115317",
-   "is-164501246712",
-   "ds-15241647"
-  ],
-  "titel": "Ruhe trifft Raum - Helle 4-Zimmer-Wohnung mit ruhiger Atmosphäre und vielseitigem Raumangebot in begehrter Lage in Wien-Döbling, Nußdorf",
-  "plz": 1190,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/ruhe-trifft-raum-helle-4-zimmer-wohnung-mit-ruhiger-atmosphaere-und-vielseitigem-raumangebot-in-begehrter-lage-in-wien-doebling-nussdorf-2030115317/",
-   "https://www.immobilienscout24.at/expose/6a9ab22a0db967228cfa3bb8",
-   "https://immobilien.derstandard.at/detail/15241647"
-  ],
-  "anbieter": "IMMOVENCE GmbH",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (Kartenpunkt bis zu 270 m versetzt)",
-  "punkt": [
-   48.256268,
-   16.367622
-  ],
-  "versatz_m": 270,
-  "preis": 440000.0,
-  "flaeche": 78.73,
-  "zimmer": 4,
-  "stockwerk": "1",
-  "energie": {
-   "hwb": "32,69",
-   "hwb_class": "C",
-   "fgee": "1,82",
-   "fgee_class": "D"
-  },
-  "grundrisse": "data/grundrisse/wh-2030115317/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  },
@@ -2239,10 +2203,10 @@
   ],
   "anbieter": null,
   "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "lage": "19. Bezirk (aus Beschreibung: Sieveringer Straße)",
   "punkt": [
-   48.249721,
-   16.321585
+   48.256962,
+   16.311295
   ],
   "versatz_m": 0,
   "preis": 399000.0,
@@ -2309,10 +2273,10 @@
   ],
   "anbieter": "Crown Consulting GmbH",
   "adresse_im_inserat": null,
-  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 258 m versetzt)",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd (aus Beschreibung: Czerninplatz)",
   "punkt": [
-   48.21374,
-   16.388126
+   48.214541,
+   16.387552
   ],
   "versatz_m": 258,
   "preis": 740000.0,
@@ -2326,42 +2290,6 @@
    "fgee_class": "D"
   },
   "grundrisse": "data/grundrisse/wh-2122073425/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "wh-1925108547",
-  "ids": [
-   "wh-1925108547",
-   "ds-15281595",
-   "is-227150596608"
-  ],
-  "titel": "Praterstraße: Familienfreundliche 4,5 Zimmerwohnung mit Balkon in gepflegtem Gründerzeithaus",
-  "plz": 1020,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/praterstrasse-familienfreundliche-4-5-zimmerwohnung-mit-balkon-in-gepflegtem-gruenderzeithaus-1925108547/",
-   "https://www.immobilienscout24.at/expose/6accdbd027d072b8e42ca4d1",
-   "https://immobilien.derstandard.at/detail/15281595"
-  ],
-  "anbieter": "Elisabeth Rohr Real Estate",
-  "adresse_im_inserat": null,
-  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 269 m versetzt)",
-  "punkt": [
-   48.214287,
-   16.384861
-  ],
-  "versatz_m": 269,
-  "preis": 778800.0,
-  "flaeche": 132.0,
-  "zimmer": 4,
-  "stockwerk": "2",
-  "energie": {
-   "hwb": "109,3",
-   "hwb_class": "D",
-   "fgee": "2,03",
-   "fgee_class": "D"
-  },
-  "grundrisse": "data/grundrisse/wh-1925108547/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  },
@@ -2383,10 +2311,10 @@
   ],
   "anbieter": "Adamant Immobilien GmbH",
   "adresse_im_inserat": null,
-  "lage": "Randlage Zone Karmeliterviertel / Augarten-Süd (5 m außerhalb) (Kartenpunkt bis zu 251 m versetzt)",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd (aus Beschreibung: Rembrandtstraße)",
   "punkt": [
-   48.222675,
-   16.371517
+   48.221875,
+   16.371932
   ],
   "versatz_m": 251,
   "preis": 370000.0,
@@ -2400,42 +2328,6 @@
    "fgee_class": "F"
   },
   "grundrisse": "data/grundrisse/wh-1378421819/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "wh-2089410055",
-  "ids": [
-   "wh-2089410055",
-   "is-683292072034",
-   "ds-15212453"
-  ],
-  "titel": "ANNETTE - ALTBAU - EIGENTUM - GESCHMACK IST LIEBE ZUR SCHÖNHEIT",
-  "plz": 1090,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/annette-altbau-eigentum-geschmack-ist-liebe-zur-schoenheit-2089410055/",
-   "https://www.immobilienscout24.at/expose/6a6c90233d377f9635382d1a",
-   "https://immobilien.derstandard.at/detail/15212453"
-  ],
-  "anbieter": "Pi1 Prime",
-  "adresse_im_inserat": null,
-  "lage": "rote Zone: Lichtental-Nord / Friedensbrücke (Kartenpunkt bis zu 264 m versetzt)",
-  "punkt": [
-   48.226242,
-   16.35843
-  ],
-  "versatz_m": 264,
-  "preis": 499000.0,
-  "flaeche": 72.0,
-  "zimmer": null,
-  "stockwerk": "2",
-  "energie": {
-   "hwb": "95",
-   "hwb_class": "C",
-   "fgee": "1,82",
-   "fgee_class": "C"
-  },
-  "grundrisse": "data/grundrisse/wh-2089410055/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  },
@@ -2678,72 +2570,6 @@
   "erstmals": "2026-10-25"
  },
  {
-  "id": "is-598637629649",
-  "ids": [
-   "is-598637629649",
-   "ds-14359792"
-  ],
-  "titel": "LICHTDURCHFLUTETE 3-4 Zimmerwohnung mit perfekter VERKEHRSANBINDUNG - WG-GEEIGNET",
-  "plz": 1020,
-  "links": [
-   "https://www.immobilienscout24.at/expose/6583d36eef1ec5496187f4dd",
-   "https://immobilien.derstandard.at/detail/14359792"
-  ],
-  "anbieter": "Immo-Company Haas & Urban Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 2. Bezirk bekannt",
-  "punkt": [
-   48.225475,
-   16.384764
-  ],
-  "versatz_m": 0,
-  "preis": 400000.0,
-  "flaeche": 88.0,
-  "zimmer": 4,
-  "stockwerk": null,
-  "energie": {
-   "hwb": null,
-   "hwb_class": null,
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/is-598637629649/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "ds-15283655",
-  "ids": [
-   "ds-15283655"
-  ],
-  "titel": "OPEN HOUSE AM 27.10 um 15-17 UHR! ALTBAUJUWELEN IM 9. BEZIRK - ZUM SELBST GESTALTEN",
-  "plz": 1090,
-  "links": [
-   "https://immobilien.derstandard.at/detail/15283655"
-  ],
-  "anbieter": "Crown Consulting GmbH",
-  "adresse_im_inserat": "Arne-Karlsson-Park",
-  "lage": "Lage unklar, nur 9. Bezirk bekannt",
-  "punkt": [
-   48.22697,
-   16.355536
-  ],
-  "versatz_m": 0,
-  "preis": 699000.0,
-  "flaeche": 102.77,
-  "zimmer": 4,
-  "stockwerk": null,
-  "energie": {
-   "hwb": 105.9,
-   "hwb_class": "D",
-   "fgee": 2.01,
-   "fgee_class": "D"
-  },
-  "grundrisse": "data/grundrisse/ds-15283655/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
   "id": "is-170267545275",
   "ids": [
    "is-170267545275",
@@ -2774,38 +2600,6 @@
    "fgee_class": null
   },
   "grundrisse": "data/grundrisse/is-170267545275/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "ds-15279449",
-  "ids": [
-   "ds-15279449"
-  ],
-  "titel": "OPEN HOUSE AM 27.10 um 15-17 UHR! ALTBAUJUWELEN IM 9. BEZIRK - ZUM SELBST GESTALTEN",
-  "plz": 1090,
-  "links": [
-   "https://immobilien.derstandard.at/detail/15279449"
-  ],
-  "anbieter": "Crown Consulting GmbH",
-  "adresse_im_inserat": "Arne-Karlsson-Park",
-  "lage": "Lage unklar, nur 9. Bezirk bekannt",
-  "punkt": [
-   48.224864,
-   16.354051
-  ],
-  "versatz_m": 0,
-  "preis": 698000.0,
-  "flaeche": 105.72,
-  "zimmer": 4,
-  "stockwerk": null,
-  "energie": {
-   "hwb": 105.9,
-   "hwb_class": "D",
-   "fgee": 2.01,
-   "fgee_class": "D"
-  },
-  "grundrisse": "data/grundrisse/ds-15279449/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  }

@@ -210,8 +210,12 @@
   "eckdaten": {}
  },
  "wh-977735216": {
-  "datum": "2026-10-25",
-  "eckdaten": {}
+  "datum": "2026-10-28",
+  "eckdaten": {},
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "nur \"1180 Wien, Straßenbahnlinie 9, Bus, Schnellbahn\" und Hofer in der Nähe; evtl. Raum Gersthof, keine Straße"
+  }
  },
  "wh-1700301413": {
   "eckdaten": {
@@ -224,7 +228,12 @@
    "zimmer": 4,
    "flaeche": 120
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Gersthofer Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Bezirksteil Gersthof\", Linien 40/41, \"nur wenige Gehminuten entfernte Vorortelinie, S 45\", Nähe Türkenschanzpark; keine Straße"
+  }
  },
  "wh-1861675237": {
   "eckdaten": {
@@ -305,7 +314,11 @@
   "eckdaten": {
    "flaeche": 74
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "\"aktuell bis Dezember 2035 vermietet\" (befristet, Mietdauer 5 Jahre laut Feldern)"
+  }
  },
  "wh-2115525630": {
   "eckdaten": {
@@ -361,7 +374,11 @@
    "zimmer": 5,
    "flaeche": 141
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "\"Befristet vermietet bis 30.11.2027\""
+  }
  },
  "wh-1094026969": {
   "datum": "2026-10-25",
@@ -1305,6 +1322,210 @@
    "lon": 16.325637,
    "sicherheit": "ungefaehr",
    "begruendung": "gegenüber Raimund-Zoder-Park; Adresse nicht gefunden"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1584819564": {
+  "lage": {
+   "adresse": "Breitenfelder Gasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"zwischen der Alserstrasse und der Albertgasse in der Breitenfeldergasse\", \"NÄCHST ALBERTPLATZ\""
+  },
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Erstbezug nach \"2025/26 erfolgten Generalsanierung\", verfügbar sofort"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2086863147": {
+  "lage": {
+   "adresse": "Lerchenfelder Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im 8. Bezirk in der Lerchenfelder Straße\", Region \"Josef-Strauss-Park / Altlerchenfelder Kirche\"; keine Hausnummer"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1891385394": {
+  "lage": {
+   "adresse": "Strozzigasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Region: Strozzigasse\", Titel \"nebst Neubaugasse an der Grenze 7./8. Bezirk\""
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1741661072": {
+  "lage": {
+   "adresse": "Breitenfelder Gasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Dachgeschoßwohnung in der Breitenfeldergasse\", \"Nähe Albertplatz / AKH\""
+  },
+  "datum": "2026-10-28"
+ },
+ "is-296268342651": {
+  "lage": {
+   "adresse": "Eduardgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Gebiet: U6 - Michelbeuern AKH\", Linien 9, 42, 43, 18. Bezirk; Eduardgasse als repräsentative Gasse nahe der Station. Wohl dieselbe Wohnung wie wh-2041175380 (71 m², 4 Zi., EG, hofseitig)"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-982619002": {
+  "lage": {
+   "adresse": "Pötzleinsdorfer Höhe",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Panoramablick über den Pötzleinsdorfer Park\", Südausrichtung, \"Bushaltestelle 41A ... nur 2 Gehminuten\", 3 Stationen zur Linie 41 -> Hang oberhalb des Schlossparks"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1369326551": {
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "nur \"Der 18. Bezirk ...\", keine Straße oder Landmarke"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2041175380": {
+  "lage": {
+   "adresse": "Eduardgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"U6 Station Michelbeuern in ca. 2 Gehminuten\", \"Straßenbahnlinien 42 (ca. 2 Minuten)\", \"nahe Kutschkermarkt\"; Eduardgasse als repräsentative Gasse"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2100383960": {
+  "lage": {
+   "adresse": "Felix-Dahn-Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"in guter Lage des 19. Bezirks, nahe der Felix-Dahn-Straße\", Hugo-Wolf-Park in der Nähe, S45 \"2 Busstationen\""
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1634800789": {
+  "lage": {
+   "adresse": "Pfarrplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel \"Nähe Pfarrwirt\" (Pfarrplatz), Nußdorf, \"5 Gehminuten zur Straßenbahnlinie D\", Grinzinger Straße 5 Min. zu Fuß"
+  },
+  "datum": "2026-10-28"
+ },
+ "is-311260295487": {
+  "lage": {
+   "adresse": "Rudolf-Kassner-Gasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Die Rudolf-Kassner-Gasse liegt in einer begehrten Wohnlage in Wien-Döbling\"; keine Hausnummer"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2030115317": {
+  "lage": {
+   "adresse": "Heiligenstädter Straße 175",
+   "sicherheit": "genau",
+   "begruendung": "\"Willkommen in der Heiligenstädter Straße 175\""
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-924709065": {
+  "lage": {
+   "adresse": "Sieveringer Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"ruhiger Sieveringer Grünlage\", Bus 39A, Nahversorgung \"beim Sieveringer Spitz und der Obkirchergasse\", Blick nach Sievering/Bellevue; keine Straße"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2122073425": {
+  "lage": {
+   "adresse": "Czerninplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lage \"Nestroyplatz, Czerninplatz, Donaukanal\", \"Nähe Nestroyplatz\"; Czerninplatz liegt südlich der Praterstraße"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1925108547": {
+  "lage": {
+   "adresse": "Praterstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Etagenwohnung auf der Praterstraße\", \"U1 Stationen Nestroyplatz und Praterstern sind gleich weit entfernt\" -> Praterstraße zwischen Nestroyplatz und Praterstern, keine Hausnummer"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1378421819": {
+  "lage": {
+   "adresse": "Rembrandtstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Die Rembrandtstraße zählt zu den begehrtesten Wohnlagen\", \"Region: Augarten, Rembrandstraße\". Achtung: der zweite willhaben-Text der Gruppe ist eine andere Wohnung (Rotensterngasse, Bj. 1960, Nähe Nestroyplatz)"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2089410055": {
+  "lage": {
+   "adresse": "Liechtensteinstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"in der Liechtensteinstraße in 1090 Wien, da bin ich zu Hause\"; keine Hausnummer, Abschnitt unklar (Linien U4, U6, D, 5, 33 deuten eher auf den Norden nahe Alserbachstraße, Grenze rote Zone). Öffi-Angaben 62/8A/Hietzing offenbar kopierter Fehler"
+  },
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 72
+  },
+  "datum": "2026-10-28"
+ },
+ "is-913762332238": {
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "\"Kernsaniert 2018/2019\", schlüsselfertig, verfügbar sofort; kein Mietverhältnis erwähnt"
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15259789": {
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "nur \"Best- und Ruhelage in Oberdöbling\", Anlage mit Pool und Häusern mit je zwei Einheiten, keine Straße"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "\"guter Zustand\", aber \"leichter Renovierungsbedarf\", Bad u. a. noch \"Ausstattungsstandard des Baujahres 1978\", Beheizung mit Elektroöfen"
+  },
+  "datum": "2026-10-28"
+ },
+ "is-598637629649": {
+  "lage": {
+   "adresse": "Am Tabor",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"AM TABOR - ca. 5 Minuten zu Fuß\", \"AUGARTEN - ca. 5 Minuten\", \"PRATERSTERN - ca. 11 Minuten\" -> nördliche Leopoldstadt (Richtung Nordwestbahn-/Volkertviertel), nicht Karmeliterviertel"
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15283655": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratsadresse \"Arne-Karlsson-Park\" (OSM-Schreibweise Arne-Carlsson-Park), Text: \"Mitten in Alsergrund\", \"U6 am Gürtel\"; keine Straße (Arne-Karlsson-Park, Koordinaten)",
+   "lat": 48.2209,
+   "lon": 16.3497
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "\"Originalzustand, Sanierung nach Ihren Vorstellungen (inkl. Heizung und Haustechnik)\""
+  },
+  "datum": "2026-10-28"
+ },
+ "is-170267545275": {
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "nur \"9. Bezirk\" und \"Straßenbahnlinie D hält direkt vor dem Haus\" – D fährt durch die Porzellangasse (erlaubt) wie auch beim Franz-Josefs-Bahnhof (rote Zone), keine Straße"
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15279449": {
+  "lage": {
+   "adresse": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratsadresse \"Arne-Karlsson-Park\" (OSM-Schreibweise Arne-Carlsson-Park), Text: \"Alsergrund\", \"U6 am Gürtel\"; gleiches Haus wie ds-15283655 (Arne-Karlsson-Park, Koordinaten)",
+   "lat": 48.2209,
+   "lon": 16.3497
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "\"Originalzustand, Sanierung nach Ihren Vorstellungen (inkl. Heizung und Haustechnik)\""
   },
   "datum": "2026-10-28"
  }
