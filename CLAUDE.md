@@ -7,7 +7,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Kriterien: `config.json` (Preis, m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig oder teilsaniert (`wohnungen/zustand.py`), befristet vermietet über Ende März 2027 hinaus
-  (`miete_bis` liest das Enddatum). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
+  (`miete_bis` liest das Enddatum). Seit 2026-10-28 außerdem: genau 3 Zimmer nur bis 700.000 €
+  (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
+  grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt beides nicht.
+  Einzug spätestens Q3 2027 (`config.json` `einzug_spaetestens`): `zustand.bezug_einschaetzen`
+  liest Fertigstellung/Bezug/"Verfügbar ab" aus allen Inseraten der Gruppe (der späteste Termin
+  zählt; Lift, Balkone, Energieausweis, Miete zählen nicht) und sonst das Baujahr-Feld (2027 ohne
+  Monat -> Frage an die Routine); review `{"zustand": {..., "bezug_ok": true}}` hebt es auf. Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
   unklar) schließt seit 2026-10-28 nichts mehr aus; oben gibt es den Schalter "ohne Gasheizung".
   Sonst gelten für Gaswohnungen alle Regeln wie für alle anderen.
 - Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (25) pro Morgen, `data/recherche.json` ist nach

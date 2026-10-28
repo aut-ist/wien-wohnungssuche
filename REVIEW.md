@@ -64,6 +64,12 @@ Die Käufer wollen selbst einziehen und nichts sanieren. Antworte mit
   ohne Bodenbeläge (Böden, Fliesen oder Bad fehlen noch) sind `raus`; schlüsselfertig ist ok.
   Ebenso **teilsaniert / teilrenoviert / teilweise saniert**, wenn das in der Beschreibung steht
   (nur eine Teilsanierung des Hauses, z. B. "Dachteilsanierung", zählt nicht).
+- **Einzug spätestens Q3 2027** (Ende September 2027): Neubau oder Sanierung, deren Fertigstellung,
+  Übergabe oder Bezug später liegt ("Fertigstellung Ende 2027", "Herbst 2027", "2028"), ist `raus`.
+  Steht nur "2027" ohne Monat (oft nur als Baujahr), such den Termin auf der Projektseite des
+  Bauträgers; liegt er bis September 2027, `hinweis` mit dem Termin, sonst `raus`; findest du nichts,
+  `hinweis` "Fertigstellung 2027, Termin erfragen". Termine für Lift, Balkone, Fassade oder andere
+  Wohnungen im Haus zählen nicht.
 - Befristet vermietet: läuft die Miete **länger als bis Ende März 2027** (Q1 2027), ist sie
   `raus` (z. B. "befristet bis 30.11.2027", "bis 12/2035"). Endet sie spätestens im März 2027,
   ist es ein `hinweis`. Ohne Enddatum ("derzeit befristet vermietet") ebenfalls `hinweis` mit

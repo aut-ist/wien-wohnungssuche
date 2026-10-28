@@ -2,11 +2,22 @@
   "filter": {
     "preis_max": 1000000,
     "flaeche_min": 70,
-    "zimmer_min": 3
+    "zimmer_min": 3,
+    "preis_max_3_zimmer": 700000,
+    "guertel_max_min_3_zimmer": 10,
+    "einzug_spaetestens": "2027-09"
   },
   "bezirke": {
-    "ganz": [1080, 1180, 1190],
-    "mit_zonen": [1010, 1020, 1090]
+    "ganz": [
+      1080,
+      1180,
+      1190
+    ],
+    "mit_zonen": [
+      1010,
+      1020,
+      1090
+    ]
   },
   "offline_nach_tagen": 3,
   "loeschen_nach_tagen": 30,

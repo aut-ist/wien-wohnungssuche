@@ -67,6 +67,53 @@ def miete_bis(text):
     return None
 
 
+# Einzug spätestens Q3 2027 (Wunsch): Neubauten mit späterer Fertigstellung -> raus
+from .config import CONFIG
+EINZUG_GRENZE = tuple(int(x) for x in CONFIG["filter"]["einzug_spaetestens"].split("-"))
+FERTIG = re.compile(r"(?i)\b(fertigstellung\w*|fertiggestellt|bezugsfertig\w*|bezugstermin|erstbezug|bezug|übergabe|wohnungsübergabe"
+                    r"|einzug|einzugstermin|baufertigstellung|fertig\b|verfügbar ab|bezugsbereit|completion|move[- ]in)")
+_NICHT_WOHNUNG = re.compile(r"(?i)\bu\d\b|u-bahn|linie|station|haltestelle|straßenbahn|schule|campus|kindergarten"
+                            r"|fassade|spital|akh|krankenhaus|\bpark\b|garage|stellpl|lift|aufzug|balkon"
+                            r"|energie|ausweis|gültig|hwb|befrist|miet|kredit|finanzier|förder|garantie|gewährleist")
+_ZEIT = [(re.compile(r"(?i)q\s*([1-4])|([1-4])\.\s*quartal"), lambda m: int(m.group(1) or m.group(2)) * 3),
+         (re.compile(r"(?i)\b(\d{1,2})\s*[./]\s*20\d\d"), lambda m: int(m.group(1))),
+         (re.compile(r"(?i)frühjahr|frühling"), lambda m: 5), (re.compile(r"(?i)sommer"), lambda m: 8),
+         (re.compile(r"(?i)herbst"), lambda m: 11), (re.compile(r"(?i)winter"), lambda m: 12),
+         (re.compile(r"(?i)anfang"), lambda m: 3), (re.compile(r"(?i)mitte"), lambda m: 6),
+         (re.compile(r"(?i)ende"), lambda m: 12),
+         (re.compile(r"(?i)\b(jän|jan|feb|mär|mar|apr|mai|jun|jul|aug|sep|okt|nov|dez)[a-zä]*\.?\s+20\d\d"),
+          lambda m: _MONATE[m.group(1).lower()])]
+
+
+def bezug_ab(text):
+    """-> (jahr, monat oder None, Textstelle) für "Fertigstellung/Bezug Ende 2028" o. Ä. (ab 2027), sonst None."""
+    jahr_rx = re.compile(r"\b20(2[7-9]|3\d)\b")
+    funde = []
+    for m in FERTIG.finditer(text):
+        # Jahr bevorzugt nach dem Stichwort ("Fertigstellung März 2029"), sonst kurz davor
+        # ("Ende 2028 fertiggestellt"); so stört "Baubeginn Q3 2027" davor nicht
+        if j := jahr_rx.search(text, m.end(), m.end() + 60):
+            fenster = text[m.start(): j.end()]
+        elif js := list(jahr_rx.finditer(text, max(0, m.start() - 40), m.start())):
+            fenster = text[max(0, js[-1].start() - 25): m.end()]
+            j = js[-1]
+        else:
+            continue
+        if _NICHT_WOHNUNG.search(fenster):
+            continue
+        # Arbeiten im Dachgeschoß betreffen eine Altbauwohnung darunter nicht
+        if re.search(r"(?i)dach", fenster) and not re.search(r"(?i)dach|\bDG\b|penthouse|maisonette", text.split("\n", 1)[0]):
+            continue
+        monat = None
+        for rx, f in _ZEIT:
+            if z := rx.search(fenster):
+                monat = f(z)
+                break
+        funde.append((int(j.group(0)), monat, "…" + fenster.replace("\n", " ").strip() + "…"))
+    # mehrere Termine (Baubeginn, Fertigstellung, Bezug): der späteste zählt
+    return max(funde, key=lambda f: (f[0], f[1] or 0)) if funde else None
+
+
 def _stelle(rx, text):
     m = rx.search(text)
     if not m:
@@ -105,4 +152,27 @@ def einschaetzen(r):
     elif re.search(r"(?i)befristet vermietet|vermietet bis|befristung bis", text):
         hinweise.append("befristet vermietet")
 
+    if b := bezug_einschaetzen(text, r.get("baujahr")):
+        {"raus": gruende, "offen": offen, "hinweis": hinweise}[b[0]].append(b[1])
+
     return {"raus": bool(gruende), "eindeutig": not offen, "gruende": gruende, "offen": offen, "hinweise": hinweise}
+
+
+def bezug_einschaetzen(text, baujahr=None):
+    """Fertigstellung/Bezug nach Q3 2027 -> ("raus", Grund); 2027 ohne Monat -> ("offen", …); sonst ("hinweis", …).
+    Ohne Angabe im Text zählt das Baujahr-Feld (bei Neubauten das geplante Fertigstellungsjahr)."""
+    if not (b := bezug_ab(text)):
+        try:
+            baujahr = int(str(baujahr)[:4])
+        except ValueError:
+            return None
+        if not EINZUG_GRENZE[0] <= baujahr <= 2035:
+            return None
+        b = (baujahr, None, f"Baujahr {baujahr} laut Inserat (Neubau, noch nicht fertig)")
+    jahr, monat, s = b
+    wann = f"{monat:02d}/{jahr}" if monat else str(jahr)
+    if jahr > EINZUG_GRENZE[0] or (jahr == EINZUG_GRENZE[0] and (monat or 0) > EINZUG_GRENZE[1]):
+        return "raus", f"Einzug erst {wann}, später als Q3 2027: {s}"
+    if monat is None and jahr == EINZUG_GRENZE[0]:
+        return "offen", f"Fertigstellung {wann}, Monat unklar: {s}"
+    return "hinweis", f"Fertigstellung/Bezug {wann}"

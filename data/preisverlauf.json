@@ -2497,8 +2497,10 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gersthof-garten-geothermie-ganze-etage-b1-1354035914/",
    "titel": "Gersthof-Garten-Geothermie-Ganze Etage (B1)",
-   "status": "gruen",
-   "gruende": [],
+   "status": "grau",
+   "gruende": [
+    "Zustand/Vermietung wird noch geprüft"
+   ],
    "offline": false,
    "lat": 48.23502,
    "lon": 16.32118,
@@ -3536,8 +3538,10 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/provisionsfreie-4-zimmer-neubauwohnungen-mit-freiflaechen-ab-euro-749-900-977565627/",
    "titel": "Provisionsfreie 4-Zimmer Neubauwohnungen mit Freiflächen ab Euro 749.900!",
-   "status": "gruen",
-   "gruende": [],
+   "status": "raus",
+   "gruende": [
+    "Einzug erst 12/2028, später als Q3 2027: …Verfügbar ab: Ende 2028…"
+   ],
    "offline": false,
    "lat": 48.25944,
    "lon": 16.365059,
@@ -3550,11 +3554,7 @@
    "plz": 1190,
    "adresse": null,
    "lage": "19. Bezirk (aus Beschreibung: Koordinaten)",
-   "heizung": {
-    "ergebnis": "kein_gas",
-    "von": "automatisch",
-    "text": "Heizung: Fußbodenheizung (willhaben); Heizung: Fussbodenheizung (willhaben); Heizungsart: Fernwärme (willhaben)"
-   },
+   "heizung": null,
    "bild": "https://cache.willhaben.at/mmo/7/977/565/627_706208303.jpg",
    "erstmals": "2026-10-25",
    "neu": false,

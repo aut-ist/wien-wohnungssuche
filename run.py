@@ -60,6 +60,8 @@ def filter_grund(r):
         return f"nur {r['flaeche']:g} m²"
     if r.get("zimmer") and r["zimmer"] < F["zimmer_min"]:
         return f"nur {r['zimmer']} Zimmer"
+    if r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]:  # nur genau 3 Zimmer
+        return f"3 Zimmer über {F['preis_max_3_zimmer']:,.0f} €".replace(",", ".")
     return None
 
 
@@ -353,6 +355,21 @@ def bewerten(r, rev):
             if not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
     out["lage"] = lage_txt
+    # genau 3 Zimmer im 18./19. nur bis 10 Minuten Öffis zum Gürtel (Wunsch); bei ungefährer Lage nur raus,
+    # wenn es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau
+    if r.get("zimmer") == 3 and r["plz"] in (1180, 1190):
+        grenze = F["guertel_max_min_3_zimmer"]
+        g = guertel_zeit(out["lat"], out["lon"]) if out["lat"] else None
+        if not g:
+            if out["lat"]:  # keine Haltestelle im Umkreis von 1,2 km
+                return {**out, "status": "raus", "art": "guertel", "gruende": [f"3 Zimmer, mehr als {grenze} min zum Gürtel"]}
+            grau.append(f"3 Zimmer: Öffi-Zeit zum Gürtel unbekannt (max. {grenze} min), Lage fehlt")
+        elif g["min"] > grenze:
+            spiel = ((r.get("lage_radius") or 250) / GEHEN_M_PRO_MIN) if out["ungefaehr"] else 0
+            if g["min"] - spiel > grenze:
+                return {**out, "status": "raus", "art": "guertel",
+                        "gruende": [f"3 Zimmer, {g['min']} min zum Gürtel (max. {grenze})"]}
+            grau.append(f"3 Zimmer: etwa {g['min']} min zum Gürtel, Lage ungefähr (max. {grenze} min)")
     if out["ungefaehr"] and out["lat"] and not out.get("versetzt") and not (lrev and lrev.get("sicherheit") == "ungefaehr"):
         out["lat"], out["lon"] = _jitter(r["id"], out["lat"], out["lon"])
 
@@ -363,7 +380,14 @@ def bewerten(r, rev):
             return {**out, "status": "raus", "art": "zustand", "gruende": [zrev.get("begruendung") or "Zustand/Vermietung"]}
         if zrev.get("ergebnis") == "hinweis" and zrev.get("begruendung"):
             out["hinweis"] = zrev["begruendung"]
-    elif r.get("detail_am"):
+    # Einzug bis Q3 2027 (seit 2026-10-28, auch für schon geprüfte Wohnungen): alle Inserate der Gruppe
+    # lesen, der Termin steht oft nur bei einem Makler
+    if not (zrev or {}).get("bezug_ok"):
+        for titel, text, baujahr in r.get("_alle") or [(r.get("titel"), r.get("text"), r.get("baujahr"))]:
+            b = zustand.bezug_einschaetzen(f"{titel or ''}\n{text or ''}", baujahr) if text else None
+            if b and b[0] == "raus":
+                return {**out, "status": "raus", "art": "zustand", "gruende": [b[1][:200]]}
+    if not zrev and r.get("detail_am"):
         z = zustand.einschaetzen(r)
         if z["raus"]:
             return {**out, "status": "raus", "art": "zustand", "gruende": [g[:200] for g in z["gruende"]]}
@@ -708,7 +732,7 @@ def build():
     doppelt = sum(len(g) - 1 for g in gruppen)
     for gruppe in gruppen:
         r, rev = zusammenfuehren(gruppe, reviews)
-        b = bewerten(r, rev)
+        b = bewerten({**r, "_alle": [(x.get("titel"), x.get("text"), x.get("baujahr")) for x in gruppe]}, rev)
         offline = r["zuletzt"] < stichtag  # beim letzten Scrape auf keinem Portal mehr gefunden
         if offline:
             d = r["zuletzt"].split("-")
