@@ -41,8 +41,8 @@ Platz oder eindeutige Landmarke ("direkt am Karmeliterplatz", "Blick auf den Aug
 `adresse` immer ohne PLZ, etwa "Leopoldsgasse 12" oder "Karmeliterplatz".
 
 ## Frage `heizung`
-Seit 2026-10-28 schließt Gas nichts mehr aus: die Heizung ist ein Filter auf der Karte (kein Gas,
-unklar, Gas). Trotzdem genau einordnen, sonst stimmt der Filter nicht.
+Seit 2026-10-28 schließt Gas nichts mehr aus: auf der Karte gibt es den Schalter "ohne Gasheizung".
+Trotzdem genau einordnen, sonst stimmt der Schalter nicht. Sonst gelten für Gaswohnungen alle Regeln.
 - `gas` heißt, die Wohnung wird mit Gas beheizt: Gasetagenheizung, Gastherme,
   Gaskombitherme, Gas-Zentralheizung, Energieträger Gas. Auch dann, wenn ein Umstieg
   nur geplant ist.

@@ -1,38 +1,5 @@
 [
  {
-  "id": "ds-15259789",
-  "ids": [
-   "ds-15259789"
-  ],
-  "titel": "Exklusive Ruhelage in Döbling - 4-Zimmer-Wohnung mit Garten, Terrasse, Fernblick, Garage & Pool",
-  "plz": 1190,
-  "links": [
-   "https://immobilien.derstandard.at/detail/15259789"
-  ],
-  "anbieter": "REMAX Inspire CaLa Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
-  "punkt": [
-   48.262684,
-   16.317342
-  ],
-  "versatz_m": 0,
-  "preis": 995000.0,
-  "flaeche": 105.0,
-  "zimmer": 4,
-  "stockwerk": null,
-  "energie": {
-   "hwb": 176,
-   "hwb_class": "E",
-   "fgee": 3.53,
-   "fgee_class": "F"
-  },
-  "grundrisse": "data/grundrisse/ds-15259789/",
-  "im_nest": false,
-  "gas": false,
-  "erstmals": "2026-10-25"
- },
- {
   "id": "wh-1726346051",
   "ids": [
    "wh-1726346051",
@@ -64,7 +31,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1726346051/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-28"
  },
  {
@@ -101,7 +67,6 @@
   },
   "grundrisse": "data/grundrisse/wh-806537669/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-27"
  },
  {
@@ -140,7 +105,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1190439267/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -175,7 +139,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1584819564/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -214,7 +177,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1193068115/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -249,7 +211,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2086863147/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -286,7 +247,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1891385394/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -321,7 +281,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1741661072/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -356,7 +315,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1606800969/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -395,7 +353,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1724851651/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -430,7 +387,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1858751358/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -467,7 +423,6 @@
   },
   "grundrisse": "data/grundrisse/wh-911842825/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -502,7 +457,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1226115352/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -539,7 +493,6 @@
   },
   "grundrisse": "data/grundrisse/wh-954351915/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -576,7 +529,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1942877663/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -613,7 +565,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1595219650/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -650,7 +601,6 @@
   },
   "grundrisse": "data/grundrisse/is-296268342651/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -683,7 +633,6 @@
   },
   "grundrisse": "data/grundrisse/wh-977735216/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -716,7 +665,6 @@
   },
   "grundrisse": "data/grundrisse/wh-982619002/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -753,7 +701,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1948755736/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -790,7 +737,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1369326551/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -825,7 +771,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1700301413/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -864,7 +809,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2035447539/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -897,7 +841,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1625954774/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -936,7 +879,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1937875079/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -971,7 +913,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1757773984/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1004,7 +945,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1508787370/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1043,7 +983,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2041175380/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1082,7 +1021,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1834137525/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1117,7 +1055,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2089632991/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1154,7 +1091,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1818480785/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1193,7 +1129,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1841985511/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1238,7 +1173,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1364195113/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1289,7 +1223,6 @@
   },
   "grundrisse": "data/grundrisse/wh-988498465/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1324,7 +1257,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1664940010/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1361,7 +1293,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2100383960/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1396,7 +1327,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1220220927/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1433,7 +1363,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2144413810/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1470,7 +1399,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1075335810/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1505,7 +1433,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1116386068/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1540,7 +1467,6 @@
   },
   "grundrisse": "data/grundrisse/is-275425614522/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1577,7 +1503,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1597584888/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1614,7 +1539,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1634800789/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1657,7 +1581,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1476454107/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1692,7 +1615,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1733197230/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1739,7 +1661,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1077060274/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1774,7 +1695,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1275429213/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1813,7 +1733,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1661592918/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1850,7 +1769,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1936414346/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1885,7 +1803,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1636905626/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1920,7 +1837,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1189411112/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -1961,7 +1877,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1405692380/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2000,7 +1915,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1462685128/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2037,7 +1951,6 @@
   },
   "grundrisse": "data/grundrisse/is-311260295487/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2074,7 +1987,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2030115317/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2111,7 +2023,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1468715517/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2146,7 +2057,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1031701431/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2179,7 +2089,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2041454569/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2214,7 +2123,6 @@
   },
   "grundrisse": "data/grundrisse/wh-975095864/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2249,7 +2157,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2140372352/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2284,7 +2191,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1781073695/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2319,7 +2225,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2043511758/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2352,7 +2257,6 @@
   },
   "grundrisse": "data/grundrisse/wh-924709065/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2387,7 +2291,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1195053795/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2424,7 +2327,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2122073425/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2461,7 +2363,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1925108547/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2500,7 +2401,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1378421819/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2537,7 +2437,6 @@
   },
   "grundrisse": "data/grundrisse/wh-2089410055/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2572,7 +2471,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1176565994/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2611,7 +2509,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1815915110/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2646,7 +2543,6 @@
   },
   "grundrisse": "data/grundrisse/wh-1458443665/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2681,7 +2577,6 @@
   },
   "grundrisse": "data/grundrisse/is-095228896808/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2714,7 +2609,38 @@
   },
   "grundrisse": "data/grundrisse/ds-15277736/",
   "im_nest": false,
-  "gas": true,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "ds-15259789",
+  "ids": [
+   "ds-15259789"
+  ],
+  "titel": "Exklusive Ruhelage in Döbling - 4-Zimmer-Wohnung mit Garten, Terrasse, Fernblick, Garage & Pool",
+  "plz": 1190,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15259789"
+  ],
+  "anbieter": "REMAX Inspire CaLa Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.262684,
+   16.317342
+  ],
+  "versatz_m": 0,
+  "preis": 995000.0,
+  "flaeche": 105.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 176,
+   "hwb_class": "E",
+   "fgee": 3.53,
+   "fgee_class": "F"
+  },
+  "grundrisse": "data/grundrisse/ds-15259789/",
+  "im_nest": false,
   "erstmals": "2026-10-25"
  },
  {
@@ -2749,7 +2675,6 @@
   },
   "grundrisse": "data/grundrisse/is-992786076817/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2784,7 +2709,6 @@
   },
   "grundrisse": "data/grundrisse/is-598637629649/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2817,7 +2741,6 @@
   },
   "grundrisse": "data/grundrisse/ds-15283655/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2852,7 +2775,6 @@
   },
   "grundrisse": "data/grundrisse/is-170267545275/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  },
  {
@@ -2885,7 +2807,6 @@
   },
   "grundrisse": "data/grundrisse/ds-15279449/",
   "im_nest": false,
-  "gas": true,
   "erstmals": "2026-10-25"
  }
 ]

@@ -7,9 +7,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Kriterien: `config.json` (Preis, m², Zimmer) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig (`wohnungen/zustand.py`). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
-  unklar) schließt seit 2026-10-28 nichts mehr aus, sie ist ein Filter auf der Karte.
+  unklar) schließt seit 2026-10-28 nichts mehr aus; oben gibt es den Schalter "ohne Gasheizung".
+  Sonst gelten für Gaswohnungen alle Regeln wie für alle anderen.
 - Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (15) pro Morgen, `data/recherche.json` ist nach
-  Vorrang sortiert (Nest, ohne Gas, neueste); Grundrisse lädt der Workflow nur für diese.
+  Vorrang sortiert (Nest, dann neueste; Gaswohnungen sind ganz normale Wohnungen); Grundrisse lädt der Workflow nur für diese.
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
   schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`; die GitHub-Termine fallen oft
   aus oder kommen Stunden später). Um 06:15 UTC startet eine Claude-Cloud-Routine, prüft

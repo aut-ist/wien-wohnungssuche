@@ -704,7 +704,7 @@ def build():
                 "preis": r.get("preis"), "flaeche": r.get("flaeche"), "zimmer": r.get("zimmer"),
                 "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
                 "grundrisse": f"data/grundrisse/{r['id']}/", "im_nest": bool(set(r["ids"]) & nest),
-                "gas": (b.get("heizung") or {}).get("ergebnis") == "gas", "erstmals": r["erstmals"],
+                "erstmals": r["erstmals"],
             })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:
             pending.append({
@@ -764,9 +764,9 @@ def build():
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
                          "quellen": quellen, "wohnungen": karte}, indent=None)
     save_json(PENDING, pending)
-    # Reihenfolge = Vorrang für die Routine (sie schafft RECHERCHE_PRO_TAG): Nest, dann ohne Gas, dann neueste
+    # Reihenfolge = Vorrang für die Routine (sie schafft RECHERCHE_PRO_TAG): Nest, dann neueste
     recherche.sort(key=lambda e: e["erstmals"], reverse=True)
-    recherche.sort(key=lambda e: (not e["im_nest"], e["gas"]))
+    recherche.sort(key=lambda e: not e["im_nest"])
     save_json(RECHERCHE, recherche)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
