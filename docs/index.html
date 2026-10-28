@@ -354,7 +354,7 @@
 // Nur-Ansicht für Familie (?nest): zeigt nur die Wohnungen im Nest, nichts ist änderbar
 const NUR_NEST = new URLSearchParams(location.search).has('nest');
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
-const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e' };
+const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#ee7a12' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'noch offen', raus: 'passt nicht' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
@@ -479,7 +479,7 @@ const oeffiEbene = L.layerGroup().addTo(map);
 const markerEbene = L.layerGroup().addTo(map);
 
 // kleines Ei für die Legende (eiSvg ist weiter unten definiert, wird aber erst beim Aufruf gebraucht)
-const legEi = (status, o = {}) => `<span class="leg-ei">${eiSvg({ status, neu: o.neu, ungefaehr: o.ungefaehr, ids: ['_leg'],
+const legEi = (status, o = {}) => `<span class="leg-ei">${eiSvg({ status, ungefaehr: o.ungefaehr, ids: ['_leg'], heizung: o.gas ? { ergebnis: 'gas' } : null,
   _gesehen: !!o.gesehen }, 16)}</span>`;
 const legende = L.control({ position: 'bottomright' });
 legende.onAdd = () => {
@@ -487,6 +487,7 @@ legende.onAdd = () => {
   const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}"></i>${o.n}</div>`).join('');
   if (NUR_NEST) {  // Familie: nur das Nötige
     d.innerHTML = `<div><span class="leg-ei">${goldEi(18)}</span> <b>Goldenes Ei</b> = von uns ausgewählt</div>` +
+      `<div><span class="leg-ei">${goldEi(18, true)}</span> goldorange = mit Gasheizung</div>` +
       '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
     d.addEventListener('click', () => d.classList.toggle('offen'));
     L.DomEvent.disableClickPropagation(d);
@@ -496,8 +497,8 @@ legende.onAdd = () => {
     '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     oeffiLeg +
-    `<div>${legEi('gruen', { neu: true })} neu ${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut</div>` +
-    `<div><span class="leg-ei">${goldEi(16)}</span> im Nest ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>`;
+    `<div>${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>` +
+    `<div>${legEi('gruen', { gas: true })} Gasheizung <span class="leg-ei">${goldEi(16)}</span> im Nest <span class="leg-ei">${goldEi(16, true)}</span> im Nest, Gas</div>`;
   d.addEventListener('click', () => d.classList.toggle('offen'));
   L.DomEvent.disableClickPropagation(d);
   return d;
@@ -693,28 +694,31 @@ function karteHtml(w, papierkorb) {
 /* Marker als Eier: Farbe = Status, gestrichelt = Lage ungefähr, weiß = scho gschaut,
    goldener Rand = neu, im Nest = gemerkt */
 function eiSvg(w, groesse) {
-  // ein Ei für alle Wohnungen, die in Frage kommen (passt oder noch offen); nur Ausgeschlossene rot
-  const c = w.status === 'raus' ? FARBE.raus : FARBE.gruen, g = w._gesehen ?? istGesehen(w), n = w.neu && !g && w.status !== 'raus';
-  const rand = g ? c : n ? '#e3a400' : '#ffffff';
+  // ein grünes Ei für alle Wohnungen, die in Frage kommen, orange mit Gasheizung; nur Ausgeschlossene rot
+  const gas = w.heizung?.ergebnis === 'gas';
+  const c = w.status === 'raus' ? FARBE.raus : gas ? FARBE.gas : FARBE.gruen, g = w._gesehen ?? istGesehen(w), n = false;
+  const rand = g ? c : '#ffffff';
   return `<svg viewBox="-2 -2 24 30" width="${groesse * .8}" height="${groesse}">
     <path d="${EI}" fill="${g ? '#fff' : c}" fill-opacity="${!g && w.ungefaehr ? .5 : 1}"
       stroke="${rand}" stroke-width="${n || g ? 2.6 : 1.8}" ${w.ungefaehr ? 'stroke-dasharray="3 2.2"' : ''}/>
     ${g ? '' : '<ellipse cx="6.6" cy="9" rx="2" ry="3.4" fill="#fff" opacity=".45" transform="rotate(-18 6.6 9)"/>'}</svg>`;
 }
-// metallisch goldenes Ei (Verlauf, dunkler Goldrand, Glanzlicht) – für die Familien-Ansicht
-function goldEi(groesse) {
+// metallisch goldenes Ei (Verlauf, dunkler Goldrand, Glanzlicht) – Nest; mit Gasheizung goldorange
+function goldEi(groesse, gas = false) {
+  const id = gas ? 'goldorange' : 'gold', st = gas
+    ? ['#ffe0b0', '#f4a64a', '#e07a14', '#b85a0a', '#7a3a06'] : ['#fff3b0', '#e9c35a', '#c8971e', '#a87412', '#7a520a'];
   return `<svg viewBox="-2 -2 24 30" width="${groesse * .8}" height="${groesse}">
     <defs>
-      <linearGradient id="gold-verlauf" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#fff3b0"/><stop offset=".28" stop-color="#e9c35a"/>
-        <stop offset=".55" stop-color="#c8971e"/><stop offset=".8" stop-color="#a87412"/><stop offset="1" stop-color="#7a520a"/>
+      <linearGradient id="${id}-verlauf" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="${st[0]}"/><stop offset=".28" stop-color="${st[1]}"/>
+        <stop offset=".55" stop-color="${st[2]}"/><stop offset=".8" stop-color="${st[3]}"/><stop offset="1" stop-color="${st[4]}"/>
       </linearGradient>
-      <radialGradient id="gold-glanz" cx=".35" cy=".3" r=".35">
+      <radialGradient id="${id}-glanz" cx=".35" cy=".3" r=".35">
         <stop offset="0" stop-color="#fffbe6" stop-opacity=".95"/><stop offset="1" stop-color="#fffbe6" stop-opacity="0"/>
       </radialGradient>
     </defs>
-    <path d="${EI}" fill="url(#gold-verlauf)" stroke="#6e4a08" stroke-width="1.4"/>
-    <path d="${EI}" fill="url(#gold-glanz)"/>
+    <path d="${EI}" fill="url(#${id}-verlauf)" stroke="${gas ? '#6e3206' : '#6e4a08'}" stroke-width="1.4"/>
+    <path d="${EI}" fill="url(#${id}-glanz)"/>
   </svg>`;
 }
 function eiIcon(w) {
@@ -722,11 +726,13 @@ function eiIcon(w) {
   const cls = 'ei-icon' + (aktiv ? ' aktiv' : '');
   if (NUR_NEST) {  // Familien-Ansicht: alle ausgewählten Wohnungen als gleiche goldene Eier
     const s = 30 * (aktiv ? 1.6 : 1);
-    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: goldEi(s) });
+    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
+      html: goldEi(s, w.heizung?.ergebnis === 'gas') });
   }
-  if (istGemerkt(w)) {  // im Nest: goldenes Ei
+  if (istGemerkt(w)) {  // im Nest: goldenes Ei (goldorange mit Gasheizung)
     const s = 30 * k;
-    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: goldEi(s) });
+    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
+      html: goldEi(s, w.heizung?.ergebnis === 'gas') });
   }
   const s = (w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28) * (aktiv ? 1.7 : 1);
   return L.divIcon({ className: cls, iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
