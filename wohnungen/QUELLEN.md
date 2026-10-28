@@ -11,7 +11,7 @@ def detail(listing_id: str) -> dict | None   # Detailseite; None wenn offline
 ```
 
 `run.py` ruft `search(plz)` für 1010, 1020, 1080, 1090, 1180, 1190 auf und `detail(id)`
-nur für neue Kandidaten. Filtern (Preis ≤ 1 Mio, ≥ 70 m², ≥ 4 Zimmer, Lage, Heizung)
+nur für neue Kandidaten. Filtern (Preis ≤ 1 Mio, ≥ 70 m², ≥ 3 Zimmer, Lage, Heizung)
 macht die Pipeline. Das Modul soll aber die Suchfilter des Portals nutzen, wo möglich
 (Kauf, Wohnung, Ort, Preis bis 1.000.000, Fläche ab 70), damit wenig Seiten nötig sind.
 

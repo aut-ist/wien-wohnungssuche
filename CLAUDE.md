@@ -4,7 +4,7 @@ Privates Tool: täglich Eigentumswohnungen scrapen, nach Lage und Heizung filter
 und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 
 - `python run.py all` scrapt und baut die Karte. `python run.py build` baut nur.
-- Kriterien: `config.json` (Preis, m², Zimmer) und `geo/zones.geojson` (Zonen,
+- Kriterien: `config.json` (Preis, m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig oder teilsaniert (`wohnungen/zustand.py`), befristet vermietet über Ende März 2027 hinaus
   (`miete_bis` liest das Enddatum). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,

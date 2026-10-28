@@ -674,5 +674,343 @@
  "währinger straße 75, 1090 wien": [
   48.225147,
   16.348247
+ ],
+ "nußdorfer straße, 1090 wien": [
+  48.231328,
+  16.352451
+ ],
+ "bennoplatz, 1080 wien": [
+  48.21239,
+  16.342091
+ ],
+ "bennoplatz 1a/3-4, 1080 wien": [
+  48.21239,
+  16.342091
+ ],
+ "gentzgasse 138/2, 1180 wien": [
+  48.231012,
+  16.330041
+ ],
+ "gentzgasse 138/7, 1180 wien": [
+  48.226846,
+  16.344184
+ ],
+ "währinger straße 168/39, 1180 wien": [
+  48.228337,
+  16.335008
+ ],
+ "semperstrasse, 1180 wien": [
+  48.22917,
+  16.349103
+ ],
+ "hofstattgasse, 1180 wien": [
+  48.228663,
+  16.339215
+ ],
+ "gersthofer straße 119/18, 1180 wien": [
+  48.236712,
+  16.324777
+ ],
+ "/11, 1180 wien": [
+  48.223698,
+  16.325202
+ ],
+ "/11a, 1180 wien": [
+  48.210614,
+  16.32875
+ ],
+ "hawelgasse, 1180 wien": [
+  48.238719,
+  16.308699
+ ],
+ "antonigasse 79/1, 1180 wien": [
+  48.22256,
+  16.337297
+ ],
+ "/1v2, 1180 wien": null,
+ "/8, 1180 wien": [
+  48.223927,
+  16.325716
+ ],
+ "weinberggasse, 1190 wien": [
+  48.243433,
+  16.335116
+ ],
+ "grinzinger straße, 1190 wien": [
+  48.25402,
+  16.358172
+ ],
+ "heiligenstädter straße 170/40, 1190 wien": [
+  48.248303,
+  16.362384
+ ],
+ "heiligenstädter straße 170/38, 1190 wien": [
+  48.24335,
+  16.361412
+ ],
+ "heiligenstädter straße/39, 1190 wien": [
+  48.237383,
+  16.357432
+ ],
+ "heiligenstädter straße/3, 1190 wien": [
+  48.232188,
+  16.354799
+ ],
+ "heiligenstädter straße/10, 1190 wien": [
+  48.232261,
+  16.355618
+ ],
+ "heiligenstädter straße/4, 1190 wien": [
+  48.231864,
+  16.354929
+ ],
+ "/10, 1190 wien": [
+  48.184988,
+  16.377939
+ ],
+ "heiligenstädter straße 170/43, 1190 wien": [
+  48.2564,
+  16.366359
+ ],
+ "heiligenstädter straße/1, 1190 wien": [
+  48.23207,
+  16.354594
+ ],
+ "rotenturmstraße, 1010 wien": [
+  48.210301,
+  16.374451
+ ],
+ "handelskai/84, 1020 wien": [
+  48.227119,
+  16.403093
+ ],
+ "floßgasse, 1020 wien": [
+  48.216954,
+  16.374747
+ ],
+ "blumauergasse, 1020 wien": [
+  48.218478,
+  16.3842
+ ],
+ "ferdinandstraße, 1020 wien": [
+  48.213308,
+  16.384375
+ ],
+ "große schiffgasse 9/24, 1020 wien": [
+  48.218171,
+  16.375798
+ ],
+ "große schiffgasse/24, 1020 wien": [
+  48.218005,
+  16.375964
+ ],
+ "lassallestraße, 1020 wien": [
+  48.225346,
+  16.404369
+ ],
+ "/7, 1020 wien": [
+  48.204648,
+  16.425138
+ ],
+ "ausstellungsstraße 29/3, 1020 wien": [
+  48.217807,
+  16.40224
+ ],
+ "ausstellungsstraße 29/5, 1020 wien": [
+  48.21791,
+  16.40458
+ ],
+ "böcklinstraße, 1020 wien": [
+  48.210228,
+  16.397754
+ ],
+ "borschkegasse/31, 1090 wien": [
+  48.217896,
+  16.345555
+ ],
+ "müllnergasse, 1090 wien": [
+  48.22055,
+  16.363094
+ ],
+ "borschkegasse/30, 1090 wien": [
+  48.217896,
+  16.345555
+ ],
+ "hahngasse 30/7, 1090 wien": [
+  48.221117,
+  16.365275
+ ],
+ "lichtentaler gasse, 1090 wien": [
+  48.227467,
+  16.359273
+ ],
+ "semperstraße/6, 1180 wien": [
+  48.224057,
+  16.348
+ ],
+ "semperstraße/4, 1180 wien": [
+  48.223918,
+  16.347989
+ ],
+ "grünentorgasse 34, 1090 wien": [
+  48.220887,
+  16.367025
+ ],
+ "schottenring 16, 1080 wien": [
+  48.215297,
+  16.366322
+ ],
+ "strozzigasse 11, 1080 wien": [
+  48.207335,
+  16.34906
+ ],
+ "naschmarkt 50, 1080 wien": [
+  48.19818,
+  16.362622
+ ],
+ "josefstädterstraße 2, 1080 wien": [
+  48.209301,
+  16.354861
+ ],
+ "aßmayergasse 60, 1180 wien": [
+  48.177615,
+  16.337989
+ ],
+ "fernbahnhof 0, 1180 wien": null,
+ "fernbahnhof 1, 1180 wien": null,
+ "bastiengasse 15, 1180 wien": [
+  48.233567,
+  16.325752
+ ],
+ "kirchengasse 19, 1180 wien": [
+  48.201635,
+  16.351848
+ ],
+ "wallrißstraße 62, 1180 wien": [
+  48.233209,
+  16.321033
+ ],
+ "theresienstraße 10, 1180 wien": [
+  48.215271,
+  16.363709
+ ],
+ "fichteggasse 2a, 1180 wien": null,
+ "schulgasse 51, 1180 wien": [
+  48.225201,
+  16.339958
+ ],
+ "fichtegasse 2a, 1180 wien": [
+  48.203656,
+  16.373871
+ ],
+ "stadtwanderweg 2, 1190 wien": [
+  48.264795,
+  16.294035
+ ],
+ "stadtwanderweg 1, 1190 wien": [
+  48.259927,
+  16.362386
+ ],
+ "agnesgasse 9, 1190 wien": [
+  48.25357,
+  16.315062
+ ],
+ "hutweidengasse 47, 1190 wien": [
+  48.242379,
+  16.333787
+ ],
+ "krottenbachstraße 108, 1190 wien": [
+  48.242707,
+  16.325913
+ ],
+ "krottenbachstraße 58, 1190 wien": [
+  48.240854,
+  16.335889
+ ],
+ "zehenthofgasse 20, 1190 wien": [
+  48.246653,
+  16.345887
+ ],
+ "pantzergasse 3, 1190 wien": [
+  48.233745,
+  16.35355
+ ],
+ "wigandgasse 37, 1190 wien": [
+  48.274442,
+  16.355227
+ ],
+ "billrothstraße 6a, 1190 wien": [
+  48.23469,
+  16.351174
+ ],
+ "nottebohmstraße 56, 1190 wien": [
+  48.249517,
+  16.321333
+ ],
+ "disslergasse 1, 1190 wien": [
+  48.211644,
+  16.388136
+ ],
+ "fernbahnhof 0, 1010 wien": null,
+ "darwingasse 18, 1020 wien": [
+  48.22198,
+  16.385722
+ ],
+ "darwingasse 26, 1020 wien": [
+  48.221741,
+  16.387005
+ ],
+ "wehlistraße 291, 1020 wien": [
+  48.206791,
+  16.430511
+ ],
+ "fernbahnhof 0, 1020 wien": null,
+ "czerninplatz 5, 1020 wien": [
+  48.21436,
+  16.387733
+ ],
+ "rudolfsplatz 12, 1020 wien": [
+  48.213864,
+  16.371112
+ ],
+ "springergasse 19, 1020 wien": [
+  48.222674,
+  16.387754
+ ],
+ "porzellangasse 24, 1090 wien": [
+  48.220768,
+  16.360898
+ ],
+ "börsegasse 12, 1090 wien": [
+  48.215376,
+  16.367601
+ ],
+ "alserbachstraße 18, 1090 wien": [
+  48.225141,
+  16.360347
+ ],
+ "plenergasse 6, 1180 wien": [
+  48.226839,
+  16.337996
+ ],
+ "liechtensteinstraße 118, 1090 wien": [
+  48.231134,
+  16.3562
+ ],
+ "rotenlöwengasse 22, 1090 wien": [
+  48.225808,
+  16.362936
+ ],
+ "praterstr.. , 1020 wien": [
+  48.217622,
+  16.390079
+ ],
+ "praterstr. , 1020 wien": [
+  48.217622,
+  16.390079
+ ],
+ "herminengasse , 1020 wien": [
+  48.218101,
+  16.373759
  ]
 }

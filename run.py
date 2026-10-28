@@ -52,6 +52,8 @@ def filter_grund(r):
     """Harter Filter: Grund zum Ausschließen oder None."""
     if r.get("projekt") or "/neubauprojekt/" in r.get("url", ""):
         return "Neubauprojekt-Sammelinserat (Wohnungen sind einzeln gelistet)"
+    if r.get("plz") and r["plz"] not in ALLE_PLZ:  # z. B. Klosterneuburg (3400) in der derStandard-Suche 1190
+        return f"PLZ {r['plz']} außerhalb des Suchgebiets"
     if r.get("preis") and r["preis"] > F["preis_max"]:
         return f"Preis {r['preis']:,.0f} € über Limit".replace(",", ".")
     if r.get("flaeche") and r["flaeche"] < F["flaeche_min"]:
