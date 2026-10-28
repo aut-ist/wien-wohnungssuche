@@ -106,7 +106,8 @@
    "lon": null,
    "sicherheit": "genau",
    "begruendung": "Projekt 'Wohnatelier Sievering' auf dem Gelände des Sieveringer Filmateliers (Sascha-Film), Zugang durch das Originaltor der Wien-Film. Die Sascha Filmindustrie AG hatte laut Universal Filmlexikon 1933 die Adresse Sieveringer Str. 135 (https://lantern.mediahist.org/catalog/universalfilmle1933univ_1_0270). weekend.at-Einheitenliste: DG, 4 Zi., 115,6 m², Terrasse 35,73 m², passt zum Inserat. Der bisherige Punkt 48.257412,16.30893 ist nur der Straßenpunkt der Sieveringer Straße, ca. 1,5 km stadtauswärts."
-  }
+  },
+  "gleich_wie": "wh-1075335810"
  },
  "wh-1608703437": {
   "heizung": {
@@ -371,7 +372,8 @@
    "lon": null,
    "sicherheit": "genau",
    "begruendung": "Gehört zum 'Wohnatelier Sievering' (ehemalige Sascha-Filmateliers, Sascha Filmindustrie AG Wien XIX, Sieveringer Str. 135). Einheitenliste auf https://www.weekend.at/de/projekt/wohnatelier-sievering-wohnen-wo-andere-urlaub-machen/OBGC20220209144351964399e754649 zeigt EG, 4 Zi., 104 m², Terrasse 16,66 m² mit Garten, identisch mit dem Inserat. Gleicher Stellplatzpreis 27.500 EUR und gleiche Kanzlei Tiefenthaler Gnesda wie bei den Moritz-Inseraten. Die willhaben-Punkte (Radius ca. 255 m) umschließen Sieveringer Straße 135 (Nominatim 48.24852,16.32445)."
-  }
+  },
+  "gleich_wie": "wh-988498465"
  },
  "wh-1562591559": {
   "eckdaten": {
@@ -462,7 +464,8 @@
    "adresse": "Krottenbachstraße 58",
    "sicherheit": "genau",
    "begruendung": "Grundriss im willhaben-Inserat trägt den Titel 'Krottenbachstraße 58 / Top 3, 1190 Wien', 1. Stock, 81,92 m², Balkon 7,09 m² (Bild https://cache.willhaben.at/mmo/6/124/293/2756_-806913880.jpg); passt zu Wohnungsnummer 3, 1. Stock, gegenüber Hugo-Wolf-Park. Bisheriger Kartenpunkt lag bei Krottenbachstraße 105 (Straßen-Geocode)."
-  }
+  },
+  "gleich_wie": "wh-1075050455"
  },
  "wh-1046546258": {
   "eckdaten": {
@@ -630,14 +633,15 @@
    "ergebnis": "hinweis",
    "begruendung": "Neubau, als Vorsorgewohnung für Anleger beworben – nicht vermietet, Eigennutzung beim Makler klären"
   },
-  "datum": "2026-10-25",
+  "datum": "2026-10-28",
   "lage": {
    "adresse": "Staudgasse 40",
    "lat": 48.22362,
    "lon": 16.33997,
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
-  }
+  },
+  "gleich_wie": "wh-2039112596"
  },
  "is-180870860971": {
   "zustand": {
@@ -748,11 +752,12 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
   },
-  "datum": "2026-10-27",
+  "datum": "2026-10-28",
   "preis": {
    "eigennutzer": 772659,
    "begruendung": "MAISON WÄHRING: 708.861 ist laut Schwester-Inserat (wh-1017542154, gleiche 95 m²) der Verkaufspreis für Anleger mit Vorsteuerabzug; Eigennutzer zahlen 772.659"
-  }
+  },
+  "gleich_wie": "wh-2039112596"
  },
  "wh-1521015679": {
   "lage": {
@@ -762,11 +767,12 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
   },
-  "datum": "2026-10-27",
+  "datum": "2026-10-28",
   "preis": {
    "eigennutzer": 745000,
    "begruendung": "MAISON WÄHRING: 683.486 ist laut Schwester-Inserat (wh-1849409386, gleiche 99 m²) der Verkaufspreis für Anleger mit Vorsteuerabzug; Eigennutzer zahlen 745.000"
-  }
+  },
+  "gleich_wie": "wh-1849409386"
  },
  "wh-1017542154": {
   "lage": {
@@ -776,7 +782,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING, laut Text \"Wohnanlage in der Staudgasse 40\" – willhaben zeigte nur einen Standardpunkt des Maklers (Kreuzgasse 23, bei 4 Inseraten identisch)"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2039112596"
  },
  "wh-1810653507": {
   "lage": {
@@ -826,7 +833,8 @@
    "sicherheit": "ungefaehr",
    "begruendung": "Lageplan: Grundstück zwischen Krottenbachstraße und Zimmerlweg, Neustift am Walde (Fuß des Hackenbergs), 35A vor der Tür"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1301343986"
  },
  "fm-5498803": {
   "lage": {
@@ -1066,7 +1074,8 @@
    "sicherheit": "genau",
    "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1849409386"
  },
  "is-644215973483": {
   "lage": {
@@ -1076,7 +1085,8 @@
    "sicherheit": "genau",
    "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1849409386"
  },
  "wh-1786897455": {
   "lage": {
@@ -1086,7 +1096,8 @@
    "sicherheit": "genau",
    "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1849409386"
  },
  "is-480213811841": {
   "lage": {
@@ -1096,7 +1107,8 @@
    "sicherheit": "genau",
    "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1849409386"
  },
  "ds-15012552": {
   "lage": {
@@ -1106,7 +1118,8 @@
    "sicherheit": "genau",
    "begruendung": "korrigiert: Staudgasse 40 (MAISON WÄHRING), Top 11, 2. Etage. Wohn3-Inserat derselben Wohnung (gleicher Preis, 95,29 m²) hat Objektnummer 'Etage 2/Top 11' im Projekt 'Stadtoase in der Staudgasse'. Kreuzgasse 21 war nur der Portalpunkt"
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1849409386"
  },
  "is-973807616265": {
   "lage": {
@@ -1761,7 +1774,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "wh-836431480": {
   "lage": {
@@ -1771,7 +1785,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "is-146216803788": {
   "lage": {
@@ -1781,7 +1796,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "ds-15286900": {
   "lage": {
@@ -1791,7 +1807,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "fm-5761929": {
   "lage": {
@@ -1801,7 +1818,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "is-210811875453": {
   "lage": {
@@ -1811,7 +1829,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "ds-15268734": {
   "lage": {
@@ -1821,7 +1840,8 @@
    "sicherheit": "genau",
    "begruendung": "Kartenmarker auf der Adonia-Objektseite (https://www.adonia-immobilien.at/immobilien/1190-wien-neu-altbaucharme-mit-raum-fuers-leben-gepflegte-4-zimmer-wohnung-mit-112-m-in-doebling-ohne-lift-61399-15334357/, RealtyData lat 48.2420846 / lng 16.3553534) liegt exakt zwischen den beiden OSM-Adresspunkten von Döblinger Hauptstraße 81 = Adress-Geocode; liegt in beiden Willhaben-Kreisen (Adonia r=263, Kuttenberger r=258). Grundriss: Top 2, 1. Stock, 112,43 m²."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1841985511"
  },
  "wh-1116386068": {
   "lage": {
@@ -1831,7 +1851,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan im Inserat (ALRAG/Hauptwerk, 03.06.2026): 'Verkaufsplan - Top 7, Sieveringer Straße 135, 1190 Wien', Haus 1, Dachgeschoss; Wohnküche 35,40 m² und Terrassen 30,25+3x1,31+1,55 = 35,73 m² identisch mit Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "is-293272123310": {
   "lage": {
@@ -1841,7 +1862,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan im Inserat (ALRAG/Hauptwerk, 03.06.2026): 'Verkaufsplan - Top 7, Sieveringer Straße 135, 1190 Wien', Haus 1, Dachgeschoss; Wohnküche 35,40 m² und Terrassen 30,25+3x1,31+1,55 = 35,73 m² identisch mit Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "wh-1468715517": {
   "lage": {
@@ -2204,7 +2226,8 @@
    "sicherheit": "genau",
    "begruendung": "Haus 1 Top 7 laut ALRAG-Verkaufsplan (wie wh-1116386068), Wohnatelier Sievering"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "is-889501135497": {
   "lage": {
@@ -2214,7 +2237,8 @@
    "sicherheit": "genau",
    "begruendung": "Haus 1 Top 7 laut ALRAG-Verkaufsplan (wie wh-1116386068), Wohnatelier Sievering"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "wh-2041454569": {
   "lage": {
@@ -2424,7 +2448,8 @@
    "sicherheit": "genau",
    "begruendung": "Wohnanlage 'Wohnateliers Sievering' auf dem Grund der Sieveringer Filmateliers (Bj. 1991, 6 Townhäuser + Altbau). Schwesterinserat derselben Anlage (Top 31, Haus 6) nennt 'Sieveringer Straße 135, 1190 Wien' (https://www.weekend.at/de/immobilie/prestige-living-in-sievering-grosszuegige-gartenwohnung-mit-stil/OBGC202511250934091842c839db3e7); Filmatelier Wien-Film lt. Telefonbuch 1941 Sieveringer Straße 135-137. Liegt 229 m vom willhaben-Punkt (Radius 263 m). 'Sieveringer Hauptstraße' im Inserat ist ein Fehler."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "is-602553206660": {
   "lage": {
@@ -2434,7 +2459,8 @@
    "sicherheit": "genau",
    "begruendung": "Wohnanlage 'Wohnateliers Sievering' auf dem Grund der Sieveringer Filmateliers (Bj. 1991, 6 Townhäuser + Altbau). Schwesterinserat derselben Anlage (Top 31, Haus 6) nennt 'Sieveringer Straße 135, 1190 Wien' (https://www.weekend.at/de/immobilie/prestige-living-in-sievering-grosszuegige-gartenwohnung-mit-stil/OBGC202511250934091842c839db3e7); Filmatelier Wien-Film lt. Telefonbuch 1941 Sieveringer Straße 135-137. Liegt 229 m vom willhaben-Punkt (Radius 263 m). 'Sieveringer Hauptstraße' im Inserat ist ein Fehler."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "ds-15238405": {
   "lage": {
@@ -2444,7 +2470,8 @@
    "sicherheit": "genau",
    "begruendung": "Wohnanlage 'Wohnateliers Sievering' auf dem Grund der Sieveringer Filmateliers (Bj. 1991, 6 Townhäuser + Altbau). Schwesterinserat derselben Anlage (Top 31, Haus 6) nennt 'Sieveringer Straße 135, 1190 Wien' (https://www.weekend.at/de/immobilie/prestige-living-in-sievering-grosszuegige-gartenwohnung-mit-stil/OBGC202511250934091842c839db3e7); Filmatelier Wien-Film lt. Telefonbuch 1941 Sieveringer Straße 135-137. Liegt 229 m vom willhaben-Punkt (Radius 263 m). 'Sieveringer Hauptstraße' im Inserat ist ein Fehler."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "wh-1176565994": {
   "lage": {
@@ -2600,7 +2627,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan im Inserat (ALRAG / 16EAST, Hauptwerk ZT): 'VERKAUFSPLAN - TOP 32, Sieveringer Straße 135, 1190 Wien, Haus 6, Gesamt 107,22 m²'. Nominatim: 48.24852, 16.32445."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2144413810"
  },
  "is-044646382584": {
   "lage": {
@@ -2610,7 +2638,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan im Inserat (ALRAG / 16EAST, Hauptwerk ZT): 'VERKAUFSPLAN - TOP 32, Sieveringer Straße 135, 1190 Wien, Haus 6, Gesamt 107,22 m²'. Nominatim: 48.24852, 16.32445."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2144413810"
  },
  "wh-2034942129": {
   "lage": {
@@ -2650,7 +2679,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (Estina / HOT Architektur): 'TOP 5, 1. Obergeschoss, 4 Zimmer, 110,31 m², Terrasse 35,81 m²', Lageskizze an der Heiligenstädter Straße. Projekt mit 39 Wohnungen + 4 Atrien, 7 Geschosse = Heiligenstädter Straße 103 (https://www.leadersnet.at/news/88332,vermarktungsstart-fuer-das-projekt-heiligenstaedter-strasse-103.html). Nominatim: 48.24728, 16.36178 (bisheriger Punkt ca. 270 m nördlich)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1641436991"
  },
  "is-364508853096": {
   "lage": {
@@ -2750,7 +2780,8 @@
    "sicherheit": "genau",
    "begruendung": "Dieselbe Wohnung inseriert IMMOVOB mit identischem Text und HWB 59,5 auch als 'Generalsanierter Erstbezug mit großer Terrasse und Grünblick' mit der Adresse Hackhofergasse 9 (willhaben wh-890071978, 101,22 m², 749.000 €; ImmoScout24 is-839650966934, https://www.immobilienscout24.at/expose/6ab50d984721c3e4ceddff61). Laut OSM liegt Hackhofergasse 9 bei 48.26099,16.36548, der bisherige Portalpunkt 48.26313/16.365915 ca. 240 m nördlich davon."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-890071978"
  },
  "is-025240947045": {
   "lage": {
@@ -2760,7 +2791,8 @@
    "sicherheit": "genau",
    "begruendung": "Dieselbe Wohnung inseriert IMMOVOB mit identischem Text und HWB 59,5 auch als 'Generalsanierter Erstbezug mit großer Terrasse und Grünblick' mit der Adresse Hackhofergasse 9 (willhaben wh-890071978, 101,22 m², 749.000 €; ImmoScout24 is-839650966934, https://www.immobilienscout24.at/expose/6ab50d984721c3e4ceddff61). Laut OSM liegt Hackhofergasse 9 bei 48.26099,16.36548, der bisherige Portalpunkt 48.26313/16.365915 ca. 240 m nördlich davon."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-890071978"
  },
  "wh-1405692380": {
   "lage": {
@@ -2881,7 +2913,7 @@
    "begruendung": "Es ist dieselbe Wohnung wie wh-1733197230 und wh-890071978 (IMMOVOB): identische Ausstattungsliste (Holz-Alu-Fenster, Vollwärmeschutz südseitig, Fischgrätparkett, Kaminanschluss, WK3-Tür, GIRA, Abstellraum im EG), Maisonette nahe Nussdorfer Platz, südseitige Terrasse, 749.000 €, 4 Zi. Die 94 m² entsprechen der IMMOVOB-Nutzfläche von 94,25 m². IMMOVOB nennt die Adresse Hackhofergasse 9 (https://www.immobilienscout24.at/expose/6ab50d984721c3e4ceddff61). Abweichender HWB (125,4 statt 59,5): vermutlich ein älterer Energieausweis."
   },
   "datum": "2026-10-28",
-  "gleich_wie": "wh-1733197230"
+  "gleich_wie": "wh-890071978"
  },
  "ds-15258642": {
   "lage": {
@@ -3041,7 +3073,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Liegenschaft in der Sieveringer Straße 135', 'Top 31 (Haus 6)', EG + UG mit Garten; Haus 6 hat nur Top 31 und Top 32 (https://immobilien.derstandard.at/detail/15142005)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1476454107"
  },
  "is-054316064514": {
   "lage": {
@@ -3051,7 +3084,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Liegenschaft in der Sieveringer Straße 135', 'Top 31 (Haus 6)', EG + UG mit Garten; Haus 6 hat nur Top 31 und Top 32 (https://immobilien.derstandard.at/detail/15142005)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1476454107"
  },
  "ds-15142005": {
   "lage": {
@@ -3061,7 +3095,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Liegenschaft in der Sieveringer Straße 135', 'Top 31 (Haus 6)', EG + UG mit Garten; Haus 6 hat nur Top 31 und Top 32 (https://immobilien.derstandard.at/detail/15142005)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1476454107"
  },
  "wh-1462685128": {
   "lage": {
@@ -3251,7 +3286,8 @@
    "sicherheit": "genau",
    "begruendung": "Gehört zum 'Wohnatelier Sievering' (ehemalige Sascha-Filmateliers, Sascha Filmindustrie AG Wien XIX, Sieveringer Str. 135). Einheitenliste auf https://www.weekend.at/de/projekt/wohnatelier-sievering-wohnen-wo-andere-urlaub-machen/OBGC20220209144351964399e754649 zeigt EG, 4 Zi., 104 m², Terrasse 16,66 m² mit Garten, identisch mit dem Inserat. Gleicher Stellplatzpreis 27.500 EUR und gleiche Kanzlei Tiefenthaler Gnesda wie bei den Moritz-Inseraten. Die willhaben-Punkte (Radius ca. 255 m) umschließen Sieveringer Straße 135 (Nominatim 48.24852,16.32445)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-988498465"
  },
  "is-713411184451": {
   "lage": {
@@ -3271,7 +3307,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt 'Wohnatelier Sievering' auf dem Gelände des Sieveringer Filmateliers (Sascha-Film), Zugang durch das Originaltor der Wien-Film. Die Sascha Filmindustrie AG hatte laut Universal Filmlexikon 1933 die Adresse Sieveringer Str. 135 (https://lantern.mediahist.org/catalog/universalfilmle1933univ_1_0270). weekend.at-Einheitenliste: DG, 4 Zi., 115,6 m², Terrasse 35,73 m², passt zum Inserat. Der bisherige Punkt 48.257412,16.30893 ist nur der Straßenpunkt der Sieveringer Straße, ca. 1,5 km stadtauswärts."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "fm-5735986": {
   "lage": {
@@ -3281,7 +3318,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt 'Wohnatelier Sievering' auf dem Gelände des Sieveringer Filmateliers (Sascha-Film), Zugang durch das Originaltor der Wien-Film. Die Sascha Filmindustrie AG hatte laut Universal Filmlexikon 1933 die Adresse Sieveringer Str. 135 (https://lantern.mediahist.org/catalog/universalfilmle1933univ_1_0270). weekend.at-Einheitenliste: DG, 4 Zi., 115,6 m², Terrasse 35,73 m², passt zum Inserat. Der bisherige Punkt 48.257412,16.30893 ist nur der Straßenpunkt der Sieveringer Straße, ca. 1,5 km stadtauswärts."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075335810"
  },
  "wh-2069000668": {
   "lage": {
@@ -3415,14 +3453,16 @@
    "ergebnis": "ok",
    "begruendung": "Erstbezug im fertiggestellten Neubau (Staudgasse 40), \"sofort verfügbar\"; Anleger nur allgemein beworben"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2089433472"
  },
  "wh-1154614862": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Erstbezug im fertiggestellten Neubau (Staudgasse 40), \"sofort verfügbar\"; Anleger nur allgemein beworben"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "wh-795488830": {
   "heizung": {
@@ -3453,7 +3493,8 @@
    "ergebnis": "ok",
    "begruendung": "Erstbezug, \"Alle Wohnungen werden schlüsselfertig übergeben\"; Vorsorgewohnung nur allgemein erwähnt"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1025832574"
  },
  "ds-15075688": {
   "zustand": {
@@ -3481,7 +3522,12 @@
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 59 laut Inserat-Raumaufteilung (5. OG, 72,76 m², 575.000 € – exakt in der Einheitenliste good-muth.at/projekt (Top 59, Loggia 5,97 m²)). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-819934565": {
   "heizung": {
@@ -3512,49 +3558,84 @@
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 96 laut Inserat-Raumaufteilung (7. OG, 72,63 m², 656.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1860718993": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 118 laut Inserat-Raumaufteilung (9. OG, 84,69 m², 835.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1169546133": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 89 laut Inserat-Raumaufteilung (7. OG, 84,62 m², 745.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1027506561": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 110 laut Inserat-Raumaufteilung (8. OG, 72,63 m², 695.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1023269368": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 103 laut Inserat-Raumaufteilung (8. OG, 84,64 m², 789.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1858624499": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 77 laut Inserat-Raumaufteilung (6. OG, 72,67 m², 616.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1380863384": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "Neubauprojekt; \"ideal als Anlegerwohnung\" nur allgemein für Kleinstwohnungen, nicht vermietet"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 71 laut Inserat-Raumaufteilung (6. OG, 84,69 m², 699.000 €). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  }
  },
  "wh-1315444955": {
   "zustand": {
@@ -3606,7 +3687,14 @@
    "ergebnis": "ok",
    "begruendung": "Gepflegte DG-Wohnung (Ausbau 2012), keine Vermietung, kein Sanierungsbedarf genannt"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Alserbachstraße",
+   "lat": 48.2255,
+   "lon": 16.3615,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat (willhaben, weekend.at https://www.weekend.at/de/immobilie/loftcharakter-i-alserbachstrasse-i-eine-neue-dimension-des-wohnens/OBGC20260310115743916dedf4e01c9): 'Alserbachstraße, 1090 Wien', 'auf Höhe der Porzellangasse', DG-Ausbau 2012 auf Altbau, Wohnraum südseitig, Schlafzimmer zum Innenhof -> vermutlich Nordseite der Alserbachstraße (dann Lichtental-Nord = Ausschlusszone östl. Liechtensteinstraße/nördl. Alserbachstraße). Keine Hausnummer gefunden; willhaben-Punkt ±266 m."
+  }
  },
  "wh-2003496153": {
   "heizung": {
@@ -3618,21 +3706,33 @@
    "adresse": "Währinger Straße 22",
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'Eigentumswohnung Währinger Str. 22, A-1090 Wien', 1. OG Top 3/4, WNF 79,09 m² (= Inserat); Lageplan Ecke Thurngasse/Währinger Straße. Projekt VOTIV QUARTIER."
-  }
+  },
+  "gleich_wie": "wh-1186375351"
  },
  "wh-830204052": {
   "zustand": {
    "ergebnis": "ok",
    "begruendung": "\"sehr guter Gesamtzustand der Wohnung\"; vermietet sind nur die Stellplätze"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  }
  },
  "wh-773562369": {
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "Renoviert 2023; zwei Einheiten, \"Eine der beiden Einheiten ist bis Anfang 2027 vermietet\""
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "lat": 48.21689,
+   "lon": 16.3646,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Engel & Völkers Exposé https://www.engelvoelkers.com/at/en/exposes/21915c3f-9f1e-598b-b075-9bd186a974ab: displayLat/Lng 48.216886/16.364601 (fuzzyMoveByMeter 150), Lageplan-Bild mit rotem Kreis um Berggasse/Wasagasse/Hörlgasse/Türkenstraße. Bj. 1861, 3. OG Hofruhelage, Tiefgarage im Haus. Keine Hausnummer."
+  }
  },
  "is-918180835716": {
   "heizung": {
@@ -3660,14 +3760,26 @@
    "ergebnis": "hinweis",
    "begruendung": "\"bis Oktober 2026 ... vermietet\" (befristet, Ende vor März 2027; aktuellen Stand erfragen); Verkauf aus Konkursmasse an Höchstbietende"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "lat": 48.2105,
+   "lon": 16.3745,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat (IMV, Konkursmasse, Bj. 1792, 1. OG, kein Lift, Denkmalschutz): 'Stephansdom und Schwedenplatz ums Eck' -> Bereich Rotenturmstraße/Fleischmarkt/Lugeck. ImmoScout-JSON nur '1010 Wien'; Websuche/Ediktsdatei ohne Treffer. Liegt außerhalb der erlaubten 1.-Bezirk-Zone (Börse/Schottenviertel)."
+  }
  },
  "wh-2147386450": {
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "\"in manchen Bereichen hat sie allerdings Modernisierungsbedarf\"; thermische Sanierung des Hauses geplant, Kosten nicht von Rücklage gedeckt"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "lat": 48.25744,
+   "lon": 16.34998,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: Sackgasse in Grinzing, Baujahr 1973, 1. Stock, Südloggia zum Gemeinschaftsgarten, D Beethovengang 12 Gehmin., 38/38A 10 Gehmin. Willhaben-Punkt 48.25744/16.34998 absichtlich ±266 m versetzt (sreal.at-Seite nutzt denselben Punkt; Lagekarte im Inserat ohne Marker, zentriert auf Unterer Schreiberweg/Schreiberweg). Kandidat: Arlethgasse (kurze Stichstraße, ~100 m, direkt am Punkt), sonst Hornigweg; nicht belegt."
+  }
  },
  "sr-0960075407": {
   "eckdaten": {
@@ -3678,7 +3790,14 @@
    "ergebnis": "hinweis",
    "begruendung": "\"in manchen Bereichen hat sie allerdings Modernisierungsbedarf\"; thermische Sanierung des Hauses geplant, Kosten nicht von Rücklage gedeckt"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "lage": {
+   "lat": 48.25744,
+   "lon": 16.34998,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: Sackgasse in Grinzing, Baujahr 1973, 1. Stock, Südloggia zum Gemeinschaftsgarten, D Beethovengang 12 Gehmin., 38/38A 10 Gehmin. Willhaben-Punkt 48.25744/16.34998 absichtlich ±266 m versetzt (sreal.at-Seite nutzt denselben Punkt; Lagekarte im Inserat ohne Marker, zentriert auf Unterer Schreiberweg/Schreiberweg). Kandidat: Arlethgasse (kurze Stichstraße, ~100 m, direkt am Punkt), sonst Hornigweg; nicht belegt."
+  },
+  "gleich_wie": "wh-2147386450"
  },
  "is-302118453209": {
   "heizung": {
@@ -3801,7 +3920,8 @@
    "sicherheit": "genau",
    "begruendung": "willhaben: Straße Raffelspergergasse. Das Projekt (20 Einheiten, zwei Häuser, Sackgasse, 50–156 m²) ist laut Leadersnet das Raiffeisen-Wohnbau-Projekt Raffelspergergasse 26. Kartenpunkt deckt sich mit Nr. 26 (Nominatim 48.24493/16.31587). Top unbekannt (Stiege 1, EG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "is-889229184750": {
   "lage": {
@@ -3809,7 +3929,8 @@
    "sicherheit": "genau",
    "begruendung": "willhaben: Straße Raffelspergergasse. Das Projekt (20 Einheiten, zwei Häuser, Sackgasse, 50–156 m²) ist laut Leadersnet das Raiffeisen-Wohnbau-Projekt Raffelspergergasse 26. Kartenpunkt deckt sich mit Nr. 26 (Nominatim 48.24493/16.31587). Top unbekannt (Stiege 1, EG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "wh-617033931": {
   "lage": {
@@ -4393,7 +4514,8 @@
    "sicherheit": "genau",
    "begruendung": "Sister-Inserat wh-2083230373 (Wohn3) gehoert zum Projekt 'Stadtoase in der Staudgasse' (Energieausweis gueltig bis 2027-05-22). Einheitenliste: Etage 3/Top 13, 71 m2, EUR 645.000 'Sonnige 3 Zimmer mit Balkon, Loggia & Dachgeschossflair' = diese Wohnung (71,2 m2, EUR 645.000, 1. DG). Tram 40/41/42 Eduardgasse 2 Gehminuten passt. Hausnummer 40 aus immmo.at-Inserat derselben Anlage."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "is-907768227339": {
   "lage": {
@@ -4401,7 +4523,8 @@
    "sicherheit": "genau",
    "begruendung": "Sister-Inserat wh-2083230373 (Wohn3) gehoert zum Projekt 'Stadtoase in der Staudgasse' (Energieausweis gueltig bis 2027-05-22). Einheitenliste: Etage 3/Top 13, 71 m2, EUR 645.000 'Sonnige 3 Zimmer mit Balkon, Loggia & Dachgeschossflair' = diese Wohnung (71,2 m2, EUR 645.000, 1. DG). Tram 40/41/42 Eduardgasse 2 Gehminuten passt. Hausnummer 40 aus immmo.at-Inserat derselben Anlage."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "wh-2083230373": {
   "lage": {
@@ -4409,7 +4532,8 @@
    "sicherheit": "genau",
    "begruendung": "Sister-Inserat wh-2083230373 (Wohn3) gehoert zum Projekt 'Stadtoase in der Staudgasse' (Energieausweis gueltig bis 2027-05-22). Einheitenliste: Etage 3/Top 13, 71 m2, EUR 645.000 'Sonnige 3 Zimmer mit Balkon, Loggia & Dachgeschossflair' = diese Wohnung (71,2 m2, EUR 645.000, 1. DG). Tram 40/41/42 Eduardgasse 2 Gehminuten passt. Hausnummer 40 aus immmo.at-Inserat derselben Anlage."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "is-342811760005": {
   "lage": {
@@ -4417,7 +4541,8 @@
    "sicherheit": "genau",
    "begruendung": "Sister-Inserat wh-2083230373 (Wohn3) gehoert zum Projekt 'Stadtoase in der Staudgasse' (Energieausweis gueltig bis 2027-05-22). Einheitenliste: Etage 3/Top 13, 71 m2, EUR 645.000 'Sonnige 3 Zimmer mit Balkon, Loggia & Dachgeschossflair' = diese Wohnung (71,2 m2, EUR 645.000, 1. DG). Tram 40/41/42 Eduardgasse 2 Gehminuten passt. Hausnummer 40 aus immmo.at-Inserat derselben Anlage."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "ds-15013266": {
   "lage": {
@@ -4425,7 +4550,8 @@
    "sicherheit": "genau",
    "begruendung": "Sister-Inserat wh-2083230373 (Wohn3) gehoert zum Projekt 'Stadtoase in der Staudgasse' (Energieausweis gueltig bis 2027-05-22). Einheitenliste: Etage 3/Top 13, 71 m2, EUR 645.000 'Sonnige 3 Zimmer mit Balkon, Loggia & Dachgeschossflair' = diese Wohnung (71,2 m2, EUR 645.000, 1. DG). Tram 40/41/42 Eduardgasse 2 Gehminuten passt. Hausnummer 40 aus immmo.at-Inserat derselben Anlage."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "wh-1839129284": {
   "lage": {
@@ -4614,7 +4740,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (Saint Damaris GmbH & Co KG, 'Wohnanlage Staudgasse, Staudgasse 40, Wien 1180', Top 04 EG, 72,85 m², Terrasse 9,69 m², Garten 11,84 m²) = Inseratdaten; willhaben-Projekt 'Stadtoase in der Staudgasse' (Bild https://cache.willhaben.at/mmo/1/124/970/6281_-1306856275.jpg)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "wh-1249706281": {
   "lage": {
@@ -4622,7 +4749,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (Saint Damaris GmbH & Co KG, 'Wohnanlage Staudgasse, Staudgasse 40, Wien 1180', Top 04 EG, 72,85 m², Terrasse 9,69 m², Garten 11,84 m²) = Inseratdaten; willhaben-Projekt 'Stadtoase in der Staudgasse' (Bild https://cache.willhaben.at/mmo/1/124/970/6281_-1306856275.jpg)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "is-859502829970": {
   "lage": {
@@ -4630,7 +4758,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (Saint Damaris GmbH & Co KG, 'Wohnanlage Staudgasse, Staudgasse 40, Wien 1180', Top 04 EG, 72,85 m², Terrasse 9,69 m², Garten 11,84 m²) = Inseratdaten; willhaben-Projekt 'Stadtoase in der Staudgasse' (Bild https://cache.willhaben.at/mmo/1/124/970/6281_-1306856275.jpg)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "is-639103870656": {
   "lage": {
@@ -4638,7 +4767,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (Saint Damaris GmbH & Co KG, 'Wohnanlage Staudgasse, Staudgasse 40, Wien 1180', Top 04 EG, 72,85 m², Terrasse 9,69 m², Garten 11,84 m²) = Inseratdaten; willhaben-Projekt 'Stadtoase in der Staudgasse' (Bild https://cache.willhaben.at/mmo/1/124/970/6281_-1306856275.jpg)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "wh-965629725": {
   "lage": {
@@ -5049,7 +5179,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt mit 59 Wohnungen, ÖGNI-Gold = UPPER HILL SIDE; Einheitenliste auf https://upper-hill-side.wien: TOP 1.20, 3. OG, 3 Zi, 93,40 m², Balkon 7,59 m², 899.000 (Inserat 93,4 m², 3. Stock, Balkon 7,59 m², 889.000)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1463662060"
  },
  "wh-1008414363": {
   "lage": {
@@ -5057,7 +5188,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt UPPER HILL SIDE (59 Wohnungen, ÖGNI-Gold); Einheitenliste auf https://upper-hill-side.wien: TOP 1.2, EG, 3 Zi, 93,50 m², 825.000 (Inserat 93,5 m², EG, 822.500)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-617028792"
  },
  "wh-1874682391": {
   "lage": {
@@ -5394,7 +5526,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan von City D im Inserat: 'Top 7, 1. OG, Hofstattgasse 5, 1180 Wien', Innenräume 90,69 m² + Loggia 6,17 m² (passt zum Text)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1929293861"
  },
  "is-341373919628": {
   "lage": {
@@ -5402,7 +5535,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan von City D im Inserat: 'Top 7, 1. OG, Hofstattgasse 5, 1180 Wien', Innenräume 90,69 m² + Loggia 6,17 m² (passt zum Text)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1929293861"
  },
  "wh-1546167814": {
   "lage": {
@@ -5468,7 +5602,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract): dibeo-Exposé derselben Einheit (72,85 m², Garten 11,84 m², 483.226 EUR = Eigennutzerpreis) nennt 'Die fertiggestellte Wohnanlage in der Staudgasse 40, 1180 Wien' (https://www.dibeo.at/expose/2211186). Grundriss im Inserat: Top 04, Erdgeschoß, 72,85 m², Terrasse 9,69 m², Garten 11,84 m². Nominatim Staudgasse 40 = 48.22362,16.33997, ca. 130 m vom willhaben-Punkt (Radius 268 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "is-587845987235": {
   "lage": {
@@ -5476,7 +5611,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract): dibeo-Exposé derselben Einheit (72,85 m², Garten 11,84 m², 483.226 EUR = Eigennutzerpreis) nennt 'Die fertiggestellte Wohnanlage in der Staudgasse 40, 1180 Wien' (https://www.dibeo.at/expose/2211186). Grundriss im Inserat: Top 04, Erdgeschoß, 72,85 m², Terrasse 9,69 m², Garten 11,84 m². Nominatim Staudgasse 40 = 48.22362,16.33997, ca. 130 m vom willhaben-Punkt (Radius 268 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "ds-15170448": {
   "lage": {
@@ -5484,7 +5620,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract): dibeo-Exposé derselben Einheit (72,85 m², Garten 11,84 m², 483.226 EUR = Eigennutzerpreis) nennt 'Die fertiggestellte Wohnanlage in der Staudgasse 40, 1180 Wien' (https://www.dibeo.at/expose/2211186). Grundriss im Inserat: Top 04, Erdgeschoß, 72,85 m², Terrasse 9,69 m², Garten 11,84 m². Nominatim Staudgasse 40 = 48.22362,16.33997, ca. 130 m vom willhaben-Punkt (Radius 268 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2112347036"
  },
  "is-208470283107": {
   "lage": {
@@ -5871,7 +6008,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract). IMMOcontract-Inserat auf ImmoScout24 (https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da) nennt 'MAISON WÄHRING ... Staudgasse 40, 1180 Wien'. Einheitenliste weekend.at-Projektseite (https://www.weekend.at/de/projekt/preisreduktion-maison-waehring/OBGC202606101236492203b5eb0fa8b): 4. OG, 3 Zi, 78,86 m², Terrasse 38,79 m² = diese Wohnung. Top-Nr. nicht veröffentlicht. Staudgasse 40 ca. 130 m vom Kartenpunkt."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2089433472"
  },
  "is-649675384946": {
   "lage": {
@@ -5879,7 +6017,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract). IMMOcontract-Inserat auf ImmoScout24 (https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da) nennt 'MAISON WÄHRING ... Staudgasse 40, 1180 Wien'. Einheitenliste weekend.at-Projektseite (https://www.weekend.at/de/projekt/preisreduktion-maison-waehring/OBGC202606101236492203b5eb0fa8b): 4. OG, 3 Zi, 78,86 m², Terrasse 38,79 m² = diese Wohnung. Top-Nr. nicht veröffentlicht. Staudgasse 40 ca. 130 m vom Kartenpunkt."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2089433472"
  },
  "ds-15168404": {
   "lage": {
@@ -5887,7 +6026,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract). IMMOcontract-Inserat auf ImmoScout24 (https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da) nennt 'MAISON WÄHRING ... Staudgasse 40, 1180 Wien'. Einheitenliste weekend.at-Projektseite (https://www.weekend.at/de/projekt/preisreduktion-maison-waehring/OBGC202606101236492203b5eb0fa8b): 4. OG, 3 Zi, 78,86 m², Terrasse 38,79 m² = diese Wohnung. Top-Nr. nicht veröffentlicht. Staudgasse 40 ca. 130 m vom Kartenpunkt."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2089433472"
  },
  "wh-2098267387": {
   "lage": {
@@ -5895,7 +6035,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis HWB 25,7/fGEE 0,78). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 70,70 m², Balkon 6,24 + Terrasse 3,06 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1987425015"
  },
  "is-951873181385": {
   "lage": {
@@ -5903,7 +6044,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis HWB 25,7/fGEE 0,78). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 70,70 m², Balkon 6,24 + Terrasse 3,06 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1987425015"
  },
  "ds-15168405": {
   "lage": {
@@ -5911,7 +6053,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis HWB 25,7/fGEE 0,78). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 70,70 m², Balkon 6,24 + Terrasse 3,06 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1987425015"
  },
  "wh-1734807961": {
   "lage": {
@@ -5919,7 +6062,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 72,91 m², Balkon 14,01 + Loggia 1,77 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "is-908506062015": {
   "lage": {
@@ -5927,7 +6071,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 72,91 m², Balkon 14,01 + Loggia 1,77 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "ds-15281741": {
   "lage": {
@@ -5935,7 +6080,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 72,91 m², Balkon 14,01 + Loggia 1,77 = diese Wohnung."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2050466325"
  },
  "wh-1319757980": {
   "lage": {
@@ -6308,7 +6454,8 @@
    "sicherheit": "genau",
    "begruendung": "Ediktsdatei: Versteigerung 24.11.2026, 1020 Wien, Herminengasse 6, Wohnung 6 und 8 (Stiege 1, 1. Stock), 184,70 m², Schätzwert 930.000 / geringstes Gebot 465.000 = identisch. https://edikte.justiz.gv.at/edikte/ex/exedi3.nsf/alldoc/7f87a375ffb36d69c1258e7b0043f205!OpenDocument"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "is-992786076817"
  },
  "is-957049598234": {
   "lage": {
@@ -6587,7 +6734,8 @@
    "sicherheit": "genau",
    "begruendung": "willhaben-JSON: Projekt Obersteinergasse, Top 2.02 (EG); Projektpunkt 48.241272,16.346687 = laut Nominatim Obersteinergasse 11. Portale nennen das 59-Wohnungen-Projekt 'Upper Hill Side / Obersteiner Residences, Obersteinergasse 11, 1190' (immobilienscout24.at/expose/69a86c5eb9837673fea034c2)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-617033956"
  },
  "wh-1208230470": {
   "lage": {
@@ -6631,7 +6779,8 @@
    "sicherheit": "genau",
    "begruendung": "Selbes Neutor-Projekt wie wh-1454893951 (willhaben PROJECT_ID 1382496868, Obersteinergasse), UNIT_TITLE 'Top 1.25'; Projektpunkt = Obersteinergasse 11 (Nominatim); Portale: 'Obersteinergasse 11, 59 Wohnungen'."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1895484530"
  },
  "wh-1334414694": {
   "lage": {
@@ -6690,7 +6839,8 @@
    "sicherheit": "genau",
    "begruendung": "Inserat: Anlage auf dem Gelände der Sieveringer Filmateliers (1914-1985), sechs Häuser Bj. 1991, TG. weekend.at führt dieselbe Wohnung (107,09 m², Garten+Terrasse, Garage) als 'Wohnateliers Sievering' in der Sieveringer (Haupt)straße (https://www.weekend.at/de/immobilie/107-09m2-mit-garten-und-terrasse-garage-wohnateliers-sievering/OBGC20260521112312451d110c6b52e); Infina-Inserat: Wohnatelier = Filmatelier-Gelände, 33 Whg. in 7 Häusern (1 Altbau + 6 Neubauten 1991). Wien Geschichte Wiki (Kolowrat-Krakowsky): Atelier der Sascha-Film in der Sieveringer Straße 135. OSM-Gebäude Nr. 135 liegt ca. 50 m vom Kartenpunkt (Radius 255 m). Haus/Top innerhalb der Anlage unbekannt."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2079801131"
  },
  "is-377171196391": {
   "lage": {
@@ -6698,7 +6848,8 @@
    "sicherheit": "genau",
    "begruendung": "Inserat: Anlage auf dem Gelände der Sieveringer Filmateliers (1914-1985), sechs Häuser Bj. 1991, TG. weekend.at führt dieselbe Wohnung (107,09 m², Garten+Terrasse, Garage) als 'Wohnateliers Sievering' in der Sieveringer (Haupt)straße (https://www.weekend.at/de/immobilie/107-09m2-mit-garten-und-terrasse-garage-wohnateliers-sievering/OBGC20260521112312451d110c6b52e); Infina-Inserat: Wohnatelier = Filmatelier-Gelände, 33 Whg. in 7 Häusern (1 Altbau + 6 Neubauten 1991). Wien Geschichte Wiki (Kolowrat-Krakowsky): Atelier der Sascha-Film in der Sieveringer Straße 135. OSM-Gebäude Nr. 135 liegt ca. 50 m vom Kartenpunkt (Radius 255 m). Haus/Top innerhalb der Anlage unbekannt."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-2079801131"
  },
  "wh-1242932756": {
   "lage": {
@@ -6706,7 +6857,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im willhaben-Inserat trägt den Titel 'Krottenbachstraße 58 / Top 3, 1190 Wien', 1. Stock, 81,92 m², Balkon 7,09 m² (Bild https://cache.willhaben.at/mmo/6/124/293/2756_-806913880.jpg); passt zu Wohnungsnummer 3, 1. Stock, gegenüber Hugo-Wolf-Park. Bisheriger Kartenpunkt lag bei Krottenbachstraße 105 (Straßen-Geocode)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1075050455"
  },
  "wh-1392006020": {
   "lage": {
@@ -7066,7 +7218,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan 'HAUS 1 TOP 03, 86,85 m²' zeigt im Lageplan-Ausschnitt 'EINGANG Raffelspergergasse' (Bild https://cache.willhaben.at/mmo/5/122/330/0695_-1507846885.jpg). Bau- und Ausstattungsbeschreibung Raffelspergergasse 26: zwei Baukörper, 20 Wohnungen, 20 TG-Plätze = Inserat '20 Eigentumswohnungen, zwei Bauteile, Tiefgarage' (https://asset.dibeo.at/309/bb253968154f4db28e3a70da258f2507/original/bau-und-ausstattungsbeschreibung.pdf). Achtung: Inserat sagt 'Neustift am Walde', liegt aber in KG Pötzleinsdorf nahe Krottenbachstraße (35A); alter Kartenpunkt ca. 1,2 km daneben."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "wh-1223300695": {
   "lage": {
@@ -7074,7 +7227,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan 'HAUS 1 TOP 03, 86,85 m²' zeigt im Lageplan-Ausschnitt 'EINGANG Raffelspergergasse' (Bild https://cache.willhaben.at/mmo/5/122/330/0695_-1507846885.jpg). Bau- und Ausstattungsbeschreibung Raffelspergergasse 26: zwei Baukörper, 20 Wohnungen, 20 TG-Plätze = Inserat '20 Eigentumswohnungen, zwei Bauteile, Tiefgarage' (https://asset.dibeo.at/309/bb253968154f4db28e3a70da258f2507/original/bau-und-ausstattungsbeschreibung.pdf). Achtung: Inserat sagt 'Neustift am Walde', liegt aber in KG Pötzleinsdorf nahe Krottenbachstraße (35A); alter Kartenpunkt ca. 1,2 km daneben."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "ds-15275152": {
   "lage": {
@@ -7082,7 +7236,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan 'HAUS 1 TOP 03, 86,85 m²' zeigt im Lageplan-Ausschnitt 'EINGANG Raffelspergergasse' (Bild https://cache.willhaben.at/mmo/5/122/330/0695_-1507846885.jpg). Bau- und Ausstattungsbeschreibung Raffelspergergasse 26: zwei Baukörper, 20 Wohnungen, 20 TG-Plätze = Inserat '20 Eigentumswohnungen, zwei Bauteile, Tiefgarage' (https://asset.dibeo.at/309/bb253968154f4db28e3a70da258f2507/original/bau-und-ausstattungsbeschreibung.pdf). Achtung: Inserat sagt 'Neustift am Walde', liegt aber in KG Pötzleinsdorf nahe Krottenbachstraße (35A); alter Kartenpunkt ca. 1,2 km daneben."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "fm-5754132": {
   "lage": {
@@ -7090,7 +7245,8 @@
    "sicherheit": "genau",
    "begruendung": "Verkaufsplan 'HAUS 1 TOP 03, 86,85 m²' zeigt im Lageplan-Ausschnitt 'EINGANG Raffelspergergasse' (Bild https://cache.willhaben.at/mmo/5/122/330/0695_-1507846885.jpg). Bau- und Ausstattungsbeschreibung Raffelspergergasse 26: zwei Baukörper, 20 Wohnungen, 20 TG-Plätze = Inserat '20 Eigentumswohnungen, zwei Bauteile, Tiefgarage' (https://asset.dibeo.at/309/bb253968154f4db28e3a70da258f2507/original/bau-und-ausstattungsbeschreibung.pdf). Achtung: Inserat sagt 'Neustift am Walde', liegt aber in KG Pötzleinsdorf nahe Krottenbachstraße (35A); alter Kartenpunkt ca. 1,2 km daneben."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-848353559"
  },
  "wh-1581859446": {
   "lage": {
@@ -7138,7 +7294,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "wh-1573477875": {
   "lage": {
@@ -7146,7 +7303,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "is-126821056876": {
   "lage": {
@@ -7154,7 +7312,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "ds-15296961": {
   "lage": {
@@ -7162,7 +7321,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "ds-15209185": {
   "lage": {
@@ -7170,7 +7330,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "is-370539352112": {
   "lage": {
@@ -7178,7 +7339,8 @@
    "sicherheit": "genau",
    "begruendung": "Gleiches ESTINA-Projekt wie wh-1581859446 (HWB 32,2 / fGEE 0,75, Erstbezug 2026, Heiligenstädter Straße). EHL-Projektseite nennt Heiligenstädter Straße 103 (39 + 4 Atriumwohnungen, Energieausweis bis 03.03.2035): https://www.ehl.at/heiligenstädter-strasse, Exposé https://www.infina.at/fileadmin/realestate/7925/53084388/53084388.pdf. willhaben-Punkt ist nur ein Straßen-Geocode bei Nr. 209. Top unbekannt (1. Stock, 86,04 m², Terrasse 24,95 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-851929600"
  },
  "wh-1265614041": {
   "lage": {
@@ -7768,7 +7930,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'VINEYARD LIVING, +6 Dachgeschoss 02, TOP 43, 3-Zimmer, 100,16 m², Terrasse 35,11', Planbezeichnung 'HG170', Bauträger haring group. Dasselbe Projekt (45 Wohnungen 37–100 m², 10 TG-Plätze, Krapfenwaldlbad) wird auf weekend.at als 'URBAN HOMES 170' an der Heiligenstädter Straße 170 vermarktet. Geokodiert 164 m vom Kartenpunkt (Radius 264 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "is-144539468835"
  },
  "is-373114772999": {
   "lage": {
@@ -7776,7 +7939,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'VINEYARD LIVING, +6 Dachgeschoss 02, TOP 43, 3-Zimmer, 100,16 m², Terrasse 35,11', Planbezeichnung 'HG170', Bauträger haring group. Dasselbe Projekt (45 Wohnungen 37–100 m², 10 TG-Plätze, Krapfenwaldlbad) wird auf weekend.at als 'URBAN HOMES 170' an der Heiligenstädter Straße 170 vermarktet. Geokodiert 164 m vom Kartenpunkt (Radius 264 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "is-144539468835"
  },
  "ds-15066714": {
   "lage": {
@@ -7784,7 +7948,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'VINEYARD LIVING, +6 Dachgeschoss 02, TOP 43, 3-Zimmer, 100,16 m², Terrasse 35,11', Planbezeichnung 'HG170', Bauträger haring group. Dasselbe Projekt (45 Wohnungen 37–100 m², 10 TG-Plätze, Krapfenwaldlbad) wird auf weekend.at als 'URBAN HOMES 170' an der Heiligenstädter Straße 170 vermarktet. Geokodiert 164 m vom Kartenpunkt (Radius 264 m)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "is-144539468835"
  },
  "wh-1282527283": {
   "lage": {
@@ -7947,7 +8112,8 @@
    "sicherheit": "genau",
    "begruendung": "EHL-Verfügbarkeitsliste 'Heiligenstädter Straße 103, 1190 Wien' (im Inserat verlinkt, https://storage.justimmo.at/file/pBrN12AcHnWeoGg7VTESJP.pdf): Objektnr. 83610 = Top 4, EG, 3 Zi, SW, 94,73 m², 812.400 € – identisch mit Inserat (FindMyHome-ID 83610). Projektseite https://www.ehl.at/heiligenst%C3%A4dter-strasse und Presse leadersnet bestätigen Adresse."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1581859446"
  },
  "fm-5758600": {
   "lage": {
@@ -8163,7 +8329,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'Eigentumswohnung Währinger Str. 22, A-1090 Wien', 1. OG Top 3/4, WNF 79,09 m² (= Inserat); Lageplan Ecke Thurngasse/Währinger Straße. Projekt VOTIV QUARTIER."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "fm-5510073": {
   "lage": {
@@ -8171,7 +8338,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat: 'Eigentumswohnung Währinger Str. 22, A-1090 Wien', 1. OG Top 3/4, WNF 79,09 m² (= Inserat); Lageplan Ecke Thurngasse/Währinger Straße. Projekt VOTIV QUARTIER."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "wh-995387538": {
   "lage": {
@@ -8506,7 +8674,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 30', willhaben-Projekt 'Borschkegasse 15' (965241251). Der bisherige Kartenpunkt liegt etwa 90 m neben Borschkegasse 15 laut OSM (48.21816, 16.34342)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "is-161099109072": {
   "lage": {
@@ -8514,7 +8683,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 30', willhaben-Projekt 'Borschkegasse 15' (965241251). Der bisherige Kartenpunkt liegt etwa 90 m neben Borschkegasse 15 laut OSM (48.21816, 16.34342)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "ds-15117487": {
   "lage": {
@@ -8522,7 +8692,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 30', willhaben-Projekt 'Borschkegasse 15' (965241251). Der bisherige Kartenpunkt liegt etwa 90 m neben Borschkegasse 15 laut OSM (48.21816, 16.34342)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "fm-5656216": {
   "lage": {
@@ -8530,7 +8701,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 30', willhaben-Projekt 'Borschkegasse 15' (965241251). Der bisherige Kartenpunkt liegt etwa 90 m neben Borschkegasse 15 laut OSM (48.21816, 16.34342)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "wh-1189007050": {
   "lage": {
@@ -8538,7 +8710,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 31', Projekt 'Borschkegasse 15' (https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1090-alsergrund/borschkegasse-15-965241251/)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-916254089"
  },
  "is-950837581395": {
   "lage": {
@@ -8546,7 +8719,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 31', Projekt 'Borschkegasse 15' (https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1090-alsergrund/borschkegasse-15-965241251/)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-916254089"
  },
  "ds-15117486": {
   "lage": {
@@ -8554,7 +8728,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 31', Projekt 'Borschkegasse 15' (https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1090-alsergrund/borschkegasse-15-965241251/)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-916254089"
  },
  "fm-5656215": {
   "lage": {
@@ -8562,7 +8737,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'PROJEKT: BORSCHKEGASSE 15'. willhaben: UNIT_TITLE 'Etage 4/Top 31', Projekt 'Borschkegasse 15' (https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1090-alsergrund/borschkegasse-15-965241251/)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-916254089"
  },
  "wh-1291011907": {
   "lage": {
@@ -8570,7 +8746,8 @@
    "sicherheit": "genau",
    "begruendung": "Der Grundriss (Top 3/4, 1. OG, 79,09 m²) zeigt einen Lageplan des Eckhauses Thurngasse/Währinger Straße. Nach der OSM-Geometrie ist das Eckgrundstück an der Thurngasse Währinger Straße 22 (das Lokal heißt 'Pizza Angolo No 22'). Ein Gewerbeinserat beschreibt dazu ein Eckhaus Währinger Straße/Thurngasse mit Baujahr 1828. Die Hausnummer stammt aus OSM, nicht aus dem Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "is-413399296965": {
   "lage": {
@@ -8578,7 +8755,8 @@
    "sicherheit": "genau",
    "begruendung": "Der Grundriss (Top 3/4, 1. OG, 79,09 m²) zeigt einen Lageplan des Eckhauses Thurngasse/Währinger Straße. Nach der OSM-Geometrie ist das Eckgrundstück an der Thurngasse Währinger Straße 22 (das Lokal heißt 'Pizza Angolo No 22'). Ein Gewerbeinserat beschreibt dazu ein Eckhaus Währinger Straße/Thurngasse mit Baujahr 1828. Die Hausnummer stammt aus OSM, nicht aus dem Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "wh-1726762243": {
   "lage": {
@@ -8680,7 +8858,8 @@
    "sicherheit": "genau",
    "begruendung": "ImmoScout und derStandard (ImmoTrading): 'PROJEKT: BORSCHKEGASSE 15'. Es ist dasselbe DG-Projekt wie bei RIWOG (5 DG-Wohnungen). Mit 93,36 m² und 3 Zimmern ist es wahrscheinlich Top 30 (bei RIWOG 93,13 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "is-604609738623": {
   "lage": {
@@ -8688,7 +8867,8 @@
    "sicherheit": "genau",
    "begruendung": "ImmoScout und derStandard (ImmoTrading): 'PROJEKT: BORSCHKEGASSE 15'. Es ist dasselbe DG-Projekt wie bei RIWOG (5 DG-Wohnungen). Mit 93,36 m² und 3 Zimmern ist es wahrscheinlich Top 30 (bei RIWOG 93,13 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "ds-15197579": {
   "lage": {
@@ -8696,7 +8876,8 @@
    "sicherheit": "genau",
    "begruendung": "ImmoScout und derStandard (ImmoTrading): 'PROJEKT: BORSCHKEGASSE 15'. Es ist dasselbe DG-Projekt wie bei RIWOG (5 DG-Wohnungen). Mit 93,36 m² und 3 Zimmern ist es wahrscheinlich Top 30 (bei RIWOG 93,13 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1710941582"
  },
  "wh-1612280692": {
   "lage": {
@@ -8818,7 +8999,8 @@
    "sicherheit": "genau",
    "begruendung": "willhaben: ADDRESS_1 Obersteinergasse, UNIT_TITLE 'Etage 0/Top 2.04', Projekt mit 59 Wohnungen, ÖGNI Gold, 4 Townhouses, Fertigstellung Herbst 2023. Genau dieses Projekt ist 'UPPER HILL SIDE, Obersteinergasse 11' (59 Apartments, https://www.weekend.at/de/immobilie/upper-hill-side-obersteinergasse-11/OBGC202111231728458379a1ad6560f). Unit 93,44 m2 / 872.500 EUR steht in der Neutor-Einheitenliste (weekend.at). willhaben-Punkt 48.241272,16.346687 liegt 20 m von Obersteinergasse 11 (OSM 48.24108,16.34658)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-835910239"
  },
  "wh-1992418784": {
   "lage": {
@@ -8968,7 +9150,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (willhaben-Bild 6220_-421050882): 'EIGENTUMSWOHNUNG WÄHRINGER STR. 22, A-1090 WIEN', TOP 3/4, 1. OG, WNF 79,09 m² (= Inserat), Lageplan Ecke Thurngasse"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "is-619388781112": {
   "lage": {
@@ -8976,7 +9159,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (willhaben-Bild 6220_-421050882): 'EIGENTUMSWOHNUNG WÄHRINGER STR. 22, A-1090 WIEN', TOP 3/4, 1. OG, WNF 79,09 m² (= Inserat), Lageplan Ecke Thurngasse"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "fm-5611544": {
   "lage": {
@@ -8984,7 +9168,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im Inserat (willhaben-Bild 6220_-421050882): 'EIGENTUMSWOHNUNG WÄHRINGER STR. 22, A-1090 WIEN', TOP 3/4, 1. OG, WNF 79,09 m² (= Inserat), Lageplan Ecke Thurngasse"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "wh-895639868": {
   "lage": {
@@ -8992,7 +9177,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Wohnen mit Charakter - Altbau trifft Moderne in der Liechtensteinstraße 24', Projektseite https://liechtensteinstrasse24.at/; Top für 75,55 m² / 3. Stock nicht eindeutig in der Liste"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-810937458"
  },
  "is-047650502486": {
   "lage": {
@@ -9000,7 +9186,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Wohnen mit Charakter - Altbau trifft Moderne in der Liechtensteinstraße 24', Projektseite https://liechtensteinstrasse24.at/; Top für 75,55 m² / 3. Stock nicht eindeutig in der Liste"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-810937458"
  },
  "ds-15052975": {
   "lage": {
@@ -9008,7 +9195,8 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext: 'Wohnen mit Charakter - Altbau trifft Moderne in der Liechtensteinstraße 24', Projektseite https://liechtensteinstrasse24.at/; Top für 75,55 m² / 3. Stock nicht eindeutig in der Liste"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-810937458"
  },
  "wh-982740877": {
   "lage": {
@@ -9084,7 +9272,8 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss-Titelblock (Estina/Hawlik Gerginski) im Inserat: 'Krottenbachstraße 182, 1190 Wien', Stiege 2 Top 11, 3./4. DG, 3 Zimmer, 90,35 m², Balkon 11,41 m², Terrasse 37,68 m² – deckt sich exakt mit Inserat. https://www.immobilienscout24.at/expose/6ac368bbd5a40fb28cd4bed3"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1976481408"
  },
  "is-087040873521": {
   "lage": {
@@ -9101,7 +9290,8 @@
    "sicherheit": "genau",
    "begruendung": "Inserat nennt das Haus 'Newaldhof; Zum Schäfer; Zum goldenen Ochsen', 1828 von Carl Högl für Gräfin Thurn erbaut, denkmalgeschützt. Wien Geschichte Wiki: Newaldhof = Währinger Straße 22 / Thurngasse 2 (https://www.geschichtewiki.wien.gv.at/Newaldhof). Top unbekannt (1. Stock, 79,09 m²)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1186375351"
  },
  "is-763461753743": {
   "lage": {
@@ -9214,7 +9404,8 @@
    "sicherheit": "genau",
    "begruendung": "Klosterneuburger Freihof im Kahlenbergerdorf (Ursprung 1455, denkmalgeschützt, 11 Einheiten, Baurecht Stift Klosterneuburg). Projektseite weekend.at 'Der Freihof in der Wigandgasse 37' nennt HWB 56,48 (C), fGEE 1,499 = identisch mit Inserat (HWB 56, fGEE 1,5). Früheres RE/MAX-Today-Exposé derselben Wohnung (97,21 m², 2 Bäder, Baurechtszins, Kahlenbergerdorf, HWB 54,2/fGEE 1,51) via immomarktplatz.at/de/immobilien/expose/id/88344. https://www.weekend.at/de/projekt/der-freihof-in-der-wigandgasse-37-eine-raritaet-fuer-hoechste-ansprueche/OBGC20260409094706316ebebeb6126"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1728952729"
  },
  "fm-5744076": {
   "lage": {
@@ -9222,7 +9413,8 @@
    "sicherheit": "genau",
    "begruendung": "Klosterneuburger Freihof im Kahlenbergerdorf (Ursprung 1455, denkmalgeschützt, 11 Einheiten, Baurecht Stift Klosterneuburg). Projektseite weekend.at 'Der Freihof in der Wigandgasse 37' nennt HWB 56,48 (C), fGEE 1,499 = identisch mit Inserat (HWB 56, fGEE 1,5). Früheres RE/MAX-Today-Exposé derselben Wohnung (97,21 m², 2 Bäder, Baurechtszins, Kahlenbergerdorf, HWB 54,2/fGEE 1,51) via immomarktplatz.at/de/immobilien/expose/id/88344. https://www.weekend.at/de/projekt/der-freihof-in-der-wigandgasse-37-eine-raritaet-fuer-hoechste-ansprueche/OBGC20260409094706316ebebeb6126"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1728952729"
  },
  "is-545241718506": {
   "lage": {
@@ -9341,6 +9533,604 @@
    "lon": 16.310404,
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben-JSON: ADDRESS 'Zuckerkandlgasse', COORDINATES 48.247204,16.310404 (keine Hausnummer). Grundriss zeigt 'TOP 2 85,69' mit Garten Top 2. Wohnhausanlage Bj. 1987 mit Tiefgarage nahe Neustift am Walde; Hausnummer nicht gefunden."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-874860589": {
+  "lage": {
+   "lat": 48.2427,
+   "lon": 16.3354,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext aller Portale: 'Die Sollingergasse liegt in Oberdöbling' (Hillinger). Hausnummer nicht gefunden (Baujahr 1962, Lift, Flachdach); keine Adresse in willhaben-JSON, derStandard oder Grundrissen. Punkt = Mitte Sollingergasse (OSM)."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15292147": {
+  "lage": {
+   "lat": 48.2427,
+   "lon": 16.3354,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext aller Portale: 'Die Sollingergasse liegt in Oberdöbling' (Hillinger). Hausnummer nicht gefunden (Baujahr 1962, Lift, Flachdach); keine Adresse in willhaben-JSON, derStandard oder Grundrissen. Punkt = Mitte Sollingergasse (OSM)."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-409967321426": {
+  "lage": {
+   "lat": 48.2427,
+   "lon": 16.3354,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext aller Portale: 'Die Sollingergasse liegt in Oberdöbling' (Hillinger). Hausnummer nicht gefunden (Baujahr 1962, Lift, Flachdach); keine Adresse in willhaben-JSON, derStandard oder Grundrissen. Punkt = Mitte Sollingergasse (OSM)."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5765450": {
+  "lage": {
+   "lat": 48.2427,
+   "lon": 16.3354,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext aller Portale: 'Die Sollingergasse liegt in Oberdöbling' (Hillinger). Hausnummer nicht gefunden (Baujahr 1962, Lift, Flachdach); keine Adresse in willhaben-JSON, derStandard oder Grundrissen. Punkt = Mitte Sollingergasse (OSM)."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1833990872": {
+  "lage": {
+   "adresse": "Kuchelauer Hafenstraße 98",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (The Shore, WK Development): 'Kuchelauer Hafenstrasse 98, Stiege 01, Tür 01, Erdgeschoss', Wohnfläche 110,65 m², Terrasse 55,16 m², Eigengarten 253,66 m² = Inserat (110,37 m², Garten 253,66 m², Terrasse 55,18 m²). OSM: The Shore = Kuchelauer Hafenstraße 98, Stiegen 1-10."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-198401900896": {
+  "lage": {
+   "adresse": "Kuchelauer Hafenstraße 98",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (The Shore, WK Development): 'Kuchelauer Hafenstrasse 98, Stiege 01, Tür 01, Erdgeschoss', Wohnfläche 110,65 m², Terrasse 55,16 m², Eigengarten 253,66 m² = Inserat (110,37 m², Garten 253,66 m², Terrasse 55,18 m²). OSM: The Shore = Kuchelauer Hafenstraße 98, Stiegen 1-10."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15031972": {
+  "lage": {
+   "adresse": "Kuchelauer Hafenstraße 98",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (The Shore, WK Development): 'Kuchelauer Hafenstrasse 98, Stiege 01, Tür 01, Erdgeschoss', Wohnfläche 110,65 m², Terrasse 55,16 m², Eigengarten 253,66 m² = Inserat (110,37 m², Garten 253,66 m², Terrasse 55,18 m²). OSM: The Shore = Kuchelauer Hafenstraße 98, Stiegen 1-10."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1595840899": {
+  "lage": {
+   "lat": 48.2462,
+   "lon": 16.315,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratstext REMAX: 'Die Lage an der Krottenbachstraße, Ecke Strehlgasse'. Laut OSM liegen an der Ecke Krottenbachstraße 239 / 241 und Strehlgasse 38 / 40; welches Haus (Baujahr 1981, Lift, 319 m² Eigengarten) ist nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-570965640188": {
+  "lage": {
+   "lat": 48.2462,
+   "lon": 16.315,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratstext REMAX: 'Die Lage an der Krottenbachstraße, Ecke Strehlgasse'. Laut OSM liegen an der Ecke Krottenbachstraße 239 / 241 und Strehlgasse 38 / 40; welches Haus (Baujahr 1981, Lift, 319 m² Eigengarten) ist nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15291893": {
+  "lage": {
+   "lat": 48.2462,
+   "lon": 16.315,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratstext REMAX: 'Die Lage an der Krottenbachstraße, Ecke Strehlgasse'. Laut OSM liegen an der Ecke Krottenbachstraße 239 / 241 und Strehlgasse 38 / 40; welches Haus (Baujahr 1981, Lift, 319 m² Eigengarten) ist nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5765363": {
+  "lage": {
+   "lat": 48.2462,
+   "lon": 16.315,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inseratstext REMAX: 'Die Lage an der Krottenbachstraße, Ecke Strehlgasse'. Laut OSM liegen an der Ecke Krottenbachstraße 239 / 241 und Strehlgasse 38 / 40; welches Haus (Baujahr 1981, Lift, 319 m² Eigengarten) ist nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1834362612": {
+  "lage": {
+   "lat": 48.2835,
+   "lon": 16.3455,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext Ringsmuth: Kuchelauer Hafen, Avanti-Tankstelle ca. 290 m, Futterhaus Klosterneuburg ca. 400 m, Bushaltestelle 'Wien Donauwarte' (Bus 400) ca. 280 m. Laut OSM liegen die Haltestelle Donauwarte bei 48.2837/16.3471, Avanti bei 48.2852/16.3455 und Futterhaus bei 48.2860/16.3446. Das passt zum Bereich Heiligenstädter Straße 395–407 / Donauwartesteig (kernsanierter Altbau, Donaublick). Hausnummer offen."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-053889158284": {
+  "lage": {
+   "lat": 48.2835,
+   "lon": 16.3455,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Lagetext Ringsmuth: Kuchelauer Hafen, Avanti-Tankstelle ca. 290 m, Futterhaus Klosterneuburg ca. 400 m, Bushaltestelle 'Wien Donauwarte' (Bus 400) ca. 280 m. Laut OSM liegen die Haltestelle Donauwarte bei 48.2837/16.3471, Avanti bei 48.2852/16.3455 und Futterhaus bei 48.2860/16.3446. Das passt zum Bereich Heiligenstädter Straße 395–407 / Donauwartesteig (kernsanierter Altbau, Donaublick). Hausnummer offen."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1345215057": {
+  "lage": {
+   "lat": 48.2452,
+   "lon": 16.3292,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben 'Region: Börnergasse', Text: verkehrsberuhigte Sackgasse, Bus 39A zu Fuß erreichbar, Baujahr 1964. Der Börnergasse-Abschnitt 48.2445–48.2456/16.329–16.330 (Nominatim) liegt innerhalb des willhaben-Radius (266 m um 48.2458/16.3259). Hausnummer und Sackgasse nicht belegt; der Grundriss hat keinen Titelblock."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15200194": {
+  "lage": {
+   "lat": 48.2452,
+   "lon": 16.3292,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben 'Region: Börnergasse', Text: verkehrsberuhigte Sackgasse, Bus 39A zu Fuß erreichbar, Baujahr 1964. Der Börnergasse-Abschnitt 48.2445–48.2456/16.329–16.330 (Nominatim) liegt innerhalb des willhaben-Radius (266 m um 48.2458/16.3259). Hausnummer und Sackgasse nicht belegt; der Grundriss hat keinen Titelblock."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-930141690177": {
+  "lage": {
+   "lat": 48.2452,
+   "lon": 16.3292,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben 'Region: Börnergasse', Text: verkehrsberuhigte Sackgasse, Bus 39A zu Fuß erreichbar, Baujahr 1964. Der Börnergasse-Abschnitt 48.2445–48.2456/16.329–16.330 (Nominatim) liegt innerhalb des willhaben-Radius (266 m um 48.2458/16.3259). Hausnummer und Sackgasse nicht belegt; der Grundriss hat keinen Titelblock."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5707965": {
+  "lage": {
+   "lat": 48.2452,
+   "lon": 16.3292,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben 'Region: Börnergasse', Text: verkehrsberuhigte Sackgasse, Bus 39A zu Fuß erreichbar, Baujahr 1964. Der Börnergasse-Abschnitt 48.2445–48.2456/16.329–16.330 (Nominatim) liegt innerhalb des willhaben-Radius (266 m um 48.2458/16.3259). Hausnummer und Sackgasse nicht belegt; der Grundriss hat keinen Titelblock."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-859389372": {
+  "lage": {
+   "lat": 48.2413,
+   "lon": 16.3355,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben ADDRESS_1 = 'Saileräckergasse' (vom Anbieter Brucer angegeben), ohne Hausnummer. Baujahr 2000, Stiege 2, Maisonette im 4./5. Liftstock. Hausnummer per Websuche nicht gefunden."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-125894758422": {
+  "lage": {
+   "lat": 48.2413,
+   "lon": 16.3355,
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben ADDRESS_1 = 'Saileräckergasse' (vom Anbieter Brucer angegeben), ohne Hausnummer. Baujahr 2000, Stiege 2, Maisonette im 4./5. Liftstock. Hausnummer per Websuche nicht gefunden."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1849939189": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Projekt 'Wohnateliers Sievering' (FSR) steht laut Inserat auf dem Grund der Sieveringer Filmateliers. Wien Geschichte Wiki: Sieveringer Filmatelier = Sieveringer Straße 135, heute Wohnanlage 'Wohnatelier Sievering' (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). OSM: Nr. 135 umfasst 6 Gebäude (Inserate: 6 Neubauten von 1991 + 1 Altbau). Wohnung in Haus 1, 1. Stock, Top nicht bekannt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-120871831708": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Projekt 'Wohnateliers Sievering' (FSR) steht laut Inserat auf dem Grund der Sieveringer Filmateliers. Wien Geschichte Wiki: Sieveringer Filmatelier = Sieveringer Straße 135, heute Wohnanlage 'Wohnatelier Sievering' (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). OSM: Nr. 135 umfasst 6 Gebäude (Inserate: 6 Neubauten von 1991 + 1 Altbau). Wohnung in Haus 1, 1. Stock, Top nicht bekannt."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15175012": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Projekt 'Wohnateliers Sievering' (FSR) steht laut Inserat auf dem Grund der Sieveringer Filmateliers. Wien Geschichte Wiki: Sieveringer Filmatelier = Sieveringer Straße 135, heute Wohnanlage 'Wohnatelier Sievering' (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). OSM: Nr. 135 umfasst 6 Gebäude (Inserate: 6 Neubauten von 1991 + 1 Altbau). Wohnung in Haus 1, 1. Stock, Top nicht bekannt."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-2038028653": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Selbe Anlage 'Wohnateliers Sievering' (FSR, gleicher Energieausweis HWB 128,3) auf dem Grund der Sieveringer Filmateliers = Sieveringer Straße 135 (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). Gartenwohnung im EG, eine von 4 Wohnungen am nördlichen Ende der Liegenschaft."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-466194578897": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Selbe Anlage 'Wohnateliers Sievering' (FSR, gleicher Energieausweis HWB 128,3) auf dem Grund der Sieveringer Filmateliers = Sieveringer Straße 135 (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). Gartenwohnung im EG, eine von 4 Wohnungen am nördlichen Ende der Liegenschaft."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15175006": {
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "sicherheit": "genau",
+   "begruendung": "Selbe Anlage 'Wohnateliers Sievering' (FSR, gleicher Energieausweis HWB 128,3) auf dem Grund der Sieveringer Filmateliers = Sieveringer Straße 135 (https://www.geschichtewiki.wien.gv.at/Sieveringer_Filmatelier). Gartenwohnung im EG, eine von 4 Wohnungen am nördlichen Ende der Liegenschaft."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1783992022": {
+  "gleich_wie": "wh-1540996108",
+  "datum": "2026-10-28"
+ },
+ "is-849596123806": {
+  "gleich_wie": "wh-1540996108",
+  "datum": "2026-10-28"
+ },
+ "ds-15261502": {
+  "gleich_wie": "wh-1540996108",
+  "datum": "2026-10-28"
+ },
+ "fm-5745921": {
+  "gleich_wie": "wh-1540996108",
+  "datum": "2026-10-28"
+ },
+ "wh-1828854515": {
+  "gleich_wie": "wh-1278868755",
+  "datum": "2026-10-28"
+ },
+ "is-617533700971": {
+  "gleich_wie": "wh-1278868755",
+  "datum": "2026-10-28"
+ },
+ "ds-15261510": {
+  "gleich_wie": "wh-1278868755",
+  "datum": "2026-10-28"
+ },
+ "fm-5745929": {
+  "gleich_wie": "wh-1278868755",
+  "datum": "2026-10-28"
+ },
+ "is-709065143698": {
+  "gleich_wie": "wh-2112347036",
+  "datum": "2026-10-28"
+ },
+ "ds-15170427": {
+  "gleich_wie": "wh-2112347036",
+  "datum": "2026-10-28"
+ },
+ "wh-1419652776": {
+  "gleich_wie": "wh-2112347036",
+  "datum": "2026-10-28"
+ },
+ "ds-15037688": {
+  "gleich_wie": "wh-2112347036",
+  "datum": "2026-10-28"
+ },
+ "wh-1473925600": {
+  "gleich_wie": "wh-2050466325",
+  "datum": "2026-10-28"
+ },
+ "ds-15037692": {
+  "gleich_wie": "wh-2050466325",
+  "datum": "2026-10-28"
+ },
+ "wh-1843349435": {
+  "gleich_wie": "wh-1987425015",
+  "datum": "2026-10-28"
+ },
+ "ds-15037695": {
+  "gleich_wie": "wh-1987425015",
+  "datum": "2026-10-28"
+ },
+ "is-898805484674": {
+  "gleich_wie": "wh-1849409386",
+  "datum": "2026-10-28"
+ },
+ "ds-15170446": {
+  "gleich_wie": "wh-1849409386",
+  "datum": "2026-10-28"
+ },
+ "wh-991072087": {
+  "gleich_wie": "wh-1849409386",
+  "datum": "2026-10-28"
+ },
+ "ds-15037691": {
+  "gleich_wie": "wh-1849409386",
+  "datum": "2026-10-28"
+ },
+ "is-994036005387": {
+  "gleich_wie": "wh-2039112596",
+  "datum": "2026-10-28"
+ },
+ "ds-15170445": {
+  "gleich_wie": "wh-2039112596",
+  "datum": "2026-10-28"
+ },
+ "is-028092133517": {
+  "gleich_wie": "wh-2039112596",
+  "datum": "2026-10-28"
+ },
+ "ds-15170425": {
+  "gleich_wie": "wh-2039112596",
+  "datum": "2026-10-28"
+ },
+ "ds-15037694": {
+  "gleich_wie": "wh-2039112596",
+  "datum": "2026-10-28"
+ },
+ "wh-1192975669": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "is-438884833654": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "ds-15167554": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "wh-1268400331": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "is-863929428341": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "is-960986681582": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "ds-15013269": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "wh-2076424293": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "ds-15037696": {
+  "gleich_wie": "wh-2089433472",
+  "datum": "2026-10-28"
+ },
+ "ds-15075687": {
+  "gleich_wie": "wh-1025832574",
+  "datum": "2026-10-28"
+ },
+ "wh-1759539858": {
+  "gleich_wie": "wh-1025832574",
+  "datum": "2026-10-28"
+ },
+ "fm-5483280": {
+  "gleich_wie": "wh-1025832574",
+  "datum": "2026-10-28"
+ },
+ "wh-1069849477": {
+  "gleich_wie": "wh-1301343986",
+  "datum": "2026-10-28"
+ },
+ "ds-15296295": {
+  "gleich_wie": "wh-1301343986",
+  "datum": "2026-10-28"
+ },
+ "wh-1309077556": {
+  "gleich_wie": "wh-1301343986",
+  "datum": "2026-10-28"
+ },
+ "ds-15276204": {
+  "gleich_wie": "wh-1301343986",
+  "datum": "2026-10-28"
+ },
+ "fm-5755348": {
+  "gleich_wie": "wh-1301343986",
+  "datum": "2026-10-28"
+ },
+ "wh-1584870944": {
+  "gleich_wie": "wh-617033931",
+  "datum": "2026-10-28"
+ },
+ "is-178197241831": {
+  "gleich_wie": "wh-617033931",
+  "datum": "2026-10-28"
+ },
+ "wh-1785673082": {
+  "gleich_wie": "wh-617033956",
+  "datum": "2026-10-28"
+ },
+ "is-563904475444": {
+  "gleich_wie": "wh-617033956",
+  "datum": "2026-10-28"
+ },
+ "wh-1824281792": {
+  "gleich_wie": "wh-1153268387",
+  "datum": "2026-10-28"
+ },
+ "wh-944239700": {
+  "gleich_wie": "wh-1728952729",
+  "datum": "2026-10-28"
+ },
+ "is-858791849528": {
+  "gleich_wie": "wh-1109986256",
+  "datum": "2026-10-28"
+ },
+ "wh-1980421650": {
+  "gleich_wie": "wh-1109986256",
+  "datum": "2026-10-28"
+ },
+ "ds-15275452": {
+  "gleich_wie": "wh-1109986256",
+  "datum": "2026-10-28"
+ },
+ "fm-5753622": {
+  "gleich_wie": "wh-1109986256",
+  "datum": "2026-10-28"
+ },
+ "wh-790154720": {
+  "gleich_wie": "wh-1927520262",
+  "datum": "2026-10-28"
+ },
+ "wh-1769862941": {
+  "gleich_wie": "wh-2034942129",
+  "datum": "2026-10-28"
+ },
+ "is-169130071297": {
+  "gleich_wie": "wh-2034942129",
+  "datum": "2026-10-28"
+ },
+ "ds-15216991": {
+  "gleich_wie": "wh-2034942129",
+  "datum": "2026-10-28"
+ },
+ "fm-5717653": {
+  "gleich_wie": "wh-2034942129",
+  "datum": "2026-10-28"
+ },
+ "is-967950003089": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "wh-1554822784": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "ds-15276280": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "wh-1553098959": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "wh-829200687": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "is-818944905959": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "fm-5754667": {
+  "gleich_wie": "is-295408348457",
+  "datum": "2026-10-28"
+ },
+ "is-020065677233": {
+  "lage": {
+   "adresse": "Muthgasse 109b",
+   "sicherheit": "genau",
+   "begruendung": "Projektseite https://good-muth.at nennt Adresse Muthgasse 109b, 1190 Wien (Vertrieb Piment); Top 59 laut Inserat-Raumaufteilung (5. OG, 72,76 m², 575.000 € – exakt in der Einheitenliste good-muth.at/projekt (Top 59, Loggia 5,97 m²)). Nominatim: Muthgasse 109 = 48.2530, 16.3696; bisheriger Kartenpunkt lag bei Muthgasse 21 (~400 m südlich)."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-931683675500": {
+  "lage": {
+   "lat": 48.25744,
+   "lon": 16.34998,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: Sackgasse in Grinzing, Baujahr 1973, 1. Stock, Südloggia zum Gemeinschaftsgarten, D Beethovengang 12 Gehmin., 38/38A 10 Gehmin. Willhaben-Punkt 48.25744/16.34998 absichtlich ±266 m versetzt (sreal.at-Seite nutzt denselben Punkt; Lagekarte im Inserat ohne Marker, zentriert auf Unterer Schreiberweg/Schreiberweg). Kandidat: Arlethgasse (kurze Stichstraße, ~100 m, direkt am Punkt), sonst Hornigweg; nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15296278": {
+  "lage": {
+   "lat": 48.25744,
+   "lon": 16.34998,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: Sackgasse in Grinzing, Baujahr 1973, 1. Stock, Südloggia zum Gemeinschaftsgarten, D Beethovengang 12 Gehmin., 38/38A 10 Gehmin. Willhaben-Punkt 48.25744/16.34998 absichtlich ±266 m versetzt (sreal.at-Seite nutzt denselben Punkt; Lagekarte im Inserat ohne Marker, zentriert auf Unterer Schreiberweg/Schreiberweg). Kandidat: Arlethgasse (kurze Stichstraße, ~100 m, direkt am Punkt), sonst Hornigweg; nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5768403": {
+  "lage": {
+   "lat": 48.25744,
+   "lon": 16.34998,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: Sackgasse in Grinzing, Baujahr 1973, 1. Stock, Südloggia zum Gemeinschaftsgarten, D Beethovengang 12 Gehmin., 38/38A 10 Gehmin. Willhaben-Punkt 48.25744/16.34998 absichtlich ±266 m versetzt (sreal.at-Seite nutzt denselben Punkt; Lagekarte im Inserat ohne Marker, zentriert auf Unterer Schreiberweg/Schreiberweg). Kandidat: Arlethgasse (kurze Stichstraße, ~100 m, direkt am Punkt), sonst Hornigweg; nicht belegt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-172485104011": {
+  "lage": {
+   "adresse": "Alserbachstraße",
+   "lat": 48.2255,
+   "lon": 16.3615,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat (willhaben, weekend.at https://www.weekend.at/de/immobilie/loftcharakter-i-alserbachstrasse-i-eine-neue-dimension-des-wohnens/OBGC20260310115743916dedf4e01c9): 'Alserbachstraße, 1090 Wien', 'auf Höhe der Porzellangasse', DG-Ausbau 2012 auf Altbau, Wohnraum südseitig, Schlafzimmer zum Innenhof -> vermutlich Nordseite der Alserbachstraße (dann Lichtental-Nord = Ausschlusszone östl. Liechtensteinstraße/nördl. Alserbachstraße). Keine Hausnummer gefunden; willhaben-Punkt ±266 m."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-975517067": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1330526824": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15261230": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-189879817598": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "ds-15275519": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5735255": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-128624572375": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "fm-5745885": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-845840179333": {
+  "lage": {
+   "adresse": "Clusiusgasse 11",
+   "sicherheit": "genau",
+   "begruendung": "Hubner-Inserat willhaben 830204052: Foto beschriftet 'Clusiusgasse', Koordinate 48.226036/16.365149 OHNE Versatzradius = Nominatim Clusiusgasse 11. Gegenprobe: im Inserat genannte weitere Wohnungen im Haus (68 m² 449.000 €, 69 m² 461.250 €, Bj. 1894) sind als CONFIDO-Inserate 'Clusiusgasse' gelistet (https://www.weekend.at/de/immobilie/gestalten-sie-nach-ihrem-geschmack-sanierungsbeduerftige-3-zimmer-altbauwohnung-in-der-clusiusgasse/OBGC20250919141918386fd8828aecb). Hochparterre Top 1+2. Hausnummer nur aus dem unversetzten Punkt."
+  },
+  "datum": "2026-10-28"
+ },
+ "is-448752418830": {
+  "lage": {
+   "lat": 48.21689,
+   "lon": 16.3646,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Engel & Völkers Exposé https://www.engelvoelkers.com/at/en/exposes/21915c3f-9f1e-598b-b075-9bd186a974ab: displayLat/Lng 48.216886/16.364601 (fuzzyMoveByMeter 150), Lageplan-Bild mit rotem Kreis um Berggasse/Wasagasse/Hörlgasse/Türkenstraße. Bj. 1861, 3. OG Hofruhelage, Tiefgarage im Haus. Keine Hausnummer."
   },
   "datum": "2026-10-28"
  }

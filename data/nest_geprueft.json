@@ -3720,5 +3720,252 @@
   "titel": "1190 Wien | Garten-Maisonette mit 131 m² Eigengarten, Terrasse & Tiefgarage",
   "ergebnis": "unverändert: Zuckerkandlgasse (ohne Nr.), Top 2",
   "datum": "2026-10-28"
+ },
+ "wh-874860589": {
+  "ids": [
+   "wh-874860589",
+   "ds-15292147",
+   "is-409967321426",
+   "fm-5765450"
+  ],
+  "titel": "Wohnen in Döbling- Urbanes Flair und grüne Idylle",
+  "ergebnis": "eingegrenzt: Sollingergasse (Oberdöbling), Hausnummer offen; Quelle: Inseratstext willhaben 874860589",
+  "datum": "2026-10-28"
+ },
+ "wh-1833990872": {
+  "ids": [
+   "wh-1833990872",
+   "is-198401900896",
+   "ds-15031972"
+  ],
+  "titel": "Luxuriöse Gartenwohnung mit 3 Zimmern in ruhiger Lage am Wasser!",
+  "ergebnis": "korrigiert: Kuchelauer Hafenstraße 98, Stiege 1, Tür 1 (EG) – Grundriss-Titelblock, Bild https://cache.willhaben.at/mmo/2/183/399/0872_1553706493.jpg bzw. ImmoScout-Grundriss",
+  "datum": "2026-10-28"
+ },
+ "wh-1595840899": {
+  "ids": [
+   "wh-1595840899",
+   "is-570965640188",
+   "ds-15291893",
+   "fm-5765363"
+  ],
+  "titel": "3 Zimmer Wohnung mit Garten in Döbling",
+  "ergebnis": "eingegrenzt: Ecke Krottenbachstraße/Strehlgasse (Kandidaten Krottenbachstraße 239/241, Strehlgasse 38/40), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1193054134": {
+  "ids": [
+   "wh-1193054134",
+   "wh-1457477508",
+   "is-830402832827"
+  ],
+  "titel": "+Luxuriöses Wohnen in Döbling + 3 Zimmer Wohnung mit verglaster Loggia + Grünblick + DAN Küche+ Fußbodenheizung + 2 überdachte PKW Stellplätze +",
+  "ergebnis": "nicht gefunden – Adresse nur auf Anfrage bei gb-direkt; Kartenpunkt bleibt",
+  "datum": "2026-10-28"
+ },
+ "wh-1834362612": {
+  "ids": [
+   "wh-1834362612",
+   "is-053889158284"
+  ],
+  "titel": "EXKLUSIVES WOHNEN IM GRÜNEN: traumhafter Blick I großzügiger Balkon I moderne & hochwertige Einbauküche I Fußbodenheizung & Raffstores",
+  "ergebnis": "eingegrenzt: Kuchelau, Bereich Heiligenstädter Straße 395–407 / Donauwartesteig; Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1497241383": {
+  "ids": [
+   "wh-1497241383",
+   "is-097888172451"
+  ],
+  "titel": "Mitten im Cottageviertel - neuwertige 3-Zimmer-Wohnung + seperate Küche mit Ostbalkon und Grünblick | Nähe Türkenschanzpark | BOKU Wien",
+  "ergebnis": "nicht gefunden – Kartenpunkt bleibt",
+  "datum": "2026-10-28"
+ },
+ "wh-1345215057": {
+  "ids": [
+   "wh-1345215057",
+   "ds-15200194",
+   "is-930141690177",
+   "fm-5707965"
+  ],
+  "titel": "Schön sanierte Neubauwohnung - ERSTBEZUG",
+  "ergebnis": "eingegrenzt: Bereich Börnergasse (Untersievering), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-859389372": {
+  "ids": [
+   "wh-859389372",
+   "is-125894758422"
+  ],
+  "titel": "Gepflegte 3-Zi Maisonette mit Loggia & Terrasse in einer verkehrsberuhigten Straße",
+  "ergebnis": "bestätigt: Saileräckergasse, Hausnummer offen (willhaben-Adressfeld)",
+  "datum": "2026-10-28"
+ },
+ "wh-1584738136": {
+  "ids": [
+   "wh-1584738136",
+   "is-087984333469",
+   "ds-15293548",
+   "fm-5766280"
+  ],
+  "titel": "Sofort einziehen & wohlfühlen: Helle 85 m² Wohnung mit Balkon in sehr guter Döblinger Lage",
+  "ergebnis": "nicht gefunden – Kartenpunkt bleibt (vermutlich zwischen Hohe Warte und Q19/Kreilplatz)",
+  "datum": "2026-10-28"
+ },
+ "wh-1849939189": {
+  "ids": [
+   "wh-1849939189",
+   "is-120871831708",
+   "ds-15175012"
+  ],
+  "titel": "Stilvolle Wohnung (~114,9 m²) mit sonniger Loggia - WOHNATELIERs SIEVERING",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnateliers Sievering, Haus 1, 1. Stock), Top offen",
+  "datum": "2026-10-28"
+ },
+ "wh-2038028653": {
+  "ids": [
+   "wh-2038028653",
+   "is-466194578897",
+   "ds-15175006"
+  ],
+  "titel": "Exklusive Gartenwohnung (~117,4 m²) mit Sauna & Garagenplatz in Top-Zustand - WOHNATELIERs SIEVERING",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnateliers Sievering, EG, nördliches Ende), Top offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1167251549": {
+  "ids": [
+   "wh-1167251549",
+   "is-325091179457"
+  ],
+  "titel": "Wohnen im Grünen: Großzügige 3-Zimmer-Wohnung in traumhafter Nussdorfer Ruhelage",
+  "ergebnis": "nicht gefunden – Kartenpunkt bleibt",
+  "datum": "2026-10-28"
+ },
+ "wh-1425603340": {
+  "ids": [
+   "wh-1425603340",
+   "is-020065677233"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 59 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1551333329": {
+  "ids": [
+   "wh-1551333329"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 96 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1860718993": {
+  "ids": [
+   "wh-1860718993"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 118 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1169546133": {
+  "ids": [
+   "wh-1169546133"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 89 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1027506561": {
+  "ids": [
+   "wh-1027506561"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 110 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1023269368": {
+  "ids": [
+   "wh-1023269368"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 103 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1858624499": {
+  "ids": [
+   "wh-1858624499"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 77 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1380863384": {
+  "ids": [
+   "wh-1380863384"
+  ],
+  "titel": "GOOD MUTH - Hier wohnt das gute Leben!",
+  "ergebnis": "korrigiert: Muthgasse 109b, Top 71 (https://good-muth.at/projekt/)",
+  "datum": "2026-10-28"
+ },
+ "sr-0960075407": {
+  "ids": [
+   "sr-0960075407"
+  ],
+  "titel": "Grinzing Bestlage - 3 Zimmer Wohnung mit 12 m² Loggia",
+  "ergebnis": "nicht genau gefunden: Sackgasse um Schreiberweg/Unterer Schreiberweg, Grinzing/Heiligenstadt (Kandidat Arlethgasse). sr-0960075407 und wh-2147386450 sind dieselbe Wohnung (s REAL, 78,76 m², 340.000 €).",
+  "datum": "2026-10-28"
+ },
+ "wh-2147386450": {
+  "ids": [
+   "wh-2147386450",
+   "is-931683675500",
+   "ds-15296278",
+   "fm-5768403"
+  ],
+  "titel": "Grinzing Bestlage - 3 Zimmer Wohnung mit 12 m² Loggia",
+  "ergebnis": "nicht genau gefunden: Sackgasse um Schreiberweg/Unterer Schreiberweg, Grinzing/Heiligenstadt (Kandidat Arlethgasse). sr-0960075407 und wh-2147386450 sind dieselbe Wohnung (s REAL, 78,76 m², 340.000 €).",
+  "datum": "2026-10-28"
+ },
+ "wh-1821006648": {
+  "ids": [
+   "wh-1821006648",
+   "is-172485104011"
+  ],
+  "titel": "LOFTCHARAKTER I ALSERBACHSTRASSE I EINE NEUE DIMENSION DES WOHNENS",
+  "ergebnis": "Straße bestätigt: Alserbachstraße Höhe Porzellangasse, Hausnummer offen; wahrscheinlich Nordseite (Ausschlusszone prüfen).",
+  "datum": "2026-10-28"
+ },
+ "wh-830204052": {
+  "ids": [
+   "wh-830204052",
+   "wh-975517067",
+   "wh-1330526824",
+   "ds-15261230",
+   "is-189879817598",
+   "ds-15275519",
+   "fm-5735255",
+   "is-128624572375",
+   "fm-5745885",
+   "is-845840179333"
+  ],
+  "titel": "Little Paris - Schöner Altbau im charming Servitenviertel mit 2 Bädern",
+  "ergebnis": "bestätigt/präzisiert: Clusiusgasse 11, Hochparterre Top 1+2 (Straße doppelt belegt, Nr. aus unversetztem willhaben-Punkt)",
+  "datum": "2026-10-28"
+ },
+ "wh-773562369": {
+  "ids": [
+   "wh-773562369",
+   "is-448752418830"
+  ],
+  "titel": "Servitenviertel: Renovierte Altbauwohnung mit doppeltem Setup - Eigennutzung und/oder Vermietung",
+  "ergebnis": "korrigiert (vorher Lage unklar): Raum Berggasse zwischen Währinger Straße und Porzellangasse, ±150–300 m",
+  "datum": "2026-10-28"
+ },
+ "is-224175742359": {
+  "ids": [
+   "is-224175742359"
+  ],
+  "titel": "Befristet vermietete 3,5-Zimmer-Wohnung im Herzen Wiens!",
+  "ergebnis": "nicht genau gefunden: zwischen Stephansplatz und Schwedenplatz (außerhalb Suchzone Börse/Schottenviertel)",
+  "datum": "2026-10-28"
  }
 }
