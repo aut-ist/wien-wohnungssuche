@@ -696,7 +696,11 @@
    "sicherheit": "ungefaehr",
    "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
   },
-  "datum": "2026-10-25"
+  "datum": "2026-10-28",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug, schlüsselfertig. Bezug laut Inserat \"19 Monate ab Baustart\", Baujahr 2027; Baustart nirgends genannt (willhaben-Projekt \"In Bau/Planung\", Baubewilligung liegt vor). Q3 2027 geht nur bei Baustart bis Feb. 2026: Termin bei PlanetHome erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gersthof-garten-geothermie-ganze-etage-b1-1354035914/"
+  }
  },
  "wh-988007885": {
   "lage": {
@@ -5603,7 +5607,11 @@
    "begruendung": "Projekt MAISON WÄHRING (IMMOcontract): dibeo-Exposé derselben Einheit (72,85 m², Garten 11,84 m², 483.226 EUR = Eigennutzerpreis) nennt 'Die fertiggestellte Wohnanlage in der Staudgasse 40, 1180 Wien' (https://www.dibeo.at/expose/2211186). Grundriss im Inserat: Top 04, Erdgeschoß, 72,85 m², Terrasse 9,69 m², Garten 11,84 m². Nominatim Staudgasse 40 = 48.22362,16.33997, ca. 130 m vom willhaben-Punkt (Radius 268 m)."
   },
   "datum": "2026-10-28",
-  "gleich_wie": "wh-2112347036"
+  "gleich_wie": "wh-2112347036",
+  "preis": {
+   "eigennutzer": 483228,
+   "begruendung": "\"EIGENNUTZERPREIS: 483.228EUR\"; die gezeigten 443.328 sind der reduzierte Anlegerpreis (MAISON WÄHRING, Staudgasse 40). https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduktion-3-zimmer-gartenwohnung-nahe-akh-neubau-fuer-eigennutzer-anleger-1534262201/"
+  }
  },
  "is-587845987235": {
   "lage": {
@@ -6036,7 +6044,11 @@
    "begruendung": "Gleiches Projekt MAISON WÄHRING (IMMOcontract, gleicher Energieausweis HWB 25,7/fGEE 0,78). ImmoScout-Inserat https://www.immobilienscout24.at/expose/6a280bac07fb9c0a32f1b2da nennt Staudgasse 40. weekend.at-Projekttabelle: 3. OG, 3 Zi, 70,70 m², Balkon 6,24 + Terrasse 3,06 = diese Wohnung."
   },
   "datum": "2026-10-28",
-  "gleich_wie": "wh-1987425015"
+  "gleich_wie": "wh-1987425015",
+  "preis": {
+   "eigennutzer": 610000,
+   "begruendung": "\"PREIS EIGENNUTZER: 610.000EUR\"; die gezeigten 559.633 sind der reduzierte Anlegerpreis (MAISON WÄHRING, Staudgasse 40). https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduktion-dachgeschosswohnung-mit-westterrasse-nahe-akh-fuer-eigennutzer-anleger-2098267387/"
+  }
  },
  "is-951873181385": {
   "lage": {
@@ -10131,6 +10143,78 @@
    "lon": 16.3646,
    "sicherheit": "ungefaehr",
    "begruendung": "Engel & Völkers Exposé https://www.engelvoelkers.com/at/en/exposes/21915c3f-9f1e-598b-b075-9bd186a974ab: displayLat/Lng 48.216886/16.364601 (fuzzyMoveByMeter 150), Lageplan-Bild mit rotem Kreis um Berggasse/Wasagasse/Hörlgasse/Türkenstraße. Bj. 1861, 3. OG Hofruhelage, Tiefgarage im Haus. Keine Hausnummer."
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1389307216": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 39, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/gruenblick-aus-ihrer-4-zimmer-wohnung-in-1190-wien-top-39-1389307216/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1787648990": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 33, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/96-m-wohntraum-in-doebling-mit-dachterrasse-kuehlung-top-33-1787648990/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1219900673": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 24, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/energieeffiziente-4-zimmer-wohnung-im-19-bezirk-top-24-1219900673/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-818929306": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 21, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/3-od-4-zimmerwohnung-mit-nordseitiger-freiflaeche-in-doebling-nahe-u4-top-21-818929306/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-807977820": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 15, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/4-zimmer-wohnung-mit-loggia-zwei-balkonen-top-15-807977820/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1973045210": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 13, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/4-zimmerwohnung-mit-altbau-charme-und-modernster-haustechnik-top-13-1973045210/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1713524741": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 12, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Verfügbar ab: Q4 2027\", also später als Q3 2027. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/3-zimmerwohnung-inkl-balkon-mit-gruenblick-in-1190-wien-top-12-1713524741/"
+  },
+  "datum": "2026-10-28"
+ },
+ "is-692585425055": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "LUMA Top 02, Eduard-Pötzl-Gasse 1 (Ulreich Bauträger): \"Projekt LUMA: Erstbezug ab Q4 2027\", also später als Q3 2027. https://www.immobilienscout24.at/expose/6ac8ef72935b5da952b3211d"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-1247395565": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "bezug_ok": true,
+   "begruendung": "Generalsaniert, Erstbezug (Top 2, EG, Altbau). Laut Bauträgertext: \"Die Altbauwohnungen werden bis ins 2. Quartal 2027 abgeschlossen sein\"; Q1 2028 gilt für die Fertigstellung im Dachgeschoß. \"Verfügbar ab Q1 2028\" steht bei allen Einheiten gleich, auch beim Penthouse. Übergabetermin dieser Wohnung erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-grosszuegige-4-zimmer-wohnung-mit-privatem-garten-im-geschuetzten-innenhof-1247395565/"
+  },
+  "datum": "2026-10-28"
+ },
+ "wh-987879158": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "bezug_ok": true,
+   "begruendung": "Generalsaniert, Erstbezug (1. OG, Altbau). Laut Bauträgertext: \"Die Altbauwohnungen werden bis ins 2. Quartal 2027 abgeschlossen sein\"; Q1 2028 gilt für die Fertigstellung im Dachgeschoß. \"Verfügbar ab Q1 2028\" steht bei allen Einheiten gleich, auch beim Penthouse. Übergabetermin dieser Wohnung erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-generalsanierte-altbauwohnung-mit-2-schlafzimmern-und-2-baedern-987879158/"
   },
   "datum": "2026-10-28"
  }
