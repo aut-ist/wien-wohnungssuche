@@ -2,7 +2,7 @@
 
 - unbefristet vermietet -> raus; befristet vermietet über Q1 2027 hinaus -> raus (Wunsch), bis
   dahin bleibt drin, mit Hinweis
-- sanierungs-/renovierungsbedürftig oder belagsfertig -> raus ("saniert", "generalsaniert",
+- sanierungs-/renovierungsbedürftig, teilsaniert oder belagsfertig -> raus ("saniert", "generalsaniert",
   "schlüsselfertig" sind positiv und bleiben)
 """
 import re
@@ -22,6 +22,8 @@ SANIERUNG_STARK = re.compile(
     r"|sanierungsobjekt|renovierungsobjekt|f[üu]r (handwerker|bastler)|handwerkerwohnung|abbruchreif"
     r"|rohdachboden|im rohbau|muss (komplett |vollständig |noch )?(saniert|renoviert) werden"
     r"|zu sanierende|sanierungsfall"
+    # teilsaniert/teilrenoviert: Rest muss man selbst machen (Wunsch: raus); "Dachteilsanierung" zählt nicht
+    r"|(?<![a-zäöüß])teil\s*-?\s*(sanier|renovier|moderni)\w*|teilweise\s+(saniert|renoviert|modernisiert)"
     # belagsfertig: Böden/Fliesen/Bad fehlen noch -> Käufer muss selbst fertigstellen
     r"|belagsfertig|belagsbereit|edelrohbau|rohbauzustand|ohne (boden)?bel[äa]ge?\b|ohne bodenbelag")
 SANIERUNG_SCHWACH = re.compile(
@@ -81,7 +83,8 @@ def einschaetzen(r):
     if ZUSTAND_SCHLECHT.search(zustand):
         gruende.append(f"Zustand: {zustand}")
     elif s := _stelle(SANIERUNG_STARK, text):
-        art = "nicht fertiggestellt (belagsfertig)" if re.search(r"(?i)belags|rohbau|ohne (boden)?bel", s) else "Sanierung nötig"
+        art = ("nicht fertiggestellt (belagsfertig)" if re.search(r"(?i)belags|rohbau|ohne (boden)?bel", s)
+               else "nur teilsaniert" if re.search(r"(?i)(?<![a-zäöüß])teil(weise)?\s*-?\s*(sanier|renovier|moderni)", s) else "Sanierung nötig")
         gruende.append(f"{art}: {s}")
     elif s := _stelle(SANIERUNG_SCHWACH, text):
         offen.append(f"Sanierung? {s}")
