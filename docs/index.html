@@ -359,7 +359,7 @@
 // Nur-Ansicht für Familie (?nest): zeigt nur die Wohnungen im Nest, nichts ist änderbar
 const NUR_NEST = new URLSearchParams(location.search).has('nest');
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
-const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#ee7a12' };
+const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#f5b27a' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'noch offen', raus: 'passt nicht' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
@@ -652,11 +652,11 @@ function preisAenderung(w) {
 function preisverlaufHtml(w) {
   const v = w.preisverlauf || [];
   if (!v.length && !w.online_seit) return '';
-  // gleiche Tage und Preise über Portale zusammenfassen
+  // gleiche Preise über Portale und mehrere Makler zusammenfassen: neue Zeile nur bei Preisänderung
   const zeilen = [];
   for (const [d, p, q] of v) {
-    const z = zeilen.find(z => z.d === d && z.p === p);
-    if (z) z.q.push(q); else zeilen.push({ d, p, q: [q] });
+    const z = zeilen.find(z => z.d === d && z.p === p) || (zeilen.at(-1)?.p === p ? zeilen.at(-1) : null);
+    if (!z) zeilen.push({ d, p, q: [q] }); else if (!z.q.includes(q)) z.q.push(q);
   }
   let vorher = null;
   const tabelle = zeilen.map(z => {

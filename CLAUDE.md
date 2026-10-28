@@ -90,7 +90,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - "Neu" auf der Karte zählt ab dem ersten Tag, an dem eine Wohnung auf der Karte steht
   (`data/sichtbar_seit.json`), nicht ab dem ersten Fund; so sind auch Wohnungen neu, die erst nach
   einer Regeländerung passen ("NEU" nur in der Liste). Karte: grünes Ei für alles, was in Frage
-  kommt, oranges Ei mit Gasheizung (blass = schon angeschaut, gestrichelt = Lage ungefähr),
+  kommt, hell-oranges Ei mit Gasheizung (bewusst blasser als das goldorange Nest-Ei; blass = schon angeschaut, gestrichelt = Lage ungefähr),
   goldenes Ei = im Nest, goldorange = im Nest mit Gasheizung; keine passt/unklar/raus- und keine
   Neu-Markierung auf der Karte (Wunsch).
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime

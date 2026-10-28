@@ -1847,32 +1847,29 @@
  "wh-806537669": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Dieselbe Wohnung wird parallel von IMPULS Immobilien angeboten, mit Adresse im ImmoScout-Exposé (https://www.immobilienscout24.at/expose/696f40161e459b11d0e3e2ef): 'Breitenfelder Gasse 17, 1080 Wien'. Übereinstimmend: HWB 141,8 / fGEE 2,31 (Klasse D), Baujahr 1909, 106 m², 4,5 Zimmer, Mezzanin, 795.000 EUR (weekend.at-Kopie des IMPULS-Inserats). Top 11 laut TMU-Text. Der TMU-Kartenpunkt (48.21366, 16.34473, ±269 m) passt dazu."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "ds-15295466": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Dieselbe Wohnung wird parallel von IMPULS Immobilien angeboten, mit Adresse im ImmoScout-Exposé (https://www.immobilienscout24.at/expose/696f40161e459b11d0e3e2ef): 'Breitenfelder Gasse 17, 1080 Wien'. Übereinstimmend: HWB 141,8 / fGEE 2,31 (Klasse D), Baujahr 1909, 106 m², 4,5 Zimmer, Mezzanin, 795.000 EUR (weekend.at-Kopie des IMPULS-Inserats). Top 11 laut TMU-Text. Der TMU-Kartenpunkt (48.21366, 16.34473, ±269 m) passt dazu."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "is-704171922128": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Dieselbe Wohnung wird parallel von IMPULS Immobilien angeboten, mit Adresse im ImmoScout-Exposé (https://www.immobilienscout24.at/expose/696f40161e459b11d0e3e2ef): 'Breitenfelder Gasse 17, 1080 Wien'. Übereinstimmend: HWB 141,8 / fGEE 2,31 (Klasse D), Baujahr 1909, 106 m², 4,5 Zimmer, Mezzanin, 795.000 EUR (weekend.at-Kopie des IMPULS-Inserats). Top 11 laut TMU-Text. Der TMU-Kartenpunkt (48.21366, 16.34473, ±269 m) passt dazu."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "wh-1724851651": {
   "lage": {
@@ -2057,42 +2054,38 @@
  "wh-1190439267": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "dieselbe Wohnung (Tür 11, Mezzanin) wie wh-1193068115/wh-806537669: Grundriss-Schriftfeld und ImmoScout-Exposé nennen Breitenfelder Gasse 17"
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "ds-15149715": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "dieselbe Wohnung (Tür 11, Mezzanin) wie wh-1193068115/wh-806537669: Grundriss-Schriftfeld und ImmoScout-Exposé nennen Breitenfelder Gasse 17"
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "is-980388070968": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "dieselbe Wohnung (Tür 11, Mezzanin) wie wh-1193068115/wh-806537669: Grundriss-Schriftfeld und ImmoScout-Exposé nennen Breitenfelder Gasse 17"
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "fm-5721947": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "dieselbe Wohnung (Tür 11, Mezzanin) wie wh-1193068115/wh-806537669: Grundriss-Schriftfeld und ImmoScout-Exposé nennen Breitenfelder Gasse 17"
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "wh-1858751358": {
   "lage": {
@@ -2447,42 +2440,38 @@
  "wh-1193068115": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Grundriss im Inserat (Jadric Architektur, Stand 12.12.2025) mit Schriftfeld 'Breitenfelder Gasse 17, Tür 11, Mezzanin, ca. 104,07 m²'; passt zu 104/105 m², 1. Stock (Mezzanin). Nominatim: 48.21406, 16.34193."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "is-883107581495": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Grundriss im Inserat (Jadric Architektur, Stand 12.12.2025) mit Schriftfeld 'Breitenfelder Gasse 17, Tür 11, Mezzanin, ca. 104,07 m²'; passt zu 104/105 m², 1. Stock (Mezzanin). Nominatim: 48.21406, 16.34193."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "ds-15251498": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Grundriss im Inserat (Jadric Architektur, Stand 12.12.2025) mit Schriftfeld 'Breitenfelder Gasse 17, Tür 11, Mezzanin, ca. 104,07 m²'; passt zu 104/105 m², 1. Stock (Mezzanin). Nominatim: 48.21406, 16.34193."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "fm-5740089": {
   "lage": {
    "adresse": "Breitenfelder Gasse 17",
-   "lat": null,
-   "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Grundriss im Inserat (Jadric Architektur, Stand 12.12.2025) mit Schriftfeld 'Breitenfelder Gasse 17, Tür 11, Mezzanin, ca. 104,07 m²'; passt zu 104/105 m², 1. Stock (Mezzanin). Nominatim: 48.21406, 16.34193."
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-28",
+  "gleich_wie": "wh-1466511328"
  },
  "wh-1226115352": {
   "lage": {
@@ -3313,6 +3302,23 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im ImmoScout-Exposé (Steinbauer/EHL, https://www.immobilienscout24.at/expose/6720ca8887a742d01967e29c): 'Adresse: Gentzgasse 135 / Simonygasse 10, 1180 Wien', Top 22, Wohnfläche 130,2 m², Balkon 5,9 m², passt exakt zum Inserat."
   },
+  "datum": "2026-10-28"
+ },
+ "wh-1466511328": {
+  "lage": {
+   "adresse": "Breitenfelder Gasse 17",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
+  },
+  "datum": "2026-10-28"
+ },
+ "is-335770173064": {
+  "lage": {
+   "adresse": "Breitenfelder Gasse 17",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss Jadric Architektur: Breitenfelder Gasse 17, Tür 11, Mezzanin, 104,07 m² (identisch bei IMPULS und den anderen Maklern)"
+  },
+  "gleich_wie": "wh-1466511328",
   "datum": "2026-10-28"
  }
 }
