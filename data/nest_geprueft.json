@@ -264,5 +264,755 @@
   "titel": "Exklusive Maisonette mit Panoramadachterrasse",
   "ergebnis": "unklar: gegenüber Raimund-Zoder-Park (Makler Golden Home Real), Websuche ohne Treffer",
   "datum": "2026-10-28"
+ },
+ "wh-1726346051": {
+  "ids": [
+   "wh-1726346051",
+   "is-493874425207"
+  ],
+  "titel": "Dachmaisonette 141 m² mit Galerie, Westbalkon & Terrassen, nahe U6 - EUR 980.000",
+  "ergebnis": "korrigiert: Währinger Gürtel 79, Top 13 (Energieausweis auf https://www.immoloewin.at/de/objekt/dachmaisonette-141-m-mit-galerie-westbalkon-terrassen-nahe-u6-1-550-000-17333773)",
+  "datum": "2026-10-28"
+ },
+ "wh-1606800969": {
+  "ids": [
+   "wh-1606800969",
+   "is-982652952980"
+  ],
+  "titel": "Lichtdurchflutete ca. 130m² Dachgeschoss-Maisonette mit Dachterrasse und Weitblick",
+  "ergebnis": "korrigiert: Lerchenfelder Straße (8. Bezirk-Seite, Nähe Gürtel/U6 Thaliastraße), Hausnummer unbekannt; alter Punkt war Bezirksmitte",
+  "datum": "2026-10-28"
+ },
+ "is-296268342651": {
+  "ids": [
+   "is-296268342651",
+   "wh-1323604863",
+   "ds-14749896"
+  ],
+  "titel": "TOP-RUHELAGE | 4 ZIMMER | KOMPLETT HOFSEITIG | U-BAHN-NÄHE",
+  "ergebnis": "bestätigt (ungefähr): Währing nahe U6 Michelbeuern-AKH, Gegend Eduardgasse; Hausnummer unbekannt",
+  "datum": "2026-10-28"
+ },
+ "wh-1937875079": {
+  "ids": [
+   "wh-1937875079",
+   "is-227708102361",
+   "ds-15281690",
+   "fm-5758741"
+  ],
+  "titel": "Großzügige 4-Zimmer-Wohnung mit Loggia und Garagenplatz nahe Türkenschanz- und Sternwartepark",
+  "ergebnis": "unverändert: Gersthof/Cottage zwischen Sternwartestraße und Türkenschanzpark, Hausnummer unbekannt",
+  "datum": "2026-10-28"
+ },
+ "wh-1364195113": {
+  "ids": [
+   "wh-1364195113",
+   "wh-836431480",
+   "is-146216803788",
+   "ds-15286900",
+   "fm-5761929",
+   "is-210811875453",
+   "ds-15268734"
+  ],
+  "titel": "++NEU++ Altbaucharme mit Raum fürs Leben! Gepflegte 4-Zimmer-Wohnung mit 112 m² in Döbling - ohne Lift",
+  "ergebnis": "korrigiert: Döblinger Hauptstraße 81, Top 2 (Adonia-Kartenmarker + Grundriss)",
+  "datum": "2026-10-28"
+ },
+ "wh-1116386068": {
+  "ids": [
+   "wh-1116386068",
+   "is-293272123310"
+  ],
+  "titel": "Exklusive Terrassen-Wohnung | 4 Zimmer & ca. 115 m² zzgl. rd. 36 m² Terrassenflächen | Lebensqualität pur in Sievering",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 1, Top 7 (Verkaufsplan im Willhaben-Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-1275429213": {
+  "ids": [
+   "wh-1275429213",
+   "is-044928653380"
+  ],
+  "titel": "Treppen ins Glück - Ihr Rückzugsort in Döbling",
+  "ergebnis": "unklar: Grinzing-Hanglage, Umkreis 471 m, keine Adresse ermittelbar",
+  "datum": "2026-10-28"
+ },
+ "wh-1468715517": {
+  "ids": [
+   "wh-1468715517",
+   "is-290086142273",
+   "ds-15285889"
+  ],
+  "titel": "Luxuswohnung mit Aussicht in Neustift!",
+  "ergebnis": "korrigiert (ungefähr): wahrscheinlich Dr.-Heinrich-Maier-Straße 60, 1180 Pötzleinsdorf (Anlage mit Pool/Sauna), statt Punkt am Sommerhaidenweg",
+  "datum": "2026-10-28"
+ },
+ "wh-924709065": {
+  "ids": [
+   "wh-924709065"
+  ],
+  "titel": "Einziehen und wohlfühlen in Sievering",
+  "ergebnis": "korrigiert: Flemminggasse (1190), Top 2, Hausnummer unbekannt",
+  "datum": "2026-10-28"
+ },
+ "ds-15277736": {
+  "ids": [
+   "ds-15277736"
+  ],
+  "titel": "5-Zimmer-Wohnung beim Aumannplatz",
+  "ergebnis": "korrigiert (ungefähr): Währinger Straße westlich Aumannplatz, Hausnummer unbekannt",
+  "datum": "2026-10-28"
+ },
+ "wh-806537669": {
+  "ids": [
+   "wh-806537669",
+   "ds-15295466",
+   "is-704171922128"
+  ],
+  "titel": "Breitenfelder Gasse! Generalsanierter 4-Zimmer Erstbezug im Stilaltbau im 1. Liftstock!",
+  "ergebnis": "korrigiert: Breitenfelder Gasse 17, Top 11 (IMPULS-Inserat mit gleichem Energieausweis nennt die Adresse: https://www.immobilienscout24.at/expose/696f40161e459b11d0e3e2ef)",
+  "datum": "2026-10-28"
+ },
+ "wh-1724851651": {
+  "ids": [
+   "wh-1724851651",
+   "is-613567761121",
+   "ds-15279104",
+   "fm-5757327"
+  ],
+  "titel": "Wohnen zwischen Stil und Natur - wunderschöne lichtdurchflutete Altbauwohnung mitten im Grünen",
+  "ergebnis": "unverändert: Buchleitengasse, Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-977735216": {
+  "ids": [
+   "wh-977735216"
+  ],
+  "titel": "++ WOHNEN mit AUSBLICK ++ drei Balkone ++",
+  "ergebnis": "korrigiert: Gersthofer Straße 11 / Ecke Wielemansgasse, Top 7+8 (Grundriss mit Straßennamen; Alternative Nr. 13 schräg gegenüber)",
+  "datum": "2026-10-28"
+ },
+ "wh-1757773984": {
+  "ids": [
+   "wh-1757773984",
+   "is-353657297097"
+  ],
+  "titel": "NEU! Großzügige 4-Zimmer-Altbauwohnung mit Eigengarten in eleganter Jugendstil-Villa",
+  "ergebnis": "korrigiert (ungefähr): Punkt 48.22729, 16.32562 (Gersthof, um Wielemansgasse/Schöffelgasse, ±269 m), Top 5; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-988498465": {
+  "ids": [
+   "wh-988498465",
+   "wh-1920823179",
+   "is-444716251046",
+   "fm-5689489",
+   "is-011956827214",
+   "ds-15173781"
+  ],
+  "titel": "ERSTBEZUG NACH GENERALSANIERUNG: Familientraum mit großem Eigengarten | 4-Zimmer-Wohnung",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Top 209 (Haus 2) (Adresse im Thurner-Inserattext, z. B. derStandard 15173781)",
+  "datum": "2026-10-28"
+ },
+ "is-275425614522": {
+  "ids": [
+   "is-275425614522",
+   "wh-920081885"
+  ],
+  "titel": "Traumhafte Gartenwohnung mit 230 m² Freifläche - hochwertig saniert &amp; perfekt gelegen",
+  "ergebnis": "unverändert: Dionysius-Andrassy-Straße, Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1936414346": {
+  "ids": [
+   "wh-1936414346",
+   "is-672822018840",
+   "ds-15142004"
+  ],
+  "titel": "Wohnen mit Weitblick: Stilvolle 2-Ebenen-Wohnung mit Terrassen in der Sieveringerstraße",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Adresse im Inserattext); Top nicht angegeben",
+  "datum": "2026-10-28"
+ },
+ "wh-1031701431": {
+  "ids": [
+   "wh-1031701431",
+   "is-909564957924"
+  ],
+  "titel": "4-Zimmer mit Fernblick & KFZ Abstellplatz",
+  "ergebnis": "unverändert (ungefähr): Raum Gunoldstraße/Hohe Warte, ±253 m; Adresse offen",
+  "datum": "2026-10-28"
+ },
+ "wh-2122073425": {
+  "ids": [
+   "wh-2122073425",
+   "is-225036425230",
+   "ds-15276643"
+  ],
+  "titel": "!! NUR 5.650 EUR/m² !! BESTE LAGE !! Klimatisierte geräumige 131 m² Familienwohnung",
+  "ergebnis": "korrigiert (ungefähr): Punkt 48.21374, 16.38813 (±258 m, Praterstraße/Czerninplatz), Top 19/20; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "ds-15259789": {
+  "ids": [
+   "ds-15259789"
+  ],
+  "titel": "Exklusive Ruhelage in Döbling - 4-Zimmer-Wohnung mit Garten, Terrasse, Fernblick, Garage & Pool",
+  "ergebnis": "unklar: keine verwertbaren Lagehinweise; derStandard-Inserat offline (404)",
+  "datum": "2026-10-28"
+ },
+ "wh-1190439267": {
+  "ids": [
+   "wh-1190439267",
+   "ds-15149715",
+   "is-980388070968",
+   "fm-5721947"
+  ],
+  "titel": "Stilvoller Luxus-Altbau in der Josefstadt | Erstbezug nach Sanierung | 4 Zimmer | 2 Bäder | Separate Küche | Teils Hoflage | Zimmer zentral begehbar | Ca. 10 Min. in die City",
+  "ergebnis": "genau: Breitenfelder Gasse 17 (dieselbe Wohnung (Tür 11, Mezzanin) wie wh-1193068115/wh-806537669: Grundriss-Schriftfeld und ImmoScout-Exposé nennen Breitenfelder Gasse 17)",
+  "datum": "2026-10-28"
+ },
+ "wh-1858751358": {
+  "ids": [
+   "wh-1858751358",
+   "ds-15248237"
+  ],
+  "titel": "Erstbezug | Familienwohnung | Schubertpark",
+  "ergebnis": "präzisiert: Schopenhauerstraße, Nordseite beim Schubertpark (Kandidaten Nr. 58 oder 66/68), Top 1A. Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-982619002": {
+  "ids": [
+   "wh-982619002"
+  ],
+  "titel": "Eleganz, Komfort und Panorama - Exklusive 4-Zimmer-Residenz in Wien",
+  "ergebnis": "unklar: unverändert: keine Adresse gefunden; Lage oberhalb des Pötzleinsdorfer Parks an der Linie 41A plausibel",
+  "datum": "2026-10-28"
+ },
+ "wh-1508787370": {
+  "ids": [
+   "wh-1508787370"
+  ],
+  "titel": "Großzügiges Altbaujuwel nähe Pötzleinsdorf!",
+  "ergebnis": "präzisiert: Ecke Wurzingergasse/Hockegasse (laut Inserat), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1664940010": {
+  "ids": [
+   "wh-1664940010",
+   "is-437795566241"
+  ],
+  "titel": "WOHNEN AN DER OBKIRCHERGASSE | 4 Zimmer | ca. 112 m² WFL | WESTBALKONE | DIREKTER LIFTZUGANG",
+  "ergebnis": "präzisiert: Obkirchergasse, Westseite (nördlicher Abschnitt), vermutlich Top 4. Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1597584888": {
+  "ids": [
+   "wh-1597584888",
+   "is-020915995456",
+   "ds-14931472"
+  ],
+  "titel": "1190 Wien Döbling Lichtdurchflutete 5-Zimmer Dachgeschoß-Maisonette mit Panoramaterrassen und zwei Garagenplätzen",
+  "ergebnis": "präzisiert: Wohnhausanlage Krottenbachstraße (oberer Abschnitt bei Neustift), Top 17, laut Plankopf. Hausnummer verdeckt",
+  "datum": "2026-10-28"
+ },
+ "wh-1303298599": {
+  "ids": [
+   "wh-1303298599",
+   "is-889501135497"
+  ],
+  "titel": "Hochwertig sanierte 4-Zimmer-Dachgeschosswohnung | Südterrasse | Klimaanlage | Tiefgarage",
+  "ergebnis": "genau: Sieveringer Straße 135 (Haus 1 Top 7 laut ALRAG-Verkaufsplan (wie wh-1116386068), Wohnatelier Sievering)",
+  "datum": "2026-10-28"
+ },
+ "wh-2041454569": {
+  "ids": [
+   "wh-2041454569"
+  ],
+  "titel": "EXKLUSIV WOHNEN im begehrter Wohnlage",
+  "ergebnis": "korrigiert: Heiligenstädter Straße 81–87, Top 48 (Exposé in https://www.willhaben.at/iad/object?adId=2041454569)",
+  "datum": "2026-10-28"
+ },
+ "wh-1378421819": {
+  "ids": [
+   "wh-1378421819",
+   "is-013638453125"
+  ],
+  "titel": "Helle 4 Zimmerwohnung mit Terrasse beim AUGARTEN!",
+  "ergebnis": "unverändert/präzisiert: Rembrandtstraße (Karmeliterviertel), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "is-992786076817": {
+  "ids": [
+   "is-992786076817",
+   "ds-15291931"
+  ],
+  "titel": "5-Zimmer-Wohnung im 1. OG mit Balkon",
+  "ergebnis": "bestätigt/präzisiert: Herminengasse 6, Wohnung 6+8, Versteigerung 24.11.2026 (Edikt 25 E 37/24h)",
+  "datum": "2026-10-28"
+ },
+ "wh-1584819564": {
+  "ids": [
+   "wh-1584819564",
+   "is-820359656049"
+  ],
+  "titel": "NEUER TOPPREIS - ERSTBEZUG - HIGH END STANDARD - 4 ZIMMER (!) - 2 BÄDER - 2 WC - RENOVIERTES STILJUWEL",
+  "ergebnis": "bestätigt ungefähr: Breitenfelder Gasse beim Albertplatz (Hausnummer offen), Top 11, 2. Wohnetage; Grundriss im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/neuer-toppreis-erstbezug-high-end-standard-4-zimmer-2-baeder-2-wc-renoviertes-stiljuwel-1584819564/",
+  "datum": "2026-10-28"
+ },
+ "wh-911842825": {
+  "ids": [
+   "wh-911842825",
+   "is-257204819026",
+   "is-885388771815"
+  ],
+  "titel": "Classic Elegance in a Prestigious Period Apartment",
+  "ergebnis": "korrigiert: Gentzgasse 135 / Ecke Simonygasse 10, Top 20 (Grundriss im willhaben-Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/classic-elegance-in-a-prestigious-period-apartment-911842825/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1948755736": {
+  "ids": [
+   "wh-1948755736",
+   "is-222475669215",
+   "ds-15273993"
+  ],
+  "titel": "Dachgeschoss-Maisonette mit 2 Terrassen in bester Lage",
+  "ergebnis": "bestätigt ungefähr: Währing zwischen Kutschkermarkt und Gentzgasse/Schopenhauerstraße, Hausnummer nicht auffindbar (weekend.at https://www.weekend.at/de/immobilie/dachgeschoss-maisonette-mit-2-terrassen-in-bester-lage/OBGC202510271232045313c1e238949 ohne Adresse)",
+  "datum": "2026-10-28"
+ },
+ "wh-2041175380": {
+  "ids": [
+   "wh-2041175380",
+   "is-346677706924",
+   "is-967141991254",
+   "fm-5705793"
+  ],
+  "titel": "Ihr neues Zuhause in Währing - Ruhig wohnen, zentral leben - PROVISIONSFREI",
+  "ergebnis": "bestätigt ungefähr: Bereich Kreuzgasse/Eduardgasse (1180), Hausnummer offen; Inserat https://www.findmyhome.at/5705793",
+  "datum": "2026-10-28"
+ },
+ "wh-2100383960": {
+  "ids": [
+   "wh-2100383960",
+   "is-470812942376",
+   "ds-14432736"
+  ],
+  "titel": "Dachgeschoß/ganze Etage/2 Garagen",
+  "ergebnis": "unverändert ungefähr: Umgebung Felix-Dahn-Straße (1190), Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1634800789": {
+  "ids": [
+   "wh-1634800789",
+   "is-513018840696",
+   "ds-15261564"
+  ],
+  "titel": "4-Zimmer Wohnung mit Gestaltungspotential und Gemeinschaftsgarten - Nähe Pfarrwirt",
+  "ergebnis": "bestätigt ungefähr: Umgebung Pfarrplatz (1190), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1636905626": {
+  "ids": [
+   "wh-1636905626",
+   "is-399830741147"
+  ],
+  "titel": "Sonnige 4-Zimmerwohnung im 2.Obergeschoss in klassischem Altbau",
+  "ergebnis": "korrigiert: Silbergasse 10-12, Top 6, 2. OG (Fassadenfoto mit Billa + Grundriss im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/sonnige-4-zimmerwohnung-im-2-obergeschoss-in-klassischem-altbau-1636905626/)",
+  "datum": "2026-10-28"
+ },
+ "wh-828476959": {
+  "ids": [
+   "wh-828476959",
+   "is-602553206660",
+   "ds-15238405"
+  ],
+  "titel": "Generalsanierte, wunderschöne Familienwohnung (~115,6 m²) mit Terrassen - WOHNATELIERs SIEVERING",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnateliers Sievering), Haus 1, DG; Top-Nummer nicht genannt",
+  "datum": "2026-10-28"
+ },
+ "wh-1176565994": {
+  "ids": [
+   "wh-1176565994",
+   "is-163603292867"
+  ],
+  "titel": "Stilvoll, ruhig, urban: 4-Zimmer mit Balkon in gefragter Wiener Lage",
+  "ergebnis": "präzisiert: Eckhaus Wilhelm-Exner-Gasse/Severingasse (Kandidaten Severingasse 9 oder Wilhelm-Exner-Gasse 10-12), 1. Stock; Fotos im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/stilvoll-ruhig-urban-4-zimmer-mit-balkon-in-gefragter-wiener-lage-1176565994/",
+  "datum": "2026-10-28"
+ },
+ "is-170267545275": {
+  "ids": [
+   "is-170267545275",
+   "ds-15203683"
+  ],
+  "titel": "Dachterrassen-Maisonette mit Panoramablick, 4 Zimmer in 1090 Wien",
+  "ergebnis": "korrigiert ungefähr: Porzellangasse bei Bauernfeldplatz (Nähe Lycée Français), Top 19, Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1193068115": {
+  "ids": [
+   "wh-1193068115",
+   "is-883107581495",
+   "ds-15251498",
+   "fm-5740089"
+  ],
+  "titel": "Typisch Wiener Altbau-Charme mit moderner Ausstattung! Nächst Alser Straße und AKH!",
+  "ergebnis": "bestätigt/präzisiert: Breitenfelder Gasse 17, Tür 11 (Grundriss-Schriftfeld im willhaben-Inserat 1193068115)",
+  "datum": "2026-10-28"
+ },
+ "wh-1226115352": {
+  "ids": [
+   "wh-1226115352",
+   "is-624929722198"
+  ],
+  "titel": "Altbaujuwel mit Charme & Attikabalkon nähe Cottageviertel im 18. Bezirk",
+  "ergebnis": "eingegrenzt: Eckhaus Gymnasiumstraße/Sternwartestraße, Tür 8; Hausnummer offen (Nominatim-Reverse der Maklerkoordinate: Gymnasiumstraße 32)",
+  "datum": "2026-10-28"
+ },
+ "wh-1369326551": {
+  "ids": [
+   "wh-1369326551",
+   "is-600928138188",
+   "ds-15271527"
+  ],
+  "titel": "Exklusiver Dachgeschosstraum mit Wohlfühlfaktor - Großartig in jeder Hinsicht in 1180 Wien",
+  "ergebnis": "unklar: nicht gefunden: keine Adresse belegbar, Kartenpunkt bleibt (bis 258 m versetzt)",
+  "datum": "2026-10-28"
+ },
+ "wh-1834137525": {
+  "ids": [
+   "wh-1834137525",
+   "ds-15097977",
+   "is-317247139346",
+   "fm-5645066"
+  ],
+  "titel": "ELEGANTE ALTBAUWOHNUNG MIT BLICK AUF DEN AUMANNPLATZ",
+  "ergebnis": "korrigiert/eingegrenzt: Währinger Straße 139-149 (Südseite gegenüber Aumannplatz), Top 19, 2. Stock; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1220220927": {
+  "ids": [
+   "wh-1220220927",
+   "is-852594177342"
+  ],
+  "titel": "Großzügige Eigentumswohnung mit viel Potenzial nahe dem Hugo-Wolf-Park, Gartenmitbenutzung",
+  "ergebnis": "unklar: nicht gefunden: vermutlich zwischen Kreismittelpunkt und Hugo-Wolf-Park (Oberdöbling), keine Hausnummer",
+  "datum": "2026-10-28"
+ },
+ "wh-1476454107": {
+  "ids": [
+   "wh-1476454107",
+   "is-623085407398",
+   "fm-5623322"
+  ],
+  "titel": "ERSTBEZUG NACH SANIERUNG: klimatisierte 3-Zimmer-Gartenwohnung mit 2 weiteren Räumen im Untergeschoss, privatem Garten in Ruhelage",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnatelier Sievering), Top unbekannt",
+  "datum": "2026-10-28"
+ },
+ "wh-1189411112": {
+  "ids": [
+   "wh-1189411112",
+   "is-231298027502"
+  ],
+  "titel": "Geräumige 4-Zimmer-Altbauwohnung mit großzügiger Terrasse",
+  "ergebnis": "unklar: nicht gefunden: nur Top 4 bekannt, Kartenpunkt bleibt (bis 254 m versetzt)",
+  "datum": "2026-10-28"
+ },
+ "wh-975095864": {
+  "ids": [
+   "wh-975095864",
+   "is-044646382584"
+  ],
+  "titel": "Generalsanierte 4-Zimmer-DG-Maisonette mit großzügigen Terrassen, Grünblick & absoluter Ruhelage",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 6, Top 32 (Verkaufsplan im willhaben-Inserat 975095864)",
+  "datum": "2026-10-28"
+ },
+ "wh-2034942129": {
+  "ids": [
+   "wh-2034942129",
+   "wh-1324672051",
+   "is-185429880905"
+  ],
+  "titel": "SERVITENVIERTEL - ERSTBEZUG - INNENHOFTERRASSE - HIGH END STILWOHNUNG - 97 m WFL - 4 Zimmer - 2 BÄDER - RENOVIERTES STILJUWEL",
+  "ergebnis": "korrigiert: Rögergasse 14B, Top 4 (W 4, 1. Halbstock)",
+  "datum": "2026-10-28"
+ },
+ "is-646796689302": {
+  "ids": [
+   "is-646796689302"
+  ],
+  "titel": "Urbaner Wohnkomfort - Zuhause für Generationen",
+  "ergebnis": "korrigiert: Heiligenstädter Straße 103, Top 5 (Grundriss im ImmoScout-Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-2086863147": {
+  "ids": [
+   "wh-2086863147",
+   "is-364508853096"
+  ],
+  "titel": "Außergewöhnliche Maisonette mit Terrasse & Wellness in ruhiger Innenhoflage - 1080 Wien, Lerchenfelder Straße",
+  "ergebnis": "korrigiert (ungefähr): Lerchenfelder Straße, gerade Nummern ca. 76–148 (8. Bez.), Punkt 48.2079/16.3430. Der bisherige Kartenpunkt 48.2068/16.3550 liegt ca. 800 m östlich außerhalb des willhaben-Umkreises. Hausnummer nicht gefunden.",
+  "datum": "2026-10-28"
+ },
+ "wh-954351915": {
+  "ids": [
+   "wh-954351915",
+   "is-050800749280",
+   "ds-15222699"
+  ],
+  "titel": "Geräumige 5-Zimmer-Wohnung nähe Kutschkermarkt",
+  "ergebnis": "korrigiert: Währinger Straße 75 (1180, Eckhaus bei der Volksoper), Top 11, 2. OG. Belegt durch Hausfoto und Geschäft im Erdgeschoss (sehen!wutscher, Währinger Str. 75), siehe https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/geraeumige-5-zimmer-wohnung-naehe-kutschkermarkt-954351915/. wh-1317551494 (IMV, Währinger Straße, 92 m², DG) ist sehr wahrscheinlich dasselbe Haus.",
+  "datum": "2026-10-28"
+ },
+ "wh-1700301413": {
+  "ids": [
+   "wh-1700301413",
+   "is-069801504653"
+  ],
+  "titel": "WOHNEN AM KUTSCHKERMARKT - CHARMANTE ALTBAUWOHNUNG IN BEGEHRTER WÄHRINGER TOPLAGE",
+  "ergebnis": "korrigiert (ungefähr): beim Kutschkermarkt (Kutschkergasse, 1180), Punkt 48.2250/16.3445, Hausnummer nicht gefunden. Der alte Punkt in Gersthof war falsch.",
+  "datum": "2026-10-28"
+ },
+ "wh-2089632991": {
+  "ids": [
+   "wh-2089632991",
+   "ds-15294815"
+  ],
+  "titel": "Wunderschöne Wohnung -Loggia-Garage, Pool, ... worauf warten Sie noch ...",
+  "ergebnis": "korrigiert (ungefähr): Pötzleinsdorfer Höhe, vermutlich Nr. 41 (Wohnhausanlage mit Pool), Punkt 48.2464/16.2996. Die Hausnummer ist nicht belegt.",
+  "datum": "2026-10-28"
+ },
+ "wh-2144413810": {
+  "ids": [
+   "wh-2144413810",
+   "is-961938725433",
+   "fm-5546054"
+  ],
+  "titel": "WOHNATELIER SIEVERING - Klimatisierte 5-Zimmer-Maisonette mit großzügigen Terrassen",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnatelier Sievering, 1190). Belegt über die Thurner-Inserat-Adresse der Schwester-Einheit und die Filmatelier-Adresse 135-137. Top unbekannt (Maisonette OG/DG).",
+  "datum": "2026-10-28"
+ },
+ "wh-1733197230": {
+  "ids": [
+   "wh-1733197230",
+   "is-025240947045"
+  ],
+  "titel": "Traumlage in Nussdorf - Generalsaniert mit großer Terrasse und Grünblick",
+  "ergebnis": "korrigiert: Hackhofergasse 9 (1190 Nussdorf). Die Adresse steht im Parallel-Inserat desselben Maklers. Duplikate: wh-890071978, is-839650966934 und fm-5401973 (Gabriel).",
+  "datum": "2026-10-28"
+ },
+ "wh-1405692380": {
+  "ids": [
+   "wh-1405692380",
+   "wh-1582933698",
+   "ds-15281517",
+   "is-218503831356",
+   "fm-5758747"
+  ],
+  "titel": "4 Zimmer Wohnung mit Balkon, Terrasse und Bergblick",
+  "ergebnis": "ungefähr: Glanzinggasse (1190), Abschnitt Nr. 1–35, Punkt 48.2444/16.3150, Top 4. Hausnummer nicht gefunden.",
+  "datum": "2026-10-28"
+ },
+ "wh-2140372352": {
+  "ids": [
+   "wh-2140372352",
+   "is-950623379970"
+  ],
+  "titel": "+++ Familienoase mit XXL Garage in Oberdöbling | 5 Zimmer auf ca. 120,17 m² | Balkon +++",
+  "ergebnis": "ungefähr: Oberdöbling, Ostteil des willhaben-Umkreises nahe Haltestelle Hardtgasse (Weimarer Straße/Chimanistraße), Punkt 48.2383/16.3458. Hausnummer nicht gefunden.",
+  "datum": "2026-10-28"
+ },
+ "wh-1815915110": {
+  "ids": [
+   "wh-1815915110",
+   "is-652174373153",
+   "ds-15262711",
+   "fm-5746296"
+  ],
+  "titel": "Familienfreundliche 5-Zimmer-ALTBAUWOHNUNG mit kleinem BALKON",
+  "ergebnis": "bestätigt: Hebragasse 4, Top 17 (laut Grundriss-Schriftfeld im Inserat, Bild wh-1815915110_13).",
+  "datum": "2026-10-28"
+ },
+ "fm-5401973": {
+  "ids": [
+   "fm-5401973"
+  ],
+  "titel": "Traumlage in Nussdorf - Generalsaniert mit großer Terrasse und ...",
+  "ergebnis": "korrigiert: Hackhofergasse 9 (1190). Gleiche Wohnung wie wh-1733197230 und wh-890071978 (review gleich_wie).",
+  "datum": "2026-10-28"
+ },
+ "wh-1891385394": {
+  "ids": [
+   "wh-1891385394",
+   "ds-15258642",
+   "is-702119220033"
+  ],
+  "titel": "Stil-Altbauwohnung in Innenhoflage nebst Neubaugasse an der Grenze 7./ 8. Bezirk",
+  "ergebnis": "ungefähr: Strozzigasse 1080 (Hausnummer nicht auffindbar), Hofwohnung im 2. Liftstock",
+  "datum": "2026-10-28"
+ },
+ "wh-1942877663": {
+  "ids": [
+   "wh-1942877663",
+   "is-767593978861",
+   "ds-15292854"
+  ],
+  "titel": "Altbau trifft Lebensgefühl - Wohnen mit besonderem Charme in der Hofstattgasse",
+  "ergebnis": "korrigiert: Hofstattgasse 20, Top 9 (1. Stock) laut Grundriss-Titelblock",
+  "datum": "2026-10-28"
+ },
+ "wh-2035447539": {
+  "ids": [
+   "wh-2035447539",
+   "is-801371603327",
+   "ds-15286171",
+   "ds-15296327"
+  ],
+  "titel": "Moderne 4-Zimmer-Wohnung in 1180 Wien - Erstbezug mit Loggia und 2 Garagenplätzen!",
+  "ergebnis": "ungefähr: große 1970er-Wohnanlage mit Pool nahe Pötzleinsdorfer Höhe/Mosenthalweg (1180), Stiege 13, Top 6, 2. Stock; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1818480785": {
+  "ids": [
+   "wh-1818480785",
+   "fm-5757521",
+   "ds-15279986"
+  ],
+  "titel": "Großzügige 4-Zimmer-Wohnung mit zwei Balkonen in grüner Ruhelage des 19. Bezirks",
+  "ergebnis": "ungefähr: An den langen Lüssen 1190 (Hausnummer unbekannt), EG",
+  "datum": "2026-10-28"
+ },
+ "wh-1075335810": {
+  "ids": [
+   "wh-1075335810",
+   "is-992670672430",
+   "ds-15247326"
+  ],
+  "titel": "Wohnen mit Grünblick: Stilvolle Terrassen-Wohnung in der Sieveringerstraße",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 1, Top 107 (Adresse im Inseratstext)",
+  "datum": "2026-10-28"
+ },
+ "wh-1030770233": {
+  "ids": [
+   "wh-1030770233",
+   "is-054316064514",
+   "ds-15142005"
+  ],
+  "titel": "Prestige Living in Sievering: Großzügige Gartenwohnung mit Stil",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 6, Top 31 (Adresse im Inseratstext)",
+  "datum": "2026-10-28"
+ },
+ "wh-1462685128": {
+  "ids": [
+   "wh-1462685128",
+   "is-212282576577",
+   "ds-15158091",
+   "fm-5680751"
+  ],
+  "titel": "Elegante 4-Zimmer Altbauwohnung",
+  "ergebnis": "ungefähr: Eckhaus im Bereich Heiligenstädter Straße (~75), 1190, Top 32-34 im 3. OG; Adresse offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1781073695": {
+  "ids": [
+   "wh-1781073695",
+   "is-554501140379"
+  ],
+  "titel": "4,5 Zimmer, 3 Terrassen & eigener Stellplatz - stilvolle Maisonette in Toplage Sievering",
+  "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 6, Top 32 (Verkaufsplan-Titelblock); gleiche Anlage wie wh-1075335810 und wh-1030770233",
+  "datum": "2026-10-28"
+ },
+ "wh-1458443665": {
+  "ids": [
+   "wh-1458443665",
+   "ds-15015456"
+  ],
+  "titel": "Top-sanierte 4-Zimmer-Wohnung nahe AKH - urbanes Wohnen im 9. Bezirk",
+  "ergebnis": "ungefähr: Ecke Severingasse / Währinger Gürtel (Severingasse 19 oder 20), 1090; liegt im erlaubten Teil des 9. Bezirks",
+  "datum": "2026-10-28"
+ },
+ "wh-1741661072": {
+  "ids": [
+   "wh-1741661072",
+   "is-354849322961"
+  ],
+  "titel": "Wohnen über den Dächern der Josefstadt - Terrasse und Weitblick",
+  "ergebnis": "teilweise: Breitenfelder Gasse (Top 21 laut Grundriss), Hausnummer nicht gefunden; Maklerseite/Websuche ohne Treffer",
+  "datum": "2026-10-28"
+ },
+ "wh-1595219650": {
+  "ids": [
+   "wh-1595219650",
+   "is-850945080238",
+   "ds-15206090"
+  ],
+  "titel": "Stilvolle und geräumige 3-4 Zimmer-Altbauwohnung mit Balkon, nahe Währinger Straße",
+  "ergebnis": "korrigiert: Hofstattgasse 20, Top 14 (Grundriss mit Lageplan im Inserat). Bisheriger Punkt lag bei Hofstattgasse 9.",
+  "datum": "2026-10-28"
+ },
+ "wh-1625954774": {
+  "ids": [
+   "wh-1625954774"
+  ],
+  "titel": "FREUEN SIE SICH AUF IHR NEUES, ELEGANTES UND TOPSANIERTES ZUHAUSE!",
+  "ergebnis": "unverändert: nur Martinstraße belegt, Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1841985511": {
+  "ids": [
+   "wh-1841985511",
+   "is-594112278311",
+   "ds-15286903",
+   "fm-5761932"
+  ],
+  "titel": "++NEU++ Gepflegte 4-Zimmer-Altbauwohnung mit 112 m² und separater Küche in Döbling - ohne Lift",
+  "ergebnis": "genau: Döblinger Hauptstraße 81 (dieselbe Adonia-Wohnung Top 2 (112,43 m²) wie wh-1364195113; Kartenpunkt auf der Adonia-Objektseite liegt auf Nr. 81)",
+  "datum": "2026-10-28"
+ },
+ "wh-1940824815": {
+  "ids": [
+   "wh-1940824815",
+   "wh-795510608",
+   "is-825631407080",
+   "is-713411184451"
+  ],
+  "titel": "Erdgeschosswohnung mit 185 m² Garten | 4 Zimmer | Lebensqualität pur in Sievering",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnatelier Sievering), Stiege 2, EG. Belegt durch Einheitenliste auf weekend.at und Adressbuch 1933",
+  "datum": "2026-10-28"
+ },
+ "wh-1077060274": {
+  "ids": [
+   "wh-1077060274",
+   "is-035732069449",
+   "fm-5735986"
+  ],
+  "titel": "ERSTBEZUG NACH GENERALSANIERUNG: \"Wohnatelier Sievering\" | Exklusive DG-Wohnung mit 5 Terrassen",
+  "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnatelier Sievering, DG-Einheit 115,6 m²). Bisheriger Punkt lag ca. 1,5 km daneben",
+  "datum": "2026-10-28"
+ },
+ "is-311260295487": {
+  "ids": [
+   "is-311260295487",
+   "wh-2069000668",
+   "ds-15241668"
+  ],
+  "titel": "Exklusives Wohngefühl in Döbling – großzügiges Zuhause mit Balkon und Pool",
+  "ergebnis": "unverändert: nur Rudolf-Kassner-Gasse belegt, Hausnummer nicht gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-2043511758": {
+  "ids": [
+   "wh-2043511758",
+   "fm-5736746"
+  ],
+  "titel": "Townhouse Grinzing",
+  "ergebnis": "unverändert: Straßergasse, Hausnummer nicht belegt (Punkt bei Nr. 37-39 nur Straßenpunkt)",
+  "datum": "2026-10-28"
+ },
+ "is-095228896808": {
+  "ids": [
+   "is-095228896808",
+   "is-406582224865"
+  ],
+  "titel": "Perfekt für Familien! Traumhafte Erstbezug-Wohnung mit 130m² in Toplage 1180 Wien -",
+  "ergebnis": "korrigiert: Gentzgasse 135 (Ecke Simonygasse 10), Top 22 (Grundriss im Exposé). Bisheriger Punkt lag bei Gentzgasse 158",
+  "datum": "2026-10-28"
  }
 }
