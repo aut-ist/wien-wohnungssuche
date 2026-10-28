@@ -1168,5 +1168,157 @@
  "pramergasse 12, 1090 wien": [
   48.222058,
   16.363259
+ ],
+ "gunoldstraße 8, 1190 wien": [
+  48.244741,
+  16.362796
+ ],
+ "gatterburggasse 12, 1190 wien": [
+  48.238676,
+  16.353438
+ ],
+ "sommergasse 4, 1190 wien": [
+  48.234793,
+  16.353654
+ ],
+ "sieveringer straße 93, 1190 wien": [
+  48.247534,
+  16.329854
+ ],
+ "donauwartesteig 14, 1190 wien": [
+  48.284097,
+  16.344849
+ ],
+ "heiligenstädter straße 5, 1190 wien": [
+  48.232314,
+  16.354992
+ ],
+ "donauwartesteig, 1190 wien": [
+  48.284756,
+  16.344707
+ ],
+ "morzinplatz 4, 1010 wien": [
+  48.213167,
+  16.374289
+ ],
+ "jungherrnsteig 7, 1190 wien": [
+  48.272227,
+  16.353493
+ ],
+ "franz-klein-gasse 3, 1190 wien": [
+  48.234114,
+  16.349051
+ ],
+ "peter-jordan-straße 12, 1190 wien": [
+  48.237221,
+  16.347273
+ ],
+ "hutweidengasse 17, 1190 wien": [
+  48.241727,
+  16.339223
+ ],
+ "passauer platz, 1010 wien": [
+  48.212986,
+  16.370521
+ ],
+ "große pfarrgasse 14, 1020 wien": [
+  48.218444,
+  16.379046
+ ],
+ "praterstraße 38, 1020 wien": [
+  48.214791,
+  16.385208
+ ],
+ "nickelgasse, 1020 wien": [
+  48.218034,
+  16.375203
+ ],
+ "große sperlgasse, 1020 wien": [
+  48.216307,
+  16.378187
+ ],
+ "nordbahnstraße, 1020 wien": [
+  48.227882,
+  16.388307
+ ],
+ "schreygasse 8, 1020 wien": [
+  48.219838,
+  16.37338
+ ],
+ "handelskai 132a, 1020 wien": [
+  48.23221,
+  16.396137
+ ],
+ "große schiffgasse 9, 1020 wien": [
+  48.216887,
+  16.375393
+ ],
+ "weintraubengasse 24, 1020 wien": [
+  48.217472,
+  16.387147
+ ],
+ "stoffellagasse 7, 1020 wien": [
+  48.215159,
+  16.393585
+ ],
+ "nußdorfer straße 5, 1090 wien": [
+  48.22315,
+  16.35326
+ ],
+ "währinger straße 22, 1090 wien": [
+  48.217871,
+  16.35887
+ ],
+ "liechtensteinstraße 58, 1090 wien": [
+  48.226078,
+  16.357031
+ ],
+ "liechtensteinstraße 96, 1090 wien": [
+  48.228989,
+  16.356387
+ ],
+ "hörlgasse 4, 1090 wien": [
+  48.216006,
+  16.361344
+ ],
+ "achamergasse, 1090 wien": [
+  48.225477,
+  16.350415
+ ],
+ "nußdorfer straße 57, 1090 wien": [
+  48.229006,
+  16.354452
+ ],
+ "clusiusgasse, 1090 wien": [
+  48.225458,
+  16.364009
+ ],
+ "lustkandlgasse, 1090 wien": [
+  48.224643,
+  16.350708
+ ],
+ "nußdorfer straße 79, 1090 wien": [
+  48.231418,
+  16.354039
+ ],
+ "glasergasse 6, 1090 wien": [
+  48.224232,
+  16.362631
+ ],
+ "liechtensteinstraße 24, 1090 wien": [
+  48.219045,
+  16.361159
+ ],
+ "handelskai 346, 1020 wien": [
+  48.206536,
+  16.43053
+ ],
+ "währinger gürtel 170, 1090 wien": [
+  48.231395,
+  16.353815
+ ],
+ "sieveringer straße 175, 1190 wien": [
+  48.251575,
+  16.32162
  ]
 }
