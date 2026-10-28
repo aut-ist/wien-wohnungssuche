@@ -6,7 +6,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - `python run.py all` scrapt und baut die Karte. `python run.py build` baut nur.
 - Kriterien: `config.json` (Preis, m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
-  sanierungsbedürftig oder teilsaniert (`wohnungen/zustand.py`), befristet vermietet über Ende März 2027 hinaus
+  sanierungsbedürftig oder teilsaniert (`wohnungen/zustand.py`), befristet vermietet über Ende September 2027 hinaus
   (`miete_bis` liest das Enddatum). Seit 2026-10-28 außerdem: genau 3 Zimmer nur bis 700.000 €
   (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
   grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt beides nicht.

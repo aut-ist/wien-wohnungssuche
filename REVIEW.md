@@ -70,8 +70,8 @@ Die Käufer wollen selbst einziehen und nichts sanieren. Antworte mit
   Bauträgers; liegt er bis September 2027, `hinweis` mit dem Termin, sonst `raus`; findest du nichts,
   `hinweis` "Fertigstellung 2027, Termin erfragen". Termine für Lift, Balkone, Fassade oder andere
   Wohnungen im Haus zählen nicht.
-- Befristet vermietet: läuft die Miete **länger als bis Ende März 2027** (Q1 2027), ist sie
-  `raus` (z. B. "befristet bis 30.11.2027", "bis 12/2035"). Endet sie spätestens im März 2027,
+- Befristet vermietet: läuft die Miete **länger als bis Ende September 2027** (Q3 2027), ist sie
+  `raus` (z. B. "befristet bis 30.11.2027", "bis 12/2035"). Endet sie spätestens im September 2027,
   ist es ein `hinweis`. Ohne Enddatum ("derzeit befristet vermietet") ebenfalls `hinweis` mit
   "Ende der Befristung erfragen". Nur ein vermieteter Garagenplatz zählt nicht.
 - `hinweis` auch, wenn nur kleine Arbeiten nötig sind. Die Wohnung bleibt drin, `begruendung`

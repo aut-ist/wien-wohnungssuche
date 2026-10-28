@@ -1,6 +1,6 @@
 """Ausschlüsse nach Zustand und Nutzung (wie heizung.py: eindeutig -> automatisch, sonst Prüfung).
 
-- unbefristet vermietet -> raus; befristet vermietet über Q1 2027 hinaus -> raus (Wunsch), bis
+- unbefristet vermietet -> raus; befristet vermietet über Q3 2027 hinaus -> raus (Wunsch), bis
   dahin bleibt drin, mit Hinweis
 - sanierungs-/renovierungsbedürftig, teilsaniert oder belagsfertig -> raus ("saniert", "generalsaniert",
   "schlüsselfertig" sind positiv und bleiben)
@@ -33,8 +33,8 @@ SANIERUNG_SCHWACH = re.compile(
     r"|reparaturbed[üu]rftig|instandsetzungsbed[üu]rftig|sanierungskosten|veraltet")
 
 
-# befristet vermietet: bis Ende März 2027 ist ok, länger nicht
-MIETE_GRENZE = (2027, 3)
+# befristet vermietet: bis Ende September 2027 ist ok, länger nicht
+MIETE_GRENZE = (2027, 9)  # bis Ende September 2027 (seit 2026-10-28, wie der Einzug)
 _MONATE = {m: i + 1 for i, m in enumerate(["jän", "feb", "mär", "apr", "mai", "jun", "jul", "aug", "sep", "okt", "nov", "dez"])}
 _MONATE.update({"jan": 1, "mar": 3})
 MIETE_BIS = [  # "befristet vermietet bis 30.11.2027" und "bis 30.11.2027 befristet vermietet"
@@ -142,7 +142,7 @@ def einschaetzen(r):
         jahr, monat, s = bis
         wann = f"{monat:02d}/{jahr}" if monat else str(jahr)
         if (jahr, monat or 0) > MIETE_GRENZE and (monat or jahr > MIETE_GRENZE[0]):
-            gruende.append(f"vermietet bis {wann}, also länger als Q1 2027: {s}")
+            gruende.append(f"vermietet bis {wann}, also länger als Q3 2027: {s}")
         elif monat is None and jahr == MIETE_GRENZE[0]:
             offen.append(f"vermietet bis {wann}, Monat unklar: {s}")
         else:
