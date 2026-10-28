@@ -32,7 +32,7 @@ PENDING = DATA / "pending.json"
 # die z. B. nach einer Regeländerung wieder auftauchen: die Routine recherchiert sie wie Nest-Wohnungen
 RECHERCHE = DATA / "recherche.json"
 GEPRUEFT = DATA / "nest_geprueft.json"
-RECHERCHE_PRO_TAG = 15  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundrisse nur für diese
+RECHERCHE_PRO_TAG = 25  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundrisse nur für diese
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
 SICHTBAR = DATA / "sichtbar_seit.json"

@@ -10,7 +10,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (`miete_bis` liest das Enddatum). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
   unklar) schließt seit 2026-10-28 nichts mehr aus; oben gibt es den Schalter "ohne Gasheizung".
   Sonst gelten für Gaswohnungen alle Regeln wie für alle anderen.
-- Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (15) pro Morgen, `data/recherche.json` ist nach
+- Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (25) pro Morgen, `data/recherche.json` ist nach
   Vorrang sortiert (Nest, dann neueste; Gaswohnungen sind ganz normale Wohnungen); Grundrisse lädt der Workflow nur für diese.
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
   schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`; die GitHub-Termine fallen oft

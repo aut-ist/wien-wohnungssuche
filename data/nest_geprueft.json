@@ -1014,5 +1014,1223 @@
   "titel": "Perfekt für Familien! Traumhafte Erstbezug-Wohnung mit 130m² in Toplage 1180 Wien -",
   "ergebnis": "korrigiert: Gentzgasse 135 (Ecke Simonygasse 10), Top 22 (Grundriss im Exposé). Bisheriger Punkt lag bei Gentzgasse 158",
   "datum": "2026-10-28"
+ },
+ "wh-964017750": {
+  "ids": [
+   "wh-964017750",
+   "ds-15198095",
+   "fm-5706345",
+   "is-953469814012"
+  ],
+  "titel": "Heller Altbau mit Eigengarten",
+  "ergebnis": "korrigiert (ungefähr): Pantzergasse 3; Straße laut https://www.weekend.at/de/immobilie/heller-altbau-mit-eigengarten/OBGC202602201400504816579b9505f (inzwischen offline), Nr. über das Akkadia-Schwesterinserat https://www.immobilienscout24.at/expose/6a55066cdbc2fcd2332e3cb7. Inserat auf willhaben offline.",
+  "datum": "2026-10-28"
+ },
+ "wh-1826338610": {
+  "ids": [
+   "wh-1826338610",
+   "is-131194200360",
+   "ds-15279421",
+   "fm-5757080"
+  ],
+  "titel": "Charmante Altbauwohnung mit 3 Zimmern und Gestaltungspotenzial",
+  "ergebnis": "unverändert: Lage nur im 254-m-Kreis um den willhaben-Punkt (Oberdöbling, Nähe Döblinger Hauptstraße/Hofzeile); keine Adresse gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1380967365": {
+  "ids": [
+   "wh-1380967365",
+   "is-567759537184",
+   "ds-14860168"
+  ],
+  "titel": "Top sanierte Altbauwohnung Nähe Nußdorfer Platz",
+  "ergebnis": "korrigiert (ungefähr): Umgebung Nußdorfer Platz (Nußdorf), Hausnummer unbekannt; Quelle: Inseratstext",
+  "datum": "2026-10-28"
+ },
+ "wh-1745168544": {
+  "ids": [
+   "wh-1745168544",
+   "is-889229184750"
+  ],
+  "titel": "Provisionsfreie Familienwohnung mit einem lichtdurchfluteten Badezimmer Nähe Pötzleinsdorfer Schlosspark",
+  "ergebnis": "bestätigt/präzisiert: Raffelspergergasse 26 (Stiege 1, EG), https://www.leadersnet.at/news/104957,raiffeisen-wohnbau-praesentiert-wohnprojekt-in-wien-doebling.html",
+  "datum": "2026-10-28"
+ },
+ "wh-617033931": {
+  "ids": [
+   "wh-617033931",
+   "is-684290321028"
+  ],
+  "titel": "UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 2.10 (Stiege 2, 1. OG) laut Inserat; Projektseite upper-hill-side.wien",
+  "datum": "2026-10-28"
+ },
+ "wh-617033956": {
+  "ids": [
+   "wh-617033956",
+   "is-010474782417"
+  ],
+  "titel": "UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 2.2 (Stiege 2, EG) laut Inserat",
+  "datum": "2026-10-28"
+ },
+ "wh-1608573863": {
+  "ids": [
+   "wh-1608573863",
+   "ds-15286326",
+   "is-888082026799"
+  ],
+  "titel": "Nähe Hofzeile I Moderne 3-Zi-Wohnung mit Balkon und Loggia in 1190 Wien !",
+  "ergebnis": "unverändert: 255-m-Kreis um den willhaben-Punkt nahe Hofzeile/Wertheimsteinpark; keine Adresse gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1895484530": {
+  "ids": [
+   "wh-1895484530",
+   "wh-947544296",
+   "wh-1613893004",
+   "wh-1369909178",
+   "is-679527021026",
+   "is-288909216373",
+   "is-597651534218"
+  ],
+  "titel": "UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 1.25 (Stiege 1, 1. DG) laut Inserat",
+  "datum": "2026-10-28"
+ },
+ "wh-1463662060": {
+  "ids": [
+   "wh-1463662060",
+   "wh-1074003037",
+   "is-954196339910",
+   "wh-1444758460",
+   "ds-15291716",
+   "is-469538088614",
+   "is-004052573266"
+  ],
+  "titel": "UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 1.20 (Stiege 1, 3. OG) laut Inserat",
+  "datum": "2026-10-28"
+ },
+ "wh-617028792": {
+  "ids": [
+   "wh-617028792",
+   "wh-1766231209",
+   "wh-1996689369",
+   "is-259992486636",
+   "ds-15291713",
+   "is-177386176537",
+   "is-112960721347"
+  ],
+  "titel": "3 - Zimmer Gartenwohnung - UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 1.2 (Stiege 1, EG) laut Inserat",
+  "datum": "2026-10-28"
+ },
+ "wh-1377987122": {
+  "ids": [
+   "wh-1377987122",
+   "is-100227573040",
+   "ds-15278956"
+  ],
+  "titel": "TRAUMHAFTE 3-Zimmer Gartenwohnung mit Terrasse & Balkon in 1190 Wien",
+  "ergebnis": "korrigiert (ungefähr): Zahnradbahnstraße (Heiligenstadt/Nußdorf), Hausnummer unbekannt; Quelle: Lagetext des willhaben-Inserats 1377987122",
+  "datum": "2026-10-28"
+ },
+ "wh-1831844498": {
+  "ids": [
+   "wh-1831844498",
+   "is-962406023716",
+   "ds-15297701",
+   "ds-15294840"
+  ],
+  "titel": "ERSTBEZUG - ELEGANTE 3-ZIMMER-WOHNUNG MIT GARTEN UND TERRASSE",
+  "ergebnis": "korrigiert: Keylwerthgasse 12 (Projekt VILNEA TWELVE), EG, vermutlich Top 2; Beleg: Verkaufsplan in den willhaben-/ImmoScout-Bildern",
+  "datum": "2026-10-28"
+ },
+ "wh-1727246955": {
+  "ids": [
+   "wh-1727246955",
+   "is-170543857577"
+  ],
+  "titel": "Stilvoller Wohntraum in begehrter Lage nahe AKH",
+  "ergebnis": "korrigiert: Leo-Slezak-Gasse 10 (Adresse steht im Inseratstext, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/stilvoller-wohntraum-in-begehrter-lage-nahe-akh-1727246955/)",
+  "datum": "2026-10-28"
+ },
+ "wh-2112347036": {
+  "ids": [
+   "wh-2112347036",
+   "is-677682148851"
+  ],
+  "titel": "MEHR PLATZ. MEHR GRÜN. MEHR LEBEN. IHR ZUHAUSE MIT GARTEN.",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 4 (EG) (Einheitenliste https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1180-waehring/stadtoase-in-der-staudgasse-idyllische-2-bis-4-zimmerwohnungen-mit-wohlfuehlfaktor-1312537465/ ; Adresse https://www.immmo.at/detail/1431073617?c=0)",
+  "datum": "2026-10-28"
+ },
+ "wh-1072730834": {
+  "ids": [
+   "wh-1072730834",
+   "is-204337515707",
+   "ds-15294273"
+  ],
+  "titel": "Altbauflair in Bestlage Währings | Stilvolle 3-Zimmer-Wohnung mit Lift & Westausrichtung",
+  "ergebnis": "Strasse bestaetigt: Anastasius-Grün-Gasse, Hausnummer offen (vermutlich Eckhaus; Grundriss wh-1072730834_20.jpg)",
+  "datum": "2026-10-28"
+ },
+ "wh-2023026570": {
+  "ids": [
+   "wh-2023026570",
+   "is-086101679400"
+  ],
+  "titel": "ROOF TOP WÄHRING! - TOLLE INVESTMENTMÖGLICHKEIT IM HERZEN DES 18. BEZIRKS!",
+  "ergebnis": "keine Hausnummer gefunden; bleibt im willhaben-Kreis (267 m) nahe Waehringer Park, Top 29 bestaetigt (Grundriss)",
+  "datum": "2026-10-28"
+ },
+ "wh-1081599137": {
+  "ids": [
+   "wh-1081599137",
+   "is-675302552744"
+  ],
+  "titel": "Wiener Erbe - Projekt Schulgasse 1180",
+  "ergebnis": "Strasse bestaetigt: Schulgasse (westlicher Abschnitt im willhaben-Kreis), Top 2 EG; Hausnummer offen (https://www.weekend.at/de/projekt/wiener-erbe-projekt-schulgasse-1180/OBGC202505181633073414cd97e758a)",
+  "datum": "2026-10-28"
+ },
+ "wh-1671747539": {
+  "ids": [
+   "wh-1671747539",
+   "is-932286088532"
+  ],
+  "titel": "Exklusive Maisonette-Wohnungen | Terrassen | Dachterrassen | 360° Rundumblick | Toplage 1180 | Nähe Kutschkermarkt - PROVISIONSFREI!",
+  "ergebnis": "keine Adresse gefunden; bleibt im willhaben-Kreis (267 m)",
+  "datum": "2026-10-28"
+ },
+ "wh-1248965634": {
+  "ids": [
+   "wh-1248965634",
+   "wh-1023735937",
+   "is-126035816540",
+   "ds-15153679",
+   "fm-5677660",
+   "is-231548576879"
+  ],
+  "titel": "ABSOLUTES SCHNÄPPCHEN! Mega helle Dachgeschoß Wohnung mit 3 Zimmer und feiner Terrasse!",
+  "ergebnis": "korrigiert: Martinstraße 41-43, Top 1/31 (Dachgeschoss) (Inserate https://www.immmo.at/wohnung-eigentum-in-der-martinstrasse-1180 bzw. weekend.at 'Preisreduzierung Toppreis Erstbezug Neubau 3 Zimmer naehe AKH')",
+  "datum": "2026-10-28"
+ },
+ "wh-2071565389": {
+  "ids": [
+   "wh-2071565389",
+   "is-017359773411",
+   "ds-15040960"
+  ],
+  "titel": "Viel Raum zum Leben: Großzügige 3-Zimmer-Wohnung mit zwei Loggien in Währing",
+  "ergebnis": "keine Hausnummer; Gebiet zwischen Kreuzgasse und Kutschkergasse, ca. 350 m westlich Kutschkermarkt",
+  "datum": "2026-10-28"
+ },
+ "wh-2089433472": {
+  "ids": [
+   "wh-2089433472"
+  ],
+  "titel": "DAS WARICH - 3-ZIMMER DACHTERRASSENTRAUM ERSTBEZUG",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 17 (2. DG) (Einheitenliste https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1180-waehring/stadtoase-in-der-staudgasse-idyllische-2-bis-4-zimmerwohnungen-mit-wohlfuehlfaktor-1312537465/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1680480031": {
+  "ids": [
+   "wh-1680480031",
+   "wh-1452290864",
+   "is-310841351645",
+   "ds-15261503",
+   "wh-1682849320",
+   "ds-15233240",
+   "fm-5745922",
+   "is-696108686537",
+   "ds-15296476",
+   "fm-5768608",
+   "ds-15076577",
+   "is-928692164161",
+   "fm-5728507"
+  ],
+  "titel": "Großzügige 3-Zimmer Gartenwohnung im 18. Wiener Gemeindebezirk",
+  "ergebnis": "korrigiert: Semperstraße 47, Top 4 (1. OG) (Einheitenliste https://www.semper47.at)",
+  "datum": "2026-10-28"
+ },
+ "wh-1868027859": {
+  "ids": [
+   "wh-1868027859"
+  ],
+  "titel": "Pötzleinsdorf - Wohnen in einer der schönsten Lagen von Wien!",
+  "ergebnis": "keine Adresse gefunden; bleibt im willhaben-Kreis (253 m), Poetzleinsdorf",
+  "datum": "2026-10-28"
+ },
+ "wh-1019207597": {
+  "ids": [
+   "wh-1019207597",
+   "is-907768227339",
+   "wh-2083230373",
+   "is-342811760005",
+   "ds-15013266"
+  ],
+  "titel": "Ruhige Innenhoflage mit zwei Terrassen - nur 2 Gehminuten zur Straßenbahn!",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 13 (1. DG) (Einheitenliste https://www.willhaben.at/iad/immobilien/d/neubauprojekt/wien/wien-1180-waehring/stadtoase-in-der-staudgasse-idyllische-2-bis-4-zimmerwohnungen-mit-wohlfuehlfaktor-1312537465/)",
+  "datum": "2026-10-28"
+ },
+ "wh-1839129284": {
+  "ids": [
+   "wh-1839129284",
+   "is-362856530979",
+   "ds-15275604"
+  ],
+  "titel": "Stilvolle und geräumige 3-Zimmer-Altbauwohnung, Nähe Kutschkermarkt und Währinger Straße",
+  "ergebnis": "korrigiert: Riglergasse 8, Top 3 (bisher nur Straßenmittelpunkt Riglergasse; Grundriss-Titelblock)",
+  "datum": "2026-10-28"
+ },
+ "wh-1530965205": {
+  "ids": [
+   "wh-1530965205",
+   "is-954752493372",
+   "ds-15282767"
+  ],
+  "titel": "ÜBER DEN DÄCHERN WÄHRINGS | TOPLAGE NÄHE KUTSCHKERMARKT | EXKLUSIVE DACHGESCHOSSWOHNUNG MIT KLIMAANLAGE | TERRASSE | ERSTBEZUG",
+  "ergebnis": "nur Gegend: Stilaltbau mit DG-Ausbau 2025 zwischen Aumannplatz und Kutschkermarkt (Immosan Ref. 11848, Schwesterobjekte 11846/11847/11849/11850 im selben Haus); Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1798746759": {
+  "ids": [
+   "wh-1798746759"
+  ],
+  "titel": "*HELLE 3-Zimmer-Wohnung in WÄHRING* - Mit Loggia und Grünblick",
+  "ergebnis": "korrigiert: Ferrogasse, westlicher Abschnitt (Alt-Gersthof), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1743649734": {
+  "ids": [
+   "wh-1743649734",
+   "is-427633592880",
+   "ds-15192194"
+  ],
+  "titel": "Charmante 3-Zimmer-Wohnung in begehrter Lage des 18. Bezirks",
+  "ergebnis": "korrigiert: Eduardgasse 13, Stiege 1, Top 5 (Bauanzeige-Plan im Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-1929293861": {
+  "ids": [
+   "wh-1929293861",
+   "is-376594551551"
+  ],
+  "titel": "++LIVING IN WÄHRING++ 3,5-Zimmer-Altbauwohnung und Loggia",
+  "ergebnis": "korrigiert: Hofstattgasse 5, Top 7 (Verkaufsplan im Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-1927684065": {
+  "ids": [
+   "wh-1927684065",
+   "is-305757845501",
+   "ds-14990439"
+  ],
+  "titel": "Neu sanierte 3 Zimmerwohnung in schöner Lage!!!",
+  "ergebnis": "nicht geklärt: Umkreis 264 m um willhaben-Punkt (Gersthof/Grenze 1190), Baujahr 1956, Stiege 2; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-2101021640": {
+  "ids": [
+   "wh-2101021640",
+   "wh-1041842204",
+   "ds-15033229",
+   "is-984235273249",
+   "is-591046182414",
+   "fm-5676754"
+  ],
+  "titel": "Marie | 3-Zimmer-Altbau mit Terrasse und Garten in Hofruhelage",
+  "ergebnis": "korrigiert: Schulgasse (Abschnitt ca. Nr. 72–86), Top 2; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1072578333": {
+  "ids": [
+   "wh-1072578333",
+   "wh-1249706281",
+   "is-859502829970",
+   "is-639103870656"
+  ],
+  "titel": "Flexible 3-Zimmer-Einheit mit Terrasse - Wohnen & Arbeiten kombinierbar!",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 04 (Grundriss-Titelblock)",
+  "datum": "2026-10-28"
+ },
+ "wh-850780125": {
+  "ids": [
+   "wh-850780125",
+   "ds-15244930",
+   "is-870000744786",
+   "fm-5736094"
+  ],
+  "titel": "KEINE SCHRÄGEN !!! - Die Wohnfläche ist voll nutzbar + 1 Gartenterrasse (ca. 100 m²) + 5 Terrassen (ca. 50 m²) + 1 Garagenplatz im Eigentum",
+  "ergebnis": "nicht geklärt: Inserat offline, nur 'Gersthof' bekannt",
+  "datum": "2026-10-28"
+ },
+ "wh-965629725": {
+  "ids": [
+   "wh-965629725"
+  ],
+  "titel": "Helle DG Wohnung mit privater Dachterrasse im Herzen von Währing (Nähe Kutschkermarkt)",
+  "ergebnis": "korrigiert: Schopenhauerstraße 56, Tür 15 (Grundriss-Titelblock)",
+  "datum": "2026-10-28"
+ },
+ "wh-2068762913": {
+  "ids": [
+   "wh-2068762913",
+   "is-734593469186",
+   "sr-0960075460",
+   "ds-15250749",
+   "fm-5739352"
+  ],
+  "titel": "3,5-Zimmer-Wohnung mit Loggia",
+  "ergebnis": "nicht verbessert: Umkreis 266 m um Bischof-Faber-Platz, Neubau 2003; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1570126201": {
+  "ids": [
+   "wh-1570126201",
+   "is-388365341378",
+   "ds-15288530"
+  ],
+  "titel": "3,5 Zimmer mit großem Balkon warten auf Sie - Stilvolles Altbaujuwel in Bestlage von Währing!",
+  "ergebnis": "korrigiert: Hofstattgasse 20, Top 14 (bisher nur Straßenmittelpunkt; Grundriss-Titelblock)",
+  "datum": "2026-10-28"
+ },
+ "wh-2030166000": {
+  "ids": [
+   "wh-2030166000",
+   "is-613043018118"
+  ],
+  "titel": "Topsanierte 3-Zimmer-Balkonwohnung im stilvollen Gersthof mit Blick in den grünen Innenhof",
+  "ergebnis": "bestätigt nur Straße: Ferrogasse (1180), Hausnummer nicht auffindbar",
+  "datum": "2026-10-28"
+ },
+ "wh-874099570": {
+  "ids": [
+   "wh-874099570",
+   "is-317483176332"
+  ],
+  "titel": "GERSTHOF - helle, neuwertige 3 Zimmer Wohnung mit Loggia - bis März 2027 vermietet",
+  "ergebnis": "nur Straße: Messerschmidtgasse (1180), 2. Stock mit Lift, Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1347742091": {
+  "ids": [
+   "wh-1347742091",
+   "ds-15249579",
+   "is-998019678849"
+  ],
+  "titel": "Untersievering- Dachgeschossmaisonette in Top-Grünruhelage",
+  "ergebnis": "keine Verbesserung: Untersievering, Umkreis 251 m um bisherigen Punkt",
+  "datum": "2026-10-28"
+ },
+ "wh-920824386": {
+  "ids": [
+   "wh-920824386",
+   "ds-15249560",
+   "ds-15295633",
+   "ds-15294432",
+   "is-989365517322",
+   "fm-5738801",
+   "fm-5767685"
+  ],
+  "titel": "3-Zimmer-Maisonette inkl. Garage! Provisionsfrei",
+  "ergebnis": "nur Straße: Hameaustraße (1190), Stiege 1 Top 3, Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1323592115": {
+  "ids": [
+   "wh-1323592115",
+   "is-802504831418",
+   "ds-15064765",
+   "fm-5624960"
+  ],
+  "titel": "Gepflegte 3-Zimmer-Wohnung mit Balkon Nähe Obkirchergasse!",
+  "ergebnis": "korrigiert: sehr wahrscheinlich Weinberggasse 1, Top 5, 3. OG (Makler-Grundriss 'Am Weinberg 1')",
+  "datum": "2026-10-28"
+ },
+ "wh-1389117967": {
+  "ids": [
+   "wh-1389117967",
+   "is-831067558993",
+   "ds-15279984"
+  ],
+  "titel": "Sonnige Gartenoase im grünen Herzen des 19. Bezirks: ERSTBEZUG",
+  "ergebnis": "korrigiert: Sieveringer Straße 126, Top 2 (EG, Gartenwohnung)",
+  "datum": "2026-10-28"
+ },
+ "wh-1025832574": {
+  "ids": [
+   "wh-1025832574",
+   "is-886562299572",
+   "ds-15072966"
+  ],
+  "titel": "VINEYARD LIVING - 3 Zimmer Wohntraum in modernem Neubau in Nussdorf!",
+  "ergebnis": "korrigiert: Heiligenstädter Straße 170, Top 40 (5. Stock/DG), Projekt Vineyard Living = Urban Homes 170 (Neubau, Fertigstellung geplant 2029)",
+  "datum": "2026-10-28"
+ },
+ "wh-1345406146": {
+  "ids": [
+   "wh-1345406146",
+   "is-003376613341",
+   "ds-15034655"
+  ],
+  "titel": "DONAUBLICK: EXKLUSIVER TERRASSENTRAUM MIT OST-WEST-AUSRICHTUNG IN DER KUCHELAU",
+  "ergebnis": "korrigiert: Kuchelauer Hafenstraße 106, Stiege 3, Top 9 (DG)",
+  "datum": "2026-10-28"
+ },
+ "wh-1944508455": {
+  "ids": [
+   "wh-1944508455",
+   "is-333329427672"
+  ],
+  "titel": "Erstbezug in Döbling - stilvolle Maisonette mit Gartenidylle",
+  "ergebnis": "nur Straße: Zuckerkandlgasse (oberer Teil, evtl. Nr. 47), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-2012108299": {
+  "ids": [
+   "wh-2012108299"
+  ],
+  "titel": "Oberdöbling: Helle, freundliche 3 Zimmer Wohnung in Top Lage zu verkaufen.",
+  "ergebnis": "nur Gegend: Oberdöbling nahe Gatterburggasse",
+  "datum": "2026-10-28"
+ },
+ "wh-1509843531": {
+  "ids": [
+   "wh-1509843531",
+   "is-820282776001",
+   "ds-15142755"
+  ],
+  "titel": "120m2 Garten, 1. Reihe direkt am Wasser - Luxus Living",
+  "ergebnis": "korrigiert: Kuchelauer Hafenstraße 98, Stiege 4, Tür 3 (EG mit Garten)",
+  "datum": "2026-10-28"
+ },
+ "wh-1000115730": {
+  "ids": [
+   "wh-1000115730",
+   "is-396796653492",
+   "ds-15212382"
+  ],
+  "titel": "Exklusives Wohnen am Kaasgraben - Dachgeschosswohnung mit Terrassen in Bestlage im 19. Bezirk",
+  "ergebnis": "nur Gegend: Kaasgraben (Kaasgrabengasse), Wohnung 6 DG, Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1456067088": {
+  "ids": [
+   "wh-1456067088"
+  ],
+  "titel": "Entzückend geschnittene Gartenwohnung, Erstbezug",
+  "ergebnis": "korrigiert: Agnesgasse 9, Top 4 (Projekt CLOUD 9, Exposé https://www.ir.at/de/immobilien/expose/id/1652179)",
+  "datum": "2026-10-28"
+ },
+ "wh-835910239": {
+  "ids": [
+   "wh-835910239",
+   "wh-2106626286",
+   "is-872279442723",
+   "ds-15291701",
+   "is-694047085607"
+  ],
+  "titel": "UPPER HILL SIDE - Obersteinergasse 11",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Stiege 2, Top 2.4 (https://upper-hill-side.wien)",
+  "datum": "2026-10-28"
+ },
+ "wh-1995721938": {
+  "ids": [
+   "wh-1995721938"
+  ],
+  "titel": "EXKLUSIVE NEUBAUWOHNUNGEN MIT AUSSENFLÄCHEN - ÖGNI-GOLD-ZERTIFIZIERUNG - MODERNES DESIGN - LICHTDURCHFLUTET - ERSTBEZUG - IM HERZEN DES 19. WIENER GEMEINDEBEZIRKS",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 1.20 (Einheitenliste https://upper-hill-side.wien)",
+  "datum": "2026-10-28"
+ },
+ "wh-1008414363": {
+  "ids": [
+   "wh-1008414363"
+  ],
+  "titel": "EXKLUSIVE NEUBAUWOHNUNGEN MIT AUSSENFLÄCHEN - ÖGNI-GOLD-ZERTIFIZIERUNG - MODERNES DESIGN - LICHTDURCHFLUTET - ERSTBEZUG - IM HERZEN DES 19. WIENER GEMEINDEBEZIRKS",
+  "ergebnis": "bestätigt: Obersteinergasse 11, Top 1.2 (Einheitenliste https://upper-hill-side.wien)",
+  "datum": "2026-10-28"
+ },
+ "wh-1874682391": {
+  "ids": [
+   "wh-1874682391",
+   "is-944449639510",
+   "ds-15279083",
+   "fm-5757083"
+  ],
+  "titel": "Exklusive Dachgeschosswohnung mit 44 m² Terrasse & Weitblick",
+  "ergebnis": "nicht genauer: Oberdöbling, Umkreis 254 m um Radelmayergasse/Döblinger Hauptstraße, keine Hausnummer gefunden",
+  "datum": "2026-10-28"
+ },
+ "wh-1153268387": {
+  "ids": [
+   "wh-1153268387",
+   "fm-5558179",
+   "is-287373610364",
+   "ds-14934526"
+  ],
+  "titel": "Wohnen, wo die Weinberge beginnen - 133,81 m² Dachgeschoß-Eigentum im historischen \"Freihof\" | optional mit Eigengarten & Pool | 1190 Wien",
+  "ergebnis": "korrigiert: Wigandgasse 37 (Kahlenbergerdorf), Top 10",
+  "datum": "2026-10-28"
+ },
+ "wh-1284161685": {
+  "ids": [
+   "wh-1284161685",
+   "wh-1208763629",
+   "ds-15050724",
+   "fm-5758579",
+   "wh-1626001059",
+   "is-759951433693",
+   "ds-14917859"
+  ],
+  "titel": "Provisionsfrei: Exklusive Erstbezugswohnungen in Döbling!",
+  "ergebnis": "korrigiert: Heiligenstädter Straße 103, Stiege 1, Top 39 (Bauträgertext Raiffeisen WohnBau auf willhaben 1208763629)",
+  "datum": "2026-10-28"
+ },
+ "wh-798287468": {
+  "ids": [
+   "wh-798287468",
+   "wh-1641422392",
+   "is-262668853986",
+   "fm-5747337",
+   "ds-15263771",
+   "is-701684264275",
+   "ds-15125944",
+   "fm-5661307"
+  ],
+  "titel": "Sievering, was sonst, 84m2 plus 2 Balkone",
+  "ergebnis": "korrigiert: Sieveringer Straße 75, Stiege 2 (gegenüber Restaurant Eckel Nr. 46; willhaben-Koordinate)",
+  "datum": "2026-10-28"
+ },
+ "wh-1915407761": {
+  "ids": [
+   "wh-1915407761",
+   "is-925073262583"
+  ],
+  "titel": "PENTHOUSE LIVING - FIXPREIS - ATEMBERAUBENDER WIENBLICK - 3 RIESEN TERRASSEN - ERSTBEZUG!",
+  "ergebnis": "nicht gefunden: Sievering (Seitengasse), Top 6 Stiege 2, keine Adresse ermittelbar",
+  "datum": "2026-10-28"
+ },
+ "wh-1562591559": {
+  "ids": [
+   "wh-1562591559",
+   "is-006362780557",
+   "fm-5756273"
+  ],
+  "titel": "Zentral begehbare 3 Zimmer Wohnung perfekt für Paare oder kleine Familien in Bestlage",
+  "ergebnis": "ungefähr: Beginn Grinzinger Allee (Nr. 1-8), Hausnummer nicht belegt",
+  "datum": "2026-10-28"
+ },
+ "wh-1224399479": {
+  "ids": [
+   "wh-1224399479",
+   "is-043807605006"
+  ],
+  "titel": "** WILLKOMMEN IN DER HOFZEILE RESIDENZ - ZEITLOSE ELEGANZ IN EINER DER EXKLUSIVSTEN WOHNLAGEN WIENS **",
+  "ergebnis": "korrigiert: Hofzeile (ohne Hausnummer)",
+  "datum": "2026-10-28"
+ },
+ "wh-1241690985": {
+  "ids": [
+   "wh-1241690985"
+  ],
+  "titel": "Ein Zuhause der besonderen Art - 125 m², 3 Balkone, Sauna, Klimaanlage & TG",
+  "ergebnis": "nicht gefunden: keine Lagehinweise außer 1190",
+  "datum": "2026-10-28"
+ },
+ "wh-967129663": {
+  "ids": [
+   "wh-967129663",
+   "is-360920557957"
+  ],
+  "titel": "Wohnen oder Arbeiten direkt beim Währinger Park!",
+  "ergebnis": "korrigiert: Semperstraße 60 ('Parkhof', OSM-Gebäudename), 1. OG, W8",
+  "datum": "2026-10-28"
+ },
+ "wh-1635087582": {
+  "ids": [
+   "wh-1635087582"
+  ],
+  "titel": "Ruhige -drei- Zimmer Wohnung in Bestlage -Renoviert KEINE MAKLER NUR PRIVATPERSONEN !",
+  "ergebnis": "unklar: keine Lagehinweise, Inserat nicht mehr abrufbar",
+  "datum": "2026-10-28"
+ },
+ "wh-988212014": {
+  "ids": [
+   "wh-988212014",
+   "is-489415102969",
+   "ds-15273117"
+  ],
+  "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
+  "ergebnis": "unklar: keine Adresse gefunden, nur versetzter Kartenpunkt",
+  "datum": "2026-10-28"
+ },
+ "wh-1797101607": {
+  "ids": [
+   "wh-1797101607",
+   "is-869595327237",
+   "ds-15099406"
+  ],
+  "titel": "Helle Altbauwohnung in perfekter Lage nahe Kutschkermarkt (ca. 79m²)",
+  "ergebnis": "unklar: Kutschkermarkt-/Währinger-Straße-Gegend, keine Hausnummer",
+  "datum": "2026-10-28"
+ },
+ "wh-1828297366": {
+  "ids": [
+   "wh-1828297366",
+   "fm-5256950",
+   "is-739891876894",
+   "ds-15037206"
+  ],
+  "titel": "EDEN & IVY - Stilvolle 3-Zimmer Dachgeschosswohnung mit Balkon & Grünblick",
+  "ergebnis": "korrigiert: Weitlofgasse 9, Stiege 1 Top 8 (Projektseite weekend.at)",
+  "datum": "2026-10-28"
+ },
+ "wh-1343408527": {
+  "ids": [
+   "wh-1343408527",
+   "is-419978136281",
+   "ds-15284905"
+  ],
+  "titel": "Schöne 3-Zimmer-Wohnung in ruhiger Lage nahe Schubertpark",
+  "ergebnis": "ungefähr: Umfeld Johann-Nepomuk-Vogl-Platz (Antonigasse/Kreuzgasse/Währinger Straße), Top 22, Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1456351165": {
+  "ids": [
+   "wh-1456351165",
+   "is-781592880364",
+   "ds-15253824",
+   "fm-5741726"
+  ],
+  "titel": "Exklusive Gartenwohnung mit Wintergarten",
+  "ergebnis": "korrigiert: Weitlofgasse 9, EG Top 1V2 (Projektseite weekend.at)",
+  "datum": "2026-10-28"
+ },
+ "wh-1798193890": {
+  "ids": [
+   "wh-1798193890",
+   "is-341373919628"
+  ],
+  "titel": "++LIVING IN WÄHRING++ 3,5-Zimmer-Altbauwohnung und Loggia",
+  "ergebnis": "korrigiert: Hofstattgasse 5, Top 7 (Verkaufsplan im Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-1546167814": {
+  "ids": [
+   "wh-1546167814",
+   "fm-5695517",
+   "is-886678239342",
+   "ds-15180220"
+  ],
+  "titel": "Eden & Ivy - Moderne 3-Zimmer-Altbauwohnung mit Panoramafenstern",
+  "ergebnis": "korrigiert: Weitlofgasse 9, Stiege 2 Top 2 (Projektseite weekend.at)",
+  "datum": "2026-10-28"
+ },
+ "wh-871651199": {
+  "ids": [
+   "wh-871651199",
+   "is-857410737682"
+  ],
+  "titel": "1180 Wien: Zentral begehbare 3-Zimmer-Loggia-Wohnung in ruhiger Gersthofer Lage!",
+  "ergebnis": "ungefähr: Gersthof, Czartoryskigasse (1972er Bau an 42A-Haltestelle), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1607960789": {
+  "ids": [
+   "wh-1607960789"
+  ],
+  "titel": "Geld investieren - später profitieren",
+  "ergebnis": "bestätigt: Michaelerstraße 23, 1. Liftstock (Inseratstext)",
+  "datum": "2026-10-28"
+ },
+ "wh-1861675237": {
+  "ids": [
+   "wh-1861675237"
+  ],
+  "titel": "Provisionsfreie, traumhafte Dachgeschosswohnung mit umfangreicher Ausstattung - Nähe Kutschkermarkt",
+  "ergebnis": "korrigiert: Gentzgasse 40–42, Top 27 (weekend.at-Inserat derselben Einheit)",
+  "datum": "2026-10-28"
+ },
+ "wh-1534262201": {
+  "ids": [
+   "wh-1534262201",
+   "is-587845987235",
+   "ds-15170448"
+  ],
+  "titel": "PREISREDUKTION - 3-Zimmer-Gartenwohnung nahe AKH | Neubau für Eigennutzer & Anleger",
+  "ergebnis": "korrigiert: Staudgasse 40, Top 04 (EG) (Grundriss im Inserat; Adresse lt. https://www.dibeo.at/expose/2211186)",
+  "datum": "2026-10-28"
+ },
+ "wh-1805048122": {
+  "ids": [
+   "wh-1805048122",
+   "fm-5766089"
+  ],
+  "titel": "PROVISIONSFREI - Cottageviertel - Exklusive 3-Zimmer-Gartenwohnung mit ca. 80 m² Wohnfläche und ca. 90 m² Freiflächen",
+  "ergebnis": "nichts gefunden: Projekt Cottage Garden (ISG), Adresse nirgends veröffentlicht",
+  "datum": "2026-10-28"
+ },
+ "wh-1090836154": {
+  "ids": [
+   "wh-1090836154",
+   "wh-1434424387",
+   "fm-5766088",
+   "fm-5766087"
+  ],
+  "titel": "PROVISIONSFREI - Cottageviertel - Exklusive 3-Zimmer-Gartenwohnung mit ca. 96 m² Wohnfläche und ca. 135 m² Freiflächen",
+  "ergebnis": "nichts gefunden: Projekt Cottage Garden (ISG), Adresse nirgends veröffentlicht",
+  "datum": "2026-10-28"
+ },
+ "wh-795488830": {
+  "ids": [
+   "wh-795488830",
+   "is-208470283107",
+   "fm-5766048"
+  ],
+  "titel": "Licht, Weitblick & Wellness - Großzügige 3-Zimmer-Eckwohnung in Währing",
+  "ergebnis": "korrigiert: Antonigasse 99, 3. Stock (Grundriss im Inserat, wh-795488830 Bild 22)",
+  "datum": "2026-10-28"
+ },
+ "wh-1770724013": {
+  "ids": [
+   "wh-1770724013",
+   "wh-1194352366",
+   "wh-1361369339",
+   "is-117240175402",
+   "ds-15180897",
+   "ds-15284921",
+   "fm-5696089",
+   "is-353425964092",
+   "fm-5697048",
+   "is-289364155447",
+   "wh-1273261113",
+   "is-798249348308",
+   "ds-15227975",
+   "fm-5760473"
+  ],
+  "titel": "HOFSEITIGE ALTBAU-RARITÄT IN WÄHRING * BALKON IN ERRICHTUNG * FISCHGRÄTPARKETT & FLÜGELTÜREN",
+  "ergebnis": "Straße bestätigt: Hofstattgasse (ohne Hausnummer; Schantl-Punkt bei Nr. 9)",
+  "datum": "2026-10-28"
+ },
+ "wh-2142854368": {
+  "ids": [
+   "wh-2142854368"
+  ],
+  "titel": "ZWEITBEZUG / MÖBLIERT / TOP-LAGE!!!",
+  "ergebnis": "nichts gesichert: Top 10, 4. OG, nahe U6 Währinger Straße/Volksoper; Hinweis auf Währinger Gürtel nicht belegt",
+  "datum": "2026-10-28"
+ },
+ "wh-1075764150": {
+  "ids": [
+   "wh-1075764150"
+  ],
+  "titel": "++ Tolle Aufteilung & mit Balkon ++",
+  "ergebnis": "korrigiert: Wielemansgasse (ohne Hausnummer), Top 7, 1. OG (Grundriss im Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-2141666880": {
+  "ids": [
+   "wh-2141666880",
+   "is-757975458484"
+  ],
+  "titel": "Wohnungen im exklusiven Eckhaus aus der Gründerzeit in Wien Währing.",
+  "ergebnis": "korrigiert: Währinger Gürtel 119 (Ecke Anastasius-Grün-Gasse), 2. DG, wahrscheinlich Top 33 (Inseratstext und Grundriss)",
+  "datum": "2026-10-28"
+ },
+ "wh-1540996108": {
+  "ids": [
+   "wh-1540996108",
+   "fm-5725050"
+  ],
+  "titel": "Großzügige 3-Zimmer Gartenwohnung im 18. Wiener Gemeindebezirk",
+  "ergebnis": "korrigiert: Semperstraße 47, Top 3 (EG) (Wohnungsspiegel https://www.semper47.at)",
+  "datum": "2026-10-28"
+ },
+ "wh-962067154": {
+  "ids": [
+   "wh-962067154",
+   "ds-15277677",
+   "fm-5756057"
+  ],
+  "titel": "Ein Wohnjuwel mit besonderem Flair *** stilvoll sanierte 3,5-Zimmer-Altbauwohnung mit exklusiver Designküche, zwei Außenflächen + begehrter Lage beim Türkenschanzpark",
+  "ergebnis": "Straße bestätigt: Gersthofer Straße, Top 17, 3. OG (Punkt bei Nr. 14, ungeprüft)",
+  "datum": "2026-10-28"
+ },
+ "wh-1652669852": {
+  "ids": [
+   "wh-1652669852",
+   "is-938391512820",
+   "ds-15295549"
+  ],
+  "titel": "Wohntraum in 1180: Sonniger Südbalkon | 3 Zimmer | Herrlicher Ausblick I Absolute Ruhelage",
+  "ergebnis": "nichts gefunden: nur Umkreis 254 m um 48.2402,16.3207 (Teil in 1180)",
+  "datum": "2026-10-28"
+ },
+ "wh-1278868755": {
+  "ids": [
+   "wh-1278868755",
+   "ds-15240345",
+   "is-640320602538",
+   "fm-5732687"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung im 18. Wiener Gemeindebezirk, Nahe Währinger Park",
+  "ergebnis": "korrigiert: Semperstraße 47, Top 11 (2. OG) (Wohnungsspiegel https://www.semper47.at, JP-Inserat Semperstrasse 47/11)",
+  "datum": "2026-10-28"
+ },
+ "wh-951983893": {
+  "ids": [
+   "wh-951983893",
+   "ds-15240276",
+   "is-893695117618",
+   "fm-5732689"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung mit Loggia und Balkon im 18. Gemeindebezirk, Nähe Währinger Park",
+  "ergebnis": "nicht genauer bestimmt: Altbau nahe Währinger Park (Top 9, 2. Stock), Kartenpunkt plausibel ±255 m; Lifestyle-Website/Infina (https://www.infina.at/immobilien/finden/wohnung-wien-211396/) ohne Adresse",
+  "datum": "2026-10-28"
+ },
+ "wh-933053051": {
+  "ids": [
+   "wh-933053051",
+   "is-019092049721",
+   "ds-15227649",
+   "fm-5724538"
+  ],
+  "titel": "Neuwertige 3-Zi-Wohnung 107m², 1180 Wien, mit Einbauküche & Aufzug, EUR595.000,-",
+  "ergebnis": "korrigiert: Antonigasse 99, 3. Stock (Grundriss-Beschriftung im willhaben-Inserat 933053051)",
+  "datum": "2026-10-28"
+ },
+ "wh-1934947629": {
+  "ids": [
+   "wh-1934947629",
+   "is-323496822195",
+   "ds-15233995",
+   "fm-5728979"
+  ],
+  "titel": "Gersthofer Straße - 3 Zimmer DG mit hofseitigem Balkon",
+  "ergebnis": "korrigiert (wahrscheinlich): Gersthofer Straße 10, Top 23 DG – Nachbar-EZ Bäckenbrünnlgasse 7a im Plan; Hausnummer 8/10/12 nicht sicher",
+  "datum": "2026-10-28"
+ },
+ "wh-1196822484": {
+  "ids": [
+   "wh-1196822484",
+   "is-489450999812",
+   "ds-15102976",
+   "fm-5648474"
+  ],
+  "titel": "Neuwertige 3-Zimmer-Wohnung mit Balkon in 1180 Wien",
+  "ergebnis": "korrigiert (wahrscheinlich): Eckhaus Kreuzgasse 2 / Währinger Gürtel gegenüber U6 Michelbeuern-AKH, Top 22, 3. Stock (aus Inseratsfotos)",
+  "datum": "2026-10-28"
+ },
+ "is-084993667232": {
+  "ids": [
+   "is-084993667232",
+   "wh-1966386922",
+   "ds-15291158"
+  ],
+  "titel": "Türkenschanzpark: sehr schöne, ruhige 3 Zi.-Wohnung mit Grünblick",
+  "ergebnis": "präzisiert: Hasenauerstraße gegenüber Türkenschanzpark (Hausnummer unbekannt; Grundriss im willhaben-Inserat 1966386922)",
+  "datum": "2026-10-28"
+ },
+ "wh-823252424": {
+  "ids": [
+   "wh-823252424",
+   "is-649675384946",
+   "ds-15168404"
+  ],
+  "titel": "PREISREDUZIERT- 3 Zimmer Rooftop - Dachgeschoßwohnung nahe AKH - exklusives Wohnen über den Dächern Wiens",
+  "ergebnis": "korrigiert: Staudgasse 40, DG (4. OG), 78,86 m² + 38,79 m² Terrasse (MAISON WÄHRING, Top unbekannt)",
+  "datum": "2026-10-28"
+ },
+ "wh-2098267387": {
+  "ids": [
+   "wh-2098267387",
+   "is-951873181385",
+   "ds-15168405"
+  ],
+  "titel": "PREISREDUKTION - Dachgeschoßwohnung mit Westterrasse nahe AKH - für Eigennutzer & Anleger",
+  "ergebnis": "korrigiert: Staudgasse 40, 3. OG, 70,70 m² (MAISON WÄHRING, Top unbekannt)",
+  "datum": "2026-10-28"
+ },
+ "wh-1734807961": {
+  "ids": [
+   "wh-1734807961",
+   "is-908506062015",
+   "ds-15281741"
+  ],
+  "titel": "PREISREDUZIERT - 3-Zimmer-Wohnung mit Westterrasse nahe AKH - attraktiv für Eigennutzer & Anleger",
+  "ergebnis": "korrigiert: Staudgasse 40, 3. OG, 72,91 m² (MAISON WÄHRING, Top unbekannt)",
+  "datum": "2026-10-28"
+ },
+ "wh-1319757980": {
+  "ids": [
+   "wh-1319757980"
+  ],
+  "titel": "\"PARK LIFE\" - Stilvoll wohnen im generalsanierten Altbau im 18. Bezirk",
+  "ergebnis": "nicht genauer bestimmt: PARK LIFE, Top 2 EG, Nähe Ebner-Eschenbach-Park/Kutschkermarkt; Kartenpunkt ±270 m bleibt",
+  "datum": "2026-10-28"
+ },
+ "wh-1892741389": {
+  "ids": [
+   "wh-1892741389"
+  ],
+  "titel": "Stilvolle 3-Zimmer-Wohnung mit Balkon und Loggia in dem beliebten Kutschkerviertel",
+  "ergebnis": "korrigiert: Theresiengasse 10, Top 11, 2. OG (Adresse im Inseratstext, dort als 'Theresienstraße' geschrieben)",
+  "datum": "2026-10-28"
+ },
+ "wh-1149277549": {
+  "ids": [
+   "wh-1149277549"
+  ],
+  "titel": "Pötzleinsdorf - Wohnen in einer der schönsten Lagen von Wien!",
+  "ergebnis": "nicht genauer bestimmt: Neubau Pötzleinsdorf, Top 8 DG; Kartenpunkt ±253 m mit Entfernungsangaben vereinbar",
+  "datum": "2026-10-28"
+ },
+ "wh-944059123": {
+  "ids": [
+   "wh-944059123",
+   "is-207009418863"
+  ],
+  "titel": "3,5-Zimmer-Altbauwohnung und Loggia",
+  "ergebnis": "nicht genauer bestimmt: Gründerzeithaus zwischen Währinger Park und Sternwartepark, Top 9; Kartenpunkt ±253 m bleibt",
+  "datum": "2026-10-28"
+ },
+ "wh-1724183760": {
+  "ids": [
+   "wh-1724183760"
+  ],
+  "titel": "Wohnung mit Balkon in wunderbarer Stadtlage",
+  "ergebnis": "unverändert: keine Adresse gefunden; liegt vermutlich nahe Lerchenfelder Straße zwischen Lange Gasse und Strozzigasse (nur Straßenliste im Inserat)",
+  "datum": "2026-10-28"
+ },
+ "wh-1242086789": {
+  "ids": [
+   "wh-1242086789",
+   "is-027877814737"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung mit 2 Loggien und Aufzug im beliebten 1080 Wien!",
+  "ergebnis": "unverändert: keine Adresse gefunden (1975er Bau mit 9 Etagen + Garage im Umkreis 267 m um den Kartenpunkt)",
+  "datum": "2026-10-28"
+ },
+ "wh-1941517165": {
+  "ids": [
+   "wh-1941517165",
+   "is-371824004609"
+  ],
+  "titel": "3 Zimmer | Erstbezug | Hofseitig| Top-Lage",
+  "ergebnis": "korrigiert: Strozzigasse (ohne Hausnummer), statt Bezirks-Punkt; U-Bahn-Distanz 0,56 km im Inserat spricht für mittleren Abschnitt (~48.2080,16.3491)",
+  "datum": "2026-10-28"
+ },
+ "wh-1860174452": {
+  "ids": [
+   "wh-1860174452",
+   "ds-15289291"
+  ],
+  "titel": "Top Lage in 1080 Wien zu kaufen",
+  "ergebnis": "unverändert: keine Adresse auffindbar, Kartenpunkt ist nur Bezirks-Platzhalter",
+  "datum": "2026-10-28"
+ },
+ "wh-1204444868": {
+  "ids": [
+   "wh-1204444868"
+  ],
+  "titel": "Provisionsfreie Wohnung im 8. Bezirk",
+  "ergebnis": "korrigiert: Uhlplatz 4 (Nicoladoni-Hof), DG/5. Liftstock (archINFORM)",
+  "datum": "2026-10-28"
+ },
+ "wh-838651224": {
+  "ids": [
+   "wh-838651224",
+   "is-607753863465"
+  ],
+  "titel": "Zentrale 3-Zimmer-Altbauwohnung mit Lift in 1080 Wien | nahe Neubaugasse & Innenstadt",
+  "ergebnis": "korrigiert (ungefähr): Lerchenfelder Straße / Ecke Strozzigasse, Top 9 im 3. Stock; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1522460197": {
+  "ids": [
+   "wh-1522460197",
+   "is-561105858729"
+  ],
+  "titel": "Wiener Altbau trifft modernes Wohnen - großzügige 3,5-Zimmer-Wohnung mit Lift in der Josefstadt",
+  "ergebnis": "korrigiert (ungefähr): Blindengasse zwischen Lerchenfelder und Josefstädter Straße, Top 12 (2. Stock); Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1652851908": {
+  "ids": [
+   "wh-1652851908",
+   "is-161547369597"
+  ],
+  "titel": "Altbauklassiker in der Josefstadt - großzügige 3,5-Zimmer-Wohnung im 3. Liftstock",
+  "ergebnis": "korrigiert (ungefähr): Blindengasse zwischen Lerchenfelder und Josefstädter Straße, Top 19 (3. Stock); Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "ds-15280487": {
+  "ids": [
+   "ds-15280487",
+   "wh-1098629070",
+   "is-705895638838",
+   "fm-5757967"
+  ],
+  "titel": "++ FANTASTISCHE DG Wohnung ++ in WÄHRING - Erstbezug",
+  "ergebnis": "korrigiert (ungefähr): Haizingergasse, Top 17 im 1. DG; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1439326277": {
+  "ids": [
+   "wh-1439326277",
+   "wh-2119958719",
+   "is-029431130089",
+   "ds-15261505",
+   "wh-1681026747",
+   "ds-15237467",
+   "fm-5745924",
+   "is-245677388630",
+   "ds-15296474",
+   "fm-5768606",
+   "ds-15076575",
+   "is-908236774524",
+   "fm-5730575"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung im 18. Wiener Gemeindebezirk, Nahe Währinger Park",
+  "ergebnis": "korrigiert: Semperstraße 47, Top 6 (1. OG) laut Preisliste https://www.semper47.at",
+  "datum": "2026-10-28"
+ },
+ "wh-836743046": {
+  "ids": [
+   "wh-836743046",
+   "wh-805443931",
+   "fm-5762142",
+   "fm-5762143",
+   "is-594301583629",
+   "is-863616823266",
+   "ds-15287152",
+   "ds-15287153"
+  ],
+  "titel": "NEU! * Erstbezug * Sofort beziehbar * Luxus-Dachgeschosswohnungen 1180 Wien kaufen - Terrasse + Wienblick",
+  "ergebnis": "ungefähr: westlich Kutschkermarkt (Schulgasse/Gentzgasse-Bereich), Top 11 im 6. Stock; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-980261752": {
+  "ids": [
+   "wh-980261752",
+   "is-678397180162",
+   "fm-5757595"
+  ],
+  "titel": "Exklusive 3-Zimmer-Dachgeschoss-Oase mit sonnigem Balkon & grünem Innenhof",
+  "ergebnis": "ungefähr: Block zwischen Volksoper/Gürtel und Kutschkermarkt (Währinger Straße/Schulgasse), Top 10 im DG; Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1837111459": {
+  "ids": [
+   "wh-1837111459",
+   "ds-15296751"
+  ],
+  "titel": "Kutschkerviertel ganz oben: Elegantes Dachgeschoss mit privater Terrasse & Klimaanlage",
+  "ergebnis": "eingegrenzt: Edelhofgasse (1180), Hausnummer offen. Quelle: willhaben-Inserat 1837111459, Feld 'Lage'",
+  "datum": "2026-10-28"
+ },
+ "is-815719770369": {
+  "ids": [
+   "is-815719770369"
+  ],
+  "titel": "Vier Dachgeschosswohnungen mit großzügigen Außenflächen und Ausbaupotenzial",
+  "ergebnis": "korrigiert: Währinger Gürtel 10, DG-Wohnungen 25-28 (Edikt, Versteigerung 01.12.2026)",
+  "datum": "2026-10-28"
+ },
+ "is-967711128852": {
+  "ids": [
+   "is-967711128852"
+  ],
+  "titel": "Viel Platz, gute Substanz - 5-Zimmer-Wohnung mit 184 m² Wohnfläche",
+  "ergebnis": "korrigiert: Herminengasse 6, W 6+8, 1. Stock (Edikt, Versteigerung 24.11.2026)",
+  "datum": "2026-10-28"
+ },
+ "is-957049598234": {
+  "ids": [
+   "is-957049598234"
+  ],
+  "titel": "Wohnen im historischen Altbau – 92 m² mit vielseitiger Raumaufteilung",
+  "ergebnis": "korrigiert: Pramergasse 12 (= Müllnergasse 27), Top 11, Mezzanin (Edikt, Versteigerung 11.12.2026)",
+  "datum": "2026-10-28"
+ },
+ "wh-1925303415": {
+  "ids": [
+   "wh-1925303415"
+  ],
+  "titel": "Lust auf deine eigene Terrasse oder gemütliche Weinabende vor deinem Ofen?",
+  "ergebnis": "bestätigt nur Straße: Pyrkergasse (1190), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-1766079079": {
+  "ids": [
+   "wh-1766079079",
+   "is-856027242773",
+   "ds-15296294",
+   "fm-5768418"
+  ],
+  "titel": "Wo jedes Detail stimmt - sanierte Altbauwohnung nahe Kutschkermarkt",
+  "ergebnis": "nicht gefunden: Top 02 Hochparterre, Haus im 260-m-Kreis um den Kartenpunkt im Kutschkerviertel",
+  "datum": "2026-10-28"
+ },
+ "wh-1694536016": {
+  "ids": [
+   "wh-1694536016",
+   "is-777281133146",
+   "sr-0960075180",
+   "ds-15295064",
+   "fm-5767479"
+  ],
+  "titel": "Perfekt geschnittene Familienwohnung in ruhiger Döblinger Lage",
+  "ergebnis": "korrigiert: Saileräckergasse 43, 4. Stock (Titel des Makler-Rundgangs)",
+  "datum": "2026-10-28"
+ },
+ "wh-1561238896": {
+  "ids": [
+   "wh-1561238896"
+  ],
+  "titel": "Top-Lage Obkirchergasse in Döbling - Neu sanierte Wohnung im 4. Stock mit Balkon & Lift, provisionsfrei",
+  "ergebnis": "bestätigt nur Straße: Obkirchergasse (1190), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-2072064667": {
+  "ids": [
+   "wh-2072064667"
+  ],
+  "titel": "Sonnige 3-Zimmer Altbauwohnung innerhalb des Gürtels 1080 Wien",
+  "ergebnis": "korrigiert: Blindengasse 8, Top 5, 1. Stock (Grundriss-Titel)",
+  "datum": "2026-10-28"
+ },
+ "wh-854401771": {
+  "ids": [
+   "wh-854401771",
+   "is-288361021752",
+   "ds-15120700"
+  ],
+  "titel": "++NEU++ 1080 WIEN ++HELLE 3-ZIMMERWOHNUNG IM 6. LIFTSTOCK++",
+  "ergebnis": "eingegrenzt: Blindengasse, Top 19, 6. Stock (Neubau 1980), Hausnummer offen",
+  "datum": "2026-10-28"
+ },
+ "wh-854619889": {
+  "ids": [
+   "wh-854619889",
+   "is-392383969247",
+   "ds-15286445",
+   "fm-5761899"
+  ],
+  "titel": "Exklusive 3-Zimmer-Wohnung, vollrenoviert, 113m², 5. Etage, Top-Lage 1080 Wien!",
+  "ergebnis": "nicht gefunden: Stiege 2, W 57, 5. OG, Bj. 1955, im 266-m-Kreis um den Kartenpunkt (Josefstadt Richtung Rathaus)",
+  "datum": "2026-10-28"
+ },
+ "wh-1023026100": {
+  "ids": [
+   "wh-1023026100",
+   "ds-15033286",
+   "is-571730005963",
+   "fm-5735165"
+  ],
+  "titel": "Wunderschöne 3-Zimmer Altbauwohnung im EG, Erstbezug!",
+  "ergebnis": "nicht gefunden: EG-Altbauwohnung nahe Josefstädter Straße/U6 im 256-m-Kreis um den Kartenpunkt",
+  "datum": "2026-10-28"
  }
 }

@@ -56,7 +56,7 @@ def main():
     if sys.argv[1] == "--recherche":
         basis = ROOT / "data" / "grundrisse"
         # nur die, die die Routine heute recherchiert (Liste ist nach Vorrang sortiert)
-        offen = json.loads((ROOT / "data" / "recherche.json").read_text(encoding="utf-8"))[:15]
+        offen = json.loads((ROOT / "data" / "recherche.json").read_text(encoding="utf-8"))[:25]
         ids = {e["id"] for e in offen}
         if basis.exists():
             for d in basis.iterdir():
