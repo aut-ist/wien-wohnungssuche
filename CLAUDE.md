@@ -6,7 +6,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - `python run.py all` scrapt und baut die Karte. `python run.py build` baut nur.
 - Kriterien: `config.json` (Preis, m², Zimmer) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
-  sanierungsbedürftig (`wohnungen/zustand.py`). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
+  sanierungsbedürftig (`wohnungen/zustand.py`), befristet vermietet über Ende März 2027 hinaus
+  (`miete_bis` liest das Enddatum). Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
   unklar) schließt seit 2026-10-28 nichts mehr aus; oben gibt es den Schalter "ohne Gasheizung".
   Sonst gelten für Gaswohnungen alle Regeln wie für alle anderen.
 - Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (15) pro Morgen, `data/recherche.json` ist nach
@@ -80,7 +81,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Nest-Wohnungen hält `data/preisverlauf.json` den Verlauf und den letzten Stand fest, auch über
   Neu-Inserate hinweg; verschwindet das Inserat, bleibt die Wohnung grau "nicht mehr online" sichtbar.
 - Duplikate: `gruppieren()` in run.py führt dieselbe Wohnung über Portale zu einem Punkt
-  zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat).
+  zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat). Anderer Energieausweis
+  (HWB > 5 % Abweichung) oder anderes Baujahr heißt anderes Haus: nie zusammenführen.
+- "Neu" auf der Karte zählt ab dem ersten Tag, an dem eine Wohnung auf der Karte steht
+  (`data/sichtbar_seit.json`), nicht ab dem ersten Fund; so sind auch Wohnungen neu, die erst nach
+  einer Regeländerung passen. Karte: ein grünes Ei für alles, was in Frage kommt (Goldrand = neu,
+  blass = schon angeschaut, gestrichelt = Lage ungefähr), goldenes Ei = im Nest; keine
+  passt/unklar/raus-Legende mehr (Wunsch).
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
   Database, Adresse in `docs/einstellungen.json`, Regeln in `tools/firebase-regeln.json`.
   Der tägliche Workflow sichert den Stand nach `data/markierungen.json`. Wiederherstellen:

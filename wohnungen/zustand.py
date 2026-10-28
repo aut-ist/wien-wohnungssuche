@@ -1,6 +1,7 @@
 """Ausschlüsse nach Zustand und Nutzung (wie heizung.py: eindeutig -> automatisch, sonst Prüfung).
 
-- unbefristet vermietet -> raus (befristet vermietet bleibt drin, mit Hinweis)
+- unbefristet vermietet -> raus; befristet vermietet über Q1 2027 hinaus -> raus (Wunsch), bis
+  dahin bleibt drin, mit Hinweis
 - sanierungs-/renovierungsbedürftig oder belagsfertig -> raus ("saniert", "generalsaniert",
   "schlüsselfertig" sind positiv und bleiben)
 """
@@ -30,6 +31,40 @@ SANIERUNG_SCHWACH = re.compile(
     r"|reparaturbed[üu]rftig|instandsetzungsbed[üu]rftig|sanierungskosten|veraltet")
 
 
+# befristet vermietet: bis Ende März 2027 ist ok, länger nicht
+MIETE_GRENZE = (2027, 3)
+_MONATE = {m: i + 1 for i, m in enumerate(["jän", "feb", "mär", "apr", "mai", "jun", "jul", "aug", "sep", "okt", "nov", "dez"])}
+_MONATE.update({"jan": 1, "mar": 3})
+MIETE_BIS = [  # "befristet vermietet bis 30.11.2027" und "bis 30.11.2027 befristet vermietet"
+    re.compile(r"(?i)(?:befrist\w*|vermietet|mietvertr\w*|mietverh[äa]ltnis\w*)[^.\n]{0,60}?\bbis\s+"
+               r"(?:zum\s+|ende\s+|anfang\s+|mitte\s+|ca\.\s+|voraussichtlich\s+)?([^\n,;)]{0,25})"),
+    re.compile(r"(?i)\bbis\s+(?:zum\s+|ende\s+)?([^\n,;)]{0,25}?)\s+(?:befristet|vermietet)"),
+]
+
+
+def miete_bis(text):
+    """-> (jahr, monat oder None, Textstelle) für "befristet vermietet bis …", sonst None."""
+    for rx in MIETE_BIS:
+        for m in rx.finditer(text):
+            if re.search(r"(?i)garage|stellpl|parkpl|keller", text[max(0, m.start() - 40): m.end()]):
+                continue  # vermieteter Garagenplatz o. Ä., nicht die Wohnung
+            s = m.group(1).lower()
+            stelle = "…" + text[max(0, m.start() - 20): m.end() + 10].replace("\n", " ").strip() + "…"
+            if d := re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", s):
+                return int(d.group(3)), int(d.group(2)), stelle
+            if d := re.search(r"(\d{1,2})\s*/\s*(\d{4})", s):
+                return int(d.group(2)), int(d.group(1)), stelle
+            if d := re.search(r"q\s*([1-4])\D{0,3}(\d{4})", s):
+                return int(d.group(2)), int(d.group(1)) * 3, stelle
+            if d := re.search(r"([a-zä]{3})[a-zä]*\s+(\d{4})", s):
+                if d.group(1) in _MONATE:
+                    return int(d.group(2)), _MONATE[d.group(1)], stelle
+            if d := re.search(r"\b(20\d\d)\b", s):
+                ende = re.search(r"(?i)ende\s+" + d.group(1), m.group(0))
+                return int(d.group(1)), 12 if ende else None, stelle
+    return None
+
+
 def _stelle(rx, text):
     m = rx.search(text)
     if not m:
@@ -53,6 +88,15 @@ def einschaetzen(r):
 
     if s := _stelle(VERMIETET_STARK, text):
         gruende.append(f"unbefristet vermietet: {s}")
+    elif bis := miete_bis(text):
+        jahr, monat, s = bis
+        wann = f"{monat:02d}/{jahr}" if monat else str(jahr)
+        if (jahr, monat or 0) > MIETE_GRENZE and (monat or jahr > MIETE_GRENZE[0]):
+            gruende.append(f"vermietet bis {wann}, also länger als Q1 2027: {s}")
+        elif monat is None and jahr == MIETE_GRENZE[0]:
+            offen.append(f"vermietet bis {wann}, Monat unklar: {s}")
+        else:
+            hinweise.append(f"befristet vermietet bis {wann}")
     elif (s := _stelle(VERMIETET_SCHWACH, text)) and not FREI.search(text):
         offen.append(f"vermietet? {s}")
     elif re.search(r"(?i)befristet vermietet|vermietet bis|befristung bis", text):

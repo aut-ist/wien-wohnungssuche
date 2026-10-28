@@ -316,8 +316,8 @@
   },
   "datum": "2026-10-28",
   "zustand": {
-   "ergebnis": "hinweis",
-   "begruendung": "\"aktuell bis Dezember 2035 vermietet\" (befristet, Mietdauer 5 Jahre laut Feldern)"
+   "ergebnis": "raus",
+   "begruendung": "vermietet bis 12/2035, länger als Q1 2027: \"aktuell bis Dezember 2035 vermietet\" (befristet, Mietdauer 5 Jahre laut Feldern)"
   }
  },
  "wh-2115525630": {
@@ -376,8 +376,8 @@
   },
   "datum": "2026-10-28",
   "zustand": {
-   "ergebnis": "hinweis",
-   "begruendung": "\"Befristet vermietet bis 30.11.2027\""
+   "ergebnis": "raus",
+   "begruendung": "vermietet bis 11/2027, länger als Q1 2027: \"Befristet vermietet bis 30.11.2027\""
   }
  },
  "wh-1094026969": {

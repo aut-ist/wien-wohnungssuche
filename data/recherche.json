@@ -1180,27 +1180,19 @@
   "ids": [
    "wh-988498465",
    "wh-1920823179",
-   "wh-1940824815",
-   "wh-795510608",
    "is-444716251046",
    "fm-5689489",
    "is-011956827214",
-   "ds-15173781",
-   "is-825631407080",
-   "is-713411184451"
+   "ds-15173781"
   ],
   "titel": "ERSTBEZUG NACH GENERALSANIERUNG: Familientraum mit großem Eigengarten | 4-Zimmer-Wohnung",
   "plz": 1190,
   "links": [
    "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erstbezug-nach-generalsanierung-familientraum-mit-grossem-eigengarten-4-zimmer-wohnung-988498465/",
    "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/gartenwohnung-mit-weitblick-prestige-living-in-sievering-1920823179/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erdgeschosswohnung-mit-185-m-garten-4-zimmer-lebensqualitaet-pur-in-sievering-1940824815/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/3-zimmer-gartenwohnung-in-gruenruhelage-garage-795510608/",
    "https://www.findmyhome.at/5689489",
    "https://www.immobilienscout24.at/expose/6a2c49340159bd74cfcd9687",
    "https://www.immobilienscout24.at/expose/6a31262865ac7aee494cc9f3",
-   "https://www.immobilienscout24.at/expose/6ab52a9c4721c3e4cede253f",
-   "https://www.immobilienscout24.at/expose/6a3943bba285f688987af506",
    "https://immobilien.derstandard.at/detail/15173781"
   ],
   "anbieter": "Moritz Immobilientreuhand GmbH",
@@ -1402,6 +1394,44 @@
   "erstmals": "2026-10-25"
  },
  {
+  "id": "wh-1940824815",
+  "ids": [
+   "wh-1940824815",
+   "wh-795510608",
+   "is-825631407080",
+   "is-713411184451"
+  ],
+  "titel": "Erdgeschosswohnung mit 185 m² Garten | 4 Zimmer | Lebensqualität pur in Sievering",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erdgeschosswohnung-mit-185-m-garten-4-zimmer-lebensqualitaet-pur-in-sievering-1940824815/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/3-zimmer-gartenwohnung-in-gruenruhelage-garage-795510608/",
+   "https://www.immobilienscout24.at/expose/6ab52a9c4721c3e4cede253f",
+   "https://www.immobilienscout24.at/expose/6a3943bba285f688987af506"
+  ],
+  "anbieter": "Kuhn Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 253 m versetzt)",
+  "punkt": [
+   48.250916,
+   16.32485
+  ],
+  "versatz_m": 253,
+  "preis": 829000.0,
+  "flaeche": 104.0,
+  "zimmer": 3,
+  "stockwerk": "0",
+  "energie": {
+   "hwb": "143,1",
+   "hwb_class": "D",
+   "fgee": "2,13",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1940824815/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
   "id": "wh-1116386068",
   "ids": [
    "wh-1116386068",
@@ -1545,21 +1575,15 @@
   "id": "wh-1476454107",
   "ids": [
    "wh-1476454107",
-   "wh-1030770233",
    "is-623085407398",
-   "fm-5623322",
-   "is-054316064514",
-   "ds-15142005"
+   "fm-5623322"
   ],
   "titel": "ERSTBEZUG NACH SANIERUNG: klimatisierte 3-Zimmer-Gartenwohnung mit 2 weiteren Räumen im Untergeschoss, privatem Garten in Ruhelage",
   "plz": 1190,
   "links": [
    "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erstbezug-nach-sanierung-klimatisierte-3-zimmer-gartenwohnung-mit-2-weiteren-raeumen-im-untergeschoss-privatem-garten-in-ruhelage-1476454107/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/prestige-living-in-sievering-grosszuegige-gartenwohnung-mit-stil-1030770233/",
    "https://www.findmyhome.at/5623322",
-   "https://www.immobilienscout24.at/expose/699f224dff34d67b3df10806",
-   "https://www.immobilienscout24.at/expose/6a0712b73295ada687bb068e",
-   "https://immobilien.derstandard.at/detail/15142005"
+   "https://www.immobilienscout24.at/expose/699f224dff34d67b3df10806"
   ],
   "anbieter": "Moritz Immobilientreuhand GmbH",
   "adresse_im_inserat": "Sieveringer Straße",
@@ -1618,28 +1642,54 @@
   "erstmals": "2026-10-25"
  },
  {
+  "id": "wh-1030770233",
+  "ids": [
+   "wh-1030770233",
+   "is-054316064514",
+   "ds-15142005"
+  ],
+  "titel": "Prestige Living in Sievering: Großzügige Gartenwohnung mit Stil",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/prestige-living-in-sievering-grosszuegige-gartenwohnung-mit-stil-1030770233/",
+   "https://www.immobilienscout24.at/expose/6a0712b73295ada687bb068e",
+   "https://immobilien.derstandard.at/detail/15142005"
+  ],
+  "anbieter": "Thurner Realitäten GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 256 m versetzt)",
+  "punkt": [
+   48.25072,
+   16.32728
+  ],
+  "versatz_m": 256,
+  "preis": 995000.0,
+  "flaeche": 164.22,
+  "zimmer": 5,
+  "stockwerk": "0",
+  "energie": {
+   "hwb": "230,2",
+   "hwb_class": "F",
+   "fgee": "2,55",
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1030770233/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
   "id": "wh-1077060274",
   "ids": [
    "wh-1077060274",
-   "wh-828476959",
-   "wh-1303298599",
    "is-035732069449",
-   "fm-5735986",
-   "is-602553206660",
-   "ds-15238405",
-   "is-889501135497"
+   "fm-5735986"
   ],
   "titel": "ERSTBEZUG NACH GENERALSANIERUNG: \"Wohnatelier Sievering\" | Exklusive DG-Wohnung mit 5 Terrassen",
   "plz": 1190,
   "links": [
    "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/erstbezug-nach-generalsanierung-wohnatelier-sievering-exklusive-dg-wohnung-mit-5-terrassen-1077060274/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/generalsanierte-wunderschoene-familienwohnung-115-6-m-mit-terrassen-wohnateliers-sievering-828476959/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/hochwertig-sanierte-4-zimmer-dachgeschosswohnung-suedterrasse-klimaanlage-tiefgarage-1303298599/",
    "https://www.findmyhome.at/5735986",
-   "https://www.immobilienscout24.at/expose/6aa07112d612721b8a80fc78",
-   "https://www.immobilienscout24.at/expose/6a96c02552396f7ef108d579",
-   "https://www.immobilienscout24.at/expose/6aa12968e1701c007aa9ffa0",
-   "https://immobilien.derstandard.at/detail/15238405"
+   "https://www.immobilienscout24.at/expose/6aa07112d612721b8a80fc78"
   ],
   "anbieter": "Moritz Immobilientreuhand GmbH",
   "adresse_im_inserat": "Sieveringer Straße",
@@ -1652,7 +1702,7 @@
   "preis": 950000.0,
   "flaeche": 115.6,
   "zimmer": 4,
-  "stockwerk": "2",
+  "stockwerk": null,
   "energie": {
    "hwb": "165,3",
    "hwb_class": "E",
@@ -1698,44 +1748,6 @@
   "erstmals": "2026-10-25"
  },
  {
-  "id": "wh-1661592918",
-  "ids": [
-   "wh-1661592918",
-   "is-226201903024",
-   "ds-15130510",
-   "fm-5663547"
-  ],
-  "titel": "Cottageviertel Döbling | Loftartige DG-Wohnung mit Terrasse | Befristet vermietet bis 2035",
-  "plz": 1190,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/cottageviertel-doebling-loftartige-dg-wohnung-mit-terrasse-befristet-vermietet-bis-2035-1661592918/",
-   "https://www.findmyhome.at/5663547",
-   "https://www.immobilienscout24.at/expose/69f9b2fca4937fccb4a9881f",
-   "https://immobilien.derstandard.at/detail/15130510"
-  ],
-  "anbieter": "Immobilienwelt Leiner",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (Kartenpunkt bis zu 258 m versetzt)",
-  "punkt": [
-   48.237972,
-   16.339718
-  ],
-  "versatz_m": 258,
-  "preis": 564000.0,
-  "flaeche": 74.2,
-  "zimmer": null,
-  "stockwerk": "3",
-  "energie": {
-   "hwb": "176,24",
-   "hwb_class": null,
-   "fgee": "2,97",
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-1661592918/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
   "id": "wh-1936414346",
   "ids": [
    "wh-1936414346",
@@ -1768,6 +1780,40 @@
    "fgee_class": null
   },
   "grundrisse": "data/grundrisse/wh-1936414346/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "wh-1303298599",
+  "ids": [
+   "wh-1303298599",
+   "is-889501135497"
+  ],
+  "titel": "Hochwertig sanierte 4-Zimmer-Dachgeschosswohnung | Südterrasse | Klimaanlage | Tiefgarage",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/hochwertig-sanierte-4-zimmer-dachgeschosswohnung-suedterrasse-klimaanlage-tiefgarage-1303298599/",
+   "https://www.immobilienscout24.at/expose/6aa12968e1701c007aa9ffa0"
+  ],
+  "anbieter": "16EAST Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 255 m versetzt)",
+  "punkt": [
+   48.248886,
+   16.324032
+  ],
+  "versatz_m": 255,
+  "preis": 950000.0,
+  "flaeche": 115.6,
+  "zimmer": 4,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": "144",
+   "hwb_class": "D",
+   "fgee": "1,93",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1303298599/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  },
@@ -2056,6 +2102,42 @@
   "erstmals": "2026-10-25"
  },
  {
+  "id": "wh-828476959",
+  "ids": [
+   "wh-828476959",
+   "is-602553206660",
+   "ds-15238405"
+  ],
+  "titel": "Generalsanierte, wunderschöne Familienwohnung (~115,6 m²) mit Terrassen - WOHNATELIERs SIEVERING",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/generalsanierte-wunderschoene-familienwohnung-115-6-m-mit-terrassen-wohnateliers-sievering-828476959/",
+   "https://www.immobilienscout24.at/expose/6a96c02552396f7ef108d579",
+   "https://immobilien.derstandard.at/detail/15238405"
+  ],
+  "anbieter": "FSR Immobilienvermarktungs- und -beteiligungsgesellschaft m.b.H.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 263 m versetzt)",
+  "punkt": [
+   48.250507,
+   16.325258
+  ],
+  "versatz_m": 263,
+  "preis": 950000.0,
+  "flaeche": 115.6,
+  "zimmer": 4,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "128,3",
+   "hwb_class": "D",
+   "fgee": "1,9",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-828476959/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
   "id": "wh-975095864",
   "ids": [
    "wh-975095864",
@@ -2224,40 +2306,6 @@
   "erstmals": "2026-10-25"
  },
  {
-  "id": "wh-1195053795",
-  "ids": [
-   "wh-1195053795",
-   "is-691857632819"
-  ],
-  "titel": "Großzügige Altbauwohnung - Top-Investment beim Karmelitermarkt",
-  "plz": 1020,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/grosszuegige-altbauwohnung-top-investment-beim-karmelitermarkt-1195053795/",
-   "https://www.immobilienscout24.at/expose/6a210ae1e3becfd2d596773d"
-  ],
-  "anbieter": "CB Living GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 259 m versetzt)",
-  "punkt": [
-   48.21861,
-   16.375431
-  ],
-  "versatz_m": 259,
-  "preis": 849000.0,
-  "flaeche": 140.0,
-  "zimmer": null,
-  "stockwerk": "1",
-  "energie": {
-   "hwb": null,
-   "hwb_class": null,
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-1195053795/",
-  "im_nest": false,
-  "erstmals": "2026-10-25"
- },
- {
   "id": "wh-2122073425",
   "ids": [
    "wh-2122073425",
@@ -2297,17 +2345,13 @@
   "id": "wh-1378421819",
   "ids": [
    "wh-1378421819",
-   "wh-1432561905",
-   "is-013638453125",
-   "is-545687104540"
+   "is-013638453125"
   ],
   "titel": "Helle 4 Zimmerwohnung mit Terrasse beim AUGARTEN!",
   "plz": 1020,
   "links": [
    "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/helle-4-zimmerwohnung-mit-terrasse-beim-augarten-1378421819/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/-grosszuegige-4-zimmer-wohnung-mit-charme-und-komfort-1432561905/",
-   "https://www.immobilienscout24.at/expose/6aa7b61df2d0f3ffe735585e",
-   "https://www.immobilienscout24.at/expose/6aa7b61d38550347bbd041f4"
+   "https://www.immobilienscout24.at/expose/6aa7b61df2d0f3ffe735585e"
   ],
   "anbieter": "Adamant Immobilien GmbH",
   "adresse_im_inserat": null,
@@ -2362,6 +2406,42 @@
    "fgee_class": "D"
   },
   "grundrisse": "data/grundrisse/wh-1176565994/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "wh-2034942129",
+  "ids": [
+   "wh-2034942129",
+   "wh-1324672051",
+   "is-185429880905"
+  ],
+  "titel": "SERVITENVIERTEL - ERSTBEZUG - INNENHOFTERRASSE - HIGH END STILWOHNUNG - 97 m WFL - 4 Zimmer - 2 BÄDER - RENOVIERTES STILJUWEL",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-innenhofterrasse-high-end-stilwohnung-97-m-wfl-4-zimmer-2-baeder-renoviertes-stiljuwel-2034942129/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-innenhofterrasse-high-end-stilwohnung-97-m-wfl-4-zimmer-2-baeder-renoviertes-stiljuwel-1324672051/",
+   "https://www.immobilienscout24.at/expose/681640173bacde853e25205d"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk (Kartenpunkt bis zu 261 m versetzt)",
+  "punkt": [
+   48.223705,
+   16.367336
+  ],
+  "versatz_m": 261,
+  "preis": 849000.0,
+  "flaeche": 95.0,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "161",
+   "hwb_class": null,
+   "fgee": "2,75",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2034942129/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  },
@@ -2600,6 +2680,70 @@
    "fgee_class": null
   },
   "grundrisse": "data/grundrisse/is-170267545275/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "is-646796689302",
+  "ids": [
+   "is-646796689302"
+  ],
+  "titel": "Urbaner Wohnkomfort - Zuhause für Generationen",
+  "plz": 1190,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6a0c4aaa6a2e43462101cfed"
+  ],
+  "anbieter": "Estina Immobilien GmbH",
+  "adresse_im_inserat": "Heiligenstädter Straße",
+  "lage": "19. Bezirk",
+  "punkt": [
+   48.2496,
+   16.362877
+  ],
+  "versatz_m": 0,
+  "preis": 993400.0,
+  "flaeche": 110.45,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 32.2,
+   "hwb_class": "A",
+   "fgee": 0.75,
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/is-646796689302/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "fm-5401973",
+  "ids": [
+   "fm-5401973"
+  ],
+  "titel": "Traumlage in Nussdorf - Generalsaniert mit großer Terrasse und ...",
+  "plz": 1190,
+  "links": [
+   "https://www.findmyhome.at/5401973"
+  ],
+  "anbieter": "Dr. Alexandra Gabriel Realitätenvermittlungsgesellschaft m.b.H.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.261782,
+   16.319881
+  ],
+  "versatz_m": 0,
+  "preis": 749000.0,
+  "flaeche": 94.0,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 125.4,
+   "hwb_class": "D",
+   "fgee": 3.12,
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/fm-5401973/",
   "im_nest": false,
   "erstmals": "2026-10-25"
  }

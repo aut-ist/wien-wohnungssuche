@@ -62,8 +62,12 @@ Die Käufer wollen selbst einziehen und nichts sanieren. Antworte mit
   sanierungs- oder renovierungsbedürftig, Originalzustand, für Handwerker,
   Rohdachboden, "nach Ihren Vorstellungen sanieren". Auch **belagsfertig**, Edelrohbau oder
   ohne Bodenbeläge (Böden, Fliesen oder Bad fehlen noch) sind `raus`; schlüsselfertig ist ok.
-- `hinweis` wenn sie **befristet** vermietet ist (z. B. "befristet bis 2027") oder nur kleine
-  Arbeiten nötig sind. Die Wohnung bleibt drin, `begruendung` erscheint als Hinweis.
+- Befristet vermietet: läuft die Miete **länger als bis Ende März 2027** (Q1 2027), ist sie
+  `raus` (z. B. "befristet bis 30.11.2027", "bis 12/2035"). Endet sie spätestens im März 2027,
+  ist es ein `hinweis`. Ohne Enddatum ("derzeit befristet vermietet") ebenfalls `hinweis` mit
+  "Ende der Befristung erfragen". Nur ein vermieteter Garagenplatz zählt nicht.
+- `hinweis` auch, wenn nur kleine Arbeiten nötig sind. Die Wohnung bleibt drin, `begruendung`
+  erscheint als Hinweis.
 - `ok` heißt bestandsfrei, saniert oder Erstbezug. Ebenso, wenn "Mieter" nur allgemein
   erwähnt wird ("ideal für Eigennutzer oder Anleger") oder Arbeiten nur das Haus
   betreffen (Fassade wird saniert).

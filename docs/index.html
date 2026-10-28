@@ -356,7 +356,7 @@ const NUR_NEST = new URLSearchParams(location.search).has('nest');
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
-const STATUS_TXT = { gruen: 'passt', grau: 'unklar', raus: 'ausgeschlossen' };
+const STATUS_TXT = { gruen: 'passt', grau: 'noch offen', raus: 'passt nicht' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
 const BEZIRKE = { 1010: '1.', 1020: '2.', 1080: '8.', 1090: '9.', 1180: '18.', 1190: '19.' };
 const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e8710a', w: 2, d: '5 4', n: 'Bus' },
@@ -493,13 +493,11 @@ legende.onAdd = () => {
     return d;
   }
   d.innerHTML =
-    '<div><i class="flaeche" style="border-color:#3b5bdb;background:rgba(59,91,219,.12)"></i>Suchgebiet</div>' +
     '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     oeffiLeg +
-    `<div>${legEi('gruen')} passt ${legEi('grau')} unklar ${legEi('raus')} raus</div>` +
-    `<div>${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { neu: true })} neu</div>` +
-    `<div>${legEi('gruen', { ungefaehr: true })} Lage ungefähr · 🪺 im Nest</div>`;
+    `<div>${legEi('gruen', { neu: true })} neu ${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut</div>` +
+    `<div><span class="leg-ei">${goldEi(16)}</span> im Nest ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>`;
   d.addEventListener('click', () => d.classList.toggle('offen'));
   L.DomEvent.disableClickPropagation(d);
   return d;
@@ -656,7 +654,7 @@ function tagsHtml(w) {
     ${w.offline ? `<span class="tag offline">${esc(w.gruende?.[0] || 'Nicht mehr online')}</span>` : ''}
     ${w.neu && !w.offline ? '<span class="tag neu">NEU</span>' : ''}
     ${istGesehen(w) && !NUR_NEST ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
-    <span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>
+    ${w.status !== 'gruen' ? `<span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>` : ''}
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
     ${(d => d ? `<span class="tag gold">Preis ${d.prozent < 0 ? '−' : '+'}${Math.abs(d.prozent).toLocaleString('de-AT', { maximumFractionDigits: 1 })} %</span>` : '')(preisAenderung(w))}
@@ -695,7 +693,8 @@ function karteHtml(w, papierkorb) {
 /* Marker als Eier: Farbe = Status, gestrichelt = Lage ungefähr, weiß = scho gschaut,
    goldener Rand = neu, im Nest = gemerkt */
 function eiSvg(w, groesse) {
-  const c = FARBE[w.status], g = w._gesehen ?? istGesehen(w), n = w.neu && !g && w.status !== 'raus';
+  // ein Ei für alle Wohnungen, die in Frage kommen (passt oder noch offen); nur Ausgeschlossene rot
+  const c = w.status === 'raus' ? FARBE.raus : FARBE.gruen, g = w._gesehen ?? istGesehen(w), n = w.neu && !g && w.status !== 'raus';
   const rand = g ? c : n ? '#e3a400' : '#ffffff';
   return `<svg viewBox="-2 -2 24 30" width="${groesse * .8}" height="${groesse}">
     <path d="${EI}" fill="${g ? '#fff' : c}" fill-opacity="${!g && w.ungefaehr ? .5 : 1}"
@@ -725,13 +724,9 @@ function eiIcon(w) {
     const s = 30 * (aktiv ? 1.6 : 1);
     return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: goldEi(s) });
   }
-  if (istGemerkt(w)) {  // Ei im Nest
-    return L.divIcon({ className: cls, iconSize: [42 * k, 40 * k], iconAnchor: [21 * k, 30 * k], html: `
-      <svg viewBox="0 0 36 34" width="${42 * k}" height="${40 * k}">
-        <g transform="translate(8 0)">${eiSvg(w, 26).replace(/^<svg[^>]*>|<\/svg>$/g, '')}</g>
-        <path d="M2 20 Q18 36 34 20 Q33 28 26 31 Q18 34 10 31 Q3 28 2 20Z" fill="#9a6b3f" stroke="#fff" stroke-width="1.2"/>
-        <path d="M5 23 Q15 29 25 26 M9 28 Q20 31 31 23" stroke="#6e4826" stroke-width="1.2" fill="none"/>
-      </svg>` });
+  if (istGemerkt(w)) {  // im Nest: goldenes Ei
+    const s = 30 * k;
+    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55], html: goldEi(s) });
   }
   const s = (w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28) * (aktiv ? 1.7 : 1);
   return L.divIcon({ className: cls, iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],

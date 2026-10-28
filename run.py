@@ -35,6 +35,7 @@ GEPRUEFT = DATA / "nest_geprueft.json"
 RECHERCHE_PRO_TAG = 15  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundrisse nur für diese
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
+SICHTBAR = DATA / "sichtbar_seit.json"
 MAP_DATA = DOCS / "listings.json"
 TODAY = dt.date.today().isoformat()
 F = CONFIG["filter"]
@@ -437,11 +438,27 @@ def _woerter(s):
     return {w for w in re.findall(r"[a-zäöüß]{4,}", (s or "").lower())}
 
 
+def _zahl(v):
+    """"147,9", 147.9 oder "1886" -> Zahl, sonst None."""
+    try:
+        return float(str(v).replace(",", ".")) if v not in (None, "") else None
+    except ValueError:
+        return None
+
+
 def ist_duplikat(a, b):
     """Dieselbe Wohnung auf zwei Portalen (oder doppelt auf einem)?"""
     if a["plz"] != b["plz"] or not (a.get("flaeche") and b.get("flaeche") and a.get("preis") and b.get("preis")):
         return False
     if a.get("zimmer") and b.get("zimmer") and a["zimmer"] != b["zimmer"]:
+        return False
+    # anderer Energieausweis oder anderes Baujahr = anderes Haus (z. B. Makler mit zwei Wohnungen zu
+    # gleichem Preis und gleicher Fläche: Rembrandtstraße 1886 und Rotensterngasse 1960)
+    ha, hb = _zahl((a.get("energie") or {}).get("hwb")), _zahl((b.get("energie") or {}).get("hwb"))
+    if ha and hb and abs(ha - hb) > max(2, 0.05 * max(ha, hb)):
+        return False
+    ja, jb = _zahl(a.get("baujahr")), _zahl(b.get("baujahr"))
+    if ja and jb and int(ja) != int(jb):
         return False
     df = abs(a["flaeche"] - b["flaeche"])
     dp = abs(a["preis"] - b["preis"]) / max(a["preis"], b["preis"])
@@ -656,6 +673,7 @@ def build():
     korb = set(markierungen.get("papierkorb") or {})
     nest = set(markierungen.get("gemerkt") or {})
     archiv = load_json(PREISARCHIV, {})
+    sichtbar = load_json(SICHTBAR, {})  # Inserat -> erster Tag auf der Karte
     recherche = []
     heute = dt.date.today()
     karte, pending, details = [], [], {}
@@ -724,8 +742,16 @@ def build():
             e["verlauf"] = sorted({tuple(v) for v in e["verlauf"] + r["preisverlauf"]})
             e["online_seit"] = min(e.get("online_seit") or r["online_seit"], r["online_seit"])
             r["preisverlauf"], r["online_seit"] = [list(v) for v in e["verlauf"]], e["online_seit"]
+        # "neu" zählt ab dem Tag, an dem die Wohnung auf der Karte auftaucht (nicht ab dem ersten Fund):
+        # so sind auch Wohnungen neu, die erst durch eine Regeländerung passen (z. B. Gasheizung)
+        if b["status"] != "raus" and not offline:
+            seit = min([sichtbar[i] for i in r["ids"] if i in sichtbar] or [TODAY])
+            for i in r["ids"]:
+                sichtbar.setdefault(i, seit)
+        else:
+            seit = r["erstmals"]
         # beim allerersten Lauf ist alles "neu" – das zählt nicht
-        neu = r["erstmals"] > erster_lauf and (heute - dt.date.fromisoformat(r["erstmals"])).days < CONFIG["neu_tage"]
+        neu = seit > erster_lauf and (heute - dt.date.fromisoformat(seit)).days < CONFIG["neu_tage"]
         karte.append({
             "id": r["id"], "ids": r["ids"], "links": r["links"], "quelle": r["quelle"], "url": r["url"],
             "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "offline": offline, "lat": b["lat"], "lon": b["lon"],
@@ -759,6 +785,7 @@ def build():
             if e.get("details"):
                 details[w["id"]] = e["details"]
     save_json(PREISARCHIV, archiv)
+    save_json(SICHTBAR, sichtbar)
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     quellen = sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
