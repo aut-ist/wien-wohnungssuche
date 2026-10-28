@@ -599,7 +599,7 @@
    "flaeche": 106.13,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": "Kutschkergasse",
+   "adresse": "Kutschkergasse 11",
    "lage": "18. Bezirk (aus Beschreibung: Kutschkergasse 11)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -830,7 +830,7 @@
    "flaeche": 95.1,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Staudgasse 40",
    "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -1024,7 +1024,7 @@
    "flaeche": 95.1,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Staudgasse 40",
    "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -1187,7 +1187,7 @@
    "flaeche": 99.02,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Staudgasse 40",
    "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -1558,7 +1558,7 @@
    "flaeche": 103.42,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": "Kutschkergasse",
+   "adresse": "Kutschkergasse 11",
    "lage": "18. Bezirk (aus Beschreibung: Kutschkergasse 11)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -1769,7 +1769,7 @@
    "flaeche": 95.29,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Staudgasse 40",
    "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -2082,7 +2082,7 @@
    "flaeche": 121.0,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Weitlofgasse 9",
    "lage": "18. Bezirk (aus Beschreibung: Weitlofgasse 9)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -2253,7 +2253,7 @@
    "flaeche": 93.19,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
+   "adresse": "Erndtgasse 28 (Alt-Gersthof)",
    "lage": "18. Bezirk (aus Beschreibung: Erndtgasse 28 (Alt-Gersthof))",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -2732,7 +2732,7 @@
    "flaeche": 82.13,
    "zimmer": 4,
    "plz": 1190,
-   "adresse": "Krottenbachstraße",
+   "adresse": "Krottenbachstraße 182",
    "lage": "19. Bezirk (aus Beschreibung: Krottenbachstraße 182)",
    "heizung": {
     "ergebnis": "kein_gas",
@@ -3295,7 +3295,7 @@
    "flaeche": 93.0,
    "zimmer": 4,
    "plz": 1090,
-   "adresse": null,
+   "adresse": "Borschkegasse 15",
    "lage": "9. Bezirk (aus Beschreibung: Borschkegasse 15)",
    "heizung": {
     "ergebnis": "kein_gas",

@@ -302,6 +302,8 @@ def bewerten(r, rev):
             geocode(f"{lrev['adresse']}, {r['plz']} Wien") if lrev.get("adresse") else None)
         if pos and pos[0]:
             out["lat"], out["lon"] = pos
+            if lrev.get("adresse"):  # geprüfte Adresse (Recherche) statt der aus dem Inserat zeigen/verlinken
+                out["adresse"] = lrev["adresse"]
             drin, lage_txt, _ = geo.pruefe(*pos)
             lage_txt += f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})"
             out["ungefaehr"] = lrev.get("sicherheit") != "genau"
@@ -758,7 +760,7 @@ def build():
             "ungefaehr": b["ungefaehr"], "preis": b.get("preis") or r.get("preis"),
             "preis_inserat": r.get("preis") if b.get("preis") else None, "preis_hinweis": b.get("preis_hinweis"),
             "flaeche": r.get("flaeche") or eck.get("flaeche"),
-            "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": r.get("adresse"),
+            "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),

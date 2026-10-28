@@ -22,6 +22,7 @@
     --shadow: 0 8px 28px rgba(20, 22, 26, .14); --r: 12px;
   }
   * { box-sizing: border-box; touch-action: manipulation; }  /* kein Doppeltipp-Zoom am Handy */
+  #map, #map * { touch-action: none; }  /* Gesten auf der Karte macht die Karte selbst (Pinch, Doppeltipp) */
   html { -webkit-text-size-adjust: 100%; overflow-x: clip; }
   /* iPhone zoomt beim Antippen jedes Eingabefelds unter 16 px hinein und bleibt dann gezoomt */
   @media (hover: none), (max-width: 800px) { input, select, textarea { font-size: 16px !important; } }
@@ -303,7 +304,6 @@
     <div class="kopf-rechts">
       <button class="btn" id="btnGas" aria-pressed="false" title="Wohnungen mit Gasheizung ausblenden">ohne Gasheizung</button>
       <button class="btn" id="btnFilter" aria-pressed="false">Filter <span class="zahl" id="nTreffer">0</span></button>
-      <button class="btn" id="btnOeffis" aria-pressed="true">Öffis 18./19.</button>
     </div>
   </header>
   <section id="filter" aria-label="Filter">
@@ -314,6 +314,7 @@
     <div class="feld">Bezirk<div class="chips" id="fBezirke"></div></div>
     <div class="feld">Status<div class="chips" id="fStatus"></div></div>
     <div class="feld">Sonstiges<div class="chips" id="fExtra"></div></div>
+    <div class="feld">Karte<div class="chips"><button class="chip" id="btnOeffis" aria-pressed="true">Öffis 18./19. anzeigen</button></div></div>
     <div class="feld">Sortierung
       <select id="fSort" class="chip">
         <option value="neu">Neueste zuerst</option>
@@ -445,7 +446,25 @@ const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, det
 const HANDY = matchMedia('(max-width: 800px)').matches;
 const MAUS = matchMedia('(hover: hover) and (pointer: fine)').matches;
 // am Handy feinere Zoomstufen, damit "auf alle Eier einpassen" in die kleine Karte passt
-const map = L.map('map', { zoomControl: false, zoomSnap: HANDY ? 0.25 : 1 }).setView([48.232, 16.345], HANDY ? 12 : 13);
+const map = L.map('map', { zoomControl: false, zoomSnap: HANDY ? 0.25 : 0.5, zoomDelta: HANDY ? 1 : 0.5,
+  wheelPxPerZoomLevel: 90, doubleClickZoom: !HANDY }).setView([48.232, 16.345], HANDY ? 12 : 13);
+// Doppeltipp am Handy: an der Stelle eine Stufe hineinzoomen (iOS liefert dafür kein verlässliches dblclick)
+if (HANDY) {
+  let tipp = 0, wo = null;
+  map.getContainer().addEventListener('touchend', e => {
+    if (e.touches.length || e.changedTouches.length !== 1) { tipp = 0; return; }
+    const t = e.changedTouches[0], jetzt = Date.now();
+    if (jetzt - tipp < 320 && wo && Math.hypot(t.clientX - wo.x, t.clientY - wo.y) < 35) {
+      const r = map.getContainer().getBoundingClientRect();
+      map.setZoomAround(map.containerPointToLatLng([t.clientX - r.left, t.clientY - r.top]), map.getZoom() + 1);
+      tipp = 0;
+      e.preventDefault();
+    } else {
+      tipp = jetzt; wo = { x: t.clientX, y: t.clientY };
+    }
+  }, { passive: false });
+  map.getContainer().addEventListener('touchstart', e => { if (e.touches.length > 1) tipp = 0; }, { passive: true });
+}
 map.attributionControl.getContainer().addEventListener('click', e => e.currentTarget.classList.toggle('offen'));
 map.on('dragstart', () => { state.selbstBewegt = true; });  // ab dann nicht mehr automatisch einpassen
 L.control.zoom({ position: 'topright' }).addTo(map);
@@ -607,12 +626,13 @@ function guertelLang(w) {
 // gestreut (Bezirksmitte), daher dann nur eine Suche nach Straße bzw. Bezirk, kein Street View.
 function mapsLinks(w, gross) {
   const genau = !w.ungefaehr && w.lat;
+  // geprüfte Adresse, sonst der Punkt (auch wenn nur ungefähr, das ist genauer als der ganze Bezirk)
   const ziel = w.adresse && /[a-zäöüß]{4}/i.test(w.adresse) ? `${w.adresse}, ${w.plz} Wien`
-    : genau ? `${w.lat},${w.lon}` : `${w.plz} Wien`;
+    : w.lat ? `${w.lat},${w.lon}` : `${w.plz} Wien`;
   const suche = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ziel)}`;
   const sv = genau ? `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${w.lat},${w.lon}` : null;
   return `<div class="gmaps${gross ? ' gross' : ''}">
-    <a href="${esc(suche)}" target="_blank" rel="noopener" data-akt="link">📍 Google Maps${genau || w.adresse ? '' : ' (nur Bezirk)'}</a>
+    <a href="${esc(suche)}" target="_blank" rel="noopener" data-akt="link">📍 Google Maps${genau ? '' : w.lat || w.adresse ? ' (ungefähr)' : ' (nur Bezirk)'}</a>
     ${sv ? `<a href="${esc(sv)}" target="_blank" rel="noopener" data-akt="link">👁 Street View</a>` : ''}</div>`;
 }
 /* ---------- Preisverlauf (Verhandlungsspielraum) ---------- */
