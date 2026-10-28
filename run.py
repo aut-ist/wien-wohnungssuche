@@ -22,7 +22,7 @@ import traceback
 from wohnungen import geo, heizung, zustand
 from wohnungen.quellen import QUELLEN
 from wohnungen.config import CONFIG, DATA, DOCS, ROOT, load_json, save_json
-from wohnungen.geocode import geocode
+from wohnungen.geocode import geocode, strassenblick
 from wohnungen.http import get
 
 LISTINGS = DATA / "listings.json"
@@ -788,6 +788,19 @@ def build():
                 details[w["id"]] = e["details"]
     save_json(PREISARCHIV, archiv)
     save_json(SICHTBAR, sichtbar)
+    # Street View vom Gehsteig aus mit Blick aufs Haus (nur bei genauer Lage; neue Punkte max. 150 pro Lauf)
+    neu_abgefragt = 0
+    for w in karte:
+        if w.get("ungefaehr") or not w.get("lat") or w["status"] == "raus":
+            continue
+        try:
+            from wohnungen import geocode as _g
+            if neu_abgefragt >= 150 and f"{w['lat']:.6f},{w['lon']:.6f}" not in (_g._blick or {}):
+                continue
+            neu_abgefragt += 1
+            w["sv"] = strassenblick(w["lat"], w["lon"])
+        except Exception as e:  # Netz weg: dann eben ohne
+            log(f"Street-View-Punkt {w['id']}: {e}")
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     quellen = sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,

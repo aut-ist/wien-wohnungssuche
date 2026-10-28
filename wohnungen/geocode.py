@@ -31,3 +31,48 @@ def geocode(adresse):
     _cache[key] = [round(float(res[0]["lat"]), 6), round(float(res[0]["lon"]), 6)] if res else None
     save_json(CACHE, _cache)
     return tuple(_cache[key]) if _cache[key] else None
+
+
+BLICK_CACHE = DATA / "strassenblick_cache.json"
+_blick = None
+
+
+def strassenblick(lat, lon):
+    """Für Street View: nächster Punkt auf der Straße vor dem Haus und Blickrichtung zum Haus.
+    Am Hauspunkt selbst (Hof, Gebäudemitte) zeigt Google oft Nutzerfotos statt der Straßenansicht.
+    -> {"lat", "lon", "heading"} oder None (keine Straße in 80 m gefunden)."""
+    import math
+    global _blick, _last
+    if _blick is None:
+        _blick = load_json(BLICK_CACHE, {})
+    key = f"{lat:.6f},{lon:.6f}"
+    if key in _blick:
+        return _blick[key]
+    url = "https://nominatim.openstreetmap.org/reverse?" + urllib.parse.urlencode(
+        {"lat": lat, "lon": lon, "format": "jsonv2", "zoom": 17, "polygon_geojson": 1, "layer": "address"})
+    time.sleep(max(0, 1.1 - (time.time() - _last)))
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=30) as r:
+        res = json.load(r)
+    _last = time.time()
+    geo = res.get("geojson") or {}
+    linien = [geo["coordinates"]] if geo.get("type") == "LineString" else \
+        geo.get("coordinates", []) if geo.get("type") == "MultiLineString" else []
+    kx, ky = 111320 * math.cos(math.radians(lat)), 110540
+    best = None
+    for linie in linien:  # nächster Punkt auf dem Straßenzug (in Metern rechnen)
+        for (ax, ay), (bx, by) in zip(linie, linie[1:]):
+            ax, ay, bx, by = (ax - lon) * kx, (ay - lat) * ky, (bx - lon) * kx, (by - lat) * ky
+            dx, dy = bx - ax, by - ay
+            t = 0 if dx == dy == 0 else max(0, min(1, -(ax * dx + ay * dy) / (dx * dx + dy * dy)))
+            px, py = ax + t * dx, ay + t * dy
+            d = math.hypot(px, py)
+            if best is None or d < best[0]:
+                best = (d, px, py)
+    if best and best[0] <= 80:
+        d, px, py = best
+        heading = round((math.degrees(math.atan2(-px, -py)) + 360) % 360)  # vom Straßenpunkt zum Haus
+        _blick[key] = {"lat": round(lat + py / ky, 6), "lon": round(lon + px / kx, 6), "heading": heading}
+    else:
+        _blick[key] = None
+    save_json(BLICK_CACHE, _blick)
+    return _blick[key]

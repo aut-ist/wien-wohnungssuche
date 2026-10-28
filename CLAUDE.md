@@ -68,6 +68,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Street View
+  startet am nächsten Straßenpunkt vor dem Haus mit Blick aufs Haus (`strassenblick` in
+  wohnungen/geocode.py, Cache `data/strassenblick_cache.json`); am Hauspunkt selbst zeigt Google
+  oft Nutzerfotos aus Höfen statt der Straßenansicht.
 - Preis für Eigennutzer: manche Inserate zeigen den Anlegerpreis netto (ohne 20 % USt). Das Paar
   zieht selbst ein, also zählt der Eigennutzerpreis (Filter und Anzeige): `eigennutzer_preis()` in
   run.py liest ihn aus dem Text ("Eigennutzerpreis: € …", "… für Endnutzer"), sonst Anlegerpreis

@@ -630,7 +630,10 @@ function mapsLinks(w, gross) {
   const ziel = w.adresse && /[a-zäöüß]{4}/i.test(w.adresse) ? `${w.adresse}, ${w.plz} Wien`
     : w.lat ? `${w.lat},${w.lon}` : `${w.plz} Wien`;
   const suche = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ziel)}`;
-  const sv = genau ? `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${w.lat},${w.lon}` : null;
+  // Street View vom Straßenpunkt vor dem Haus mit Blick aufs Haus (am Hauspunkt zeigt Google oft Nutzerfotos)
+  const sv = !genau ? null : w.sv
+    ? `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${w.sv.lat},${w.sv.lon}&heading=${w.sv.heading}&pitch=5&fov=80`
+    : `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${w.lat},${w.lon}`;
   return `<div class="gmaps${gross ? ' gross' : ''}">
     <a href="${esc(suche)}" target="_blank" rel="noopener" data-akt="link">📍 Google Maps${genau ? '' : w.lat || w.adresse ? ' (ungefähr)' : ' (nur Bezirk)'}</a>
     ${sv ? `<a href="${esc(sv)}" target="_blank" rel="noopener" data-akt="link">👁 Street View</a>` : ''}</div>`;
