@@ -67,7 +67,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
   und die blaue Zone im 2. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet
-  (13A, Linie 2) und liefert nur noch S-Bahn-Strecken und U-/S-Stationen.
+  (13A, Linie 2) und liefert nur noch S-Bahn-Strecken und U-/S-Stationen. Die U5 (in Bau, bis
+  Frankhplatz ab 2030, bis Hernals Mitte 2030er) ist auf Wunsch eingezeichnet, als gäbe es sie schon
+  (`U5_STATIONEN`); die Öffi-Zeiten zum Gürtel rechnen ohne sie.
 - Fläche: seit 2026-10-30 ab 75 m² (`flaeche_min`); Wohnungen, die vorher schon gefunden wurden
   (`erstmals` der Gruppe, auch über Neu-Inserate), bleiben ab 70 m² (`flaeche_min_bestand`), so wollte
   es das Paar. Der Scrape lädt Detailseiten noch ab 70 m², weil er nicht weiß, ob ein neues Inserat

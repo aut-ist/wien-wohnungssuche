@@ -367,7 +367,7 @@ const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unk
 const BEZIRKE = { 1010: '1.', 1020: '2.', 1080: '8.', 1090: '9.', 1180: '18.', 1190: '19.' };
 const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e8710a', w: 2, d: '5 4', n: 'Bus' },
   // U-Bahn in der Linienfarbe (properties.farbe aus dem Wiener-Linien-Fahrplan), Legende als Farbstreifen
-  ubahn: { c: '#6d4c41', w: 4, n: 'U-Bahn', g: 'linear-gradient(90deg,#E3000F 25%,#A862A4 25% 50%,#319F49 50% 75%,#9D6830 75%)' }, sbahn: { c: '#0277bd', w: 3, d: '8 4', n: 'S-Bahn' } };
+  ubahn: { c: '#6d4c41', w: 4, n: 'U-Bahn', g: 'linear-gradient(90deg,#E3000F 20%,#A862A4 20% 40%,#319F49 40% 60%,#0097A0 60% 80%,#9D6830 80%)' }, sbahn: { c: '#0277bd', w: 3, d: '8 4', n: 'S-Bahn' } };
 const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-AT');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const img = (src, extra = '') => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;

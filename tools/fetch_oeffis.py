@@ -42,6 +42,19 @@ GEBIETE = ([f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (8, 9, 18, 19
 RAND_M = 120          # damit die Linien bis zu den Stationen am Rand (Gürtel) reichen
 MIN_IM_GEBIET_M = 400  # so viel muss eine Linie im Gebiet fahren, um zu zählen
 STATION_RAND_M = 250
+# Zukünftige U5 (Stadt Wien, Stand 2026-10): übernimmt Karlsplatz–Rathaus von der U2, Betrieb bis
+# Frankhplatz ab 2030; 2. Baustufe bis Hernals Baustart ab 2028, fertig Mitte der 2030er. Neue Strecke
+# Station zu Station gerade gezeichnet (Tunnelverlauf nicht veröffentlicht), Koordinaten aus OSM/OGD.
+# Wunsch (2026-10-29): so zeichnen, als gäbe es sie schon (durchgezogen, normale Station). Die Öffi-Zeiten
+# zum Gürtel (tools/oeffi_zeiten.py) rechnen weiter ohne U5.
+U5_FARBE = "#0097A0"  # Türkis
+U5_STATIONEN = [  # Name, (lon, lat), andere U-/S-Linien dort (für Stationen außerhalb der OGD-Liste)
+    ("Karlsplatz", (16.3689, 48.20088), ["U1", "U2", "U4"]), ("Museumsquartier", (16.36141, 48.20254), ["U2"]),
+    ("Volkstheater", (16.35794, 48.20516), []), ("Rathaus", (16.35535, 48.21003), []),
+    ("Frankhplatz", (16.35555, 48.21501), []), ("Arne-Karlsson-Park", (16.35374, 48.22128), []),
+    ("Michelbeuern-AKH", (16.34425, 48.22124), []), ("Elterleinplatz", (16.3313, 48.21813), []),
+    ("Hernals", (16.31485, 48.22328), ["S45"]),
+]
 REIHENFOLGE = {"ubahn": 0, "sbahn": 1, "tram": 2, "bus": 3}  # Bus zuletzt: gestrichelt über der Straßenbahn sichtbar
 
 
@@ -134,7 +147,8 @@ def _gtfs_linien(box):
         stuecke, drin_m = _im_gebiet(line, box)
         if not stuecke:
             continue
-        e = linien.setdefault(shape_linie[s], {"farbe": farbe[shape_linie[s]], "stuecke": [], "drin_m": 0.0})
+        e = linien.setdefault(shape_linie[s], {"farbe": farbe[shape_linie[s]], "stuecke": [], "drin_m": 0.0,
+                                               "roh": line})  # häufigster Weg ganz, für die U5
         e["stuecke"].append(stuecke)
         e["drin_m"] = max(e["drin_m"], drin_m)
     return linien
@@ -167,6 +181,21 @@ def _ohne_doppelte(stuecke_je_weg):
     return raus
 
 
+def _u5(u2):
+    """U5: Karlsplatz–Rathaus im U2-Tunnel, dann gerade von Station zu Station."""
+    def naechster(p):
+        return min(range(len(u2)), key=lambda i: _laenge_m(u2[i], p))
+    a, b = naechster(U5_STATIONEN[0][1]), naechster(U5_STATIONEN[3][1])
+    alt = u2[min(a, b):max(a, b) + 1]
+    if a > b:
+        alt = alt[::-1]
+    stufe1 = alt + [U5_STATIONEN[4][1]]
+    stufe2 = [p for _, p, _ in U5_STATIONEN[4:]]
+    return [{"type": "Feature", "properties": {"typ": "ubahn", "linien": "U5", "farbe": U5_FARBE},
+             "geometry": {"type": "LineString", "coordinates": [[round(x, 5), round(y, 5)] for x, y in simplify(line, 6)]}}
+            for line in (stufe1, stufe2)]
+
+
 def main():
     xs = [x for f in GEBIETE for x, _ in f["geometry"]["coordinates"][0]]
     ys = [y for f in GEBIETE for _, y in f["geometry"]["coordinates"][0]]
@@ -186,6 +215,8 @@ def main():
             feats.append({"type": "Feature", "properties": props,
                           "geometry": {"type": "LineString", "coordinates":
                                        [[round(a, 5), round(b, 5)] for a, b in simplify(teil, 6)]}})
+
+    feats += _u5(gtfs[("ubahn", "U2")]["roh"])
 
     # S-Bahn-Strecken von data.wien.gv.at
     sbahn = []
@@ -225,6 +256,18 @@ def main():
                       "properties": {"typ": "station", "name": name, "linien": ", ".join(linien)},
                       "geometry": {"type": "Point", "coordinates": [round(sum(s["lon"]) / len(s["lon"]), 5),
                                                                     round(sum(s["lat"]) / len(s["lat"]), 5)]}})
+
+    # U5-Stationen: bestehende Station bekommt die U5 dazu, sonst eigene Station
+    vorhanden = {f["properties"]["name"]: f for f in feats if f["properties"]["typ"] == "station"}
+    sortiert = lambda ls: ", ".join(sorted(set(ls), key=lambda l: (l[0] != "U", l)))  # noqa: E731
+    for name, (x, y), andere in U5_STATIONEN:
+        if name in vorhanden:
+            p = vorhanden[name]["properties"]
+            p["linien"] = sortiert(p["linien"].split(", ") + ["U5"])
+        else:
+            feats.append({"type": "Feature", "properties": {"typ": "station", "name": name,
+                                                            "linien": sortiert(andere + ["U5"])},
+                          "geometry": {"type": "Point", "coordinates": [x, y]}})
 
     path = ROOT / "geo" / "oeffis.geojson"
     path.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False),
