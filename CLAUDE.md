@@ -20,7 +20,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Vorrang sortiert (Nest, dann neueste; Gaswohnungen sind ganz normale Wohnungen); Grundrisse lädt der Workflow nur für diese.
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
   schon gescrapt hat, überspringt; Datum in `data/letzter_scrape.txt`; die GitHub-Termine fallen oft
-  aus oder kommen Stunden später). Um 06:15 UTC startet eine Claude-Cloud-Routine, prüft
+  aus oder kommen Stunden später). Um 05:00 UTC (06:00 Wien, Winterzeit) startet eine Claude-Cloud-Routine, stößt den Scrape an, wartet bis 100 min, prüft
   `data/pending.json` und recherchiert; sie wartet mit ihrer Zusammenfassung (= Benachrichtigung)
   bis 09:15 Wiener Zeit, so will es das Paar. In der Cloud blockt der Proxy die Portale, dort nie
   scrapen; fehlt der Scrape, committet die Routine `data/anstoss.txt`, das startet den Workflow.
