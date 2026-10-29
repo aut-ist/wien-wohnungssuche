@@ -58,7 +58,14 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Karte nur nicht angezeigt (Wunsch), sie gelten aber. Umgekehrt bei der roten Zone im 9.
   (Lichtental-Nord, Westgrenze Liechtensteinstraße): bei unsicherer Lage (versetzter Punkt, nur
   Straße, ungefähre Prüfung) nur raus, wenn der ganze Umkreis darin liegt, sonst grau
-  (`rot_vielleicht_draussen` in run.py) – im Zweifel bleibt die Wohnung.
+  (`rot_vielleicht_draussen` in run.py) – im Zweifel bleibt die Wohnung. Seit 2026-10-29 gibt es
+  eine zweite rote Zone im 19. (Heiligenstadt / Karl-Marx-Hof bis Gürtel, zwischen Hohe Warte/
+  Döblinger Hauptstraße und Heiligenstädter Straße), nachgezeichnet auf einem gedrehten
+  Handy-Screenshot (`fit_gedreht` in tools/build_zones.py); es gilt dieselbe Im-Zweifel-drin-Regel.
+- Fläche: seit 2026-10-30 ab 75 m² (`flaeche_min`); Wohnungen, die vorher schon gefunden wurden
+  (`erstmals` der Gruppe, auch über Neu-Inserate), bleiben ab 70 m² (`flaeche_min_bestand`), so wollte
+  es das Paar. Der Scrape lädt Detailseiten noch ab 70 m², weil er nicht weiß, ob ein neues Inserat
+  zu einer bekannten Wohnung gehört.
 - Nest-Recherche: JEDE Wohnung, die ins Nest gelegt wird, wird auf ihre Lage geprüft (auch mit
   "genauen" Portal-Koordinaten: Makler setzen teils Standardpunkte, z. B. MAISON WÄHRING zeigte
   Kreuzgasse 23 statt Staudgasse 40). Neue Nest-Wohnungen meldet das

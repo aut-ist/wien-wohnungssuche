@@ -1,7 +1,7 @@
 """Liegt ein Punkt in unserem Suchgebiet?
 
 Regeln:
-- 8., 18., 19. Bezirk: ganz erlaubt
+- 8., 18., 19. Bezirk: ganz erlaubt, im 19. außer rote Zone (Heiligenstadt / Karl-Marx-Hof bis Gürtel)
 - 9. Bezirk: erlaubt, außer rote Zone (Lichtental-Nord / Friedensbrücke)
 - 1. und 2. Bezirk: nur in den blauen Zonen (mit Toleranzrand)
 - alles andere: raus

@@ -1,7 +1,9 @@
 {
   "filter": {
     "preis_max": 1000000,
-    "flaeche_min": 70,
+    "flaeche_min": 75,
+    "flaeche_min_bestand": 70,
+    "flaeche_min_ab": "2026-10-30",
     "zimmer_min": 3,
     "preis_max_3_zimmer": 700000,
     "guertel_max_min_3_zimmer": 10,

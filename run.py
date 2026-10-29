@@ -48,15 +48,24 @@ def log(*a):
 
 # ---------------------------------------------------------------- scrape
 
-def filter_grund(r):
-    """Harter Filter: Grund zum Ausschließen oder None."""
+def flaeche_min(r, bestand=False):
+    """Seit 2026-10-30 ab 75 m²; Wohnungen, die vorher schon gefunden wurden, bleiben ab 70 m² (Wunsch).
+    Die Gruppe trägt das früheste "erstmals" aller Portale, ein Neu-Inserat das der alten Nummer."""
+    if bestand or (r.get("erstmals") or TODAY) < F["flaeche_min_ab"]:
+        return F["flaeche_min_bestand"]
+    return F["flaeche_min"]
+
+
+def filter_grund(r, bestand=False):
+    """Harter Filter: Grund zum Ausschließen oder None. bestand=True: alte Flächengrenze, für den
+    Scrape, der noch nicht weiß, ob ein neues Inserat zu einer bekannten Wohnung gehört."""
     if r.get("projekt") or "/neubauprojekt/" in r.get("url", ""):
         return "Neubauprojekt-Sammelinserat (Wohnungen sind einzeln gelistet)"
     if r.get("plz") and r["plz"] not in ALLE_PLZ:  # z. B. Klosterneuburg (3400) in der derStandard-Suche 1190
         return f"PLZ {r['plz']} außerhalb des Suchgebiets"
     if r.get("preis") and r["preis"] > F["preis_max"]:
         return f"Preis {r['preis']:,.0f} € über Limit".replace(",", ".")
-    if r.get("flaeche") and r["flaeche"] < F["flaeche_min"]:
+    if r.get("flaeche") and r["flaeche"] < flaeche_min(r, bestand):
         return f"nur {r['flaeche']:g} m²"
     if r.get("zimmer") and r["zimmer"] < F["zimmer_min"]:
         return f"nur {r['zimmer']} Zimmer"
@@ -109,7 +118,7 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
                 if r["id"] in gesehen and m.PREFIX == r["id"].split("-")[0]
                 # ältere willhaben-Detailseiten (vor 2026-10-27) einmal nachladen, um den Versatz zu kennen
                 and (not r.get("detail_am") or (m.PREFIX == "wh" and "lage_radius" not in r))
-                and not filter_grund(r) and not lage_vorab_raus(r)]
+                and not filter_grund(r, bestand=True) and not lage_vorab_raus(r)]
     log(f"{name}: {len(todo)} Detailseiten zu laden")
     for i, r in enumerate(todo, 1):
         try:

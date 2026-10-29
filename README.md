@@ -5,8 +5,8 @@ FindMyHome, Raiffeisen Immobilien und s REAL werden täglich geholt, Duplikate �
 Portale hinweg zu einem Eintrag zusammengeführt, nach eigenen Kriterien gefiltert und auf
 einer Karte gezeigt.
 
-- **Kriterien:** ab 70 m², ab 3 Zimmer, bis 1 Mio. € (Eigennutzerpreis); Gasheizung nur als Filter
-- **Gebiet:** 8., 18., 19. Bezirk, 9. Bezirk ohne Lichtental-Nord, dazu Teile des
+- **Kriterien:** ab 75 m² (vor dem 30.10.2026 gefundene Wohnungen ab 70 m²), ab 3 Zimmer, bis 1 Mio. € (Eigennutzerpreis); Gasheizung nur als Filter
+- **Gebiet:** 8. und 18. Bezirk, 19. Bezirk ohne Heiligenstadt/Karl-Marx-Hof bis Gürtel, 9. Bezirk ohne Lichtental-Nord, dazu Teile des
   1. Bezirks (Börse/Schottenviertel) und des 2. Bezirks (Karmeliterviertel)
 - **Karte:** `docs/` (GitHub Pages)
 

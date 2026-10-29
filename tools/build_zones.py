@@ -26,6 +26,12 @@ VOTIVKIRCHE = (48.215414, 16.359140)
 GAUSSPLATZ = (48.226238, 16.369830)
 BURGTHEATER = (48.210337, 16.361477)
 ANKERUHR = (48.210761, 16.373675)
+# Bahnstationen aus geo/oeffis.geojson
+HEILIGENSTADT = (48.24908, 16.36571)
+OBERDOEBLING = (48.24447, 16.34428)
+KROTTENBACHSTRASSE = (48.24008, 16.34096)
+SPITTELAU = (48.23562, 16.3582)
+NUSSDORFER_STRASSE = (48.2315, 16.35287)
 
 SCREENSHOTS = {
     "leopoldstadt": {
@@ -54,6 +60,24 @@ SCREENSHOTS = {
                  (440, 270), (480, 240), (530, 215), (575, 185), (620, 160), (660, 145),
                  (700, 125), (745, 100)],
     },
+    # Handy-Screenshot 1080x2400 vom 2026-10-29, Karte um ca. 20° gedreht (daher "gedreht").
+    # Linie = Rand der orangen Fläche, automatisch abgetastet und geglättet; Restfehler der
+    # Referenzpunkte 10–20 m.
+    "heiligenstadt_rot": {
+        "gedreht": True,
+        "refs": [((792, 740), HEILIGENSTADT), ((178, 1204), OBERDOEBLING), ((156, 1454), KROTTENBACHSTRASSE),
+                 ((792, 1466), SPITTELAU), ((678, 1738), NUSSDORFER_STRASSE)],
+        "line": [(730, 645), (721, 675), (719, 705), (719, 735), (736, 765), (736, 795), (736, 825),
+                 (742, 855), (746, 885), (744, 915), (742, 945), (744, 975), (748, 1005), (748, 1035),
+                 (743, 1065), (739, 1095), (734, 1125), (731, 1155), (727, 1185), (725, 1215), (724, 1245),
+                 (726, 1275), (730, 1305), (742, 1335), (744, 1365), (747, 1395), (747, 1425), (753, 1455),
+                 (753, 1485), (758, 1515), (758, 1545), (758, 1575), (756, 1605), (748, 1635), (675, 1635),
+                 (672, 1605), (677, 1575), (672, 1545), (658, 1515), (653, 1485), (653, 1455), (649, 1425),
+                 (616, 1395), (616, 1365), (618, 1335), (620, 1305), (624, 1275), (624, 1245), (619, 1215),
+                 (612, 1185), (593, 1155), (589, 1125), (580, 1095), (570, 1065), (567, 1035), (561, 1005),
+                 (555, 975), (545, 945), (534, 915), (501, 885), (489, 855), (463, 825), (457, 795),
+                 (450, 765), (449, 735), (429, 705), (424, 675), (436, 645)],
+    },
 }
 
 # Zonen, die entlang echter Straßen definiert sind (lat, lon) statt nachgezeichnet.
@@ -73,6 +97,12 @@ ZONES = [
      "puffer_m": 50},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
+    # seit 2026-10-29: Streifen zwischen Hohe Warte/Döblinger Hauptstraße und Heiligenstädter Straße,
+    # vom Karl-Marx-Hof bis kurz vor den Gürtel. Nicht zuschneiden: der Zuschnitt nimmt die konvexe
+    # Hülle, die den schmalen Streifen um gut 20 % vergrößern würde; das Stück, das bei Spittelau in
+    # den 9. ragt, liegt ohnehin in Lichtental-Nord und zählt dort nicht (nur_in_bezirk)
+    {"id": "heiligenstadt_rot", "rolle": "ausgeschlossen", "name": "Heiligenstadt / Karl-Marx-Hof bis Gürtel",
+     "nur_in_bezirk": 19, "puffer_m": 0, "zuschneiden": False},
 ]
 
 
@@ -88,6 +118,22 @@ def fit(refs):
     den = sum((g[1] - mlon) ** 2 + (ASPECT * (g[0] - mlat)) ** 2 for _, g in refs)
     s = num / den
     return lambda x, y: (mlat - (y - my) / (s * ASPECT), mlon + (x - mx) / s)
+
+
+def fit_gedreht(refs):
+    """Wie fit(), aber mit Drehung (gedrehte Handykarte): Ähnlichkeitstransformation, komplex gerechnet."""
+    k_lon = math.cos(math.radians(48.22)) * 111320
+    k_lat = 110540
+    lat0, lon0 = refs[0][1]
+    w = [complex((g[1] - lon0) * k_lon, -(g[0] - lat0) * k_lat) for _, g in refs]  # Osten, Süden in m
+    z = [complex(*p) for p, _ in refs]
+    mz, mw = sum(z) / len(z), sum(w) / len(w)
+    a = sum((zi - mz) * (wi - mw).conjugate() for zi, wi in zip(z, w)) / sum(abs(wi - mw) ** 2 for wi in w)
+
+    def to_geo(x, y):
+        m = (complex(x, y) - mz) / a + mw
+        return lat0 - m.imag / k_lat, lon0 + m.real / k_lon
+    return to_geo
 
 
 def _huelle(pts):
@@ -142,10 +188,10 @@ def main():
             ring = GEO_ZONEN[z["id"]]
         else:
             shot = SCREENSHOTS[z["id"]]
-            to_geo = fit(shot["refs"])
+            to_geo = (fit_gedreht if shot.get("gedreht") else fit)(shot["refs"])
             ring = [to_geo(x, y) for x, y in shot["line"]]
         ring = [[round(lon, 6), round(lat, 6)] for lat, lon in ring]
-        if z.get("nur_in_bezirk"):
+        if z.get("nur_in_bezirk") and z.get("zuschneiden", True):
             # auf den Bezirk zuschneiden, damit die Karte nicht Nachbarbezirke rot färbt
             ring = auf_bezirk_zuschneiden(ring, z["nur_in_bezirk"])
         ring.append(ring[0])
