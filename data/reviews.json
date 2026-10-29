@@ -10217,5 +10217,69 @@
    "begruendung": "Generalsaniert, Erstbezug (1. OG, Altbau). Laut Bauträgertext: \"Die Altbauwohnungen werden bis ins 2. Quartal 2027 abgeschlossen sein\"; Q1 2028 gilt für die Fertigstellung im Dachgeschoß. \"Verfügbar ab Q1 2028\" steht bei allen Einheiten gleich, auch beim Penthouse. Übergabetermin dieser Wohnung erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-generalsanierte-altbauwohnung-mit-2-schlafzimmern-und-2-baedern-987879158/"
   },
   "datum": "2026-10-28"
+ },
+ "wh-1724183760": {
+  "lage": {
+   "adresse": "Piaristengasse",
+   "sicherheit": "unklar",
+   "begruendung": "Nur Straßenliste (Strozzigasse, Piaristengasse, Lange Gasse, Neubaugasse, Lerchenfelder Straße) in \"Bestlage der Josefstadt\"; keine Hausnummer"
+  },
+  "datum": "2026-10-29"
+ },
+ "wh-988212014": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "18. Bezirk, aber keine Straße oder Landmarke im Text"
+  },
+  "datum": "2026-10-29"
+ },
+ "wh-2083560628": {
+  "lage": {
+   "adresse": "Alser Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"nur wenige Schritte entfernte Alser Straße\", Nähe Altes AKH und U6 Alser Straße; südlich von Lichtental-Nord",
+   "lat": 48.215,
+   "lon": 16.347
+  },
+  "datum": "2026-10-29"
+ },
+ "is-797345707287": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"19. Bezirk Döbling\", keine Straße oder Landmarke"
+  },
+  "datum": "2026-10-29"
+ },
+ "is-200099348525": {
+  "lage": {
+   "adresse": "Praterstern",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nähe zum Praterstern (nur ca. 500 Meter bzw. 8 Gehminuten)\", Straßenbahn 125 m",
+   "lat": 48.2186,
+   "lon": 16.3925
+  },
+  "datum": "2026-10-29"
+ },
+ "wh-1675596512": {
+  "lage": {
+   "adresse": null,
+   "lat": null,
+   "lon": null,
+   "sicherheit": "unklar",
+   "begruendung": "Keine Adresse im Text, keine Grundrisse, Portale gesperrt"
+  },
+  "datum": "2026-10-29"
+ },
+ "is-860199285014": {
+  "lage": {
+   "adresse": null,
+   "lat": null,
+   "lon": null,
+   "sicherheit": "unklar",
+   "begruendung": "Keine Adresse im Text, keine Grundrisse, Portale gesperrt"
+  },
+  "datum": "2026-10-29"
  }
 }
