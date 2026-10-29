@@ -109,6 +109,7 @@
   .karte.gemerkt { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
   .fotos { position: relative; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 280px; background: var(--soft); scrollbar-width: none; }
   .fotos::-webkit-scrollbar { display: none; }
+  .mehr-laden { padding: 18px; text-align: center; color: var(--muted, #888); font-size: 14px; }
   .fotos img { flex: 0 0 100%; width: 100%; height: 280px; object-fit: cover; scroll-snap-align: start; cursor: zoom-in; }
   .foto-wrap { position: relative; }
   .foto-zahl { position: absolute; left: 8px; bottom: 8px; background: rgba(0,0,0,.55); color: #fff; font-size: 11.5px; padding: 2px 7px; border-radius: 999px; pointer-events: none; }
@@ -701,7 +702,8 @@ function karteHtml(w, papierkorb) {
   const bilder = (w.bilder || []).slice(0, 12);
   return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
-      <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map(b => img(b, 'data-akt="vollbild"')).join('') : '<div style="flex:1"></div>'}</div>
+      <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
+        : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
       <span class="foto-zahl">${(w.bilder || []).length} Fotos</span>` : ''}
       <div class="aktionen">${aktionenHtml(w, papierkorb)}</div>
@@ -815,15 +817,52 @@ function zeichne() {
       : 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
     gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
     papierkorb: "Nix aus'm Nest ghaut. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
-  document.getElementById('liste').innerHTML = liste.length
-    ? liste.map((w, i) => {
+  state.liste = { liste, nachBezirk, leer };
+  listeRendern();
+  if (state.aktiv) zeigeDetail(state.aktiv, false);
+}
+
+// Die Liste nur stückweise aufbauen (LISTE_SCHRITT Karten, mehr beim Runterscrollen): mit 100+ Karten
+// zu je 12 Portalfotos ist Safari am iPhone der Speicher ausgegangen ("wiederholt ein Problem")
+const LISTE_SCHRITT = 30;
+state.listeN = LISTE_SCHRITT;
+function listeRendern() {
+  const { liste, nachBezirk, leer } = state.liste;
+  const n = Math.min(liste.length, state.listeN);
+  const el = document.getElementById('liste');
+  el.innerHTML = liste.length
+    ? liste.slice(0, n).map((w, i) => {
         const kopf = nachBezirk && (i === 0 || liste[i - 1].plz !== w.plz)
           ? `<div class="bezirk-kopf">${BEZIRKE[w.plz] || ''} Bezirk <span>· ${liste.filter(x => x.plz === w.plz).length}</span></div>` : '';
         return kopf + karteHtml(w, state.tab === 'papierkorb');
-      }).join('')
+      }).join('') + (n < liste.length ? `<div class="mehr-laden">weitere ${liste.length - n} Nestle laden …</div>` : '')
     : `<div class="leer">${leer}</div>`;
-  if (state.aktiv) zeigeDetail(state.aktiv, false);
+  const mehr = el.querySelector('.mehr-laden');
+  if (mehr) mehrBeobachter.observe(mehr);
 }
+const mehrBeobachter = new IntersectionObserver(eintraege => {
+  if (!eintraege.some(e => e.isIntersecting)) return;
+  mehrBeobachter.disconnect();
+  state.listeN += LISTE_SCHRITT;
+  listeRendern();
+}, { rootMargin: '600px' });
+// Karte in der Liste erst rendern, wenn sie gebraucht wird (Tipp aufs Ei weiter unten in der Liste)
+function karteSichtbarMachen(id) {
+  const i = (state.liste?.liste || []).findIndex(w => w.id === id);
+  if (i >= state.listeN) { state.listeN = i + LISTE_SCHRITT; listeRendern(); }
+}
+// Fotos im Karten-Streifen: nur das erste lädt sofort, die nächsten erst beim Wischen
+function fotosNachladen(f, bis = Math.round(f.scrollLeft / Math.max(1, f.clientWidth)) + 1) {
+  [...f.querySelectorAll('img')].forEach((b, k) => { if (k <= bis && b.dataset.src) { b.src = b.dataset.src; b.removeAttribute('data-src'); } });
+}
+document.addEventListener('scroll', e => {
+  if (e.target instanceof Element && e.target.classList.contains('fotos')) fotosNachladen(e.target);
+}, true);
+document.addEventListener('click', e => {  // falls der Beobachter nicht anspringt: Tippen lädt auch
+  if (!e.target.closest?.('.mehr-laden')) return;
+  state.listeN += LISTE_SCHRITT;
+  listeRendern();
+});
 
 /* ---------- Detailansicht ---------- */
 async function zeigeDetail(id, neuLaden = true) {
@@ -914,6 +953,7 @@ function oeffne(id, vonKarte) {
   if (vorher && vorher !== id) eiAktualisieren(vorher);
   eiAktualisieren(id);
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
+  if (vonKarte) karteSichtbarMachen(id);
   const karte = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`);
   karte?.classList.add('aktiv');
   if (vonKarte) karte?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
@@ -1104,6 +1144,7 @@ document.getElementById('app').addEventListener('click', e => {
   }
   if (akt === 'links' || akt === 'rechts') {
     const f = t.closest('.foto-wrap').querySelector('.fotos');
+    fotosNachladen(f, Math.round(f.scrollLeft / Math.max(1, f.clientWidth)) + 2);
     f.scrollBy({ left: (akt === 'rechts' ? 1 : -1) * f.clientWidth, behavior: 'smooth' });
     return;
   }
@@ -1161,6 +1202,7 @@ document.addEventListener('keydown', e => {
 document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
   state.tab = b.dataset.tab;
   document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === b));
+  state.listeN = LISTE_SCHRITT;
   schliesse(); zeichne();
 }));
 document.getElementById('btnOeffis').addEventListener('click', e => {
@@ -1190,7 +1232,7 @@ function filterUi() {
   document.getElementById('btnGas').setAttribute('aria-pressed', !!filter.ohneGas);
   document.querySelectorAll('#fExtra .chip').forEach(b => b.setAttribute('aria-pressed', !!filter[b.dataset.k]));
 }
-function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); zeichne(); }
+function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); state.listeN = LISTE_SCHRITT; zeichne(); }
 chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
 chipGruppe(document.getElementById('fZimmer'), [3, 4, 5], 'zimmerwahl', v => v === 5 ? '5 und mehr' : `${v} Zimmer`);
 chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',

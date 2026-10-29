@@ -1,0 +1,19 @@
+{
+ "datum": "2026-10-29",
+ "zeit": "14:17",
+ "ok": true,
+ "probleme": [],
+ "werte": {
+  "listings_mb": 2.6,
+  "eier": 125,
+  "karten": 30,
+  "bilder_geladen": 30,
+  "dom": 2304,
+  "heap_mb": 25,
+  "eier_gescrollt": 125,
+  "karten_gescrollt": 105,
+  "bilder_geladen_gescrollt": 105,
+  "dom_gescrollt": 5214,
+  "heap_mb_gescrollt": 25
+ }
+}

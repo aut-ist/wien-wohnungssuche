@@ -31,6 +31,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Warte-/Wiederholschleifen pro Anfrage einbauen: am 2026-10-29 lief der Scrape so in den 2-h-Abbruch.
   Ein voller Scrape dauert 40 bis 60 Minuten; pusht in der Zeit jemand, nimmt der Workflow den
   neuen Stand von main, legt nur die Scrape-Daten darüber und baut neu (kein Rebase-Konflikt).
+- Seitencheck (`tools/seitencheck.py`, Playwright, iPhone-Emulation): öffnet docs/ und prüft JS-Fehler,
+  Eier, Karten, geladene Bilder (< 150), DOM-Größe -> `data/seitencheck.json`. Läuft im täglichen
+  Workflow (die Routine meldet Probleme ganz oben) und als eigener Workflow bei jeder Änderung an
+  docs/index.html (schlägt fehl -> Mail). Vor jedem Push von docs/index.html lokal laufen lassen.
+  Hintergrund: 2026-10-29 stürzte die Seite am iPhone ab, weil die Liste alle Karten mit je 12
+  Fotos auf einmal baute; jetzt 30 Karten pro Schritt (`listeRendern`), Fotos erst beim Wischen.
 - Was die Automatik nicht eindeutig beurteilen kann, steht in `data/pending.json`.
   Das prüft Claude nach `REVIEW.md` und trägt es mit `python run.py review-file` ein.
 - `data/listings.json` ist der Zustand (alle Inserate), `data/reviews.json` die

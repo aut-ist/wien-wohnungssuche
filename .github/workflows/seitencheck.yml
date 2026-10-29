@@ -1,0 +1,24 @@
+name: Seitencheck
+
+# Nach jeder Änderung am Karten-Code die Seite wie am iPhone öffnen; schlägt der Check fehl,
+# schlägt der Lauf fehl und GitHub schickt eine Mail (2026-10-29: Seite stürzte am iPhone ab).
+on:
+  push:
+    branches: [main]
+    paths: [docs/index.html, tools/seitencheck.py]
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          pip install -q playwright
+          python -m playwright install --with-deps chromium > /dev/null
+          python tools/seitencheck.py
+          python -c "import json,sys; sys.exit(0 if json.load(open('data/seitencheck.json'))['ok'] else 1)"

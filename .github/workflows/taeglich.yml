@@ -72,6 +72,15 @@ jobs:
         run: |
           pip install -q pillow
           python tools/grundrisse.py --recherche || echo "Grundrisse fehlgeschlagen"
+      - name: Seitencheck (Karte wie am iPhone öffnen)
+        if: steps.heute.outputs.fertig != '1'
+        # Ergebnis in data/seitencheck.json, die Morgen-Routine meldet Probleme ganz oben
+        timeout-minutes: 8
+        continue-on-error: true
+        run: |
+          pip install -q playwright
+          python -m playwright install --with-deps chromium > /dev/null
+          python tools/seitencheck.py
       - name: Speichern
         if: steps.heute.outputs.fertig != '1'
         run: |
@@ -81,7 +90,7 @@ jobs:
           # würde beim Rebase in den erzeugten Dateien kollidieren. Dann: neuesten Stand von main
           # nehmen, nur die Scrape-Ergebnisse darüberlegen, Karte neu bauen, nochmal pushen.
           SICHER=$(mktemp -d)
-          cp data/listings.json data/geocode_cache.json data/markierungen.json data/letzter_scrape.txt "$SICHER"/ 2>/dev/null || true
+          cp data/listings.json data/geocode_cache.json data/markierungen.json data/letzter_scrape.txt data/seitencheck.json "$SICHER"/ 2>/dev/null || true
           [ -d data/grundrisse ] && cp -r data/grundrisse "$SICHER"/
           for versuch in 1 2 3 4 5; do
             git add data docs
@@ -93,7 +102,7 @@ jobs:
             python - "$SICHER" <<'EOF'
           import json, shutil, sys
           s = sys.argv[1]
-          for f in ("listings.json", "markierungen.json", "letzter_scrape.txt"):
+          for f in ("listings.json", "markierungen.json", "letzter_scrape.txt", "seitencheck.json"):
               try: shutil.copyfile(f"{s}/{f}", f"data/{f}")
               except FileNotFoundError: pass
           try: shutil.copytree(f"{s}/grundrisse", "data/grundrisse", dirs_exist_ok=True)
