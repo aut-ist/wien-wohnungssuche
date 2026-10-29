@@ -1,7 +1,9 @@
-"""Öffis für den 18. und 19. Bezirk (data.wien.gv.at) -> geo/oeffis.geojson
+"""Öffis fürs Suchgebiet (data.wien.gv.at) -> geo/oeffis.geojson
 
-- Straßenbahn- und Buslinien, die wirklich durch den 18./19. fahren, ab dem Gürtel
-  nach außen bis zur Endstation (innerhalb des Gürtels ist eh alles gut angebunden).
+Gebiet: 8., 9., 18., 19. Bezirk und der erlaubte Teil des 2. (blaue Zone Karmeliterviertel/Augarten);
+der 8./9./2. seit 2026-10-29 (Wunsch), vorher nur 18./19.
+- Straßenbahn- und Buslinien, die wirklich durchs Gebiet fahren, nur das Stück im Gebiet
+  (plus RAND_M, damit sie bis zu den Stationen am Rand reichen).
 - U- und S-Bahn-Strecken und -Stationen im selben Bereich (z. B. U6 am Gürtel).
 
     python tools/fetch_oeffis.py
@@ -21,9 +23,10 @@ from fetch_bezirke import simplify  # noqa: E402
 WFS = ("https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0"
        "&typeName=ogdwien:{}&srsName=EPSG:4326&outputFormat=json")
 TYPEN = {"1": "tram", "2": "bus", "4": "ubahn", "5": "sbahn"}
-BEZIRKE = [f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (18, 19)]
-RAND_M = 120          # damit die Linien bis zu den Stationen am Gürtel reichen
-MIN_IM_GEBIET_M = 400  # so viel muss eine Linie im 18./19. fahren, um zu zählen
+GEBIETE = ([f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (8, 9, 18, 19)]
+           + [f for f in geo.ZONEN if f["properties"]["id"] == "leopoldstadt"])
+RAND_M = 120          # damit die Linien bis zu den Stationen am Rand (Gürtel) reichen
+MIN_IM_GEBIET_M = 400  # so viel muss eine Linie im Gebiet fahren, um zu zählen
 STATION_RAND_M = 250
 
 
@@ -33,7 +36,7 @@ def _laden(name):
 
 
 def _abstand(lon, lat):
-    return min(geo._abstand_m(lon, lat, f) for f in BEZIRKE)
+    return min(geo._abstand_m(lon, lat, f) for f in GEBIETE)
 
 
 def _laenge_m(a, b):
@@ -45,12 +48,12 @@ def _linien(f):
 
 
 def main():
-    xs = [x for f in BEZIRKE for x, _ in f["geometry"]["coordinates"][0]]
-    ys = [y for f in BEZIRKE for _, y in f["geometry"]["coordinates"][0]]
+    xs = [x for f in GEBIETE for x, _ in f["geometry"]["coordinates"][0]]
+    ys = [y for f in GEBIETE for _, y in f["geometry"]["coordinates"][0]]
     box = (min(xs) - .005, min(ys) - .004, max(xs) + .005, max(ys) + .004)
     in_box = lambda p: box[0] <= p[0] <= box[2] and box[1] <= p[1] <= box[3]  # noqa: E731
 
-    # Linienstücke im Umkreis sammeln, Abstand zum 18./19. pro Punkt vorrechnen
+    # Linienstücke im Umkreis sammeln, Abstand zum Gebiet pro Punkt vorrechnen
     stuecke = []
     for f in _laden("OEFFLINIENOGD"):
         typ = TYPEN.get(f["properties"]["LTYP"])
@@ -62,7 +65,7 @@ def main():
             if any(in_box(p) for p in line):
                 stuecke.append((typ, _linien(f), line, [_abstand(*p) for p in line]))
 
-    # welche Linien fahren nennenswert durch den 18./19.?
+    # welche Linien fahren nennenswert durchs Gebiet?
     im_gebiet = {}
     for typ, linien, line, ab in stuecke:
         d = sum(_laenge_m(line[i], line[i + 1]) for i in range(len(line) - 1) if ab[i] == 0 and ab[i + 1] == 0)

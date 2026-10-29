@@ -26,13 +26,6 @@ VOTIVKIRCHE = (48.215414, 16.359140)
 GAUSSPLATZ = (48.226238, 16.369830)
 BURGTHEATER = (48.210337, 16.361477)
 ANKERUHR = (48.210761, 16.373675)
-# Bahnstationen aus geo/oeffis.geojson
-HEILIGENSTADT = (48.24908, 16.36571)
-OBERDOEBLING = (48.24447, 16.34428)
-KROTTENBACHSTRASSE = (48.24008, 16.34096)
-SPITTELAU = (48.23562, 16.3582)
-NUSSDORFER_STRASSE = (48.2315, 16.35287)
-
 SCREENSHOTS = {
     "leopoldstadt": {
         "refs": [((423, 204), FRIEDENSBRUECKE), ((530, 521), ROSSAUER_LAENDE),
@@ -60,24 +53,6 @@ SCREENSHOTS = {
                  (440, 270), (480, 240), (530, 215), (575, 185), (620, 160), (660, 145),
                  (700, 125), (745, 100)],
     },
-    # Handy-Screenshot 1080x2400 vom 2026-10-29, Karte um ca. 20° gedreht (daher "gedreht").
-    # Linie = Rand der orangen Fläche, automatisch abgetastet und geglättet; Restfehler der
-    # Referenzpunkte 10–20 m.
-    "heiligenstadt_rot": {
-        "gedreht": True,
-        "refs": [((792, 740), HEILIGENSTADT), ((178, 1204), OBERDOEBLING), ((156, 1454), KROTTENBACHSTRASSE),
-                 ((792, 1466), SPITTELAU), ((678, 1738), NUSSDORFER_STRASSE)],
-        "line": [(730, 645), (721, 675), (719, 705), (719, 735), (736, 765), (736, 795), (736, 825),
-                 (742, 855), (746, 885), (744, 915), (742, 945), (744, 975), (748, 1005), (748, 1035),
-                 (743, 1065), (739, 1095), (734, 1125), (731, 1155), (727, 1185), (725, 1215), (724, 1245),
-                 (726, 1275), (730, 1305), (742, 1335), (744, 1365), (747, 1395), (747, 1425), (753, 1455),
-                 (753, 1485), (758, 1515), (758, 1545), (758, 1575), (756, 1605), (748, 1635), (675, 1635),
-                 (672, 1605), (677, 1575), (672, 1545), (658, 1515), (653, 1485), (653, 1455), (649, 1425),
-                 (616, 1395), (616, 1365), (618, 1335), (620, 1305), (624, 1275), (624, 1245), (619, 1215),
-                 (612, 1185), (593, 1155), (589, 1125), (580, 1095), (570, 1065), (567, 1035), (561, 1005),
-                 (555, 975), (545, 945), (534, 915), (501, 885), (489, 855), (463, 825), (457, 795),
-                 (450, 765), (449, 735), (429, 705), (424, 675), (436, 645)],
-    },
 }
 
 # Zonen, die entlang echter Straßen definiert sind (lat, lon) statt nachgezeichnet.
@@ -88,6 +63,18 @@ GEO_ZONEN = {
     "alsergrund_rot": [(48.2254, 16.3571), (48.2264, 16.3567), (48.2281, 16.3561), (48.2300, 16.3561),
                        (48.2328, 16.3560), (48.2450, 16.3560), (48.2450, 16.3720), (48.2275, 16.3720),
                        (48.2272, 16.3650), (48.2262, 16.3600)],
+    # Heiligenstadt: West = Straßenbahn 37 (Nußdorfer Straße, Döblinger Hauptstraße, Hohe Warte bis
+    # zur Schleife, Punkte aus geo/oeffis.geojson), Nord = Kante von der Schleife zur Heiligenstädter
+    # Straße beim Bahnhof (wie auf Saads Screenshot), dann gerade nach Osten; Ost/Süd = Bezirksgrenze
+    # (Donaukanal, Gürtel) durch den Zuschnitt auf den 19.
+    "heiligenstadt_rot": [(48.22963, 16.35015), (48.22978, 16.3503), (48.22989, 16.35073), (48.23038, 16.35088),
+                          (48.23053, 16.35105), (48.23168, 16.35389), (48.2318, 16.35408), (48.23194, 16.35408),
+                          (48.2323, 16.35384), (48.23329, 16.35323), (48.23384, 16.3529), (48.23436, 16.35279),
+                          (48.23645, 16.3535), (48.2412, 16.35554), (48.24396, 16.35534), (48.24587, 16.35611),
+                          (48.24687, 16.35583), (48.24745, 16.35547), (48.24821, 16.35518), (48.24904, 16.35506),
+                          (48.25104, 16.35505), (48.25123, 16.35528), (48.2526, 16.35564), (48.25267, 16.3558),
+                          (48.25274, 16.3572), (48.2512, 16.36483), (48.2512, 16.3900), (48.2250, 16.3900),
+                          (48.2250, 16.35015)],
 }
 
 ZONES = [
@@ -97,12 +84,11 @@ ZONES = [
      "puffer_m": 50},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
-    # seit 2026-10-29: Streifen zwischen Hohe Warte/Döblinger Hauptstraße und Heiligenstädter Straße,
-    # vom Karl-Marx-Hof bis kurz vor den Gürtel. Nicht zuschneiden: der Zuschnitt nimmt die konvexe
-    # Hülle, die den schmalen Streifen um gut 20 % vergrößern würde; das Stück, das bei Spittelau in
-    # den 9. ragt, liegt ohnehin in Lichtental-Nord und zählt dort nicht (nur_in_bezirk)
-    {"id": "heiligenstadt_rot", "rolle": "ausgeschlossen", "name": "Heiligenstadt / Karl-Marx-Hof bis Gürtel",
-     "nur_in_bezirk": 19, "puffer_m": 0, "zuschneiden": False},
+    # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum
+    # Donaukanal, vom Gürtel bis Heiligenstadt. Genau zuschneiden (shapely): der alte Zuschnitt nimmt die
+    # konvexe Hülle der Zone, die würde hier über die Straßenbahn nach Westen greifen.
+    {"id": "heiligenstadt_rot", "rolle": "ausgeschlossen", "name": "Heiligenstadt: Straßenbahn 37 bis Donaukanal",
+     "nur_in_bezirk": 19, "puffer_m": 0, "zuschneiden": "genau"},
 ]
 
 
@@ -181,6 +167,17 @@ def auf_bezirk_zuschneiden(zone, bezirk):
     return [[round(x, 6), round(y, 6)] for x, y in poly]
 
 
+def genau_zuschneiden(zone, bezirk):
+    """Zone exakt mit der Bezirksfläche schneiden (braucht shapely, nur lokal beim Zonenbauen)."""
+    from shapely.geometry import Polygon
+    bez = json.loads((ROOT / "geo" / "bezirke.geojson").read_text(encoding="utf-8"))
+    ring = next(f["geometry"]["coordinates"][0] for f in bez["features"] if f["properties"]["bezirk"] == bezirk)
+    teil = Polygon(zone).intersection(Polygon(ring))
+    if teil.geom_type != "Polygon":  # Splitter an der Grenze: das größte Stück
+        teil = max(teil.geoms, key=lambda g: g.area)
+    return [[round(x, 6), round(y, 6)] for x, y in teil.exterior.coords[:-1]]
+
+
 def main():
     feats = []
     for z in ZONES:
@@ -191,7 +188,9 @@ def main():
             to_geo = (fit_gedreht if shot.get("gedreht") else fit)(shot["refs"])
             ring = [to_geo(x, y) for x, y in shot["line"]]
         ring = [[round(lon, 6), round(lat, 6)] for lat, lon in ring]
-        if z.get("nur_in_bezirk") and z.get("zuschneiden", True):
+        if z.get("zuschneiden") == "genau":
+            ring = genau_zuschneiden(ring, z["nur_in_bezirk"])
+        elif z.get("nur_in_bezirk") and z.get("zuschneiden", True):
             # auf den Bezirk zuschneiden, damit die Karte nicht Nachbarbezirke rot färbt
             ring = auf_bezirk_zuschneiden(ring, z["nur_in_bezirk"])
         ring.append(ring[0])

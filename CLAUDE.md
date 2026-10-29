@@ -59,9 +59,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (Lichtental-Nord, Westgrenze Liechtensteinstraße): bei unsicherer Lage (versetzter Punkt, nur
   Straße, ungefähre Prüfung) nur raus, wenn der ganze Umkreis darin liegt, sonst grau
   (`rot_vielleicht_draussen` in run.py) – im Zweifel bleibt die Wohnung. Seit 2026-10-29 gibt es
-  eine zweite rote Zone im 19. (Heiligenstadt / Karl-Marx-Hof bis Gürtel, zwischen Hohe Warte/
-  Döblinger Hauptstraße und Heiligenstädter Straße), nachgezeichnet auf einem gedrehten
-  Handy-Screenshot (`fit_gedreht` in tools/build_zones.py); es gilt dieselbe Im-Zweifel-drin-Regel.
+  eine zweite rote Zone im 19. (Heiligenstadt): alles östlich der Straßenbahn 37 (Nußdorfer Straße,
+  Döblinger Hauptstraße, Hohe Warte bis zur Schleife) bis zum Donaukanal, vom Gürtel bis zur Kante
+  Hohe-Warte-Schleife – Bahnhof Heiligenstadt. Punkte der Straßenbahn aus geo/oeffis.geojson, Ost-
+  und Südrand ist die Bezirksgrenze (`zuschneiden: "genau"` in tools/build_zones.py, braucht shapely);
+  es gilt dieselbe Im-Zweifel-drin-Regel.
+- Öffi-Linien auf der Karte (tools/fetch_oeffis.py): 8., 9., 18., 19. und die blaue Zone im 2.
 - Fläche: seit 2026-10-30 ab 75 m² (`flaeche_min`); Wohnungen, die vorher schon gefunden wurden
   (`erstmals` der Gruppe, auch über Neu-Inserate), bleiben ab 70 m² (`flaeche_min_bestand`), so wollte
   es das Paar. Der Scrape lädt Detailseiten noch ab 70 m², weil er nicht weiß, ob ein neues Inserat
