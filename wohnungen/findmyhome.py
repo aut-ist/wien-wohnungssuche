@@ -37,18 +37,25 @@ def _decode(b):
 def _fetch(url, data=None, retries=3):
     host = urllib.parse.urlsplit(url).netloc
     for attempt in range(retries):
+        http.pruefen(host)  # gesperrter Host / Zeitbudget: sofort aufgeben (siehe http.py)
         http._warten(host, (1.0, 2.0))
         try:
             req = urllib.request.Request(url, data=data, headers={"User-Agent": http.UA, "Accept-Language": "de-AT,de;q=0.9"})
             with urllib.request.urlopen(req, timeout=30) as r:
-                return _decode(r.read())
+                text = _decode(r.read())
+            http.erfolg(host)
+            return text
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):
                 return None
+            if e.code in (403, 429):
+                http.fehlschlag(host)
+                raise
             if attempt == retries - 1:
                 raise
         except (urllib.error.URLError, TimeoutError):
-            if attempt == retries - 1:
+            http.fehlschlag(host)
+            if attempt == retries - 1 or host in http._gesperrt:
                 raise
         time.sleep(5 * (attempt + 1))
 

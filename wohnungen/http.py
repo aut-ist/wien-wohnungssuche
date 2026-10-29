@@ -13,6 +13,39 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 _last = {}  # letzte Anfrage pro Host: Pausen gelten je Portal, Portale laufen parallel
 _lock = threading.Lock()
 
+# Schutz vor Endlos-Läufen (2026-10-29: derStandard 403 und FindMyHome-Timeouts gegen GitHub Actions
+# kosteten je Seite Minuten, der Lauf wurde nach 2 h abgebrochen und nichts gespeichert):
+# - nach SPERRE_NACH Fehlschlägen (403/Timeout) in Folge gilt ein Host für den Rest des Laufs als gesperrt
+# - nach SCRAPE_MAX_MIN Minuten (Umgebungsvariable, Standard 75) bricht jede Anfrage sofort ab,
+#   damit der Lauf noch speichert, bevor GitHub ihn beendet
+SPERRE_NACH = 2
+_fehler_folge, _gesperrt = {}, set()
+_ENDE = time.time() + float(__import__("os").environ.get("SCRAPE_MAX_MIN", "75")) * 60
+
+
+class Gesperrt(Exception):
+    """Host gesperrt oder Zeitbudget aufgebraucht: heute nicht weiter versuchen."""
+
+
+def pruefen(host):
+    if host in _gesperrt:
+        raise Gesperrt(f"{host} heute gesperrt (wiederholt 403/Timeout)")
+    if time.time() > _ENDE:
+        raise Gesperrt("Zeitbudget des Laufs aufgebraucht")
+
+
+def fehlschlag(host):
+    with _lock:
+        _fehler_folge[host] = _fehler_folge.get(host, 0) + 1
+        if _fehler_folge[host] >= SPERRE_NACH and host not in _gesperrt:
+            _gesperrt.add(host)
+            print(f"{host}: {SPERRE_NACH} Fehlschläge in Folge, für den Rest des Laufs übersprungen", flush=True)
+
+
+def erfolg(host):
+    with _lock:
+        _fehler_folge[host] = 0
+
 
 def _warten(host, pause):
     with _lock:
@@ -29,18 +62,26 @@ def get(url, headers=None, pause=(1.0, 2.0), retries=3, data=None):
     h = {"User-Agent": UA, "Accept-Language": "de-AT,de;q=0.9"}
     h.update(headers or {})
     for attempt in range(retries):
+        pruefen(host)
         _warten(host, pause)
         try:
             req = urllib.request.Request(url, headers=h, data=data)
             with urllib.request.urlopen(req, timeout=30) as r:
-                return r.read().decode("utf-8", errors="replace")
+                text = r.read().decode("utf-8", errors="replace")
+            erfolg(host)
+            return text
         except urllib.error.HTTPError as e:
             if e.code in (404, 410):
+                erfolg(host)
                 return None
+            if e.code in (403, 429):  # Sperre: Wiederholen bringt nichts
+                fehlschlag(host)
+                raise
             if attempt == retries - 1:
                 raise
         except (urllib.error.URLError, TimeoutError):
-            if attempt == retries - 1:
+            fehlschlag(host)
+            if attempt == retries - 1 or host in _gesperrt:
                 raise
         time.sleep(5 * (attempt + 1))
 

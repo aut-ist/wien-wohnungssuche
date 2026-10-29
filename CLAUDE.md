@@ -25,6 +25,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   bis 09:15 Wiener Zeit, so will es das Paar. In der Cloud blockt der Proxy die Portale, dort nie
   scrapen; fehlt der Scrape, committet die Routine `data/anstoss.txt`, das startet den Workflow.
   Erreicht `run.py scrape` gar kein Portal, bricht er ab (Exit 2), ohne etwas zu speichern.
+  derStandard (403) und FindMyHome (Timeouts) sperren GitHub-Server teilweise: `wohnungen/http.py`
+  überspringt einen Host nach 2 Fehlschlägen in Folge für den Rest des Laufs (auch Nominatim), und
+  nach `SCRAPE_MAX_MIN` (75) bricht jede Anfrage ab, damit der Lauf noch speichert. Nie wieder lange
+  Warte-/Wiederholschleifen pro Anfrage einbauen: am 2026-10-29 lief der Scrape so in den 2-h-Abbruch.
   Ein voller Scrape dauert 40 bis 60 Minuten; pusht in der Zeit jemand, nimmt der Workflow den
   neuen Stand von main, legt nur die Scrape-Daten darüber und baut neu (kein Rebase-Konflikt).
 - Was die Automatik nicht eindeutig beurteilen kann, steht in `data/pending.json`.

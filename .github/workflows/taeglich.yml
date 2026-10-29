@@ -53,14 +53,20 @@ jobs:
           if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
       - name: Scrapen und Karte bauen
         if: steps.heute.outputs.fertig != '1'
+        # SCRAPE_MAX_MIN: danach bricht jede Portal-Anfrage ab und der Lauf speichert, was er hat
+        # (2026-10-29 lief er wegen derStandard-/FindMyHome-Sperren in den 2-h-Abbruch, ohne zu speichern)
+        timeout-minutes: 95
         run: |
           if [ -n "$QUELLEN" ]; then python run.py all --quellen "$QUELLEN"
           else python run.py all && date +%F > data/letzter_scrape.txt; fi
         env:
           TZ: Europe/Vienna
           QUELLEN: ${{ github.event.inputs.quellen }}
+          SCRAPE_MAX_MIN: "75"
       - name: Grundrisse für die Adress-Recherche
         if: steps.heute.outputs.fertig != '1'
+        timeout-minutes: 10
+        continue-on-error: true
         # passende neue Wohnungen ohne genaue Adresse (data/recherche.json): die Prüf-Routine in der
         # Cloud kommt nicht an die Portalbilder, daher hier speichern
         run: |

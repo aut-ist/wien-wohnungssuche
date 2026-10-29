@@ -189,17 +189,10 @@ def _summary(e, plz, entries=()):
 
 
 def _get(url):
-    """derStandard bremst Server-Adressen (GitHub Actions) mit 403: langsam abfragen und
-    nach einer Sperre einmal länger warten. Keine Umgehung, nur weniger Last."""
-    import time
-    import urllib.error
-    for versuch in range(3):
-        try:
-            return get(url, pause=(7.0, 11.0))
-        except urllib.error.HTTPError as e:
-            if e.code != 403 or versuch == 2:
-                raise
-            time.sleep(150)
+    """derStandard bremst Server-Adressen (GitHub Actions) mit 403: langsam abfragen; nach
+    wiederholter Sperre überspringt http.get das Portal für den Rest des Laufs (keine Umgehung).
+    Früher wurde nach jedem 403 2,5 min gewartet, das sprengte am 2026-10-29 den Lauf."""
+    return get(url, pause=(7.0, 11.0))
 
 
 def search(plz):
