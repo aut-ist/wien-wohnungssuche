@@ -10362,22 +10362,25 @@
  },
  "wh-1805070625": {
   "lage": {
-   "adresse": "Währinger Straße",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Währinger Straße (Einbahnstraße) bei Aumannplatz/Kutschkermarkt; Hausnummer nicht auffindbar, zwei zusammengelegte Wohnungen"
+   "adresse": "Währinger Straße 168",
+   "lat": 48.22865,
+   "lon": 16.334332,
+   "sicherheit": "genau",
+   "begruendung": "Gleiche Fotos (identische Bilddateien) und gleicher Energieausweis (HWB 92,89, fGEE 1,96) wie Lind-Inserat Waehringer Strasse 168 Top 39 (72,85 m2, 2. Stock); Grundriss: rechte Haelfte = Top 39, links die Nachbarwohnung (ca. 47 m2), zwei Wohnungen zum Zusammenlegen. Altbau 1898 (Rohleder/Mandeltort)."
   },
   "datum": "2026-10-30"
  },
  "is-366364130003": {
   "lage": {
-   "adresse": "Währinger Straße",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Währinger Straße (Einbahnstraße) bei Aumannplatz/Kutschkermarkt; Hausnummer nicht auffindbar, zwei zusammengelegte Wohnungen"
+   "adresse": "Währinger Straße 168",
+   "lat": 48.22865,
+   "lon": 16.334332,
+   "sicherheit": "genau",
+   "begruendung": "Gleiche Fotos (identische Bilddateien) und gleicher Energieausweis (HWB 92,89, fGEE 1,96) wie Lind-Inserat Waehringer Strasse 168 Top 39 (72,85 m2, 2. Stock); Grundriss: rechte Haelfte = Top 39, links die Nachbarwohnung (ca. 47 m2), zwei Wohnungen zum Zusammenlegen. Altbau 1898 (Rohleder/Mandeltort)."
   },
+  "datum": "2026-10-30"
+ },
+ "null": {
   "datum": "2026-10-30"
  }
 }

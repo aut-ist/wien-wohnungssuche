@@ -10,6 +10,7 @@ import json
 import shutil
 import sys
 import urllib.request
+from collections import Counter
 from pathlib import Path
 
 from PIL import Image
@@ -19,12 +20,19 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 
 
 def bewerten(img):
-    """Anteil fast weißer, farbloser Pixel (Grundrisse: hoch)."""
+    """Grundriss-Wert: Anteil fast weißer, farbloser Pixel (klassischer Strichplan). Dazu farbige Pläne
+    (gelbe Räume, graue Möbel, z. B. Lind Immobilien): schwarze Mauern UND große einfarbige Flächen.
+    Leere weiße Zimmer haben die Flächen, aber keine schwarzen Pixel; dunkle Fotos umgekehrt
+    (2026-10-30: Währinger Straße 168 blieb ohne Grundriss, weil der Plan farbig war)."""
     klein = img.convert("RGB").resize((120, 120))
     px = list(klein.get_flattened_data()) if hasattr(klein, "get_flattened_data") else list(klein.getdata())
     weiss = sum(1 for r, g, b in px if min(r, g, b) > 225)
     grau = sum(1 for r, g, b in px if max(r, g, b) - min(r, g, b) < 18)
-    return 0.7 * weiss / len(px) + 0.3 * grau / len(px)
+    strich = 0.7 * weiss / len(px) + 0.3 * grau / len(px)
+    dunkel = sum(1 for p in px if max(p) < 70) / len(px)
+    flaechen = sum(n for _, n in Counter((r // 10, g // 10, b // 10) for r, g, b in px).most_common(3)) / len(px)
+    farbig = flaechen + dunkel if dunkel >= 0.05 and flaechen >= 0.45 else 0
+    return max(strich, farbig)
 
 
 def speichern(w, ziel, wid=None):

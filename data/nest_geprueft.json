@@ -180,15 +180,6 @@
   "ergebnis": "korrigiert: Krottenbachstraße 182, Top 2.7 (Bauträger-Seite ESTINA, Einheitenliste: 4 Zi, 82,03 m², 810.500 Anleger / 899.000 Endnutzer). Vorher fälschlich Krottenbachstraße 105 (Portalpunkt); Raffelspergergasse 26 ist ein Nachbarprojekt ohne diese Einheit",
   "datum": "2026-10-26"
  },
- "wh-1725543422": {
-  "ids": [
-   "wh-1725543422",
-   "is-802967549260"
-  ],
-  "titel": "Erstbezug! Exklusive 4-Zimmer Gartenwohnung mit Loggia und TG-Platz!",
-  "ergebnis": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)",
-  "datum": "2026-10-27"
- },
  "wh-977565627": {
   "ids": [
    "wh-977565627",
@@ -327,15 +318,6 @@
   "ergebnis": "korrigiert: Sieveringer Straße 135, Haus 1, Top 7 (Verkaufsplan im Willhaben-Inserat)",
   "datum": "2026-10-28"
  },
- "wh-1275429213": {
-  "ids": [
-   "wh-1275429213",
-   "is-044928653380"
-  ],
-  "titel": "Treppen ins Glück - Ihr Rückzugsort in Döbling",
-  "ergebnis": "unklar: Grinzing-Hanglage, Umkreis 471 m, keine Adresse ermittelbar",
-  "datum": "2026-10-28"
- },
  "wh-1468715517": {
   "ids": [
    "wh-1468715517",
@@ -449,14 +431,6 @@
   ],
   "titel": "!! NUR 5.650 EUR/m² !! BESTE LAGE !! Klimatisierte geräumige 131 m² Familienwohnung",
   "ergebnis": "korrigiert (ungefähr): Punkt 48.21374, 16.38813 (±258 m, Praterstraße/Czerninplatz), Top 19/20; Hausnummer offen",
-  "datum": "2026-10-28"
- },
- "ds-15259789": {
-  "ids": [
-   "ds-15259789"
-  ],
-  "titel": "Exklusive Ruhelage in Döbling - 4-Zimmer-Wohnung mit Garten, Terrasse, Fernblick, Garage & Pool",
-  "ergebnis": "unklar: keine verwertbaren Lagehinweise; derStandard-Inserat offline (404)",
   "datum": "2026-10-28"
  },
  "wh-1190439267": {
@@ -666,16 +640,6 @@
   "ergebnis": "eingegrenzt: Eckhaus Gymnasiumstraße/Sternwartestraße, Tür 8; Hausnummer offen (Nominatim-Reverse der Maklerkoordinate: Gymnasiumstraße 32)",
   "datum": "2026-10-28"
  },
- "wh-1369326551": {
-  "ids": [
-   "wh-1369326551",
-   "is-600928138188",
-   "ds-15271527"
-  ],
-  "titel": "Exklusiver Dachgeschosstraum mit Wohlfühlfaktor - Großartig in jeder Hinsicht in 1180 Wien",
-  "ergebnis": "unklar: nicht gefunden: keine Adresse belegbar, Kartenpunkt bleibt (bis 258 m versetzt)",
-  "datum": "2026-10-28"
- },
  "wh-1834137525": {
   "ids": [
    "wh-1834137525",
@@ -687,15 +651,6 @@
   "ergebnis": "korrigiert/eingegrenzt: Währinger Straße 139-149 (Südseite gegenüber Aumannplatz), Top 19, 2. Stock; Hausnummer offen",
   "datum": "2026-10-28"
  },
- "wh-1220220927": {
-  "ids": [
-   "wh-1220220927",
-   "is-852594177342"
-  ],
-  "titel": "Großzügige Eigentumswohnung mit viel Potenzial nahe dem Hugo-Wolf-Park, Gartenmitbenutzung",
-  "ergebnis": "unklar: nicht gefunden: vermutlich zwischen Kreismittelpunkt und Hugo-Wolf-Park (Oberdöbling), keine Hausnummer",
-  "datum": "2026-10-28"
- },
  "wh-1476454107": {
   "ids": [
    "wh-1476454107",
@@ -704,15 +659,6 @@
   ],
   "titel": "ERSTBEZUG NACH SANIERUNG: klimatisierte 3-Zimmer-Gartenwohnung mit 2 weiteren Räumen im Untergeschoss, privatem Garten in Ruhelage",
   "ergebnis": "korrigiert: Sieveringer Straße 135 (Wohnatelier Sievering), Top unbekannt",
-  "datum": "2026-10-28"
- },
- "wh-1189411112": {
-  "ids": [
-   "wh-1189411112",
-   "is-231298027502"
-  ],
-  "titel": "Geräumige 4-Zimmer-Altbauwohnung mit großzügiger Terrasse",
-  "ergebnis": "unklar: nicht gefunden: nur Top 4 bekannt, Kartenpunkt bleibt (bis 254 m versetzt)",
   "datum": "2026-10-28"
  },
  "wh-975095864": {
@@ -1653,26 +1599,6 @@
   ],
   "titel": "Ruhige -drei- Zimmer Wohnung in Bestlage -Renoviert KEINE MAKLER NUR PRIVATPERSONEN !",
   "ergebnis": "unklar: keine Lagehinweise, Inserat nicht mehr abrufbar",
-  "datum": "2026-10-28"
- },
- "wh-988212014": {
-  "ids": [
-   "wh-988212014",
-   "is-489415102969",
-   "ds-15273117"
-  ],
-  "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
-  "ergebnis": "unklar: keine Adresse gefunden, nur versetzter Kartenpunkt",
-  "datum": "2026-10-28"
- },
- "wh-1797101607": {
-  "ids": [
-   "wh-1797101607",
-   "is-869595327237",
-   "ds-15099406"
-  ],
-  "titel": "Helle Altbauwohnung in perfekter Lage nahe Kutschkermarkt (ca. 79m²)",
-  "ergebnis": "unklar: Kutschkermarkt-/Währinger-Straße-Gegend, keine Hausnummer",
   "datum": "2026-10-28"
  },
  "wh-1828297366": {
@@ -3695,14 +3621,6 @@
   "ergebnis": "korrigiert: Gentzgasse 40–42, Top 27 (DG-Maisonette)",
   "datum": "2026-10-28"
  },
- "is-797345707287": {
-  "ids": [
-   "is-797345707287"
-  ],
-  "titel": "Stilvolle 3 Zimmer Residenz in Döbling mit großzügigem Wohngefühl",
-  "ergebnis": "unklar: nur 19. Bezirk, vermutlich nahe Döblinger Gürtel/U6 (unbelegt)",
-  "datum": "2026-10-28"
- },
  "is-637527325828": {
   "ids": [
    "is-637527325828"
@@ -3968,43 +3886,13 @@
   "ergebnis": "nicht genau gefunden: zwischen Stephansplatz und Schwedenplatz (außerhalb Suchzone Börse/Schottenviertel)",
   "datum": "2026-10-28"
  },
- "wh-1675596512": {
-  "ids": [
-   "wh-1675596512",
-   "is-860199285014"
-  ],
-  "titel": "Großzügige 3-Zimmer-Wohnung in exklusiver Wohnlage von Döbling",
-  "ergebnis": "unklar: WOLF & SOHN nennt nur '19. Bezirk', keine Straße; keine Grundrisse vorhanden; Punkt um 259 m versetzt",
-  "datum": "2026-10-29"
- },
- "wh-850123056": {
-  "ids": [
-   "wh-850123056",
-   "ds-15275367",
-   "ds-15036034",
-   "is-461806659170",
-   "fm-5591193"
-  ],
-  "titel": "Heller 4-Zimmer Erstbezug mit Terrasse, Nähe Kutschkermarkt",
-  "ergebnis": "unklar: Projekt 'Am Kutschkermarkt' (EDEX Immobilien), Kutschkergasse, 9 Wohnungen; Top 2 laut Grundriss; Hausnummer nicht gefunden (weekend.at in der Cloud nicht erreichbar)",
-  "datum": "2026-10-30"
- },
- "wh-1992576637": {
-  "ids": [
-   "wh-1992576637",
-   "is-954634900048"
-  ],
-  "titel": "3 Zimmer, 79 m², Westbalkon zum Hof, Lift, nahe U6",
-  "ergebnis": "unklar: Haus am Währinger Gürtel nahe U6 Währinger Straße-Volksoper, Top 10 im 4. OG laut Grundriss; keine Hausnummer gefunden, Punkt bis 259 m versetzt",
-  "datum": "2026-10-30"
- },
  "wh-1805070625": {
   "ids": [
    "wh-1805070625",
    "is-366364130003"
   ],
   "titel": "Idealer Grundriss für eine anspruchsvolle Familie!",
-  "ergebnis": "unklar: Währinger Straße nahe Aumannplatz/Kutschkermarkt, Hausnummer nicht gefunden (keine Grundrisse/Projektseite)",
+  "ergebnis": "Währinger Straße 168, 2. Stock, Top 39 + Nachbarwohnung (ca. 47 m²): identische Fotos und Energieausweis wie Lind-Inserat Top 39 (Währinger Straße 168), Grundriss rechts = Top 39. Nachrecherche 2026-10-30 (Routine hatte den farbigen Grundriss übersehen).",
   "datum": "2026-10-30"
  }
 }

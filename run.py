@@ -328,7 +328,8 @@ def bewerten(r, rev):
             if lrev.get("adresse"):  # geprüfte Adresse (Recherche) statt der aus dem Inserat zeigen/verlinken
                 out["adresse"] = lrev["adresse"]
             drin, lage_txt, _ = geo.pruefe(*pos)
-            lage_txt += f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})"
+            lage_txt += (f" (gleiches Haus wie ein anderes Inserat: {lrev['adresse']})" if lrev.get("quelle") == "gleiches Haus"
+                         else f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})")
             out["ungefaehr"] = lrev.get("sicherheit") != "genau"
             out["landmarke"] = out["ungefaehr"]  # Lage aus Hinweis wie "Nähe Kutschkermarkt"
             if not drin and out["ungefaehr"] and rot_vielleicht_draussen(*pos, 200):
@@ -703,6 +704,89 @@ def zusammenfuehren(gruppe, reviews):
     return m, rev
 
 
+def _zahl(x):
+    try:
+        return float(str(x).replace(",", "."))
+    except (TypeError, ValueError):
+        return None
+
+
+def _haus_schluessel(r):
+    """Makler + Energieausweis (HWB und fGEE): gilt fürs ganze Haus, nicht für die Wohnung."""
+    e = r.get("energie") or {}
+    hwb, fgee = _zahl(e.get("hwb")), _zahl(e.get("fgee"))
+    makler = re.findall(r"[a-zäöü0-9]+", (r.get("anbieter") or "").lower())
+    if hwb is None or fgee is None or not makler:
+        return None
+    return makler[0], round(hwb, 1), round(fgee, 2)
+
+
+def _foto_schluessel(r):
+    """willhaben speichert gleiche Fotos unter demselben Namen (…/NNNN_-614684930.jpg), auch in
+    verschiedenen Inseraten: Fotos teilen = dieselbe Wohnung oder dasselbe Haus."""
+    return {m for b in r.get("bilder") or [] for m in re.findall(r"cache\.willhaben\.at/mmo/.+_(-?\d{6,})\.jpg", b)}
+
+
+def haus_index(listings, reviews):
+    """Inserate mit Hausnummer (aus dem Inserat oder geprüft) nach Haus- und Foto-Schlüssel."""
+    energie, fotos = {}, {}
+    for r in listings.values():
+        lrev = (reviews.get(r["id"]) or {}).get("lage") or {}
+        if lrev.get("sicherheit") == "genau" and re.search(r"\d", lrev.get("adresse") or "") and lrev.get("lat"):
+            adr = (lrev["adresse"], lrev["lat"], lrev["lon"])
+        elif (r.get("lage_genauigkeit") == "adresse" and re.search(r"\d", r.get("adresse") or "") and r.get("lat")
+              and (r.get("lage_radius") or 0) <= 50):
+            adr = (r["adresse"], r["lat"], r["lon"])
+        else:
+            continue
+        eintrag = (r["id"], r.get("plz"), *adr)
+        if (k := _haus_schluessel(r)):
+            energie.setdefault(k, []).append(eintrag)
+        for f in _foto_schluessel(r):
+            fotos.setdefault(f, []).append(eintrag)
+    return energie, fotos
+
+
+def gleiches_haus(r, gruppe, index):
+    """Adresse eines anderen Inserats desselben Hauses (gleicher Makler und Energieausweis oder
+    mindestens zwei gleiche Fotos), wenn alle Treffer dieselbe Adresse nennen. Seit 2026-10-30: die
+    Routine hatte Währinger Straße 168 nicht gefunden, obwohl Lind dort Top 39 mit Adresse inserierte."""
+    energie, fotos = index
+    eigene = {x["id"] for x in gruppe}
+    treffer, belege = [], []
+    for x in gruppe:
+        if (k := _haus_schluessel(x)):
+            for e in energie.get(k, []):
+                if e[0] not in eigene:
+                    treffer.append(e)
+                    belege.append(f"gleicher Makler und Energieausweis (HWB {k[1]:g}, fGEE {k[2]:g}) wie {e[0]}")
+        gezaehlt = {}
+        for f in _foto_schluessel(x):
+            for e in fotos.get(f, []):
+                if e[0] not in eigene:
+                    gezaehlt[e] = gezaehlt.get(e, 0) + 1
+        for e, n in gezaehlt.items():
+            if n >= 2:
+                treffer.append(e)
+                belege.append(f"{n} gleiche Fotos wie {e[0]}")
+    treffer = [e for e in treffer if e[1] == r.get("plz")]
+    # "Währinger Straße 168/39" und "Währinger Straße 168" sind dasselbe Haus (Top abschneiden)
+    haus = lambda a: re.sub(r"\s*/.*$", "", a).strip()  # noqa: E731
+    adressen = {haus(e[2]).lower().replace("strasse", "straße") for e in treffer}
+    if len(adressen) != 1:
+        return None
+    _, _, adresse, lat, lon = min(treffer, key=lambda e: len(e[2]))
+    adresse = haus(adresse)
+    # das Haus muss zum Portalpunkt passen: im Umkreis (versetzter Punkt) oder an der genannten Straße
+    # (eine Straße ohne Nummer setzt willhaben in die Straßenmitte, Währinger Straße 168 lag 360 m daneben)
+    strasse = lambda a: re.sub(r"\s*\d.*$", "", a or "").strip().lower().replace("strasse", "straße")  # noqa: E731
+    gleiche_strasse = strasse(r.get("adresse")) and strasse(r.get("adresse")) == strasse(adresse)
+    if r.get("lat") and not gleiche_strasse and _abstand_m(r, {"lat": lat, "lon": lon}) > (r.get("lage_radius") or 0) + 300:
+        return None
+    return {"adresse": adresse, "lat": lat, "lon": lon, "sicherheit": "genau", "quelle": "gleiches Haus",
+            "begruendung": "; ".join(dict.fromkeys(belege))}
+
+
 def lage_genau(r, rev, b):
     """Adresse mit Hausnummer bekannt (geprüft oder aus dem Inserat, Punkt nicht versetzt)?"""
     if (rev.get("lage") or {}).get("sicherheit") == "genau":
@@ -756,9 +840,13 @@ def build():
             ga.extend(gb)
             gruppen.remove(gb)
     gruppen += [[r] for r in aktiv if r.get("projekt") or "/neubauprojekt/" in r.get("url", "")]
+    haeuser = haus_index(listings, reviews)  # für gleiches_haus: Adresse aus Schwester-Inseraten
     doppelt = sum(len(g) - 1 for g in gruppen)
     for gruppe in gruppen:
         r, rev = zusammenfuehren(gruppe, reviews)
+        if ((rev.get("lage") or {}).get("sicherheit") != "genau" and not re.search(r"\d", r.get("adresse") or "")
+                and (haus := gleiches_haus(r, gruppe, haeuser))):
+            rev = {**rev, "lage": haus}
         b = bewerten({**r, "_alle": [(x.get("titel"), x.get("text"), x.get("baujahr")) for x in gruppe]}, rev)
         offline = r["zuletzt"] < stichtag  # beim letzten Scrape auf keinem Portal mehr gefunden
         if offline:

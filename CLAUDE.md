@@ -99,6 +99,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Schwester-Inserate automatisch (seit 2026-10-30, `gleiches_haus` in run.py): hat ein Inserat ohne
+  Hausnummer denselben Makler und Energieausweis (HWB + fGEE) wie ein Inserat mit Hausnummer, oder
+  mindestens zwei gleiche willhaben-Fotodateien, übernimmt `build` dessen Adresse (Top nach "/" weg),
+  wenn alle Treffer dasselbe Haus nennen. Anlass: Lind "Idealer Grundriss…" (Währinger Straße 168,
+  Top 39 + Nachbarwohnung) hatte die Routine nur als "Währinger Straße" eingetragen. Grundrisse:
+  `tools/grundrisse.py` erkennt auch farbige Pläne (schwarze Mauern + große einfarbige Flächen);
+  vorher fand es sie nicht, und die Routine schrieb "keine Grundrisse".
 - Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Street View
   startet am nächsten Straßenpunkt vor dem Haus mit Blick aufs Haus (`strassenblick` in
   wohnungen/geocode.py, Cache `data/strassenblick_cache.json`); am Hauspunkt selbst zeigt Google
