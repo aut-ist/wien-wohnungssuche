@@ -3976,5 +3976,35 @@
   "titel": "Großzügige 3-Zimmer-Wohnung in exklusiver Wohnlage von Döbling",
   "ergebnis": "unklar: WOLF & SOHN nennt nur '19. Bezirk', keine Straße; keine Grundrisse vorhanden; Punkt um 259 m versetzt",
   "datum": "2026-10-29"
+ },
+ "wh-850123056": {
+  "ids": [
+   "wh-850123056",
+   "ds-15275367",
+   "ds-15036034",
+   "is-461806659170",
+   "fm-5591193"
+  ],
+  "titel": "Heller 4-Zimmer Erstbezug mit Terrasse, Nähe Kutschkermarkt",
+  "ergebnis": "unklar: Projekt 'Am Kutschkermarkt' (EDEX Immobilien), Kutschkergasse, 9 Wohnungen; Top 2 laut Grundriss; Hausnummer nicht gefunden (weekend.at in der Cloud nicht erreichbar)",
+  "datum": "2026-10-30"
+ },
+ "wh-1992576637": {
+  "ids": [
+   "wh-1992576637",
+   "is-954634900048"
+  ],
+  "titel": "3 Zimmer, 79 m², Westbalkon zum Hof, Lift, nahe U6",
+  "ergebnis": "unklar: Haus am Währinger Gürtel nahe U6 Währinger Straße-Volksoper, Top 10 im 4. OG laut Grundriss; keine Hausnummer gefunden, Punkt bis 259 m versetzt",
+  "datum": "2026-10-30"
+ },
+ "wh-1805070625": {
+  "ids": [
+   "wh-1805070625",
+   "is-366364130003"
+  ],
+  "titel": "Idealer Grundriss für eine anspruchsvolle Familie!",
+  "ergebnis": "unklar: Währinger Straße nahe Aumannplatz/Kutschkermarkt, Hausnummer nicht gefunden (keine Grundrisse/Projektseite)",
+  "datum": "2026-10-30"
  }
 }

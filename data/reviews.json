@@ -10281,5 +10281,103 @@
    "begruendung": "Keine Adresse im Text, keine Grundrisse, Portale gesperrt"
   },
   "datum": "2026-10-29"
+ },
+ "wh-810300341": {
+  "lage": {
+   "adresse": "Billrothstraße",
+   "sicherheit": "genau",
+   "begruendung": "\"in ausgezeichneter Lage der Billrothstraße im 3. Liftstock\" (1190, Haus mit Fitnesscenter und Supermarkt)"
+  },
+  "datum": "2026-10-30"
+ },
+ "wh-850123056": {
+  "lage": {
+   "adresse": "Kutschkergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+  },
+  "datum": "2026-10-30"
+ },
+ "ds-15275367": {
+  "lage": {
+   "adresse": "Kutschkergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+  },
+  "datum": "2026-10-30"
+ },
+ "ds-15036034": {
+  "lage": {
+   "adresse": "Kutschkergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+  },
+  "datum": "2026-10-30"
+ },
+ "is-461806659170": {
+  "lage": {
+   "adresse": "Kutschkergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+  },
+  "datum": "2026-10-30"
+ },
+ "fm-5591193": {
+  "lage": {
+   "adresse": "Kutschkergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+  },
+  "datum": "2026-10-30"
+ },
+ "wh-1992576637": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.225407,
+   "lon": 16.348978,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Haus am Währinger Gürtel, ca. 200 m von U6 Währinger Straße (Top 10, 4. OG laut Grundriss); Hausnummer nicht gefunden"
+  },
+  "datum": "2026-10-30"
+ },
+ "is-954634900048": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.225407,
+   "lon": 16.348978,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Haus am Währinger Gürtel, ca. 200 m von U6 Währinger Straße (Top 10, 4. OG laut Grundriss); Hausnummer nicht gefunden"
+  },
+  "datum": "2026-10-30"
+ },
+ "wh-1805070625": {
+  "lage": {
+   "adresse": "Währinger Straße",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Währinger Straße (Einbahnstraße) bei Aumannplatz/Kutschkermarkt; Hausnummer nicht auffindbar, zwei zusammengelegte Wohnungen"
+  },
+  "datum": "2026-10-30"
+ },
+ "is-366364130003": {
+  "lage": {
+   "adresse": "Währinger Straße",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Währinger Straße (Einbahnstraße) bei Aumannplatz/Kutschkermarkt; Hausnummer nicht auffindbar, zwei zusammengelegte Wohnungen"
+  },
+  "datum": "2026-10-30"
  }
 }
