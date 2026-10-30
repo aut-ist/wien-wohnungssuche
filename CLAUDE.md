@@ -110,7 +110,15 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Online-Status: Nest-Wohnungen werden beim Scrape einzeln aufgerufen (`online_pruefen`), auch
   wenn die Suche sie nicht zeigt. Verschwundene Inserate bleiben 14 Tage in der Liste, ausgegraut
   ("nicht mehr online"), aber nicht auf der Karte. Neu inserierte Wohnungen (gleicher Makler,
-  Portal, m², Zimmer, Stock, HWB; `neu_inseriert`) übernehmen Verlauf, Nest und Prüfungen der alten Nummer.
+  Portal, m², Zimmer, Stock, HWB; `neu_inseriert`) übernehmen Verlauf, Nest und Prüfungen der alten Nummer,
+  auch wenn die alte schon Wochen weg ist (bis sie gelöscht wird; Rausgeworfenes bleibt dafür ein Jahr in
+  listings.json).
+- Papierkorb und Neu-Inserate (Wunsch 2026-10-30): wer eine ausgegraute ("nicht mehr online") Wohnung
+  rauswirft und sie taucht wieder auf, sieht sie wieder, als NEU ab dem Tag der Rückkehr; wer eine
+  online stehende rauswirft, sieht dieselbe Wohnung auch neu inseriert nicht mehr. `build` merkt sich
+  in `data/papierkorb_status.json` pro Eintrag (Zeitstempel), ob die Wohnung auf der zuletzt gebauten
+  Karte ausgegraut war, und gibt wieder Aufgetauchten `korb_frei` (id -> Zeitstempel) und `neu_seit`
+  mit; die Seite ignoriert genau diese Einträge. Erneut rausgeworfen = neuer Zeitstempel = weg.
 - Preisverlauf: jedes Inserat merkt sich Preisänderungen (`preis_historie`), die Gruppe führt sie
   über alle Portale zusammen (`preisverlauf`, dazu `online_seit` = frühestes Inseratsdatum). Für
   Nest-Wohnungen hält `data/preisverlauf.json` den Verlauf und den letzten Stand fest, auch über

@@ -36,6 +36,10 @@ RECHERCHE_PRO_TAG = 25  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundr
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
 SICHTBAR = DATA / "sichtbar_seit.json"
+# Papierkorb-Eintrag -> {"zeit": Zeitstempel, "offline": war die Wohnung beim Rauswerfen ausgegraut,
+# "wieder_da": erster Tag wieder online}. Ausgegraut Rausgeworfenes kommt beim Neu-Inserieren als neu
+# zurück, online Rausgeworfenes bleibt weg (Wunsch 2026-10-30).
+KORB_STATUS = DATA / "papierkorb_status.json"
 MAP_DATA = DOCS / "listings.json"
 TODAY = dt.date.today().isoformat()
 F = CONFIG["filter"]
@@ -144,8 +148,12 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
 def neu_inseriert(listings, gesehen):
     """Makler stellen Wohnungen gern mit neuer Nummer neu ein, oft billiger. Ist heute ein Inserat
     verschwunden und ein neues desselben Maklers auf demselben Portal da (gleiche Fläche, Zimmer,
-    Stock, Energieausweis), ist es dieselbe Wohnung: Verlauf übernehmen, Preisänderung merken."""
-    weg = [r for r in listings.values() if r["id"] not in gesehen and r.get("aktiv") and r.get("zuletzt") != TODAY]
+    Stock, Energieausweis), ist es dieselbe Wohnung: Verlauf übernehmen, Preisänderung merken.
+    Auch wenn das alte Inserat schon länger weg ist (bis es gelöscht wird, im Papierkorb ein Jahr)."""
+    # alle verschwundenen Inserate, nicht nur die der letzten Tage (auch Wochen später neu inseriert ist
+    # dieselbe Wohnung: online Rausgeworfenes soll dann weg bleiben); das zuletzt gesehene zuerst
+    weg = sorted((r for r in listings.values() if r["id"] not in gesehen and not r.get("nachfolger")
+                  and r.get("zuletzt") != TODAY), key=lambda r: r.get("zuletzt") or "", reverse=True)
     for n in [r for r in listings.values() if r["id"] in gesehen and r.get("erstmals") == TODAY]:
         hwb = (n.get("energie") or {}).get("hwb")
         for a in weg:
@@ -217,12 +225,14 @@ def scrape(nur=None):
 
     neu_inseriert(listings, gesehen)
     online_pruefen(listings, gesehen)
-    # nicht mehr gesehene Inserate offline nehmen / alte löschen
+    # nicht mehr gesehene Inserate offline nehmen / alte löschen; Rausgeworfenes ein Jahr behalten, damit
+    # neu_inseriert es wiedererkennt
     heute = dt.date.today()
+    korb = set(load_json(DATA / "markierungen.json", {}).get("papierkorb") or {})
     for k in list(listings):
         r = listings[k]
         alter = (heute - dt.date.fromisoformat(r.get("zuletzt", TODAY))).days
-        if alter >= CONFIG["loeschen_nach_tagen"]:
+        if alter >= (365 if k in korb else CONFIG["loeschen_nach_tagen"]):
             del listings[k]
         elif alter >= CONFIG["offline_nach_tagen"]:
             r["aktiv"] = False
@@ -707,8 +717,16 @@ def build():
     geprueft = load_json(GEPRUEFT, {})
     erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)
     markierungen = load_json(DATA / "markierungen.json", {})
-    korb = set(markierungen.get("papierkorb") or {})
+    korb_zeit = markierungen.get("papierkorb") or {}
+    korb = set(korb_zeit)
     nest = set(markierungen.get("gemerkt") or {})
+    # neue Papierkorb-Einträge: war die Wohnung auf der zuletzt gebauten Karte ausgegraut? (die sah man
+    # beim Rauswerfen); zurückgeholte vergessen, erneut rausgeworfene (neuer Zeitstempel) neu einordnen
+    vorher = {i: w.get("offline", False) for w in load_json(MAP_DATA, {}).get("wohnungen", []) for i in w["ids"]}
+    korb_status = {i: s for i, s in load_json(KORB_STATUS, {}).items() if i in korb}
+    for i, zeit in korb_zeit.items():
+        if (korb_status.get(i) or {}).get("zeit") != zeit:
+            korb_status[i] = {"zeit": zeit, "offline": vorher.get(i, False)}
     archiv = load_json(PREISARCHIV, {})
     sichtbar = load_json(SICHTBAR, {})  # Inserat -> erster Tag auf der Karte
     recherche = []
@@ -747,10 +765,12 @@ def build():
             d = r["zuletzt"].split("-")
             b["gruende"] = [f"Nicht mehr online (zuletzt gesehen {d[2]}.{d[1]}.)"] + b["gruende"]
         eck = rev.get("eckdaten") or {}
+        # ausgegraut rausgeworfen und jetzt wieder online: zählt nicht mehr als Papierkorb
+        frei = {i: korb_zeit[i] for i in r["ids"] if not offline and korb_status.get(i, {}).get("offline")}
         if not offline:
             zaehler[b["status"]] += 1
         if (not offline and b["status"] != "raus" and not lage_genau(r, rev, b)
-                and not set(r["ids"]) & (erledigt | korb)):
+                and not set(r["ids"]) & (erledigt | (korb - set(frei)))):
             recherche.append({
                 "id": r["id"], "ids": r["ids"], "titel": r["titel"], "plz": r["plz"],
                 "links": [l["url"] for l in r["links"]], "anbieter": r.get("anbieter"),
@@ -787,6 +807,8 @@ def build():
                 sichtbar.setdefault(i, seit)
         else:
             seit = r["erstmals"]
+        if frei and b["status"] != "raus":  # wieder da: neu ab dem Tag der Rückkehr
+            seit = max([seit] + [korb_status[i].setdefault("wieder_da", TODAY) for i in frei])
         # beim allerersten Lauf ist alles "neu" – das zählt nicht
         neu = seit > erster_lauf and (heute - dt.date.fromisoformat(seit)).days < CONFIG["neu_tage"]
         karte.append({
@@ -798,6 +820,7 @@ def build():
             "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
+            **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
             "monatlich": r.get("monatlich"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
@@ -823,6 +846,7 @@ def build():
                 details[w["id"]] = e["details"]
     save_json(PREISARCHIV, archiv)
     save_json(SICHTBAR, sichtbar)
+    save_json(KORB_STATUS, korb_status)
     # Street View vom Gehsteig aus mit Blick aufs Haus (nur bei genauer Lage; neue Punkte max. 150 pro Lauf)
     neu_abgefragt = 0
     for w in karte:

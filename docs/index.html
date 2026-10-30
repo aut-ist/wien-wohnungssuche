@@ -579,7 +579,7 @@ const hat = (liste, w) => idsVon(w).some(id => mein[liste][id]);
 const istGesehen = w => hat('gesehen', w);
 function sortiere(l) {
   const s = {
-    neu: (a, b) => b.erstmals.localeCompare(a.erstmals) || (b.preis ?? 0) - (a.preis ?? 0),
+    neu: (a, b) => (b.neu_seit || b.erstmals).localeCompare(a.neu_seit || a.erstmals) || (b.preis ?? 0) - (a.preis ?? 0),
     preis: (a, b) => (a.preis ?? 1e12) - (b.preis ?? 1e12),
     qm: (a, b) => (a.preis / a.flaeche || 1e9) - (b.preis / b.flaeche || 1e9),
     flaeche: (a, b) => (b.flaeche ?? 0) - (a.flaeche ?? 0),
@@ -587,7 +587,9 @@ function sortiere(l) {
   }[filter.sort];
   return l.sort(s);
 }
-const imPapierkorb = w => hat('papierkorb', w);
+// korb_frei: ausgegraut rausgeworfen und wieder online -> zählt nicht mehr (nur derselbe Eintrag; wer sie
+// danach wieder rauswirft, schreibt einen neuen Zeitstempel und sie ist weg)
+const imPapierkorb = w => idsVon(w).some(id => mein.papierkorb[id] && mein.papierkorb[id] !== w.korb_frei?.[id]);
 const istGemerkt = w => hat('gemerkt', w);
 function sichtbar() {
   if (NUR_NEST) {  // Familie sieht nur das Nest, ohne Filter
