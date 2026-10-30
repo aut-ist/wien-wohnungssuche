@@ -3331,8 +3331,8 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.261738,
-   "lon": 16.361963,
+   "lat": 48.2603,
+   "lon": 16.3625,
    "ungefaehr": true,
    "preis": 849000.0,
    "preis_inserat": null,
@@ -3397,9 +3397,9 @@
    ],
    "zustand": "Saniert",
    "guertel": {
-    "min": 19,
+    "min": 17,
     "ab": "Nußdorf, Beethovengang",
-    "gehen": 4,
+    "gehen": 1,
     "ziel": null,
     "ungefaehr": true
    },

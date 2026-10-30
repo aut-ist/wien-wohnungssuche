@@ -1148,22 +1148,22 @@
  "wh-1725543422": {
   "lage": {
    "adresse": null,
-   "lat": 48.261738,
-   "lon": 16.361963,
+   "lat": 48.2603,
+   "lon": 16.3625,
    "sicherheit": "ungefaehr",
-   "begruendung": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)"
+   "begruendung": "Vermutlich Wohnanlage Zahnradbahnstrasse 10 / Bockkellerstrasse 2-8 (Stiege 2 passt): die Entfernungsangaben im QUIN-Expose (quin.immo/expose/17223958) passen dort alle 11, bei Nussberggasse 14 (nur versetzter Portalpunkt) 3 nicht; Baujahr 1981, Fernwaerme, TG. Nicht belegt."
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-30"
  },
  "is-802967549260": {
   "lage": {
    "adresse": null,
-   "lat": 48.261738,
-   "lon": 16.361963,
+   "lat": 48.2603,
+   "lon": 16.3625,
    "sicherheit": "ungefaehr",
-   "begruendung": "unklar: willhaben verschiebt den Punkt absichtlich (POSITION_RADIUS_METERS 269), Nußberggasse 14 ist nur der verschobene Punkt; echte Lage im Umkreis ~270 m (Nußdorf). Kein Neubau: sanierte Wohnung in Haus von 1981, 1. Stock, Stiege 2 (quin.immo/objekt/17223958). Adresse nur über Makler (QUIN, Jessica Jauk)"
+   "begruendung": "Vermutlich Wohnanlage Zahnradbahnstrasse 10 / Bockkellerstrasse 2-8 (Stiege 2 passt): die Entfernungsangaben im QUIN-Expose (quin.immo/expose/17223958) passen dort alle 11, bei Nussberggasse 14 (nur versetzter Portalpunkt) 3 nicht; Baujahr 1981, Fernwaerme, TG. Nicht belegt."
   },
-  "datum": "2026-10-27"
+  "datum": "2026-10-30"
  },
  "wh-1046812803": {
   "lage": {
@@ -10292,71 +10292,71 @@
  },
  "wh-850123056": {
   "lage": {
-   "adresse": "Kutschkergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+   "adresse": "Kutschkergasse 11",
+   "lat": 48.22337,
+   "lon": 16.34382,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld (architekt bambuch, EDEX): Kutschkergasse 11, 1180 Wien, TOP 02, 105,34 m2; EDEX-Einheitenliste (ds-15275367): Top 2, 1. OG, 898.000"
   },
   "datum": "2026-10-30"
  },
  "ds-15275367": {
   "lage": {
-   "adresse": "Kutschkergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+   "adresse": "Kutschkergasse 11",
+   "lat": 48.22337,
+   "lon": 16.34382,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld (architekt bambuch, EDEX): Kutschkergasse 11, 1180 Wien, TOP 02, 105,34 m2; EDEX-Einheitenliste (ds-15275367): Top 2, 1. OG, 898.000"
   },
   "datum": "2026-10-30"
  },
  "ds-15036034": {
   "lage": {
-   "adresse": "Kutschkergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+   "adresse": "Kutschkergasse 11",
+   "lat": 48.22337,
+   "lon": 16.34382,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld (architekt bambuch, EDEX): Kutschkergasse 11, 1180 Wien, TOP 02, 105,34 m2; EDEX-Einheitenliste (ds-15275367): Top 2, 1. OG, 898.000"
   },
   "datum": "2026-10-30"
  },
  "is-461806659170": {
   "lage": {
-   "adresse": "Kutschkergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+   "adresse": "Kutschkergasse 11",
+   "lat": 48.22337,
+   "lon": 16.34382,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld (architekt bambuch, EDEX): Kutschkergasse 11, 1180 Wien, TOP 02, 105,34 m2; EDEX-Einheitenliste (ds-15275367): Top 2, 1. OG, 898.000"
   },
   "datum": "2026-10-30"
  },
  "fm-5591193": {
   "lage": {
-   "adresse": "Kutschkergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt 'Am Kutschkermarkt' (EDEX), Kutschkergasse laut derStandard; Hausnummer nicht gefunden, Grundriss Top 2 (105,34 m², 1. Stock) ohne Adresse"
+   "adresse": "Kutschkergasse 11",
+   "lat": 48.22337,
+   "lon": 16.34382,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld (architekt bambuch, EDEX): Kutschkergasse 11, 1180 Wien, TOP 02, 105,34 m2; EDEX-Einheitenliste (ds-15275367): Top 2, 1. OG, 898.000"
   },
   "datum": "2026-10-30"
  },
  "wh-1992576637": {
   "lage": {
-   "adresse": null,
-   "lat": 48.225407,
-   "lon": 16.348978,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Haus am Währinger Gürtel, ca. 200 m von U6 Währinger Straße (Top 10, 4. OG laut Grundriss); Hausnummer nicht gefunden"
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "sicherheit": "genau",
+   "begruendung": "Energieausweis auf immoloewin.at (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf): EA WHG Waehringer Guertel 79 Top 10, Grundstueck 441/14, HWB 35,6 / fGEE 0,74 wie im Inserat; Grundriss Top 10, 4. OG, 78,66 m2"
   },
   "datum": "2026-10-30"
  },
  "is-954634900048": {
   "lage": {
-   "adresse": null,
-   "lat": 48.225407,
-   "lon": 16.348978,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Haus am Währinger Gürtel, ca. 200 m von U6 Währinger Straße (Top 10, 4. OG laut Grundriss); Hausnummer nicht gefunden"
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "sicherheit": "genau",
+   "begruendung": "Energieausweis auf immoloewin.at (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf): EA WHG Waehringer Guertel 79 Top 10, Grundstueck 441/14, HWB 35,6 / fGEE 0,74 wie im Inserat; Grundriss Top 10, 4. OG, 78,66 m2"
   },
   "datum": "2026-10-30"
  },
