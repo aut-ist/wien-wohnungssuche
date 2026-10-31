@@ -10382,5 +10382,40 @@
  },
  "null": {
   "datum": "2026-10-30"
+ },
+ "wh-1266590524": {
+  "lage": {
+   "adresse": "Czartoryskigasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Straßenname im Inserat; \"Buslinien 10A und 42A (Station CZARTORYSKIGASSE)\", Straßenbahn 9 (Simonygasse), Sternwartepark – Schafberg-Fuß, 18. Bezirk."
+  },
+  "datum": "2026-10-31"
+ },
+ "wh-2122122976": {
+  "lage": {
+   "adresse": "Hameau",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Exklusive Maisonette am Hameau\", 19. Bezirk, keine Hausnummer genannt."
+  },
+  "eckdaten": {},
+  "datum": "2026-10-31"
+ },
+ "is-374683597052": {
+  "lage": {
+   "adresse": "Nordbergstraße",
+   "sicherheit": "genau",
+   "begruendung": "Straße laut Inserat Nordbergstraße, \"direkt am Franz-Josefs-Bahnhof\", 9. Bezirk."
+  },
+  "datum": "2026-10-31"
+ },
+ "is-224194151898": {
+  "lage": {
+   "adresse": "Zimmermanngasse 14",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Gutachten-Suchtreffer (edikte/firmenatlas): ETW Top 10 in Zimmermanngasse 14; Inserat: Wohnung Nr. 10, 2. OG, Insolvenzverwalter, nicht direkt verifiziert"
+  },
+  "datum": "2026-10-31"
  }
 }
