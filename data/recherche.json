@@ -1,1 +1,456 @@
-[]
+[
+ {
+  "id": "wh-1660292463",
+  "ids": [
+   "wh-1660292463",
+   "is-464288125828",
+   "ds-15300023",
+   "fm-5771439"
+  ],
+  "titel": "++NEU++ Tolle 3-Zimmer Altbau-Wohnung mit getrennter Küche in toller Lage! AirBnB laut WEV erlaubt",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/-neu-tolle-3-zimmer-altbau-wohnung-mit-getrennter-kueche-in-toller-lage-airbnb-laut-wev-erlaubt-1660292463/",
+   "https://www.findmyhome.at/5771439",
+   "https://www.immobilienscout24.at/expose/6ae4811bbb6b770022bf66e1",
+   "https://immobilien.derstandard.at/detail/15300023"
+  ],
+  "anbieter": "Adonia Realitätenvermittlung GmbH",
+  "adresse_im_inserat": "Blindengasse",
+  "lage": "8. Bezirk",
+  "punkt": [
+   48.211838,
+   16.340706
+  ],
+  "versatz_m": 0,
+  "preis": 449000.0,
+  "flaeche": 84.04,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "76,3",
+   "hwb_class": null,
+   "fgee": "1,45",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1660292463/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "wh-942897670",
+  "ids": [
+   "wh-942897670",
+   "is-470750805239",
+   "ds-15300025",
+   "fm-5771441"
+  ],
+  "titel": "++NEU++ Nette 3-Zimmer Altbau-Wohnung mit Einbauküche in toller Lage!",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/-neu-nette-3-zimmer-altbau-wohnung-mit-einbaukueche-in-toller-lage-942897670/",
+   "https://www.findmyhome.at/5771441",
+   "https://www.immobilienscout24.at/expose/6ae4811bbb6b770022bf66e4",
+   "https://immobilien.derstandard.at/detail/15300025"
+  ],
+  "anbieter": "Adonia Realitätenvermittlung GmbH",
+  "adresse_im_inserat": "Blindengasse",
+  "lage": "8. Bezirk",
+  "punkt": [
+   48.211838,
+   16.340706
+  ],
+  "versatz_m": 0,
+  "preis": 495000.0,
+  "flaeche": 87.02,
+  "zimmer": 3,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "76,3",
+   "hwb_class": null,
+   "fgee": "1,45",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-942897670/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "wh-1266590524",
+  "ids": [
+   "wh-1266590524",
+   "is-226398488892",
+   "ds-15300525"
+  ],
+  "titel": "ALTBAUJUWEL + ERSTBEZUGSQUALITÄT + nachgefragte LAGE + PERFEKTE Einteilung + BALKON!",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/altbaujuwel-erstbezugsqualitaet-nachgefragte-lage-perfekte-einteilung-balkon-1266590524/",
+   "https://www.immobilienscout24.at/expose/6ae504aff407b34c43538928",
+   "https://immobilien.derstandard.at/detail/15300525"
+  ],
+  "anbieter": "Hacker & Partner GesmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (Kartenpunkt bis zu 258 m versetzt)",
+  "punkt": [
+   48.227238,
+   16.324917
+  ],
+  "versatz_m": 258,
+  "preis": 850000.0,
+  "flaeche": 110.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "120,3",
+   "hwb_class": "D",
+   "fgee": "1,95",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1266590524/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "wh-2122122976",
+  "ids": [
+   "wh-2122122976",
+   "ds-15300832"
+  ],
+  "titel": "DÖBLING EXKLUSIV | MAISONETTE AM HAMEAU",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/doebling-exklusiv-maisonette-am-hameau-2122122976/",
+   "https://immobilien.derstandard.at/detail/15300832"
+  ],
+  "anbieter": "Betterhomes Real GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.248901,
+   16.328147
+  ],
+  "versatz_m": 0,
+  "preis": 397500.0,
+  "flaeche": 84.0,
+  "zimmer": null,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2122122976/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "wh-1033930474",
+  "ids": [
+   "wh-1033930474",
+   "ds-15300034",
+   "is-384480582843",
+   "fm-5771446"
+  ],
+  "titel": "360° TOUR // NEUBAUWOHNUNG mit SÜDTERRASSE",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/360-tour-neubauwohnung-mit-suedterrasse-1033930474/",
+   "https://www.findmyhome.at/5771446",
+   "https://www.immobilienscout24.at/expose/6ae48930bb6b770022bf8930",
+   "https://immobilien.derstandard.at/detail/15300034"
+  ],
+  "anbieter": "KALANDRA Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 253 m versetzt)",
+  "punkt": [
+   48.245407,
+   16.344582
+  ],
+  "versatz_m": 253,
+  "preis": 750000.0,
+  "flaeche": 93.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "50,88",
+   "hwb_class": "B",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1033930474/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-910251326246",
+  "ids": [
+   "is-910251326246"
+  ],
+  "titel": "Geräumige Altbauwohnung mit zwei Zimmern, Kabinett und zwei Kellerabteilen",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae482de305a4c8d31e4acc0"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 335000,
+  "flaeche": 78.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-910251326246/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-414693493593",
+  "ids": [
+   "is-414693493593"
+  ],
+  "titel": "Großzügige Erdgeschosswohnung mit vielseitigem Raumangebot und zwei Kellerabteilen",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae482de305a4c8d31e4acbc"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 180000,
+  "flaeche": 78.0,
+  "zimmer": 4,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-414693493593/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-348763377865",
+  "ids": [
+   "is-348763377865"
+  ],
+  "titel": "3-Zimmer-Wohnung im Erdgeschoss",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae45f62305a4c8d31e4474f"
+  ],
+  "anbieter": "Asyndrom Verlag GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 180000,
+  "flaeche": 77.59,
+  "zimmer": 3,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-348763377865/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-142462086961",
+  "ids": [
+   "is-142462086961"
+  ],
+  "titel": "Großzügige Altbauwohnung mit 90 m² und drei Zimmern",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae482dfbb6b770022bf762a"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 410000,
+  "flaeche": 90.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-142462086961/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-374683597052",
+  "ids": [
+   "is-374683597052",
+   "ds-15300096"
+  ],
+  "titel": "Moderne Neubauwohnung mit Balkon **PROVISIONSFREI**",
+  "plz": 1090,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae48822bb6b770022bf87fc",
+   "https://immobilien.derstandard.at/detail/15300096"
+  ],
+  "anbieter": "ALTENBURG REALITÄTEN GmbH & Co KG",
+  "adresse_im_inserat": "Nordbergstraße",
+  "lage": "rote Zone: Lichtental-Nord / Friedensbrücke",
+  "punkt": [
+   48.228182,
+   16.361977
+  ],
+  "versatz_m": 0,
+  "preis": 589000,
+  "flaeche": 77.0,
+  "zimmer": 3,
+  "stockwerk": "5",
+  "energie": {
+   "hwb": 24.14,
+   "hwb_class": "A",
+   "fgee": 0.83,
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/is-374683597052/",
+  "im_nest": false,
+  "erstmals": "2026-10-31"
+ },
+ {
+  "id": "is-163352777055",
+  "ids": [
+   "is-163352777055",
+   "is-830216055127",
+   "is-367329153530"
+  ],
+  "titel": "Vier Dachgeschosswohnungen mit großzügigen Außenflächen und Ausbaupotenzial",
+  "plz": 1090,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae482ddbb6b770022bf75ba",
+   "https://www.immobilienscout24.at/expose/6adb3573432881315c80142f",
+   "https://www.immobilienscout24.at/expose/6adf37d45c125e1024fd91b1"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Währinger Gürtel",
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.230371,
+   16.351014
+  ],
+  "versatz_m": 0,
+  "preis": 978000,
+  "flaeche": 358.0,
+  "zimmer": null,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-163352777055/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "is-019386467320",
+  "ids": [
+   "is-019386467320",
+   "is-692231043285",
+   "is-614648374682"
+  ],
+  "titel": "Viel Platz, gute Substanz - 5-Zimmer-Wohnung mit 184 m² Wohnfläche",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae482de305a4c8d31e4acad",
+   "https://www.immobilienscout24.at/expose/6adb357455ad6791e12aaa67",
+   "https://www.immobilienscout24.at/expose/6adf37d45c125e1024fd91ee"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Herminengasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.218101,
+   16.373759
+  ],
+  "versatz_m": 0,
+  "preis": 930000,
+  "flaeche": 185.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-019386467320/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "is-224194151898",
+  "ids": [
+   "is-224194151898",
+   "is-540517962218",
+   "is-791515816931"
+  ],
+  "titel": "+++ 6-Zimmer-Altbauwohnung im 2. OG mit Balkon +++",
+  "plz": 1090,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6adb356d55ad6791e12aa855",
+   "https://www.immobilienscout24.at/expose/6adf37ce194449f656de95c6",
+   "https://www.immobilienscout24.at/expose/6ae482d6bb6b770022bf73b3"
+  ],
+  "anbieter": "Daten Info Service Eibl GmbH",
+  "adresse_im_inserat": "Zimmermanngasse",
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.215704,
+   16.34278
+  ],
+  "versatz_m": 0,
+  "preis": 288000.0,
+  "flaeche": 163.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-224194151898/",
+  "im_nest": false,
+  "erstmals": "2026-10-25"
+ }
+]
