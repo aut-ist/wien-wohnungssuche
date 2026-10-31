@@ -71,13 +71,13 @@
    "ergebnis": "gas",
    "begruendung": "\"Die Heizung erfolgt über einen zentralen Gas-Heizkessel im Keller\""
   },
-  "datum": "2026-10-28",
+  "datum": "2026-10-31",
   "lage": {
-   "adresse": "Dionysius-Andrassy-Straße",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Die Inserate nennen nur die Dionysius-Andrassy-Straße (willhaben-Punkt ohne Radius = Straßen-Geokodierung). Das Haus ist laut Inserat Baujahr ca. 1985, mit Tiefgarage und Lift; der Garten ist südöstlich ausgerichtet. Der Grundriss trägt kein Schriftfeld, und eine Hausnummer war nicht zu finden."
+   "adresse": "Dionysius-Andrassy-Straße 10",
+   "lat": 48.246478,
+   "lon": 16.351689,
+   "sicherheit": "genau",
+   "begruendung": "Haus von Saad per Street View/Luftbild gefunden (Gartenseite mit Terrassen zur Formanekgasse hin, Pin 48.246478,16.351689); Adresse dort laut OSM-Adresspunkt und Google: Dionysius-Andrassy-Strasse 10; passt zur Strasse im Inserat und Baujahr 1985."
   }
  },
  "wh-1476454107": {
@@ -2038,13 +2038,13 @@
  },
  "is-275425614522": {
   "lage": {
-   "adresse": "Dionysius-Andrassy-Straße",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Die Inserate nennen nur die Dionysius-Andrassy-Straße (willhaben-Punkt ohne Radius = Straßen-Geokodierung). Das Haus ist laut Inserat Baujahr ca. 1985, mit Tiefgarage und Lift; der Garten ist südöstlich ausgerichtet. Der Grundriss trägt kein Schriftfeld, und eine Hausnummer war nicht zu finden."
+   "adresse": "Dionysius-Andrassy-Straße 10",
+   "lat": 48.246478,
+   "lon": 16.351689,
+   "sicherheit": "genau",
+   "begruendung": "Haus von Saad per Street View/Luftbild gefunden (Gartenseite mit Terrassen zur Formanekgasse hin, Pin 48.246478,16.351689); Adresse dort laut OSM-Adresspunkt und Google: Dionysius-Andrassy-Strasse 10; passt zur Strasse im Inserat und Baujahr 1985."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-10-31"
  },
  "wh-1936414346": {
   "lage": {

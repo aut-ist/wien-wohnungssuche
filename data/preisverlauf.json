@@ -4946,17 +4946,17 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.246874,
-   "lon": 16.351149,
-   "ungefaehr": true,
+   "lat": 48.246478,
+   "lon": 16.351689,
+   "ungefaehr": false,
    "preis": 998000.0,
    "preis_inserat": null,
    "preis_hinweis": null,
    "flaeche": 121.0,
    "zimmer": 4,
    "plz": 1190,
-   "adresse": "Dionysius-Andrassy-Straße",
-   "lage": "19. Bezirk (aus Beschreibung: Dionysius-Andrassy-Straße)",
+   "adresse": "Dionysius-Andrassy-Straße 10",
+   "lage": "19. Bezirk (aus Beschreibung: Dionysius-Andrassy-Straße 10)",
    "heizung": {
     "ergebnis": "gas",
     "text": "\"Die Heizung erfolgt über einen zentralen Gas-Heizkessel im Keller\"",
@@ -5019,11 +5019,11 @@
    ],
    "zustand": "Vollständig renoviert",
    "guertel": {
-    "min": 17,
+    "min": 16,
     "ab": "Barawitzkagasse",
-    "gehen": 6,
+    "gehen": 5,
     "ziel": null,
-    "ungefaehr": true
+    "ungefaehr": false
    },
    "zuletzt": "2026-10-31"
   },
