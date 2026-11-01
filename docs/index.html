@@ -536,7 +536,8 @@ legende.onAdd = () => {
 legende.addTo(map);
 
 async function ladeGebiete() {
-  const j = p => fetch(p).then(r => r.json());
+  // no-cache: nach Zonen-Änderungen sonst bis zu 10 min die alte Datei aus dem Handy-Cache (2026-11-01)
+  const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
   const [bez, zonen, oeffis] = await Promise.all([j('geo/bezirke.geojson'), j('geo/zones.geojson'), j('geo/oeffis.geojson').catch(() => null)]);
   L.geoJSON(bez, { pane: 'gebiete', interactive: false,
     // Bezirksgrenzen gepunktet und dezent, damit sie nicht mit Öffi-Linien verwechselt werden
