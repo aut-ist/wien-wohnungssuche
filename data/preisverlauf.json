@@ -8445,8 +8445,8 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.228105,
-   "lon": 16.326877,
+   "lat": 48.228133,
+   "lon": 16.326387,
    "ungefaehr": true,
    "preis": 850000.0,
    "preis_inserat": null,
@@ -8454,8 +8454,8 @@
    "flaeche": 110.0,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": "Czartoryskigasse",
-   "lage": "18. Bezirk (aus Beschreibung: Czartoryskigasse)",
+   "adresse": "Czartoryskigasse 7",
+   "lage": "18. Bezirk (aus Beschreibung: Czartoryskigasse 7)",
    "heizung": {
     "ergebnis": "gas",
     "von": "automatisch",
@@ -8542,8 +8542,8 @@
    "zustand": "Gepflegt",
    "guertel": {
     "min": 15,
-    "ab": "Czartoryskigasse",
-    "gehen": 1,
+    "ab": "Antonigasse",
+    "gehen": 6,
     "ziel": null,
     "ungefaehr": true
    },

@@ -89,6 +89,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   tägliche Routine recherchiert sie (in der Cloud sind die Portalseiten gesperrt, Bauträger- und
   Maklerseiten nicht). Erledigt = Eintrag in `data/nest_geprueft.json`, auch wenn nichts gefunden wurde.
   Ziel ist die Hausnummer, möglichst auch das Top. Vorgehen: alle Portaltexte der Gruppe lesen →
+  angehängte Dokumente öffnen (`dokumente` in recherche.json: Grundriss-/Exposé-PDFs, die willhaben-Makler
+  anhängen; schon der Dateiname kann die Adresse nennen, 2026-11-01 "Gentzgasse_83_Top03_Einrichtung.pdf" bei
+  einem Inserat ganz ohne Adresse, das die erste Recherche als "unklar" abgelegt hatte) →
   Grundrisse ansehen (siehe unten) → Bauträger bzw. Projekt herausfinden und die eigenen Webseiten
   von Bauträger und Makler mit der Projektseite bzw. dem Exposé suchen: dort stehen meist Straße mit Hausnummer und eine
   Einheitenliste (Top, Zimmer, m², Preis), an der man die Wohnung eindeutig erkennt. Das ist

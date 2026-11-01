@@ -10389,11 +10389,13 @@
  },
  "wh-1266590524": {
   "lage": {
-   "adresse": "Czartoryskigasse",
+   "adresse": "Czartoryskigasse 7",
+   "lat": 48.228133,
+   "lon": 16.326387,
    "sicherheit": "ungefaehr",
-   "begruendung": "Kein Straßenname im Inserat; \"Buslinien 10A und 42A (Station CZARTORYSKIGASSE)\", Straßenbahn 9 (Simonygasse), Sternwartepark – Schafberg-Fuß, 18. Bezirk."
+   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
   },
-  "datum": "2026-10-31"
+  "datum": "2026-11-01"
  },
  "wh-2122122976": {
   "lage": {
@@ -11229,11 +11231,11 @@
  },
  "wh-2084396888": {
   "lage": {
-   "adresse": "Waldbachsteig",
-   "lat": 48.275,
-   "lon": 16.3505,
+   "adresse": "Donauwartesteig 26",
+   "lat": 48.283512,
+   "lon": 16.34563,
    "sicherheit": "ungefaehr",
-   "begruendung": "Keine Adresse; Portalpunkt ist nur Bezirksmitte. Text: 'Ruhelage am Hang mit Blick über die Donau', 'Angelpunkt Kuchelau innerhalb weniger Minuten zu Fuß'; Fotos zeigen vom Hang aus die Neubauten 'The SHORE' am Kuchelauer Hafen unten links und den Bisamberg gegenüber -> Hang südlich der Kuchelau (Waldbachsteig/Eisernenhandgasse/Nasenweg), Haus Bj. 2000, 4 Geschoße, Tiefgarage"
+   "begruendung": "Gebäude per Fotoabgleich identifiziert: Fassadenfoto (4-geschoßiger Hangbau, grüne Blechdächer) und Blick vom Objekt auf die eigenen grünen Dächer mit Dachfenstern und Glasdach (Wintergarten) passen zum Gebäude Donauwartesteig 26 im Orthofoto der Stadt Wien. Die Nachbarhäuser im Vordergrund der Aussichtsfotos (dunkles Dach = Nr. 25, rotes Dach mit weißer Fassade = Nr. 27) und The SHORE (Kuchelauer Hafenstraße 98) ~250 m unterhalb jenseits von B14 und Bahn, dahinter Bisamberg, passen genau. Verworfen: Waldbachsteig/Eisernenhandgasse (Blick nach Norden dort vom Leopoldsberg verdeckt) und Hackhofergasse 13 (nur alter Firmensitz der Sky2 GmbH, 1,4 km südlich, flach). Keine Quelle nennt die Adresse wörtlich, Top unbekannt. Belege: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/2-exklusive-zusammengelegte-wohnungen-mit-panoramablick-finanzierungsmodell-moeglich-2084396888/ (Fotos 2, 3, 7, 9); Orthofoto mapsneu.wien.gv.at; data.wien.gv.at ADRESSENOGD"
   },
   "datum": "2026-11-01"
  },
@@ -12415,21 +12417,21 @@
  },
  "wh-2143500290": {
   "lage": {
-   "adresse": "Gersthofer Straße 3",
-   "lat": 48.226933,
-   "lon": 16.324677,
+   "adresse": "Czartoryskigasse 30",
+   "lat": 48.22897,
+   "lon": 16.324809,
    "sicherheit": "ungefaehr",
-   "begruendung": "Erschlossen: Jugendstil-Eckvilla Baujahr 1912 mit Eckturm, EG Top 4+5. Kuhn-Grundriss (schräge Westfassade, abgeschrägte Ecke mit Erker \"Zugang Garten\", Lichthöfe) passt genau zum Stadt-Wien-Gebäudeumriss (FMZK) von Gersthofer Straße 3 / Ecke Schöffelgasse 2 (Villa, 1848–1918), 80 m vom Portalpunkt; andere Villen im 269-m-Kreis passen nicht"
+   "begruendung": "Kein Quelltext nennt die Adresse; per Luftbild/Foto erschlossen: Kuhn-Foto 25 (willhaben) zeigt Eckvilla mit achteckigem dunklem Spitzhelm-Eckturm, hinter Hecke/Mauer zurückversetzt an ruhiger Kreuzung mit Parkspuren. Genau so ein Turm steht im Orthofoto (basemap.at bmaporthofoto30cm) an der SO-Ecke von Czartoryskigasse 30 / Ecke Schöffelgasse 17 (Stadt-Wien-FMZK-Umriss mit polygonalem Eckerker = Grundriss-Erker 'Zugang Garten'; Bauperiode 1848–1918, freistehende Villa). Runde-1-Kandidat Gersthofer Straße 3 widerlegt: Ecke liegt direkt am Gehsteig der 4-spurigen Gersthofer Straße, Ziegeldach, kein Spitzhelm, keine Hecke/kein Eckgarten. 196 m vom Portalpunkt (Radius 269 m). Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neu-stilvolles-altbau-juwel-mit-eigengarten-in-gersthofer-jugendstil-villa-2143500290/"
   },
   "datum": "2026-11-01"
  },
  "is-972647531666": {
   "lage": {
-   "adresse": "Gersthofer Straße 3",
-   "lat": 48.226933,
-   "lon": 16.324677,
+   "adresse": "Czartoryskigasse 30",
+   "lat": 48.22897,
+   "lon": 16.324809,
    "sicherheit": "ungefaehr",
-   "begruendung": "Erschlossen: Jugendstil-Eckvilla Baujahr 1912 mit Eckturm, EG Top 4+5. Kuhn-Grundriss (schräge Westfassade, abgeschrägte Ecke mit Erker \"Zugang Garten\", Lichthöfe) passt genau zum Stadt-Wien-Gebäudeumriss (FMZK) von Gersthofer Straße 3 / Ecke Schöffelgasse 2 (Villa, 1848–1918), 80 m vom Portalpunkt; andere Villen im 269-m-Kreis passen nicht"
+   "begruendung": "Kein Quelltext nennt die Adresse; per Luftbild/Foto erschlossen: Kuhn-Foto 25 (willhaben) zeigt Eckvilla mit achteckigem dunklem Spitzhelm-Eckturm, hinter Hecke/Mauer zurückversetzt an ruhiger Kreuzung mit Parkspuren. Genau so ein Turm steht im Orthofoto (basemap.at bmaporthofoto30cm) an der SO-Ecke von Czartoryskigasse 30 / Ecke Schöffelgasse 17 (Stadt-Wien-FMZK-Umriss mit polygonalem Eckerker = Grundriss-Erker 'Zugang Garten'; Bauperiode 1848–1918, freistehende Villa). Runde-1-Kandidat Gersthofer Straße 3 widerlegt: Ecke liegt direkt am Gehsteig der 4-spurigen Gersthofer Straße, Ziegeldach, kein Spitzhelm, keine Hecke/kein Eckgarten. 196 m vom Portalpunkt (Radius 269 m). Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neu-stilvolles-altbau-juwel-mit-eigengarten-in-gersthofer-jugendstil-villa-2143500290/"
   },
   "datum": "2026-11-01"
  },
@@ -12727,41 +12729,41 @@
  },
  "wh-1679951842": {
   "lage": {
-   "adresse": null,
-   "lat": null,
-   "lon": null,
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"Gründerzeit-Zinshaus mit Lift in 1180 Wien\", Baujahr 1894, 2. Stock Top 03; keine Straße, nur Renderings, keine Grundrisse"
+   "adresse": "Gentzgasse 83",
+   "lat": 48.2280866,
+   "lon": 16.3374696,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-PDF im willhaben-Inserat und auf unio.at/property/61: 'Gentzgasse_83_Top03_Einrichtung.pdf', Raumflächen ergeben genau 129,34 m², 2. Stock; willhaben-Punkt (Radius 0) liegt 30 m vom Haus"
   },
   "datum": "2026-11-01"
  },
  "is-707873514099": {
   "lage": {
-   "adresse": null,
-   "lat": null,
-   "lon": null,
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"Gründerzeit-Zinshaus mit Lift in 1180 Wien\", Baujahr 1894, 2. Stock Top 03; keine Straße, nur Renderings, keine Grundrisse"
+   "adresse": "Gentzgasse 83",
+   "lat": 48.2280866,
+   "lon": 16.3374696,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-PDF im willhaben-Inserat und auf unio.at/property/61: 'Gentzgasse_83_Top03_Einrichtung.pdf', Raumflächen ergeben genau 129,34 m², 2. Stock; willhaben-Punkt (Radius 0) liegt 30 m vom Haus"
   },
   "datum": "2026-11-01"
  },
  "wh-1457594855": {
   "lage": {
-   "adresse": "Sieveringer Straße 111",
-   "lat": 48.2483965,
-   "lon": 16.3278425,
+   "adresse": "Sieveringer Straße 78",
+   "lat": 48.248464,
+   "lon": 16.328197,
    "sicherheit": "ungefaehr",
-   "begruendung": "Trilateriert aus der Entfernungsliste im Inserat (Schachinger Sieveringer Str. 99: 107 m, Nr. 141: 251 m, Nr. 62: 224 m, Nr. 102: 245 m, Eckel Nr. 46: 441 m, VS Windhabergasse 149 m): Restfehler 1-2 m, Treffer 5 m neben Adresspunkt Sieveringer Straße 111 (Wien Geschichte Wiki)"
+   "begruendung": "Gebäude eindeutig identifiziert: Fassadenfotos (langes Biedermeierhaus mit ~12 Gaupen, Garagentor/Durchfahrt links, Dreieck-Bodenmarkierung davor, Fassade sonnenbeschienen = Nordseite der Straße) passen zum Haus Sieveringer Straße 78 / Anton-Karas-Platz 1 im Orthofoto; der eingescannte Bauplan im Inserat (Tops 2, 3, 6) nennt 37,38 m Straßenfront = FMZK-Grundriss dieses Gebäudes (24,4 + 13,1 m = 37,4 m). Runde-1-Wert Sieveringer Straße 111 verworfen: dort steht laut FMZK und Orthofoto kein Gebäude (leere Parzelle gegenüber); die REMAX-Entfernungsliste ist nur ±20 m genau. Keine Quelle nennt die Adresse wörtlich. Belege: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/charmante-gartenwohnung-in-untersievering-doebling-1457594855/ (Fotos 2-3, Plan Foto 23); data.wien.gv.at FMZKBKMOGD/ADRESSENOGD (ungefähr: Hausnummer erschlossen, von keiner Quelle genannt)"
   },
   "datum": "2026-11-01"
  },
  "ds-15137348": {
   "lage": {
-   "adresse": "Sieveringer Straße 111",
-   "lat": 48.2483965,
-   "lon": 16.3278425,
+   "adresse": "Sieveringer Straße 78",
+   "lat": 48.248464,
+   "lon": 16.328197,
    "sicherheit": "ungefaehr",
-   "begruendung": "Trilateriert aus der Entfernungsliste im Inserat (Schachinger Sieveringer Str. 99: 107 m, Nr. 141: 251 m, Nr. 62: 224 m, Nr. 102: 245 m, Eckel Nr. 46: 441 m, VS Windhabergasse 149 m): Restfehler 1-2 m, Treffer 5 m neben Adresspunkt Sieveringer Straße 111 (Wien Geschichte Wiki)"
+   "begruendung": "Gebäude eindeutig identifiziert: Fassadenfotos (langes Biedermeierhaus mit ~12 Gaupen, Garagentor/Durchfahrt links, Dreieck-Bodenmarkierung davor, Fassade sonnenbeschienen = Nordseite der Straße) passen zum Haus Sieveringer Straße 78 / Anton-Karas-Platz 1 im Orthofoto; der eingescannte Bauplan im Inserat (Tops 2, 3, 6) nennt 37,38 m Straßenfront = FMZK-Grundriss dieses Gebäudes (24,4 + 13,1 m = 37,4 m). Runde-1-Wert Sieveringer Straße 111 verworfen: dort steht laut FMZK und Orthofoto kein Gebäude (leere Parzelle gegenüber); die REMAX-Entfernungsliste ist nur ±20 m genau. Keine Quelle nennt die Adresse wörtlich. Belege: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/charmante-gartenwohnung-in-untersievering-doebling-1457594855/ (Fotos 2-3, Plan Foto 23); data.wien.gv.at FMZKBKMOGD/ADRESSENOGD (ungefähr: Hausnummer erschlossen, von keiner Quelle genannt)"
   },
   "datum": "2026-11-01"
  },
@@ -13555,31 +13557,31 @@
  },
  "wh-2012777061": {
   "lage": {
-   "adresse": "Bastiengasse",
-   "lat": 48.235863,
-   "lon": 16.319164,
+   "adresse": "Währinger Straße 161",
+   "lat": 48.2284555,
+   "lon": 16.3332477,
    "sicherheit": "ungefaehr",
-   "begruendung": "Keine Adresse im Text (DIMAG, Top 14 laut Grundriss, DG-Ausbau eines sockelsanierten Stilaltbaus, Linien 40/41/42, S-Bahn, Türkenschanzpark nah); willhaben-Punkt ohne Versatz liegt an der Bastiengasse Ecke Hockegasse (Alt-Gersthof) - Hausnummer nicht belegt"
+   "begruendung": "Ungefähr Währinger Straße 161 (Top 14 laut Grundriss): Hausnummer nicht belegt. Gleicher DIMAG-Energieausweis (HWB 28,2, Bj. ca. 1900, Luftwärmepumpe) wie DIMAG-Maisonette 185 m² (immobilienscout24.at/expose/6a57708715926e79a04ae250: 'befindet sich in der Währinger Straße, beim Aumannplatz'); Orthofoto Stadt Wien 2017 vs. aktuell: neuer DG-Ausbau mit Terrassen genau auf Währinger Straße 161 (Hof mit großen Bäumen wie Foto 00); Fotoblick: Straße Richtung Wienerwald, Weinhauser Kirchturm rechts (~40-50°), Gegenrichtung Votivkirche in Straßenachse - passt zu Südseite Währinger Straße westlich Aumannplatz. willhaben-Punkt (Gersthof, Pavillonanlage) ist falsch."
   },
   "datum": "2026-11-01"
  },
  "is-150421402805": {
   "lage": {
-   "adresse": "Bastiengasse",
-   "lat": 48.235863,
-   "lon": 16.319164,
+   "adresse": "Währinger Straße 161",
+   "lat": 48.2284555,
+   "lon": 16.3332477,
    "sicherheit": "ungefaehr",
-   "begruendung": "Keine Adresse im Text (DIMAG, Top 14 laut Grundriss, DG-Ausbau eines sockelsanierten Stilaltbaus, Linien 40/41/42, S-Bahn, Türkenschanzpark nah); willhaben-Punkt ohne Versatz liegt an der Bastiengasse Ecke Hockegasse (Alt-Gersthof) - Hausnummer nicht belegt"
+   "begruendung": "Ungefähr Währinger Straße 161 (Top 14 laut Grundriss): Hausnummer nicht belegt. Gleicher DIMAG-Energieausweis (HWB 28,2, Bj. ca. 1900, Luftwärmepumpe) wie DIMAG-Maisonette 185 m² (immobilienscout24.at/expose/6a57708715926e79a04ae250: 'befindet sich in der Währinger Straße, beim Aumannplatz'); Orthofoto Stadt Wien 2017 vs. aktuell: neuer DG-Ausbau mit Terrassen genau auf Währinger Straße 161 (Hof mit großen Bäumen wie Foto 00); Fotoblick: Straße Richtung Wienerwald, Weinhauser Kirchturm rechts (~40-50°), Gegenrichtung Votivkirche in Straßenachse - passt zu Südseite Währinger Straße westlich Aumannplatz. willhaben-Punkt (Gersthof, Pavillonanlage) ist falsch."
   },
   "datum": "2026-11-01"
  },
  "ds-15271318": {
   "lage": {
-   "adresse": "Bastiengasse",
-   "lat": 48.235863,
-   "lon": 16.319164,
+   "adresse": "Währinger Straße 161",
+   "lat": 48.2284555,
+   "lon": 16.3332477,
    "sicherheit": "ungefaehr",
-   "begruendung": "Keine Adresse im Text (DIMAG, Top 14 laut Grundriss, DG-Ausbau eines sockelsanierten Stilaltbaus, Linien 40/41/42, S-Bahn, Türkenschanzpark nah); willhaben-Punkt ohne Versatz liegt an der Bastiengasse Ecke Hockegasse (Alt-Gersthof) - Hausnummer nicht belegt"
+   "begruendung": "Ungefähr Währinger Straße 161 (Top 14 laut Grundriss): Hausnummer nicht belegt. Gleicher DIMAG-Energieausweis (HWB 28,2, Bj. ca. 1900, Luftwärmepumpe) wie DIMAG-Maisonette 185 m² (immobilienscout24.at/expose/6a57708715926e79a04ae250: 'befindet sich in der Währinger Straße, beim Aumannplatz'); Orthofoto Stadt Wien 2017 vs. aktuell: neuer DG-Ausbau mit Terrassen genau auf Währinger Straße 161 (Hof mit großen Bäumen wie Foto 00); Fotoblick: Straße Richtung Wienerwald, Weinhauser Kirchturm rechts (~40-50°), Gegenrichtung Votivkirche in Straßenachse - passt zu Südseite Währinger Straße westlich Aumannplatz. willhaben-Punkt (Gersthof, Pavillonanlage) ist falsch."
   },
   "datum": "2026-11-01"
  },
@@ -13907,51 +13909,51 @@
  },
  "wh-1379507400": {
   "lage": {
-   "adresse": "Pötzleinsdorfer Straße",
-   "lat": 48.24275,
-   "lon": 16.31049,
+   "adresse": "Pötzleinsdorfer Straße 87",
+   "lat": 48.242763,
+   "lon": 16.308156,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler (kochreal.at, Objekt 187617379): Lage \"Wien-Pötzleinsdorfer Schlosspark und Geymüllergasse\", \"Straßenbahnlinie 41 nur wenige Schritte\"; Grundriss nennt nur \"NR. 2 = 160,49 m²\" (Top 2, 1. Stock), Hausnummer nirgends genannt; Kartenpunkt bis 266 m versetzt"
+   "begruendung": "Sehr wahrscheinlich Pötzleinsdorfer Straße 87 (Top 2 lt. Grundriss 'NR. 2 = 160,49 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Fassade ca. 30 m, Trakttiefe ca. 15 m, links freistehend, rechts angebaut, Vorgarten 3 m + Einfriedungsmauer) passt auf FMZK-Gebäude PS 87 (ca. 29x15 m, Vorgarten, SO-Seite frei, NW an PS 89 angebaut); Fassade nach NNO zur Pötzleinsdorfer Straße (westlich der 41er-Schleife, daher keine Gleise im Foto), Terrasse hinten = Süd; Terrassenfoto zeigt links Haus mit DG-Terrassen/Zinnenkaminen (Geymüllergasse 20) und rechts Walmdachhaus mit Gaupen (Geymüllergasse 22) – passt exakt auf Blick von PS 87 nach SW (basemap.at-Orthofoto). Quelle Fotos: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/traumhafte-beletage-mit-suedterrasse-und-einzigartigem-altbauflair-1379507400/"
   },
   "datum": "2026-11-01"
  },
  "is-408552155513": {
   "lage": {
-   "adresse": "Pötzleinsdorfer Straße",
-   "lat": 48.24275,
-   "lon": 16.31049,
+   "adresse": "Pötzleinsdorfer Straße 87",
+   "lat": 48.242763,
+   "lon": 16.308156,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler (kochreal.at, Objekt 187617379): Lage \"Wien-Pötzleinsdorfer Schlosspark und Geymüllergasse\", \"Straßenbahnlinie 41 nur wenige Schritte\"; Grundriss nennt nur \"NR. 2 = 160,49 m²\" (Top 2, 1. Stock), Hausnummer nirgends genannt; Kartenpunkt bis 266 m versetzt"
+   "begruendung": "Sehr wahrscheinlich Pötzleinsdorfer Straße 87 (Top 2 lt. Grundriss 'NR. 2 = 160,49 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Fassade ca. 30 m, Trakttiefe ca. 15 m, links freistehend, rechts angebaut, Vorgarten 3 m + Einfriedungsmauer) passt auf FMZK-Gebäude PS 87 (ca. 29x15 m, Vorgarten, SO-Seite frei, NW an PS 89 angebaut); Fassade nach NNO zur Pötzleinsdorfer Straße (westlich der 41er-Schleife, daher keine Gleise im Foto), Terrasse hinten = Süd; Terrassenfoto zeigt links Haus mit DG-Terrassen/Zinnenkaminen (Geymüllergasse 20) und rechts Walmdachhaus mit Gaupen (Geymüllergasse 22) – passt exakt auf Blick von PS 87 nach SW (basemap.at-Orthofoto). Quelle Fotos: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/traumhafte-beletage-mit-suedterrasse-und-einzigartigem-altbauflair-1379507400/"
   },
   "datum": "2026-11-01"
  },
  "wh-1365479702": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.2491,
-   "lon": 16.3062,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.25049,
+   "lon": 16.3025,
    "sicherheit": "ungefaehr",
-   "begruendung": "Titel/Text: \"Neustift am Walde\", \"Buslinie 35A (nur 1-2 Gehminuten)\", Bj. 2013; Hausfoto zeigt gepflasterte Gasse mit Heurigenhäusern und Wienerwaldhang – Hausnummer nicht erkennbar"
+   "begruendung": "Sehr wahrscheinlich Wohnanlage Neustift am Walde 63 (gleiche Anlage wie das Vospernik-Inserat, Haus/Top unbekannt). Strassenfoto (willhaben Bild 15) zeigt die gepflasterte Gasse 'Neustift am Walde' Richtung Kreuzung beim Bus 35A mit Heuriger Neustift am Walde 68 gegenueber; das nahe gelbe Haus mit Garageneinfahrt unter dem Gebaeude entspricht Haus 63/2 (FMZK 'Ueberbauung' an der Gassenfront, Orthofoto), dahinter Haus 63/1. Innenausstattung identisch mit dem Vospernik-Inserat (Sprossenfenster, Buchen-/Eichenstiege, Bad mit Dachfenster), ebenfalls 3 Ebenen mit Lift, Garten 70 m2, Bj. 2013. Keine Quelle nennt die Hausnummer ausdruecklich und keine Hausnummer ist lesbar, daher nur ungefaehr. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusives-wohnen-in-neustift-am-walde-townhouse-charakter-auf-drei-ebenen-mit-eigengarten-1365479702/"
   },
   "datum": "2026-11-01"
  },
  "is-109470894812": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.2491,
-   "lon": 16.3062,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.25049,
+   "lon": 16.3025,
    "sicherheit": "ungefaehr",
-   "begruendung": "Titel/Text: \"Neustift am Walde\", \"Buslinie 35A (nur 1-2 Gehminuten)\", Bj. 2013; Hausfoto zeigt gepflasterte Gasse mit Heurigenhäusern und Wienerwaldhang – Hausnummer nicht erkennbar"
+   "begruendung": "Sehr wahrscheinlich Wohnanlage Neustift am Walde 63 (gleiche Anlage wie das Vospernik-Inserat, Haus/Top unbekannt). Strassenfoto (willhaben Bild 15) zeigt die gepflasterte Gasse 'Neustift am Walde' Richtung Kreuzung beim Bus 35A mit Heuriger Neustift am Walde 68 gegenueber; das nahe gelbe Haus mit Garageneinfahrt unter dem Gebaeude entspricht Haus 63/2 (FMZK 'Ueberbauung' an der Gassenfront, Orthofoto), dahinter Haus 63/1. Innenausstattung identisch mit dem Vospernik-Inserat (Sprossenfenster, Buchen-/Eichenstiege, Bad mit Dachfenster), ebenfalls 3 Ebenen mit Lift, Garten 70 m2, Bj. 2013. Keine Quelle nennt die Hausnummer ausdruecklich und keine Hausnummer ist lesbar, daher nur ungefaehr. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusives-wohnen-in-neustift-am-walde-townhouse-charakter-auf-drei-ebenen-mit-eigengarten-1365479702/"
   },
   "datum": "2026-11-01"
  },
  "ds-15217804": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.2491,
-   "lon": 16.3062,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.25049,
+   "lon": 16.3025,
    "sicherheit": "ungefaehr",
-   "begruendung": "Titel/Text: \"Neustift am Walde\", \"Buslinie 35A (nur 1-2 Gehminuten)\", Bj. 2013; Hausfoto zeigt gepflasterte Gasse mit Heurigenhäusern und Wienerwaldhang – Hausnummer nicht erkennbar"
+   "begruendung": "Sehr wahrscheinlich Wohnanlage Neustift am Walde 63 (gleiche Anlage wie das Vospernik-Inserat, Haus/Top unbekannt). Strassenfoto (willhaben Bild 15) zeigt die gepflasterte Gasse 'Neustift am Walde' Richtung Kreuzung beim Bus 35A mit Heuriger Neustift am Walde 68 gegenueber; das nahe gelbe Haus mit Garageneinfahrt unter dem Gebaeude entspricht Haus 63/2 (FMZK 'Ueberbauung' an der Gassenfront, Orthofoto), dahinter Haus 63/1. Innenausstattung identisch mit dem Vospernik-Inserat (Sprossenfenster, Buchen-/Eichenstiege, Bad mit Dachfenster), ebenfalls 3 Ebenen mit Lift, Garten 70 m2, Bj. 2013. Keine Quelle nennt die Hausnummer ausdruecklich und keine Hausnummer ist lesbar, daher nur ungefaehr. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusives-wohnen-in-neustift-am-walde-townhouse-charakter-auf-drei-ebenen-mit-eigengarten-1365479702/"
   },
   "datum": "2026-11-01"
  },
@@ -13987,13 +13989,14 @@
  },
  "ds-15268404": {
   "lage": {
-   "adresse": "Hackhofergasse 13",
-   "lat": 48.2616858,
-   "lon": 16.365268,
+   "adresse": "Donauwartesteig 26",
+   "lat": 48.283512,
+   "lon": 16.34563,
    "sicherheit": "ungefaehr",
-   "begruendung": "Text: \"Ruhelage am Hang mit Blick über die Donau\", \"Angelpunkt Kuchelau ... wenige Minuten zu Fuß\" → Nussdorfer Hang; Anbieter Sky² GmbH (Privatinserat) hatte lt. Firmenbuch-Notiz 2019 Sitz Hackhofergasse 13/2/2, 1190 – naheliegend, aber nicht bestätigt"
+   "begruendung": "Gebäude per Fotoabgleich identifiziert: Fassadenfoto (4-geschoßiger Hangbau, grüne Blechdächer) und Blick vom Objekt auf die eigenen grünen Dächer mit Dachfenstern und Glasdach (Wintergarten) passen zum Gebäude Donauwartesteig 26 im Orthofoto der Stadt Wien. Die Nachbarhäuser im Vordergrund der Aussichtsfotos (dunkles Dach = Nr. 25, rotes Dach mit weißer Fassade = Nr. 27) und The SHORE (Kuchelauer Hafenstraße 98) ~250 m unterhalb jenseits von B14 und Bahn, dahinter Bisamberg, passen genau. Verworfen: Waldbachsteig/Eisernenhandgasse (Blick nach Norden dort vom Leopoldsberg verdeckt) und Hackhofergasse 13 (nur alter Firmensitz der Sky2 GmbH, 1,4 km südlich, flach). Keine Quelle nennt die Adresse wörtlich, Top unbekannt. Belege: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/2-exklusive-zusammengelegte-wohnungen-mit-panoramablick-finanzierungsmodell-moeglich-2084396888/ (Fotos 2, 3, 7, 9); Orthofoto mapsneu.wien.gv.at; data.wien.gv.at ADRESSENOGD"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-01",
+  "gleich_wie": "wh-2084396888"
  },
  "wh-1291222470": {
   "lage": {
@@ -14263,71 +14266,71 @@
  },
  "wh-1439969788": {
   "lage": {
-   "adresse": "Schulgasse",
-   "lat": 48.2276,
-   "lon": 16.3343,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt \"Das Warich\" (Tom Krauss, Bj. 2023, 18 Whg.): \"Südlich der Währingerstraße, in fußläufiger Nähe zum Kutschkermarkt\", \"ruhige Seitenstraße\"; Lagekarte im Inserat zentriert auf Schulgasse zwischen Lacknergasse und Klostergasse; Eckhaus laut Fassadenfoto. Hausnummer unbekannt."
+   "adresse": "Staudgasse 40",
+   "lat": 48.2236223,
+   "lon": 16.3399665,
+   "sicherheit": "genau",
+   "begruendung": "Staudgasse 40 (Ecke Abt-Karl-Gasse), Top 18, 2. DG: Dieselbe Wohnung (121 m², 4 Zi, 2. DG, Terrassen 10,65/4,95 m² + Dachterrasse 23,61 m², Preis 1.134.707 €) wird von REMAX Together inseriert mit Text 'Dieses Neubauprojekt in der Staudgasse 40' (willhaben wh-1614606325, derStandard ds-15037697, immmo.at/detail/1580040741); Schwestereinheiten 78,86/70,7/99 m² dort ebenfalls 'Staudgasse 40'; immowelt-Projektseite 'DAS WARICH' (Tom Krauss) nennt Staudgasse 40, 18 Einheiten. Orthofoto Stadt Wien: Eckhaus 2017 Altbau, heute Neubau mit Dachterrassen."
   },
   "datum": "2026-11-01"
  },
  "is-093007488389": {
   "lage": {
-   "adresse": "Schulgasse",
-   "lat": 48.2276,
-   "lon": 16.3343,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Projekt \"Das Warich\" (Tom Krauss, Bj. 2023, 18 Whg.): \"Südlich der Währingerstraße, in fußläufiger Nähe zum Kutschkermarkt\", \"ruhige Seitenstraße\"; Lagekarte im Inserat zentriert auf Schulgasse zwischen Lacknergasse und Klostergasse; Eckhaus laut Fassadenfoto. Hausnummer unbekannt."
+   "adresse": "Staudgasse 40",
+   "lat": 48.2236223,
+   "lon": 16.3399665,
+   "sicherheit": "genau",
+   "begruendung": "Staudgasse 40 (Ecke Abt-Karl-Gasse), Top 18, 2. DG: Dieselbe Wohnung (121 m², 4 Zi, 2. DG, Terrassen 10,65/4,95 m² + Dachterrasse 23,61 m², Preis 1.134.707 €) wird von REMAX Together inseriert mit Text 'Dieses Neubauprojekt in der Staudgasse 40' (willhaben wh-1614606325, derStandard ds-15037697, immmo.at/detail/1580040741); Schwestereinheiten 78,86/70,7/99 m² dort ebenfalls 'Staudgasse 40'; immowelt-Projektseite 'DAS WARICH' (Tom Krauss) nennt Staudgasse 40, 18 Einheiten. Orthofoto Stadt Wien: Eckhaus 2017 Altbau, heute Neubau mit Dachterrassen."
   },
   "datum": "2026-11-01"
  },
  "wh-1178476723": {
   "lage": {
-   "adresse": "Billrothstraße",
-   "lat": 48.24304,
-   "lon": 16.344572,
+   "adresse": "Rudolfinergasse 22",
+   "lat": 48.244195,
+   "lon": 16.345647,
    "sicherheit": "ungefaehr",
-   "begruendung": "Nur \"Region: Rudolfinerhaus\" / \"In unmittelbarer Nähe befinden sich das renommierte Rudolfinerhaus\"; DG-Ausbau 2005 auf schmalem Gründerzeithaus (Straßenfront ca. 17 m), Portalpunkt bis 270 m versetzt. Hausnummer unbekannt."
+   "begruendung": "Sehr wahrscheinlich Rudolfinergasse 22, Top 6 (Grundriss 'TOP 6 153,32 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Front 16,82 m, hinten 18,53 m, Tiefe 12,80 m, schräge linke Seitenwand, Stiegen-/Aufzugsturm hinten links-mittig) deckt sich mit FMZK-Footprint Rudolfinergasse 22 (Trapez ca. 16,8/17,9 x 12,9 m mit hinterem Turm); Orthofoto: Mansarddach mit Flachdach-Terrassen oben wie Dachdraufsicht; Straßenfront nach Süden (='sonnige Südausrichtung', hinten Nordterrasse), gegenüber das Rudolfinerhaus; Dachterrassenfoto: Millennium Tower, DC Tower, Kirche St. Paul Oberdöbling, Spittelau-Turm ergeben per Peilung eine Sichtlinie durch Rudolfinergasse 22; Schneefoto zeigt Nachbarhäuser Nr. 20/18 und Karmelitenkirche (NO). Quelle Fotos/Grundrisse: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusive-4-zi-dg-wohnung-in-1190-wien-mit-3-terrassen-neuwertig-und-grosszuegig-1178476723/"
   },
   "datum": "2026-11-01"
  },
  "is-232031823710": {
   "lage": {
-   "adresse": "Billrothstraße",
-   "lat": 48.24304,
-   "lon": 16.344572,
+   "adresse": "Rudolfinergasse 22",
+   "lat": 48.244195,
+   "lon": 16.345647,
    "sicherheit": "ungefaehr",
-   "begruendung": "Nur \"Region: Rudolfinerhaus\" / \"In unmittelbarer Nähe befinden sich das renommierte Rudolfinerhaus\"; DG-Ausbau 2005 auf schmalem Gründerzeithaus (Straßenfront ca. 17 m), Portalpunkt bis 270 m versetzt. Hausnummer unbekannt."
+   "begruendung": "Sehr wahrscheinlich Rudolfinergasse 22, Top 6 (Grundriss 'TOP 6 153,32 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Front 16,82 m, hinten 18,53 m, Tiefe 12,80 m, schräge linke Seitenwand, Stiegen-/Aufzugsturm hinten links-mittig) deckt sich mit FMZK-Footprint Rudolfinergasse 22 (Trapez ca. 16,8/17,9 x 12,9 m mit hinterem Turm); Orthofoto: Mansarddach mit Flachdach-Terrassen oben wie Dachdraufsicht; Straßenfront nach Süden (='sonnige Südausrichtung', hinten Nordterrasse), gegenüber das Rudolfinerhaus; Dachterrassenfoto: Millennium Tower, DC Tower, Kirche St. Paul Oberdöbling, Spittelau-Turm ergeben per Peilung eine Sichtlinie durch Rudolfinergasse 22; Schneefoto zeigt Nachbarhäuser Nr. 20/18 und Karmelitenkirche (NO). Quelle Fotos/Grundrisse: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusive-4-zi-dg-wohnung-in-1190-wien-mit-3-terrassen-neuwertig-und-grosszuegig-1178476723/"
   },
   "datum": "2026-11-01"
  },
  "wh-1253010671": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.250405,
-   "lon": 16.321663,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.250554,
+   "lon": 16.30248,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Lage: Neustift am Walde\", \"NICHT an der Rathstraße\", Bus 35A-Haltestelle ca. 100 m, Amerikanische Schule wenige Minuten; Haus 1 einer Anlage Bj. 2010-2012 (Exposé immovos.at Objekt-ID 47488). Hausnummer nicht angegeben."
+   "begruendung": "Neustift am Walde 63, Haus 1 (Adresspunkt Stadt Wien 'Neustift am Walde 63/1'), laut Plan-Beschriftung 'NK TOP 1' wohl Top 1. Beweis: Grundriss im Inserat (Foto 8/12, IMMOVOS-Plan 'HAUS 1', Breite 15,50 m x ca. 10,7 m, abgerundete Schraegecke am Hauszugang) deckt sich mit dem FMZK-Baukoerper der Stadt Wien fuer 63/1 (ca. 15,9 x 10,8 m, Flugdach mit Rundung an der Ecke); Plan-Hoehen (FOK -5,95 = 106,55 ue. Wr. Null, Garten auf +-0 = 112,5) passen zum Gelaende (Gasse ca. 109, Hang ca. 113). Lage-Text passt: Wien-Energie-Ladestation Eyblergasse 2 (2 Plaetze) ca. 90 m, 35A-Haltestelle 'Neustift am Walde' ca. 70 m, Liegenschaft an der Gasse 'Neustift am Walde' parallel zur Rathstrasse (daher 'NICHT an der Rathstrasse'). Quellen: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&typeName=ogdwien:FMZKBKMOGD , ADRESSENOGD, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/neustift-am-walde-townhouse-fuer-die-grossfamilie-mit-6-zimmern-sonniger-garten-terrasse-garage-lift-keine-hauptstrassenlage-1253010671/ (ungefähr: Hausnummer erschlossen, von keiner Quelle genannt)"
   },
   "datum": "2026-11-01"
  },
  "is-157166384924": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.250405,
-   "lon": 16.321663,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.250554,
+   "lon": 16.30248,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Lage: Neustift am Walde\", \"NICHT an der Rathstraße\", Bus 35A-Haltestelle ca. 100 m, Amerikanische Schule wenige Minuten; Haus 1 einer Anlage Bj. 2010-2012 (Exposé immovos.at Objekt-ID 47488). Hausnummer nicht angegeben."
+   "begruendung": "Neustift am Walde 63, Haus 1 (Adresspunkt Stadt Wien 'Neustift am Walde 63/1'), laut Plan-Beschriftung 'NK TOP 1' wohl Top 1. Beweis: Grundriss im Inserat (Foto 8/12, IMMOVOS-Plan 'HAUS 1', Breite 15,50 m x ca. 10,7 m, abgerundete Schraegecke am Hauszugang) deckt sich mit dem FMZK-Baukoerper der Stadt Wien fuer 63/1 (ca. 15,9 x 10,8 m, Flugdach mit Rundung an der Ecke); Plan-Hoehen (FOK -5,95 = 106,55 ue. Wr. Null, Garten auf +-0 = 112,5) passen zum Gelaende (Gasse ca. 109, Hang ca. 113). Lage-Text passt: Wien-Energie-Ladestation Eyblergasse 2 (2 Plaetze) ca. 90 m, 35A-Haltestelle 'Neustift am Walde' ca. 70 m, Liegenschaft an der Gasse 'Neustift am Walde' parallel zur Rathstrasse (daher 'NICHT an der Rathstrasse'). Quellen: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&typeName=ogdwien:FMZKBKMOGD , ADRESSENOGD, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/neustift-am-walde-townhouse-fuer-die-grossfamilie-mit-6-zimmern-sonniger-garten-terrasse-garage-lift-keine-hauptstrassenlage-1253010671/ (ungefähr: Hausnummer erschlossen, von keiner Quelle genannt)"
   },
   "datum": "2026-11-01"
  },
  "ds-15274223": {
   "lage": {
-   "adresse": "Neustift am Walde",
-   "lat": 48.250405,
-   "lon": 16.321663,
+   "adresse": "Neustift am Walde 63",
+   "lat": 48.250554,
+   "lon": 16.30248,
    "sicherheit": "ungefaehr",
-   "begruendung": "\"Lage: Neustift am Walde\", \"NICHT an der Rathstraße\", Bus 35A-Haltestelle ca. 100 m, Amerikanische Schule wenige Minuten; Haus 1 einer Anlage Bj. 2010-2012 (Exposé immovos.at Objekt-ID 47488). Hausnummer nicht angegeben."
+   "begruendung": "Neustift am Walde 63, Haus 1 (Adresspunkt Stadt Wien 'Neustift am Walde 63/1'), laut Plan-Beschriftung 'NK TOP 1' wohl Top 1. Beweis: Grundriss im Inserat (Foto 8/12, IMMOVOS-Plan 'HAUS 1', Breite 15,50 m x ca. 10,7 m, abgerundete Schraegecke am Hauszugang) deckt sich mit dem FMZK-Baukoerper der Stadt Wien fuer 63/1 (ca. 15,9 x 10,8 m, Flugdach mit Rundung an der Ecke); Plan-Hoehen (FOK -5,95 = 106,55 ue. Wr. Null, Garten auf +-0 = 112,5) passen zum Gelaende (Gasse ca. 109, Hang ca. 113). Lage-Text passt: Wien-Energie-Ladestation Eyblergasse 2 (2 Plaetze) ca. 90 m, 35A-Haltestelle 'Neustift am Walde' ca. 70 m, Liegenschaft an der Gasse 'Neustift am Walde' parallel zur Rathstrasse (daher 'NICHT an der Rathstrasse'). Quellen: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&typeName=ogdwien:FMZKBKMOGD , ADRESSENOGD, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/neustift-am-walde-townhouse-fuer-die-grossfamilie-mit-6-zimmern-sonniger-garten-terrasse-garage-lift-keine-hauptstrassenlage-1253010671/ (ungefähr: Hausnummer erschlossen, von keiner Quelle genannt)"
   },
   "datum": "2026-11-01"
  },
@@ -14347,6 +14350,26 @@
  },
  "is-089972250661": {
   "gleich_wie": "fm-5736189",
+  "datum": "2026-11-01"
+ },
+ "is-226398488892": {
+  "lage": {
+   "adresse": "Czartoryskigasse 7",
+   "lat": 48.228133,
+   "lon": 16.326387,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
+  },
+  "datum": "2026-11-01"
+ },
+ "ds-15300525": {
+  "lage": {
+   "adresse": "Czartoryskigasse 7",
+   "lat": 48.228133,
+   "lon": 16.326387,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
+  },
   "datum": "2026-11-01"
  }
 }

@@ -869,6 +869,7 @@ def build():
                 "preis": r.get("preis"), "flaeche": r.get("flaeche"), "zimmer": r.get("zimmer"),
                 "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
                 "grundrisse": f"data/grundrisse/{r['id']}/", "im_nest": bool(set(r["ids"]) & nest),
+                "dokumente": [d for i in r["ids"] for d in (listings.get(i) or {}).get("dokumente") or []],
                 "erstmals": r["erstmals"],
             })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:

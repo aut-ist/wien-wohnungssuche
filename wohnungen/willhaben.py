@@ -153,4 +153,9 @@ def detail(listing_id):
         "zimmer": int(zimmer) if zimmer else None,
         "preis": _num(_first(a, "PRICE")),
         "bilder": [b for b in bilder if b],
+        # angehängte Dokumente (Grundriss-/Exposé-PDF): Dateinamen und Pläne nennen oft die Adresse
+        # (2026-11-01: "Gentzgasse_83_Top03_Einrichtung.pdf" bei einem Inserat ohne jede Adresse)
+        "dokumente": [{"name": n, "url": u} for n, u in zip(a.get("INFOLINK/NAME", []), a.get("INFOLINK/URL", []))]
+                     + [{"name": x.get("description") or x.get("name"), "url": x.get("url") or x.get("uri")}
+                        for x in (ad.get("advertAttachmentList") or {}).get("advertAttachment", []) if x.get("url") or x.get("uri")],
     }

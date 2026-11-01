@@ -52,7 +52,8 @@
   "stockwerk": "1",
   "lage_radius": 255,
   "monatlich": 290.38,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-854401771": {
   "id": "wh-854401771",
@@ -102,7 +103,13 @@
   "stockwerk": "6",
   "lage_radius": 0,
   "monatlich": 299.11,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Plan Blindengasse_pdf.pdf",
+    "url": "http://www.immovosmanager.at/uploadPdf6/id29232/1-29232.pdf"
+   }
+  ]
  },
  "wh-981185169": {
   "id": "wh-981185169",
@@ -347,7 +354,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 260
+  "lage_radius": 260,
+  "dokumente": []
  },
  "wh-1673701076": {
   "id": "wh-1673701076",
@@ -488,7 +496,13 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 220.22,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/DGtmoJfd271CaYJyLEne6.pdf"
+   }
+  ]
  },
  "wh-1023026100": {
   "id": "wh-1023026100",
@@ -546,7 +560,8 @@
   "stockwerk": "0",
   "lage_radius": 256,
   "monatlich": 226.82,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1393147467": {
   "id": "wh-1393147467",
@@ -714,7 +729,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-1263303350": {
   "id": "wh-1263303350",
@@ -885,7 +901,13 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 257
+  "lage_radius": 257,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/5lrvuFNXKsgipVnuc3f7GY.pdf"
+   }
+  ]
  },
  "wh-1067620404": {
   "id": "wh-1067620404",
@@ -1144,7 +1166,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1242086789": {
   "id": "wh-1242086789",
@@ -1370,7 +1393,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 263.49,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1275172101": {
   "id": "wh-1275172101",
@@ -1554,7 +1578,8 @@
   },
   "baujahr": "1963",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1193068115": {
   "id": "wh-1193068115",
@@ -1623,7 +1648,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1933169826": {
   "id": "wh-1933169826",
@@ -1752,7 +1778,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 259
+  "lage_radius": 259,
+  "dokumente": []
  },
  "wh-1389368765": {
   "id": "wh-1389368765",
@@ -1812,7 +1839,8 @@
   "zustand": "Renoviert",
   "lage_radius": 0,
   "monatlich": 166.14,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1891385394": {
   "id": "wh-1891385394",
@@ -1867,7 +1895,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 261
+  "lage_radius": 261,
+  "dokumente": []
  },
  "wh-1850379232": {
   "id": "wh-1850379232",
@@ -1994,7 +2023,8 @@
     "2026-10-31",
     749000.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1478685007": {
   "id": "wh-1478685007",
@@ -2168,7 +2198,13 @@
   "stockwerk": "3",
   "lage_radius": 269,
   "monatlich": 340.19,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "HIER GEHT ES ZUM 3D-WOHNUNGSRUNDGANG",
+    "url": "https://my.matterport.com/show/?m=nzcVUK82wMF"
+   }
+  ]
  },
  "wh-1958631871": {
   "id": "wh-1958631871",
@@ -2221,7 +2257,8 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 233.74,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1466511328": {
   "id": "wh-1466511328",
@@ -2283,7 +2320,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1606800969": {
   "id": "wh-1606800969",
@@ -2356,7 +2394,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2098243483": {
   "id": "wh-2098243483",
@@ -2465,7 +2504,8 @@
   "stockwerk": "2",
   "lage_radius": 264,
   "monatlich": 209.23,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1908849418": {
   "id": "wh-1908849418",
@@ -2582,7 +2622,8 @@
   "stockwerk": "3",
   "lage_radius": 270,
   "monatlich": 200.7,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2082490604": {
   "id": "wh-2082490604",
@@ -2636,7 +2677,8 @@
   "bauart": "Altbau",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1018981990": {
   "id": "wh-1018981990",
@@ -2764,7 +2806,13 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 0,
   "monatlich": 577.15,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Plan_bunt",
+    "url": "https://cache.willhaben.at/adpdf/9/101/545/2879_574416137.pdf"
+   }
+  ]
  },
  "wh-1098629070": {
   "id": "wh-1098629070",
@@ -2828,7 +2876,8 @@
   "bauart": "Neubau",
   "lage_radius": 0,
   "monatlich": 263.78,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1683996769": {
   "id": "wh-1683996769",
@@ -2988,7 +3037,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "6",
   "lage_radius": 264,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-805443931": {
   "id": "wh-805443931",
@@ -3065,7 +3115,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "6",
   "lage_radius": 264,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-980261752": {
   "id": "wh-980261752",
@@ -3132,7 +3183,8 @@
   "stockwerk": "5",
   "lage_radius": 262,
   "monatlich": 257.24,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1172988890": {
   "id": "wh-1172988890",
@@ -3377,7 +3429,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2112347036": {
   "id": "wh-2112347036",
@@ -3442,7 +3495,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "0",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2045310956": {
   "id": "wh-2045310956",
@@ -3556,7 +3610,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 346.87,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2023026570": {
   "id": "wh-2023026570",
@@ -3612,7 +3667,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "4",
   "lage_radius": 267,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-995926726": {
   "id": "wh-995926726",
@@ -3886,7 +3942,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1592007113": {
   "id": "wh-1592007113",
@@ -3990,7 +4047,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-931015381": {
   "id": "wh-931015381",
@@ -4553,7 +4611,8 @@
   "stockwerk": "5",
   "lage_radius": 0,
   "monatlich": 160.81,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-760569723": {
   "id": "wh-760569723",
@@ -4730,7 +4789,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2112582298": {
   "id": "wh-2112582298",
@@ -4796,7 +4856,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 257
+  "lage_radius": 257,
+  "dokumente": []
  },
  "wh-1880469846": {
   "id": "wh-1880469846",
@@ -4897,7 +4958,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 270
+  "lage_radius": 270,
+  "dokumente": []
  },
  "wh-1682398076": {
   "id": "wh-1682398076",
@@ -5007,7 +5069,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-911842825": {
   "id": "wh-911842825",
@@ -5074,7 +5137,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1312537465": {
   "id": "wh-1312537465",
@@ -5256,7 +5320,8 @@
   "baujahr": "1963",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1083900479": {
   "id": "wh-1083900479",
@@ -5426,7 +5491,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1472964238": {
   "id": "wh-1472964238",
@@ -5835,7 +5901,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1019207597": {
   "id": "wh-1019207597",
@@ -6068,7 +6135,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1164047911": {
   "id": "wh-1164047911",
@@ -6128,7 +6196,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-1521015679": {
   "id": "wh-1521015679",
@@ -6185,7 +6254,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-995729007": {
   "id": "wh-995729007",
@@ -6243,7 +6313,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-1154614862": {
   "id": "wh-1154614862",
@@ -6299,7 +6370,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "0",
   "lage_radius": 268,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1534262201": {
   "id": "wh-1534262201",
@@ -6357,7 +6429,8 @@
   "stockwerk": "0",
   "lage_radius": 268,
   "monatlich": 190.79,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1690838377": {
   "id": "wh-1690838377",
@@ -6615,7 +6688,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "5",
   "lage_radius": 263,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-795488830": {
   "id": "wh-795488830",
@@ -6682,7 +6756,8 @@
   "stockwerk": "3",
   "lage_radius": 265,
   "monatlich": 359.76,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1659913005": {
   "id": "wh-1659913005",
@@ -6786,7 +6861,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1933143884": {
   "id": "wh-1933143884",
@@ -7043,7 +7119,17 @@
   "stockwerk": "2",
   "lage_radius": 264,
   "monatlich": 312.71,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/JSq64rwLQWz4mx8t1t7Qf8.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/QieiDdjuMgoitEdMfCKJEA.pdf"
+   }
+  ]
  },
  "wh-2000854127": {
   "id": "wh-2000854127",
@@ -7421,7 +7507,8 @@
   "stockwerk": "2",
   "lage_radius": 257,
   "monatlich": 312.71,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-962067154": {
   "id": "wh-962067154",
@@ -8254,7 +8341,13 @@
   "zustand": "Neuwertig",
   "lage_radius": 268,
   "monatlich": 192.94,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Video",
+    "url": "https://www.youtube.com/watch?v=F7KZve_Scz0"
+   }
+  ]
  },
  "wh-1934947629": {
   "id": "wh-1934947629",
@@ -8318,7 +8411,13 @@
   "bauart": "Neubau",
   "lage_radius": 255,
   "monatlich": 226.04,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "hier",
+    "url": "https://my.matterport.com/show/?m=VGXeicBR2LW"
+   }
+  ]
  },
  "wh-1196822484": {
   "id": "wh-1196822484",
@@ -8633,7 +8732,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2036357563": {
   "id": "wh-2036357563",
@@ -8864,6 +8964,12 @@
     "2026-10-30",
     998000.0
    ]
+  ],
+  "dokumente": [
+   {
+    "name": "3D Rundgang",
+    "url": "https://my.matterport.com/show/?m=1sZJ2LtzkD9"
+   }
   ]
  },
  "wh-781410349": {
@@ -9037,7 +9143,8 @@
   "stockwerk": "3",
   "lage_radius": 268,
   "monatlich": 186.53,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1734807961": {
   "id": "wh-1734807961",
@@ -9261,7 +9368,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-1680480031": {
   "id": "wh-1680480031",
@@ -9826,7 +9934,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 311.63,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1390046227": {
   "id": "wh-1390046227",
@@ -9989,7 +10098,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2017424270": {
   "id": "wh-2017424270",
@@ -10162,7 +10272,13 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Projekt Homepage",
+    "url": "https://wohn3.at/de/immobilien/stadtoase-in-der-staudgasse-idyllische-2-4-zimmer-wohnungen-mit-wohlfuehlfaktor-c511d401"
+   }
+  ]
  },
  "wh-2083230373": {
   "id": "wh-2083230373",
@@ -10440,7 +10556,13 @@
   },
   "lage_radius": 253,
   "monatlich": 340.25,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/3rifJYKQ1mu4J7wQ3ADDxM.pdf"
+   }
+  ]
  },
  "wh-1233793494": {
   "id": "wh-1233793494",
@@ -10618,7 +10740,8 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 329.93,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1530965205": {
   "id": "wh-1530965205",
@@ -10790,7 +10913,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1353908748": {
   "id": "wh-1353908748",
@@ -10859,7 +10983,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 231.06,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1451419781": {
   "id": "wh-1451419781",
@@ -11214,7 +11339,8 @@
   "stockwerk": "1",
   "lage_radius": 265,
   "monatlich": 514.3,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1929293861": {
   "id": "wh-1929293861",
@@ -11262,7 +11388,13 @@
   "stockwerk": "1",
   "lage_radius": 253,
   "monatlich": 491.7,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/3rifJYKQ1mu4J7wQ3ADDxM.pdf"
+   }
+  ]
  },
  "wh-906367835": {
   "id": "wh-906367835",
@@ -11335,6 +11467,12 @@
     "2026-10-30",
     898000.0
    ]
+  ],
+  "dokumente": [
+   {
+    "name": "3D Rundgang durch Musterwohnung",
+    "url": "https://my.matterport.com/show/?m=CRWoVCsD7JS"
+   }
   ]
  },
  "wh-2137380739": {
@@ -11385,7 +11523,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1467564168": {
   "id": "wh-1467564168",
@@ -11661,7 +11800,8 @@
   "stockwerk": "3",
   "lage_radius": 268,
   "monatlich": 173.99,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2050466325": {
   "id": "wh-2050466325",
@@ -11954,7 +12094,13 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Projekt Homepage",
+    "url": "https://wohn3.at/de/immobilien/stadtoase-in-der-staudgasse-idyllische-2-4-zimmer-wohnungen-mit-wohlfuehlfaktor-c511d401"
+   }
+  ]
  },
  "wh-1249587388": {
   "id": "wh-1249587388",
@@ -12016,7 +12162,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 233.5,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1249706281": {
   "id": "wh-1249706281",
@@ -12075,7 +12222,13 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 234.43,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Projekt Homepage",
+    "url": "https://wohn3.at/de/immobilien/stadtoase-in-der-staudgasse-idyllische-2-4-zimmer-wohnungen-mit-wohlfuehlfaktor-c511d401"
+   }
+  ]
  },
  "wh-1385741007": {
   "id": "wh-1385741007",
@@ -12142,7 +12295,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 257
+  "lage_radius": 257,
+  "dokumente": []
  },
  "wh-850123056": {
   "id": "wh-850123056",
@@ -12205,7 +12359,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 257
+  "lage_radius": 257,
+  "dokumente": []
  },
  "wh-803727259": {
   "id": "wh-803727259",
@@ -12428,7 +12583,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-965629725": {
   "id": "wh-965629725",
@@ -12545,7 +12701,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1599795352": {
   "id": "wh-1599795352",
@@ -12601,7 +12758,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1354035914": {
   "id": "wh-1354035914",
@@ -12653,7 +12811,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-982619002": {
   "id": "wh-982619002",
@@ -12713,7 +12872,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2068762913": {
   "id": "wh-2068762913",
@@ -13015,7 +13175,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1439326277": {
   "id": "wh-1439326277",
@@ -13266,7 +13427,8 @@
   },
   "bauart": "Altbau",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1791391271": {
   "id": "wh-1791391271",
@@ -13920,7 +14082,8 @@
     "2026-10-30",
     895000.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-967129663": {
   "id": "wh-967129663",
@@ -14147,7 +14310,8 @@
   "baujahr": "2013",
   "lage_radius": 263,
   "monatlich": 366.47,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1610587856": {
   "id": "wh-1610587856",
@@ -14210,7 +14374,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1318807166": {
   "id": "wh-1318807166",
@@ -14331,7 +14496,8 @@
   "stockwerk": "3",
   "lage_radius": 265,
   "monatlich": 313.12,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2101021640": {
   "id": "wh-2101021640",
@@ -14466,7 +14632,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": []
  },
  "wh-1700301413": {
   "id": "wh-1700301413",
@@ -14518,7 +14685,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1828297366": {
   "id": "wh-1828297366",
@@ -14634,7 +14802,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-1391546354": {
   "id": "wh-1391546354",
@@ -14781,7 +14950,8 @@
   "stockwerk": "0",
   "lage_radius": 262,
   "monatlich": 210.88,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-874553667": {
   "id": "wh-874553667",
@@ -15045,7 +15215,8 @@
   },
   "baujahr": "1900",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1343408527": {
   "id": "wh-1343408527",
@@ -15108,7 +15279,8 @@
   "stockwerk": "3",
   "lage_radius": 270,
   "monatlich": 401.62,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1456351165": {
   "id": "wh-1456351165",
@@ -15231,7 +15403,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-1798193890": {
   "id": "wh-1798193890",
@@ -15279,7 +15452,13 @@
   "stockwerk": "1",
   "lage_radius": 253,
   "monatlich": 491.7,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/3rifJYKQ1mu4J7wQ3ADDxM.pdf"
+   }
+  ]
  },
  "wh-1413658830": {
   "id": "wh-1413658830",
@@ -15592,7 +15771,25 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 266
+  "lage_radius": 266,
+  "dokumente": [
+   {
+    "name": "Bau- & Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/2sJE7hfoulA4TCtCw6SvYX.pdf"
+   },
+   {
+    "name": "Preisliste Staudgasse 31.01.2025",
+    "url": "https://storage.justimmo.at/file/5l2afZ5qQ4MtngpCka3bcZ.pdf"
+   },
+   {
+    "name": "Verkaufspläne",
+    "url": "https://storage.justimmo.at/file/7caV3rxvZyeTozu1mVxUJl.pdf"
+   },
+   {
+    "name": "360 Grad Bilder",
+    "url": "https://www.remax.at/3801-1005"
+   }
+  ]
  },
  "wh-1017542154": {
   "id": "wh-1017542154",
@@ -15667,7 +15864,29 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": [
+   {
+    "name": "Bau- & Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/4tR3gjzZY5ou46b4HBoIov.pdf"
+   },
+   {
+    "name": "Preisliste Staudgasse 31.01.2025",
+    "url": "https://storage.justimmo.at/file/mV1YCXvv0aVzCEPuFIRHm.pdf"
+   },
+   {
+    "name": "Verkaufspläne",
+    "url": "https://storage.justimmo.at/file/30AdjyzWru17RT7oTwMAFo.pdf"
+   },
+   {
+    "name": "360 Grad Bilder",
+    "url": "https://www.remax.at/3801-1009"
+   },
+   {
+    "name": "Projektseite",
+    "url": "https://www.remax.at/de/ib/remax-together-wien/pr-neubauprojekt-staudgasse-1180-wien"
+   }
+  ]
  },
  "wh-1473925600": {
   "id": "wh-1473925600",
@@ -15876,7 +16095,25 @@
   "stockwerk": "0",
   "lage_radius": 265,
   "monatlich": 210.88,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Bau- & Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/3Uitz998uVv3PpVA9tMR43.pdf"
+   },
+   {
+    "name": "Preisliste Staudgasse 31.01.2025",
+    "url": "https://storage.justimmo.at/file/5YNk18VTh5auRehMDzOYs6.pdf"
+   },
+   {
+    "name": "Verkaufspläne",
+    "url": "https://storage.justimmo.at/file/7CWjRNMFLBDhHdin41TcYl.pdf"
+   },
+   {
+    "name": "360 Grad Bilder",
+    "url": "https://www.remax.at/3801-1001"
+   }
+  ]
  },
  "wh-1843349435": {
   "id": "wh-1843349435",
@@ -15950,7 +16187,25 @@
   "stockwerk": "3",
   "lage_radius": 267,
   "monatlich": 210.59,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Bau- & Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/17njyQw6qq4TyYxZnvg2Ui.pdf"
+   },
+   {
+    "name": "Preisliste Staudgasse 31.01.2025",
+    "url": "https://storage.justimmo.at/file/72ljq28fbbUPLq6ja3un1J.pdf"
+   },
+   {
+    "name": "Verkaufspläne",
+    "url": "https://storage.justimmo.at/file/6REi7AAz4AZiXsspOTDSIg.pdf"
+   },
+   {
+    "name": "Projektseite",
+    "url": "https://www.remax.at/de/ib/remax-together-wien/pr-neubauprojekt-staudgasse-1180-wien"
+   }
+  ]
  },
  "wh-1546167814": {
   "id": "wh-1546167814",
@@ -16003,7 +16258,8 @@
   },
   "stockwerk": "1",
   "lage_radius": 255,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-920023032": {
   "id": "wh-920023032",
@@ -16146,7 +16402,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1625954774": {
   "id": "wh-1625954774",
@@ -16214,7 +16471,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-897186214": {
   "id": "wh-897186214",
@@ -16322,7 +16580,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1757773984": {
   "id": "wh-1757773984",
@@ -16396,7 +16655,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 269
+  "lage_radius": 269,
+  "dokumente": []
  },
  "wh-934966706": {
   "id": "wh-934966706",
@@ -16697,7 +16957,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 259
+  "lage_radius": 259,
+  "dokumente": []
  },
  "wh-1607960789": {
   "id": "wh-1607960789",
@@ -16758,7 +17019,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 371.31,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1899710252": {
   "id": "wh-1899710252",
@@ -16933,7 +17195,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 268
+  "lage_radius": 268,
+  "dokumente": []
  },
  "wh-1861675237": {
   "id": "wh-1861675237",
@@ -17086,7 +17349,8 @@
   "stockwerk": "DG",
   "lage_radius": 0,
   "monatlich": 418.0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1039646777": {
   "id": "wh-1039646777",
@@ -17366,7 +17630,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 252
+  "lage_radius": 252,
+  "dokumente": []
  },
  "wh-2089632991": {
   "id": "wh-2089632991",
@@ -17598,7 +17863,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-920824386": {
   "id": "wh-920824386",
@@ -17889,7 +18155,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 269
+  "lage_radius": 269,
+  "dokumente": []
  },
  "wh-1323592115": {
   "id": "wh-1323592115",
@@ -18014,7 +18281,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1389117967": {
   "id": "wh-1389117967",
@@ -18342,7 +18610,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1944508455": {
   "id": "wh-1944508455",
@@ -18461,7 +18730,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1841985511": {
   "id": "wh-1841985511",
@@ -18528,7 +18798,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1364195113": {
   "id": "wh-1364195113",
@@ -18595,7 +18866,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1509843531": {
   "id": "wh-1509843531",
@@ -18798,7 +19070,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 257
+  "lage_radius": 257,
+  "dokumente": []
  },
  "wh-964017750": {
   "id": "wh-964017750",
@@ -18915,7 +19188,17 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/RCasAWW2u6oZWR5LLxPRGY.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/p6EEyEPbwqYQLjZSvAbK68.pdf"
+   }
+  ]
  },
  "wh-974939235": {
   "id": "wh-974939235",
@@ -19007,7 +19290,8 @@
   "stockwerk": "2",
   "lage_radius": 254,
   "monatlich": 249.76,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1156690084": {
   "id": "wh-1156690084",
@@ -19912,7 +20196,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1046812803": {
   "id": "wh-1046812803",
@@ -20022,7 +20307,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-1641436991": {
   "id": "wh-1641436991",
@@ -21330,7 +21616,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-835910239": {
   "id": "wh-835910239",
@@ -21623,7 +21910,17 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/675drtdsC6rHKbhwxrHsrR.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/lJdVYO0YVTVzxZJ62wtrm.pdf"
+   }
+  ]
  },
  "wh-1747485202": {
   "id": "wh-1747485202",
@@ -21776,7 +22073,8 @@
   "stockwerk": "1",
   "lage_radius": 254,
   "monatlich": 341.71,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2072333496": {
   "id": "wh-2072333496",
@@ -23069,7 +23367,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://www.dropbox.com/scl/fi/i2s975q7sie564yx3mqj4/Expos-_Kreindlgasse-23_2_4.pdf?rlkey=9fipjgx1fb3quol0gng31pxb4&st=pna1w6pu&dl=0"
+   },
+   {
+    "name": "Zu allen SmartSelect Wohnungen",
+    "url": "https://www.smartselect.wien/unsere-wohnungen/"
+   }
+  ]
  },
  "wh-1220220927": {
   "id": "wh-1220220927",
@@ -23127,7 +23435,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": []
  },
  "wh-1733770280": {
   "id": "wh-1733770280",
@@ -23232,7 +23541,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": []
  },
  "wh-1297075528": {
   "id": "wh-1297075528",
@@ -23506,7 +23816,17 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/RCasAWW2u6oZWR5LLxPRGY.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/p6EEyEPbwqYQLjZSvAbK68.pdf"
+   }
+  ]
  },
  "wh-1976481408": {
   "id": "wh-1976481408",
@@ -23781,7 +24101,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 265
+  "lage_radius": 265,
+  "dokumente": []
  },
  "wh-1996689369": {
   "id": "wh-1996689369",
@@ -24304,7 +24625,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1610099394": {
   "id": "wh-1610099394",
@@ -24434,7 +24756,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 253
+  "lage_radius": 253,
+  "dokumente": []
  },
  "wh-1569784662": {
   "id": "wh-1569784662",
@@ -24587,7 +24910,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 267
+  "lage_radius": 267,
+  "dokumente": []
  },
  "wh-1562591559": {
   "id": "wh-1562591559",
@@ -24812,7 +25136,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-806171525": {
   "id": "wh-806171525",
@@ -24939,7 +25264,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1241690985": {
   "id": "wh-1241690985",
@@ -25336,7 +25662,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1214989448": {
   "id": "wh-1214989448",
@@ -25454,7 +25781,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1595840899": {
   "id": "wh-1595840899",
@@ -25597,7 +25925,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-1784768404": {
   "id": "wh-1784768404",
@@ -25748,7 +26077,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1834362612": {
   "id": "wh-1834362612",
@@ -25921,7 +26251,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1105280993": {
   "id": "wh-1105280993",
@@ -26130,7 +26461,17 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/RCasAWW2u6oZWR5LLxPRGY.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/p6EEyEPbwqYQLjZSvAbK68.pdf"
+   }
+  ]
  },
  "wh-1497241383": {
   "id": "wh-1497241383",
@@ -26187,7 +26528,8 @@
   "stockwerk": "2",
   "lage_radius": 260,
   "monatlich": 315.29,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1345215057": {
   "id": "wh-1345215057",
@@ -26314,7 +26656,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1749833279": {
   "id": "wh-1749833279",
@@ -27481,7 +27824,13 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Expose",
+    "url": "https://immovob.at/objekte/hackhofergasse/#0"
+   }
+  ]
  },
  "wh-1522787169": {
   "id": "wh-1522787169",
@@ -27603,7 +27952,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-799070719": {
   "id": "wh-799070719",
@@ -27724,7 +28074,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1499169343": {
   "id": "wh-1499169343",
@@ -27986,7 +28337,8 @@
     "2026-10-28",
     695000.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1609388046": {
   "id": "wh-1609388046",
@@ -28100,7 +28452,17 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/RCasAWW2u6oZWR5LLxPRGY.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/p6EEyEPbwqYQLjZSvAbK68.pdf"
+   }
+  ]
  },
  "wh-947544296": {
   "id": "wh-947544296",
@@ -28219,7 +28581,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1085444948": {
   "id": "wh-1085444948",
@@ -28439,7 +28802,17 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 471
+  "lage_radius": 471,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/1xWIprqwLKMvcYIcvI3kUu.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/7gjwN1cVmAl4QTb4kXEJqE.pdf"
+   }
+  ]
  },
  "wh-1584870944": {
   "id": "wh-1584870944",
@@ -29072,7 +29445,8 @@
   "zustand": "Neuwertig",
   "lage_radius": 259,
   "monatlich": 316.66,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-851929600": {
   "id": "wh-851929600",
@@ -29642,7 +30016,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-891147272": {
   "id": "wh-891147272",
@@ -30553,7 +30928,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1725543422": {
   "id": "wh-1725543422",
@@ -30613,7 +30989,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 269
+  "lage_radius": 269,
+  "dokumente": []
  },
  "wh-1661592918": {
   "id": "wh-1661592918",
@@ -30877,7 +31254,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1927145195": {
   "id": "wh-1927145195",
@@ -31030,7 +31408,17 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 254
+  "lage_radius": 254,
+  "dokumente": [
+   {
+    "name": "3D-Rundgang",
+    "url": "https://tour.giraffe360.com/062b2cd53939411abf2ab0b7818fa77e"
+   },
+   {
+    "name": "3D-Grundriss",
+    "url": "https://my.giraffe360.com/3dflp/xvtojht"
+   }
+  ]
  },
  "wh-811839055": {
   "id": "wh-811839055",
@@ -31209,7 +31597,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1245740887": {
   "id": "wh-1245740887",
@@ -31332,7 +31721,8 @@
     "2026-10-28",
     695000.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1227883659": {
   "id": "wh-1227883659",
@@ -31458,7 +31848,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 262
+  "lage_radius": 262,
+  "dokumente": []
  },
  "wh-1731669682": {
   "id": "wh-1731669682",
@@ -31595,7 +31986,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1027506561": {
   "id": "wh-1027506561",
@@ -31819,7 +32211,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 254
+  "lage_radius": 254,
+  "dokumente": []
  },
  "wh-1189411112": {
   "id": "wh-1189411112",
@@ -31872,7 +32265,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 254
+  "lage_radius": 254,
+  "dokumente": []
  },
  "wh-1905142954": {
   "id": "wh-1905142954",
@@ -32327,7 +32721,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 262
+  "lage_radius": 262,
+  "dokumente": []
  },
  "wh-1213508089": {
   "id": "wh-1213508089",
@@ -33198,7 +33593,13 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 503
+  "lage_radius": 503,
+  "dokumente": [
+   {
+    "name": "360 Grad Besichtigung",
+    "url": "https://tour.giraffe360.com/086518894ba84c4c9352fbbc554362a0"
+   }
+  ]
  },
  "wh-2021262946": {
   "id": "wh-2021262946",
@@ -34121,7 +34522,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1992418784": {
   "id": "wh-1992418784",
@@ -34361,7 +34763,13 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 264
+  "lage_radius": 264,
+  "dokumente": [
+   {
+    "name": "Virtuelle Besichtigung",
+    "url": "https://my.matterport.com/show/?m=LhsFzK14jr2"
+   }
+  ]
  },
  "wh-2069000668": {
   "id": "wh-2069000668",
@@ -34433,7 +34841,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-972526706": {
   "id": "wh-972526706",
@@ -34818,7 +35227,21 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 270
+  "lage_radius": 270,
+  "dokumente": [
+   {
+    "name": "Webseite",
+    "url": "https://www.immoquelle.at/immobilien/ruhe-trifft-raum---helle-4-zimmer-wohnung-mit-ruhiger-atmosphare-und-vielseitigem-raumangebot-in-begehrter-lage-in-wien-dobling-nussdorf"
+   },
+   {
+    "name": "Disclaimer",
+    "url": "https://www.immoquelle.at/rechtliches/disclaimer"
+   },
+   {
+    "name": "Datenschutz",
+    "url": "https://www.immoquelle.at/rechtliches/datenschutz"
+   }
+  ]
  },
  "wh-1468715517": {
   "id": "wh-1468715517",
@@ -34867,7 +35290,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 345
+  "lage_radius": 345,
+  "dokumente": []
  },
  "wh-1516649659": {
   "id": "wh-1516649659",
@@ -35286,7 +35710,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 782
+  "lage_radius": 782,
+  "dokumente": []
  },
  "wh-2001726416": {
   "id": "wh-2001726416",
@@ -35344,7 +35769,8 @@
   "zustand": "Erstbezug",
   "lage_radius": 258,
   "monatlich": 173.83,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1829519294": {
   "id": "wh-1829519294",
@@ -35506,7 +35932,8 @@
     "2026-10-28",
     898700.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-2081091148": {
   "id": "wh-2081091148",
@@ -35625,7 +36052,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1524692429": {
   "id": "wh-1524692429",
@@ -35685,7 +36113,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-1824281792": {
   "id": "wh-1824281792",
@@ -35911,7 +36340,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1954759498": {
   "id": "wh-1954759498",
@@ -36076,7 +36506,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": []
  },
  "wh-1083723767": {
   "id": "wh-1083723767",
@@ -36800,7 +37231,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1843699254": {
   "id": "wh-1843699254",
@@ -36935,7 +37367,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1334414694": {
   "id": "wh-1334414694",
@@ -37097,7 +37530,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1627173300": {
   "id": "wh-1627173300",
@@ -37485,7 +37919,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2140372352": {
   "id": "wh-2140372352",
@@ -37539,7 +37974,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 254
+  "lage_radius": 254,
+  "dokumente": []
  },
  "wh-951407094": {
   "id": "wh-951407094",
@@ -37799,7 +38235,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 269
+  "lage_radius": 269,
+  "dokumente": []
  },
  "wh-944239700": {
   "id": "wh-944239700",
@@ -38427,7 +38864,8 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1316356594": {
   "id": "wh-1316356594",
@@ -38618,7 +39056,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1614439417": {
   "id": "wh-1614439417",
@@ -38894,7 +39333,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1496327949": {
   "id": "wh-1496327949",
@@ -41212,7 +41652,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-954946335": {
   "id": "wh-954946335",
@@ -41310,7 +41751,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": []
  },
  "wh-2012881774": {
   "id": "wh-2012881774",
@@ -42116,7 +42558,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1597798543": {
   "id": "wh-1597798543",
@@ -42702,7 +43145,13 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 253
+  "lage_radius": 253,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/BBDxDJ7EKoA3PtCdGEkjLW.pdf"
+   }
+  ]
  },
  "wh-1117946808": {
   "id": "wh-1117946808",
@@ -42941,7 +43390,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-2033445873": {
   "id": "wh-2033445873",
@@ -42993,7 +43443,13 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 0,
   "monatlich": 245.89,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Plan_bunt",
+    "url": "https://cache.willhaben.at/adpdf/3/203/344/5873_595103484.pdf"
+   }
+  ]
  },
  "wh-1828800502": {
   "id": "wh-1828800502",
@@ -43064,7 +43520,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 266,
   "monatlich": 286.86,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1229219000": {
   "id": "wh-1229219000",
@@ -43767,7 +44224,8 @@
   "zustand": "Renoviert",
   "stockwerk": "0",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1010185889": {
   "id": "wh-1010185889",
@@ -44125,7 +44583,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 261,
   "monatlich": 233.51,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1195053795": {
   "id": "wh-1195053795",
@@ -44556,7 +45015,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 258
+  "lage_radius": 258,
+  "dokumente": []
  },
  "wh-899077419": {
   "id": "wh-899077419",
@@ -44829,7 +45289,21 @@
   "zustand": "Erstbezug",
   "lage_radius": 0,
   "monatlich": 308.77,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/NYKEmku2bWeyfkBHCcmJhP.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/gMyUKc6UquAxcbaU5SSYBN.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/sdC42wQxbF8bdaxbmeB4g7.pdf"
+   }
+  ]
  },
  "wh-1770691097": {
   "id": "wh-1770691097",
@@ -45893,7 +46367,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 291.56,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2051727274": {
   "id": "wh-2051727274",
@@ -45937,7 +46412,8 @@
   "stockwerk": "4",
   "lage_radius": 263,
   "monatlich": 276.99,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1876575157": {
   "id": "wh-1876575157",
@@ -46101,7 +46577,8 @@
   },
   "bauart": "Altbau",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1898776464": {
   "id": "wh-1898776464",
@@ -46354,7 +46831,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "7",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-896816823": {
   "id": "wh-896816823",
@@ -48470,7 +48948,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-860115647": {
   "id": "wh-860115647",
@@ -49004,7 +49483,8 @@
    "Dachterrasse"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1143522813": {
   "id": "wh-1143522813",
@@ -49772,7 +50252,8 @@
   "stockwerk": "2",
   "lage_radius": 264,
   "monatlich": 313.66,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-914135940": {
   "id": "wh-914135940",
@@ -49830,7 +50311,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 407.65,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1869406025": {
   "id": "wh-1869406025",
@@ -51219,7 +51701,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "0",
   "lage_radius": 269,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1268077326": {
   "id": "wh-1268077326",
@@ -51408,7 +51891,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 260
+  "lage_radius": 260,
+  "dokumente": []
  },
  "wh-1925108547": {
   "id": "wh-1925108547",
@@ -51583,7 +52067,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 255
+  "lage_radius": 255,
+  "dokumente": []
  },
  "wh-1378421819": {
   "id": "wh-1378421819",
@@ -51640,7 +52125,8 @@
    "Terrasse"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": []
  },
  "wh-1432561905": {
   "id": "wh-1432561905",
@@ -52090,7 +52576,25 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 490.72,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Finanzierungsanfrage",
+    "url": "https://interface.ris.immo/d4d2d25c-ace5-4df4-9e74-50fd9bf3b25a/uploads/6f3aff55d2234b1358f62eba3b44ed4ddb28695e/6f3aff55d2234b1358f62eba3b44ed4ddb28695e.pdf"
+   },
+   {
+    "name": "IMMOBILIE ZU VERKAUFEN ODER ZU VERMIETEN",
+    "url": "https://interface.ris.immo/d4d2d25c-ace5-4df4-9e74-50fd9bf3b25a/uploads/ee71843c52e0ee913f2a3ed9a772b54b794b859a/ee71843c52e0ee913f2a3ed9a772b54b794b859a.pdf"
+   },
+   {
+    "name": "Nebenkostübersicht",
+    "url": "https://interface.ris.immo/d4d2d25c-ace5-4df4-9e74-50fd9bf3b25a/uploads/72b0041ad35ef15dc53b8cfa4a09d6575553d780/72b0041ad35ef15dc53b8cfa4a09d6575553d780.pdf"
+   },
+   {
+    "name": "Wikipedia Alsergrund",
+    "url": "https://en.wikipedia.org/wiki/Alsergrund"
+   }
+  ]
  },
  "wh-2083560628": {
   "id": "wh-2083560628",
@@ -52139,7 +52643,8 @@
   "zustand": "Neuwertig",
   "stockwerk": "6",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1514533269": {
   "id": "wh-1514533269",
@@ -52647,7 +53152,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 386.89,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1637949481": {
   "id": "wh-1637949481",
@@ -53439,7 +53945,8 @@
   "baujahr": "1990",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1476257427": {
   "id": "wh-1476257427",
@@ -53733,7 +54240,8 @@
   "baujahr": "1902",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1780404861": {
   "id": "wh-1780404861",
@@ -53848,7 +54356,13 @@
   "zustand": "Renoviert",
   "lage_radius": 265,
   "monatlich": 308.23,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "3D-Rundgang",
+    "url": "https://my.matterport.com/show/?m=pXauskXbd5c"
+   }
+  ]
  },
  "wh-1399228857": {
   "id": "wh-1399228857",
@@ -54717,7 +55231,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 263
+  "lage_radius": 263,
+  "dokumente": []
  },
  "wh-1438124131": {
   "id": "wh-1438124131",
@@ -54836,7 +55351,17 @@
   "stockwerk": "1",
   "lage_radius": 263,
   "monatlich": 386.89,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/nKLE8dqA8LffTUk8Urrez4.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/9HbqbHr1LKdWo4wk424hiM.pdf"
+   }
+  ]
  },
  "wh-1642134111": {
   "id": "wh-1642134111",
@@ -55657,7 +56182,8 @@
    "Loggia"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-826183537": {
   "id": "wh-826183537",
@@ -55845,7 +56371,13 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": [
+   {
+    "name": "Hier geht es zum 360°-Rundgang",
+    "url": "https://tour.ogulo.com/OZBc"
+   }
+  ]
  },
  "wh-1301369721": {
   "id": "wh-1301369721",
@@ -55885,7 +56417,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 166.32,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2012473374": {
   "id": "wh-2012473374",
@@ -55928,7 +56461,8 @@
   "baujahr": "1894",
   "lage_radius": 263,
   "monatlich": 601.19,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1928271717": {
   "id": "wh-1928271717",
@@ -57871,7 +58405,17 @@
   "stockwerk": "2",
   "lage_radius": 265,
   "monatlich": 365.0,
-  "detail_am": "2026-10-27"
+  "detail_am": "2026-10-27",
+  "dokumente": [
+   {
+    "name": "Inserat auf unserer Webseite",
+    "url": "https://www.teo.immo/objekt/16519972?f%5Ball%5D%5Bmarketing_type%5D=buy&from=577115"
+   },
+   {
+    "name": "360° Tour",
+    "url": "https://my.matterport.com/show/?m=GvpodnTGYk5"
+   }
+  ]
  },
  "wh-1041148823": {
   "id": "wh-1041148823",
@@ -58310,7 +58854,8 @@
   "stockwerk": "0",
   "lage_radius": 268,
   "monatlich": 419.02,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-855948042": {
   "id": "wh-855948042",
@@ -58859,7 +59404,8 @@
   "stockwerk": "1",
   "lage_radius": 264,
   "monatlich": 386.89,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-850160165": {
   "id": "wh-850160165",
@@ -59098,7 +59644,25 @@
   "stockwerk": "Hochparterre",
   "lage_radius": 0,
   "monatlich": 419.02,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Bestandspläne_NEU",
+    "url": "https://media.edi1.eu/media/storage1/media/2025/-30000610/273/media_ref/pdf/-30000610_1004088130_16163511..pdf"
+   },
+   {
+    "name": "Plan",
+    "url": "https://media.edi1.eu/media/storage1/media/2025/-30000610/273/media_ref/pdf/-30000610_1004088130_16163521..pdf"
+   },
+   {
+    "name": "Stellplätze",
+    "url": "https://media.edi1.eu/media/storage1/media/2025/-30000610/283/media_ref/pdf/-30000610_1004088130_16187416..pdf"
+   },
+   {
+    "name": "BK Vorschau",
+    "url": "https://media.edi1.eu/media/storage1/media/2026/-30000610/90/media_ref/pdf/-30000610_1004088130_16605594..pdf"
+   }
+  ]
  },
  "wh-1247395565": {
   "id": "wh-1247395565",
@@ -59152,7 +59716,13 @@
    "Garten"
   ],
   "projekt": false,
-  "lage_radius": 251
+  "lage_radius": 251,
+  "dokumente": [
+   {
+    "name": "Projekt-Homepage",
+    "url": "https://www.zimmermannplatz6.at/"
+   }
+  ]
  },
  "wh-1697242408": {
   "id": "wh-1697242408",
@@ -59280,7 +59850,13 @@
   "stockwerk": "2",
   "lage_radius": 265,
   "monatlich": 308.8,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "360° Tour",
+    "url": "https://kuula.co/share/collection/7MprB?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1"
+   }
+  ]
  },
  "wh-829200687": {
   "id": "wh-829200687",
@@ -59500,7 +60076,8 @@
   "zustand": "Erstbezug",
   "lage_radius": 0,
   "monatlich": 330.3,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1396334649": {
   "id": "wh-1396334649",
@@ -59594,7 +60171,8 @@
   "stockwerk": "1",
   "lage_radius": 268,
   "monatlich": 601.46,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2145581057": {
   "id": "wh-2145581057",
@@ -59829,7 +60407,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-823592167": {
   "id": "wh-823592167",
@@ -60011,7 +60590,8 @@
   "freiflaeche": [
    "Terrasse"
   ],
-  "projekt": false
+  "projekt": false,
+  "dokumente": []
  },
  "wh-850989581": {
   "id": "wh-850989581",
@@ -60803,7 +61383,8 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-808021096": {
   "id": "wh-808021096",
@@ -61007,7 +61588,8 @@
   },
   "baujahr": "1894",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-864206731": {
   "id": "wh-864206731",
@@ -61289,7 +61871,13 @@
   "detail_am": "2026-10-27",
   "freiflaeche": [],
   "projekt": false,
-  "lage_radius": 256
+  "lage_radius": 256,
+  "dokumente": [
+   {
+    "name": "3D-Rundgang",
+    "url": "https://tour.giraffe360.com/d599ed5f82c54ea780a13ed86e527b9e/"
+   }
+  ]
  },
  "wh-1787886590": {
   "id": "wh-1787886590",
@@ -61698,7 +62286,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 262
+  "lage_radius": 262,
+  "dokumente": []
  },
  "wh-2123378182": {
   "id": "wh-2123378182",
@@ -61901,7 +62490,8 @@
   "stockwerk": "1",
   "lage_radius": 255,
   "monatlich": 335.42,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1174953762": {
   "id": "wh-1174953762",
@@ -62134,7 +62724,8 @@
   "monatlich": 593.28,
   "detail_am": "2026-10-27",
   "projekt": false,
-  "lage_radius": 266
+  "lage_radius": 266,
+  "dokumente": []
  },
  "wh-786989317": {
   "id": "wh-786989317",
@@ -62661,7 +63252,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 261,
   "monatlich": 419.02,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-801272997": {
   "id": "wh-801272997",
@@ -62788,7 +63380,8 @@
     "2026-10-30",
     590000.0
    ]
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1210566220": {
   "id": "wh-1210566220",
@@ -62848,7 +63441,21 @@
   "stockwerk": "1",
   "lage_radius": 253,
   "monatlich": 386.89,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/49QFObH8bNa0TPsSM06iAa.pdf"
+   },
+   {
+    "name": "3D-Rundgang",
+    "url": "https://my.matterport.com/show/?m=GTJGKcjg1dm"
+   },
+   {
+    "name": "Videobesichtigung",
+    "url": "https://www.youtube.com/watch?v=Lvfoftii-qY"
+   }
+  ]
  },
  "wh-895639868": {
   "id": "wh-895639868",
@@ -62905,7 +63512,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 300.33,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-2139454018": {
   "id": "wh-2139454018",
@@ -63501,7 +64109,8 @@
    "Balkon"
   ],
   "projekt": false,
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-2041454347": {
   "id": "wh-2041454347",
@@ -144828,7 +145437,8 @@
   "stockwerk": "2",
   "monatlich": 350.0,
   "detail_am": "2026-10-27",
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1381231696": {
   "id": "wh-1381231696",
@@ -146695,7 +147305,8 @@
   "stockwerk": "1",
   "monatlich": 453.53,
   "detail_am": "2026-10-27",
-  "lage_radius": 269
+  "lage_radius": 269,
+  "dokumente": []
  },
  "ds-15295466": {
   "id": "ds-15295466",
@@ -147032,7 +147643,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "detail_am": "2026-10-27",
-  "lage_radius": 0
+  "lage_radius": 0,
+  "dokumente": []
  },
  "wh-1925303415": {
   "id": "wh-1925303415",
@@ -147100,7 +147712,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1387957387": {
   "id": "wh-1387957387",
@@ -147717,7 +148330,21 @@
   "stockwerk": "1",
   "monatlich": 223.6,
   "detail_am": "2026-10-27",
-  "lage_radius": 261
+  "lage_radius": 261,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/5ITa9ZdzroDhbtyCFSzo3j.pdf"
+   },
+   {
+    "name": "Bau- und Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/7yzsEtbxyQDDerqzIC1BmG.pdf"
+   },
+   {
+    "name": "LINK ZUM PROJEKT",
+    "url": "https://www.hs-immo.at/wohnbauprojekt/14707938?from=193419"
+   }
+  ]
  },
  "wh-1553098959": {
   "id": "wh-1553098959",
@@ -148595,7 +149222,13 @@
   "zustand": "Renoviert",
   "lage_radius": 260,
   "monatlich": 169.59,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "3D Rundgang",
+    "url": "https://my.matterport.com/show/?m=bqeDDrc15oy"
+   }
+  ]
  },
  "wh-1083817139": {
   "id": "wh-1083817139",
@@ -148695,7 +149328,45 @@
   "zustand": "Erstbezug",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-10-27"
+  "detail_am": "2026-10-27",
+  "dokumente": [
+   {
+    "name": "Verkaufsplan Haus 2 Top 7",
+    "url": "https://storage.justimmo.at/file/5T2TdAqJwi88yUZwRxBK6Q.pdf"
+   },
+   {
+    "name": "Verkaufsplan Haus 2 Top 7 Garten",
+    "url": "https://storage.justimmo.at/file/4jZYI8kQVZA1KdVIKGCnYd.pdf"
+   },
+   {
+    "name": "Projektfolder",
+    "url": "https://storage.justimmo.at/file/6XraexSt3GzmNar124b0kk.pdf"
+   },
+   {
+    "name": "Kunst & Wohnen",
+    "url": "https://storage.justimmo.at/file/2rEKFvp1mjPLf0T9nnKO0E.pdf"
+   },
+   {
+    "name": "Lageplan",
+    "url": "https://storage.justimmo.at/file/4G63SG1A49BD3ZJbNRPxgT.pdf"
+   },
+   {
+    "name": "Bau- und Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/5kuhEKRCmaBh3WKKIDXV08.pdf"
+   },
+   {
+    "name": "Bebilderte Ausstattungsbroschüre",
+    "url": "https://storage.justimmo.at/file/4xos7z7yP7FApv7ly967CX.pdf"
+   },
+   {
+    "name": "Energieausweis Stiege 1",
+    "url": "https://storage.justimmo.at/file/mkentWLQ4npmKILiYE9CZ.pdf"
+   },
+   {
+    "name": "Energieausweis Stiege 2",
+    "url": "https://storage.justimmo.at/file/5fX88HytjDxQeOqjBxDkGZ.pdf"
+   }
+  ]
  },
  "wh-2147386450": {
   "id": "wh-2147386450",
@@ -148888,7 +149559,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "5",
   "lage_radius": 0,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1626064919": {
   "id": "wh-1626064919",
@@ -149070,7 +149742,13 @@
   "zustand": "Erstbezug",
   "lage_radius": 262,
   "monatlich": 311.64,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf"
+   }
+  ]
  },
  "sr-0960075407": {
   "id": "sr-0960075407",
@@ -152237,7 +152915,8 @@
   "stockwerk": "5",
   "lage_radius": 262,
   "monatlich": 365.8,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": []
  },
  "wh-1024461247": {
   "id": "wh-1024461247",
@@ -152305,7 +152984,13 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 379.26,
-  "detail_am": "2026-10-28"
+  "detail_am": "2026-10-28",
+  "dokumente": [
+   {
+    "name": "Video",
+    "url": "https://tour.ogulo.com/tt5Q"
+   }
+  ]
  },
  "is-815719770369": {
   "id": "is-815719770369",
@@ -154861,7 +155546,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 431.31,
-  "detail_am": "2026-10-30"
+  "detail_am": "2026-10-30",
+  "dokumente": []
  },
  "wh-1992576637": {
   "id": "wh-1992576637",
@@ -154921,7 +155607,13 @@
   "stockwerk": "4",
   "lage_radius": 259,
   "monatlich": 173.86,
-  "detail_am": "2026-10-30"
+  "detail_am": "2026-10-30",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf"
+   }
+  ]
  },
  "wh-1930119420": {
   "id": "wh-1930119420",
@@ -155001,7 +155693,8 @@
   ],
   "vorgaenger": [
    "wh-977735216"
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1123211521": {
   "id": "wh-1123211521",
@@ -155123,6 +155816,12 @@
   "preis_historie": [],
   "vorgaenger": [
    "wh-2043511758"
+  ],
+  "dokumente": [
+   {
+    "name": "360 Grad Tour",
+    "url": "https://www.kuula.co/share/collection/7MqQD?logo=0&info=0&fs=1&vr=1&sd=1&initload=0&thumbs=1"
+   }
   ]
  },
  "wh-1317026451": {
@@ -155179,7 +155878,8 @@
   "preis_historie": [],
   "vorgaenger": [
    "wh-1046812803"
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1327728427": {
   "id": "wh-1327728427",
@@ -156507,7 +157207,8 @@
   "bauart": "Altbau",
   "lage_radius": 258,
   "monatlich": 262.52,
-  "detail_am": "2026-10-31"
+  "detail_am": "2026-10-31",
+  "dokumente": []
  },
  "wh-1259630000": {
   "id": "wh-1259630000",
@@ -156735,7 +157436,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-10-31"
+  "detail_am": "2026-10-31",
+  "dokumente": []
  },
  "is-470750805239": {
   "id": "is-470750805239",
@@ -156883,7 +157585,8 @@
   },
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-10-31"
+  "detail_am": "2026-10-31",
+  "dokumente": []
  },
  "wh-1298960052": {
   "id": "wh-1298960052",
@@ -157017,7 +157720,21 @@
   "zustand": "Neuwertig",
   "lage_radius": 253,
   "monatlich": 314.46,
-  "detail_am": "2026-10-31"
+  "detail_am": "2026-10-31",
+  "dokumente": [
+   {
+    "name": "360° Tour_15401",
+    "url": "https://storage.justimmo.at/file/4bT5pWKui327q4i1sS2IeX.pdf"
+   },
+   {
+    "name": "Plan_top 5",
+    "url": "https://storage.justimmo.at/file/7vkhNVCM6EedVEyMMJnLqP.pdf"
+   },
+   {
+    "name": "360° Tour_15401",
+    "url": "https://360.kalandra.at/view/portal/id/VVXSQ"
+   }
+  ]
  },
  "fm-5771772": {
   "id": "fm-5771772",
@@ -160877,7 +161594,8 @@
   "preis_historie": [],
   "vorgaenger": [
    "wh-1133815795"
-  ]
+  ],
+  "dokumente": []
  },
  "wh-1530047184": {
   "id": "wh-1530047184",
@@ -160944,7 +161662,8 @@
   "preis_historie": [],
   "vorgaenger": [
    "wh-1242086789"
-  ]
+  ],
+  "dokumente": []
  },
  "is-462182402447": {
   "id": "is-462182402447",
@@ -162275,7 +162994,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1862095887": {
   "id": "wh-1862095887",
@@ -162332,7 +163052,8 @@
   "bauart": "Altbau",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "ds-15301420": {
   "id": "ds-15301420",
@@ -163212,7 +163933,8 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 263.62,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1453750953": {
   "id": "wh-1453750953",
@@ -163306,7 +164028,8 @@
   "stockwerk": "2",
   "lage_radius": 256,
   "monatlich": 345.17,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1819483464": {
   "id": "wh-1819483464",
@@ -163461,7 +164184,13 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "4",
   "lage_radius": 266,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/gkHH49Ag6WQcp5i2vwEPdG.pdf"
+   }
+  ]
  },
  "wh-870025957": {
   "id": "wh-870025957",
@@ -163578,7 +164307,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 362.8,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2116103704": {
   "id": "wh-2116103704",
@@ -163689,7 +164419,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "5",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1284070527": {
   "id": "wh-1284070527",
@@ -163915,7 +164646,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1479861390": {
   "id": "wh-1479861390",
@@ -164033,7 +164765,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1067723156": {
   "id": "wh-1067723156",
@@ -164318,7 +165051,8 @@
   "stockwerk": "2",
   "lage_radius": 261,
   "monatlich": 316.38,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1742111266": {
   "id": "wh-1742111266",
@@ -165078,7 +165812,8 @@
   "stockwerk": "5",
   "lage_radius": 264,
   "monatlich": 561.03,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1936450562": {
   "id": "wh-1936450562",
@@ -165136,7 +165871,17 @@
   "stockwerk": "3",
   "lage_radius": 261,
   "monatlich": 376.45,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Video-Roomtour",
+    "url": "https://youtu.be/43bnSMQIs04?si=6VsgiU6UEOA8NO7V"
+   },
+   {
+    "name": "360° Rundgang",
+    "url": "https://my.matterport.com/show/?m=exiKTnjcZ78"
+   }
+  ]
  },
  "wh-1640811943": {
   "id": "wh-1640811943",
@@ -165526,7 +166271,13 @@
   "stockwerk": "3",
   "lage_radius": 253,
   "monatlich": 451.01,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Marx 3 Top 15",
+    "url": "https://storage.justimmo.at/file/3p7XjeCIFRbIjjaxZdVRwI.pdf"
+   }
+  ]
  },
  "wh-2036289576": {
   "id": "wh-2036289576",
@@ -165690,7 +166441,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 214.19,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2067064140": {
   "id": "wh-2067064140",
@@ -166084,7 +166836,21 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/7pr6X5CdWwwSKkuy3hc51D.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/3nzPBrQcjvCDbJNpLKaLhH.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/bvqxVChm1C2thpMnGcCxhS.pdf"
+   }
+  ]
  },
  "wh-1683616896": {
   "id": "wh-1683616896",
@@ -166400,7 +167166,8 @@
   "stockwerk": "5",
   "lage_radius": 0,
   "monatlich": 561.03,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1031709273": {
   "id": "wh-1031709273",
@@ -166458,7 +167225,8 @@
   "stockwerk": "1",
   "lage_radius": 267,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1483277772": {
   "id": "wh-1483277772",
@@ -167423,7 +168191,13 @@
   "bauart": "Neubau",
   "lage_radius": 258,
   "monatlich": 332.18,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "360° Rundgang",
+    "url": "https://app.immoviewer.com/portal/tour/3159612?accessKey=6ae8"
+   }
+  ]
  },
  "wh-2133477227": {
   "id": "wh-2133477227",
@@ -167486,7 +168260,8 @@
   "stockwerk": "1",
   "lage_radius": 255,
   "monatlich": 450.52,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1511311708": {
   "id": "wh-1511311708",
@@ -167733,7 +168508,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1632803741": {
   "id": "wh-1632803741",
@@ -168247,7 +169023,17 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 317.91,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "360° Rundgang",
+    "url": "https://my.matterport.com/show/?m=8NcPDzRhwQA"
+   },
+   {
+    "name": "Video-Roomtour",
+    "url": "https://youtu.be/wjzZHNl1JeI?si=daRYaNfLRHOQSy4_"
+   }
+  ]
  },
  "wh-2122239321": {
   "id": "wh-2122239321",
@@ -168678,7 +169464,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "8",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1602730717": {
   "id": "wh-1602730717",
@@ -169932,7 +170728,25 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 316.38,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/hKXnYsUbpCFsiFNMcsxga6.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/qtnSUBz83afiGSm79pBN8W.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/Y4fxJqp9Q8iXRmMYJ9qH1G.pdf"
+   },
+   {
+    "name": "Lagereport",
+    "url": "https://storage.justimmo.at/file/kaDQGFnDRSGGveWHVKaywA.pdf"
+   }
+  ]
  },
  "wh-1695330854": {
   "id": "wh-1695330854",
@@ -170670,7 +171484,8 @@
   "stockwerk": "1",
   "lage_radius": 259,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1349781152": {
   "id": "wh-1349781152",
@@ -170814,7 +171629,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/2gGoilbk708gR3mScWUgVg.pdf"
+   },
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/231PtjcO0JyAsFv7wIM8Co.pdf"
+   }
+  ]
  },
  "wh-1709594456": {
   "id": "wh-1709594456",
@@ -170996,7 +171821,17 @@
   "stockwerk": "1",
   "lage_radius": 257,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/ZEkHQ1826dWps4tzJDPKbQ.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/G5dEAppaDaBmziWRRDyha1.pdf"
+   }
+  ]
  },
  "wh-2114850140": {
   "id": "wh-2114850140",
@@ -171648,7 +172483,21 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/7pr6X5CdWwwSKkuy3hc51D.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/3nzPBrQcjvCDbJNpLKaLhH.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/bvqxVChm1C2thpMnGcCxhS.pdf"
+   }
+  ]
  },
  "wh-2018080260": {
   "id": "wh-2018080260",
@@ -171710,7 +172559,21 @@
   "zustand": "Erstbezug",
   "stockwerk": "5",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/7pr6X5CdWwwSKkuy3hc51D.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/3nzPBrQcjvCDbJNpLKaLhH.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/bvqxVChm1C2thpMnGcCxhS.pdf"
+   }
+  ]
  },
  "wh-1460801984": {
   "id": "wh-1460801984",
@@ -171772,7 +172635,21 @@
   "zustand": "Erstbezug",
   "stockwerk": "9",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/7pr6X5CdWwwSKkuy3hc51D.pdf"
+   },
+   {
+    "name": "Preisliste",
+    "url": "https://storage.justimmo.at/file/3nzPBrQcjvCDbJNpLKaLhH.pdf"
+   },
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/bvqxVChm1C2thpMnGcCxhS.pdf"
+   }
+  ]
  },
  "wh-1768488465": {
   "id": "wh-1768488465",
@@ -171864,7 +172741,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 262,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1716135841": {
   "id": "wh-1716135841",
@@ -171911,7 +172789,8 @@
   },
   "zustand": "Sehr gut/gut",
   "lage_radius": 256,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1642591582": {
   "id": "wh-1642591582",
@@ -171975,7 +172854,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1697462342": {
   "id": "wh-1697462342",
@@ -172452,7 +173332,8 @@
   "bauart": "Altbau",
   "lage_radius": 268,
   "monatlich": 405.84,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-852909548": {
   "id": "wh-852909548",
@@ -172563,7 +173444,8 @@
   "stockwerk": "1",
   "lage_radius": 265,
   "monatlich": 436.5,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1142142987": {
   "id": "wh-1142142987",
@@ -173200,7 +174082,17 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 326.28,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/8axCXw8SynsS7XeK7JVXpR.pdf"
+   },
+   {
+    "name": "LINK ZUR WOHNUNG",
+    "url": "https://www.hs-immo.at/objekt/17316217?from=193302"
+   }
+  ]
  },
  "wh-2070033790": {
   "id": "wh-2070033790",
@@ -173273,7 +174165,13 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 251,
   "monatlich": 232.02,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Rundgang",
+    "url": "https://my.matterport.com/show/?m=oUSQJiT4JCa"
+   }
+  ]
  },
  "wh-1454481478": {
   "id": "wh-1454481478",
@@ -173385,7 +174283,13 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 322.12,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Exposé",
+    "url": "https://storage.justimmo.at/file/2jyQVwTGEzYGyNMAB8SDD1.pdf"
+   }
+  ]
  },
  "wh-2118613416": {
   "id": "wh-2118613416",
@@ -174055,7 +174959,21 @@
   "stockwerk": "4",
   "lage_radius": 0,
   "monatlich": 278.11,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Projektfolder",
+    "url": "https://storage.justimmo.at/file/4EebEN2Kc5pqNnfSD5pLwh.pdf"
+   },
+   {
+    "name": "Ausstattung Dachgeschoß",
+    "url": "https://storage.justimmo.at/file/34uMhOMWKuAlIz8z4LXgcn.pdf"
+   },
+   {
+    "name": "Ausstattung Regelgeschoß",
+    "url": "https://storage.justimmo.at/file/1bltuoCC7rV1E9nHnmhvfZ.pdf"
+   }
+  ]
  },
  "wh-1296022588": {
   "id": "wh-1296022588",
@@ -174111,7 +175029,8 @@
   "stockwerk": "1",
   "lage_radius": 253,
   "monatlich": 332.45,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1173401627": {
   "id": "wh-1173401627",
@@ -174332,7 +175251,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 436.5,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2004162026": {
   "id": "wh-2004162026",
@@ -174482,7 +175402,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Planmappe",
+    "url": "https://storage.justimmo.at/file/2gGoilbk708gR3mScWUgVg.pdf"
+   },
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/231PtjcO0JyAsFv7wIM8Co.pdf"
+   }
+  ]
  },
  "wh-1102796654": {
   "id": "wh-1102796654",
@@ -174887,7 +175817,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1949966943": {
   "id": "wh-1949966943",
@@ -174997,7 +175928,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "7",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/EoNXjnrHGBKnuYZDizBna3.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/TRL45Bj6ZsRjL6oUDM1y2G.pdf"
+   }
+  ]
  },
  "wh-1957345969": {
   "id": "wh-1957345969",
@@ -175031,7 +175972,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/EoNXjnrHGBKnuYZDizBna3.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/TRL45Bj6ZsRjL6oUDM1y2G.pdf"
+   }
+  ]
  },
  "wh-1712522586": {
   "id": "wh-1712522586",
@@ -175093,7 +176044,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 267,
   "monatlich": 559.7,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1368595317": {
   "id": "wh-1368595317",
@@ -175196,7 +176148,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/EoNXjnrHGBKnuYZDizBna3.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/TRL45Bj6ZsRjL6oUDM1y2G.pdf"
+   }
+  ]
  },
  "wh-1499884372": {
   "id": "wh-1499884372",
@@ -175626,7 +176588,8 @@
   "zustand": "Erstbezug",
   "lage_radius": 0,
   "monatlich": 181.79,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-817514410": {
   "id": "wh-817514410",
@@ -175738,7 +176701,21 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 193.29,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Projektfolder",
+    "url": "https://storage.justimmo.at/file/4EebEN2Kc5pqNnfSD5pLwh.pdf"
+   },
+   {
+    "name": "Ausstattung Dachgeschoß",
+    "url": "https://storage.justimmo.at/file/34uMhOMWKuAlIz8z4LXgcn.pdf"
+   },
+   {
+    "name": "Ausstattung Regelgeschoß",
+    "url": "https://storage.justimmo.at/file/1bltuoCC7rV1E9nHnmhvfZ.pdf"
+   }
+  ]
  },
  "wh-2143277962": {
   "id": "wh-2143277962",
@@ -175814,7 +176791,8 @@
   "bauart": "Altbau",
   "stockwerk": "0",
   "lage_radius": 259,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1484862847": {
   "id": "wh-1484862847",
@@ -175917,7 +176895,8 @@
   "stockwerk": "5",
   "lage_radius": 0,
   "monatlich": 410.38,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1181994547": {
   "id": "wh-1181994547",
@@ -176047,7 +177026,8 @@
   "stockwerk": "2",
   "lage_radius": 270,
   "monatlich": 529.31,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1798176105": {
   "id": "wh-1798176105",
@@ -176097,7 +177077,8 @@
   "stockwerk": "2",
   "lage_radius": 268,
   "monatlich": 362.8,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2115807370": {
   "id": "wh-2115807370",
@@ -176344,7 +177325,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 340.49,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-923528871": {
   "id": "wh-923528871",
@@ -176524,7 +177506,8 @@
   "bauart": "Altbau",
   "zustand": "Sehr gut/gut",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1467484845": {
   "id": "wh-1467484845",
@@ -176653,7 +177636,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 568.085,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1644510916": {
   "id": "wh-1644510916",
@@ -176771,7 +177755,8 @@
   "stockwerk": "2",
   "lage_radius": 253,
   "monatlich": 329.0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1301970315": {
   "id": "wh-1301970315",
@@ -176999,7 +177984,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 377.33,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1925961462": {
   "id": "wh-1925961462",
@@ -177149,7 +178135,8 @@
   "stockwerk": "1",
   "lage_radius": 259,
   "monatlich": 353.41,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1533917939": {
   "id": "wh-1533917939",
@@ -177299,7 +178286,8 @@
   "stockwerk": "2",
   "lage_radius": 255,
   "monatlich": 460.83,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-921359992": {
   "id": "wh-921359992",
@@ -177506,7 +178494,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 158.11,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1143459995": {
   "id": "wh-1143459995",
@@ -177726,7 +178715,8 @@
   "stockwerk": "2",
   "lage_radius": 265,
   "monatlich": 362.8,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2083544015": {
   "id": "wh-2083544015",
@@ -177965,7 +178955,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "5",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/EoNXjnrHGBKnuYZDizBna3.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/TRL45Bj6ZsRjL6oUDM1y2G.pdf"
+   }
+  ]
  },
  "wh-1865231467": {
   "id": "wh-1865231467",
@@ -178022,7 +179022,8 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": []
  },
  "wh-1837283227": {
   "id": "wh-1837283227",
@@ -178396,7 +179397,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1740914889": {
   "id": "wh-1740914889",
@@ -179130,7 +180141,8 @@
    "fgee_class": "C"
   },
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1120381309": {
   "id": "wh-1120381309",
@@ -179361,7 +180373,8 @@
   "bauart": "Altbau",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1020044879": {
   "id": "wh-1020044879",
@@ -179817,7 +180830,8 @@
   "bauart": "Altbau",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1799548347": {
   "id": "wh-1799548347",
@@ -180375,7 +181389,8 @@
   "baujahr": "1899",
   "zustand": "Erstbezug",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2146736446": {
   "id": "wh-2146736446",
@@ -180654,7 +181669,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "DG",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1322117204": {
   "id": "wh-1322117204",
@@ -180891,7 +181907,8 @@
   "stockwerk": "3",
   "lage_radius": 258,
   "monatlich": 430.29,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1863806936": {
   "id": "wh-1863806936",
@@ -180947,7 +181964,8 @@
   "zustand": "Neuwertig",
   "lage_radius": 252,
   "monatlich": 303.04,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-906174063": {
   "id": "wh-906174063",
@@ -181120,7 +182138,8 @@
   },
   "bauart": "Altbau",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1058021097": {
   "id": "wh-1058021097",
@@ -181298,7 +182317,8 @@
   "stockwerk": "1",
   "lage_radius": 0,
   "monatlich": 309.54,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1971603690": {
   "id": "wh-1971603690",
@@ -181493,7 +182513,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-973296749": {
   "id": "wh-973296749",
@@ -181554,7 +182575,8 @@
   "stockwerk": "4",
   "lage_radius": 0,
   "monatlich": 256.64,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1002969767": {
   "id": "wh-1002969767",
@@ -181692,7 +182714,8 @@
   "stockwerk": "1",
   "lage_radius": 254,
   "monatlich": 434.59,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1139361846": {
   "id": "wh-1139361846",
@@ -181743,7 +182766,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "0",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1601587213": {
   "id": "wh-1601587213",
@@ -181907,7 +182931,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "7",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-944292741": {
   "id": "wh-944292741",
@@ -182026,7 +183060,8 @@
   "stockwerk": "0",
   "lage_radius": 0,
   "monatlich": 211.17,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1393669519": {
   "id": "wh-1393669519",
@@ -182089,7 +183124,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 225.19,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1671546813": {
   "id": "wh-1671546813",
@@ -182150,7 +183186,8 @@
   "stockwerk": "4",
   "lage_radius": 0,
   "monatlich": 264.79,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-993857221": {
   "id": "wh-993857221",
@@ -182475,7 +183512,13 @@
   },
   "zustand": "Renoviert",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Nebenkostenübersicht",
+    "url": "https://cache.willhaben.at/adpdf/4/128/952/3934_-798341640.pdf"
+   }
+  ]
  },
  "wh-1563299233": {
   "id": "wh-1563299233",
@@ -182529,7 +183572,8 @@
   "stockwerk": "1",
   "lage_radius": 259,
   "monatlich": 348.85,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1493580954": {
   "id": "wh-1493580954",
@@ -182874,7 +183918,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1994112859": {
   "id": "wh-1994112859",
@@ -183008,7 +184053,8 @@
   "stockwerk": "3",
   "lage_radius": 270,
   "monatlich": 342.86,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1276549532": {
   "id": "wh-1276549532",
@@ -183331,7 +184377,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "10",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-892671547": {
   "id": "wh-892671547",
@@ -183569,7 +184625,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-928956706": {
   "id": "wh-928956706",
@@ -183740,7 +184797,17 @@
   "zustand": "Renoviert",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Verkaufsplan OG3",
+    "url": "https://cache.willhaben.at/adpdf/6/147/126/9106_1350151683.pdf"
+   },
+   {
+    "name": "Nebenkostenübersicht",
+    "url": "https://cache.willhaben.at/adpdf/6/147/126/9106_-798341640.pdf"
+   }
+  ]
  },
  "wh-1778765922": {
   "id": "wh-1778765922",
@@ -183796,7 +184863,13 @@
   },
   "zustand": "Renoviert",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Nebenkostenübersicht",
+    "url": "https://cache.willhaben.at/adpdf/2/177/876/5922_-798341640.pdf"
+   }
+  ]
  },
  "wh-1557628224": {
   "id": "wh-1557628224",
@@ -183858,7 +184931,8 @@
   "baujahr": "1900",
   "bauart": "Altbau",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1075513350": {
   "id": "wh-1075513350",
@@ -183965,7 +185039,13 @@
   },
   "zustand": "Renoviert",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Nebenkostenübersicht",
+    "url": "https://cache.willhaben.at/adpdf/4/196/312/8884_-798341640.pdf"
+   }
+  ]
  },
  "wh-1898152404": {
   "id": "wh-1898152404",
@@ -184019,7 +185099,8 @@
   "bauart": "Neubau",
   "lage_radius": 0,
   "monatlich": 559.7,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-799963097": {
   "id": "wh-799963097",
@@ -184118,7 +185199,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 269,
   "monatlich": 364.07,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1686399238": {
   "id": "wh-1686399238",
@@ -184235,7 +185317,8 @@
   "stockwerk": "5",
   "lage_radius": 264,
   "monatlich": 561.03,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1538104854": {
   "id": "wh-1538104854",
@@ -184298,7 +185381,13 @@
   "stockwerk": "1",
   "lage_radius": 255,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/6a6ZBSd5aJ8qtnLeEZIl9n.pdf"
+   }
+  ]
  },
  "wh-944393681": {
   "id": "wh-944393681",
@@ -184578,7 +185667,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 579.3,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1628789219": {
   "id": "wh-1628789219",
@@ -184694,7 +185784,8 @@
   "stockwerk": "5",
   "lage_radius": 262,
   "monatlich": 598.79,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2109600618": {
   "id": "wh-2109600618",
@@ -185388,7 +186479,8 @@
   "zustand": "Sehr gut/gut",
   "lage_radius": 257,
   "monatlich": 329.0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-816550455": {
   "id": "wh-816550455",
@@ -185436,7 +186528,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-2141113658": {
   "id": "wh-2141113658",
@@ -185529,7 +186631,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1223338750": {
   "id": "wh-1223338750",
@@ -185694,7 +186806,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1949055585": {
   "id": "wh-1949055585",
@@ -185994,7 +187107,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1247459871": {
   "id": "wh-1247459871",
@@ -186334,7 +187457,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/EoNXjnrHGBKnuYZDizBna3.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/TRL45Bj6ZsRjL6oUDM1y2G.pdf"
+   }
+  ]
  },
  "wh-1382294468": {
   "id": "wh-1382294468",
@@ -186394,7 +187527,8 @@
   "stockwerk": "1",
   "lage_radius": 265,
   "monatlich": 568.08,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1351024779": {
   "id": "wh-1351024779",
@@ -186442,7 +187576,17 @@
   "typ": "Wohnung",
   "erstmals": "2026-11-01",
   "zuletzt": "2026-11-01",
-  "aktiv": true
+  "aktiv": true,
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1560216827": {
   "id": "wh-1560216827",
@@ -186514,7 +187658,8 @@
   "zustand": "Renoviert",
   "lage_radius": 257,
   "monatlich": 457.78,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1953129898": {
   "id": "wh-1953129898",
@@ -186585,7 +187730,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "9",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-2142989299": {
   "id": "wh-2142989299",
@@ -186728,7 +187883,8 @@
   "stockwerk": "3",
   "lage_radius": 257,
   "monatlich": 422.84,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1174543866": {
   "id": "wh-1174543866",
@@ -186953,7 +188109,17 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Preisliste Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/Kbg159YfHMwW9ArH2hPPaP.pdf"
+   },
+   {
+    "name": "Exposé Baufeld 14B",
+    "url": "https://storage.justimmo.at/file/yb3mvDTBXbfvP4JyWtLrtX.pdf"
+   }
+  ]
  },
  "wh-1011988673": {
   "id": "wh-1011988673",
@@ -187065,7 +188231,8 @@
   "stockwerk": "0",
   "lage_radius": 259,
   "monatlich": 257.4,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1979627241": {
   "id": "wh-1979627241",
@@ -187267,7 +188434,8 @@
   "stockwerk": "2",
   "lage_radius": 267,
   "monatlich": 365.17,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1592238735": {
   "id": "wh-1592238735",
@@ -187420,7 +188588,8 @@
   "zustand": "Renoviert",
   "lage_radius": 261,
   "monatlich": 321.98,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1457316952": {
   "id": "wh-1457316952",
@@ -187482,7 +188651,8 @@
   "stockwerk": "1",
   "lage_radius": 270,
   "monatlich": 409.98,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-991021413": {
   "id": "wh-991021413",
@@ -187543,7 +188713,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-940258520": {
   "id": "wh-940258520",
@@ -187678,7 +188849,8 @@
   "stockwerk": "3",
   "lage_radius": 254,
   "monatlich": 302.01,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1044180351": {
   "id": "wh-1044180351",
@@ -187741,7 +188913,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "0",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1317267749": {
   "id": "wh-1317267749",
@@ -224547,7 +225720,8 @@
   "stockwerk": "DG",
   "lage_radius": 0,
   "monatlich": 275.0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1865793128": {
   "id": "wh-1865793128",
@@ -224682,7 +225856,8 @@
   "stockwerk": "1",
   "lage_radius": 266,
   "monatlich": 345.13,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1439969788": {
   "id": "wh-1439969788",
@@ -224754,7 +225929,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-862105253": {
   "id": "wh-862105253",
@@ -224821,7 +225997,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "4 Aufzug",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1197412524": {
   "id": "wh-1197412524",
@@ -224895,7 +226072,8 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-803549712": {
   "id": "wh-803549712",
@@ -225210,7 +226388,8 @@
   },
   "stockwerk": "-2",
   "lage_radius": 260,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1608787348": {
   "id": "wh-1608787348",
@@ -225346,7 +226525,8 @@
   "bauart": "Altbau",
   "stockwerk": "-1",
   "lage_radius": 259,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1093096931": {
   "id": "wh-1093096931",
@@ -225566,7 +226746,13 @@
   "stockwerk": "4",
   "lage_radius": 0,
   "monatlich": 402.15,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Projekt Homepage",
+    "url": "https://wohn3.at/de/immobilien/stadtoase-in-der-staudgasse-idyllische-2-4-zimmer-wohnungen-mit-wohlfuehlfaktor-c511d401"
+   }
+  ]
  },
  "wh-1614606325": {
   "id": "wh-1614606325",
@@ -225636,7 +226822,29 @@
   "stockwerk": "4",
   "lage_radius": 269,
   "monatlich": 361.73,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Bau- & Ausstattungsbeschreibung",
+    "url": "https://storage.justimmo.at/file/5JYKz1Vl44guYmTx4Ywgv1.pdf"
+   },
+   {
+    "name": "Lageplan",
+    "url": "https://storage.justimmo.at/file/5wsrN3vzSAj5h7gy2ElCcC.pdf"
+   },
+   {
+    "name": "Übersichtsplan",
+    "url": "https://storage.justimmo.at/file/1vj6TEW9waLUNw1WadHCNh.pdf"
+   },
+   {
+    "name": "Verkaufspläne",
+    "url": "https://storage.justimmo.at/file/3pLFwVs3GKKV9ivZWeSdOw.pdf"
+   },
+   {
+    "name": "Projektseite",
+    "url": "https://www.remax.at/de/ib/remax-together-wien/pr-neubauprojekt-staudgasse-1180-wien"
+   }
+  ]
  },
  "wh-1872607164": {
   "id": "wh-1872607164",
@@ -225749,7 +226957,8 @@
   },
   "bauart": "Altbau",
   "lage_radius": 258,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1352766419": {
   "id": "wh-1352766419",
@@ -226019,7 +227228,8 @@
   "stockwerk": "0",
   "lage_radius": 269,
   "monatlich": 360.22,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1226471000": {
   "id": "wh-1226471000",
@@ -226112,7 +227322,13 @@
   "zustand": "Renoviert",
   "stockwerk": "2. Stock",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Gentzgasse_83_Top03_Einrichtung.pdf",
+    "url": "https://fra1.digitaloceanspaces.com/unio-prod/property/61/floor-plan/e56b2b5a-ca93-483b-8e5b-7f550187feed-gentzgasse_83_top03_einrichtung.pdf"
+   }
+  ]
  },
  "wh-1479803281": {
   "id": "wh-1479803281",
@@ -226343,7 +227559,8 @@
   },
   "bauart": "Altbau",
   "lage_radius": 258,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2097837232": {
   "id": "wh-2097837232",
@@ -226558,7 +227775,8 @@
   "stockwerk": "4",
   "lage_radius": 260,
   "monatlich": 361.73,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "is-996992065288": {
   "id": "is-996992065288",
@@ -226735,7 +227953,8 @@
   "stockwerk": "0",
   "lage_radius": 263,
   "monatlich": 797.37,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1439490707": {
   "id": "wh-1439490707",
@@ -227061,7 +228280,13 @@
   "zustand": "Sehr gut/gut",
   "stockwerk": "1",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Virtueller Rundgang",
+    "url": "https://my.matterport.com/show/?m=FTRQ52Etyu2"
+   }
+  ]
  },
  "is-508089069952": {
   "id": "is-508089069952",
@@ -227296,7 +228521,8 @@
   "zustand": "Neuwertig",
   "lage_radius": 270,
   "monatlich": 686.48,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1998454868": {
   "id": "wh-1998454868",
@@ -227364,7 +228590,8 @@
   "zustand": "Erstbezug",
   "lage_radius": 900,
   "monatlich": 767.44,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1608842553": {
   "id": "wh-1608842553",
@@ -227492,7 +228719,8 @@
   },
   "baujahr": "2023",
   "lage_radius": 906,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2109868905": {
   "id": "wh-2109868905",
@@ -227905,7 +229133,8 @@
   "bauart": "Neubau",
   "zustand": "Erstbezug",
   "lage_radius": 912,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1752614386": {
   "id": "wh-1752614386",
@@ -228782,7 +230011,17 @@
   },
   "lage_radius": 259,
   "monatlich": 562.91,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Video",
+    "url": "https://www.youtube.com/watch?v=ybwUQxphAkE"
+   },
+   {
+    "name": "3D Rundgang",
+    "url": "https://kuula.co/share/collection/7Dxt4?logo=-%201&info=0&fs=1&vr=0&zoom=1&gyro=0&initload=0&thumbs=1&margin=23&inst=de"
+   }
+  ]
  },
  "wh-1541557699": {
   "id": "wh-1541557699",
@@ -228837,7 +230076,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "1",
   "lage_radius": 893,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1600887954": {
   "id": "wh-1600887954",
@@ -228933,7 +230173,13 @@
    "fgee_class": null
   },
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Verkaufsplan Top 8",
+    "url": "https://cache.willhaben.at/adpdf/7/137/978/4027_685625400.pdf"
+   }
+  ]
  },
  "wh-944632765": {
   "id": "wh-944632765",
@@ -228996,7 +230242,8 @@
   "bauart": "Altbau",
   "lage_radius": 254,
   "monatlich": 444.32,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1270003624": {
   "id": "wh-1270003624",
@@ -229119,7 +230366,8 @@
   "stockwerk": "-1",
   "lage_radius": 266,
   "monatlich": 472.34,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1253010671": {
   "id": "wh-1253010671",
@@ -229182,7 +230430,8 @@
   "stockwerk": "3",
   "lage_radius": 0,
   "monatlich": 602.72,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1920505874": {
   "id": "wh-1920505874",
@@ -229287,7 +230536,8 @@
   "zustand": "Neuwertig",
   "stockwerk": "2",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2084396888": {
   "id": "wh-2084396888",
@@ -229342,7 +230592,13 @@
   "baujahr": "2000",
   "bauart": "Neubau",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "The view",
+    "url": "https://youtube.com/shorts/81zcUpdTwaA?feature=share"
+   }
+  ]
  },
  "wh-1902497415": {
   "id": "wh-1902497415",
@@ -230178,7 +231434,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "4",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1895892679": {
   "id": "wh-1895892679",
@@ -231026,7 +232283,8 @@
   "bauart": "Neubau",
   "zustand": "Erstbezug",
   "lage_radius": 259,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1069597555": {
   "id": "wh-1069597555",
@@ -231202,7 +232460,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-995791312": {
   "id": "wh-995791312",
@@ -231260,7 +232519,8 @@
   "baujahr": "1900",
   "zustand": "Sehr gut/gut",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1900693222": {
   "id": "wh-1900693222",
@@ -231538,7 +232798,17 @@
   "stockwerk": "4",
   "lage_radius": 0,
   "monatlich": 343.56,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "360° Rundgang",
+    "url": "https://my.matterport.com/show/?m=KhivgTDUao1"
+   },
+   {
+    "name": "Objektvideo",
+    "url": "https://www.youtube.com/watch?v=QnsKywvToYg"
+   }
+  ]
  },
  "wh-933762280": {
   "id": "wh-933762280",
@@ -232019,7 +233289,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "5",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1584869194": {
   "id": "wh-1584869194",
@@ -232834,7 +234105,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 230.18,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1866597051": {
   "id": "wh-1866597051",
@@ -233587,7 +234859,8 @@
   "stockwerk": "1",
   "lage_radius": 262,
   "monatlich": 446.2,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1121136771": {
   "id": "wh-1121136771",
@@ -233935,7 +235208,8 @@
   "stockwerk": "2",
   "lage_radius": 0,
   "monatlich": 242.0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-2006176896": {
   "id": "wh-2006176896",
@@ -234767,7 +236041,8 @@
   "zustand": "Erstbezug",
   "stockwerk": "3",
   "lage_radius": 0,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1234858638": {
   "id": "wh-1234858638",
@@ -234887,7 +236162,25 @@
   "zustand": "Neuwertig",
   "lage_radius": 262,
   "monatlich": 441.9,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": [
+   {
+    "name": "Plan_top 24 (beide Ebenen)",
+    "url": "https://storage.justimmo.at/file/3Bnr5TRGBGhODjARjXYikE.pdf"
+   },
+   {
+    "name": "360° Tour_18220",
+    "url": "https://storage.justimmo.at/file/a2gqcDTFBXEkea7IrtTrg.pdf"
+   },
+   {
+    "name": "360° Tour_18220",
+    "url": "https://360.kalandra.at/view/portal/id/VZY7Z"
+   },
+   {
+    "name": "Video",
+    "url": "https://www.instagram.com/reel/C8_ZYiJtPd5/?igsh=MTFwMTJqMjJ1ZXhkZA=="
+   }
+  ]
  },
  "wh-1933416427": {
   "id": "wh-1933416427",
@@ -234946,7 +236239,8 @@
   "stockwerk": "2",
   "lage_radius": 256,
   "monatlich": 323.26,
-  "detail_am": "2026-11-01"
+  "detail_am": "2026-11-01",
+  "dokumente": []
  },
  "wh-1145266982": {
   "id": "wh-1145266982",
