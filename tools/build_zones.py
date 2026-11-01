@@ -120,10 +120,13 @@ ZONES = [
     # (Saad: max. 10 min zu Fuß; Polygon aus tools/fussweg_zone.py)
     {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
+    # streng (auch ungefähre Lagen raus) und nicht auf der Karte gezeichnet: beides Saads Wunsch 2026-11-01
     {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel Nord (zu weit zur U-Bahn)",
-     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau"},
+     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau",
+     "streng": True, "verstecken": True},
     {"id": "loewengasse_rot", "rolle": "ausgeschlossen", "name": "Löwengasse/Hundertwasserhaus (zu weit zur U-Bahn)",
-     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau"},
+     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau",
+     "streng": True, "verstecken": True},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
     # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum

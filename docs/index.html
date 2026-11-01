@@ -543,8 +543,8 @@ async function ladeGebiete() {
     style: f => [8, 9, 18, 19].includes(f.properties.bezirk)
       ? { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillColor: '#3b5bdb', fillOpacity: .05 }
       : { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillOpacity: 0 } }).addTo(map);
-  // nur die rote Zone zeichnen; die blauen Zonen (1./2./3. Bezirk) wirken nur im Filter
-  if (!NUR_NEST) L.geoJSON(zonen, { pane: 'gebiete', filter: f => f.properties.rolle !== 'erlaubt',
+  // nur die roten Zonen zeichnen; die blauen Zonen (1./2./3. Bezirk) und die roten im 3. wirken nur im Filter
+  if (!NUR_NEST) L.geoJSON(zonen, { pane: 'gebiete', filter: f => f.properties.rolle !== 'erlaubt' && !f.properties.verstecken,
     style: { color: '#d24b3e', weight: 2, fillOpacity: .15 },
     onEachFeature: (f, l) => l.bindTooltip(f.properties.name, { sticky: true }) }).addTo(map);
   if (oeffis) {

@@ -884,7 +884,9 @@
     "name": "Weißgerberviertel Nord (zu weit zur U-Bahn)",
     "nur_in_bezirk": 3,
     "puffer_m": 0,
-    "zuschneiden": "genau"
+    "zuschneiden": "genau",
+    "streng": true,
+    "verstecken": true
    },
    "geometry": {
     "type": "Polygon",
@@ -1022,7 +1024,9 @@
     "name": "Löwengasse/Hundertwasserhaus (zu weit zur U-Bahn)",
     "nur_in_bezirk": 3,
     "puffer_m": 0,
-    "zuschneiden": "genau"
+    "zuschneiden": "genau",
+    "streng": true,
+    "verstecken": true
    },
    "geometry": {
     "type": "Polygon",

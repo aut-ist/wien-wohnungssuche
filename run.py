@@ -292,7 +292,9 @@ def rot_vielleicht_draussen(lat, lon, radius):
     """Bei unsicherer Lage gilt die rote Zone (Ausschluss) nur, wenn der ganze Umkreis darin liegt –
     im Zweifel bleibt die Wohnung (Wunsch). Die blauen Zonen gelten dagegen streng."""
     (_, txt, _), anteil = geo.pruefe_umkreis(lat, lon, radius)
-    return txt.startswith("rote Zone") and anteil > 0
+    # die roten Zonen im 3. gelten streng wie die blauen (Saad 2026-11-01: dort war noch eine ungefähre drin)
+    streng = {f"rote Zone: {z['properties']['name']}" for z in geo.ZONEN if z["properties"].get("streng")}
+    return txt.startswith("rote Zone") and txt not in streng and anteil > 0
 
 
 def bewerten(r, rev):
