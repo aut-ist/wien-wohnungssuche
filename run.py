@@ -213,8 +213,10 @@ def scrape(nur=None):
         sys.exit(2)
 
     # Portale, die in keinem Bezirk antworteten (kurzer Ausfall), nach einer Pause noch einmal
+    # (nicht, wenn der Host für heute gesperrt ist: derStandard blockt GitHub, die Pause bringt nichts)
     ausfall = [m for m in quellen
-               if all(any(f.startswith(f"{m.QUELLE} {plz}:") for f in fehler) for plz in ALLE_PLZ)]
+               if all(any(f.startswith(f"{m.QUELLE} {plz}:") for f in fehler) for plz in ALLE_PLZ)
+               and not any("heute gesperrt" in f for f in fehler if f.startswith(f"{m.QUELLE} "))]
     if ausfall:
         log("komplett ausgefallen, neuer Versuch in 3 Minuten: " + ", ".join(m.QUELLE for m in ausfall))
         time.sleep(180)

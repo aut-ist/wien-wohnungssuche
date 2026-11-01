@@ -52,6 +52,13 @@ def main():
                 dom: document.getElementsByTagName('*').length,
                 heap_mb: performance.memory ? Math.round(performance.memory.usedJSHeapSize / 1e6) : null })"""
             werte.update(page.evaluate(messen))
+            if not werte["karten"]:
+                # "Neue Nestle" ist leer, wenn das Paar alles einsortiert hat (2026-11-01 Fehlalarm):
+                # dann muss wenigstens das Nest Karten zeigen
+                page.evaluate("() => document.querySelector('.tab[data-tab=gemerkt]')?.click()")
+                page.wait_for_timeout(1500)
+                werte["karten_nest"] = page.evaluate("() => document.querySelectorAll('.karte').length")
+                page.evaluate("() => document.querySelector('.tab[data-tab=alle]')?.click()")
             # wie beim Durchscrollen: ein paar Mal "weitere laden", dann nochmal messen
             for _ in range(3):
                 if not page.evaluate("() => { const m = document.querySelector('.mehr-laden'); if (m) m.click(); return !!m; }"):
@@ -68,8 +75,8 @@ def main():
     probleme += fehler[:5]
     if werte.get("eier", 0) < 20:
         probleme.append(f"nur {werte.get('eier', 0)} Eier auf der Karte")
-    if not werte.get("karten"):
-        probleme.append("keine Wohnungen in der Liste")
+    if not werte.get("karten") and not werte.get("karten_nest"):
+        probleme.append("keine Wohnungen in der Liste (auch nicht im Nest)")
     for k, grenze in GRENZEN.items():
         for kk in (k, f"{k}_gescrollt"):
             if werte.get(kk) is not None and werte[kk] > grenze:
