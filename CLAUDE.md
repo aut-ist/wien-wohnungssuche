@@ -69,6 +69,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (Schwarzenbergplatz bis St. Marx), im Osten Saads Handlinie vom Donaukanal beim Kunst Haus Wien über
   U3 Kardinal-Nagl-Platz zum Rennweg (Weißgerberlände und Erdberg sind draußen). 1030 wird auf allen
   Portalen gescrapt; Inserate nur mit "3. Bezirk" sind grau mit Lage-Frage wie im 1./2.
+  Seit 2026-11-01 abends zusätzlich nur, was zu Fuß höchstens 700 m von U Landstraße oder U Rochusgasse
+  liegt (Saad: max. 10 min; tools/fussweg_zone.py, OSM-Fußweg-Routing -> geo/fussweg_landstrasse.geojson,
+  build_zones schneidet die Zone damit), dazu zwei rote Zonen nach Saads Kritzeleien (Weißgerberviertel Nord,
+  Löwengasse/Hundertwasserhaus).
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
   und die blauen Zonen im 2. und 3. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet

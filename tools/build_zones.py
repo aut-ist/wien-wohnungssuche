@@ -26,6 +26,11 @@ VOTIVKIRCHE = (48.215414, 16.359140)
 GAUSSPLATZ = (48.226238, 16.369830)
 BURGTHEATER = (48.210337, 16.361477)
 ANKERUHR = (48.210761, 16.373675)
+KUNSTHAUS = (48.211134, 16.393276)        # Untere Weißgerberstraße 13
+FAELSCHERMUSEUM = (48.207738, 16.393268)  # Löwengasse 28
+PACKHAUS = (48.206635, 16.390504)         # Marxergasse 24
+ZARTL = (48.205551, 16.394758)            # Café Zartl, Rasumofskygasse 7
+GASTHAUS_WILD = (48.210622, 16.389834)    # Radetzkyplatz 1
 SCREENSHOTS = {
     "leopoldstadt": {
         "refs": [((423, 204), FRIEDENSBRUECKE), ((530, 521), ROSSAUER_LAENDE),
@@ -40,6 +45,23 @@ SCREENSHOTS = {
                  (835, 960), (815, 920), (800, 880), (785, 840), (765, 800), (745, 775),
                  (720, 740), (700, 705), (670, 680), (655, 665), (660, 640), (645, 620),
                  (635, 595), (640, 565), (660, 535), (690, 510), (715, 480), (760, 460)],
+    },
+    # Saads Kritzeleien vom 2026-11-01 (Satellitenbild, "da oben auf jeden Fall nicht"): das Weißgerberviertel
+    # vom Donaukanal bis etwa Lorbeergasse/Hetzgasse und die Löwengasse um Hetzgasse/Kegelgasse
+    "weissgerber_rot": {
+        "gedreht": True,
+        "refs": [((848, 268), KUNSTHAUS), ((828, 669), FAELSCHERMUSEUM), ((621, 820), PACKHAUS), ((970, 945), ZARTL)],
+        "line": [(340, 80), (560, 85), (760, 100), (870, 160), (890, 230), (850, 280), (900, 330), (890, 380),
+                 (1040, 395), (1085, 450), (1000, 470), (990, 515), (940, 560), (940, 600), (900, 625), (860, 590),
+                 (830, 500), (700, 495), (600, 500), (470, 500), (450, 480), (380, 450), (320, 400), (250, 350),
+                 (250, 310), (240, 250), (195, 160), (260, 120)],
+    },
+    "loewengasse_rot": {
+        "gedreht": True,
+        "refs": [((787, 10), KUNSTHAUS), ((764, 578), FAELSCHERMUSEUM), ((467, 792), PACKHAUS), ((962, 970), ZARTL),
+                 ((393, 100), GASTHAUS_WILD)],
+        "line": [(610, 380), (780, 370), (880, 400), (1020, 405), (1060, 580), (1000, 700), (900, 720), (870, 740),
+                 (800, 800), (760, 780), (760, 690), (790, 640), (790, 560), (720, 480), (640, 420)],
     },
     "innere_stadt": {
         "refs": [((829, 182), SCHOTTENRING), ((152, 290), VOTIVKIRCHE),
@@ -94,8 +116,14 @@ ZONES = [
      "puffer_m": 50},
     {"id": "innere_stadt", "rolle": "erlaubt", "name": "Börse / Schottenviertel",
      "puffer_m": 50},
-    {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: Wienfluss bis Rennweg",
-     "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau"},
+    # seit 2026-11-01 abends zusätzlich nur, was zu Fuß höchstens 700 m von U Landstraße oder U Rochusgasse liegt
+    # (Saad: max. 10 min zu Fuß; Polygon aus tools/fussweg_zone.py)
+    {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+     "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
+    {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel Nord (zu weit zur U-Bahn)",
+     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau"},
+    {"id": "loewengasse_rot", "rolle": "ausgeschlossen", "name": "Löwengasse/Hundertwasserhaus (zu weit zur U-Bahn)",
+     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau"},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
     # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum
@@ -202,6 +230,13 @@ def main():
             to_geo = (fit_gedreht if shot.get("gedreht") else fit)(shot["refs"])
             ring = [to_geo(x, y) for x, y in shot["line"]]
         ring = [[round(lon, 6), round(lat, 6)] for lat, lon in ring]
+        if z.get("fussweg") and (ROOT / "geo" / z["fussweg"]).exists():
+            from shapely.geometry import Polygon
+            fw = json.loads((ROOT / "geo" / z["fussweg"]).read_text(encoding="utf-8"))["features"][0]
+            teil = Polygon(ring).intersection(Polygon(fw["geometry"]["coordinates"][0]))
+            if teil.geom_type != "Polygon":
+                teil = max(teil.geoms, key=lambda g: g.area)
+            ring = [[round(x, 6), round(y, 6)] for x, y in teil.exterior.coords[:-1]]
         if z.get("zuschneiden") == "genau":
             ring = genau_zuschneiden(ring, z["nur_in_bezirk"])
         elif z.get("nur_in_bezirk") and z.get("zuschneiden", True):

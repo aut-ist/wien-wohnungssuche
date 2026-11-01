@@ -37,6 +37,9 @@ GTFS_TYPEN = {"0": "tram", "1": "ubahn", "3": "bus"}
 SONDER = re.compile(r"Baustelle|ESC|Fahrplan (am|vom)|Night-Run|Radrundfahrt|Festwochen|VCM", re.I)
 NUR_SELTEN = 0.05     # Linienwege mit weniger als 5 % der Fahrten der häufigsten (Einschübe, Depotfahrten) weg
 GLEICH_M = 20         # so nah an einem schon gezeichneten Stück derselben Linie: Gegenrichtung, nicht doppelt
+# U-Bahn-Richtungen liegen in getrennten Tunnelröhren teils weiter auseinander (U2 Schottenring–Taborstraße
+# war am 2026-11-01 doppelt zu sehen): dort erst ab 120 m Abstand als eigener Weg zeichnen
+GLEICH_M_UBAHN = 120
 GEBIETE = ([f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (8, 9, 18, 19)]
            + [f for f in geo.ZONEN if f["properties"]["id"] in ("leopoldstadt", "landstrasse")])
 RAND_M = 120          # damit die Linien bis zu den Stationen am Rand (Gürtel) reichen
@@ -154,7 +157,18 @@ def _gtfs_linien(box):
     return linien
 
 
-def _ohne_doppelte(stuecke_je_weg):
+def _luecken_schliessen(teile, max_m):
+    """Hängt ein Stück an das vorige, wenn es höchstens max_m nach dessen Ende beginnt (eine Richtung)."""
+    out = []
+    for t in teile:
+        if out and _laenge_m(out[-1][-1], t[0]) <= max_m:
+            out[-1] = list(out[-1]) + list(t)
+        else:
+            out.append(list(t))
+    return out
+
+
+def _ohne_doppelte(stuecke_je_weg, gleich_m=GLEICH_M):
     """Gegenrichtung und Varianten derselben Linie nur dort zeichnen, wo sie woanders fahren."""
     from shapely.geometry import LineString, MultiLineString, Point
     gezeichnet, raus = [], []
@@ -163,7 +177,7 @@ def _ohne_doppelte(stuecke_je_weg):
         for teil in stuecke:
             neu, lauf = [], []
             for i, p in enumerate(teil):
-                weit = schon is None or schon.distance(Point(p)) * geo.K_LAT > GLEICH_M
+                weit = schon is None or schon.distance(Point(p)) * geo.K_LAT > gleich_m
                 if weit:
                     if not lauf and i > 0:
                         lauf.append(teil[i - 1])  # an das schon gezeichnete Stück anschließen
@@ -175,7 +189,7 @@ def _ohne_doppelte(stuecke_je_weg):
             if lauf:
                 neu.append(lauf)
             for n in neu:
-                if len(n) >= 2 and sum(_laenge_m(n[i], n[i + 1]) for i in range(len(n) - 1)) > GLEICH_M:
+                if len(n) >= 2 and sum(_laenge_m(n[i], n[i + 1]) for i in range(len(n) - 1)) > gleich_m:
                     raus.append(n)
         gezeichnet += [LineString(t) for t in stuecke]
     return raus
@@ -208,7 +222,10 @@ def main():
                       key=lambda k: (REIHENFOLGE[k[0]], len(k[1]), k[1]))
     for typ, linie in relevant:
         e = gtfs[(typ, linie)]
-        for teil in _ohne_doppelte(e["stuecke"]):
+        teile = _ohne_doppelte(e["stuecke"], GLEICH_M_UBAHN if typ == "ubahn" else GLEICH_M)
+        if typ == "ubahn":  # Stücke, die nur am Gebietsrand kurz unterbrochen sind, wieder verbinden
+            teile = _luecken_schliessen(teile, 250)
+        for teil in teile:
             props = {"typ": typ, "linien": linie}
             if typ == "ubahn":
                 props["farbe"] = e["farbe"]
