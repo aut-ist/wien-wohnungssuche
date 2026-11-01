@@ -20,6 +20,7 @@ BASE = "https://www.immobilienscout24.at"
 SLUGS = {
     1010: "1-bezirk-innere-stadt",
     1020: "2-bezirk-leopoldstadt",
+    1030: "3-bezirk-landstrasse",
     1080: "8-bezirk-josefstadt",
     1090: "9-bezirk-alsergrund",
     1180: "18-bezirk-waehring",

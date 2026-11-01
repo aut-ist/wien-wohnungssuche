@@ -4,7 +4,7 @@ Privates Tool: täglich Eigentumswohnungen scrapen, nach Lage und Heizung filter
 und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 
 - `python run.py all` scrapt und baut die Karte. `python run.py build` baut nur.
-- Kriterien: `config.json` (Preis, m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
+- Kriterien: `config.json` (Preis bis 1.150.000 € seit 2026-11-01, vorher 1 Mio; m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig oder teilsaniert (`wohnungen/zustand.py`), befristet vermietet über Ende September 2027 hinaus
   (`miete_bis` liest das Enddatum). Seit 2026-10-28 außerdem: genau 3 Zimmer nur bis 700.000 €
@@ -64,8 +64,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Hohe-Warte-Schleife – Bahnhof Heiligenstadt. Punkte der Straßenbahn aus geo/oeffis.geojson, Ost-
   und Südrand ist die Bezirksgrenze (`zuschneiden: "genau"` in tools/build_zones.py, braucht shapely);
   es gilt dieselbe Im-Zweifel-drin-Regel.
+- Seit 2026-11-01 kommt auch ein Teil des 3. Bezirks in Frage (blaue Zone `landstrasse`, gilt streng wie
+  die im 1./2.): Wienfluss bis Donaukanal (Bezirksgrenze, genau zugeschnitten), im Süden der Rennweg
+  (Schwarzenbergplatz bis St. Marx), im Osten Saads Handlinie vom Donaukanal beim Kunst Haus Wien über
+  U3 Kardinal-Nagl-Platz zum Rennweg (Weißgerberlände und Erdberg sind draußen). 1030 wird auf allen
+  Portalen gescrapt; Inserate nur mit "3. Bezirk" sind grau mit Lage-Frage wie im 1./2.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
-  und die blaue Zone im 2. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
+  und die blauen Zonen im 2. und 3. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet
   (13A, Linie 2) und liefert nur noch S-Bahn-Strecken und U-/S-Stationen. Die U5 (in Bau, bis
   Frankhplatz ab 2030, bis Hernals Mitte 2030er) ist auf Wunsch eingezeichnet, als gäbe es sie schon

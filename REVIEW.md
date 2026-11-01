@@ -22,10 +22,14 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
   bis Nestroyplatz). Nichts Richtung Volkertviertel, Praterstern oder Stuwerviertel.
 - 1. Bezirk nur der Nordwesten: Börse, Schottenring, Freyung, Salzgries, Morzinplatz bis
   Hoher Markt und Herrengasse. Nicht das Zentrum um Stephansplatz und Graben.
+- 3. Bezirk (seit 2026-11-01) nur der Norden: zwischen Wienfluss (Stadtpark, Wien Mitte) und
+  Donaukanal, im Süden bis zum Rennweg (Schwarzenbergplatz bis St. Marx), im Osten bis etwa
+  Kunst Haus Wien, Hundertwasserhaus und U3 Kardinal-Nagl-Platz. Nicht Weißgerberlände, Erdberg,
+  Arsenal oder südlich vom Rennweg.
 - Ob ein Punkt drin ist, rechnet `run.py` selbst. Du lieferst nur die beste Adresse.
 
 ## Frage `lage`
-Im 1., 2. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. passt sie
+Im 1., 2., 3. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. passt sie
 sowieso; dort wird die Adresse für die Öffi-Zeit zum Gürtel gebraucht. Achte deshalb auch auf
 Projektnamen mit Adresse ("M86" = Martinstraße 86), Hausnamen und Straßen in Grundriss-Texten.
 

@@ -1364,5 +1364,366 @@
  "obkirchergasse 33, 1190 wien": [
   48.24447,
   16.342022
+ ],
+ "kegelgasse, 1030 wien": [
+  48.207393,
+  16.392726
+ ],
+ "markhofgasse, 1030 wien": [
+  48.192896,
+  16.409218
+ ],
+ "löwenherzgasse 11/32, 1030 wien": [
+  48.199944,
+  16.399586
+ ],
+ "/5, 1030 wien": [
+  48.207828,
+  16.386406
+ ],
+ "hainburger straße 47/6+7, 1030 wien": null,
+ "dianagasse, 1030 wien": [
+  48.210503,
+  16.391406
+ ],
+ "/7, 1030 wien": [
+  48.182061,
+  16.38759
+ ],
+ "keinergasse 31/24, 1030 wien": [
+  48.198398,
+  16.399235
+ ],
+ "keinergasse, 1030 wien": [
+  48.198398,
+  16.399235
+ ],
+ "hörnesgasse 15/32, 1030 wien": [
+  48.203154,
+  16.397105
+ ],
+ "untere viaduktgasse 15/rdb, 1030 wien": null,
+ "landstraßer hauptstraße/22, 1030 wien": [
+  48.204257,
+  16.38823
+ ],
+ "landstraßer hauptstraße 144/22, 1030 wien": [
+  48.191988,
+  16.399552
+ ],
+ "löwenherzgasse 11/35, 1030 wien": [
+  48.199944,
+  16.399586
+ ],
+ "löwenherzgasse 11/25, 1030 wien": [
+  48.199944,
+  16.399586
+ ],
+ "hetzgasse 3a/18, 1030 wien": [
+  48.208471,
+  16.390825
+ ],
+ "hilde-güden-promenade 11/1, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "otto-preminger-straße, 1030 wien": [
+  48.188908,
+  16.396601
+ ],
+ "wassergasse/6, 1030 wien": [
+  48.202793,
+  16.397019
+ ],
+ "landstraßer hauptstraße/18, 1030 wien": [
+  48.204447,
+  16.387802
+ ],
+ "landstraßer hauptstraße 144/18, 1030 wien": [
+  48.202157,
+  16.391047
+ ],
+ "hilde-güden-promenade 11/21, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "otto-preminger-straße 18/11, 1030 wien": [
+  48.188137,
+  16.398484
+ ],
+ "hilde-güden-promenade 11/11, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "hilde-güden-promenade 9/23, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "untere weißgerberstraße, 1030 wien": [
+  48.210482,
+  16.393601
+ ],
+ "neulinggasse 27/2u, 1030 wien": null,
+ "hainburger straße 47/5+6+7, 1030 wien": null,
+ "hilde-güden-promenade 11/2, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "neulinggasse 27/14u, 1030 wien": null,
+ "hilde-güden-promenade 11/19, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "hilde-güden-promenade 11/29, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "hilde-güden-promenade 11/31, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "hilde-güden-promenade, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "hilde-güden-promenade 9/5, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "otto-preminger-straße 18/5, 1030 wien": [
+  48.188137,
+  16.398484
+ ],
+ "neulinggasse, 1030 wien": [
+  48.199513,
+  16.393748
+ ],
+ "neulinggasse 27/17u, 1030 wien": null,
+ "hilde-güden-promenade 11/40, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "otto-preminger-straße 18/46, 1030 wien": [
+  48.18801,
+  16.398797
+ ],
+ "hilde-güden-promenade 9/29, 1030 wien": [
+  48.188482,
+  16.394945
+ ],
+ "hilde-güden-promenade 9/38, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "neulinggasse 27/8u, 1030 wien": null,
+ "neulinggasse 27/7u, 1030 wien": null,
+ "otto-preminger-straße 18/39, 1030 wien": [
+  48.18801,
+  16.398797
+ ],
+ "hilde-güden-promenade 9/48, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "otto-preminger-straße 18/48, 1030 wien": [
+  48.18801,
+  16.398797
+ ],
+ "otto-preminger-straße 18/44, 1030 wien": [
+  48.18801,
+  16.398797
+ ],
+ "neulinggasse 27/2, 1030 wien": [
+  48.19944,
+  16.393532
+ ],
+ "neulinggasse 27/12u, 1030 wien": null,
+ "semperstraße/8, 1180 wien": [
+  48.224208,
+  16.348033
+ ],
+ "/16, 1020 wien": [
+  48.18288,
+  16.38723
+ ],
+ "obere donaustraße 23/72, 1020 wien": [
+  48.219179,
+  16.371222
+ ],
+ "obere donaustraße 23/74, 1020 wien": [
+  48.219179,
+  16.371222
+ ],
+ "obere donaustraße 23/87, 1020 wien": [
+  48.219179,
+  16.371222
+ ],
+ "meiereistraße, 1020 wien": [
+  48.211114,
+  16.421559
+ ],
+ "obere donaustraße 23/85, 1020 wien": [
+  48.219179,
+  16.371222
+ ],
+ "löwenherzgasse 11/28-32, 1030 wien": null,
+ "neulinggasse 27/16u, 1030 wien": null,
+ "neulinggasse 27/14, 1030 wien": [
+  48.199052,
+  16.381565
+ ],
+ "nordbergstraße/92, 1090 wien": [
+  48.23047,
+  16.361334
+ ],
+ "mariannengasse, 1090 wien": [
+  48.216039,
+  16.348917
+ ],
+ "schulz-straßnitzki-gasse, 1090 wien": [
+  48.224646,
+  16.366261
+ ],
+ "ausstellungsstraße 29, 1020 wien": [
+  48.218297,
+  16.401957
+ ],
+ "singerstraße 27, 1030 wien": [
+  48.206325,
+  16.376544
+ ],
+ "hauptstraße 144, 1030 wien": [
+  48.183582,
+  16.424834
+ ],
+ "fleischmarkt 1, 1030 wien": [
+  48.210942,
+  16.375833
+ ],
+ "schottenring 16, 1030 wien": [
+  48.215192,
+  16.366142
+ ],
+ "neulinggasse 27, 1030 wien": [
+  48.199026,
+  16.385539
+ ],
+ "löwenherzgasse 11, 1030 wien": [
+  48.199949,
+  16.399766
+ ],
+ "fernbahnhof 0, 1030 wien": null,
+ "stadtpark, 1030 wien": [
+  48.202886,
+  16.379724
+ ],
+ "rennweg 700m, 1030 wien": [
+  48.188474,
+  16.400062
+ ],
+ "erdbergstraße 172, 1030 wien": [
+  48.202706,
+  16.392458
+ ],
+ "spittelbreitengasse 46, 1030 wien": [
+  48.176507,
+  16.321059
+ ],
+ "schwenkgasse 31, 1030 wien": [
+  48.176726,
+  16.320639
+ ],
+ "hauptstraße 74, 1030 wien": [
+  48.183582,
+  16.424834
+ ],
+ "kirchengasse 19, 1030 wien": [
+  48.201668,
+  16.35183
+ ],
+ "schweizergarten, belvedere, hauptbahnhof, 1030 wien": null,
+ "schweizergarten, 1030 wien": [
+  48.187632,
+  16.387944
+ ],
+ "wallensteinstraße 28, 1030 wien": [
+  48.229404,
+  16.370408
+ ],
+ "beatrixgasse, 1030 wien": [
+  48.20157,
+  16.380472
+ ],
+ "nahe belvedere, 1030 wien": null,
+ "erdbergstraße 148, 1030 wien": [
+  48.196008,
+  16.406876
+ ],
+ "rabengasse, 1030 wien": [
+  48.194882,
+  16.398378
+ ],
+ "belvedere, 1030 wien": [
+  48.185797,
+  16.383849
+ ],
+ "fasanviertel, schweizergarten, schloss belvedere, 1030 wien": null,
+ "fasanviertel, 1030 wien": [
+  48.191718,
+  16.387891
+ ],
+ "nähe u3 erdberg & gasometer ?? • wenige minuten zur arena wien ?? landstrasse, 1030 wien": null,
+ "schnirchgasse 9/7, 1030 wien": [
+  48.195401,
+  16.409502
+ ],
+ "klopsteinplatz, 1030 wien": [
+  48.194507,
+  16.399369
+ ],
+ "paulusgasse 5/66+72, 1030 wien": null,
+ "paulusgasse 5, 1030 wien": [
+  48.193532,
+  16.401055
+ ],
+ "wällischgasse 3, 1030 wien": [
+  48.195911,
+  16.408265
+ ],
+ "handelskai 94, 1190 wien": [
+  48.240719,
+  16.384985
+ ],
+ "hafenstraße 104, 1190 wien": [
+  48.286511,
+  16.34575
+ ],
+ "billrothstraße 73, 1190 wien": [
+  48.242769,
+  16.345327
+ ],
+ "ungargasse 18, 1030 wien": [
+  48.202706,
+  16.38668
+ ],
+ "viaduktgasse 15, 1030 wien": [
+  48.210774,
+  16.390881
+ ],
+ "landstraßer hauptstraße, 1030 wien": [
+  48.202157,
+  16.391047
+ ],
+ "apostelgasse, 1030 wien": [
+  48.199932,
+  16.397541
+ ],
+ "mohsgasse 9, 1030 wien": [
+  48.189926,
+  16.386248
+ ],
+ "leystraße, 1020 wien": [
+  48.22724,
+  16.395506
  ]
 }

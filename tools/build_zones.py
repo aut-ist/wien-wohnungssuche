@@ -75,6 +75,18 @@ GEO_ZONEN = {
                           (48.25104, 16.35505), (48.25123, 16.35528), (48.2526, 16.35564), (48.25267, 16.3558),
                           (48.25274, 16.3572), (48.2512, 16.36483), (48.2512, 16.3900), (48.2250, 16.3900),
                           (48.2250, 16.35015)],
+    # Landstraße (Saads Screenshot vom 2026-11-01): West = Wienfluss, Nord = Donaukanal (beides
+    # Bezirksgrenze, daher hier großzügig nach außen und genau auf den 3. zugeschnitten), Süd = Rennweg
+    # von St. Marx bis Schwarzenbergplatz (OSM), Ost = Saads Handlinie vom Donaukanal beim Kunst Haus
+    # Wien über U3 Kardinal-Nagl-Platz zum Rennweg (Screenshot mit 9 Referenzpunkten entzerrt, ±60 m).
+    "landstrasse": [(48.2160, 16.3940), (48.21097, 16.39418), (48.21016, 16.39479), (48.2088, 16.3952),
+                    (48.20744, 16.39561), (48.20607, 16.39622), (48.20499, 16.39684), (48.2039, 16.39765),
+                    (48.20281, 16.39868), (48.20226, 16.39929), (48.2009, 16.3997), (48.19927, 16.40031),
+                    (48.19764, 16.40092), (48.19682, 16.40154), (48.19491, 16.40154), (48.19328, 16.40133),
+                    (48.19219, 16.40092), (48.19138, 16.40031), (48.19056, 16.39929), (48.18947, 16.39888),
+                    (48.19072, 16.39696), (48.19174, 16.39524), (48.19276, 16.39294), (48.19369, 16.39023),
+                    (48.19442, 16.3866), (48.19493, 16.38526), (48.19573, 16.38326), (48.19698, 16.38041),
+                    (48.19788, 16.37812), (48.2000, 16.3740), (48.2160, 16.3700)],
 }
 
 ZONES = [
@@ -82,6 +94,8 @@ ZONES = [
      "puffer_m": 50},
     {"id": "innere_stadt", "rolle": "erlaubt", "name": "Börse / Schottenviertel",
      "puffer_m": 50},
+    {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: Wienfluss bis Rennweg",
+     "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau"},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
     # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum

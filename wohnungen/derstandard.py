@@ -13,6 +13,7 @@ BASE = "https://immobilien.derstandard.at"
 SLUGS = {
     1010: "wien-innere-stadt",
     1020: "wien-leopoldstadt",
+    1030: "wien-landstrasse",
     1080: "wien-josefstadt",
     1090: "wien-alsergrund",
     1180: "wien-waehring",

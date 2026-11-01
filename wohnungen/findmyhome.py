@@ -20,7 +20,7 @@ PREFIX = "fm"
 
 BASE = "https://www.findmyhome.at"
 # Bezirkswerte des Suchformulars (bezirk[]), PLZ -> Wert
-BEZIRK = {1010: 100, 1020: 101, 1080: 107, 1090: 108, 1180: 117, 1190: 118}
+BEZIRK = {1010: 100, 1020: 101, 1030: 102, 1080: 107, 1090: 108, 1180: 117, 1190: 118}
 GEOCODE = True  # Straße (ohne Hausnummer) über Nominatim -> Koordinaten (lage = "strasse")
 
 

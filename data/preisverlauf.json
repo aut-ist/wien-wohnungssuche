@@ -3055,7 +3055,7 @@
      "url": "https://www.findmyhome.at/5755348",
      "preis": 899000.0,
      "id": "fm-5755348",
-     "zuletzt": "2026-10-30"
+     "zuletzt": "2026-11-01"
     },
     {
      "quelle": "ImmoScout24",
@@ -3845,74 +3845,246 @@
  },
  "fm-5736189": {
   "ids": [
-   "fm-5736189"
+   "ds-14430523",
+   "fm-5260948",
+   "fm-5736189",
+   "is-089972250661",
+   "is-419074842160",
+   "is-682586754921",
+   "is-698136774572",
+   "wh-1489629937"
   ],
-  "verlauf": [],
-  "online_seit": "2026-10-25",
+  "verlauf": [
+   [
+    "2026-11-01",
+    1090000.0,
+    "ImmoScout24"
+   ],
+   [
+    "2026-11-01",
+    1100000.0,
+    "FindMyHome"
+   ],
+   [
+    "2026-11-01",
+    1100000,
+    "ImmoScout24"
+   ],
+   [
+    "2026-11-01",
+    1100000.0,
+    "derStandard"
+   ],
+   [
+    "2026-11-01",
+    1100000.0,
+    "willhaben"
+   ]
+  ],
+  "online_seit": "2026-10-10",
   "stand": {
-   "id": "fm-5736189",
+   "id": "wh-1489629937",
    "ids": [
+    "wh-1489629937",
+    "is-089972250661",
+    "is-682586754921",
+    "is-698136774572",
+    "is-419074842160",
+    "ds-14430523",
+    "fm-5260948",
     "fm-5736189"
    ],
    "links": [
+    {
+     "quelle": "willhaben",
+     "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/dachterrassenwohnung-mit-weitblick-ueber-wien-pkw-tiefgarage-parkausrichtung-2-terrassen-28-6m-2-gehminuten-zur-u6-9-min-in-den-1-bezirk-1489629937/",
+     "preis": 1100000.0,
+     "id": "wh-1489629937",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "FindMyHome",
+     "url": "https://www.findmyhome.at/5260948",
+     "preis": 1100000.0,
+     "id": "fm-5260948",
+     "zuletzt": "2026-11-01"
+    },
     {
      "quelle": "FindMyHome",
      "url": "https://www.findmyhome.at/5736189",
      "preis": null,
      "id": "fm-5736189",
      "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6a5e4737418d19ff95faef5b",
+     "preis": 1090000.0,
+     "id": "is-089972250661",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6ae4f139bb6b770022c01d5c",
+     "preis": 1090000.0,
+     "id": "is-682586754921",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6ae4f139bb6b770022c01d58",
+     "preis": 1090000.0,
+     "id": "is-698136774572",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/674fc1635bb43e01d8873cc0",
+     "preis": 1100000,
+     "id": "is-419074842160",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "derStandard",
+     "url": "https://immobilien.derstandard.at/detail/14430523",
+     "preis": 1100000.0,
+     "id": "ds-14430523",
+     "zuletzt": "2026-11-01"
     }
    ],
-   "quelle": "FindMyHome",
-   "url": "https://www.findmyhome.at/5736189",
-   "titel": "Wohnen über den Dächern Wiens - Exklusive Dachgeschosswohnung ...",
-   "status": "raus",
-   "gruende": [
-    "kein Preis angegeben"
-   ],
+   "quelle": "willhaben",
+   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/dachterrassenwohnung-mit-weitblick-ueber-wien-pkw-tiefgarage-parkausrichtung-2-terrassen-28-6m-2-gehminuten-zur-u6-9-min-in-den-1-bezirk-1489629937/",
+   "titel": "Dachterrassenwohnung mit Weitblick über Wien | PKW-Tiefgarage | Parkausrichtung | 2 Terrassen (28,6m²) | 2 Gehminuten zur U6 | 9 Min. in den 1. Bezirk",
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
-   "lat": 48.223962,
-   "lon": 16.354403,
+   "lat": 48.229517,
+   "lon": 16.352035,
    "ungefaehr": false,
-   "preis": null,
+   "preis": 1100000.0,
    "preis_inserat": null,
    "preis_hinweis": null,
    "flaeche": 125.41,
    "zimmer": 4,
    "plz": 1090,
-   "adresse": null,
-   "lage": null,
-   "heizung": null,
-   "bild": "https://media.findmyhome.at/md1//5736189/s1/",
-   "erstmals": "2026-10-25",
-   "neu": false,
-   "preisverlauf": [],
-   "online_seit": "2026-10-25",
-   "baujahr": "2014",
-   "bauart": null,
-   "stockwerk": null,
-   "monatlich": null,
-   "energie": {
-    "hwb": 48.8,
-    "hwb_class": "B",
-    "fgee": 1.06,
-    "fgee_class": "C"
+   "adresse": "Lustkandlgasse 46",
+   "lage": "9. Bezirk (aus Beschreibung: Lustkandlgasse 46)",
+   "heizung": {
+    "ergebnis": "gas",
+    "von": "automatisch",
+    "text": "Heizung: Fußbodenheizung (willhaben); Heizung: Fussbodenheizung (willhaben); Heizungsart: Gasheizung (willhaben)"
    },
-   "anbieter": "KLASAN & Partner Immobilien GmbH & Co KG",
+   "bild": "https://cache.willhaben.at/mmo/7/148/962/9937_-368645112_n.jpg",
+   "erstmals": "2026-10-25",
+   "neu": true,
+   "preisverlauf": [
+    [
+     "2026-11-01",
+     1090000.0,
+     "ImmoScout24"
+    ],
+    [
+     "2026-11-01",
+     1100000.0,
+     "FindMyHome"
+    ],
+    [
+     "2026-11-01",
+     1100000,
+     "ImmoScout24"
+    ],
+    [
+     "2026-11-01",
+     1100000.0,
+     "derStandard"
+    ],
+    [
+     "2026-11-01",
+     1100000.0,
+     "willhaben"
+    ]
+   ],
+   "online_seit": "2026-10-10",
+   "baujahr": "2014",
+   "bauart": "Neubau",
+   "stockwerk": "1",
+   "monatlich": 446.2,
+   "energie": {
+    "hwb": "102,27",
+    "hwb_class": "D",
+    "fgee": null,
+    "fgee_class": null
+   },
+   "anbieter": "RIWOG Real Estate Management GmbH",
    "bilder": [
-    "https://media.findmyhome.at/md1//5736189/s1/"
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-368645112_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_395894770_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_2078464477_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-1886918323_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-796073238_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_289727199_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-1809195567_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_280288004_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_1095493629_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-1104352372_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-86253460_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_1511713832_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_-671886595_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_880855410_n.jpg",
+    "https://cache.willhaben.at/mmo/7/148/962/9937_843311671_n.jpg",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84Ev-1788421958-91cb18c97b4f4b8f95b7348caeac2537",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84Ev-1793391477-b7d43dcd472049a1823406d27f9e558e",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84Ev-1793391271-22bdeea1add340cc99954b5513db17ca",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567870-16f7bc0626ca4140b352b4c6f4b8bba4",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567800-eb4f3025a24b4fa5b67075cd9f4cde1a",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567792-6783cf45b6d3404889a38d6e2f9c0744",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567806-d268baf2eb9340b88c42eb60b9985d4b",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567820-78f0218ee0b44efdb21044daff954d9d",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567864-88fca10db5c740f3aca165f8a81c8415",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567826-a3fb0f1ae5e94537999c090f273689f1",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567839-41304e66b6734024ba3c56edb98f5d89",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567845-baeb5865eda1411aaf9778a4568cee55",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567832-f380d7d2d16f497d9d26f6e6f7b81905",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567851-cedfc2e995b74c059bee9dedac910583",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567857-cc09e8e72ef6449e9a4c096630159b81",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709567785-b3ac69b283c741008cf565e18dd6f056",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709642997-479d9d333a2143889735f59238a2b461",
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qnj-1709642984-0a2832b3dc6943cdb1e7d55c6c21fef5",
+    "https://ic.ds.at/mzexVg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/7601ce41337b7d86cf0c6924b4a683a4/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/73LbUunEQx5xk3x7bou4Kk20240304.jpg",
+    "https://ic.ds.at/AgSohg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/9e5b82b859731ccd8d63e2d0559ec468/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/6AkRQFfdSQzxv6rNRjzX9Z20240304.jpg",
+    "https://ic.ds.at/Yq9PmQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/758d07ee121dd118569c3aca4503e59d/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/4KqhHYHX7k0zcmt04PGONe20240304.jpg",
+    "https://ic.ds.at/K16Rdw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/c822f0a8755ac2eedfd4a1675d2fbf5c/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/24RFR4JpfotHk8rlb9JkRW20240304.jpg",
+    "https://ic.ds.at/nsPrQw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/33fbf404bce79fb65f89924f6ad06ee8/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/1NyqDtL3HoydSXDqAlfkkz20240304.jpg",
+    "https://ic.ds.at/45hGSw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/453c585b7ee3a1658eade39587f2f949/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/78TYd3i3lEivt0AVW0SNjY20240304.jpg",
+    "https://ic.ds.at/4VblEA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/1f7bc1cbbf77853a1b16a39d7acd45af/Fc_Lbr_M7h8jFmKKanVwYkTXZ4YdCB.jpg_fm_h1080_w1920/3DEWTW2BhkWZh9TyT2Z5r020240304.jpg"
    ],
    "freiflaeche": [
-    "Terrasse"
+    "Terrasse",
+    "Dachterrasse"
    ],
-   "zustand": null,
+   "zustand": "Sehr gut/gut",
    "guertel": null,
    "zuletzt": "2026-11-01"
   },
   "details": {
-   "text": "## Beschreibung\nLuxus-Dachgeschosswohnung mit Galerie und zwei Terrassen in bester Lage des 9. Bezirks\nWillkommen in Ihrem neuen Zuhause einer exquisiten Dachgeschosswohnung im Herzen des 9. Bezirks, die modernes Design, hochwertige Ausstattung und urbane Lebensqualität auf eindrucksvolle Weise vereint. Diese lichtdurchflutete 4-Zimmer-Wohnung bietet auf ca. 125 m² Wohnfläche zuzüglich rund 29 m² Terrassen ein Wohngefühl der Extraklasse. Die Kombination aus stilvoller Architektur, großzügiger Raumhöhe, edlem Parkett und klaren Linien schafft eine Atmosphäre von Ruhe und Eleganz mitten in der Stadt.\nDie Highlights im Überblick:\nGesamtnutzfläche: ca. 154 m² (83,96 m² DG + 41,45 m² Galerie + 28,65 m² Terrassen)\nZwei großzügige Terrassen mit Süd-/Südwest-Ausrichtung ideal für entspannte Stunden im Freien\nModerne Klimaanlage in allen Zimmern für ganzjährig angenehmes Raumklima\nExklusive Küche mit hochwertigen Geräten, stilvoll integriert in den offenen Wohnbereich\nZwei elegante Badezimmer eines mit Dusche, eines mit Badewanne\nDrei separate WCs für maximalen Komfort\nGaleriebereich mit flexiblem Nutzungspotenzial ideal für Homeoffice, Atelier oder Bibliothek\nZugewiesenes Kellerabteil (ca. 3 m²) & Fahrradraum\nMietgarage in unmittelbarer Nähe verfügbar (€ 140/Monat)\nDie Wohnung befindet sich im Dachgeschoss eines charmanten, gepflegten Altbaus und wurde im Zuge einer umfassenden Sanierung technisch wie optisch auf den neuesten Stand gebracht. Historischer Charakter trifft hier auf moderne Raffinesse.\nLage & Umgebung\nDie Wohnlage im Alsergrund gehört zu den gefragtesten Wiens. Nur wenige Schritte trennen Sie von der U6-Station Nußdorfer Straße, zahlreichen Einkaufsmöglichkeiten, ausgezeichneten Restaurants und einer lebendigen Kultur- und Bildungsszene. Gleichzeitig genießen Sie die Ruhe einer gepflegten Seitengasse ein perfekter Rückzugsort mitten im urbanen Leben.\nFazit:\nDiese Dachgeschosswohnung bietet alles, was anspruchsvolle Stadtmenschen suchen: Raum, Stil, Licht, Privatsphäre und das in einer der besten Lagen Wiens. Ein Ort, der nicht nur Wohnraum, sondern Lebensqualität verspricht.Noch nichts gefunden Wir informieren Sie über geeignete Immobilienangebote noch vor allen anderen.\nLegen Sie jetzt Ihren individuellen Suchagenten unter folgendem Link an. Wir schicken Ihnen passende Immobilien exklusiv vorab zu.\nSuchagent anlegen - https://klasan-partner-immobilien-gmbh-co.service.immo/registrieren/de\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.",
+   "text": "## ===== willhaben =====\n## Ausstattung\n- Terrassenanzahl:2\n- Abstellraum Anzahl: 1\n- Bad mit Dusche\n- Boden: Parkettboden\n- Heizung: Fussbodenheizung\n- Heizungsart: Gasheizung\n- Abstellraum\n- Gäste-WC: 1\n\n## Lage\nNussdorferstr. / Währingerpark\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <500m\nPost <500m\nPolizei <1000m\n\n## Beschreibung\nLust zum Leben in der Lustkandlgasse\nDiese spannende Dachterrassenwohnung mit 2 Terrassen und insgesamt fast 30m² Freifläche in einer ruhigen Einbahnstr. überzeugt in jeglicher Hinsicht. Die Ausrichtung beider Terrassen auf den Helene-Deutsch-Park sorgt für ausreichend Ruhe, der spektakuläre Fernblick platziert die markante Wiener Skyline direkt ins Wohnzimmer. Die Aufteilung der 3 Zimmer im Erdgeschoß sowie der großzügigen Galerie im Obergeschoß, welche sich räumlich vielfältig nutzen lässt, sowie die unmittelbare Nähe zur U-Bahn und der Wiener Innenstadt runden das Gesamtpaket ideal ab.\nHIGHLIGHTS:\n- 2 x SÜD/OST-DACHTERRASSEN ca. 28,65m² mit sensationeller Aussicht über die Dächer Wiens \n- ORIENTIERUNG der Terrassen Richtung Helene-Deutsch-Park (Kein direktes Gegenüber)\n- RUHELAGE (Lustkandlgasse Einbahnstraße)\n- PKW-GARAGENPLATZ angemietet (140EUR/Monat) unbefristet\n- FUSSBODENHEIZUNG & KLIMAANLAGE\n- U-BAHN U6 nur ca. 2 Gehminuten entfernt (Nußdorferstr.) sowie Straßenbahn 37 & 38 \n- WÄHRINGERPARK sowie VOLKSOPER in ca. 2 Minuten erreichbar \n- BILLA, BIPA, HOFER (Lebensmitteleinkauf) ca. 200 m entfernt\n- INNENSTADT in ca. 9 Min erreichbar \n- Leben in der LEBENSWERTESTEN Stadt der Welt \nINFOS ZUR WOHNUNG:\n- STOCKWERK: Oberste Dachgeschoße mit Lift (Schlüssellift)\n- BAUJAHR: Dachgeschoß Aufbau 2014\n- BEZIEHBAR: nach Vereinbarung\n- WOHNFLÄCHE: Ca. 125,41 m²\n- TERRASSE: Ca. 28,65 m²\n- ZIMMER: 2 Schlafzimmer, 1 Wohnzimmer sowie 1 Galerie (AR) im Obergeschoß mit eigenem Badezimmer, Klimaanlage und großer Terrasse. Galerie lässt sich als individueller Raum nutzen.\n- MÖBLIERT: Bad und Küche sind möbliert\n- WASCHMASCHINENANSCHLUSS: Ja\n- LIFT: Ja\n- TV/INTERNET: z.B. MAGENTA / A1\n- 2 x BADEZIMMER: Badewanne, Dusche, Waschbecken, WC\n- WC: 2x WC im Bad, 1x Separat\n- HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper\n- KELLERABTEIL: Ja \n- KÜCHE: Komplettküche (Kühlschrank mit integriertem Tiefkühlschrank, Geschirrspüler, Backofen, Dunstabzug)\n- AUSSTATTUNG: Echtholzparkettboden, Fliesen in den Bädern und WC, Wasseranschluss auf der Terrasse, Gegensprechanlage mit Türöffner, Klimageräte,\n- VERKEHRSANBINDUNG: U-Bahn-Station U6 \"Nußdorferstr.\" sowie Straßenbahn 37 & 38 nur ca. 2 Gehminuten entfernt\n- INFRASTRUKTUR: zahlreiche Geschäfte des täglichen Lebens befinden sich in unmittelbarer Nähe (Hofer, Billa, BIPA..).\n- UMGEBUNG & LAGE: Die Lustkandlgasse liegt in einer der besten Lagen des Alsergrunds, einem beliebten Grätzel welches zahlreichen Parks nah und dennoch nur ein Katzensprung von der Innenstadt entfernt ist. Schulen (Lycee Francais), Restaurants/Bars sowie Unterhaltung (Volksoper) und Freizeitangebote befinden sich alle dicht gesammelt in dieser beliebten Wohngegend.\n- HWB: 102,27 kWh/m²a\n- KLASSE: D\nKAUFPREIS: 1.100.000,00 EUR\nBETRIEBSKOSTEN INKL. LIFT: 446,29 EUR inkl. MwSt.\nNEBENKOSTEN WELCHE VOM KÄUFER ZU TRAGEN SIND\n- PROVISION: 3% d. Kaufpreises zzgl. 20% USt.\n- KOSTEN DER ERSTELLUNG DES Kaufvertrages (zzgl. USt und Barauslagen)\n- \nHaben Sie weitere Fragen oder wünschen eine Besichtigung? - Gleich Kontakt aufnehmen!\nIn Entsprechung des FAGG (Fern- und Auswärtsgeschäfte-Gesetz) und des VRUG (Verbraucherrechte-Richtlinie-Umsetzungsgesetz) ist es uns leider nur mehr möglich Termine nach Erhalt einer schriftlichen Anfrage mit vollständigen Kontaktangaben (Kontaktformular) zu vereinbaren, dies gilt ebenso für die Herausgabe relevanter Informationen wie z.B. der Lage. Sehr gerne sind wir auf diesem Wege bereit, uns um sämtliche Anliegen rasch und kompetent zu kümmern.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem Auftraggeber ein wirtschaftliches Naheverhältnis besteht. Der Vermittler ist als Doppelmakler tätig.\nFür Pläne sowie Angaben übernehmen wir ausdrücklich keine Haftung.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 415,9 Eur\n- monatliche Kosten (inkl. MWSt): 446,2 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Vertragserrichtungsgebuehr: Dr. Schodl (Notar) / Mag. Binder - 1% d. Kaufpreises \n- Monatliche Reparaturrücklage (excl. MWSt): 112,87 Eur\n- sonstige Kosten (exkl. MWSt): 191.1 Eur\n\n## Zusatzinformationen\n- Anzahl Etagen: 2\n- Stockwerk: 1. DG\n- Stiege: 1\n- Anzahl Badezimmer: 2\n- Klimatisiert\n- Kabel/Sat TV\n- Energiepass HWB: 102.27 kWh/m²/Jahr\n- Baujahr: 2014\n- Anzahl WC: 3\n\n## Flächen\n- Gesamtfläche: 154,06 m²\n\n## ===== ImmoScout24 =====\n## Beschreibung\nLust zum Leben in der Lustkandlgasse\nDiese spannende Dachterrassenwohnung mit 2 Terrassen und insgesamt fast 30m² Freifläche in einer ruhigen Einbahnstr. überzeugt in jeglicher Hinsicht. Die Ausrichtung beider Terrassen auf den Helene-Deutsch-Park sorgt für ausreichend Ruhe, der spektakuläre Fernblick platziert die markante Wiener Skyline direkt ins Wohnzimmer. Die Aufteilung der 3 Zimmer im Erdgeschoß sowie der großzügigen Galerie im Obergeschoß, welche sich räumlich vielfältig nutzen lässt, sowie die unmittelbare Nähe zur U-Bahn und der Wiener Innenstadt runden das Gesamtpaket ideal ab.\nHIGHLIGHTS:\n\n- 2 x SÜD/OST-DACHTERRASSEN ca. 28,65m² mit sensationeller Aussicht über die Dächer Wiens\n- ORIENTIERUNG der Terrassen Richtung Helene-Deutsch-Park (Kein direktes Gegenüber)\n- RUHELAGE (Lustkandlgasse Einbahnstraße)\n- PKW-GARAGENPLATZ angemietet (140€/Monat) unbefristet\n- FUSSBODENHEIZUNG & KLIMAANLAGE\n- U-BAHN U6 nur ca. 2 Gehminuten entfernt (Nußdorferstr.) sowie Straßenbahn 37 & 38\n- WÄHRINGERPARK sowie VOLKSOPER in ca. 2 Minuten erreichbar\n- BILLA, BIPA, HOFER (Lebensmitteleinkauf) ca. 200 m entfernt\n- INNENSTADT in ca. 9 Min erreichbar\n- Leben in der LEBENSWERTESTEN Stadt der Welt\nINFOS ZUR WOHNUNG:\n\n- STOCKWERK: Oberste Dachgeschoße mit Lift (Schlüssellift)\n- BAUJAHR: Dachgeschoß Aufbau 2014\n- BEZIEHBAR: nach Vereinbarung\n- WOHNFLÄCHE: Ca. 125,41 m²\n- TERRASSE: Ca. 28,65 m²\n- ZIMMER: 2 Schlafzimmer, 1 Wohnzimmer sowie 1 Galerie (AR) im Obergeschoß mit eigenem Badezimmer, Klimaanlage und großer Terrasse. Galerie lässt sich als individueller Raum nutzen.\n- MÖBLIERT: Bad und Küche sind möbliert\n- WASCHMASCHINENANSCHLUSS: Ja\n- LIFT: Ja\n- TV/INTERNET: z.B. MAGENTA / A1\n- 2 x BADEZIMMER: Badewanne, Dusche, Waschbecken, WC\n- WC: 2x WC im Bad, 1x Separat\n- HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper\n- KELLERABTEIL: Ja\n- KÜCHE: Komplettküche (Kühlschrank mit integriertem Tiefkühlschrank, Geschirrspüler, Backofen, Dunstabzug)\n- AUSSTATTUNG: Echtholzparkettboden, Fliesen in den Bädern und WC, Wasseranschluss auf der Terrasse, Gegensprechanlage mit Türöffner, Klimageräte,\n- VERKEHRSANBINDUNG: U-Bahn-Station U6 „Nußdorferstr.“ sowie Straßenbahn 37 & 38 nur ca. 2 Gehminuten entfernt\n- INFRASTRUKTUR: zahlreiche Geschäfte des täglichen Lebens befinden sich in unmittelbarer Nähe (Hofer, Billa, BIPA..).\n- UMGEBUNG & LAGE: Die Lustkandlgasse liegt in einer der besten Lagen des Alsergrunds, einem beliebten Grätzel welches zahlreichen Parks nah und dennoch nur ein Katzensprung von der Innenstadt entfernt ist. Schulen (Lycee Francais), Restaurants/Bars sowie Unterhaltung (Volksoper) und Freizeitangebote befinden sich alle dicht gesammelt in dieser beliebten Wohngegend.\n- HWB: 102,27 kWh/m²a\n- KLASSE: D\nKAUFPREIS: 1.100.000,00 €\nBETRIEBSKOSTEN INKL. LIFT: 446,29 € inkl. MwSt.\nNEBENKOSTEN WELCHE VOM KÄUFER ZU TRAGEN SIND\n\n- PROVISION: 3% d. Kaufpreises zzgl. 20% USt.\n- KOSTEN DER ERSTELLUNG DES Kaufvertrages (zzgl. USt und Barauslagen)\n-\nHaben Sie weitere Fragen oder wünschen eine Besichtigung? - Gleich Kontakt aufnehmen!\nIn Entsprechung des FAGG (Fern- und Auswärtsgeschäfte-Gesetz) und des VRUG (Verbraucherrechte-Richtlinie-Umsetzungsgesetz) ist es uns leider nur mehr möglich Termine nach Erhalt einer schriftlichen Anfrage mit vollständigen Kontaktangaben (Kontaktformular) zu vereinbaren, dies gilt ebenso für die Herausgabe relevanter Informationen wie z.B. der Lage. Sehr gerne sind wir auf diesem Wege bereit, uns um sämtliche Anliegen rasch und kompetent zu kümmern.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem Auftraggeber ein wirtschaftliches Naheverhältnis besteht. Der Vermittler ist als Doppelmakler tätig.\nFür Pläne sowie Angaben übernehmen wir ausdrücklich keine Haftung.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <500m\nKlinik <500m\nKrankenhaus <1.000m\n\nKinder & Schulen\nSchule <500m\nKindergarten <500m\nUniversität <500m\nHöhere Schule <500m\n\nNahversorgung\nSupermarkt <500m\nBäckerei <500m\nEinkaufszentrum <2.000m\n\nSonstige\nGeldautomat <500m\nBank <500m\nPost <500m\nPolizei <1.000m\n\nVerkehr\nBus <500m\nU-Bahn <500m\nStraßenbahn <500m\nBahnhof <500m\nAutobahnanschluss <1.500m\n\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Lage\nNussdorferstr. / Währingerpark\n\n## Merkmale\n- Dachgeschosswohnung\n- Baujahr 2014\n- Neubau\n- Gepflegt\n- Unterkellert\n- letzte Modernisierung Dachgeschoß Aufbau 2014\n- Parkett\n- Fliesen\n- 1. Etage\n- Insgesamt 2 Etagen\n- Wohnfläche 125,41 m²\n- Gesamtfläche 154,06 m²\n- 2 Terrassen\n- ostseitig, südseitig, nordostseitig\n- Terrasse\n- 4 Zimmer\n- 2 Badezimmer\n- 3 Toiletten\n- Gäste WC\n- Abstellraum\n- Tiefgarage\n- Fernblick\n- Offene Küche\n- Teilmöbliert\n- Badewanne\n- Dusche\n- Klimatisiert\n- Personenaufzug\n\n## ===== derStandard =====\n## Beschreibung\nLust zum Leben in der Lustkandlgasse\nDiese spannende Dachterrassenwohnung mit 2 Terrassen und insgesamt fast 30m² Freifläche in einer ruhigen Einbahnstr. überzeugt in jeglicher Hinsicht. Die Ausrichtung beider Terrassen auf den Helene-Deutsch-Park sorgt für ausreichend Ruhe, der spektakuläre Fernblick platziert die markante Wiener Skyline direkt ins Wohnzimmer. Die Aufteilung der 3 Zimmer im Erdgeschoß sowie der großzügigen Galerie im Obergeschoß, welche sich räumlich vielfältig nutzen lässt, sowie die unmittelbare Nähe zur U-Bahn und der Wiener Innenstadt runden das Gesamtpaket ideal ab.\nHIGHLIGHTS:\n2 x SÜD/OST-DACHTERRASSEN ca. 28,65m² mit sensationeller Aussicht über die Dächer Wiens\nORIENTIERUNG der Terrassen Richtung Helene-Deutsch-Park (Kein direktes Gegenüber)\nRUHELAGE (Lustkandlgasse Einbahnstraße)\nPKW-GARAGENPLATZ angemietet (140€/Monat) unbefristet\nFUSSBODENHEIZUNG & KLIMAANLAGE\nU-BAHN U6 nur ca. 2 Gehminuten entfernt (Nußdorferstr.) sowie Straßenbahn 37 & 38\nWÄHRINGERPARK sowie VOLKSOPER in ca. 2 Minuten erreichbar\nBILLA, BIPA, HOFER (Lebensmitteleinkauf) ca. 200 m entfernt\nINNENSTADT in ca. 9 Min erreichbar\nLeben in der LEBENSWERTESTEN Stadt der Welt\nINFOS ZUR WOHNUNG:\nSTOCKWERK : Oberste Dachgeschoße mit Lift (Schlüssellift)\nBAUJAHR: Dachgeschoß Aufbau 2014\nBEZIEHBAR: nach Vereinbarung\nWOHNFLÄCHE: Ca. 125,41 m²\nTERRASSE: Ca. 28,65 m²\nZIMMER: 2 Schlafzimmer, 1 Wohnzimmer sowie 1 Galerie (AR) im Obergeschoß mit eigenem Badezimmer, Klimaanlage und großer Terrasse. Galerie lässt sich als individueller Raum nutzen.\nMÖBLIERT: Bad und Küche sind möbliert\nWASCHMASCHINENANSCHLUSS : Ja\nLIFT: Ja\nTV/INTERNET: z.B. MAGENTA / A1\n2 x BADEZIMMER: Badewanne, Dusche, Waschbecken, WC\nWC: 2x WC im Bad, 1x Separat\nHEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper\nKELLERABTEIL: Ja\nKÜCHE: Komplettküche (Kühlschrank mit integriertem Tiefkühlschrank, Geschirrspüler, Backofen, Dunstabzug)\nAUSSTATTUNG: Echtholzparkettboden, Fliesen in den Bädern und WC, Wasseranschluss auf der Terrasse, Gegensprechanlage mit Türöffner, Klimageräte,\nVERKEHRSANBINDUNG: U-Bahn-Station U6 \"Nußdorferstr.\" sowie Straßenbahn 37 & 38 nur ca. 2 Gehminuten entfernt\nINFRASTRUKTUR: zahlreiche Geschäfte des täglichen Lebens befinden sich in unmittelbarer Nähe (Hofer, Billa, BIPA..).\nUMGEBUNG & LAGE: Die Lustkandlgasse liegt in einer der besten Lagen des Alsergrunds, einem beliebten Grätzel welches zahlreichen Parks nah und dennoch nur ein Katzensprung von der Innenstadt entfernt ist. Schulen (Lycee Francais), Restaurants/Bars sowie Unterhaltung (Volksoper) und Freizeitangebote befinden sich alle dicht gesammelt in dieser beliebten Wohngegend.\nHWB: 102,27 kWh/m²a\nKLASSE: D\nKAUFPREIS: 1.100.000,00 €\nBETRIEBSKOSTEN INKL. LIFT: 446,29 € inkl. MwSt.\nNEBENKOSTEN WELCHE VOM KÄUFER ZU TRAGEN SIND\nPROVISION: 3% d. Kaufpreises zzgl. 20% USt.\nKOSTEN DER ERSTELLUNG DES Kaufvertrages (zzgl. USt und Barauslagen)\nHaben Sie weitere Fragen oder wünschen eine Besichtigung? - Gleich Kontakt aufnehmen!\nIn Entsprechung des FAGG (Fern- und Auswärtsgeschäfte-Gesetz) und des VRUG (Verbraucherrechte-Richtlinie-Umsetzungsgesetz) ist es uns leider nur mehr möglich Termine nach Erhalt einer schriftlichen Anfrage mit vollständigen Kontaktangaben (Kontaktformular) zu vereinbaren, dies gilt ebenso für die Herausgabe relevanter Informationen wie z.B. der Lage. Sehr gerne sind wir auf diesem Wege bereit, uns um sämtliche Anliegen rasch und kompetent zu kümmern.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem Auftraggeber ein wirtschaftliches Naheverhältnis besteht. Der Vermittler ist als Doppelmakler tätig.\nFür Pläne sowie Angaben übernehmen wir ausdrücklich keine Haftung.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <500m\nKlinik <500m\nKrankenhaus <1.000m\nKinder & Schulen\nSchule <500m\nKindergarten <500m\nUniversität <500m\nHöhere Schule <500m\nNahversorgung\nSupermarkt <500m\nBäckerei <500m\nEinkaufszentrum <2.000m\nSonstige\nGeldautomat <500m\nBank <500m\nPost <500m\nPolizei <1.000m\nVerkehr\nBus <500m\nU-Bahn <500m\nStraßenbahn <500m\nBahnhof <500m\nAutobahnanschluss <1.500m\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Ausstattung\n- Dusche\n- Parkettboden\n- Klimatisiert\n- Fahrstuhl\n- Kabelanschluss\n- Terrasse\n\n## ===== FindMyHome =====\n## Beschreibung\nLust zum Leben in der Lustkandlgasse\nDiese spannende Dachterrassenwohnung mit 2 Terrassen und insgesamt fast 30m² Freifläche in einer ruhigen Einbahnstr. überzeugt in jeglicher Hinsicht. Die Ausrichtung beider Terrassen auf den Helene-Deutsch-Park sorgt für ausreichend Ruhe, der spektakuläre Fernblick platziert die markante Wiener Skyline direkt ins Wohnzimmer. Die Aufteilung der 3 Zimmer im Erdgeschoß sowie der großzügigen Galerie im Obergeschoß, welche sich räumlich vielfältig nutzen lässt, sowie die unmittelbare Nähe zur U-Bahn und der Wiener Innenstadt runden das Gesamtpaket ideal ab.\nHIGHLIGHTS:\n- 2 x SÜD/OST-DACHTERRASSEN ca. 28,65m² mit sensationeller Aussicht über die Dächer Wiens \r\n- ORIENTIERUNG der Terrassen Richtung Helene-Deutsch-Park (Kein direktes Gegenüber)\r\n- RUHELAGE (Lustkandlgasse Einbahnstraße)\r\n- PKW-GARAGENPLATZ angemietet (140€/Monat) unbefristet\r\n- FUSSBODENHEIZUNG & KLIMAANLAGE\r\n- U-BAHN U6 nur ca. 2 Gehminuten entfernt (Nußdorferstr.) sowie Straßenbahn 37 & 38 \r\n- WÄHRINGERPARK sowie VOLKSOPER in ca. 2 Minuten erreichbar \r\n- BILLA, BIPA, HOFER (Lebensmitteleinkauf) ca. 200 m entfernt\r\n- INNENSTADT in ca. 9 Min erreichbar \r\n- Leben in der LEBENSWERTESTEN Stadt der Welt \r\nINFOS ZUR WOHNUNG:\n- STOCKWERK: Oberste Dachgeschoße mit Lift (Schlüssellift)\r\n- BAUJAHR: Dachgeschoß Aufbau 2014\r\n- BEZIEHBAR: nach Vereinbarung\r\n- WOHNFLÄCHE: Ca. 125,41 m²\r\n- TERRASSE: Ca. 28,65 m²\r\n- ZIMMER: 2 Schlafzimmer, 1 Wohnzimmer sowie 1 Galerie (AR) im Obergeschoß mit eigenem Badezimmer, Klimaanlage und großer Terrasse. Galerie lässt sich als individueller Raum nutzen.\r\n- MÖBLIERT: Bad und Küche sind möbliert\r\n- WASCHMASCHINENANSCHLUSS: Ja\r\n- LIFT: Ja\r\n- TV/INTERNET: z.B. MAGENTA / A1\r\n- 2 x BADEZIMMER: Badewanne, Dusche, Waschbecken, WC\r\n- WC: 2x WC im Bad, 1x Separat\r\n- HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper\r\n- KELLERABTEIL: Ja \r\n- KÜCHE: Komplettküche (Kühlschrank mit integriertem Tiefkühlschrank, Geschirrspüler, Backofen, Dunstabzug)\r\n- AUSSTATTUNG: Echtholzparkettboden, Fliesen in den Bädern und WC, Wasseranschluss auf der Terrasse, Gegensprechanlage mit Türöffner, Klimageräte,\r\n- VERKEHRSANBINDUNG: U-Bahn-Station U6 Nußdorferstr. sowie Straßenbahn 37 & 38 nur ca. 2 Gehminuten entfernt\r\n- INFRASTRUKTUR: zahlreiche Geschäfte des täglichen Lebens befinden sich in unmittelbarer Nähe (Hofer, Billa, BIPA..).\r\n- UMGEBUNG & LAGE: Die Lustkandlgasse liegt in einer der besten Lagen des Alsergrunds, einem beliebten Grätzel welches zahlreichen Parks nah und dennoch nur ein Katzensprung von der Innenstadt entfernt ist. Schulen (Lycee Francais), Restaurants/Bars sowie Unterhaltung (Volksoper) und Freizeitangebote befinden sich alle dicht gesammelt in dieser beliebten Wohngegend.\r\n- HWB: 102,27 kWh/m²a\r\n- KLASSE: D\r\nKAUFPREIS: 1.100.000,00 €\nBETRIEBSKOSTEN INKL. LIFT: 446,29 € inkl. MwSt.\nNEBENKOSTEN WELCHE VOM KÄUFER ZU TRAGEN SIND\n- PROVISION: 3% d. Kaufpreises zzgl. 20% USt.\r\n- KOSTEN DER ERSTELLUNG DES Kaufvertrages (zzgl. USt und Barauslagen)\r\n- \r\nHaben Sie weitere Fragen oder wünschen eine Besichtigung - Gleich Kontakt aufnehmen!\nIn Entsprechung des FAGG (Fern- und Auswärtsgeschäfte-Gesetz) und des VRUG (Verbraucherrechte-Richtlinie-Umsetzungsgesetz) ist es uns leider nur mehr möglich Termine nach Erhalt einer schriftlichen Anfrage mit vollständigen Kontaktangaben (Kontaktformular) zu vereinbaren, dies gilt ebenso für die Herausgabe relevanter Informationen wie z.B. der Lage. Sehr gerne sind wir auf diesem Wege bereit, uns um sämtliche Anliegen rasch und kompetent zu kümmern.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem Auftraggeber ein wirtschaftliches Naheverhältnis besteht. Der Vermittler ist als Doppelmakler tätig.\nFür Pläne sowie Angaben übernehmen wir ausdrücklich keine Haftung.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## ===== FindMyHome =====\n## Beschreibung\nLuxus-Dachgeschosswohnung mit Galerie und zwei Terrassen in bester Lage des 9. Bezirks\nWillkommen in Ihrem neuen Zuhause einer exquisiten Dachgeschosswohnung im Herzen des 9. Bezirks, die modernes Design, hochwertige Ausstattung und urbane Lebensqualität auf eindrucksvolle Weise vereint. Diese lichtdurchflutete 4-Zimmer-Wohnung bietet auf ca. 125 m² Wohnfläche zuzüglich rund 29 m² Terrassen ein Wohngefühl der Extraklasse. Die Kombination aus stilvoller Architektur, großzügiger Raumhöhe, edlem Parkett und klaren Linien schafft eine Atmosphäre von Ruhe und Eleganz mitten in der Stadt.\nDie Highlights im Überblick:\nGesamtnutzfläche: ca. 154 m² (83,96 m² DG + 41,45 m² Galerie + 28,65 m² Terrassen)\nZwei großzügige Terrassen mit Süd-/Südwest-Ausrichtung ideal für entspannte Stunden im Freien\nModerne Klimaanlage in allen Zimmern für ganzjährig angenehmes Raumklima\nExklusive Küche mit hochwertigen Geräten, stilvoll integriert in den offenen Wohnbereich\nZwei elegante Badezimmer eines mit Dusche, eines mit Badewanne\nDrei separate WCs für maximalen Komfort\nGaleriebereich mit flexiblem Nutzungspotenzial ideal für Homeoffice, Atelier oder Bibliothek\nZugewiesenes Kellerabteil (ca. 3 m²) & Fahrradraum\nMietgarage in unmittelbarer Nähe verfügbar (€ 140/Monat)\nDie Wohnung befindet sich im Dachgeschoss eines charmanten, gepflegten Altbaus und wurde im Zuge einer umfassenden Sanierung technisch wie optisch auf den neuesten Stand gebracht. Historischer Charakter trifft hier auf moderne Raffinesse.\nLage & Umgebung\nDie Wohnlage im Alsergrund gehört zu den gefragtesten Wiens. Nur wenige Schritte trennen Sie von der U6-Station Nußdorfer Straße, zahlreichen Einkaufsmöglichkeiten, ausgezeichneten Restaurants und einer lebendigen Kultur- und Bildungsszene. Gleichzeitig genießen Sie die Ruhe einer gepflegten Seitengasse ein perfekter Rückzugsort mitten im urbanen Leben.\nFazit:\nDiese Dachgeschosswohnung bietet alles, was anspruchsvolle Stadtmenschen suchen: Raum, Stil, Licht, Privatsphäre und das in einer der besten Lagen Wiens. Ein Ort, der nicht nur Wohnraum, sondern Lebensqualität verspricht.Noch nichts gefunden Wir informieren Sie über geeignete Immobilienangebote noch vor allen anderen.\nLegen Sie jetzt Ihren individuellen Suchagenten unter folgendem Link an. Wir schicken Ihnen passende Immobilien exklusiv vorab zu.\nSuchagent anlegen - https://klasan-partner-immobilien-gmbh-co.service.immo/registrieren/de\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.",
    "heizung_felder": [
-    "Befeuerung: Flüssiggas"
+    "Heizung: Fußbodenheizung (willhaben)",
+    "Heizung: Fussbodenheizung (willhaben)",
+    "Heizungsart: Gasheizung (willhaben)",
+    "FUSSBODENHEIZUNG & KLIMAANLAGE (willhaben)",
+    "HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper (willhaben)",
+    "Heizung: Fußbodenheizung (ImmoScout24)",
+    "Heizung: Etagenheizung (ImmoScout24)",
+    "Energieträger: Gas (ImmoScout24)",
+    "FUSSBODENHEIZUNG & KLIMAANLAGE (ImmoScout24)",
+    "HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper (ImmoScout24)",
+    "Heizungsart: Fußbodenheizung (derStandard)",
+    "Energieträger: Gas (derStandard)",
+    "FUSSBODENHEIZUNG & KLIMAANLAGE (derStandard)",
+    "HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper (derStandard)",
+    "Befeuerung: Flüssiggas (FindMyHome)",
+    "HEIZUNG: Gasetagenheizung - Fußbodenheizung & Heizkörper (FindMyHome)"
    ]
   }
  },
@@ -5837,7 +6009,7 @@
      "url": "https://www.findmyhome.at/5757967",
      "preis": 599000.0,
      "id": "fm-5757967",
-     "zuletzt": "2026-10-30"
+     "zuletzt": "2026-11-01"
     },
     {
      "quelle": "ImmoScout24",
@@ -7445,9 +7617,10 @@
    "titel": "Zimmermannplatz 6 | Generalsanierte Altbauwohnung mit 2 Schlafzimmern und 2 Bädern",
    "status": "gruen",
    "gruende": [
+    "Nicht mehr online (zuletzt gesehen 31.10.)",
     "Generalsaniert, Erstbezug (1. OG, Altbau). Laut Bauträgertext: \"Die Altbauwohnungen werden bis ins 2. Quartal 2027 abgeschlossen sein\"; Q1 2028 gilt für die Fertigstellung im Dachgeschoß. \"Verfügbar ab Q1 2028\" steht bei allen Einheiten gleich, auch beim Penthouse. Übergabetermin dieser Wohnung erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-generalsanierte-altbauwohnung-mit-2-schlafzimmern-und-2-baedern-987879158/"
    ],
-   "offline": false,
+   "offline": true,
    "lat": 48.217115,
    "lon": 16.344246,
    "ungefaehr": false,
@@ -8022,6 +8195,7 @@
  "wh-1805070625": {
   "ids": [
    "ds-15299293",
+   "fm-5772347",
    "is-366364130003",
    "wh-1805070625"
   ],
@@ -8040,6 +8214,11 @@
     "2026-10-31",
     799000.0,
     "derStandard"
+   ],
+   [
+    "2026-11-01",
+    799000.0,
+    "FindMyHome"
    ]
   ],
   "online_seit": "2026-10-29",
@@ -8048,7 +8227,8 @@
    "ids": [
     "wh-1805070625",
     "is-366364130003",
-    "ds-15299293"
+    "ds-15299293",
+    "fm-5772347"
    ],
    "links": [
     {
@@ -8056,6 +8236,13 @@
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/idealer-grundriss-fuer-eine-anspruchsvolle-familie-1805070625/",
      "preis": 799000.0,
      "id": "wh-1805070625",
+     "zuletzt": "2026-11-01"
+    },
+    {
+     "quelle": "FindMyHome",
+     "url": "https://www.findmyhome.at/5772347",
+     "preis": 799000.0,
+     "id": "fm-5772347",
      "zuletzt": "2026-11-01"
     },
     {
@@ -8113,6 +8300,11 @@
      "2026-10-31",
      799000.0,
      "derStandard"
+    ],
+    [
+     "2026-11-01",
+     799000.0,
+     "FindMyHome"
     ]
    ],
    "online_seit": "2026-10-29",
@@ -8164,7 +8356,8 @@
     "https://ic.ds.at/oiQcnQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/3e5cd22da26de1a69d5d1e8ff1ff19ed/fm_h1080_w1920/8pr6mB8gSfnDBS6qHAPJPQ20260909.jpg",
     "https://ic.ds.at/lJgAMQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/30d5d35f763261a889be5b8b5d4a1372/fm_h1080_w1920/aDoACwTeCKcZ675LaHB3qF20260909.jpg",
     "https://ic.ds.at/RjylPQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/620857ba7a22bd8a64a42c4c04db737b/fm_h1080_w1920/8CPx47WQ1YFBnMHFuCD1QK20260909.jpg",
-    "https://ic.ds.at/u943Tg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/57bf419f399fa2c6cdcaa78b0c50a127/fm_h1080_w1920/5davTvfpKf06oHsAwjBigM20261029.jpg"
+    "https://ic.ds.at/u943Tg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/57bf419f399fa2c6cdcaa78b0c50a127/fm_h1080_w1920/5davTvfpKf06oHsAwjBigM20261029.jpg",
+    "https://media.findmyhome.at/md1/3/5772347/s1/fM42tAeRXUZV3NPuN5HrpU.jpg"
    ],
    "freiflaeche": [
     "Balkon"
@@ -8180,14 +8373,15 @@
    "zuletzt": "2026-11-01"
   },
   "details": {
-   "text": "## ===== willhaben =====\n## Ausstattung\n- Balkonanzahl:1\n- Abstellraum Anzahl: 1\n- Balkonfläche:6,89 m²\n- WG-geeignet\n- Bad mit Dusche\n- Heizung: Etagenheizung\n- Heizungsart: Gasheizung\n- Gäste-WC: 1\n\n## Lage\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\nRegion: Aumannplatz\n\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung \n Diese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\n Gang\n Vorraum mit Toilette\n Master Bedroom mit eigenem Schrankzimmer und Badezimmer\n Vorraum\n Separate Toilette\n Badezimmer\n Wohnzimmer mit Küche und Ausgang zum Balkon\n 2 Schlafzimmer\n Abstellraum\n Vereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\n Resümee\n Dieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\n Energieausweis: HWB 92,9\n Derzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen. \n Ich freue mich auf Ihren Anruf\n Irene Lindenberger 00431/526 26 36\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 404,56 Eur\n- monatliche Kosten (inkl. MWSt): 431,31 Eur\n- Kaufpreis pro m²: 6298,78 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Monatliche Reparaturrücklage (excl. MWSt): 137,09 Eur\n- sonstige Kosten (exkl. MWSt): 137.09 Eur\n\n## Zusatzinformationen\n- Stockwerk: 2. Etage / 2. Stock\n- Anzahl Badezimmer: 2\n- Energiepass HWB: 92.9 kWh/m²/Jahr\n- Baujahr: 1900\n- Anzahl WC: 2\n\n## ===== ImmoScout24 =====\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung\n\nDiese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\nGang\nVorraum mit Toilette\nMaster Bedroom mit eigenem Schrankzimmer und Badezimmer\nVorraum\nSeparate Toilette\nBadezimmer\nWohnzimmer mit Küche und Ausgang zum Balkon\n2 Schlafzimmer\nAbstellraum\n\nVereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\n\nResümee\nDieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\n\nEnergieausweis: HWB 92,9\nDerzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen.\nIch freue mich auf Ihren Anruf\nIrene Lindenberger [Telefonnummer entfernt]\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Lage\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\n\n## Merkmale\n- Wohnung\n- Baujahr 1900\n- Altbau\n- Erstbezug\n- Unterkellert\n- letzte Modernisierung 2021\n- 2. Etage\n- Wohnfläche 119,96 m²\n- Nutzfläche 126,85 m²\n- 1 Balkon 6,89 m²\n- 4,5 Zimmer\n- 2 Badezimmer\n- 2 Toiletten\n- Abstellraum\n- WG-tauglich\n- Fahrradabstellraum\n- Dusche\n- Personenaufzug\n\n## ===== derStandard =====\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung\nDiese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\nGang\nVorraum mit Toilette\nMaster Bedroom mit eigenem Schrankzimmer und Badezimmer\nVorraum\nSeparate Toilette\nBadezimmer\nWohnzimmer mit Küche und Ausgang zum Balkon\n2 Schlafzimmer\nAbstellraum\nVereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\nResümee\nDieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\nEnergieausweis: HWB 92,9\nDerzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen.\nIch freue mich auf Ihren Anruf\nIrene Lindenberger 00431/526 26 36\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\nLage:\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\n\n## Ausstattung\n- WG-geeignet\n- Dusche\n- Fahrstuhl\n- Balkon",
+   "text": "## ===== willhaben =====\n## Ausstattung\n- Balkonanzahl:1\n- Abstellraum Anzahl: 1\n- Balkonfläche:6,89 m²\n- WG-geeignet\n- Bad mit Dusche\n- Heizung: Etagenheizung\n- Heizungsart: Gasheizung\n- Gäste-WC: 1\n\n## Lage\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\nRegion: Aumannplatz\n\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung \n Diese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\n Gang\n Vorraum mit Toilette\n Master Bedroom mit eigenem Schrankzimmer und Badezimmer\n Vorraum\n Separate Toilette\n Badezimmer\n Wohnzimmer mit Küche und Ausgang zum Balkon\n 2 Schlafzimmer\n Abstellraum\n Vereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\n Resümee\n Dieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\n Energieausweis: HWB 92,9\n Derzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen. \n Ich freue mich auf Ihren Anruf\n Irene Lindenberger 00431/526 26 36\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 404,56 Eur\n- monatliche Kosten (inkl. MWSt): 431,31 Eur\n- Kaufpreis pro m²: 6298,78 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Monatliche Reparaturrücklage (excl. MWSt): 137,09 Eur\n- sonstige Kosten (exkl. MWSt): 137.09 Eur\n\n## Zusatzinformationen\n- Stockwerk: 2. Etage / 2. Stock\n- Anzahl Badezimmer: 2\n- Energiepass HWB: 92.9 kWh/m²/Jahr\n- Baujahr: 1900\n- Anzahl WC: 2\n\n## ===== ImmoScout24 =====\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung\n\nDiese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\nGang\nVorraum mit Toilette\nMaster Bedroom mit eigenem Schrankzimmer und Badezimmer\nVorraum\nSeparate Toilette\nBadezimmer\nWohnzimmer mit Küche und Ausgang zum Balkon\n2 Schlafzimmer\nAbstellraum\n\nVereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\n\nResümee\nDieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\n\nEnergieausweis: HWB 92,9\nDerzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen.\nIch freue mich auf Ihren Anruf\nIrene Lindenberger [Telefonnummer entfernt]\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Lage\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\n\n## Merkmale\n- Wohnung\n- Baujahr 1900\n- Altbau\n- Erstbezug\n- Unterkellert\n- letzte Modernisierung 2021\n- 2. Etage\n- Wohnfläche 119,96 m²\n- Nutzfläche 126,85 m²\n- 1 Balkon 6,89 m²\n- 4,5 Zimmer\n- 2 Badezimmer\n- 2 Toiletten\n- Abstellraum\n- WG-tauglich\n- Fahrradabstellraum\n- Dusche\n- Personenaufzug\n\n## ===== derStandard =====\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung\nDiese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\nGang\nVorraum mit Toilette\nMaster Bedroom mit eigenem Schrankzimmer und Badezimmer\nVorraum\nSeparate Toilette\nBadezimmer\nWohnzimmer mit Küche und Ausgang zum Balkon\n2 Schlafzimmer\nAbstellraum\nVereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\nResümee\nDieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\nEnergieausweis: HWB 92,9\nDerzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen.\nIch freue mich auf Ihren Anruf\nIrene Lindenberger 00431/526 26 36\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\nLage:\nDie Wohnung in der Währinger Straße besticht durch ihre zentrale Lage in einem lebendigen Stadtteil. Nur wenige Schritte entfernt befindet sich der charmante Kutschkermarkt, der mit seinen vielfältigen Ständen und gemütlichen Cafés zum Verweilen einlädt. Die hervorragende Anbindung an öffentliche Verkehrsmittel ermöglicht eine schnelle Erreichbarkeit der Wiener Innenstadt und anderer Stadtteile. Hier genießen Sie urbanes Leben gepaart mit einem Hauch von Markttradition.\n\n## Ausstattung\n- WG-geeignet\n- Dusche\n- Fahrstuhl\n- Balkon\n\n## ===== FindMyHome =====\n## Beschreibung\nQuick facts: Währinger Straße I Einbahnstraße I Aumannplatz I Kutschkermarkt I Wohnzimmer mit Küche I 2 Zimmer I 1 Master Bedroom mit eigenem Badezimmer I ideale Raumaufteilung \nDiese stilvolle 4,5-Zimmer-Wohnung vereint urbanes Leben mit einem Hauch von Gemütlichkeit. Mit einer großzügigen Fläche von ca. 120 m² haben Sie genügend Raum, um Ihre individuellen Wohnträume zu verwirklichen. Die Wohnung überzeugt durch eine durchdachte Raumaufteilung.\nRaumaufteilung:\nGang\nVorraum mit Toilette\nMaster Bedroom mit eigenem Schrankzimmer und Badezimmer\nVorraum\nSeparate Toilette\nBadezimmer\nWohnzimmer mit Küche und Ausgang zum Balkon\n2 Schlafzimmer\nAbstellraum\nVereinbaren Sie noch heute einen Besichtigungstermin und überzeugen Sie sich selbst von den Vorzügen dieser traumhaften Immobilie! Ihr neues Zuhause in Wien wartet auf Sie!\nResümee\nDieses exklusive Angebot ist eine seltene Gelegenheit, den Charme einer klassischen Altbauwohnung mit zeitgemäßen Annehmlichkeiten zu genießen. Ein Zuhause, das keine Wünsche offenlässt!\nEnergieausweis: HWB 92,9\nDerzeit handelt es sich hier um zwei nebeneinander liegende, separate Wohnungen. Die Zusammenlegung im Inneren der Wohnung muss die kaufende Partei auf eigene Kosten durchführen. \nIch freue mich auf Ihren Anruf\nIrene Lindenberger 00431/526 26 36\nRechtliche Details sind entsprechend noch abzuklären!\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\nObjekt ist fÃ¼r eine Wohngemeinschaft geeignet\nProvision: 3% des Kaufpreises zzgl. 20% USt.",
    "heizung_felder": [
     "Heizung: Etagenheizung (willhaben)",
     "Heizungsart: Gasheizung (willhaben)",
     "Heizung: Etagenheizung (ImmoScout24)",
     "Energieträger: Gas (ImmoScout24)",
     "Heizungsart: Etagenheizung (derStandard)",
-    "Energieträger: Gas (derStandard)"
+    "Energieträger: Gas (derStandard)",
+    "Befeuerung: Flüssiggas (FindMyHome)"
    ]
   }
  },

@@ -19,6 +19,7 @@ BASE = "https://www.sreal.at"
 BEZIRKE = {
     1010: "Wien 1., Innere Stadt",
     1020: "Wien 2., Leopoldstadt",
+    1030: "Wien 3., Landstraße",
     1080: "Wien 8., Josefstadt",
     1090: "Wien 9., Alsergrund",
     1180: "Wien 18., Währing",

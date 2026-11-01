@@ -11,6 +11,7 @@ BILD_BASE = "https://cache.willhaben.at/mmo/"
 SLUGS = {
     1010: "wien-1010-innere-stadt",
     1020: "wien-1020-leopoldstadt",
+    1030: "wien-1030-landstrasse",
     1080: "wien-1080-josefstadt",
     1090: "wien-1090-alsergrund",
     1180: "wien-1180-waehring",

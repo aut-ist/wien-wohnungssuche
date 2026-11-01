@@ -38,7 +38,7 @@ SONDER = re.compile(r"Baustelle|ESC|Fahrplan (am|vom)|Night-Run|Radrundfahrt|Fes
 NUR_SELTEN = 0.05     # Linienwege mit weniger als 5 % der Fahrten der häufigsten (Einschübe, Depotfahrten) weg
 GLEICH_M = 20         # so nah an einem schon gezeichneten Stück derselben Linie: Gegenrichtung, nicht doppelt
 GEBIETE = ([f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (8, 9, 18, 19)]
-           + [f for f in geo.ZONEN if f["properties"]["id"] == "leopoldstadt"])
+           + [f for f in geo.ZONEN if f["properties"]["id"] in ("leopoldstadt", "landstrasse")])
 RAND_M = 120          # damit die Linien bis zu den Stationen am Rand (Gürtel) reichen
 MIN_IM_GEBIET_M = 400  # so viel muss eine Linie im Gebiet fahren, um zu zählen
 STATION_RAND_M = 250

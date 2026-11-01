@@ -3,7 +3,7 @@
 Regeln:
 - 8., 18., 19. Bezirk: ganz erlaubt, im 19. außer rote Zone (Heiligenstadt / Karl-Marx-Hof bis Gürtel)
 - 9. Bezirk: erlaubt, außer rote Zone (Lichtental-Nord / Friedensbrücke)
-- 1. und 2. Bezirk: nur in den blauen Zonen (mit Toleranzrand)
+- 1., 2. und 3. Bezirk: nur in den blauen Zonen (mit Toleranzrand)
 - alles andere: raus
 """
 import json
@@ -103,13 +103,14 @@ def pruefe(lat, lon):
         return True, f"{bez}. Bezirk", bez
     for z in ZONEN:
         p = z["properties"]
-        if p["rolle"] != "erlaubt":
+        # Landstraße-Zone nur im 3.: ihr Randstreifen soll nicht über Wienfluss/Donaukanal greifen
+        if p["rolle"] != "erlaubt" or (p.get("nur_in_bezirk") and p["nur_in_bezirk"] != bez):
             continue
         d = _abstand_m(lon, lat, z)
         if d == 0:
             return True, f"Zone {p['name']}", bez
         if d <= p.get("puffer_m", 0):
             return True, f"Randlage Zone {p['name']} ({round(d)} m außerhalb)", bez
-    if bez in (1, 2):
+    if bez in (1, 2, 3):
         return False, f"{bez}. Bezirk außerhalb der blauen Zone", bez
     return False, f"{bez}. Bezirk" if bez else "außerhalb der Suchbezirke", bez
