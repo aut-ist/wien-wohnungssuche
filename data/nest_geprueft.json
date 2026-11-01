@@ -4087,7 +4087,7 @@
    "ds-14994587"
   ],
   "titel": "DESIGNERWOHNUNG MIT BALKON IN HOFRUHELAGE | VIDEO-PRÄSENTATION",
-  "ergebnis": "ungefähr: Hausnummer nicht gefunden. Grundriss nennt nur 'TOP 1/10, 3. Stock' (DG-Ausbau 2021 auf Altbau mit EG+2 Stock, Hoflage, Nordost). Geprüft: Schwestern (nur die Gruppe), Grundriss + alle 17 Fotos (keine Landmarken), WIENRAUM-Objektseite https://www.wienraum.at/objektdetail/16139431 und Exposé-PDF (/expose/16139431/1547467: keine Adresse), Matterport 8NcPDzRhwQA und YouTube wjzZHNl1JeI (Titel ohne Adresse), Websuche '87,53 m²' 1030. Lagehinweise: U3 Kardinal-Nagl-Platz + Bahnhof Rennweg wenige Gehminuten, Rochusmarkt, Arenbergpark -> geschätzt Gegend Barichgasse/Juchgasse. willhaben-Punkt 48.201733/16.39165 ist Standardpunkt (59 Inserate).",
+  "ergebnis": "Ungefähr: Klimschgasse 15/2 (Hinterhaus), Top 1/10 laut Grundriss, DG 3. Stock. Kein Beleg mit Adresse gefunden. Geprüft: Wienraum-Objektseite und Exposé (36 S.), Matterport (nur '1030 Wien'), YouTube-Text und Storyboard (ein Kartenbild, zu grob), weekend.at, OSM-Entfernungsangaben gegen Raster, Baukörpermodell-Suche (einziger Treffer im Umkreis von 750 m), Orthofoto. Gegen den Treffer spricht: Balkon laut Inserat NO, kein sichtbarer Dachausbau am Orthofoto. https://www.wienraum.at/objektdetail/16139431",
   "datum": "2026-11-01"
  },
  "wh-1102796654": {
@@ -4276,7 +4276,7 @@
    "is-178069900606"
   ],
   "titel": "Altbau beim Rochusmarkt - 81 m² mit Wiener Herz",
-  "ergebnis": "ungefähr: Portalpunkt 48.2016/16.3942 (r 254 m) beim Rochusmarkt. Geprüft: keine Schwestern per EA außer eigener Gruppe; Makler-Website https://www.happyimmo.at/objekt/16838704 + Exposé-PDF /expose/16838704/1583473 (nur Fuzzy-Karte, Grundriss ohne Schriftfeld); Hausschwester 'Ein kleines Wiener Schmankerl mitten im Dritten' (objekt/16838665, gleicher EA, reserviert, auch ohne Adresse); Websuche ohne Treffer",
+  "ergebnis": "Wahrscheinlich Landstraßer Hauptstraße 81, 3. Stock (oberstes Geschoß, straßenseitig, Top unbekannt), ungefähr/hoch. Belege: Spiegelung im Fensterfoto zeigt senkrechtes 'JUWELIER'-Schild gegenüber (OSM: Juwelier Roneli, LH 84); Gebäudeinfo Wien LH 81: 4 Geschoße, Bauperiode 1849-1859, Bürgerhaus mit mittigem Hof; Orthofoto: geschlossener Innenhof mit Baum (= Hoffoto) plus angrenzender Gartenhof; Grundriss (Bestandsplan mit ovalem Stiegenhaus, Lichthof 1, Baulinie) ohne Adresse. Nicht passend: LH 79 und 83-85 (höher, 1883). https://www.immobilienscout24.at/expose/6a4bc267f76be3b4150506da",
   "datum": "2026-11-01"
  },
  "is-519112409634": {
@@ -4403,7 +4403,7 @@
    "fm-5744290"
   ],
   "titel": "\" Platz für alle: 5 Zimmer im sanierten Altbau, U3 & Arenbergpark ums Eck \"",
-  "ergebnis": "unklar (nur Gegend): Haus östlich des Arenbergparks Richtung Landstraßer Hauptstraße, Bj. 1892, Lift, Stiege 1, 1. Stock; Fassadenfoto im Inserat (historistisch, Rundbogen-EG). Geprüft: keine Schwester-Inserate (nur eigene Portale), Grundriss ohne Schriftfeld, weekend.at (OBGC20260919124948856af26b34e87) ohne Adresse, willhaben-Rohdaten nur Kreis 269 m, remax.at hinter Captcha (nicht umgangen), Websuche nach Titel ohne Treffer mit Adresse.",
+  "ergebnis": "Apostelgasse 22 (1. Stock, Top unbekannt) – Hausnummer 22 und Nachbar 24 auf Fassadenfoto lesbar (https://storage.justimmo.at/file/q2txkXgUPinFWNdejeNzUE.jpg); per Adresspunkte (ADRESSENOGD) und GEBAEUDEINFO im 269-m-Kreis nur Apostelgasse 22 passend (Keinergasse 24 = Nachkriegsbau 7 Geschosse). 'Barmherzigengasse' aus Vorrunde verworfen. Grundriss ohne Top/Adresse.",
   "datum": "2026-11-01"
  },
  "wh-1560216827": {
@@ -4551,7 +4551,7 @@
    "is-378844852310"
   ],
   "titel": ".TOP LAGE+++NEU PREIS***Altbaucharme trifft Stadtleben - großzügige 4-Zimmer-Wohnung nahe Rochusmarkt+++",
-  "ergebnis": "ungefähr Rasumofskygasse (Text), Hausnummer offen; Kandidaten mit Lift-tauglichem Gründerzeithaus im Kreis ±257 m: Nr. 1-16 (Erker straßenseitig, 3. OG). Geprüft: keine Schwester-Inserate, Grundriss im Exposé https://www.fairin.at/expose/15885448/1594357 ohne Adresse/unleserlich, FairIn-Objektseite nur 1030 Wien, listings.json ohne Doppel.",
+  "ergebnis": "Ungefähr (ca. 85 %): Rasumofskygasse 14, 3. Stock, straßenseitige SW-Hälfte mit Erker, Top unbekannt. Neu geprüft: FairIn-Exposé-PDF (37 S., hochaufgelöster Grundriss, Lagekarte), alle Fotos (willhaben/ImmoScout24/FairIn), Stadt Wien FMZK-Umrisse 10-16 (nur Nr. 14 hat Seitenflügel links + runde Stiege rechts wie im Plan), Baumkataster (großer Bergahorn vor Nr. 14 wie im Fassadenfoto), Blick auf niedrigeres Nachkriegshaus Rasumofskygasse 17/Hörnesgasse 1. Keine Quelle mit Hausnummer gefunden. https://www.fairin.at/objekt/15885448",
   "datum": "2026-11-01"
  },
  "fm-5766969": {
@@ -4774,7 +4774,7 @@
    "is-284701746615"
   ],
   "titel": "Anlegerwohnung mit Perspektive - drei separate Wohnbereiche, davon nur einer vermietet!",
-  "ergebnis": "Hainburger Straße 48 (ungefähr), Stiege 2, Top 38 (Top 38a/b/c, 2. Stock laut Grundriss). Makler-Website https://www.satreal.at/immobilien/2525-41 (Objekt 2525/41) ohne Adresse, aber Fotos \\\"Hauptfassade\\\" mit Schanigarten-Lokal und \\\"Hainburgerstraße, U-Bahn\\\"; OSM: einziges Lokal mit Gastgarten dort = Restaurant Lubin, Hainburger Straße 48 (Falter: Schanigarten 60 Plätze), gegenüber Bürobau, U3-Eingang Keinergasse am Straßenende. Keine Schwestern außer Portal-Duplikat.",
+  "ergebnis": "Genau: Hainburger Straße 48, Stiege 2, Top 38 (2. Stock, Hoftrakt). Beleg: satreal.at/immobilien/2525-41 Foto \"Hauptfassade\" mit Restaurant Lubin (Nr. 48, Zaun-Aufschrift \"lubin\" lesbar) plus Grundriss-Abgleich: schräge Stirnwand und Ausrichtung (Nordpfeil) passen genau auf den Hoftrakt von Nr. 48 laut Stadt Wien Mehrzweckkarte; Nachbarhäuser 46/50 haben keinen solchen Flügel. Geprüft: alle Fotos willhaben/ImmoScout24/satreal, Bildtitel, Grundriss, OGD-Gebäudeumrisse, Adresspunkte. https://www.satreal.at/immobilien/2525-41",
   "datum": "2026-11-01"
  },
  "wh-1020044879": {
@@ -4864,7 +4864,7 @@
    "wh-1371917011"
   ],
   "titel": "PRIVATVERKAUF Eigentumswohnung 125 m2 Marxergasse/ Rasumofskygasse Nähe Rochungsmarkt U-Bahn",
-  "ergebnis": "wahrscheinlich Marxergasse 46 / Geologengasse 1 (1. Stock, Top unbekannt): Inserat nennt die Kreuzung Marxergasse/Rasumofskygasse/Geologengasse und Neubau 1975; Stadt-Wien-OGD (GEBAEUDEINFOOGD/BAUPERIODEDETAILOGD) zeigt dort nur Marxergasse 46/Geologengasse 1 als Nachkriegs-Wohnbau (7 Geschoße); Rasumofskygasse 9-11 (=Marxergasse 44=Geologengasse 2) ist von 1881, Rasumofskygasse 3-5 Nachkriegsbau ohne Wohnnutzung. Geprüft: Schwester-Inserate (keine), Grundriss (ohne Schriftfeld), Privatverkäufer LMN-Estate ohne Website, Websuche ohne Treffer.",
+  "ergebnis": "Ungefähr: Marxergasse 46 / Geologengasse 1 (einziger Nachkriegsbau an der Kreuzung laut Stadt Wien OGD, 1975-Neubau mit Garage; Bus 20 m, Taxistand 28 m, Kindergarten 37 m passen zum Lage-Text). Top unbekannt, 1. Stock. Geprüft: alle 30 willhaben-Fotos (keine Außenansicht), Grundriss (kein Schriftfeld), Türfotos, willhaben-Attribute, Websuche nach Zweitinseraten (keine gefunden). https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/privatverkauf-eigentumswohnung-125-m2-marxergasse-rasumofskygasse-naehe-rochungsmarkt-u-bahn-1371917011/",
   "datum": "2026-11-01"
  },
  "is-986870142916": {
@@ -4893,16 +4893,18 @@
    "is-267188302236"
   ],
   "titel": "ROCHUSMARKRT - ERSTKLASSIGE STILWOHNUNG - 100m² PERFEKTER ALTBAUCHARME IN BESTER LAGE - STILHAUS",
-  "ergebnis": "wahrscheinlich Wassergasse 34, Top 6 (1. Stock): Top 6 laut Text (H.S. Immomakler und WINEGG, gleiche Wohnung wh-1143459995/fm-5759316/is-969488727423); Kartenpunkt der WINEGG-Objektseite https://www.winegg.at/de/immobilien/wohnen-1030-wien-wassergasse-zimmer-3-id-39744/ liegt 7 m vom Stadt-Wien-Adresspunkt Wassergasse 34 (Nachbarn 32/36 17-22 m). Expose/Grundriss (justimmo-PDF) ohne Adresse; Stadt-Wien-Baujahr Nr. 34: 1883 statt Makler-Angabe ca. 1912.",
+  "ergebnis": "Wassergasse 34, Top 6 (1. OG) – genau: WINEGG-Grundriss-Titelblock nennt 'Wassergasse 34, 1030 Wien, TOP 6' (https://www.winegg.at/assets/immobilien/5818c1cdf58c/Grundriss.jpg). Geprueft: hs-immo Objektseite + Expose-PDF (nur Strasse; Kartenpunkt dort = Strassengeokodierung Ecke Erdbergstrasse), WINEGG-Seite + Fassadenfoto, Kartenpunkt WINEGG im Gebaeude Nr. 34.",
   "datum": "2026-11-01"
  },
  "wh-1839687078": {
   "ids": [
    "wh-1839687078",
-   "is-381304266170"
+   "is-381304266170",
+   "wh-1382294468",
+   "is-030234522222"
   ],
   "titel": "1897 trifft 2026 - Altbaucharme in neuer Perfektion",
-  "ergebnis": "eingegrenzt: Seitengasse der Landstraßer Hauptstraße nahe U3 Kardinal-Nagl-Platz; Kandidaten mit Baujahr 1897 laut Stadt-Wien-OGD (GEBAEUDEINFOOGD, nur ca. 20 % der Häuser mit Baujahr): Barichgasse 4, Barichgasse 2/Landstraßer Hauptstraße 108, Eslarngasse 2/Landstraßer Hauptstraße 122; Top unbekannt (1. OG hofseitig). Geprüft: Schwester-Inserate (keine), Fotos (Fassade ohne Hausnummer, keine Grundrisse), Golden Home (goldenhome.at ohne Objektliste), Websuche ohne Treffer.",
+  "ergebnis": "Ungefähr: östlich der Landstraßer Hauptstraße zwischen Apostelgasse 19-21, Hainburger Straße 44-56 und Keinergasse (±150 m), 1. OG Hofseite. Neu: Schwester-Inserat von Wolke 7 (wh-1382294468, is-030234522222) mit 265-m-Versatzkreis. Kein Beleg mit Hausnummer. Geprüft: goldenhome.at (keine Objektseiten), w7.immo (Objekt nicht gelistet), IS24, Fassadenfoto (Hausnummer nicht lesbar), Gebäudeinfo (Baujahr bei den meisten Häusern leer), OSM-Entfernungsangaben (keine Unterscheidung möglich). Barichgasse 4 eher unwahrscheinlich (611 m von der IS24-Kreismitte).",
   "datum": "2026-11-01"
  },
  "wh-1129339712": {
@@ -5084,7 +5086,7 @@
    "wh-1635838126"
   ],
   "titel": "++ Großzügige 4-Zimmer auf ganzer Etage ++ nahe Rochusmarkt",
-  "ergebnis": "ungefähr Keinergasse (bei U3 Kardinal-Nagl-Platz), Top 8, 2. Stock (Grundriss). Geprüft: Schwestern keine, Grundriss ohne Adresse, Fotos (Wendeltreppe, Altbau gegenüber), grabner-immobilien.at (Wix, kein Objekt), weekend.at OBGC2026041313080746110eeb782a5 (nur 1030 Wien); Ableitung aus '160 m zur U3' + Westausrichtung zur Gasse",
+  "ergebnis": "Ungefähr: Keinergasse 25, Top 8, 2. Stock (ganze Etage). Abgleich der Grundriss-Maße mit dem Gebäudegrundriss der Stadt Wien und Abstand 160 m zum U3-Ausgang Keinergasse. Kein Beleg mit Hausnummer. Geprüft: grabner-immobilien.at (keine Objektseiten), weekend.at (justimmo, ohne Dokumente oder Koordinaten), IS24-Suche, Orthofoto, alle Keinergasse-Häuser im Umkreis von 320 m nach Maßen.",
   "datum": "2026-11-01"
  },
  "is-522310165379": {
@@ -5313,7 +5315,7 @@
    "fm-5615172"
   ],
   "titel": "#SQ - MODERNE ALTBAUWOHNUNG IN DER APOSTELGASSE - 5 ZIMMER",
-  "ergebnis": "Apostelgasse (Straße im Titel), Hausnummer nicht gefunden: Gründerzeithaus Baujahr ca. 1900, 1. Stock. Geprüft: Schwestern nur dieselbe Gruppe (is-056669773322, fm-5615172), Grundriss (Schriftfeld nur \"Wohnungsrenovierung 22.04.2020, Christian Jindra\"), Fassadenfoto, stadtquartier.at (keine Objektliste), weekend.at OBGC202411050947130485600f2cc4f.",
+  "ergebnis": "Wahrscheinlich Apostelgasse 22, 1. Stock, linke (südliche) Haushälfte straßenseitig (Top unbekannt), ungefähr/hoch. Geprüft: Makler-Objektseite stadtquartier.at Objekt Nr. 19788 (keine Adresse, Exposé-PDF 404), Grundriss-Titelblock (nur 'Fam. ..., Wohnungsrenovierung, Christian Jindra, 22.04.2020'), Fassadenfoto (Nachbar-Hausnummer '2..', 4M-Verkaufsschild), Fensterblick auf Nachkriegsbau, FMZK/Adresspunkte/Gebäudeinfo Wien, Orthofoto (Gaupen Nr. 22 groß, Nr. 24 kleine Reihe). Alternativen 20/24 weniger passend. https://www.stadtquartier.at/immobilien/sq-moderne-altbauwohnung-in-der-apostelgasse-5-zimmer/",
   "datum": "2026-11-01"
  },
  "wh-2085509321": {
@@ -5360,7 +5362,7 @@
    "wh-1733560995"
   ],
   "titel": "Anlage - Apartments/Atelier/Büro/Schauraum zentrumsnah - dzt. 3,67% Rendite",
-  "ergebnis": "Ecke Bechardgasse/Kegelgasse (handbeschrifteter Grundriss: \"Eingang Bechardg.\" / \"Eingang Kegelgasse\"), Souterrainlokal im Eckhaus Bj. 1908; entweder Bechardgasse 18 = Kegelgasse 7 oder Bechardgasse 17 = Kegelgasse 8 (beide Gründerzeit-Eckhäuser laut OGD). Cardo-Website (cardo.at) führt das Objekt nicht mehr; Schwestern keine.",
+  "ergebnis": "Bechardgasse 18 (= Kegelgasse 7), Souterrainlokal, Top unbekannt. Grundriss nennt Eingang Bechardgasse + Eingang Kegelgasse (https://storage.justimmo.at/file/6eVKuC9sVTpct7hSOSiIJL.jpg); einziges Eckhaus mit runder Ecke (Foto, FMZK, Orthofoto) und 5 Geschossen an dieser Kreuzung. Geprueft: Cardo-Objektseite + Expose (nur '1030 Wien', Kartenpunkt fuzzy 261 m), alle 4 Eckhaeuser (18/7, 17/8, 20/6, 15/9-13).",
   "datum": "2026-11-01"
  },
  "is-347813281218": {
