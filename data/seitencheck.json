@@ -1,19 +1,21 @@
 {
- "datum": "2026-10-31",
- "zeit": "05:16",
- "ok": true,
- "probleme": [],
+ "datum": "2026-11-01",
+ "zeit": "05:13",
+ "ok": false,
+ "probleme": [
+  "keine Wohnungen in der Liste"
+ ],
  "werte": {
-  "listings_mb": 2.7,
-  "eier": 49,
-  "karten": 13,
-  "bilder_geladen": 13,
-  "dom": 1375,
-  "heap_mb": 26,
-  "eier_gescrollt": 49,
-  "karten_gescrollt": 13,
-  "bilder_geladen_gescrollt": 13,
-  "dom_gescrollt": 1375,
-  "heap_mb_gescrollt": 26
+  "listings_mb": 2.72,
+  "eier": 34,
+  "karten": 0,
+  "bilder_geladen": 0,
+  "dom": 851,
+  "heap_mb": 29,
+  "eier_gescrollt": 34,
+  "karten_gescrollt": 0,
+  "bilder_geladen_gescrollt": 0,
+  "dom_gescrollt": 851,
+  "heap_mb_gescrollt": 29
  }
 }
