@@ -26,11 +26,9 @@ VOTIVKIRCHE = (48.215414, 16.359140)
 GAUSSPLATZ = (48.226238, 16.369830)
 BURGTHEATER = (48.210337, 16.361477)
 ANKERUHR = (48.210761, 16.373675)
-KUNSTHAUS = (48.211134, 16.393276)        # Untere Weißgerberstraße 13
-FAELSCHERMUSEUM = (48.207738, 16.393268)  # Löwengasse 28
-PACKHAUS = (48.206635, 16.390504)         # Marxergasse 24
-ZARTL = (48.205551, 16.394758)            # Café Zartl, Rasumofskygasse 7
-GASTHAUS_WILD = (48.210622, 16.389834)    # Radetzkyplatz 1
+MITTE_LANDSTRASSE = (48.20606, 16.38459)   # Station Wien Mitte-Landstraße (OGD)
+HUNDERTWASSERHAUS = (48.20738, 16.39394)
+RADETZKYPLATZ = (48.21086, 16.390449)
 SCREENSHOTS = {
     "leopoldstadt": {
         "refs": [((423, 204), FRIEDENSBRUECKE), ((530, 521), ROSSAUER_LAENDE),
@@ -46,22 +44,15 @@ SCREENSHOTS = {
                  (720, 740), (700, 705), (670, 680), (655, 665), (660, 640), (645, 620),
                  (635, 595), (640, 565), (660, 535), (690, 510), (715, 480), (760, 460)],
     },
-    # Saads Kritzeleien vom 2026-11-01 (Satellitenbild, "da oben auf jeden Fall nicht"): das Weißgerberviertel
-    # vom Donaukanal bis etwa Lorbeergasse/Hetzgasse und die Löwengasse um Hetzgasse/Kegelgasse
+    # Saads Umriss vom 2026-11-01 abends auf der eigenen Karte (ersetzt die zwei groben Kritzeleien davor):
+    # Weißgerberviertel vom Donaukanal bis Lorbeergasse, über Hetzgasse/Löwengasse bis unter das Hundertwasserhaus
     "weissgerber_rot": {
-        "gedreht": True,
-        "refs": [((848, 268), KUNSTHAUS), ((828, 669), FAELSCHERMUSEUM), ((621, 820), PACKHAUS), ((970, 945), ZARTL)],
-        "line": [(340, 80), (560, 85), (760, 100), (870, 160), (890, 230), (850, 280), (900, 330), (890, 380),
-                 (1040, 395), (1085, 450), (1000, 470), (990, 515), (940, 560), (940, 600), (900, 625), (860, 590),
-                 (830, 500), (700, 495), (600, 500), (470, 500), (450, 480), (380, 450), (320, 400), (250, 350),
-                 (250, 310), (240, 250), (195, 160), (260, 120)],
-    },
-    "loewengasse_rot": {
-        "gedreht": True,
-        "refs": [((787, 10), KUNSTHAUS), ((764, 578), FAELSCHERMUSEUM), ((467, 792), PACKHAUS), ((962, 970), ZARTL),
-                 ((393, 100), GASTHAUS_WILD)],
-        "line": [(610, 380), (780, 370), (880, 400), (1020, 405), (1060, 580), (1000, 700), (900, 720), (870, 740),
-                 (800, 800), (760, 780), (760, 690), (790, 640), (790, 560), (720, 480), (640, 420)],
+        "refs": [((178, 662), MITTE_LANDSTRASSE), ((722, 546), HUNDERTWASSERHAUS), ((530, 282), RADETZKYPLATZ),
+                 ((422, 178), (48.211557, 16.38807)), ((372, 290), (48.210402, 16.387556))],  # Dißler-, Kolonitzgasse
+        "line": [(230, 150), (270, 105), (330, 80), (420, 65), (500, 58), (560, 60), (600, 75), (660, 115), (720, 160),
+                 (770, 210), (800, 260), (810, 320), (808, 380), (800, 430), (815, 470), (820, 500), (800, 520),
+                 (760, 560), (720, 590), (690, 612), (675, 600), (690, 560), (700, 520), (680, 470), (650, 430),
+                 (620, 400), (560, 385), (480, 380), (400, 375), (330, 355), (285, 320), (265, 270), (250, 210)],
     },
     "innere_stadt": {
         "refs": [((829, 182), SCHOTTENRING), ((152, 290), VOTIVKIRCHE),
@@ -120,13 +111,9 @@ ZONES = [
     # (Saad: max. 10 min zu Fuß; Polygon aus tools/fussweg_zone.py)
     {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
-    # streng (auch ungefähre Lagen raus) und nicht auf der Karte gezeichnet: beides Saads Wunsch 2026-11-01
-    {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel Nord (zu weit zur U-Bahn)",
-     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau",
-     "streng": True, "verstecken": True},
-    {"id": "loewengasse_rot", "rolle": "ausgeschlossen", "name": "Löwengasse/Hundertwasserhaus (zu weit zur U-Bahn)",
-     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau",
-     "streng": True, "verstecken": True},
+    # streng: auch ungefähre Lagen darin sind raus (Saad 2026-11-01); wird wie die anderen roten Zonen gezeichnet
+    {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel / Hundertwasserhaus (zu weit zur U-Bahn)",
+     "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau", "streng": True},
     {"id": "alsergrund_rot", "rolle": "ausgeschlossen", "name": "Lichtental-Nord / Friedensbrücke",
      "nur_in_bezirk": 9, "puffer_m": 0},
     # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum

@@ -71,8 +71,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Portalen gescrapt; Inserate nur mit "3. Bezirk" sind grau mit Lage-Frage wie im 1./2.
   Seit 2026-11-01 abends zusätzlich nur, was zu Fuß höchstens 700 m von U Landstraße oder U Rochusgasse
   liegt (Saad: max. 10 min; tools/fussweg_zone.py, OSM-Fußweg-Routing -> geo/fussweg_landstrasse.geojson,
-  build_zones schneidet die Zone damit), dazu zwei rote Zonen nach Saads Kritzeleien (Weißgerberviertel Nord,
-  Löwengasse/Hundertwasserhaus).
+  build_zones schneidet die Zone damit), dazu eine rote Zone nach Saads Umriss (Weißgerberviertel vom Donaukanal
+  bis Lorbeergasse, Hetzgasse/Löwengasse bis unters Hundertwasserhaus). Sie gilt streng (`streng`: auch
+  ungefähre Lagen darin sind raus, nicht "im Zweifel drin" wie im 9./19.) und wird auf der Karte gezeigt.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
   und die blauen Zonen im 2. und 3. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet
