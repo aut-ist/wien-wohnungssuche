@@ -452,7 +452,14 @@
   "eckdaten": {
    "flaeche": 97
   },
-  "datum": "2026-10-25"
+  "datum": "2026-11-03",
+  "lage": {
+   "adresse": "Zuckerkandlgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nennt nur Zuckerkandlgasse, Hausnummer nicht gefunden (Bichlmaier, Baujahr 2002, HWB 88,9)"
+  }
  },
  "wh-2130774146": {
   "eckdaten": {
@@ -14373,5 +14380,80 @@
    "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
   },
   "datum": "2026-11-01"
+ },
+ "is-379333165602": {
+  "lage": {
+   "adresse": "Alliiertenstraße",
+   "sicherheit": "genau",
+   "begruendung": "\"Eigentumswohnung in der Alliiertenstraße\""
+  },
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 89.83
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "\"Ca. 90qm, teilweise mit Renovierungsbedarf\""
+  },
+  "datum": "2026-11-03"
+ },
+ "wh-1310874560": {
+  "lage": {
+   "adresse": "Sieveringer Straße",
+   "sicherheit": "genau",
+   "begruendung": "\"4-Zimmer-Wohnung in der Sieveringer Straße im 19. Wiener Gemeindebezirk\""
+  },
+  "datum": "2026-11-03"
+ },
+ "wh-888432019": {
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Erstbezug, Neubau Baujahr 2025 (Village im Dritten)"
+  },
+  "preis": {
+   "eigennutzer": 1032000,
+   "begruendung": "\"Kaufpreis zuzüglich 20 % USt\", Vorsorgewohnung: 860.000 netto + 20 % = 1.032.000"
+  },
+  "datum": "2026-11-03"
+ },
+ "wh-896948604": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
+  },
+  "datum": "2026-11-03"
+ },
+ "is-318198593061": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
+  },
+  "datum": "2026-11-03"
+ },
+ "fm-5773091": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
+  },
+  "datum": "2026-11-03"
+ },
+ "wh-2073677070": {
+  "lage": {
+   "adresse": "Zuckerkandlgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nennt nur Zuckerkandlgasse, Hausnummer nicht gefunden (Bichlmaier, Baujahr 2002, HWB 88,9)"
+  },
+  "datum": "2026-11-03"
  }
 }

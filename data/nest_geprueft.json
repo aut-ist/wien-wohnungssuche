@@ -5424,5 +5424,24 @@
   "titel": "Weitläufige Maisonette-Wohnung auf zwei Ebenen mit großzügigen Terrassen",
   "ergebnis": "Nestroygasse (1020, Karmeliterviertel), Hausnummer nicht gefunden: Maisonette 1./2. DG, Kellerabteil Nr. 26, Versteigerung (Schätzwert 1.060.000 €). Geprüft: Schwestern keine, Ediktsdatei-Liste Wien vom 01.11.2026 (kein Nestroygasse-Edikt, nur Praterstraße 17/50, Herminengasse 6 in 1020), zwangsversteigerung.at (Suche nur per JS), Websuche.",
   "datum": "2026-11-01"
+ },
+ "wh-896948604": {
+  "ids": [
+   "wh-896948604",
+   "is-318198593061",
+   "fm-5773091"
+  ],
+  "titel": "150-m²-Dachgeschosswohnung Währing (Wohnkader)",
+  "ergebnis": "Währinger Gürtel 79 laut Inseratstext (alle 3 Portale); Top unklar (2 spiegelverkehrte Penthäuser, Grundriss-Ordner nur ein Foto).",
+  "datum": "2026-11-03"
+ },
+ "wh-2073677070": {
+  "ids": [
+   "wh-2073677070",
+   "wh-958059229"
+  ],
+  "titel": "Maisonette Döbling Zuckerkandlgasse (Bichlmaier)",
+  "ergebnis": "unklar: nur Zuckerkandlgasse, keine Hausnummer. Geprüft: Schwesterinserate (keine mit HWB 88,9/fGEE 1,9 oder Bichlmaier außer den eigenen), Grundrisse (Ordner fehlt), Websuche 'Maisonette Zuckerkandlgasse 1190 97 m² 70 m² Bichlmaier' (ir.at, weekend.at, jamesedition: keine Hausnummer; ir.at nicht erreichbar).",
+  "datum": "2026-11-03"
  }
 }
