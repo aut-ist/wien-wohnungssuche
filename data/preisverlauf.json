@@ -2209,8 +2209,10 @@
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/familien-apartment-in-kutschkermarkt-naehe-1033362768/",
    "titel": "Familien-Apartment in Kutschkermarkt-Nähe",
    "status": "gruen",
-   "gruende": [],
-   "offline": false,
+   "gruende": [
+    "Nicht mehr online (zuletzt gesehen 03.11.)"
+   ],
+   "offline": true,
    "lat": 48.222677,
    "lon": 16.339778,
    "ungefaehr": false,
