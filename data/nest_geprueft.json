@@ -5443,5 +5443,57 @@
   "titel": "Maisonette Döbling Zuckerkandlgasse (Bichlmaier)",
   "ergebnis": "unklar: nur Zuckerkandlgasse, keine Hausnummer. Geprüft: Schwesterinserate (keine mit HWB 88,9/fGEE 1,9 oder Bichlmaier außer den eigenen), Grundrisse (Ordner fehlt), Websuche 'Maisonette Zuckerkandlgasse 1190 97 m² 70 m² Bichlmaier' (ir.at, weekend.at, jamesedition: keine Hausnummer; ir.at nicht erreichbar).",
   "datum": "2026-11-03"
+ },
+ "is-776900537341": {
+  "ids": [
+   "is-776900537341",
+   "wh-1424732942"
+  ],
+  "titel": "Lichtdurchflutete 4 Zimmer Dachgeschoß-Maisonette (Gentzgasse)",
+  "ergebnis": "unklar: Schwesterinserate (Immoladies + HWB 100) keine weiteren; Grundrisse-Ordner nur Widerrufsbelehrung ohne Adresse; Immoladies-Seite nicht erreichbar; Websuche 'Gentzgasse Dachgeschoß Maisonette 122,63 m² Immoladies' ohne Treffer. Bleibt Gentzgasse (ungefähr).",
+  "datum": "2026-11-04"
+ },
+ "wh-884565313": {
+  "ids": [
+   "wh-884565313",
+   "is-041771007143",
+   "fm-5774187"
+  ],
+  "titel": "RENOVIERTE ALTBAUWOHNUNG NÄHE AUGARTEN",
+  "ergebnis": "unklar: Schwesterinserate nur is-041771007143, fm-5774187 (ohne Adresse); Grundriss zeigt Top 8, 118,19 m², keine Adresse; willhaben-Region Rembrandtstraße; Websuche 'Dr. Gabriel Rembrandtstraße Top 8' ohne Treffer. Bleibt Rembrandtstraße (ungefähr).",
+  "datum": "2026-11-04"
+ },
+ "wh-1463069914": {
+  "ids": [
+   "wh-1463069914",
+   "fm-5774024"
+  ],
+  "titel": "Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz",
+  "ergebnis": "unklar: Etera; gleiche Wohnung wie wh-1985535235; Text nennt nur 2 min zu U3 Kardinal-Nagl-Platz, Billa im Haus; Punkt auf Kardinal-Nagl-Platz gesetzt (ungefähr). Keine Websuche.",
+  "datum": "2026-11-04"
+ },
+ "wh-1985535235": {
+  "ids": [
+   "wh-1985535235"
+  ],
+  "titel": "Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz",
+  "ergebnis": "unklar: gleiche Wohnung wie wh-1463069914 (Etera); Punkt auf Kardinal-Nagl-Platz (ungefähr).",
+  "datum": "2026-11-04"
+ },
+ "is-483201998404": {
+  "ids": [
+   "is-483201998404"
+  ],
+  "titel": "3-Zimmer-Wohnung im 3. Obergeschoss (Versteigerung)",
+  "ergebnis": "unklar: Zwangsversteigerung (Asyndrom), Nestroygasse laut Inserat, Gründerzeithaus mit 20 Wohnungen, DG 2013 ausgebaut; Grundriss-Ordner nur Logo; Websuche Versteigerung Nestroygasse ohne Treffer (Ediktsdatei nicht indexiert). Hausnummer unbekannt.",
+  "datum": "2026-11-04"
+ },
+ "is-918169726086": {
+  "ids": [
+   "is-918169726086"
+  ],
+  "titel": "Wohnung im 1. und 2. Dachgeschoss mit 2 Terrassen (Versteigerung)",
+  "ergebnis": "unklar: gleiches Haus wie is-483201998404 (Nestroygasse, 20 Wohnungen, DG 2013, Asyndrom); Hausnummer unbekannt.",
+  "datum": "2026-11-04"
  }
 }
