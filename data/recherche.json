@@ -1,1 +1,246 @@
-[]
+[
+ {
+  "id": "is-776900537341",
+  "ids": [
+   "is-776900537341",
+   "wh-1424732942"
+  ],
+  "titel": "Lichtdurchflutete 4 Zimmer Dachgeschoß-Maisonette mit Terrasse im Herzen des 18. Bezirks",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/lichtdurchflutete-4-zimmer-dachgeschoss-maisonette-mit-terrasse-im-herzen-des-18-bezirks-1424732942/",
+   "https://www.immobilienscout24.at/expose/6ae9a3ac16441879f2692ce8"
+  ],
+  "anbieter": "IMMOLADIES GmbH",
+  "adresse_im_inserat": "Gentzgasse",
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.22803,
+   16.3384
+  ],
+  "versatz_m": 0,
+  "preis": 774500,
+  "flaeche": 122.63,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 100.0,
+   "hwb_class": "C",
+   "fgee": 1.88,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/is-776900537341/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Videorundgang",
+    "url": "https://youtu.be/35EtKqrnyMo"
+   }
+  ],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "wh-884565313",
+  "ids": [
+   "wh-884565313",
+   "is-041771007143",
+   "fm-5774187"
+  ],
+  "titel": "RENOVIERTE ALTBAUWOHNUNG NÄHE AUGARTEN - PROVISIONSFREI",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/renovierte-altbauwohnung-naehe-augarten-provisionsfrei-884565313/",
+   "https://www.findmyhome.at/5774187",
+   "https://www.immobilienscout24.at/expose/6ae9c18e16441879f26977fc"
+  ],
+  "anbieter": "Dr. Alexandra Gabriel Realitätenvermittlungs GesmbH",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Karmeliterviertel / Augarten-Süd (26 m außerhalb) (Kartenpunkt bis zu 251 m versetzt)",
+  "punkt": [
+   48.21954,
+   16.370756
+  ],
+  "versatz_m": 251,
+  "preis": 780000.0,
+  "flaeche": 118.2,
+  "zimmer": 4,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "90",
+   "hwb_class": "C",
+   "fgee": "1,78",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-884565313/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "wh-1463069914",
+  "ids": [
+   "wh-1463069914",
+   "fm-5774024"
+  ],
+  "titel": "Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/tolle-dachgeschosswohnung-bei-u3-kardinal-nagl-platz-1463069914/",
+   "https://www.findmyhome.at/5774024"
+  ],
+  "anbieter": "Etera Immobilien Consulting KG",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.195917,
+   16.394105
+  ],
+  "versatz_m": 0,
+  "preis": 349000.0,
+  "flaeche": 86.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "132",
+   "hwb_class": "D",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1463069914/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "wh-1985535235",
+  "ids": [
+   "wh-1985535235"
+  ],
+  "titel": "Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/tolle-dachgeschosswohnung-bei-u3-kardinal-nagl-platz-1985535235/"
+  ],
+  "anbieter": "Etera Immobilien Consulting KG",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.192636,
+   16.400043
+  ],
+  "versatz_m": 0,
+  "preis": 349000.0,
+  "flaeche": 86.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "132",
+   "hwb_class": "D",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1985535235/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "is-483201998404",
+  "ids": [
+   "is-483201998404"
+  ],
+  "titel": "3-Zimmer-Wohnung im 3. Obergeschoss",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae9abc09e03d58b5bd69992"
+  ],
+  "anbieter": "Asyndrom Verlag GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 410000,
+  "flaeche": 90.48,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-483201998404/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "is-918169726086",
+  "ids": [
+   "is-918169726086"
+  ],
+  "titel": "Wohnung im 1. und 2. Dachgeschoss mit 2 Terrassen",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae9abc09e03d58b5bd69995"
+  ],
+  "anbieter": "Asyndrom Verlag GmbH",
+  "adresse_im_inserat": "Nestroygasse",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.220711,
+   16.374139
+  ],
+  "versatz_m": 0,
+  "preis": 1060000,
+  "flaeche": 201.52,
+  "zimmer": 8,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-918169726086/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ },
+ {
+  "id": "is-223212529281",
+  "ids": [
+   "is-223212529281"
+  ],
+  "titel": "Test bitte nicht Anfragen: Tolle Wohnung in Wien",
+  "plz": 1030,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae9afdc9e03d58b5bd69e23"
+  ],
+  "anbieter": "Mal Paktiaval GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.19834,
+   16.392676
+  ],
+  "versatz_m": 0,
+  "preis": 780000,
+  "flaeche": 140.0,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-223212529281/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-04"
+ }
+]
