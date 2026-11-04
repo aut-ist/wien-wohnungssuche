@@ -14455,5 +14455,51 @@
    "begruendung": "Inserat nennt nur Zuckerkandlgasse, Hausnummer nicht gefunden (Bichlmaier, Baujahr 2002, HWB 88,9)"
   },
   "datum": "2026-11-03"
+ },
+ "wh-884565313": {
+  "lage": {
+   "adresse": "Rembrandtstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "willhaben-Region \"REMBRANDTSTRASSE\"; Haus \"zwischen Augarten und Rossauer Kaserne\", 6 min zu Schottenring"
+  },
+  "datum": "2026-11-04"
+ },
+ "wh-1463069914": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.1962,
+   "lon": 16.3945,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"2min zu U3 Kardinal Nagl Platz\""
+  },
+  "datum": "2026-11-04"
+ },
+ "wh-1985535235": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.1962,
+   "lon": 16.3945,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"2min zu U3 Kardinal Nagl Platz\""
+  },
+  "datum": "2026-11-04"
+ },
+ "is-223212529281": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Testinserat ohne Lageangabe"
+  },
+  "datum": "2026-11-04"
+ },
+ "fm-5774024": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.1962,
+   "lon": 16.3945,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"2min zu U3 Kardinal Nagl Platz\""
+  },
+  "datum": "2026-11-04"
  }
 }
