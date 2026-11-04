@@ -297,6 +297,73 @@ def rot_vielleicht_draussen(lat, lon, radius):
     return txt.startswith("rote Zone") and txt not in streng and anteil > 0
 
 
+# ---------------------------------------------------------------- laufende Kosten, Versteigerung
+
+_EUR = r"(?:€|EURO|EUR|Euro)\s*([\d.]+(?:,\d{1,2})?)(?:\s*,-+)?"
+_KOSTEN_GESAMT = re.compile(r"(?i)(?:gesamt(?:belastung|kosten)?|insgesamt|summe|gesamte?\s+monatliche\s+kosten|bk-gesamtbelastung)"
+                            r"[^\n€]{0,40}?" + _EUR)
+_BK = re.compile(r"(?i)(?:betriebskosten|\bbk\b)(?:[- ]akonto)?[^\n€\d]{0,25}?" + _EUR + r"([^\n]{0,25})")
+_RUECKLAGE = re.compile(r"(?i)(?:reparaturr(?:ü|ue)cklage|r(?:ü|ue)cklage|reparaturfonds|erhaltungsbeitrag)(?!\s*per)"
+                        r"[^\n€\d]{0,25}?" + _EUR)
+_LIFT = re.compile(r"(?i)\blift(?:kosten|betriebskosten)?[^\n€\d]{0,10}?" + _EUR)
+_HEIZKOSTEN = re.compile(r"(?i)heizkosten \(exkl\. mwst\):\s*([\d.,]+)")
+
+
+def _eur(s):
+    s = s.strip().rstrip(".,-")
+    s = s.replace(".", "").replace(",", ".") if "," in s else (s.replace(".", "") if re.fullmatch(r"\d{1,3}(\.\d{3})+", s) else s)
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
+
+def laufende_kosten(gruppe):
+    """Laufende Monatskosten brutto (Betriebskosten + Rücklage + Lift, Heizkosten wenn ausgewiesen) einer Wohnung,
+    geschätzt aus allen Portalen: Portalfeld, im Text genannte Gesamtsumme oder Betriebskosten + Rücklage aus dem
+    Text; der höchste plausible Wert zählt (Portale lassen die Rücklage oft weg). -> {"betrag", "von"} oder None.
+    Wunsch 2026-11-04: über 700 € im Monat raus."""
+    kand = []
+    for r in gruppe:
+        text = f"{r.get('text') or ''}"
+        alt_is = r["id"].startswith("is-") and not r.get("monatlich_neu")  # alte, aufaddierte ImmoScout-Werte
+        if r.get("monatlich") and 30 < r["monatlich"] < 5000 and not alt_is:
+            heiz = [_eur(m.group(1)) for f in r.get("heizung_felder") or [] for m in [_HEIZKOSTEN.search(f)] if m]
+            extra = sum(h for h in heiz if h and h < 1000) * 1.2
+            kand.append((r["monatlich"] + extra, f"{r['quelle']}: monatliche Kosten" + (" + Heizkosten" if extra else "")))
+        for zeile in text.split("\n"):
+            if re.search(r"(?i)kaufpreis|provision|grunderwerb|grundbuch|vertragserricht|stand der|jährlich|pro jahr|p\.\s?a\.", zeile):
+                continue
+            for m in _KOSTEN_GESAMT.finditer(zeile):
+                v = _eur(m.group(1))
+                if v and 80 < v < 5000 and re.search(r"(?i)monat|mtl|vorschreibung|bk|betriebskost|rücklage|belastung", zeile + text[:0]):
+                    kand.append((v, f"{r['quelle']}: Text \"{zeile.strip()[:80]}\""))
+        bk = next(((_eur(m.group(1)), m.group(2)) for m in _BK.finditer(text) if _eur(m.group(1)) and 30 < _eur(m.group(1)) < 3000), None)
+        rl = next((_eur(m.group(1)) for m in _RUECKLAGE.finditer(text) if _eur(m.group(1)) and 5 < _eur(m.group(1)) < 1500), None)
+        if bk and rl:
+            netto = re.search(r"(?i)netto|zzgl|exkl|excl|plus", bk[1] or "")
+            lift = next((_eur(m.group(1)) for m in _LIFT.finditer(text) if _eur(m.group(1)) and _eur(m.group(1)) < 300), 0)
+            summe = (bk[0] + (lift or 0)) * (1.1 if netto else 1) + rl
+            kand.append((round(summe, 2), f"{r['quelle']}: Betriebskosten + Rücklage laut Text"))
+    if not kand:
+        return None
+    betrag, von = max(kand)
+    return {"betrag": round(betrag, 2), "von": von}
+
+
+VERSTEIGERUNG = re.compile(r"(?i)versteiger|zwangsversteiger|exekution|insolvenz|konkurs|masseverwalter|sanierungsverwalter|"
+                           r"\bauktion|bieterverfahren|bestbieter|mindestgebot|schätzgutachten|edikt")
+
+
+def versteigerung(r):
+    """Versteigerung, Insolvenzmasse, Bieterverfahren (Wunsch 2026-11-04: keine solchen Wohnungen) -> Fundstelle oder None."""
+    for teil in (r.get("titel") or "", r.get("text") or ""):
+        m = VERSTEIGERUNG.search(teil)
+        if m:
+            return teil[max(0, m.start() - 40):m.end() + 40].replace("\n", " ").strip()
+    return None
+
+
 def bewerten(r, rev):
     """-> dict mit status (gruen/grau/raus), gruende, lage, heizung, fragen (offene Prüfungen)."""
     out = {"gruende": [], "fragen": [], "ungefaehr": False, "lat": r.get("lat"), "lon": r.get("lon")}
@@ -313,6 +380,12 @@ def bewerten(r, rev):
     grund = filter_grund(r) or (None if r.get("preis") else "kein Preis angegeben")
     if grund:
         return {**out, "status": "raus", "art": "filter", "gruende": [grund]}
+    if (fund := versteigerung(r)) and not (rev.get("versteigerung") or {}).get("ok"):
+        return {**out, "status": "raus", "art": "filter", "gruende": [f"Versteigerung/Insolvenz: …{fund}…"]}
+    kosten = (rev.get("kosten") or {}).get("betrag") or (r.get("laufende_kosten") or {}).get("betrag")
+    if kosten and kosten > F["laufende_kosten_max"]:
+        return {**out, "status": "raus", "art": "filter",
+                "gruende": [f"laufende Kosten ca. {kosten:,.0f} € brutto im Monat (über {F['laufende_kosten_max']} €)".replace(",", ".")]}
     grau = []
     if not r.get("zimmer"):
         grau.append("Zimmeranzahl nicht angegeben")
@@ -672,6 +745,7 @@ def zusammenfuehren(gruppe, reviews):
         m["bilder"] = list(dict.fromkeys(b for r in gruppe for b in (r.get("bilder") or [])))[:40]
         m["freiflaeche"] = list(dict.fromkeys(f for r in gruppe for f in (r.get("freiflaeche") or [])))
         m["detail_am"] = next((r["detail_am"] for r in gruppe if r.get("detail_am")), None)
+    m["laufende_kosten"] = laufende_kosten(gruppe)
     m["erstmals"] = min(r["erstmals"] for r in gruppe)
     m["zuletzt"] = max(r.get("zuletzt") or r["erstmals"] for r in gruppe)
     m["preisverlauf"] = _preisverlauf(gruppe)
@@ -705,6 +779,10 @@ def zusammenfuehren(gruppe, reviews):
         p = [x["preis"] for x in revs if x.get("preis")]
         if p:
             rev["preis"] = p[0]
+        for k in ("kosten", "versteigerung"):  # von Hand geprüft (2026-11-04)
+            v = [x[k] for x in revs if x.get(k)]
+            if v:
+                rev[k] = v[0]
     return m, rev
 
 
@@ -915,7 +993,7 @@ def build():
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
-            "monatlich": r.get("monatlich"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
+            "monatlich": (r.get("laufende_kosten") or {}).get("betrag"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
             # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
@@ -998,7 +1076,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY

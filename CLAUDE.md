@@ -16,6 +16,15 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Monat -> Frage an die Routine); review `{"zustand": {..., "bezug_ok": true}}` hebt es auf. Die Heizung (`wohnungen/heizung.py`: Gas, kein Gas,
   unklar) schließt seit 2026-10-28 nichts mehr aus; oben gibt es den Schalter "ohne Gasheizung".
   Sonst gelten für Gaswohnungen alle Regeln wie für alle anderen.
+- Laufende Kosten (Wunsch 2026-11-04): über 700 € brutto im Monat raus (`laufende_kosten_max`), auch im Nest.
+  `laufende_kosten()` in run.py schätzt Betriebskosten + Rücklage + Lift (+ ausgewiesene Heizkosten) aus allen
+  Portalen: Portalfeld, im Text genannte Gesamtsumme oder Betriebskosten + Rücklage aus dem Text; der höchste
+  plausible Wert zählt (Portale lassen die Rücklage oft weg). Gas/Strom der eigenen Therme ist nicht dabei.
+  ImmoScout24 hat bis 2026-11-04 alle Kostenposten addiert (netto + USt + brutto = zwei- bis dreifach);
+  `monatliche_kosten()` nimmt jetzt "Monatliche Kosten", alte Werte ohne `monatlich_neu` zählen nicht.
+  Von Hand: review `{"kosten": {"betrag": N, "begruendung": ...}}`. Ebenfalls raus (gleicher Tag):
+  Versteigerung, Exekution, Insolvenz/Konkurs, Masseverwalter, Bieterverfahren (`versteigerung()`);
+  review `{"versteigerung": {"ok": true}}` hebt einen Fehlalarm auf.
 - Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (25) pro Morgen, `data/recherche.json` ist nach
   Vorrang sortiert (Nest, dann neueste; Gaswohnungen sind ganz normale Wohnungen); Grundrisse lädt der Workflow nur für diese.
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute

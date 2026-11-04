@@ -261,6 +261,17 @@ def _val(av):
     return (av or {}).get("value") if isinstance(av, dict) else None
 
 
+def monatliche_kosten(ex):
+    """Laufende Kosten brutto aus costs.running. Bis 2026-11-04 wurde alles addiert (netto + USt + brutto),
+    das ergab das Zwei- bis Dreifache; jetzt "Monatliche Kosten" (brutto), sonst die Bruttoposten."""
+    posten = {(c.get("label") or "").strip(): _num(c.get("price")) for c in (ex.get("costs") or {}).get("running") or []}
+    posten = {k: v for k, v in posten.items() if v}
+    if posten.get("Monatliche Kosten"):
+        return posten["Monatliche Kosten"]
+    brutto = [v for k, v in posten.items() if "netto" not in k.lower()]
+    return round(sum(brutto), 2) if brutto else None
+
+
 def detail(listing_id):
     """Volltext, Heizung, Energieausweis, Fotos eines Exposés (None, wenn offline)."""
     exid = _IDS.get(listing_id.removeprefix(PREFIX + "-"))
@@ -309,11 +320,7 @@ def detail(listing_id):
     kf = ex.get("keyfacts") or {}
     fl = kf.get("floor")
     stock = (fl.get("label") if isinstance(fl, dict) else None) or kf.get("floorLabel")
-    monatlich = None
-    laufend = [_num(c.get("price")) for c in (ex.get("costs") or {}).get("running") or []]
-    laufend = [x for x in laufend if x]
-    if laufend:
-        monatlich = round(sum(laufend), 2)
+    monatlich = monatliche_kosten(ex)
     bilder = [p["url"] for p in ex.get("pictures") or [] if p.get("url")][:30]
     frei = [{"BALCONY": "Balkon", "TERRACE": "Terrasse", "LOGGIA": "Loggia", "GARDEN": "Garten"}.get(o, o)
             for o in area.get("outdoorSpaces") or []]
@@ -328,6 +335,7 @@ def detail(listing_id):
         "zustand": ch.get("condition_type"),
         "stockwerk": stock,
         "monatlich": monatlich,
+        "monatlich_neu": True,  # nach der Korrektur vom 2026-11-04 berechnet (siehe monatliche_kosten)
         "adresse": strasse,
         "lat": None,             # Exposé enthält keine Koordinaten (nur die Suche liefert sie)
         "lon": None,

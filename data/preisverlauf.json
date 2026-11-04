@@ -239,7 +239,7 @@
    "baujahr": "2024",
    "bauart": "Neubau",
    "stockwerk": "2",
-   "monatlich": 263.63,
+   "monatlich": 323.5,
    "energie": {
     "hwb": "25,7",
     "hwb_class": "B",
@@ -1137,7 +1137,7 @@
    "baujahr": "2024",
    "bauart": "Neubau",
    "stockwerk": "3",
-   "monatlich": 247.07,
+   "monatlich": 309.92,
    "energie": {
     "hwb": "25,7",
     "hwb_class": "B",
@@ -2730,7 +2730,7 @@
    "baujahr": "ca. 2016",
    "bauart": "Altbau",
    "stockwerk": "DG",
-   "monatlich": 425.7,
+   "monatlich": 546.7,
    "energie": {
     "hwb": "38,9",
     "hwb_class": "B",
@@ -3091,11 +3091,13 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/moderne-gartenwohnung-erstbezug-provisionsfrei-1301343986/",
    "titel": "Moderne Gartenwohnung - Erstbezug | Provisionsfrei",
-   "status": "gruen",
-   "gruende": [],
+   "status": "raus",
+   "gruende": [
+    "Versteigerung/Insolvenz: …rmins wenden Sie sich bitte an Herrn Benedikt Wawra unter wawra@estina.at oder mobil…"
+   ],
    "offline": false,
-   "lat": 48.249503,
-   "lon": 16.309679,
+   "lat": 48.24187,
+   "lon": 16.327143,
    "ungefaehr": false,
    "preis": 899000.0,
    "preis_inserat": 810500.0,
@@ -3103,13 +3105,9 @@
    "flaeche": 82.13,
    "zimmer": 4,
    "plz": 1190,
-   "adresse": "Krottenbachstraße 182",
-   "lage": "19. Bezirk (aus Beschreibung: Krottenbachstraße 182)",
-   "heizung": {
-    "ergebnis": "kein_gas",
-    "von": "automatisch",
-    "text": "Heizung: Fußbodenheizung (willhaben); Heizung: Fussbodenheizung (willhaben); Heizungsart: Pelletheizung (willhaben)"
-   },
+   "adresse": "Krottenbachstraße",
+   "lage": null,
+   "heizung": null,
    "bild": "https://cache.willhaben.at/mmo/6/130/134/3986_285585778.jpg",
    "erstmals": "2026-10-25",
    "neu": false,
@@ -3217,9 +3215,9 @@
    ],
    "zustand": "Erstbezug",
    "guertel": {
-    "min": 25,
-    "ab": "Kleingartenverein Hackenberg",
-    "gehen": 4,
+    "min": 18,
+    "ab": "Gustav-Pick-Gasse",
+    "gehen": 2,
     "ziel": null,
     "ungefaehr": false
    },
@@ -5155,7 +5153,7 @@
    "baujahr": "1985",
    "bauart": "Neubau",
    "stockwerk": "Erdgeschoss",
-   "monatlich": 280.0,
+   "monatlich": null,
    "energie": {
     "hwb": null,
     "hwb_class": null,
@@ -5682,7 +5680,7 @@
    "baujahr": "1900",
    "bauart": "Altbau",
    "stockwerk": null,
-   "monatlich": 311.64,
+   "monatlich": 461.21,
    "energie": {
     "hwb": "40,8",
     "hwb_class": "B",
@@ -7387,7 +7385,7 @@
    "baujahr": null,
    "bauart": "Neubau",
    "stockwerk": "DG",
-   "monatlich": 427,
+   "monatlich": 427.0,
    "energie": {
     "hwb": 27.5,
     "hwb_class": null,
@@ -8498,7 +8496,7 @@
    "baujahr": null,
    "bauart": "Altbau",
    "stockwerk": null,
-   "monatlich": 262.52,
+   "monatlich": 283.28,
    "energie": {
     "hwb": "120,3",
     "hwb_class": "D",
@@ -9506,7 +9504,7 @@
    "baujahr": "2024",
    "bauart": "Neubau",
    "stockwerk": "4",
-   "monatlich": 361.73,
+   "monatlich": 402.15,
    "energie": {
     "hwb": "27,1",
     "hwb_class": "B",
