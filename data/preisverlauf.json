@@ -7392,8 +7392,8 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.22203,
-   "lon": 16.3377,
+   "lat": 48.221643,
+   "lon": 16.337223,
    "ungefaehr": false,
    "preis": 690000.0,
    "preis_inserat": null,
@@ -7401,8 +7401,8 @@
    "flaeche": 92.0,
    "zimmer": 3,
    "plz": 1180,
-   "adresse": "Hildebrandgasse",
-   "lage": "18. Bezirk",
+   "adresse": "Hildebrandgasse 15",
+   "lage": "18. Bezirk (aus Beschreibung: Hildebrandgasse 15)",
    "heizung": {
     "ergebnis": "gas",
     "von": "automatisch",
@@ -7472,9 +7472,9 @@
    ],
    "zustand": "Sehr gut/gut",
    "guertel": {
-    "min": 6,
+    "min": 7,
     "ab": null,
-    "gehen": 6,
+    "gehen": 7,
     "ziel": "Michelbeuern-AKH",
     "ungefaehr": false
    },
