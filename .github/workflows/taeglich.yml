@@ -81,6 +81,9 @@ jobs:
         run: |
           pip install -q pillow
           python tools/bild_hashes.py --max 80 && python run.py build || echo "Foto-Abgleich fehlgeschlagen"
+          # Grundrisse von Nest- und neuen Wohnungen groß speichern (data/grundriss_offen.json): die Routine
+          # sieht sie an und zeichnet abfotografierte/technische Pläne neu (REVIEW.md, Wunsch 2026-11-06)
+          python tools/grundrisse.py --zeichnen || echo "Grundrisse zum Zeichnen fehlgeschlagen"
       - name: Seitencheck (Karte wie am iPhone öffnen)
         if: steps.heute.outputs.fertig != '1'
         # Ergebnis in data/seitencheck.json, die Morgen-Routine meldet Probleme ganz oben
@@ -101,6 +104,7 @@ jobs:
           SICHER=$(mktemp -d)
           cp data/listings.json data/geocode_cache.json data/markierungen.json data/letzter_scrape.txt data/seitencheck.json data/bild_hashes.json "$SICHER"/ 2>/dev/null || true
           [ -d data/grundrisse ] && cp -r data/grundrisse "$SICHER"/
+          [ -d data/grundrisse_zeichnen ] && cp -r data/grundrisse_zeichnen "$SICHER"/
           for versuch in 1 2 3 4 5; do
             git add data docs
             git diff --cached --quiet || git commit -q -m "Daten $(TZ=Europe/Vienna date +%F)"
@@ -114,8 +118,9 @@ jobs:
           for f in ("listings.json", "markierungen.json", "letzter_scrape.txt", "seitencheck.json", "bild_hashes.json"):
               try: shutil.copyfile(f"{s}/{f}", f"data/{f}")
               except FileNotFoundError: pass
-          try: shutil.copytree(f"{s}/grundrisse", "data/grundrisse", dirs_exist_ok=True)
-          except FileNotFoundError: pass
+          for d in ("grundrisse", "grundrisse_zeichnen"):
+              try: shutil.copytree(f"{s}/{d}", f"data/{d}", dirs_exist_ok=True)
+              except FileNotFoundError: pass
           cache = json.load(open("data/geocode_cache.json", encoding="utf-8"))
           cache.update(json.load(open(f"{s}/geocode_cache.json", encoding="utf-8")))
           json.dump(cache, open("data/geocode_cache.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

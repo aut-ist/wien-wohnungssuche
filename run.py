@@ -751,6 +751,81 @@ def _grundriss_nach_vorne(bilder):
     return [bilder[0], bester] + rest
 
 
+GR_PLAENE = DATA / "grundriss_plaene"
+GR_GEPRUEFT = DATA / "grundriss_geprueft.json"
+GR_OFFEN = DATA / "grundriss_offen.json"
+
+
+def _neue_grundrisse():
+    """Neu gezeichnete Grundrisse (Wunsch 2026-11-06): data/grundriss_plaene/ID.json -> docs/grundrisse/ID.svg.
+    Die Pläne schreibt die Routine bzw. Claude aus abfotografierten, technischen oder bekritzelten Originalen."""
+    from wohnungen.grundriss_svg import zeichnen
+    ziel = DOCS / "grundrisse"
+    plaene = []
+    for p in sorted(GR_PLAENE.glob("*.json")) if GR_PLAENE.exists() else []:
+        plan = load_json(p, {})
+        try:
+            svg = zeichnen(plan)
+        except Exception as e:
+            log(f"Grundriss {p.name} nicht zeichenbar: {e}")
+            continue
+        ziel.mkdir(exist_ok=True)
+        z = ziel / f"{p.stem}.svg"
+        if not z.exists() or z.read_text(encoding="utf-8") != svg:
+            z.write_text(svg, encoding="utf-8")
+        plaene.append({"ids": set(plan.get("ids") or []), "ersetzt": plan.get("ersetzt") or [],
+                       "url": f"grundrisse/{p.stem}.svg?v={hashlib.md5(svg.encode()).hexdigest()[:8]}"})
+    for z in ziel.glob("*.svg") if ziel.exists() else []:
+        if not (GR_PLAENE / f"{z.stem}.json").exists():
+            z.unlink()
+    return plaene
+
+
+def _mit_neuem_grundriss(ids, bilder, plaene):
+    """Neu gezeichneter Grundriss als zweites Foto, die hässlichen Originale (auch dasselbe Bild von anderen
+    Portalen, per Fingerabdruck) ganz ans Ende (Wunsch 2026-11-06)."""
+    plan = next((p for p in plaene if p["ids"] & set(ids)), None)
+    if not plan:
+        return bilder
+    hashes = _bild_hashes()
+    fps = [int(h["h"], 16) for u in plan["ersetzt"] if (h := hashes.get(u))]
+
+    def alt(u):
+        h = (hashes.get(u) or {}).get("h")
+        return u in plan["ersetzt"] or (h is not None and any(bin(int(h, 16) ^ y).count("1") <= 6 for y in fps))
+    alte, rest = [u for u in bilder if alt(u)], [u for u in bilder if not alt(u)]
+    return rest[:1] + [plan["url"]] + rest[1:] + alte
+
+
+def _grundriss_offen(karte, nest, korb, plaene):
+    """Nest- und neue Wohnungen mit Grundriss-Kandidaten, die noch niemand angesehen hat (data/grundriss_offen.json).
+    Die Routine entscheidet: schön lassen oder neu zeichnen (REVIEW.md). Kommt später ein neuer Plan dazu
+    (anderer Fingerabdruck), wird die Wohnung wieder vorgelegt."""
+    hashes = _bild_hashes()
+    geprueft = load_json(GR_GEPRUEFT, {})
+    offen = []
+    for w in karte:
+        if w["status"] == "raus" or w.get("offline") or not (set(w["ids"]) & nest or w.get("neu")):
+            continue
+        if set(w["ids"]) & korb and not w.get("korb_frei") and not set(w["ids"]) & nest:  # Papierkorb: nicht ansehen
+            continue
+        kand = [u for u in w["bilder"] if u.startswith("http") and ((hashes.get(u) or {}).get("g") or 0) >= 0.6]
+        if not kand:
+            continue
+        gesehen = [int(h, 16) for e in geprueft.values() if set(e.get("ids") or []) & set(w["ids"])
+                   for h in e.get("plaene") or []]
+        neu = [u for u in kand if not any(bin(int(hashes[u]["h"], 16) ^ y).count("1") <= 6 for y in gesehen)]
+        if gesehen and not neu:
+            continue
+        offen.append({"id": w["id"], "ids": w["ids"], "titel": w["titel"], "adresse": w.get("adresse"),
+                      "flaeche": w.get("flaeche"), "zimmer": w.get("zimmer"), "im_nest": bool(set(w["ids"]) & nest),
+                      "neu_gezeichnet": any(p["ids"] & set(w["ids"]) for p in plaene),
+                      "plaene": kand, "ordner": f"data/grundrisse_zeichnen/{w['id']}/"})
+    offen.sort(key=lambda e: not e["im_nest"])
+    save_json(GR_OFFEN, offen)
+    return offen
+
+
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
@@ -952,6 +1027,7 @@ def build():
     archiv = load_json(PREISARCHIV, {})
     sichtbar = load_json(SICHTBAR, {})  # Inserat -> erster Tag auf der Karte
     recherche = []
+    plaene = _neue_grundrisse()
     heute = dt.date.today()
     karte, pending, details = [], [], {}
     erster_lauf = min((r["erstmals"] for r in listings.values()), default=TODAY)
@@ -1050,7 +1126,8 @@ def build():
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
             "monatlich": (r.get("laufende_kosten") or {}).get("betrag"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
-            "bilder": _grundriss_nach_vorne(r.get("bilder") or ([r["bild"]] if r.get("bild") else [])),
+            "bilder": _mit_neuem_grundriss(r["ids"], _grundriss_nach_vorne(
+                r.get("bilder") or ([r["bild"]] if r.get("bild") else [])), plaene),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
             # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
             "guertel": ({**g, "ungefaehr": bool(b.get("landmarke"))}
@@ -1096,6 +1173,7 @@ def build():
     recherche.sort(key=lambda e: e["erstmals"], reverse=True)
     recherche.sort(key=lambda e: not e["im_nest"])
     save_json(RECHERCHE, recherche)
+    gr_offen = _grundriss_offen(karte, nest, korb, plaene)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
     ddir.mkdir(exist_ok=True)
@@ -1108,7 +1186,8 @@ def build():
         (DOCS / "geo").mkdir(exist_ok=True)
         shutil.copyfile(ROOT / "geo" / name, DOCS / "geo" / name)
     log(f"Karte: {zaehler['gruen']} passen, {zaehler['grau']} unklar, {zaehler['raus']} raus "
-        f"| {doppelt} Duplikate zusammengeführt | offene Prüfungen: {len(pending)} | Adress-Recherchen: {len(recherche)}")
+        f"| {doppelt} Duplikate zusammengeführt | offene Prüfungen: {len(pending)} | Adress-Recherchen: {len(recherche)}"
+        f" | Grundrisse ansehen: {len(gr_offen)}, neu gezeichnet: {len(plaene)}")
 
 
 # ---------------------------------------------------------------- reviews

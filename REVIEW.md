@@ -97,6 +97,22 @@ Eigennutzer bzw. Endnutzer. Steht er im Text ("Eigennutzerpreis: € 899.000", "
 Endnutzer"), trag ihn ein: `{"eigennutzer": 899000, "begruendung": "..."}`. Steht nur der
 Nettopreis, rechne +20 % USt. Ist der gezeigte Preis schon der Eigennutzerpreis, trag ihn ein.
 
+## Grundrisse neu zeichnen (seit 2026-11-06)
+`data/grundriss_offen.json` listet Nest- und neue Wohnungen mit Grundriss-Kandidaten, die noch niemand
+angesehen hat; der Workflow legt die Bilder groß nach `data/grundrisse_zeichnen/ID/` (`plaene.json`
+ordnet Datei -> URL). Sieh jedes Bild an:
+- **hässlich**: abfotografiert oder gescannt (schief, graues/gelbes Papier, Schatten, Knick), technischer
+  Einreich-/Bestandsplan mit Maßketten, Textmarker oder Handschrift, unscharf, mehrere Wohnungen auf einem Blatt.
+- **schön**: sauberer Vermarktungsplan (gerade, lesbar). **kein Grundriss**: Foto, Werbung, Energieausweis, Lageplan.
+Gibt es für die Wohnung mindestens einen schönen Plan, nichts zeichnen. Sonst, wenn ein hässlicher die Räume
+erkennen lässt: `data/grundriss_plaene/ID.json` schreiben (Format im Docstring von `wohnungen/grundriss_svg.py`:
+Räume als Polygone in Metern, geradegerückt, Namen und m² wie im Plan, Fenster, Türen; mehrere Ebenen
+nebeneinander mit Überschrift; `ersetzt` = URLs der hässlichen Pläne, die kommen ans Ende der Fotos; nichts
+erfinden), mit `python tools/grundriss_zeichnen.py` prüfen. In jedem Fall in `data/grundriss_geprueft.json`
+eintragen: `"ID": {"ids": [...], "ergebnis": "schoen" | "neu_gezeichnet" | "kein_grundriss" | "unlesbar",
+"am": "JJJJ-MM-TT", "plaene": [Fingerabdrücke "h" der angesehenen URLs aus data/bild_hashes.json]}`.
+Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
+
 ## Eintragen
 Viele auf einmal (bevorzugt): JSON-Liste in eine temporäre Datei schreiben, dann
 `python run.py review-file datei.json`:

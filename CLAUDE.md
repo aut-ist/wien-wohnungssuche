@@ -135,6 +135,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   `_bilder_der_gruppe` in run.py wirft Fotos mit <= 6 von 64 Bits Unterschied als doppelt raus,
   `_grundriss_nach_vorne` stellt das grundrissartigste Foto (Wert >= 0,6) an Stelle 2. Ohne Fingerabdrücke:
   je Makler nur das Inserat mit den meisten Fotos.
+- Neu gezeichnete Grundrisse (Wunsch 2026-11-06): gibt es für eine Nest- oder neue Wohnung nur abfotografierte,
+  technische oder bekritzelte Pläne, zeichnet Claude sie neu: `data/grundriss_plaene/ID.json` (Räume in Metern,
+  Format in `wohnungen/grundriss_svg.py`) -> `run.py build` zeichnet `docs/grundrisse/ID.svg`, zeigt es als
+  zweites Foto und schiebt die Originale (`ersetzt`, auch dieselben Bilder anderer Portale) ans Ende.
+  Wer noch dran ist: `data/grundriss_offen.json` (build), Bilder groß in `data/grundrisse_zeichnen/ID/`
+  (`tools/grundrisse.py --zeichnen` im Workflow), erledigt in `data/grundriss_geprueft.json`; Ablauf für die
+  Routine in REVIEW.md. Vorschau als PNG: `python tools/grundriss_zeichnen.py ID --png datei.png`.
 - Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Street View
   startet am nächsten Straßenpunkt vor dem Haus mit Blick aufs Haus (`strassenblick` in
   wohnungen/geocode.py, Cache `data/strassenblick_cache.json`); am Hauspunkt selbst zeigt Google

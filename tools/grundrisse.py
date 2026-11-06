@@ -4,6 +4,8 @@ sie gut lesbar ab – dort steht oft ein Schriftfeld mit Projekt und Adresse. F�
     python tools/grundrisse.py WOHNUNGS-ID [ZIELORDNER]
     python tools/grundrisse.py --recherche    für alle in data/recherche.json nach data/grundrisse/ID/
                                               (alte Ordner werden entfernt; läuft im täglichen Workflow)
+    python tools/grundrisse.py --zeichnen     Pläne aus data/grundriss_offen.json nach data/grundrisse_zeichnen/ID/
+                                              (zum Ansehen und Neuzeichnen durch die Routine)
 """
 import io
 import json
@@ -59,7 +61,40 @@ def speichern(w, ziel, wid=None):
         print(f"{pfad}\t{s:.2f}\t{url}")
 
 
+def zum_zeichnen():
+    """Grundriss-Kandidaten der Wohnungen in data/grundriss_offen.json (von run.py build) groß nach
+    data/grundrisse_zeichnen/ID/ – dort sieht die Routine sie an und zeichnet hässliche neu (REVIEW.md).
+    Höchstens 15 Wohnungen pro Tag, je höchstens 6 Pläne."""
+    basis = ROOT / "data" / "grundrisse_zeichnen"
+    offen = json.loads((ROOT / "data" / "grundriss_offen.json").read_text(encoding="utf-8"))[:15]
+    ids = {e["id"] for e in offen}
+    if basis.exists():
+        for d in basis.iterdir():
+            if d.name not in ids:
+                shutil.rmtree(d)
+    for e in offen:
+        ziel = basis / e["id"]
+        if ziel.exists():
+            continue
+        ziel.mkdir(parents=True)
+        liste = []
+        for k, url in enumerate(e["plaene"][:6]):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+                    img = Image.open(io.BytesIO(r.read()))
+                    img.load()
+            except Exception:
+                continue
+            img.thumbnail((2000, 2000))
+            img.convert("RGB").save(ziel / f"{k:02d}.jpg", quality=88)
+            liste.append({"datei": f"{k:02d}.jpg", "url": url})
+        (ziel / "plaene.json").write_text(json.dumps(liste, indent=1), encoding="utf-8")
+        print(f"{ziel}: {len(liste)} Pläne")
+
+
 def main():
+    if sys.argv[1] == "--zeichnen":
+        return zum_zeichnen()
     daten = json.loads((ROOT / "docs" / "listings.json").read_text(encoding="utf-8"))["wohnungen"]
     if sys.argv[1] == "--recherche":
         basis = ROOT / "data" / "grundrisse"

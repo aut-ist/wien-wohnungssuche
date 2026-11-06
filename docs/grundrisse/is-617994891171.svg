@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1211" height="1295" viewBox="0 0 1211 1295" font-family="Helvetica, Arial, sans-serif">
+<rect width="1211" height="1295" fill="#ffffff"/>
+<polygon points="100.6,100.6 620.6,100.6 620.6,545.6 100.6,545.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="100.6,100.6 620.6,100.6 620.6,545.6 100.6,545.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="100.6,545.6 620.6,545.6 620.6,990.6 100.6,990.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="100.6,545.6 620.6,545.6 620.6,990.6 100.6,990.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="620.6,100.6 705.6,100.6 705.6,338.6 620.6,338.6" fill="#e6e6e2" stroke="none"/>
+<polygon points="620.6,100.6 705.6,100.6 705.6,338.6 620.6,338.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="705.6,100.6 1110.6,100.6 1110.6,338.6 705.6,338.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="705.6,100.6 1110.6,100.6 1110.6,338.6 705.6,338.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="810.6,338.6 1110.6,338.6 1110.6,563.6 810.6,563.6" fill="#f3e2c3" stroke="none"/>
+<polygon points="810.6,338.6 1110.6,338.6 1110.6,563.6 810.6,563.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="620.6,338.6 810.6,338.6 810.6,563.6 1110.6,563.6 1110.6,800.6 950.6,800.6 950.6,680.6 620.6,680.6" fill="#efefec" stroke="none"/>
+<polygon points="620.6,338.6 810.6,338.6 810.6,563.6 1110.6,563.6 1110.6,800.6 950.6,800.6 950.6,680.6 620.6,680.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="620.6,680.6 860.6,680.6 860.6,835.6 620.6,835.6" fill="#dcecf3" stroke="none"/>
+<polygon points="620.6,680.6 860.6,680.6 860.6,835.6 620.6,835.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="860.6,680.6 950.6,680.6 950.6,835.6 860.6,835.6" fill="#dcecf3" stroke="none"/>
+<polygon points="860.6,680.6 950.6,680.6 950.6,835.6 860.6,835.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<line x1="100.6" y1="145.6" x2="100.6" y2="245.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="100.6" y1="145.6" x2="100.6" y2="245.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="100.6" y1="385.6" x2="100.6" y2="490.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="100.6" y1="385.6" x2="100.6" y2="490.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="100.6" y1="590.6" x2="100.6" y2="695.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="100.6" y1="590.6" x2="100.6" y2="695.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="100.6" y1="830.6" x2="100.6" y2="935.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="100.6" y1="830.6" x2="100.6" y2="935.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1110.6" y1="175.6" x2="1110.6" y2="265.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1110.6" y1="175.6" x2="1110.6" y2="265.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1110.6" y1="360.6" x2="1110.6" y2="485.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1110.6" y1="360.6" x2="1110.6" y2="485.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1110.6" y1="595.6" x2="1110.6" y2="705.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1110.6" y1="595.6" x2="1110.6" y2="705.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1100.6" y1="800.6" x2="1010.6" y2="800.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="1100.6" y1="800.6" x2="1100.6" y2="710.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 1100.6 710.6 A 90.0 90.0 0 0 0 1010.6 800.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="620.6" y1="450.6" x2="620.6" y2="535.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="620.6" y1="450.6" x2="535.6" y2="450.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 535.6 450.6 A 85.0 85.0 0 0 0 620.6 535.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="165.6" y1="545.6" x2="240.6" y2="545.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="165.6" y1="545.6" x2="165.6" y2="470.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 165.6 470.6 A 75.0 75.0 0 0 1 240.6 545.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="315.6" y1="545.6" x2="240.6" y2="545.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="315.6" y1="545.6" x2="315.6" y2="470.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 315.6 470.6 A 75.0 75.0 0 0 0 240.6 545.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="810.6" y1="405.6" x2="810.6" y2="485.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="810.6" y1="405.6" x2="730.6" y2="405.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 730.6 405.6 A 80.0 80.0 0 0 0 810.6 485.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="795.6" y1="338.6" x2="720.6" y2="338.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="795.6" y1="338.6" x2="795.6" y2="413.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 795.6 413.6 A 75.0 75.0 0 0 1 720.6 338.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="625.6" y1="338.6" x2="700.6" y2="338.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="625.6" y1="338.6" x2="625.6" y2="413.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 625.6 413.6 A 75.0 75.0 0 0 0 700.6 338.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="780.6" y1="680.6" x2="850.6" y2="680.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="780.6" y1="680.6" x2="780.6" y2="610.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 780.6 610.6 A 70.0 70.0 0 0 1 850.6 680.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="868.6" y1="680.6" x2="942.6" y2="680.6" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="868.6" y1="680.6" x2="868.6" y2="606.6" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 868.6 606.6 A 74.0 74.0 0 0 1 942.6 680.6" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="360.6" y="318.4" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="360.6" y="352.8" font-size="25.7" fill="#555" text-anchor="middle">23,14 m²</text>
+<text x="360.6" y="763.4" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="360.6" y="797.8" font-size="25.7" fill="#555" text-anchor="middle">23,37 m²</text>
+<text x="663.1" y="216.2" font-size="22.5" font-weight="700" fill="#2b2b2b" text-anchor="middle">Abst.</text>
+<text x="663.1" y="241.0" font-size="18.5" fill="#555" text-anchor="middle">2,05 m²</text>
+<text x="908.1" y="214.9" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Kabinett</text>
+<text x="908.1" y="249.3" font-size="25.7" fill="#555" text-anchor="middle">9,64 m²</text>
+<text x="960.6" y="446.4" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Küche</text>
+<text x="960.6" y="480.8" font-size="25.7" fill="#555" text-anchor="middle">6,83 m²</text>
+<text x="715.6" y="515.9" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorraum</text>
+<text x="715.6" y="550.3" font-size="25.7" fill="#555" text-anchor="middle">12,36 m²</text>
+<text x="740.6" y="753.4" font-size="31.3" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="740.6" y="787.8" font-size="25.7" fill="#555" text-anchor="middle">3,97 m²</text>
+<text x="905.6" y="754.7" font-size="22.5" font-weight="700" fill="#2b2b2b" text-anchor="middle">WC</text>
+<text x="905.6" y="779.5" font-size="18.5" fill="#555" text-anchor="middle">1,41 m²</text>
+<text x="100.6" y="1111.2" font-size="36.0" font-weight="700" fill="#2b2b2b">Grundriss</text>
+<text x="100.6" y="1153.5" font-size="28.2" fill="#444">Wohnfläche ca. 81,57 m²</text>
+<text x="100.6" y="1192.6" font-size="21.9" fill="#888">Neu gezeichnet nach den Plänen im Inserat, Maße ungefähr. Originale am Ende der Fotos.</text>
+<rect x="100.6" y="1215.9" width="100.0" height="10" fill="#2f2f2f"/><rect x="200.6" y="1215.9" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="100.6" y="1252.1" font-size="20.4" fill="#666">0</text><text x="300.6" y="1252.1" font-size="20.4" fill="#666" text-anchor="end">2 m</text>
+</svg>
