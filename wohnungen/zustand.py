@@ -22,6 +22,9 @@ SANIERUNG_STARK = re.compile(
     r"|sanierungsobjekt|renovierungsobjekt|f[üu]r (handwerker|bastler)|handwerkerwohnung|abbruchreif"
     r"|rohdachboden|im rohbau|muss (komplett |vollständig |noch )?(saniert|renoviert) werden"
     r"|zu sanierende|sanierungsfall"
+    # Wunsch 2026-11-06: "zu modernisierende …", "unsanierte Wohnung" heißt renovierungsbedürftig
+    r"|zu (modernisierend|renovierend|sanierend)\w*|modernisierungsobjekt"
+    r"|(?<![a-zäöüß])un(saniert|renoviert|modernisiert)\w*|nicht (saniert|renoviert|modernisiert)e?"
     # teilsaniert/teilrenoviert: Rest muss man selbst machen (Wunsch: raus); "Dachteilsanierung" zählt nicht
     r"|(?<![a-zäöüß])teil\s*-?\s*(sanier|renovier|moderni)\w*|teilweise\s+(saniert|renoviert|modernisiert)"
     # belagsfertig: Böden/Fliesen/Bad fehlen noch -> Käufer muss selbst fertigstellen

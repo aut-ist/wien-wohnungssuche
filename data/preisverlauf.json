@@ -7831,8 +7831,10 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/l24-sophisticated-living-1424186158/",
    "titel": "L24 - SOPHISTICATED LIVING",
-   "status": "gruen",
-   "gruende": [],
+   "status": "raus",
+   "gruende": [
+    "Sanierung nötig: …m seltenen Angebot am Wiener Markt. Die Wohnungen werden im unsanierten Zustand verkauft und bieten damit maximale Gestaltungsfreih…"
+   ],
    "offline": false,
    "lat": 48.219045,
    "lon": 16.361159,
@@ -7845,11 +7847,7 @@
    "plz": 1090,
    "adresse": "Liechtensteinstraße 24",
    "lage": "9. Bezirk (aus Beschreibung: Liechtensteinstraße 24)",
-   "heizung": {
-    "ergebnis": "gas",
-    "von": "automatisch",
-    "text": "Heizung: Gasheizung (willhaben); Heizungsart: Gasheizung (willhaben); Energieträger: Gas (ImmoScout24)"
-   },
+   "heizung": null,
    "bild": "https://cache.willhaben.at/mmo/8/142/418/6158_576277321.jpg",
    "erstmals": "2026-10-25",
    "neu": false,
