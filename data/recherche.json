@@ -1,1 +1,68 @@
-[]
+[
+ {
+  "id": "is-797345707287",
+  "ids": [
+   "is-797345707287"
+  ],
+  "titel": "Stilvolle 3 Zimmer Residenz in Döbling mit großzügigem Wohngefühl",
+  "plz": 1190,
+  "links": [
+   "https://www.immobilienscout24.at/expose/69b03bc6bf64c23eab7bf784"
+  ],
+  "anbieter": "WOLF & SOHN Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.235286,
+   16.353529
+  ],
+  "versatz_m": 0,
+  "preis": 579000.0,
+  "flaeche": 77.0,
+  "zimmer": 3,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-797345707287/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "is-432281292957",
+  "ids": [
+   "is-432281292957"
+  ],
+  "titel": "Altbaujuwel nahe Prater &amp; Augarten – Stilvolle 4-Zimmer-Wohnung mit Balkon",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6578c8c9e472d5fc06cc6e5f"
+  ],
+  "anbieter": "Hösch Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 2. Bezirk bekannt",
+  "punkt": [
+   48.221839,
+   16.382353
+  ],
+  "versatz_m": 0,
+  "preis": 649000.0,
+  "flaeche": 97.0,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 107.1,
+   "hwb_class": "D",
+   "fgee": 1.62,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/is-432281292957/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-25"
+ }
+]
