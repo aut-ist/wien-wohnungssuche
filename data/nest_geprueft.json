@@ -5495,5 +5495,24 @@
   "titel": "Wohnung im 1. und 2. Dachgeschoss mit 2 Terrassen (Versteigerung)",
   "ergebnis": "unklar: gleiches Haus wie is-483201998404 (Nestroygasse, 20 Wohnungen, DG 2013, Asyndrom); Hausnummer unbekannt.",
   "datum": "2026-11-04"
+ },
+ "ds-15295560": {
+  "ids": [
+   "ds-15295560",
+   "wh-1140736197",
+   "wh-1144205016"
+  ],
+  "titel": "Provisionsfreie Terrassenmaisonette mit Grünblick im 18. Bezirk",
+  "ergebnis": "Hildebrandgasse 15 (genau): derStandard-Inserat ds-15295560 nennt die Adresse; Grundriss zeigt Maisonette-Ebene mit Terrassen, passt zur Beschreibung. Privatverkäufer, kein Makler/Bauträger",
+  "datum": "2026-11-06"
+ },
+ "wh-1822495781": {
+  "ids": [
+   "wh-1822495781",
+   "is-554650654484"
+  ],
+  "titel": "1030 Wien zu modernisierende 89 m²-Eigentumswohnung | 3,5 Zimmer | Balkon",
+  "ergebnis": "unklar: Sister-Inserate: keine (kein HWB, Makler PLENUS ohne weitere Treffer); Grundriss (2 Bilder) ohne Adresse im Schriftfeld; plenus-immobilien.at: Inserat nicht auffindbar; Websuche 'PLENUS Immobilien 1030 Wien 88,9 m² 3,5 Zimmer Fasanviertel' ohne Treffer. Text: Fasanviertel, Tram 18 Heinrich-Drimmel-Platz",
+  "datum": "2026-11-06"
  }
 }

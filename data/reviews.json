@@ -14501,5 +14501,43 @@
    "begruendung": "\"2min zu U3 Kardinal Nagl Platz\""
   },
   "datum": "2026-11-04"
+ },
+ "wh-1822495781": {
+  "lage": {
+   "adresse": "Fasangasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im Fasanviertel des 3. Bezirks\", Tram 18 Haltestelle Heinrich-Drimmel-Platz, Einkauf entlang Fasangasse/Rennweg"
+  },
+  "datum": "2026-11-06"
+ },
+ "ds-15295560": {
+  "lage": {
+   "adresse": "Hildebrandgasse 15",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "derStandard-Inserat nennt Hildebrandgasse 15 (1180)"
+  },
+  "datum": "2026-11-06"
+ },
+ "wh-1140736197": {
+  "lage": {
+   "adresse": "Hildebrandgasse 15",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie ds-15295560, dort Hildebrandgasse 15"
+  },
+  "datum": "2026-11-06"
+ },
+ "wh-1144205016": {
+  "lage": {
+   "adresse": "Hildebrandgasse 15",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie ds-15295560, dort Hildebrandgasse 15"
+  },
+  "datum": "2026-11-06"
  }
 }
