@@ -574,18 +574,19 @@ async function ladeGebiete() {
 }
 
 /* ---------- Filtern ---------- */
-function passtFilter(w) {
+function passtFilter(w, imNest = false) {
   if (filter.preis && w.preis > filter.preis) return false;
   if (filter.flaeche && w.flaeche && w.flaeche < filter.flaeche) return false;
   if (w.zimmer && !filter.zimmerwahl.includes(Math.min(Math.max(Math.floor(w.zimmer), 3), 5))) return false;  // unbekannte Zimmerzahl bleibt drin
   // Gürtel-Filter nur für 18./19. mit bekannter Zeit; 8./9. liegen ohnehin am/innerhalb des Gürtels
   if (filter.guertel && w.guertel && w.guertel.min > filter.guertel) return false;
   if (!filter.bezirke.includes(w.plz)) return false;
-  if (!filter.status.includes(w.status)) return false;
+  // im Nest bleiben ausgeschlossene (mit Grund) und schon angeschaute sichtbar; alle anderen Filter gelten (2026-11-06)
+  if (!imNest && !filter.status.includes(w.status)) return false;
   if (filter.ohneGas && w.heizung?.ergebnis === 'gas') return false;  // unklare Heizung bleibt drin
   if (filter.neu && !w.neu) return false;
   if (filter.freiflaeche && !(w.freiflaeche || []).length) return false;
-  if (filter.ungesehen && istGesehen(w)) return false;
+  if (!imNest && filter.ungesehen && istGesehen(w)) return false;
   return true;
 }
 // Ein Punkt kann mehrere Inserate (Portale) bündeln: markiert ist er, wenn irgendeines markiert ist
@@ -615,7 +616,7 @@ function sichtbar() {
   return {
     karte: basis,
     alle: basis.filter(w => !istGemerkt(w)),  // "Neue Nestle": was schon im Nest ist, steht dort
-    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w)),
+    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w) && passtFilter(w, true)),
     papierkorb: state.daten.filter(imPapierkorb),
   };
 }
