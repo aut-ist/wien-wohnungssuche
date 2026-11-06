@@ -1,1 +1,73 @@
-[]
+[
+ {
+  "id": "ds-15295560",
+  "ids": [
+   "ds-15295560",
+   "wh-1140736197",
+   "wh-1144205016"
+  ],
+  "titel": "Provisionsfreie Terrassenmaisonette mit Grünblick im 18. Bezirk",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/provisionsfrei-wunderschoene-terrassen-maisonette-mit-gruenblick-in-akh-naehe-1140736197/",
+   "https://immobilien.derstandard.at/detail/15295560"
+  ],
+  "anbieter": "privat",
+  "adresse_im_inserat": "Hildebrandgasse",
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.22203,
+   16.3377
+  ],
+  "versatz_m": 0,
+  "preis": 690000.0,
+  "flaeche": 92.0,
+  "zimmer": 3,
+  "stockwerk": "DG",
+  "energie": {
+   "hwb": 27.5,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15295560/",
+  "im_nest": true,
+  "dokumente": [],
+  "erstmals": "2026-10-25"
+ },
+ {
+  "id": "wh-1822495781",
+  "ids": [
+   "wh-1822495781",
+   "is-554650654484"
+  ],
+  "titel": "1030 Wien zu modernisierende 89 m²-Eigentumswohnung | 3,5 Zimmer | Balkon",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/1030-wien-zu-modernisierende-89-m-eigentumswohnung-3-5-zimmer-balkon-1822495781/",
+   "https://www.immobilienscout24.at/expose/6aec808977067a995b8ce290"
+  ],
+  "anbieter": "PLENUS Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.198761,
+   16.39848
+  ],
+  "versatz_m": 0,
+  "preis": 390000.0,
+  "flaeche": 88.9,
+  "zimmer": 3,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1822495781/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-06"
+ }
+]
