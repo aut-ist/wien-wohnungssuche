@@ -128,6 +128,13 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Top 39 + Nachbarwohnung) hatte die Routine nur als "Währinger Straße" eingetragen. Grundrisse:
   `tools/grundrisse.py` erkennt auch farbige Pläne (schwarze Mauern + große einfarbige Flächen);
   vorher fand es sie nicht, und die Routine schrieb "keine Grundrisse".
+- Fotos (Wunsch 2026-11-06): alle Fotos aller Portale, gleiche nur einmal, Grundriss als zweites Foto.
+  Die Suche liefert bei ImmoScout24/FindMyHome/sREAL/Raiffeisen nur 1-4 Vorschaubilder und hat bis 2026-11-06
+  die Fotos der Detailseite jeden Morgen überschrieben; jetzt bleibt die längere Liste. `tools/bild_hashes.py`
+  (pillow, im Workflow) speichert je Foto-URL Fingerabdruck und Grundriss-Wert in `data/bild_hashes.json`;
+  `_bilder_der_gruppe` in run.py wirft Fotos mit <= 6 von 64 Bits Unterschied als doppelt raus,
+  `_grundriss_nach_vorne` stellt das grundrissartigste Foto (Wert >= 0,6) an Stelle 2. Ohne Fingerabdrücke:
+  je Makler nur das Inserat mit den meisten Fotos.
 - Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Street View
   startet am nächsten Straßenpunkt vor dem Haus mit Blick aufs Haus (`strassenblick` in
   wohnungen/geocode.py, Cache `data/strassenblick_cache.json`); am Hauspunkt selbst zeigt Google

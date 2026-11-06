@@ -103,6 +103,11 @@ def _scrape_quelle(m, listings, gesehen, fehler, lock):
                             r.setdefault("preis_historie", []).append([TODAY, r["preis"]])
                         for k, v in s.items():
                             if v is not None and k not in ("lat", "lon", "lage_genauigkeit", "adresse", "flaeche", "zimmer"):
+                                # die Suche liefert oft nur 1-4 Vorschaubilder; die Fotos der Detailseite nicht
+                                # damit überschreiben (bis 2026-11-06 hatten ImmoScout24, FindMyHome, s REAL und
+                                # Raiffeisen deshalb fast nur ein Bild)
+                                if k == "bilder" and len(r.get("bilder") or []) > len(v or []):
+                                    continue
                                 r[k] = v
                     r["zuletzt"] = TODAY
                     r["aktiv"] = True
@@ -695,6 +700,57 @@ def _preisverlauf(gruppe):
     return sorted(punkte)
 
 
+_BILD_HASHES = None
+
+
+def _bild_hashes():
+    """Fingerabdrücke aus tools/bild_hashes.py (URL -> dHash), einmal geladen."""
+    global _BILD_HASHES
+    if _BILD_HASHES is None:
+        _BILD_HASHES = load_json(DATA / "bild_hashes.json", {})
+    return _BILD_HASHES
+
+
+def _bilder_der_gruppe(gruppe):
+    """Alle Fotos aller Portale, jedes nur einmal (Wunsch 2026-11-06: alle Fotos, auch den Grundriss).
+    Dasselbe Foto hat auf jedem Portal eine andere Adresse: mit Fingerabdruck (tools/bild_hashes.py) gilt ein
+    Foto als doppelt, wenn es sich in höchstens 6 von 64 Bits von einem schon gezeigten unterscheidet. Ohne
+    Fingerabdrücke je Makler nur das Inserat mit den meisten Fotos (derselbe Makler stellt überall dieselben
+    Fotos ein), Fotos anderer Makler kommen dazu."""
+    sortiert = sorted(gruppe, key=lambda r: -len(r.get("bilder") or []))
+    hashes = _bild_hashes()
+    alle = [u for r in sortiert for u in (r.get("bilder") or [])]
+    if alle and sum(u in hashes for u in alle) >= 0.8 * len(alle):
+        gezeigt, fps = [], []
+        for u in dict.fromkeys(alle):
+            h = (hashes.get(u) or {}).get("h")
+            if h is not None:
+                x = int(h, 16)
+                if any(bin(x ^ y).count("1") <= 6 for y in fps):
+                    continue
+                fps.append(x)
+            gezeigt.append(u)
+    else:
+        je_makler = {}
+        for r in sortiert:
+            makler = re.sub(r"[^a-z0-9]", "", ((r.get("anbieter") or "").split() or [""])[0].lower()) or r["id"]
+            je_makler.setdefault(makler, r.get("bilder") or [])
+        gezeigt = list(dict.fromkeys(b for bilder in je_makler.values() for b in bilder))
+    return _grundriss_nach_vorne(gezeigt)[:60]
+
+
+def _grundriss_nach_vorne(bilder):
+    """Den Grundriss als zweites Foto (Wunsch 2026-11-06), damit man ihn gleich sieht: das Foto mit dem
+    höchsten Grundriss-Wert aus tools/bild_hashes.py (ab 0,6, wie tools/grundrisse.py) oder "grundriss" im Namen."""
+    hashes = _bild_hashes()
+    wert = {u: (hashes.get(u) or {}).get("g") or (1.0 if "grundriss" in u.lower() else 0) for u in bilder}
+    bester = max(bilder[1:], key=lambda u: wert[u], default=None)
+    if len(bilder) < 3 or bester is None or wert[bester] < 0.6 or wert[bilder[0]] >= wert[bester]:
+        return bilder
+    rest = [u for u in bilder[1:] if u != bester]
+    return [bilder[0], bester] + rest
+
+
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
@@ -742,7 +798,7 @@ def zusammenfuehren(gruppe, reviews):
         m["heizung_felder"] = list(dict.fromkeys(
             f"{f} ({r['quelle']})" for r in gruppe for f in r.get("heizung_felder", [])))
         m["text"] = "\n\n".join(f"## ===== {r['quelle']} =====\n{r['text']}" for r in gruppe if r.get("text"))
-        m["bilder"] = list(dict.fromkeys(b for r in gruppe for b in (r.get("bilder") or [])))[:40]
+        m["bilder"] = _bilder_der_gruppe(gruppe)
         m["freiflaeche"] = list(dict.fromkeys(f for r in gruppe for f in (r.get("freiflaeche") or [])))
         m["detail_am"] = next((r["detail_am"] for r in gruppe if r.get("detail_am")), None)
     m["laufende_kosten"] = laufende_kosten(gruppe)
@@ -994,7 +1050,7 @@ def build():
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
             "monatlich": (r.get("laufende_kosten") or {}).get("betrag"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
-            "bilder": r.get("bilder") or ([r["bild"]] if r.get("bild") else []),
+            "bilder": _grundriss_nach_vorne(r.get("bilder") or ([r["bild"]] if r.get("bild") else [])),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
             # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
             "guertel": ({**g, "ungefaehr": bool(b.get("landmarke"))}
