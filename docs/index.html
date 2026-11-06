@@ -450,12 +450,11 @@ function markiere(liste, id, wert) {
 
 const STD_FILTER = { preis: null, flaeche: null, zimmerwahl: [3, 4, 5], guertel: null, bezirke: Object.keys(BEZIRKE).map(Number),
   status: ['gruen', 'grau'], ohneGas: false, neu: false, freiflaeche: false, ungesehen: false, sort: 'neu' };
-let filter = Object.assign({}, STD_FILTER, mein.filter || {});
-delete filter.zimmer;  // altes Feld "Zimmer ab" (bis 2026-10-28), jetzt Auswahl 3 / 4 / 5+
-// neu dazugekommene Bezirke (3. seit 2026-11-01) auch in einem gespeicherten Bezirksfilter anhaken
-for (const b of Object.keys(BEZIRKE).map(Number))
-  if (!(filter.bezirkeBekannt || [1010, 1020, 1080, 1090, 1180, 1190]).includes(b) && !filter.bezirke.includes(b)) filter.bezirke.push(b);
-filter.bezirkeBekannt = Object.keys(BEZIRKE).map(Number);
+// Filter gelten nur, bis die App geschlossen wird (Wunsch 2026-11-06): beim Neu-Öffnen wieder alles ohne Filter.
+// sessionStorage hält sie über ein Neuladen der Seite hinweg, nicht über das Schließen.
+const FILTER_KEY = 'nestle-filter';
+let filter = Object.assign({}, STD_FILTER, (() => { try { return JSON.parse(sessionStorage.getItem(FILTER_KEY)) || {}; } catch { return {}; } })());
+delete mein.filter;  // bis 2026-11-06 dauerhaft gespeichert
 const state = { daten: [], tab: 'alle', marker: {}, aktiv: null, bildIdx: 0, details: {} };
 
 /* ---------- Karte ---------- */
@@ -574,19 +573,18 @@ async function ladeGebiete() {
 }
 
 /* ---------- Filtern ---------- */
-function passtFilter(w, imNest = false) {
+function passtFilter(w) {
   if (filter.preis && w.preis > filter.preis) return false;
   if (filter.flaeche && w.flaeche && w.flaeche < filter.flaeche) return false;
   if (w.zimmer && !filter.zimmerwahl.includes(Math.min(Math.max(Math.floor(w.zimmer), 3), 5))) return false;  // unbekannte Zimmerzahl bleibt drin
   // Gürtel-Filter nur für 18./19. mit bekannter Zeit; 8./9. liegen ohnehin am/innerhalb des Gürtels
   if (filter.guertel && w.guertel && w.guertel.min > filter.guertel) return false;
   if (!filter.bezirke.includes(w.plz)) return false;
-  // im Nest bleiben ausgeschlossene (mit Grund) und schon angeschaute sichtbar; alle anderen Filter gelten (2026-11-06)
-  if (!imNest && !filter.status.includes(w.status)) return false;
+  if (!filter.status.includes(w.status)) return false;
   if (filter.ohneGas && w.heizung?.ergebnis === 'gas') return false;  // unklare Heizung bleibt drin
   if (filter.neu && !w.neu) return false;
   if (filter.freiflaeche && !(w.freiflaeche || []).length) return false;
-  if (!imNest && filter.ungesehen && istGesehen(w)) return false;
+  if (filter.ungesehen && istGesehen(w)) return false;
   return true;
 }
 // Ein Punkt kann mehrere Inserate (Portale) bündeln: markiert ist er, wenn irgendeines markiert ist
@@ -616,7 +614,8 @@ function sichtbar() {
   return {
     karte: basis,
     alle: basis.filter(w => !istGemerkt(w)),  // "Neue Nestle": was schon im Nest ist, steht dort
-    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w) && passtFilter(w, true)),
+    // die Filter gelten überall gleich: Karte, Neue Nestle und Nest (Wunsch 2026-11-06)
+    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w) && passtFilter(w)),
     papierkorb: state.daten.filter(imPapierkorb),
   };
 }
@@ -1283,7 +1282,10 @@ function filterUi() {
   document.getElementById('btnGas').setAttribute('aria-pressed', !!filter.ohneGas);
   document.querySelectorAll('#fExtra .chip').forEach(b => b.setAttribute('aria-pressed', !!filter[b.dataset.k]));
 }
-function filterGeaendert() { mein.filter = filter; sichern(); filterUi(); state.listeN = LISTE_SCHRITT; zeichne(); }
+function filterGeaendert() {
+  try { sessionStorage.setItem(FILTER_KEY, JSON.stringify(filter)); } catch { /* privat/gesperrt: dann nur bis zum Neuladen */ }
+  filterUi(); state.listeN = LISTE_SCHRITT; zeichne();
+}
 chipGruppe(document.getElementById('fBezirke'), Object.keys(BEZIRKE).map(Number), 'bezirke', v => BEZIRKE[v]);
 chipGruppe(document.getElementById('fZimmer'), [3, 4, 5], 'zimmerwahl', v => v === 5 ? '5 und mehr' : `${v} Zimmer`);
 chipGruppe(document.getElementById('fStatus'), ['gruen', 'grau', 'raus'], 'status',
