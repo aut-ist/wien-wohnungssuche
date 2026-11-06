@@ -1117,7 +1117,8 @@ def build():
         karte.append({
             "id": r["id"], "ids": r["ids"], "links": r["links"], "quelle": r["quelle"], "url": r["url"],
             "titel": r["titel"], "status": b["status"], "gruende": b["gruende"], "offline": offline, "lat": b["lat"], "lon": b["lon"],
-            "ungefaehr": b["ungefaehr"], "preis": b.get("preis") or r.get("preis"),
+            "ungefaehr": b["ungefaehr"], "radius": (r.get("lage_radius") or None) if b["ungefaehr"] else None,
+            "preis": b.get("preis") or r.get("preis"),
             "preis_inserat": r.get("preis") if b.get("preis") else None, "preis_hinweis": b.get("preis_hinweis"),
             "flaeche": r.get("flaeche") or eck.get("flaeche"),
             "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
