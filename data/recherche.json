@@ -1,66 +1,137 @@
 [
  {
-  "id": "is-797345707287",
+  "id": "wh-952722992",
   "ids": [
-   "is-797345707287"
+   "wh-952722992",
+   "is-710241845233",
+   "fm-5778195"
   ],
-  "titel": "Stilvolle 3 Zimmer Residenz in Döbling mit großzügigem Wohngefühl",
-  "plz": 1190,
+  "titel": "EIGENHEIM NÄHE AUGARTEN, 85 m2 Altbau, 3 Zimmer, Küche, Wannenbad, Parketten, 2. Liftstock, Obere Donaustraße",
+  "plz": 1020,
   "links": [
-   "https://www.immobilienscout24.at/expose/69b03bc6bf64c23eab7bf784"
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/eigenheim-naehe-augarten-85-m2-altbau-3-zimmer-kueche-wannenbad-parketten-2-liftstock-obere-donaustrasse-952722992/",
+   "https://www.findmyhome.at/5778195",
+   "https://www.immobilienscout24.at/expose/6aee454c9fa973ea5c4761a2"
   ],
-  "anbieter": "WOLF & SOHN Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "anbieter": "ROS Realitäten Vermittlung OEG",
+  "adresse_im_inserat": "Obere Donaustraße",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
   "punkt": [
-   48.235286,
-   16.353529
+   48.218285,
+   16.372688
   ],
   "versatz_m": 0,
-  "preis": 579000.0,
-  "flaeche": 77.0,
+  "preis": 425000.0,
+  "flaeche": 85.06,
   "zimmer": 3,
-  "stockwerk": "3",
+  "stockwerk": "2",
   "energie": {
-   "hwb": null,
-   "hwb_class": null,
+   "hwb": "95,6",
+   "hwb_class": "C",
    "fgee": null,
    "fgee_class": null
   },
-  "grundrisse": "data/grundrisse/is-797345707287/",
+  "grundrisse": "data/grundrisse/wh-952722992/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-07"
+ },
+ {
+  "id": "is-453798265250",
+  "ids": [
+   "is-453798265250"
+  ],
+  "titel": "*** ALLIÉ 13 – Viennese Living / Exklusiver Erstbezug in Bestlage – stilvolles Wohnen im Herzen des 2. Bezirks ***",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6aedac5ec9369bb8e16b5b0e"
+  ],
+  "anbieter": "LEVION Holding GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 2. Bezirk bekannt",
+  "punkt": [
+   48.226242,
+   16.384626
+  ],
+  "versatz_m": 0,
+  "preis": 878900,
+  "flaeche": 103.88,
+  "zimmer": 4,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": 26.1,
+   "hwb_class": "B",
+   "fgee": 0.69,
+   "fgee_class": "A+"
+  },
+  "grundrisse": "data/grundrisse/is-453798265250/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-07"
+ },
+ {
+  "id": "is-603985787826",
+  "ids": [
+   "is-603985787826"
+  ],
+  "titel": "Erstbezug, Neubau, Exklusive 4. Zi. Wohnung mit Balkon, Terrasse",
+  "plz": 1020,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6a54be3e12034290294f931b"
+  ],
+  "anbieter": "Dual Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 2. Bezirk bekannt",
+  "punkt": [
+   48.228592,
+   16.387299
+  ],
+  "versatz_m": 0,
+  "preis": 949000.0,
+  "flaeche": 126.79,
+  "zimmer": 4,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": 30.0,
+   "hwb_class": "B",
+   "fgee": 0.7,
+   "fgee_class": "A+"
+  },
+  "grundrisse": "data/grundrisse/is-603985787826/",
   "im_nest": false,
   "dokumente": [],
   "erstmals": "2026-10-25"
  },
  {
-  "id": "is-432281292957",
+  "id": "is-338971045228",
   "ids": [
-   "is-432281292957"
+   "is-338971045228",
+   "is-050912410946"
   ],
-  "titel": "Altbaujuwel nahe Prater &amp; Augarten – Stilvolle 4-Zimmer-Wohnung mit Balkon",
+  "titel": "Stilvoller Wiener Altbau mit großzügigem Raumgefühl in bester Leopoldstadt-Lage",
   "plz": 1020,
   "links": [
-   "https://www.immobilienscout24.at/expose/6578c8c9e472d5fc06cc6e5f"
+   "https://www.immobilienscout24.at/expose/6aedc8cdc9369bb8e16b8f45"
   ],
-  "anbieter": "Hösch Immobilien GmbH",
+  "anbieter": "Really Real Estate GmbH",
   "adresse_im_inserat": null,
   "lage": "Lage unklar, nur 2. Bezirk bekannt",
   "punkt": [
-   48.221839,
-   16.382353
+   48.209634,
+   16.407829
   ],
   "versatz_m": 0,
-  "preis": 649000.0,
-  "flaeche": 97.0,
-  "zimmer": 4,
-  "stockwerk": "1",
+  "preis": 499000,
+  "flaeche": 84.94,
+  "zimmer": null,
+  "stockwerk": "2",
   "energie": {
-   "hwb": 107.1,
+   "hwb": 130.7,
    "hwb_class": "D",
-   "fgee": 1.62,
-   "fgee_class": "C"
+   "fgee": 2.34,
+   "fgee_class": "D"
   },
-  "grundrisse": "data/grundrisse/is-432281292957/",
+  "grundrisse": "data/grundrisse/is-338971045228/",
   "im_nest": false,
   "dokumente": [],
   "erstmals": "2026-10-25"
