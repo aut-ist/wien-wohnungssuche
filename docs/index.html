@@ -683,7 +683,8 @@ const tageSeit = d => Math.max(0, Math.round((Date.now() - new Date(d + 'T12:00:
 function preisAenderung(w) {
   const v = w.preisverlauf || [];
   if (!v.length || !w.preis) return null;
-  const start = (v.find(x => x[2] === w.quelle) || v[0])[1], jetzt = w.preis_inserat ?? w.preis;  // Inseratspreise vergleichen
+  // der Verlauf enthält keine Anlegerpreise mehr (build), also mit dem Eigennutzerpreis vergleichen (2026-11-07)
+  const start = (v.find(x => x[2] === w.quelle) || v[0])[1], jetzt = w.preis;
   if (!start || Math.abs(jetzt - start) < 500) return null;
   return { start, diff: jetzt - start, prozent: (jetzt - start) / start * 100 };
 }
@@ -704,13 +705,15 @@ function preisverlaufHtml(w) {
   }).join('');
   const d = preisAenderung(w);
   const tage = w.online_seit ? tageSeit(w.online_seit) : null;
-  const portale = (w.links || []).filter(l => l.preis);
+  // ein Inserat mit dem Anlegerpreis (netto) ist kein anderer Preis, nur anders angeschrieben
+  const portale = (w.links || []).filter(l => l.preis && l.preis !== w.preis_inserat);
   const verschieden = new Set(portale.map(l => l.preis)).size > 1;
   return `<h3>Preisverlauf</h3><div class="info preisverlauf">
     ${w.online_seit ? `<div>Online seit <b>${datumAT(w.online_seit)}</b> · <b>${tage} Tage</b> am Markt</div>` : ''}
     ${d ? `<div>Seit dem ersten Preis: <b class="${d.diff < 0 ? 'runter' : 'rauf'}">${d.diff < 0 ? '−' : '+'}${eur(Math.abs(d.diff))} (${d.diff < 0 ? '−' : '+'}${Math.abs(d.prozent).toLocaleString('de-AT', { maximumFractionDigits: 1 })} %)</b></div>` : ''}
     ${tabelle ? `<table>${tabelle}</table>` : ''}
-    ${verschieden ? `<div class="meta">Gerade verschieden je Portal: ${portale.map(l => `${esc(l.quelle)} ${eur(l.preis)}`).join(' · ')}</div>` : ''}
+    ${verschieden ? `<div class="meta">Gerade verschieden je Portal: ${[...new Map(portale.map(l => [l.quelle + l.preis, l])).values()].map(l => `${esc(l.quelle)} ${eur(l.preis)}`).join(' · ')}</div>` : ''}
+    ${w.preis_inserat ? `<div class="meta">${eur(w.preis_inserat)} in manchen Inseraten ist der Anlegerpreis, kein eigener Preis.</div>` : ''}
     <div class="meta">${istGemerkt(w) ? 'Im Nest: jede Preisänderung wird aufgehoben, auch wenn das Inserat verschwindet.' : 'Preise werden seit dem ersten Fund täglich verglichen.'}</div>
   </div>`;
 }

@@ -261,7 +261,8 @@ def _jitter(rid, lat, lon):
 # Anleger- vs. Eigennutzerpreis: manche Inserate zeigen den Nettopreis für Anleger (ohne 20 % USt);
 # das Paar zieht selbst ein, also zählt der Preis für Eigennutzer
 _BETRAG = r"(?:€|EUR)\s*(\d{1,3}(?:[.\u202f\u00a0 ]\d{3})+)(?:,[\d-]+)?"
-_EIGEN = [re.compile(r"(?i)(?:eigennutzer|endnutzer|selbstnutzer)\w*\s*[:=]?\s*(?:beträgt\s*)?" + _BETRAG),
+# "Der Eigennutzerpreis beläuft sich auf EUR 1.090.770" stand bis 2026-11-07 nicht drin (Gartenwohnung Kuchelau)
+_EIGEN = [re.compile(r"(?i)(?:eigennutzer|endnutzer|selbstnutzer)\w*\s*[:=]?\s*(?:beträgt\s*|beläuft\s+sich\s+auf\s*|liegt\s+bei\s*)?" + _BETRAG),
           re.compile(r"(?i)" + _BETRAG + r"[^.\n€]{0,25}?für\s+(?:eigennutzer|endnutzer|selbstnutzer)")]
 _ANLEGER = [re.compile(r"(?i)anleger\w*[^.\n€]{0,60}?" + _BETRAG),
             re.compile(r"(?i)" + _BETRAG + r"[^.\n€]{0,40}?für\s+anleger")]
@@ -1095,11 +1096,18 @@ def build():
         im_nest = bool(set(r["ids"]) & nest)
         if (b["status"] == "raus" and b.get("art") == "filter" and not im_nest) or not b.get("lat"):
             continue
+        # Anlegerpreise (netto) sind keine Preisänderung: aus dem Verlauf nehmen (2026-11-07: MAISON WÄHRING zeigte
+        # 683.486 -> 745.000 als "+61.514", dabei ist 683.486 nur der Preis für Anleger mit Vorsteuerabzug)
+        anleger = {_betrag(m.group(1)) for rx in _ANLEGER for m in rx.finditer(r.get("text") or "")}
+        if b.get("preis") and r.get("preis") and b["preis"] != r["preis"]:
+            anleger.add(r["preis"])
+        anleger.discard(b.get("preis") or r.get("preis"))
+        r["preisverlauf"] = [v for v in r["preisverlauf"] if v[1] not in anleger]
         if im_nest:  # Preisverlauf sammeln, über Neu-Inserate desselben Objekts hinweg
             schluessel = next((k for k, e in archiv.items() if set(e["ids"]) & set(r["ids"])), r["id"])
             e = archiv.setdefault(schluessel, {"ids": [], "verlauf": []})
             e["ids"] = sorted(set(e["ids"]) | set(r["ids"]))
-            e["verlauf"] = sorted({tuple(v) for v in e["verlauf"] + r["preisverlauf"]})
+            e["verlauf"] = sorted({tuple(v) for v in e["verlauf"] + r["preisverlauf"] if v[1] not in anleger})
             e["online_seit"] = min(e.get("online_seit") or r["online_seit"], r["online_seit"])
             r["preisverlauf"], r["online_seit"] = [list(v) for v in e["verlauf"]], e["online_seit"]
         # "neu" zählt ab dem Tag, an dem die Wohnung auf der Karte auftaucht (nicht ab dem ersten Fund):
