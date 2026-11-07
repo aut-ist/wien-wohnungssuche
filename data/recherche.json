@@ -37,39 +37,6 @@
   "erstmals": "2026-11-07"
  },
  {
-  "id": "is-453798265250",
-  "ids": [
-   "is-453798265250"
-  ],
-  "titel": "*** ALLIÉ 13 – Viennese Living / Exklusiver Erstbezug in Bestlage – stilvolles Wohnen im Herzen des 2. Bezirks ***",
-  "plz": 1020,
-  "links": [
-   "https://www.immobilienscout24.at/expose/6aedac5ec9369bb8e16b5b0e"
-  ],
-  "anbieter": "LEVION Holding GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 2. Bezirk bekannt",
-  "punkt": [
-   48.226242,
-   16.384626
-  ],
-  "versatz_m": 0,
-  "preis": 878900,
-  "flaeche": 103.88,
-  "zimmer": 4,
-  "stockwerk": "3",
-  "energie": {
-   "hwb": 26.1,
-   "hwb_class": "B",
-   "fgee": 0.69,
-   "fgee_class": "A+"
-  },
-  "grundrisse": "data/grundrisse/is-453798265250/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-07"
- },
- {
   "id": "is-603985787826",
   "ids": [
    "is-603985787826"
@@ -98,40 +65,6 @@
    "fgee_class": "A+"
   },
   "grundrisse": "data/grundrisse/is-603985787826/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-10-25"
- },
- {
-  "id": "is-338971045228",
-  "ids": [
-   "is-338971045228",
-   "is-050912410946"
-  ],
-  "titel": "Stilvoller Wiener Altbau mit großzügigem Raumgefühl in bester Leopoldstadt-Lage",
-  "plz": 1020,
-  "links": [
-   "https://www.immobilienscout24.at/expose/6aedc8cdc9369bb8e16b8f45"
-  ],
-  "anbieter": "Really Real Estate GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 2. Bezirk bekannt",
-  "punkt": [
-   48.209634,
-   16.407829
-  ],
-  "versatz_m": 0,
-  "preis": 499000,
-  "flaeche": 84.94,
-  "zimmer": null,
-  "stockwerk": "2",
-  "energie": {
-   "hwb": 130.7,
-   "hwb_class": "D",
-   "fgee": 2.34,
-   "fgee_class": "D"
-  },
-  "grundrisse": "data/grundrisse/is-338971045228/",
   "im_nest": false,
   "dokumente": [],
   "erstmals": "2026-10-25"
