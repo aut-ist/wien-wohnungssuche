@@ -123,6 +123,19 @@
   .rund.stern { color: #9a9a9a; } .rund.stern.an { color: var(--gold); }
   .rund.x { color: var(--raus); font-weight: 700; }
   .rund.zurueck { color: var(--gruen); }
+  /* Brutkasten (2026-11-07): Nestle, die ihr anschauen geht; Küken statt Ei */
+  .rund.brut { filter: grayscale(1); opacity: .55; } .rund.brut.an { filter: none; opacity: 1; background: #fff3cc; }
+  .karte.brut { box-shadow: 0 0 0 2px #e3a400, 0 2px 10px rgba(227,164,0,.35); }
+  .tag.brut { background: #fff3cc; color: #7a5a00; border: 1px solid #e3a400; }
+  .korb-link { display: block; margin: 14px auto 6px; border: 0; background: none; color: var(--muted); font-size: 12.5px; cursor: pointer; text-decoration: underline; }
+  .korb-kopf { display: flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 13px; font-weight: 600; background: var(--soft); }
+  .korb-kopf .spacer { flex: 1; }
+  .ei-icon.kueken { line-height: 1; text-align: center; }
+  .ei-icon.kueken::before { content: ''; position: absolute; left: 50%; top: 50%; width: 46px; height: 46px; margin: -23px 0 0 -23px;
+    border-radius: 50%; background: radial-gradient(circle, rgba(255,214,64,.75) 0%, rgba(255,214,64,.25) 55%, rgba(255,214,64,0) 72%);
+    animation: kueken-glanz 2.4s ease-in-out infinite; z-index: -1; }
+  .ei-icon.kueken span { display: inline-block; filter: drop-shadow(0 1px 2px rgba(0,0,0,.45)); }
+  @keyframes kueken-glanz { 0%, 100% { transform: scale(.85); opacity: .8; } 50% { transform: scale(1.15); opacity: 1; } }
   .karte-body { padding: 10px 12px 12px; cursor: pointer; }
   .zeile1 { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
   .preis { font-weight: 700; font-size: 17px; }
@@ -340,7 +353,7 @@
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" data-tab="alle" aria-selected="true">Neue Nestle <span id="nAlle"></span></button>
       <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">🥚 Im Nest <span id="nGemerkt"></span></button>
-      <button class="tab" role="tab" data-tab="papierkorb" aria-selected="false">Aus'm Nest ghaut <span id="nPapierkorb"></span></button>
+      <button class="tab" role="tab" data-tab="brut" aria-selected="false">🐣 Brutkasten <span id="nBrut"></span></button>
     </div>
     <div id="liste"></div>
     <div id="detail" aria-live="polite"></div>
@@ -536,7 +549,8 @@ legende.onAdd = () => {
     '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     oeffiLeg +
     `<div>${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>` +
-    `<div>${legEi('gruen', { gas: true })} Gasheizung <span class="leg-ei">${goldEi(16)}</span> im Nest <span class="leg-ei">${goldEi(16, true)}</span> im Nest, Gas</div>`;
+    `<div>${legEi('gruen', { gas: true })} Gasheizung <span class="leg-ei">${goldEi(16)}</span> im Nest <span class="leg-ei">${goldEi(16, true)}</span> im Nest, Gas</div>` +
+    `<div><span class="leg-ei" style="font-size:15px">🐣</span> Brutkasten (zum Anschaun)</div>`;
   d.addEventListener('click', () => d.classList.toggle('offen'));
   L.DomEvent.disableClickPropagation(d);
   return d;
@@ -605,6 +619,9 @@ function sortiere(l) {
 // danach wieder rauswirft, schreibt einen neuen Zeitstempel und sie ist weg)
 const imPapierkorb = w => idsVon(w).some(id => mein.papierkorb[id] && mein.papierkorb[id] !== w.korb_frei?.[id]);
 const istGemerkt = w => hat('gemerkt', w);
+// Brutkasten = Nestle, die ihr besichtigen wollt (Wunsch 2026-11-07). Gespeichert im Nest-Eintrag selbst
+// ("fav " vor dem Zeitstempel), weil die Firebase-Regeln nur gemerkt/papierkorb/gesehen zulassen.
+const istBrut = w => idsVon(w).some(id => String(mein.gemerkt[id] || '').startsWith('fav'));
 function sichtbar() {
   if (NUR_NEST) {  // Familie sieht nur das Nest, ohne Filter
     const nest = state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w));
@@ -616,6 +633,7 @@ function sichtbar() {
     alle: basis.filter(w => !istGemerkt(w)),  // "Neue Nestle": was schon im Nest ist, steht dort
     // die Filter gelten überall gleich: Karte, Neue Nestle und Nest (Wunsch 2026-11-06)
     gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w) && passtFilter(w)),
+    brut: state.daten.filter(w => istBrut(w) && !imPapierkorb(w) && passtFilter(w)),
     papierkorb: state.daten.filter(imPapierkorb),
   };
 }
@@ -701,6 +719,7 @@ function tagsHtml(w) {
   return `<div class="tags">
     ${w.offline ? `<span class="tag offline">${esc(w.gruende?.[0] || 'Nicht mehr online')}</span>` : ''}
     ${w.neu && !w.offline ? '<span class="tag neu">NEU</span>' : ''}
+    ${istBrut(w) && !NUR_NEST ? '<span class="tag brut">🐣 Brutkasten</span>' : ''}
     ${istGesehen(w) && !NUR_NEST ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
     ${w.status !== 'gruen' ? `<span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>` : ''}
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
@@ -712,13 +731,14 @@ function aktionenHtml(w, papierkorb) {
   if (NUR_NEST) return '';
   return papierkorb
     ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Zurückholen" aria-label="Zurückholen">↺</button>`
-    : `<button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${istGemerkt(w) ? 'Aus dem Nest nehmen' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
+    : `<button class="rund brut ${istBrut(w) ? 'an' : ''}" data-akt="brut" data-id="${esc(w.id)}" title="${istBrut(w) ? 'Aus dem Brutkasten nehmen' : 'Ausbrüten: zum Besichtigen vormerken'}" aria-label="Ausbrüten">🐣</button>
+       <button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${istGemerkt(w) ? 'Aus dem Nest nehmen' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
        <button class="rund x" data-akt="weg" data-id="${esc(w.id)}" title="Aus'm Nest werfen" aria-label="Aus'm Nest werfen">✕</button>`;
 }
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
         : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
@@ -777,6 +797,11 @@ function eiIcon(w) {
     return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
       html: goldEi(s, w.heizung?.ergebnis === 'gas') });
   }
+  if (istBrut(w)) {  // Brutkasten: Küken mit Leuchten, damit es auf der Karte auffällt
+    const s = 34 * k;
+    return L.divIcon({ className: cls + ' kueken', iconSize: [s, s], iconAnchor: [s / 2, s / 2],
+      html: `<span style="font-size:${s * .9}px">🐣</span>` });
+  }
   if (istGemerkt(w)) {  // im Nest: goldenes Ei (goldorange mit Gasheizung)
     const s = 30 * k;
     return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
@@ -791,7 +816,7 @@ function eiAktualisieren(id) {
   const m = state.marker[id], w = id && state.daten.find(x => x.id === id);
   if (!m || !w) return;
   m.setIcon(eiIcon(w));
-  m.setZIndexOffset(state.aktiv === id ? 10000 : istGemerkt(w) ? 1000 : ({ raus: 0, grau: 1, gruen: 2 })[w.status] * 100);
+  m.setZIndexOffset(state.aktiv === id ? 10000 : istBrut(w) ? 2000 : istGemerkt(w) ? 1000 : ({ raus: 0, grau: 1, gruen: 2 })[w.status] * 100);
 }
 
 function zeichneMarker(liste) {
@@ -829,11 +854,13 @@ function zeichne() {
     : sortiere([...s[state.tab]]).sort((a, b) => !!a.offline - !!b.offline);
   document.getElementById('nAlle').textContent = s.alle.length;
   document.getElementById('nGemerkt').textContent = s.gemerkt.length;
-  document.getElementById('nPapierkorb').textContent = s.papierkorb.length;
+  document.getElementById('nBrut').textContent = s.brut.length;
+  state.nKorb = s.papierkorb.length;
   document.getElementById('nTreffer').textContent = s.karte.length;  // Treffer auf der Karte inkl. Nest
   const leer = { alle: NUR_NEST ? 'Noch nichts im Nest – Gigibird sucht noch.'
       : 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
     gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
+    brut: 'Noch nix im Brutkasten. Tipp bei einem Nestle auf 🐣, wenn ihr es anschauen wollt – dann wird ausgebrütet.',
     papierkorb: "Nix aus'm Nest ghaut. Was du mit ✕ rauswirfst, landet hier und kann zurückgeholt werden." }[state.tab];
   state.liste = { liste, nachBezirk, leer };
   listeRendern();
@@ -855,6 +882,11 @@ function listeRendern() {
         return kopf + karteHtml(w, state.tab === 'papierkorb');
       }).join('') + (n < liste.length ? `<div class="mehr-laden">weitere ${liste.length - n} Nestle laden …</div>` : '')
     : `<div class="leer">${leer}</div>`;
+  // der Papierkorb hat keinen eigenen Tab mehr (dort ist jetzt der Brutkasten): kleiner Link unter der Liste
+  if (state.tab === 'papierkorb')
+    el.insertAdjacentHTML('afterbegin', `<div class="korb-kopf">🗑 Aus'm Nest ghaut · ${state.nKorb}<span class="spacer"></span><button class="btn" data-akt="korb-zu">← zurück</button></div>`);
+  else if (!NUR_NEST && n >= liste.length)
+    el.insertAdjacentHTML('beforeend', `<button class="korb-link" data-akt="korb">🗑 Aus'm Nest ghaut (${state.nKorb}) anzeigen</button>`);
   const mehr = el.querySelector('.mehr-laden');
   if (mehr) mehrBeobachter.observe(mehr);
 }
@@ -897,7 +929,8 @@ async function zeigeDetail(id, neuLaden = true) {
       <button class="btn nur-handy" data-akt="aufkarte">📍 Karte</button>
       <span class="spacer"></span>
       ${NUR_NEST ? '' : papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
-        : `<button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
+        : `<button class="btn" data-akt="brut" data-id="${esc(w.id)}" style="${istBrut(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🐣 ${istBrut(w) ? 'Im Brutkasten' : 'Ausbrüten'}</button>
+           <button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
            <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
     </div>
     ${bilder.length ? `<div class="galerie">
@@ -1143,6 +1176,17 @@ vb.el.addEventListener('touchend', e => {
 /* ---------- Aktionen ---------- */
 const punkt = id => state.daten.find(x => x.id === id) || { id };
 const entferneAlle = (liste, w) => idsVon(w).forEach(i => { if (mein[liste][i]) markiere(liste, i, null); });
+// Ausbrüten: legt die Wohnung auch ins Nest; nochmal tippen nimmt sie nur aus dem Brutkasten (bleibt im Nest)
+function brueten(id) {
+  const w = punkt(id), jetzt = new Date().toISOString();
+  if (istBrut(w)) idsVon(w).forEach(i => { if (mein.gemerkt[i]) markiere('gemerkt', i, String(mein.gemerkt[i]).replace(/^fav\s*/, '') || jetzt); });
+  else {
+    const vorhanden = idsVon(w).filter(i => mein.gemerkt[i]);
+    if (vorhanden.length) vorhanden.forEach(i => markiere('gemerkt', i, 'fav ' + mein.gemerkt[i]));
+    else markiere('gemerkt', id, 'fav ' + jetzt);
+  }
+  zeichne();
+}
 function merken(id) {
   const w = punkt(id);
   if (istGemerkt(w)) entferneAlle('gemerkt', w); else markiere('gemerkt', id, new Date().toISOString());
@@ -1174,6 +1218,8 @@ document.getElementById('app').addEventListener('click', e => {
   const akt = t.dataset.akt;
   if (akt === 'link') return;  // externer Link (Google Maps): normal öffnen, Wohnung nicht aufklappen
   if (akt === 'merken') return merken(id);
+  if (akt === 'brut') return brueten(id);
+  if (akt === 'korb' || akt === 'korb-zu') return tabWechseln(akt === 'korb' ? 'papierkorb' : 'alle');
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);
   if (akt === 'oeffnen') return oeffne(id);
@@ -1249,12 +1295,14 @@ document.addEventListener('keydown', e => {
     zeigeDetail(state.aktiv, false);
   }
 });
-document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
-  state.tab = b.dataset.tab;
-  document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === b));
+function tabWechseln(tab) {
+  state.tab = tab;
+  document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x.dataset.tab === tab));
   state.listeN = LISTE_SCHRITT;
+  document.getElementById('liste').scrollTop = 0;
   schliesse(); zeichne();
-}));
+}
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => tabWechseln(b.dataset.tab)));
 document.getElementById('btnOeffis').addEventListener('click', e => {
   const an = e.currentTarget.getAttribute('aria-pressed') !== 'true';
   e.currentTarget.setAttribute('aria-pressed', an);

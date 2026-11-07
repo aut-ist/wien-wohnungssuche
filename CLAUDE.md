@@ -175,6 +175,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   kommt, hell-oranges Ei mit Gasheizung (bewusst blasser als das goldorange Nest-Ei; blass = schon angeschaut, gestrichelt = Lage ungefähr),
   goldenes Ei = im Nest, goldorange = im Nest mit Gasheizung; keine passt/unklar/raus- und keine
   Neu-Markierung auf der Karte (Wunsch).
+- Brutkasten (Wunsch 2026-11-07): Nestle, die das Paar besichtigen will. Tab "🐣 Brutkasten" statt des
+  Papierkorb-Tabs (Papierkorb jetzt als Link unter der Liste), 🐣-Knopf auf Karten und in den Details, auf der
+  Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
+  Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben; Ausbrüten legt die Wohnung auch ins Nest.
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
   Database, Adresse in `docs/einstellungen.json`, Regeln in `tools/firebase-regeln.json`.
   Der tägliche Workflow sichert den Stand nach `data/markierungen.json`. Wiederherstellen:
