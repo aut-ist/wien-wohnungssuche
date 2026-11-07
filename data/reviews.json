@@ -14539,5 +14539,32 @@
    "begruendung": "gleiche Wohnung wie ds-15295560, dort Hildebrandgasse 15"
   },
   "datum": "2026-11-06"
+ },
+ "is-603985787826": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "\"Nähe Taborstraße/Nähe Praterstern\", Volkertmarkt erwähnt; keine Straße genannt"
+  },
+  "datum": "2026-11-07"
+ },
+ "is-338971045228": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "nur \"Prater/WU Wien/Donau\", keine Straße"
+  },
+  "eckdaten": {
+   "flaeche": 84.94
+  },
+  "datum": "2026-11-07"
+ },
+ "is-453798265250": {
+  "lage": {
+   "adresse": "Alliiertenstraße 13",
+   "sicherheit": "genau",
+   "begruendung": "Titel \"ALLIÉ 13\", \"Wohnung in der Alliiertenstraße\", Nordbahnviertel"
+  },
+  "datum": "2026-11-07"
  }
 }
