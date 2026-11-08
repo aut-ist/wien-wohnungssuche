@@ -14281,7 +14281,8 @@
    "sicherheit": "genau",
    "begruendung": "Staudgasse 40 (Ecke Abt-Karl-Gasse), Top 18, 2. DG: Dieselbe Wohnung (121 m², 4 Zi, 2. DG, Terrassen 10,65/4,95 m² + Dachterrasse 23,61 m², Preis 1.134.707 €) wird von REMAX Together inseriert mit Text 'Dieses Neubauprojekt in der Staudgasse 40' (willhaben wh-1614606325, derStandard ds-15037697, immmo.at/detail/1580040741); Schwestereinheiten 78,86/70,7/99 m² dort ebenfalls 'Staudgasse 40'; immowelt-Projektseite 'DAS WARICH' (Tom Krauss) nennt Staudgasse 40, 18 Einheiten. Orthofoto Stadt Wien: Eckhaus 2017 Altbau, heute Neubau mit Dachterrassen."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-08",
+  "gleich_wie": "wh-1723263888"
  },
  "is-093007488389": {
   "lage": {
@@ -14566,5 +14567,9 @@
    "begruendung": "Titel \"ALLIÉ 13\", \"Wohnung in der Alliiertenstraße\", Nordbahnviertel"
   },
   "datum": "2026-11-07"
+ },
+ "wh-1614606325": {
+  "gleich_wie": "wh-1723263888",
+  "datum": "2026-11-08"
  }
 }
