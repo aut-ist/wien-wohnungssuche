@@ -182,6 +182,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
   Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben. Eine Wohnung ist entweder im Nest oder im Brutkasten (Wunsch 2026-11-08):
   im Brutkasten steht sie nicht in der Nest-Liste, 🐣 oder 🥚 legt sie zurück ins Nest; für Scrape und Recherche zählt sie weiter wie eine Nest-Wohnung.
+  Die Gast-Ansicht (`?nest`, nichts änderbar) zeigt seit 2026-11-08 nur den Brutkasten, keine Nest-Wohnungen.
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
   Database, Adresse in `docs/einstellungen.json`, Regeln in `tools/firebase-regeln.json`.
   Der tägliche Workflow sichert den Stand nach `data/markierungen.json`. Wiederherstellen:

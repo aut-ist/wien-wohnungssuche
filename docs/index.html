@@ -379,7 +379,7 @@
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>
-// Nur-Ansicht für Familie (?nest): zeigt nur die Wohnungen im Nest, nichts ist änderbar
+// Gast-Ansicht (?nest): zeigt seit 2026-11-08 nur den Brutkasten (Nest-Wohnungen nicht), nichts ist änderbar
 const NUR_NEST = new URLSearchParams(location.search).has('nest');
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#f5b27a' };
@@ -537,8 +537,7 @@ legende.onAdd = () => {
   const d = L.DomUtil.create('div', 'legende');
   const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="${o.g ? `border-top:0;height:3px;background:${o.g}` : `border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}`}"></i>${o.n}</div>`).join('');
   if (NUR_NEST) {  // Familie: nur das Nötige
-    d.innerHTML = `<div><span class="leg-ei">${goldEi(18)}</span> <b>Goldenes Ei</b> = von uns ausgewählt</div>` +
-      `<div><span class="leg-ei">${goldEi(18, true)}</span> goldorange = mit Gasheizung</div>` +
+    d.innerHTML = '<div><span class="leg-ei">🐣</span> <b>Küken</b> = schauen wir uns an</div>' +
       '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
     d.addEventListener('click', () => d.classList.toggle('offen'));
     L.DomEvent.disableClickPropagation(d);
@@ -625,9 +624,9 @@ const istBrut = w => idsVon(w).some(id => String(mein.gemerkt[id] || '').startsW
 // Was im Brutkasten liegt, ist nicht mehr "im Nest" (Wunsch 2026-11-08): eigene Liste, eigener Knopfzustand
 const imNest = w => istGemerkt(w) && !istBrut(w);
 function sichtbar() {
-  if (NUR_NEST) {  // Familie sieht nur das Nest, ohne Filter
-    const nest = state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w));
-    return { karte: nest, alle: nest, gemerkt: nest, papierkorb: [] };
+  if (NUR_NEST) {  // Gäste sehen nur den Brutkasten, ohne Filter (Wunsch 2026-11-08)
+    const brut = state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
+    return { karte: brut, alle: brut, gemerkt: brut, brut, papierkorb: [] };
   }
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
   return {
@@ -797,11 +796,6 @@ function goldEi(groesse, gas = false) {
 function eiIcon(w) {
   const aktiv = state.aktiv === w.id, k = aktiv ? 1.6 : 1;  // gerade geöffnete Wohnung: großes Ei mit Puls
   const cls = 'ei-icon' + (aktiv ? ' aktiv' : '');
-  if (NUR_NEST) {  // Familien-Ansicht: alle ausgewählten Wohnungen als gleiche goldene Eier
-    const s = 30 * (aktiv ? 1.6 : 1);
-    return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
-      html: goldEi(s, w.heizung?.ergebnis === 'gas') });
-  }
   if (istBrut(w)) {  // Brutkasten: Küken mit Leuchten, damit es auf der Karte auffällt
     const s = 34 * k;
     return L.divIcon({ className: cls + ' kueken', iconSize: [s, s], iconAnchor: [s / 2, s / 2],
@@ -862,7 +856,7 @@ function zeichne() {
   document.getElementById('nBrut').textContent = s.brut.length;
   state.nKorb = s.papierkorb.length;
   document.getElementById('nTreffer').textContent = s.karte.length;  // Treffer auf der Karte inkl. Nest
-  const leer = { alle: NUR_NEST ? 'Noch nichts im Nest – Gigibird sucht noch.'
+  const leer = { alle: NUR_NEST ? 'Noch nichts im Brutkasten – Gigibird sucht noch.'
       : 'Gigibird findet für diese Filter grad kein neues Nestle. Die gemerkten liegen im Nest 🥚.',
     gemerkt: 'Noch kein Ei im Nest. Tipp bei einem Nestle auf 🥚, dann brütet Gigibird drauf.',
     brut: 'Noch nix im Brutkasten. Tipp bei einem Nestle auf 🐣, wenn ihr es anschauen wollt – dann wird ausgebrütet.',
@@ -1361,10 +1355,10 @@ document.getElementById('btnFilter').addEventListener('click', e => {
 /* ---------- Start ---------- */
 (async () => {
   if (NUR_NEST) {
-    document.title = 'Gigibirds Nest';
-    document.querySelector('h1').textContent = 'Gigibirds Nest';
-    document.querySelector('.motto').textContent = 'Unsere Nestle-Favoriten, zum Anschauen';
-    document.querySelector('[data-tab="alle"]').innerHTML = '🥚 Im Nest <span id="nAlle"></span>';
+    document.title = 'Gigibirds Brutkasten';
+    document.querySelector('h1').textContent = 'Gigibirds Brutkasten';
+    document.querySelector('.motto').textContent = 'Die Nestle, die wir uns anschauen';
+    document.querySelector('[data-tab="alle"]').innerHTML = '🐣 Brutkasten <span id="nAlle"></span>';
   }
   filterUi();
   ladeGebiete().catch(console.error);
