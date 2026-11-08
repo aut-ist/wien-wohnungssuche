@@ -755,6 +755,7 @@ def _grundriss_nach_vorne(bilder):
 GR_PLAENE = DATA / "grundriss_plaene"
 GR_GEPRUEFT = DATA / "grundriss_geprueft.json"
 GR_OFFEN = DATA / "grundriss_offen.json"
+GR_BILDER = DATA / "grundriss_bilder.json"
 
 
 def _neue_grundrisse():
@@ -779,6 +780,13 @@ def _neue_grundrisse():
     for z in ziel.glob("*.svg") if ziel.exists() else []:
         if not (GR_PLAENE / f"{z.stem}.json").exists():
             z.unlink()
+    # Fertige Pläne von außerhalb der Inserate, z. B. aus einem angehängten PDF (Wunsch 2026-11-08, Gentzgasse 83):
+    # {"ID": {"ids": [...], "bild": "ID.jpg"}} in data/grundriss_bilder.json, Bild in docs/grundrisse/
+    for eintrag in load_json(GR_BILDER, {}).values():
+        z = ziel / eintrag["bild"]
+        if z.exists():
+            plaene.append({"ids": set(eintrag["ids"]), "ersetzt": eintrag.get("ersetzt") or [],
+                           "url": f"grundrisse/{z.name}?v={hashlib.md5(z.read_bytes()).hexdigest()[:8]}"})
     return plaene
 
 

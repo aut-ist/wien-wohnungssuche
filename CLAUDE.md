@@ -139,6 +139,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   technische oder bekritzelte Pläne, zeichnet Claude sie neu: `data/grundriss_plaene/ID.json` (Räume in Metern,
   Format in `wohnungen/grundriss_svg.py`) -> `run.py build` zeichnet `docs/grundrisse/ID.svg`, zeigt es als
   zweites Foto und schiebt die Originale (`ersetzt`, auch dieselben Bilder anderer Portale) ans Ende.
+  Schöne fertige Pläne, die nicht unter den Inseratsfotos sind (z. B. aus einem angehängten PDF): Bild nach `docs/grundrisse/`,
+  Eintrag in `data/grundriss_bilder.json` (`{"ID": {"ids": [...], "bild": "ID.jpg"}}`), dann ebenfalls zweites Foto.
   Wer noch dran ist: `data/grundriss_offen.json` (build), Bilder groß in `data/grundrisse_zeichnen/ID/`
   (`tools/grundrisse.py --zeichnen` im Workflow), erledigt in `data/grundriss_geprueft.json`; Ablauf für die
   Routine in REVIEW.md. Vorschau als PNG: `python tools/grundriss_zeichnen.py ID --png datei.png`.
@@ -178,7 +180,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Brutkasten (Wunsch 2026-11-07): Nestle, die das Paar besichtigen will. Tab "🐣 Brutkasten" statt des
   Papierkorb-Tabs (Papierkorb jetzt als Link unter der Liste), 🐣-Knopf auf Karten und in den Details, auf der
   Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
-  Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben; Ausbrüten legt die Wohnung auch ins Nest.
+  Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben. Eine Wohnung ist entweder im Nest oder im Brutkasten (Wunsch 2026-11-08):
+  im Brutkasten steht sie nicht in der Nest-Liste, 🐣 oder 🥚 legt sie zurück ins Nest; für Scrape und Recherche zählt sie weiter wie eine Nest-Wohnung.
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
   Database, Adresse in `docs/einstellungen.json`, Regeln in `tools/firebase-regeln.json`.
   Der tägliche Workflow sichert den Stand nach `data/markierungen.json`. Wiederherstellen:

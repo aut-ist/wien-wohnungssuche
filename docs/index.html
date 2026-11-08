@@ -622,6 +622,8 @@ const istGemerkt = w => hat('gemerkt', w);
 // Brutkasten = Nestle, die ihr besichtigen wollt (Wunsch 2026-11-07). Gespeichert im Nest-Eintrag selbst
 // ("fav " vor dem Zeitstempel), weil die Firebase-Regeln nur gemerkt/papierkorb/gesehen zulassen.
 const istBrut = w => idsVon(w).some(id => String(mein.gemerkt[id] || '').startsWith('fav'));
+// Was im Brutkasten liegt, ist nicht mehr "im Nest" (Wunsch 2026-11-08): eigene Liste, eigener Knopfzustand
+const imNest = w => istGemerkt(w) && !istBrut(w);
 function sichtbar() {
   if (NUR_NEST) {  // Familie sieht nur das Nest, ohne Filter
     const nest = state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w));
@@ -632,7 +634,7 @@ function sichtbar() {
     karte: basis,
     alle: basis.filter(w => !istGemerkt(w)),  // "Neue Nestle": was schon im Nest ist, steht dort
     // die Filter gelten überall gleich: Karte, Neue Nestle und Nest (Wunsch 2026-11-06)
-    gemerkt: state.daten.filter(w => istGemerkt(w) && !imPapierkorb(w) && passtFilter(w)),
+    gemerkt: state.daten.filter(w => imNest(w) && !imPapierkorb(w) && passtFilter(w)),
     brut: state.daten.filter(w => istBrut(w) && !imPapierkorb(w) && passtFilter(w)),
     papierkorb: state.daten.filter(imPapierkorb),
   };
@@ -734,14 +736,14 @@ function aktionenHtml(w, papierkorb) {
   if (NUR_NEST) return '';
   return papierkorb
     ? `<button class="rund zurueck" data-akt="zurueck" data-id="${esc(w.id)}" title="Zurückholen" aria-label="Zurückholen">↺</button>`
-    : `<button class="rund brut ${istBrut(w) ? 'an' : ''}" data-akt="brut" data-id="${esc(w.id)}" title="${istBrut(w) ? 'Aus dem Brutkasten nehmen' : 'Ausbrüten: zum Besichtigen vormerken'}" aria-label="Ausbrüten">🐣</button>
-       <button class="rund stern ${istGemerkt(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${istGemerkt(w) ? 'Aus dem Nest nehmen' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
+    : `<button class="rund brut ${istBrut(w) ? 'an' : ''}" data-akt="brut" data-id="${esc(w.id)}" title="${istBrut(w) ? 'Aus dem Brutkasten zurück ins Nest' : 'Ausbrüten: zum Besichtigen vormerken'}" aria-label="Ausbrüten">🐣</button>
+       <button class="rund stern ${imNest(w) ? 'an' : ''}" data-akt="merken" data-id="${esc(w.id)}" title="${imNest(w) ? 'Aus dem Nest nehmen' : istBrut(w) ? 'Aus dem Brutkasten zurück ins Nest' : 'Ins Nest legen'}" aria-label="Ins Nest legen">🥚</button>
        <button class="rund x" data-akt="weg" data-id="${esc(w.id)}" title="Aus'm Nest werfen" aria-label="Aus'm Nest werfen">✕</button>`;
 }
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${istGemerkt(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
         : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
@@ -933,7 +935,7 @@ async function zeigeDetail(id, neuLaden = true) {
       <span class="spacer"></span>
       ${NUR_NEST ? '' : papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
         : `<button class="btn" data-akt="brut" data-id="${esc(w.id)}" style="${istBrut(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🐣 ${istBrut(w) ? 'Im Brutkasten' : 'Ausbrüten'}</button>
-           <button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${istGemerkt(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${istGemerkt(w) ? 'Im Nest' : 'Ins Nest'}</button>
+           <button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${imNest(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${imNest(w) ? 'Im Nest' : 'Ins Nest'}</button>
            <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
     </div>
     ${bilder.length ? `<div class="galerie">
@@ -1179,7 +1181,7 @@ vb.el.addEventListener('touchend', e => {
 /* ---------- Aktionen ---------- */
 const punkt = id => state.daten.find(x => x.id === id) || { id };
 const entferneAlle = (liste, w) => idsVon(w).forEach(i => { if (mein[liste][i]) markiere(liste, i, null); });
-// Ausbrüten: legt die Wohnung auch ins Nest; nochmal tippen nimmt sie nur aus dem Brutkasten (bleibt im Nest)
+// Ausbrüten: die Wohnung wandert in den Brutkasten; nochmal tippen legt sie zurück ins Nest
 function brueten(id) {
   const w = punkt(id), jetzt = new Date().toISOString();
   if (istBrut(w)) idsVon(w).forEach(i => { if (mein.gemerkt[i]) markiere('gemerkt', i, String(mein.gemerkt[i]).replace(/^fav\s*/, '') || jetzt); });
@@ -1192,6 +1194,7 @@ function brueten(id) {
 }
 function merken(id) {
   const w = punkt(id);
+  if (istBrut(w)) return brueten(id);  // 🥚 auf einer Brutkasten-Wohnung legt sie zurück ins Nest, wirft sie nicht ganz raus
   if (istGemerkt(w)) entferneAlle('gemerkt', w); else markiere('gemerkt', id, new Date().toISOString());
   zeichne();
 }
@@ -1200,7 +1203,7 @@ function nachfragen(w) {
   const d = document.getElementById('frage');
   if (!d.showModal) return Promise.resolve(confirm('Wirklich raushaun?'));
   document.getElementById('frageText').innerHTML = `<p>${esc(w.titel || 'Diese Wohnung')}${w.preis ? ' · ' + eur(w.preis) : ''}</p>`
-    + (istGemerkt(w) ? '<p class="warn">Die liegt im Nest!</p>' : '');
+    + (istBrut(w) ? '<p class="warn">Die liegt im Brutkasten!</p>' : istGemerkt(w) ? '<p class="warn">Die liegt im Nest!</p>' : '');
   d.returnValue = '';
   d.showModal();
   return new Promise(ok => d.addEventListener('close', () => ok(d.returnValue === 'ja'), { once: true }));
