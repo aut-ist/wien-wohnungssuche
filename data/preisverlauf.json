@@ -2706,9 +2706,9 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.22425,
-   "lon": 16.33809,
-   "ungefaehr": true,
+   "lat": 48.22528424,
+   "lon": 16.33630532,
+   "ungefaehr": false,
    "radius": null,
    "preis": 995000.0,
    "preis_inserat": null,
@@ -2716,8 +2716,8 @@
    "flaeche": 143.0,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": null,
-   "lage": "18. Bezirk (aus Beschreibung: Koordinaten)",
+   "adresse": "Staudgasse 70",
+   "lage": "18. Bezirk (aus Beschreibung: Staudgasse 70)",
    "heizung": {
     "ergebnis": "kein_gas",
     "von": "automatisch",
@@ -2787,11 +2787,11 @@
    ],
    "zustand": "Sehr gut/gut",
    "guertel": {
-    "min": 7,
-    "ab": null,
-    "gehen": 7,
-    "ziel": "Michelbeuern-AKH",
-    "ungefaehr": true
+    "min": 9,
+    "ab": "Johann-Nepomuk-Vogl-Platz",
+    "gehen": 2,
+    "ziel": null,
+    "ungefaehr": false
    },
    "zuletzt": "2026-11-08"
   },
