@@ -1,72 +1,35 @@
 [
  {
-  "id": "wh-952722992",
+  "id": "wh-1834148089",
   "ids": [
-   "wh-952722992",
-   "is-710241845233",
-   "fm-5778195"
+   "wh-1834148089"
   ],
-  "titel": "EIGENHEIM NÄHE AUGARTEN, 85 m2 Altbau, 3 Zimmer, Küche, Wannenbad, Parketten, 2. Liftstock, Obere Donaustraße",
-  "plz": 1020,
+  "titel": "Servitenviertel | Hochwertig sanierte Altbauwohnung mit Ordinationswidmung | 89 m² | 2 Eingänge | provisionsfrei",
+  "plz": 1090,
   "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/eigenheim-naehe-augarten-85-m2-altbau-3-zimmer-kueche-wannenbad-parketten-2-liftstock-obere-donaustrasse-952722992/",
-   "https://www.findmyhome.at/5778195",
-   "https://www.immobilienscout24.at/expose/6aee454c9fa973ea5c4761a2"
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-hochwertig-sanierte-altbauwohnung-mit-ordinationswidmung-89-m-2-eingaenge-provisionsfrei-1834148089/"
   ],
-  "anbieter": "ROS Realitäten Vermittlung OEG",
-  "adresse_im_inserat": "Obere Donaustraße",
-  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "anbieter": "privat",
+  "adresse_im_inserat": "Rögergasse",
+  "lage": "9. Bezirk",
   "punkt": [
-   48.218285,
-   16.372688
+   48.22439,
+   16.36562
   ],
   "versatz_m": 0,
-  "preis": 425000.0,
-  "flaeche": 85.06,
-  "zimmer": 3,
-  "stockwerk": "2",
-  "energie": {
-   "hwb": "95,6",
-   "hwb_class": "C",
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-952722992/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-07"
- },
- {
-  "id": "is-603985787826",
-  "ids": [
-   "is-603985787826"
-  ],
-  "titel": "Erstbezug, Neubau, Exklusive 4. Zi. Wohnung mit Balkon, Terrasse",
-  "plz": 1020,
-  "links": [
-   "https://www.immobilienscout24.at/expose/6a54be3e12034290294f931b"
-  ],
-  "anbieter": "Dual Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 2. Bezirk bekannt",
-  "punkt": [
-   48.228592,
-   16.387299
-  ],
-  "versatz_m": 0,
-  "preis": 949000.0,
-  "flaeche": 126.79,
+  "preis": 719000.0,
+  "flaeche": 89.0,
   "zimmer": 4,
-  "stockwerk": "3",
+  "stockwerk": "EG",
   "energie": {
-   "hwb": 30.0,
-   "hwb_class": "B",
-   "fgee": 0.7,
-   "fgee_class": "A+"
+   "hwb": "134",
+   "hwb_class": "D/E",
+   "fgee": "4,83",
+   "fgee_class": "G"
   },
-  "grundrisse": "data/grundrisse/is-603985787826/",
+  "grundrisse": "data/grundrisse/wh-1834148089/",
   "im_nest": false,
   "dokumente": [],
-  "erstmals": "2026-10-25"
+  "erstmals": "2026-11-08"
  }
 ]
