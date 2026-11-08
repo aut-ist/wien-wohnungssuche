@@ -9135,9 +9135,9 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.2284555,
-   "lon": 16.3332477,
-   "ungefaehr": true,
+   "lat": 48.228455,
+   "lon": 16.333248,
+   "ungefaehr": false,
    "radius": null,
    "preis": 1049000.0,
    "preis_inserat": null,
@@ -9211,7 +9211,7 @@
     "ab": "Aumannplatz",
     "gehen": 3,
     "ziel": null,
-    "ungefaehr": true
+    "ungefaehr": false
    },
    "zuletzt": "2026-11-08"
   },
