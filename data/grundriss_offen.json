@@ -1,18 +1,1 @@
-[
- {
-  "id": "wh-1834148089",
-  "ids": [
-   "wh-1834148089"
-  ],
-  "titel": "Servitenviertel | Hochwertig sanierte Altbauwohnung mit Ordinationswidmung | 89 m² | 2 Eingänge | provisionsfrei",
-  "adresse": "Rögergasse",
-  "flaeche": 89.0,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/9/183/414/8089_1823779797.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1834148089/"
- }
-]
+[]
