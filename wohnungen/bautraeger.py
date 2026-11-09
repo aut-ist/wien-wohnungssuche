@@ -16,6 +16,7 @@ Dazu liest search() die Projektübersicht von 3SI (ein Format für alle Projekte
 Nur normale öffentliche Seiten; ohne Preis (verkauft, "-", "auf Anfrage") zählt eine Einheit nicht, und
 vermietete Einheiten (OPTIN schreibt das nur in den Link) auch nicht.
 """
+import datetime as dt
 import html as htmllib
 import json
 import re
@@ -27,6 +28,7 @@ from .http import get, numid
 QUELLE = "Bauträger"
 PREFIX = "bt"
 PROJEKTE = DATA / "bautraeger_projekte.json"
+EHL = DATA / "ehl_einheiten.json"
 
 _SPALTEN = [  # (Feld, Muster für die Kopfzelle); die erste passende Spalte gilt
     ("top", r"^(top|tür|tuer|whg|wohnung|einheit)\b|\btop\b"),
@@ -117,13 +119,18 @@ def _aus_attributen(page):
     """Karten mit data-Attributen; dieselbe Einheit kann doppelt vorkommen (Karte und Liste)."""
     for m in re.finditer(r'(?is)<[a-z]+\b[^>]*\bdata-price="[^"]*"[^>]*>', page):
         a = dict(re.findall(r'data-([a-z-]+)="([^"]*)"', m.group(0)))
-        nach = page[m.end():m.end() + 2500]
+        nach = page[m.end():m.end() + 6000]
+        ende = re.search(r'(?i)\bdata-price="', nach)  # nicht in die nächste Einheit hineinlesen
+        nach = nach[:ende.start()] if ende else nach
         t = re.search(r"(?i)top[-\s]*(\d[\w/+-]*)", a.get("slug") or "") or re.search(r"(?i)\btop\s*(\d[\w/+-]*)", _zelle(nach))
         h = re.search(r'(?i)href="([^"#][^"]*)"', nach)
         b = re.search(r'(?i)<img\b[^>]*\bsrc="(https?://[^"]+)"', nach)
+        plan = re.search(r'(?i)data-lazy-src="(https?://[^"]+)"', nach[nach.lower().find("grundriss"):]) if "grundriss" in nach.lower() else None
+        stock = re.search(r'(?is)unit__cell--floor[^>]*>(.*?)<', nach)
         yield {"top": t.group(1) if t else "", "status": a.get("status", ""), "preis": a.get("price"),
                "flaeche": a.get("size") or a.get("area"), "zimmer": a.get("zimmer") or a.get("rooms"),
-               "href": h.group(1) if h else None, "bild": htmllib.unescape(b.group(1)) if b else None}
+               "href": h.group(1) if h else None, "bild": htmllib.unescape(b.group(1)) if b else None,
+               "plan": htmllib.unescape(plan.group(1)) if plan else None, "geschoss": _zelle(stock.group(1)) if stock else None}
 
 
 def _aus_state(page):
@@ -189,9 +196,19 @@ def _aus_3si_uebersicht(bekannt):
     return _3si
 
 
+def _ehl():
+    """EHL baut die Liste per JavaScript auf: tools/ehl_einheiten.py liest sie vorab im Browser. Alte Stände nicht verwenden."""
+    d = load_json(EHL, {})
+    try:
+        frisch = (dt.date.today() - dt.date.fromisoformat(d.get("stand", ""))).days <= 3
+    except ValueError:
+        frisch = False
+    return d.get("projekte", []) if frisch else []
+
+
 def _projekte():
     alle = load_json(PROJEKTE, [])
-    return [p for p in alle if p.get("aktiv", True)] + _aus_3si_uebersicht({p.get("url_einheiten") for p in alle})
+    return [p for p in alle if p.get("aktiv", True)] + _aus_3si_uebersicht({p.get("url_einheiten") for p in alle}) + _ehl()
 
 
 def _ort(p):
@@ -215,18 +232,62 @@ def _beschreibung(page):
     return "\n".join(zeilen)[:5000]
 
 
+_BILD = re.compile(r'(?i)(?:data-lazy-src|data-src|src)="([^"]+?\.(?:jpe?g|png|webp)(?:\?[^"]*)?)"')
+_KEIN_FOTO = re.compile(r"(?i)logo|icon|favicon|avatar|mitarbeiter|portrait|background|teaser|/_processed_/|__scale|__focus|-\d{2,4}x\d{2,4}\.|"
+                        r"grundriss|[-_/]plan[-_.]|wb-top-|chatgpt")
+
+
+def _galerie(page, url):
+    """Projektfotos der Seite (Haus, Innenräume, Lage), ohne Logos, Personen, Vorschaubilder und Pläne anderer Einheiten."""
+    aus = []
+    for u in _BILD.findall(page):
+        u = htmllib.unescape(u)
+        if not _KEIN_FOTO.search(u):
+            aus.append(urllib.parse.urljoin(url, u).replace("/public/pic/small/", "/public/pic/fullhd_unbranded/"))
+    return list(dict.fromkeys(aus))[:25]
+
+
+def _fakten(page):
+    """Energieausweis, Kosten und Eckdaten von der Seite der Einheit (nur was dort steht) -> (Felder, Textzeilen)."""
+    t = re.sub(r"\s+", " ", htmllib.unescape(re.sub(r"(?is)<(script|style)\b.*?</\1>|<[^>]+>", " ", page))).replace("\xa0", " ")
+    f, z = {}, []
+    h = re.search(r"(?i)(?:\bHWB\b|Heizwärmebedarf)\s*(?:kWh\S*)?\s*([A-G]\+*)?\s*(\d{1,3}[.,]\d+)", t)
+    g = re.search(r"(?i)(?:fGEE(?:\s*-?\s*Wert)?|Energieeffizienz)\s*([A-G]\+*)?\s*(\d[.,]\d+)", t)
+    if h or g:
+        f["energie"] = {"hwb": h.group(2) if h else None, "hwb_class": h.group(1) if h else None,
+                        "fgee": g.group(2) if g else None, "fgee_class": g.group(1) if g else None}
+    if j := re.search(r"\bBaujahr\s+(\d{4})\b", t):
+        f["baujahr"] = j.group(1)
+    if s := re.search(r"\bHeizung\s+([A-ZÄÖÜ][\wäöüß-]+)", t):
+        f["heizung"] = s.group(1)
+    for name, muster in (("Betriebskosten", r"Betriebskosten(?:\s+(?:netto|brutto|derzeit brutto))?\s*:?\s*(?:€|EUR)\s*([\d.,]+)|Betriebskosten:\s*([\d.,]+)\s*€"),
+                         ("Reparaturrücklage", r"Reparaturrücklage:?\s*(?:€|EUR)?\s*([\d.,]+)"), ("Heizkosten", r"Heizkosten:?\s*(?:€|EUR)?\s*([\d.,]+)"),
+                         ("Liftkosten", r"Liftkosten:?\s*(?:€|EUR)?\s*([\d.,]+)")):
+        if m := re.search(muster, t):
+            z.append(f"{name}: € {m.group(1) or m.group(2)}")
+    if m := re.search(r"(?:monatliche Gesamtbelastung)[^:]*:\s*([\d.,]+)\s*€", t):
+        z.append(f"Monatliche Kosten gesamt: € {m.group(1)}")
+    if m := re.search(r"\bZustand\s+([A-ZÄÖÜ][\wäöüß-]+)", t):
+        z.append(f"Zustand: {m.group(1)}")
+    if m := re.search(r"\bBeziehbar\s+(voraussichtlich [^ ]+ \d{4}|sofort|ab [^ ]+ \d{4}|nach Vereinbarung)", t):
+        z.append(f"Beziehbar: {m.group(1)}")
+    return f, z
+
+
 def _eur(x):
     return f"€ {x:,.0f}".replace(",", ".")
 
 
 def _einheiten(p):
     """-> Liste fertiger Einheiten dieses Projekts (nur frei, mit Preis und Zimmern)."""
-    page = get(p["url_einheiten"], retries=2)
-    if not page:
+    art = p.get("parser")
+    page = "" if art == "datei" else get(p["url_einheiten"], retries=2)
+    if not page and art != "datei":
         return []
     _ort(p)
-    art = p.get("parser")
-    if art == "regex":
+    if art == "datei":  # vorab im Browser gelesen (EHL)
+        roh = p.get("einheiten") or []
+    elif art == "regex":
         roh = _aus_regex(page, p["regex"])
     elif art == "attribute":
         roh = _aus_attributen(page)
@@ -234,8 +295,9 @@ def _einheiten(p):
         roh = _aus_state(page)
     else:
         roh = _aus_tabellen(page)
-    text_projekt = _beschreibung(page)
+    text_projekt = p.get("text") or _beschreibung(page)
     og = re.search(r'(?i)<meta[^>]+property="og:image"[^>]+content="([^"]+)"', page)
+    galerie = p.get("galerie") or _galerie(page, p["url_einheiten"])
     aus, gesehen = [], set()
     for w in roh:
         preis = _zahl(w.get("eigennutzer")) or _zahl(w.get("preis"))
@@ -255,10 +317,13 @@ def _einheiten(p):
         bilder, dokumente = _medien(page, w.get("attr_id"))
         if not bilder and w.get("bild"):
             bilder = [w["bild"]]
-        if w.get("plan"):
-            bilder.append(w["plan"])
+        if len(bilder) < 5:  # wenige eigene Fotos: die des Projekts dazu
+            bilder = list(dict.fromkeys(bilder + galerie))
+        if w.get("plan"):  # der Grundriss der Einheit gehört an Stelle 2
+            bilder = bilder[:1] + [w["plan"]] + bilder[1:]
         if not bilder and og:
             bilder = [htmllib.unescape(og.group(1))]
+        bilder = bilder[:30]
         frei = [n.capitalize() for n in ("balkon", "terrasse", "loggia", "garten") if (_zahl(w.get(n)) or 0) > 0]
         geschoss = (w.get("geschoss") or "").strip() or None
         name_top = f"{stiege}/{top}" if stiege and top else top
@@ -323,10 +388,19 @@ def _einheit_seite(e, d):
     page = get(url, retries=1)
     if not page:
         return
-    d["text"] = d["text"].replace("\n\n## Projekt\n", "\n\n## Wohnung\n" + _beschreibung(page) + "\n\n## Projekt\n", 1)
-    fotos = [urllib.parse.urljoin(url, htmllib.unescape(u)) for u in _FOTO.findall(page) if "__Scale" not in u]
+    felder, zeilen = _fakten(page)
+    kosten = ("## Eckdaten\n" + "\n".join(zeilen) + "\n\n") if zeilen else ""
+    d["text"] = d["text"].replace("\n\n## Projekt\n", "\n\n" + kosten + "## Wohnung\n" + _beschreibung(page) + "\n\n## Projekt\n", 1)
+    if felder.get("energie"):
+        d["energie"] = felder["energie"]
+    if felder.get("baujahr"):
+        d["baujahr"] = felder["baujahr"]
+    if felder.get("heizung"):
+        d["heizung_felder"] = list(dict.fromkeys(d["heizung_felder"] + [f"Heizung: {felder['heizung']}"]))
+    fotos = [urllib.parse.urljoin(url, htmllib.unescape(u)).replace("/public/pic/small/", "/public/pic/fullhd_unbranded/")
+             for u in _FOTO.findall(page) if "__Scale" not in u and "__Focus" not in u]
     if fotos:
-        d["bilder"] = list(dict.fromkeys(fotos))[:30]
+        d["bilder"] = list(dict.fromkeys(fotos + (e.get("bilder") or [])))[:30]
 
 
 def detail(listing_id):

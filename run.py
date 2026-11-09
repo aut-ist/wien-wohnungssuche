@@ -688,11 +688,11 @@ def _bautraeger_einsortieren(gruppen, bts, listings, marken):
                     paare.append((rang, bt["id"], id(g), bt, g))
     paare.sort(key=lambda p: p[0])
     vergeben, voll = set(), set()
-    for _, bid, gid, bt, g in paare:
-        if bid not in vergeben and gid not in voll:
+    for _, bid, gid, bt, g in paare:  # pro Wohnung eine Einheit je Projekt; dasselbe Projekt bei 3SI und EHL darf beide anhängen
+        if bid not in vergeben and (gid, bt["bt_projekt"]) not in voll:
             g.append(bt)
             vergeben.add(bid)
-            voll.add(gid)
+            voll.add((gid, bt["bt_projekt"]))
     einzeln = []
     for bt in bts:
         if bt["id"] in vergeben:

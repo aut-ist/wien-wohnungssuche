@@ -51,6 +51,15 @@ jobs:
         run: |
           URL=$(python -c "import json;print(json.load(open('docs/einstellungen.json')).get('firebase',''))" 2>/dev/null || true)
           if [ -n "$URL" ]; then curl -sf "${URL%/}/markierungen.json" -o data/markierungen.json || echo "Backup fehlgeschlagen"; fi
+      - name: EHL-Einheiten im Browser lesen
+        # EHL baut die Liste per JavaScript auf; schlägt das fehl, läuft der Scrape ohne EHL-Seiten weiter
+        if: steps.heute.outputs.fertig != '1'
+        timeout-minutes: 12
+        continue-on-error: true
+        run: |
+          pip install -q playwright
+          python -m playwright install --with-deps chromium > /dev/null
+          python tools/ehl_einheiten.py
       - name: Scrapen und Karte bauen
         if: steps.heute.outputs.fertig != '1'
         # SCRAPE_MAX_MIN: danach bricht jede Portal-Anfrage ab und der Lauf speichert, was er hat

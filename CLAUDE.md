@@ -126,7 +126,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,
   Projektname oder Nähe) der bekannten Wohnung zu, auch alten Nummern im Papierkorb/Nest; neu auf der Karte ist nur, was kein Portal hat.
   Die Routine sucht montags neue Projekte (REVIEW.md). Allgemeine Google-Suchen bringen nur Portale, Projektname + Adresse + "Projekt Wohnungen"
-  findet die Projektseiten. Nicht auslesbar (data/bautraeger_offen.json): EHL (Liste nur per JavaScript), Raiffeisen WohnBau (Preis nur auf Detailseiten).
+  findet die Projektseiten. EHL (größter Anbieter hier, Liste nur per JavaScript, kein Bot-Schutz): `tools/ehl_einheiten.py` liest sie im Workflow vor dem Scrape mit Playwright nach `data/ehl_einheiten.json`. Nicht auslesbar (data/bautraeger_offen.json): Raiffeisen WohnBau (Preis nur auf Detailseiten), Tom Krauss, einzelne kleine Seiten.
 - Schwester-Inserate automatisch (seit 2026-10-30, `gleiches_haus` in run.py): hat ein Inserat ohne
   Hausnummer denselben Makler und Energieausweis (HWB + fGEE) wie ein Inserat mit Hausnummer, oder
   mindestens zwei gleiche willhaben-Fotodateien, übernimmt `build` dessen Adresse (Top nach "/" weg),

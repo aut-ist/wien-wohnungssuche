@@ -99,28 +99,6 @@
   "notiz": "Keine eigene Projektseite gefunden (edex.at ist eine verkaufte Domain). Liste steht als Fließtext in der Portal-Beschreibung, nur per Regex; Top 7 steht als \"EUR 921..000,-\" (Tippfehler im Original)."
  },
  {
-  "name": "Barawitzkagasse 24",
-  "bautraeger": "BIP Immobilien Development GmbH",
-  "plz": 1190,
-  "adresse": "Barawitzkagasse 24",
-  "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/barawitzkagasse-24-1190-wien",
-  "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/barawitzkagasse-24-1190-wien",
-  "format": "nur-js",
-  "fertigstellung": "voraussichtlich Q3 2027",
-  "notiz": "EHL zeigt \"Verfügbare Wohneinheiten\" (Eckdaten: 51) als leeren Container, Liste wird per JS nachgeladen. 26 Wohnungen 40-105 m²."
- },
- {
-  "name": "CLOUD 9",
-  "bautraeger": null,
-  "plz": 1190,
-  "adresse": "Agnesgasse 9",
-  "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/cloud-9-agnesgasse-9-1190-wien",
-  "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/cloud-9-agnesgasse-9-1190-wien",
-  "format": "nur-js",
-  "fertigstellung": "Websuche: voraussichtlich Q4/2027",
-  "notiz": "Liste per JS wie bei Barawitzkagasse 24. Fertigstellung nach 09/2027 laut Inseraten."
- },
- {
   "name": "VICUS NUCUM",
   "bautraeger": null,
   "plz": 1190,
@@ -273,39 +251,6 @@
   "format": "html-karten",
   "fertigstellung": "sofort verfügbar",
   "notiz": "Nur 3 Einheiten, günstigste 1.210.000 €, nichts Passendes."
- },
- {
-  "name": "Josephine",
-  "bautraeger": "",
-  "plz": 1020,
-  "adresse": "Stoffellagasse",
-  "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/josephine-1020-wien",
-  "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/josephine-1020-wien",
-  "format": "nur-js",
-  "fertigstellung": "Herbst 2026 (geplant)",
-  "notiz": "Seite nennt \"Verfügbare Wohneinheiten 22\". Einheitenliste in iframe mit per JS gesetztem data-src (https://www.ehl.at/2020-ehl-projectfilter/?project=601), wegen der JS-Regel nicht abgerufen."
- },
- {
-  "name": "LeopoldQuartier Living",
-  "bautraeger": "UBM Development",
-  "plz": 1020,
-  "adresse": "Obere Donaustraße 23",
-  "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/leopoldquartier-living-obere-donaustrasse-23-1020-wien",
-  "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/leopoldquartier-living-obere-donaustrasse-23-1020-wien",
-  "format": "nur-js",
-  "fertigstellung": "nicht angegeben",
-  "notiz": "Seite nennt \"Verfügbare Wohneinheiten 95\". Liste in JS-iframe (data-src .../2020-ehl-projectfilter/?project=725), nicht abgerufen. leopoldquartier.at bindet zusätzlich ein 3D-Tool ein. Wohnungen 34-108 m²."
- },
- {
-  "name": "Das Artmann",
-  "bautraeger": "",
-  "plz": 1020,
-  "adresse": null,
-  "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/das-artmann-1020-wien",
-  "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/das-artmann-1020-wien",
-  "format": "nur-js",
-  "fertigstellung": "nicht angegeben",
-  "notiz": "Liste in JS-iframe (data-src .../2020-ehl-projectfilter/?project=495), nicht abgerufen."
  },
  {
   "name": "ANDEA Parkside Residences",
