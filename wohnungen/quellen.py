@@ -2,7 +2,7 @@
 import importlib
 
 NAMEN = ["willhaben", "immoscout24", "immowelt", "derstandard", "wohnnet", "immmo",
-         "findmyhome", "remax", "sreal", "raiffeisen", "ehl", "otto", "immodirekt"]
+         "findmyhome", "remax", "sreal", "raiffeisen", "ehl", "otto", "immodirekt", "bautraeger"]
 
 QUELLEN = {}
 for _n in NAMEN:

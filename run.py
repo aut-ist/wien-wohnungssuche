@@ -60,10 +60,15 @@ def flaeche_min(r, bestand=False):
     return F["flaeche_min"]
 
 
+def _sammelinserat(r):
+    """Projekt-Sammelinserat eines Portals; Bauträger-Einheiten (bt-) sind immer einzelne Wohnungen."""
+    return r.get("projekt") or (not r["id"].startswith("bt-") and "/neubauprojekt/" in r.get("url", ""))
+
+
 def filter_grund(r, bestand=False):
     """Harter Filter: Grund zum Ausschließen oder None. bestand=True: alte Flächengrenze, für den
     Scrape, der noch nicht weiß, ob ein neues Inserat zu einer bekannten Wohnung gehört."""
-    if r.get("projekt") or "/neubauprojekt/" in r.get("url", ""):
+    if _sammelinserat(r):
         return "Neubauprojekt-Sammelinserat (Wohnungen sind einzeln gelistet)"
     if r.get("plz") and r["plz"] not in ALLE_PLZ:  # z. B. Klosterneuburg (3400) in der derStandard-Suche 1190
         return f"PLZ {r['plz']} außerhalb des Suchgebiets"
@@ -650,6 +655,67 @@ def gruppieren(rs):
     return list({id(g): g for g in gruppe_von.values()}.values())
 
 
+def _bt_treffer(bt, gruppe):
+    """Passt eine Bauträger-Einheit zu dieser Gruppe? -> Rangzahl (kleiner = besser) oder None.
+    Portale runden die Fläche und zeigen teils andere Preise; Saad: "matchen meistens über Quadratmeter oder Preis"."""
+    if any(x.get("bt_projekt") == bt.get("bt_projekt") for x in gruppe if x.get("bt_projekt")):
+        return None  # zwei Einheiten eines Projekts sind nie dieselbe Wohnung
+    df = min((abs(x["flaeche"] - bt["flaeche"]) for x in gruppe if x.get("flaeche")), default=99)
+    werte = [p for p in (bt.get("preis"), bt.get("bt_anleger")) if p]
+    dp = min((abs(x["preis"] - p) / max(x["preis"], p) for x in gruppe if x.get("preis") for p in werte), default=9)
+    if df > 1.5 or any(x.get("zimmer") and bt.get("zimmer") and abs(x["zimmer"] - bt["zimmer"]) > 1 for x in gruppe):
+        return None
+    strasse = re.sub(r"(?i)strasse", "straße", re.match(r"[^\d,]*", bt.get("adresse") or "").group(0).strip()).lower()
+    worte = [w for w in (strasse, (bt.get("bt_name") or "").lower()) if len(w) >= 6]
+    im_text = any(w in " ".join(str(x.get(k) or "") for k in ("titel", "adresse", "text")).lower().replace("strasse", "straße")
+                  for x in gruppe for w in worte)
+    nah = bool(bt.get("lat")) and any(x.get("lat") and GENAU[x.get("lage_genauigkeit")] >= 2 and not x.get("bt_projekt")
+                                      and _abstand_m(x, bt) <= max(350, (x.get("lage_radius") or 0) + 100) for x in gruppe)
+    if (dp <= 0.015 and (im_text or nah)) or (df <= 0.6 and dp <= 0.005) or (df <= 0.6 and dp <= 0.08 and im_text):
+        return dp + df / 100 - (0.02 if im_text else 0)
+    return None
+
+
+def _bautraeger_einsortieren(gruppen, bts, listings, marken):
+    """Bauträger-Einheiten sind keine eigene Liste: jede wird der Wohnung zugeordnet, die schon von einem Portal
+    bekannt ist (Wunsch 2026-11-09), nur was nirgends inseriert ist, wird ein neuer Eintrag. Passt sie zu einer alten,
+    rausgeworfenen oder gemerkten Inseratsnummer, zählt diese als frühere Nummer: Papierkorb und Nest gelten weiter."""
+    paare = []
+    for bt in bts:
+        for g in gruppen:
+            if g and g[0].get("plz") == bt.get("plz") and bt.get("preis") and bt.get("flaeche"):
+                if (rang := _bt_treffer(bt, g)) is not None:
+                    paare.append((rang, bt["id"], id(g), bt, g))
+    paare.sort(key=lambda p: p[0])
+    vergeben, voll = set(), set()
+    for _, bid, gid, bt, g in paare:
+        if bid not in vergeben and gid not in voll:
+            g.append(bt)
+            vergeben.add(bid)
+            voll.add(gid)
+    einzeln = []
+    for bt in bts:
+        if bt["id"] in vergeben:
+            continue
+        # dasselbe Projekt bei zwei Vermarktern (3SI und Winegg)
+        g = next((g for g in einzeln if g[0].get("preis") and _bt_treffer(bt, g) is not None), None)
+        if g:
+            g.append(bt)
+        else:
+            einzeln.append([bt])
+    gruppen.extend(einzeln)
+    aktiv_ids = {r["id"] for g in gruppen for r in g}
+    alte = [r for i, r in listings.items() if i in marken and i not in aktiv_ids and not r.get("bt_projekt")
+            and r.get("preis") and r.get("flaeche")]
+    for g in gruppen:
+        for i, r in enumerate(g):
+            if r.get("bt_projekt"):
+                frueher = [a["id"] for a in alte if a.get("plz") == r.get("plz") and _bt_treffer(r, [a]) is not None]
+                if frueher:
+                    g[i] = {**r, "vorgaenger": list(r.get("vorgaenger") or []) + frueher}
+    return len(vergeben)
+
+
 def _strassen_geocode(m):
     """Nur Straße bekannt (andere Portale geben oft keine Koordinaten) -> Koordinaten suchen,
     aber nur übernehmen, wenn das Ergebnis im angegebenen Bezirk liegt."""
@@ -838,7 +904,8 @@ def _grundriss_offen(karte, nest, korb, plaene):
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
-        return (GENAU[r.get("lage_genauigkeit")], bool(r.get("detail_am")), len(r.get("text") or ""))
+        # Portal-Inserate bleiben der Kopf des Eintrags (Titel, Nummer), die Bauträger-Einheit ergänzt nur
+        return (not r.get("bt_projekt"), GENAU[r.get("lage_genauigkeit")], bool(r.get("detail_am")), len(r.get("text") or ""))
     gruppe = sorted(gruppe, key=lambda r: (rang(r), r["id"] == min(x["id"] for x in gruppe)), reverse=True)
     kopf = gruppe[0]
     m = dict(kopf)
@@ -1049,11 +1116,11 @@ def build():
     # Inserate exakt dieselben Koordinaten, ist der Punkt verdächtig (zusammenfuehren prüft dann den Text)
     titel_pro_punkt = {}
     for r in aktiv:
-        if r.get("lat") and GENAU[r.get("lage_genauigkeit")] >= 2:
+        if r.get("lat") and GENAU[r.get("lage_genauigkeit")] >= 2 and not r.get("bt_projekt"):
             titel_pro_punkt.setdefault((r["lat"], r["lon"]), set()).add((r.get("titel") or "")[:25].lower())
     verdaechtig = {p for p, t in titel_pro_punkt.items() if len(t) >= 3}
     aktiv = [{**r, "punkt_verdaechtig": True} if (r.get("lat"), r.get("lon")) in verdaechtig else r for r in aktiv]
-    gruppen = gruppieren([r for r in aktiv if not (r.get("projekt") or "/neubauprojekt/" in r.get("url", ""))])
+    gruppen = gruppieren([r for r in aktiv if not _sammelinserat(r) and not r.get("bt_projekt")])
     # von Hand erkannte Doppelte (z. B. gleicher Grundriss, verschiedene Makler): reviews "gleich_wie"
     for a, rv in reviews.items():
         b = rv.get("gleich_wie")
@@ -1062,7 +1129,11 @@ def build():
         if ga is not None and gb is not None and ga is not gb:
             ga.extend(gb)
             gruppen.remove(gb)
-    gruppen += [[r] for r in aktiv if r.get("projekt") or "/neubauprojekt/" in r.get("url", "")]
+    _m = load_json(DATA / "markierungen.json", {})
+    bt_zugeordnet = _bautraeger_einsortieren(gruppen, [r for r in aktiv if r.get("bt_projekt")], listings,
+                                             set(_m.get("papierkorb") or {}) | set(_m.get("gemerkt") or {}))
+    log(f"Bauträger: {bt_zugeordnet} Einheiten bestehenden Einträgen zugeordnet")
+    gruppen += [[r] for r in aktiv if _sammelinserat(r)]
     haeuser = haus_index(listings, reviews)  # für gleiches_haus: Adresse aus Schwester-Inseraten
     doppelt = sum(len(g) - 1 for g in gruppen)
     for gruppe in gruppen:

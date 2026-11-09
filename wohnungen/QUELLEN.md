@@ -45,6 +45,11 @@ Unbekannt → `None`.
 `baujahr`, `bauart`, `zustand`, `stockwerk`, `monatlich`, `adresse`, `lat`, `lon`,
 `flaeche`, `zimmer`, `preis`, `bilder`. Unbekanntes weglassen oder None.
 
+## Bauträger (`bautraeger.py`, Präfix `bt`)
+Keine eigene Liste auf der Karte: `_bautraeger_einsortieren` in run.py hängt jede Einheit an die Wohnung, die schon von einem Portal
+bekannt ist (Fläche, Preis, Straße/Projektname oder Nähe; auch an alte Nummern im Papierkorb oder Nest). Der Portal-Eintrag bleibt
+Kopf, "Bauträger" ist ein weiterer Link. Nur was nirgends inseriert ist, wird ein neuer Eintrag. Projekte: `data/bautraeger_projekte.json`.
+
 ## Regeln
 - Nur Python-Standardbibliothek. HTTP über `from .http import get, next_data, numid`
   (`get` hat Browser-User-Agent, Pausen und Retries und liefert bei 404 None).

@@ -121,6 +121,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Neubauprojekte direkt bei Bauträgern (Wunsch 2026-11-09): `wohnungen/bautraeger.py` liest täglich die Einheitenlisten aus
+  `data/bautraeger_projekte.json` (Tabellen, data-Attribute, RIWOG-JSON) und die 3SI-Übersicht; nur freie Wohnungen mit Preis, kein Büro,
+  nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,
+  Projektname oder Nähe) der bekannten Wohnung zu, auch alten Nummern im Papierkorb/Nest; neu auf der Karte ist nur, was kein Portal hat.
+  Die Routine sucht montags neue Projekte (REVIEW.md). Allgemeine Google-Suchen bringen nur Portale, Projektname + Adresse + "Projekt Wohnungen"
+  findet die Projektseiten. Nicht auslesbar (data/bautraeger_offen.json): EHL (Liste nur per JavaScript), Raiffeisen WohnBau (Preis nur auf Detailseiten).
 - Schwester-Inserate automatisch (seit 2026-10-30, `gleiches_haus` in run.py): hat ein Inserat ohne
   Hausnummer denselben Makler und Energieausweis (HWB + fGEE) wie ein Inserat mit Hausnummer, oder
   mindestens zwei gleiche willhaben-Fotodateien, übernimmt `build` dessen Adresse (Top nach "/" weg),
