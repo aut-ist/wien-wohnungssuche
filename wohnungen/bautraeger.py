@@ -121,13 +121,14 @@ def _aus_attributen(page):
         a = dict(re.findall(r'data-([a-z-]+)="([^"]*)"', m.group(0)))
         nach = page[m.end():m.end() + 6000]
         ende = re.search(r'(?i)\bdata-price="', nach)  # nicht in die nächste Einheit hineinlesen
-        nach = nach[:ende.start()] if ende else nach
+        nach = nach[:nach.rfind("<", 0, ende.start())] if ende else nach
         t = re.search(r"(?i)top[-\s]*(\d[\w/+-]*)", a.get("slug") or "") or re.search(r"(?i)\btop\s*(\d[\w/+-]*)", _zelle(nach))
         h = re.search(r'(?i)href="([^"#][^"]*)"', nach)
         b = re.search(r'(?i)<img\b[^>]*\bsrc="(https?://[^"]+)"', nach)
         plan = re.search(r'(?i)data-lazy-src="(https?://[^"]+)"', nach[nach.lower().find("grundriss"):]) if "grundriss" in nach.lower() else None
         stock = re.search(r'(?is)unit__cell--floor[^>]*>(.*?)<', nach)
-        yield {"top": t.group(1) if t else "", "status": a.get("status", ""), "preis": a.get("price"),
+        frei = {x.lower(): f"{y} m²" for x, y in re.findall(r"(Balkon|Terrasse|Loggia|Garten)\s+(\d+(?:,\d+)?)\s*m²", _zelle(nach))}
+        yield {**frei, "top": t.group(1) if t else "", "status": a.get("status", ""), "preis": a.get("price"),
                "flaeche": a.get("size") or a.get("area"), "zimmer": a.get("zimmer") or a.get("rooms"),
                "href": h.group(1) if h else None, "bild": htmllib.unescape(b.group(1)) if b else None,
                "plan": htmllib.unescape(plan.group(1)) if plan else None, "geschoss": _zelle(stock.group(1)) if stock else None,
