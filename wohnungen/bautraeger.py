@@ -130,7 +130,8 @@ def _aus_attributen(page):
         yield {"top": t.group(1) if t else "", "status": a.get("status", ""), "preis": a.get("price"),
                "flaeche": a.get("size") or a.get("area"), "zimmer": a.get("zimmer") or a.get("rooms"),
                "href": h.group(1) if h else None, "bild": htmllib.unescape(b.group(1)) if b else None,
-               "plan": htmllib.unescape(plan.group(1)) if plan else None, "geschoss": _zelle(stock.group(1)) if stock else None}
+               "plan": htmllib.unescape(plan.group(1)) if plan else None, "geschoss": _zelle(stock.group(1)) if stock else None,
+               "hinweis": _zelle(nach)[:600]}
 
 
 def _aus_state(page):
@@ -242,7 +243,7 @@ def _galerie(page, url):
     aus = []
     for u in _BILD.findall(page):
         u = htmllib.unescape(u)
-        if not _KEIN_FOTO.search(u):
+        if not _KEIN_FOTO.search(u) and ".png" not in u.lower():  # PNG sind auf diesen Seiten Logos und Pläne, Fotos sind JPG
             aus.append(urllib.parse.urljoin(url, u).replace("/public/pic/small/", "/public/pic/fullhd_unbranded/"))
     return list(dict.fromkeys(aus))[:25]
 
@@ -315,7 +316,7 @@ def _einheiten(p):
             continue
         gesehen.add(marke)
         bilder, dokumente = _medien(page, w.get("attr_id"))
-        if not bilder and w.get("bild"):
+        if not bilder and w.get("bild") and w["bild"] != w.get("plan"):
             bilder = [w["bild"]]
         if len(bilder) < 5:  # wenige eigene Fotos: die des Projekts dazu
             bilder = list(dict.fromkeys(bilder + galerie))
