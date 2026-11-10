@@ -299,15 +299,17 @@
     .gigibird { width: 42px; height: 36px; }
     .motto { display: block; font-size: 11.5px; }
     header > div:first-child { flex: 1 1 auto; }
-    /* Lärm-Schalter am Handy: nur Icon, in derselben Zeile wie "Karte groß", Skala schwebt darunter */
+    /* Lärm-Schalter am Handy: nur Icon, in derselben Zeile wie "Karte groß", Skala schwebt rechts daneben */
     .leaflet-top.leaflet-left .leaflet-control { clear: none; }
     .laerm-schalter { position: relative; margin-left: 6px !important; }
     .laerm-schalter .btn { padding: 6px 9px; }
     .laerm-name { display: none; }
-    .laerm-skala { position: absolute; top: 100%; left: 0; width: max-content; padding: 5px 7px; }
-    .laerm-stufen { margin-bottom: 0; align-items: flex-end; }
-    .laerm-stufen span { width: 24px; font-size: 10px; }
-    .laerm-stufen::after { content: 'dB'; font-size: 10px; margin-left: 2px; }
+    .laerm-skala { position: absolute; top: 50%; left: calc(100% + 4px); transform: translateY(-50%); margin-top: 0; width: max-content; padding: 3px 5px; border-radius: 8px; }
+    .laerm-stufen { gap: 1px; margin-bottom: 0; align-items: flex-end; }
+    .laerm-stufen span { width: 16px; font-size: 9px; }
+    .laerm-stufen i { height: 6px; }
+    .laerm-stufen::after { content: 'dB'; font-size: 9px; margin-left: 2px; }
+    .laerm-fehler { width: 98px; font-size: 9px; }
     .legende:not(.offen) > div { display: none; }
     .legende:not(.offen)::before { content: 'Legende'; font-weight: 600; cursor: pointer; }
   }
