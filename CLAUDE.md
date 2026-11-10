@@ -89,6 +89,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (13A, Linie 2) und liefert nur noch S-Bahn-Strecken und U-/S-Stationen. Die U5 (in Bau, bis
   Frankhplatz ab 2030, bis Hernals Mitte 2030er) ist auf Wunsch eingezeichnet, als gäbe es sie schon
   (`U5_STATIONEN`); die Öffi-Zeiten zum Gürtel rechnen ohne sie.
+- Verkehrslärm auf der Karte (Wunsch 2026-11-10): Knopf "🔊 Verkehrslärm" oben links, WMS von laerminfo.at (`inspire.lfrz.gv.at/000804/wms`, Ebene `2022_STRASSE_24H_ZONEN_OE`, CC BY 4.0, Quellenangabe "Datenquelle: www.laerminfo.at" Pflicht). Unter Zoom 13 (ab ca. 1:100.000) zeichnet der Dienst nur rote Linien statt Zonen, deshalb fordert `LaermKacheln` dort größere Bilder an (bis 2048 px, ab Zoom 11).
 - Fläche: seit 2026-10-30 ab 75 m² (`flaeche_min`); Wohnungen, die vorher schon gefunden wurden
   (`erstmals` der Gruppe, auch über Neu-Inserate), bleiben ab 70 m² (`flaeche_min_bestand`), so wollte
   es das Paar. Der Scrape lädt Detailseiten noch ab 70 m², weil er nicht weiß, ob ein neues Inserat
