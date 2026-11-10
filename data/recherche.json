@@ -1,1 +1,140 @@
-[]
+[
+ {
+  "id": "wh-1245564904",
+  "ids": [
+   "wh-1245564904",
+   "is-746751592314"
+  ],
+  "titel": "Silbergasse: moderne 5-Zimmer Maisonette in Grünruhelage",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/silbergasse-moderne-5-zimmer-maisonette-in-gruenruhelage-1245564904/",
+   "https://www.immobilienscout24.at/expose/6af19b5aa03a4252f6400827"
+  ],
+  "anbieter": "Adastra Immobilien - WMKM Opfermann e.U.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 252 m versetzt)",
+  "punkt": [
+   48.24472,
+   16.347534
+  ],
+  "versatz_m": 252,
+  "preis": 890000.0,
+  "flaeche": 99.49,
+  "zimmer": 5,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "72,2",
+   "hwb_class": "C",
+   "fgee": "1,37",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1245564904/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-10"
+ },
+ {
+  "id": "wh-1950162394",
+  "ids": [
+   "wh-1950162394",
+   "is-808247788392"
+  ],
+  "titel": "Wiener Altbau mit Charakter - großzügige 4-Zimmer-Wohnung im Herzen des 3. Bezirks",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/wiener-altbau-mit-charakter-grosszuegige-4-zimmer-wohnung-im-herzen-des-3-bezirks-1950162394/",
+   "https://www.immobilienscout24.at/expose/6af1d87060220037a28f1770"
+  ],
+  "anbieter": "SAQURA Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.194933,
+   16.397543
+  ],
+  "versatz_m": 0,
+  "preis": 569000.0,
+  "flaeche": 96.69,
+  "zimmer": 4,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1950162394/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-10"
+ },
+ {
+  "id": "wh-1558980949",
+  "ids": [
+   "wh-1558980949",
+   "is-553410048767"
+  ],
+  "titel": "Charmante und Helle Altbauwohnung im Servitenviertel - Nähe Liechtensteinpark | Donaukanal | U4 Friedensbrücke",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/charmante-und-helle-altbauwohnung-im-servitenviertel-naehe-liechtensteinpark-donaukanal-u4-friedensbruecke-1558980949/",
+   "https://www.immobilienscout24.at/expose/6af1fda8a03a4252f640be90"
+  ],
+  "anbieter": "Wolke 7 Immobilien-Gruppe",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk (Kartenpunkt bis zu 259 m versetzt)",
+  "punkt": [
+   48.225365,
+   16.363478
+  ],
+  "versatz_m": 259,
+  "preis": 549000.0,
+  "flaeche": 80.0,
+  "zimmer": 3,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1558980949/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-10"
+ },
+ {
+  "id": "wh-1306690612",
+  "ids": [
+   "wh-1306690612"
+  ],
+  "titel": "Familienwohnung in Döbling (befristet vermietet)",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/familienwohnung-in-doebling-befristet-vermietet-1306690612/"
+  ],
+  "anbieter": "IMMO - LEBEN OG",
+  "adresse_im_inserat": "Billrothstraße",
+  "lage": "19. Bezirk",
+  "punkt": [
+   48.239967,
+   16.348988
+  ],
+  "versatz_m": 0,
+  "preis": 449000.0,
+  "flaeche": 97.0,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "54,6",
+   "hwb_class": "C",
+   "fgee": "2,26",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1306690612/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-27"
+ }
+]
