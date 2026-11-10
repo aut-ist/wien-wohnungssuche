@@ -253,6 +253,7 @@
   .nur-nest #sync, .nur-nest .trenner { display: none !important; }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
   @media (max-width: 800px) { .karte-groesse { display: inline-flex; } }
+  .karte-bewegt *, .karte-bewegt *::before { animation-play-state: paused !important; }
   .laerm-schalter .btn { box-shadow: var(--shadow); white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
   .laerm-loch { fill: var(--panel); }
   .laerm-rad { stroke: var(--panel); }
@@ -299,6 +300,8 @@
     .gigibird { width: 42px; height: 36px; }
     .motto { display: block; font-size: 11.5px; }
     header > div:first-child { flex: 1 1 auto; }
+    /* Schatten über jedem Ei waren am Handy die größte Bremse beim Wischen und Zoomen */
+    .ei-icon svg, .ei-icon.gold svg, .ei-icon.kueken span { filter: none; }
     /* Lärm-Schalter am Handy: nur Icon, in derselben Zeile wie "Karte groß", Skala schwebt rechts daneben */
     .leaflet-top.leaflet-left .leaflet-control { clear: none; }
     .laerm-schalter { position: relative; margin-left: 6px !important; }
@@ -521,17 +524,21 @@ L.control.zoom({ position: 'topright' }).addTo(map);
 // Vektorkarte (OpenFreeMap) mit Farben im Stil von Google Maps
 const basis = L.maplibreGL({
   style: 'https://tiles.openfreemap.org/styles/liberty',
-  attribution: '<a href="https://openfreemap.org">OpenFreeMap</a> © OpenMapTiles © OpenStreetMap · Daten: Stadt Wien, willhaben'
+  attribution: '<a href="https://openfreemap.org">OpenFreeMap</a> © OpenMapTiles © OpenStreetMap · Daten: Stadt Wien, willhaben',
+  fadeDuration: 0,
+  ...(HANDY ? { pixelRatio: Math.min(devicePixelRatio, 1.5) } : {})  // volle Handy-Auflösung kostet beim Wischen spürbar Bildrate
 }).addTo(map);
+// Solange die Karte bewegt wird, stehen die Dauer-Animationen (Vogel, leuchtende Küken) still
+map.on('movestart zoomstart', () => document.body.classList.add('karte-bewegt'));
+map.on('moveend zoomend', () => document.body.classList.remove('karte-bewegt'));
 basis.getMaplibreMap().on('load', () => googleFarben(basis.getMaplibreMap()));
 function googleFarben(m) {
   const setze = (id, prop, wert) => { try { m.setPaintProperty(id, prop, wert); } catch {} };
   for (const l of m.getStyle().layers) {
     const id = l.id, t = l.type;
     if (t === 'background') setze(id, 'background-color', '#f1f3f4');
-    else if (t === 'fill-extrusion') {  // 3D-Gebäude flach und hellgrau wie bei Google
-      setze(id, 'fill-extrusion-color', '#e3e3e3'); setze(id, 'fill-extrusion-height', 0);
-      setze(id, 'fill-extrusion-base', 0); setze(id, 'fill-extrusion-opacity', 1);
+    else if (t === 'fill-extrusion') {  // 3D-Gebäude weg (teuer); die flache Gebäude-Ebene gilt dafür in jeder Zoomstufe
+      m.removeLayer(id); try { m.setLayerZoomRange('building', 13, 24); } catch {}
     }
     else if (/water/.test(id) && t === 'fill') setze(id, 'fill-color', '#a6d5f2');
     else if (/waterway/.test(id) && t === 'line') setze(id, 'line-color', '#a6d5f2');
@@ -1316,6 +1323,12 @@ const laermEbene = new LaermKacheln('https://inspire.lfrz.gv.at/000804/wms', {
   tileSize: 512, minZoom: 11, opacity: 0.75, updateWhenZooming: false, keepBuffer: 1,
   attribution: 'Datenquelle: <a href="https://www.laerminfo.at/" target="_blank" rel="noopener">www.laerminfo.at</a>'
 });
+// Öffis nur zeigen, wenn der Filter-Knopf an und die Lärmkarte aus ist (sonst sieht man den Lärm nicht gut genug, Wunsch 2026-11-10)
+function oeffisAnwenden() {
+  const an = document.getElementById('btnOeffis').getAttribute('aria-pressed') === 'true' && !map.hasLayer(laermEbene);
+  if (an) oeffiEbene.addTo(map); else oeffiEbene.remove();
+  document.querySelectorAll('.oeffi-leg').forEach(x => x.style.display = an ? '' : 'none');
+}
 const laermSchalter = L.control({ position: 'topleft' });
 laermSchalter.onAdd = () => {
   const stufen = [['#e2f2c0', '55'], ['#f3c582', '60'], ['#cc473e', '65'], ['#76085c', '70'], ['#430b4a', '75+']];
@@ -1333,6 +1346,7 @@ laermSchalter.onAdd = () => {
   knopf.addEventListener('click', () => {
     const an = !map.hasLayer(laermEbene);
     if (an) laermEbene.addTo(map); else laermEbene.remove();
+    oeffisAnwenden();
     knopf.setAttribute('aria-pressed', an);
     skala.hidden = !an;
     fehler.hidden = true;
@@ -1367,10 +1381,8 @@ function tabWechseln(tab) {
 }
 document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => tabWechseln(b.dataset.tab)));
 document.getElementById('btnOeffis').addEventListener('click', e => {
-  const an = e.currentTarget.getAttribute('aria-pressed') !== 'true';
-  e.currentTarget.setAttribute('aria-pressed', an);
-  an ? oeffiEbene.addTo(map) : oeffiEbene.remove();
-  document.querySelectorAll('.oeffi-leg').forEach(x => x.style.display = an ? '' : 'none');
+  e.currentTarget.setAttribute('aria-pressed', e.currentTarget.getAttribute('aria-pressed') !== 'true');
+  oeffisAnwenden();
 });
 
 /* ---------- Filter-UI ---------- */
