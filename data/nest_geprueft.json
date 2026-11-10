@@ -5531,5 +5531,40 @@
   "titel": "Servitenviertel | Hochwertig sanierte Altbauwohnung mit Ordinationswidmung | 89 m²",
   "ergebnis": "unklar: Privatverkauf (kein Makler/Bauträger-Website). Schwester-Inserate: keine mit gleichem Energieausweis (HWB 134/fGEE 4,83); nur Rögergasse 14B (WINEGG/3SI, anderes Haus/Zertifikat, Neubau-Projekt, kein EG mit 2 Eingängen). Grundrisse: Ordner fehlt. Websuche 'Servitenviertel Altbauwohnung Ordinationswidmung 89 m² 2 Eingänge Rögergasse' ohne Treffer. Punkt nur Straße Rögergasse (versatz 0).",
   "datum": "2026-11-08"
+ },
+ "wh-1245564904": {
+  "ids": [
+   "wh-1245564904",
+   "is-746751592314"
+  ],
+  "titel": "Silbergasse: moderne 5-Zimmer Maisonette",
+  "ergebnis": "unklar: nur Straße Silbergasse (Titel), Grundriss Top 3/3 99,49 m² ohne Adresse. Schwesterinserate: keine (nur is-746751592314); Grundriss: Top 3/3, 2. Stock, Garten, keine Adresse; Makler Adastra: keine Projektseite gefunden; Suchen: 'Silbergasse 1190 Maisonette Adastra Opfermann', 'Silbergasse 1190 Maisonette 5 Zimmer Top 3/3' ohne Treffer.",
+  "datum": "2026-11-10"
+ },
+ "wh-1950162394": {
+  "ids": [
+   "wh-1950162394",
+   "is-808247788392"
+  ],
+  "titel": "Wiener Altbau mit Charakter, 4 Zi, 3. Bezirk",
+  "ergebnis": "unklar: Ecke Reisnerstraße/Neulinggasse (Text), keine Hausnummer. Schwesterinserate: keine (kein Energieausweis, Fotos ohne Treffer); Grundriss: Ordner fehlt; Maklerseite saqura.at nicht auffindbar; Suche 'Altbau Ecke Reisnerstraße Neulinggasse SAQURA 4-Zimmer' ohne Treffer.",
+  "datum": "2026-11-10"
+ },
+ "wh-1558980949": {
+  "ids": [
+   "wh-1558980949",
+   "is-553410048767"
+  ],
+  "titel": "Altbauwohnung Servitenviertel, Wolke 7",
+  "ergebnis": "unklar: nur Servitenviertel/Nähe U4 Friedensbrücke. Schwesterinserate: keine mit gleichem Energieausweis (keiner vorhanden), Foto-Treffer nur Cottageviertel-Inserate (anderes Haus); Grundriss: Ordner fehlt; w7.immo nicht lesbar; Suche 'Servitenviertel Liechtensteinpark Friedensbrücke Wolke 7 549.000' ohne Treffer.",
+  "datum": "2026-11-10"
+ },
+ "wh-1306690612": {
+  "ids": [
+   "wh-1306690612"
+  ],
+  "titel": "Familienwohnung in Döbling (befristet vermietet)",
+  "ergebnis": "unklar: Billrothstraße ohne Nummer. Schwester wh-2013349809 (gleicher Energieausweis, 9 gleiche Fotos) nennt ebenfalls nur Billrothstraße; Grundriss ohne Adresse; Makler IMMO-LEBEN OG: nichts gefunden; Suche 'Familienwohnung Döbling Billrothstraße 97 m² befristet vermietet' ohne Treffer.",
+  "datum": "2026-11-10"
  }
 }

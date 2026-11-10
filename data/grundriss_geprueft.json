@@ -621,5 +621,36 @@
    "226465446ccacc64"
   ],
   "hinweis": "technischer Bestandsplan, mehrere Tops (4-6, Ordinationen) auf einem Blatt; 89 m² passen zu keiner Top-Fläche eindeutig"
+ },
+ "bt-798825473789": {
+  "ids": [
+   "bt-798825473789"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-10",
+  "plaene": [
+   "828333726262038b"
+  ]
+ },
+ "bt-537603148503": {
+  "ids": [
+   "bt-537603148503"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-10",
+  "plaene": [
+   "829363627273338b"
+  ]
+ },
+ "wh-1245564904": {
+  "ids": [
+   "wh-1245564904",
+   "is-746751592314"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-10",
+  "plaene": [
+   "809013b2a696d2c8"
+  ]
  }
 }

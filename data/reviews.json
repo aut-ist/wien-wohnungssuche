@@ -14572,5 +14572,70 @@
  "wh-1614606325": {
   "gleich_wie": "wh-1723263888",
   "datum": "2026-11-08"
+ },
+ "wh-1306690612": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "\"derzeit befristet vermietet\" – Ende der Befristung erfragen"
+  },
+  "datum": "2026-11-10"
+ },
+ "wh-1950162394": {
+  "lage": {
+   "adresse": "Neulinggasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Ecke Reisnerstraße und Neulinggasse\", EG, Altbau; Hausnummer nicht ermittelbar"
+  },
+  "datum": "2026-11-10"
+ },
+ "wh-1558980949": {
+  "lage": {
+   "adresse": "Servitengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Servitenviertel, Nähe Liechtensteinpark, U4 Friedensbrücke 3 Gehminuten\""
+  },
+  "datum": "2026-11-10"
+ },
+ "wh-1245564904": {
+  "lage": {
+   "adresse": "Silbergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel nennt Silbergasse (19.); Grundriss Top 3/3, 2. Stock, 99,49 m², Garten; Hausnummer nicht ermittelbar"
+  },
+  "datum": "2026-11-10"
+ },
+ "is-746751592314": {
+  "lage": {
+   "adresse": "Silbergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel nennt Silbergasse (19.); Hausnummer nicht ermittelbar"
+  },
+  "datum": "2026-11-10"
+ },
+ "is-808247788392": {
+  "lage": {
+   "adresse": "Neulinggasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Ecke Reisnerstraße und Neulinggasse\", EG, Altbau; Hausnummer nicht ermittelbar"
+  },
+  "datum": "2026-11-10"
+ },
+ "is-553410048767": {
+  "lage": {
+   "adresse": "Servitengasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Servitenviertel, U4 Friedensbrücke 3 Gehminuten; Hausnummer nicht ermittelbar"
+  },
+  "datum": "2026-11-10"
  }
 }
