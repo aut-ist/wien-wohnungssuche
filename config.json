@@ -1,6 +1,6 @@
 {
   "filter": {
-    "preis_max": 1150000,
+    "preis_max": 1200000,
     "flaeche_min": 75,
     "flaeche_min_bestand": 70,
     "flaeche_min_ab": "2026-10-30",
