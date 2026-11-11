@@ -1,1 +1,74 @@
-[]
+[
+ {
+  "id": "wh-1749807365",
+  "ids": [
+   "wh-1749807365",
+   "is-913235351290"
+  ],
+  "titel": "Moderne 3-Zimmer-Wohnung mit Balkon und Erstbezug in 1180 Wien - 78m² Komfort!",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/moderne-3-zimmer-wohnung-mit-balkon-und-erstbezug-in-1180-wien-78m-komfort-1749807365/",
+   "https://www.immobilienscout24.at/expose/6af2fd693f304726c1bd26c1"
+  ],
+  "anbieter": "RKM Immobilien e.U.",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (Kartenpunkt bis zu 270 m versetzt)",
+  "punkt": [
+   48.22551,
+   16.34767
+  ],
+  "versatz_m": 270,
+  "preis": 649000.0,
+  "flaeche": 78.66,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "31,1",
+   "hwb_class": "A",
+   "fgee": "0,74",
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/wh-1749807365/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1423064844",
+  "ids": [
+   "wh-1423064844",
+   "is-075900340074",
+   "fm-5780554"
+  ],
+  "titel": "NEUER PREIS! 4-Zimmer-Traum ODER Büro & Wohnen! 2 Einheiten flexibel kombinierbar - Top-Lage 2. Bezirk (U-Bahn) | AUGARTEN | DONAUKANAL",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/neuer-preis-4-zimmer-traum-oder-buero-wohnen-2-einheiten-flexibel-kombinierbar-top-lage-2-bezirk-u-bahn-augarten-donaukanal-1423064844/",
+   "https://www.findmyhome.at/5780554",
+   "https://www.immobilienscout24.at/expose/6a42e87774caa309273cdc99"
+  ],
+  "anbieter": "Schantl ITH Immobilientreuhand GmbH",
+  "adresse_im_inserat": "Untere Augartenstraße",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.221485,
+   16.373768
+  ],
+  "versatz_m": 0,
+  "preis": 418000.0,
+  "flaeche": 86.06,
+  "zimmer": 4,
+  "stockwerk": "0",
+  "energie": {
+   "hwb": "92",
+   "hwb_class": "C",
+   "fgee": "2,94",
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1423064844/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ }
+]
