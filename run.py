@@ -464,7 +464,7 @@ def bewerten(r, rev):
             if not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
     out["lage"] = lage_txt
-    # 18./19. nur bis 15 Minuten Öffis zum Gürtel (Wunsch 2026-11-11, nur für Wohnungen, die ab
+    # 18./19. nur bis 18 Minuten Öffis zum Gürtel (Wunsch 2026-11-11, erst 15, dann 18; nur für Wohnungen, die ab
     # `guertel_max_min_ab` neu gefunden werden; die schon bekannten bleiben, wie bei flaeche_min das früheste
     # "erstmals" der Gruppe), genau 3 Zimmer nur bis 10 (Wunsch, für alle); bei ungefährer Lage nur raus, wenn
     # es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau (im Zweifel drin); nur der Bezirk

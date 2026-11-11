@@ -11,7 +11,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
   grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt die Preisgrenze nicht.
   Für Wohnungen, die ab 2026-11-12 neu gefunden werden (`guertel_max_min_ab`, frühestes "erstmals" der Gruppe),
-  gilt im 18./19. auch bei 4+ Zimmern: höchstens 15 min Öffis zum Gürtel (`guertel_max_min`, geschätzte Zeit wie in
+  gilt im 18./19. auch bei 4+ Zimmern: höchstens 18 min Öffis zum Gürtel (Saad, erst 15, dann 18) (`guertel_max_min`, geschätzte Zeit wie in
   der Karte angezeigt). Die schon bekannten bleiben, wie sie sind (Saad: "Lass alle, die wir jetzt haben, drinnen,
   der Cut-off ist für die Zukunft"). Ist bei einer neuen nur der Bezirk bekannt, ist sie grau, bis die Adresse
   recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit).
