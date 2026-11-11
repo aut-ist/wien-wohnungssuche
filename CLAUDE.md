@@ -96,10 +96,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   westlich der Kalvarienberggasse gemischter. Öffis: 9 (Blumengasse), 43/2 (Jörgerstraße), U6 Alser Straße/Michelbeuern
   ca. 600 m. Seitdem hat geo/bezirke.geojson auch den 17. (tools/fetch_bezirke.py); alle Portale scrapen 1170.
   Am selben Abend verkleinert (Saad: Kinder sollen nicht im 17. in die Schule): nur noch, wo zu Fuß die nächste öffentliche
-  Volksschule (mind. 50 m näher) und die nächste öffentliche AHS außerhalb des 17. liegen (tools/schulweg_zone.py, Schulen aus
-  SCHULEOGD, OSM-Fußwege -> geo/schulweg_hernals.geojson, build_zones schneidet; Gebiete aus mehreren Teilen werden eigene Zonen
-  `hernals`, `hernals_2`). Übrig: Schumanngasse-Ende/Antonigasse/Leopold-Ernst-Gasse und Blumengasse 1–9; der Rest des Dreiecks
-  liegt näher an VS Rötzergasse/Kindermanngasse und GRg 17 Geblergasse. Wien hat keine Schulsprengel und keine feste km-Grenze:
+  Volksschule und die nächste öffentliche AHS außerhalb des 17. liegen (tools/schulweg_zone.py, Schulen aus SCHULEOGD,
+  OSM-Fußwege -> geo/schulweg_hernals.geojson, build_zones schneidet; Gebiete aus mehreren Teilen werden eigene Zonen
+  `hernals`, `hernals_2`). Saad: „im Zweifelsfall mit rein nehmen“, darum zählt ein Punkt noch, wenn die Schule außerhalb
+  bis zu 50 m weiter ist (TOLERANZ_M; so sind LEONORA Leopold-Ernst-Gasse 10 und Leitermayergasse 4 drin). Übrig: ein Stück
+  Schumanngasse-Ende/Antonigasse/Leopold-Ernst-Gasse/Leitermayergasse bis Blumengasse 1–9 (ca. 4,8 ha); der Rest des
+  Dreiecks liegt klar näher an VS Rötzergasse/Kindermanngasse und GRg 17 Geblergasse. Wien hat keine Schulsprengel und keine feste km-Grenze:
   VS teilt die Bildungsdirektion bei Überbuchung nach Schulweg/Geschwistern zu, AHS reiht nach Eignung, Geschwistern, Wohnortnähe
   (relativ zu den anderen Anmeldungen). Die G-18-Dependance Wielemansgasse zählt als 18.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.

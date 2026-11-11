@@ -4,8 +4,8 @@ Regeln:
 - 8., 18., 19. Bezirk: ganz erlaubt, im 19. außer rote Zone (Heiligenstadt / Karl-Marx-Hof bis Gürtel)
 - 9. Bezirk: erlaubt, außer rote Zone (Lichtental-Nord / Friedensbrücke)
 - 1., 2. und 3. Bezirk: nur in den blauen Zonen (mit Toleranzrand)
-- 17. Bezirk (seit 2026-11-11): nur zwei kleine Stücke des Hernals-Dreiecks an der 18er-Grenze, wo die nächsten
-  öffentlichen Schulen nicht im 17. liegen (tools/schulweg_zone.py), ohne Rand
+- 17. Bezirk (seit 2026-11-11): nur ein Stück des Hernals-Dreiecks an der 18er-Grenze, wo die nächsten
+  öffentlichen Schulen nicht (oder nur bis 50 m knapper) im 17. liegen (tools/schulweg_zone.py), ohne Rand
 - alles andere: raus
 """
 import json

@@ -6,8 +6,9 @@ Regeln in Wien (Bildungsdirektion, Stand 2024/25 und 2025/26):
 - AHS (Gymnasium): Reihung nach Eignung, Geschwistern, dann Wohnortnähe/Schulweg. Die Nähe ist relativ (wer sonst
   angemeldet ist) und schließt ein, ob eine andere AHS leichter erreichbar ist. Eine feste Grenze (1 km, 10 min) gibt es nicht.
 
-Deshalb: ein Punkt der Zone bleibt nur, wenn zu Fuß die nächste öffentliche Volksschule außerhalb des 17. liegt
-(mindestens VS_MARGE_M näher als die nächste im 17.) und auch die nächste öffentliche AHS außerhalb des 17.
+Deshalb: ein Punkt der Zone bleibt, wenn zu Fuß die nächste öffentliche Volksschule und die nächste öffentliche AHS
+außerhalb des 17. höchstens TOLERANZ_M weiter weg sind als die nächste im 17. (Wunsch 2026-11-11: im Zweifelsfall mit
+rein nehmen; Gleichstand ist Zweifelsfall).
 Die Dependance des G 18 Klostergasse in der Wielemansgasse zählt als 18.
 Schulen: data.wien.gv.at SCHULEOGD; Fußwege: OSM-Routing (routing.openstreetmap.de, FOSSGIS).
 Ergebnis: geo/schulweg_hernals.geojson (ein Feature je Teilgebiet), tools/build_zones.py schneidet die Zone damit.
@@ -23,7 +24,7 @@ from shapely.geometry import Point, Polygon, box, mapping
 from shapely.ops import unary_union
 
 ROOT = Path(__file__).resolve().parent.parent
-VS_MARGE_M = 50
+TOLERANZ_M = 50  # im Zweifel drin: außen darf bis zu so viel weiter sein
 SCHRITT_LON, SCHRITT_LAT = 0.0005, 0.0003  # ca. 37 x 33 m
 SCHULEN_URL = ("https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SCHULEOGD"
                "&srsName=EPSG:4326&outputFormat=json&bbox=16.30,48.20,16.37,48.245,EPSG:4326")
@@ -72,8 +73,8 @@ def main():
             def naechste(art, im_17):
                 return min((d for d, s in zip(zeile, schulen) if d is not None and s[0] == art and (s[1] == 17) == im_17),
                            default=1e9)
-            if (naechste("VS", False) + VS_MARGE_M <= naechste("VS", True)
-                    and naechste("AHS", False) < naechste("AHS", True)):
+            if (naechste("VS", False) <= naechste("VS", True) + TOLERANZ_M
+                    and naechste("AHS", False) <= naechste("AHS", True) + TOLERANZ_M):
                 ok.append(p)
         time.sleep(1.5)
     zellen = unary_union([box(a - SCHRITT_LON / 2, b - SCHRITT_LAT / 2, a + SCHRITT_LON / 2, b + SCHRITT_LAT / 2)
@@ -81,7 +82,7 @@ def main():
     glatt = zellen.buffer(0.0002).buffer(-0.0002).simplify(0.00003)
     teile = [glatt] if glatt.geom_type == "Polygon" else list(glatt.geoms)
     out = {"type": "FeatureCollection", "features": [
-        {"type": "Feature", "properties": {"vs_marge_m": VS_MARGE_M}, "geometry": mapping(g)}  # mit Löchern
+        {"type": "Feature", "properties": {"toleranz_m": TOLERANZ_M}, "geometry": mapping(g)}  # mit Löchern
         for g in teile]}
     (ROOT / "geo" / "schulweg_hernals.geojson").write_text(json.dumps(out), encoding="utf-8")
     print(f"{len(ok)} von {len(pts)} Gitterpunkten näher an Schulen außerhalb des 17., {len(teile)} Teilgebiet(e)")

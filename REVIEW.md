@@ -28,8 +28,9 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
   Arsenal oder südlich vom Rennweg.
 - 17. Bezirk (seit 2026-11-11) nur ein kleines Stück Hernals direkt unter dem 18.: östlich der Kalvarienberggasse
   (ihre Westseite nicht) bis zur 18er-Grenze, im Süden bis knapp vor die Jörgerstraße (die Jörgerstraße selbst,
-  Elterleinplatz und Hernalser Hauptstraße nicht). Seit dem Abend davon nur noch zwei kleine Stücke (Schulweg: Kinder nicht
-  im 17. in die Schule): Schumanngasse-Ende / Antonigasse / Leopold-Ernst-Gasse knapp unter dem 18. und Blumengasse etwa 1–9.
+  Elterleinplatz und Hernalser Hauptstraße nicht). Seit dem Abend davon nur noch ein Stück (Schulweg: Kinder nicht
+  im 17. in die Schule, im Zweifel drin): Schumanngasse-Ende / Antonigasse / Leopold-Ernst-Gasse / Leitermayergasse bis
+  Blumengasse etwa 1–9, knapp unter dem 18.
 - Ob ein Punkt drin ist, rechnet `run.py` selbst. Du lieferst nur die beste Adresse.
 
 ## Frage `lage`
