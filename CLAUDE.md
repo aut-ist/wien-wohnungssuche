@@ -84,6 +84,11 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   bis Lorbeergasse, Hetzgasse/Löwengasse bis unters Hundertwasserhaus). Sie gilt streng (`streng`: auch
   ungefähre Lagen darin sind raus, nicht "im Zweifel drin" wie im 9./19.). Seit 2026-11-11 werden keine roten Zonen
   mehr auf der Karte gezeichnet (Wunsch), sie gelten aber alle weiter.
+- Seit 2026-11-11 auch ein Stück Hernals (17., `mit_zonen`, Zone `hernals` in tools/build_zones.py, ohne Toleranzrand):
+  Dreieck Kalvarienberggasse (Westseite nicht) / 18er-Grenze / Jörgerstraße (Jörgerstraße selbst nicht; Saad: nachts
+  unangenehm). Grundlage: Gebäudedaten der Stadt (GEBAEUDEINFOOGD fast nur Gründerzeit, GEMBAUTENFLOGD kaum Gemeindebau),
+  westlich der Kalvarienberggasse gemischter. Öffis: 9 (Blumengasse), 43/2 (Jörgerstraße), U6 Alser Straße/Michelbeuern
+  ca. 600 m. Seitdem hat geo/bezirke.geojson auch den 17. (tools/fetch_bezirke.py); alle Portale scrapen 1170.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
   und die blauen Zonen im 2. und 3. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet

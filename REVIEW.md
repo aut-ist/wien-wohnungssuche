@@ -26,6 +26,9 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
   Donaukanal, im Süden bis zum Rennweg (Schwarzenbergplatz bis St. Marx), im Osten bis etwa
   Kunst Haus Wien, Hundertwasserhaus und U3 Kardinal-Nagl-Platz. Nicht Weißgerberlände, Erdberg,
   Arsenal oder südlich vom Rennweg.
+- 17. Bezirk (seit 2026-11-11) nur ein kleines Stück Hernals direkt unter dem 18.: östlich der Kalvarienberggasse
+  (ihre Westseite nicht) bis zur 18er-Grenze, im Süden bis knapp vor die Jörgerstraße (die Jörgerstraße selbst,
+  Elterleinplatz und Hernalser Hauptstraße nicht). Dornerplatz, Pezzlgasse, Beheimgasse, Blumengasse, Syringgasse.
 - Ob ein Punkt drin ist, rechnet `run.py` selbst. Du lieferst nur die beste Adresse.
 
 ## Frage `lage`

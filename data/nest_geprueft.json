@@ -5585,5 +5585,102 @@
   "titel": "Moderne 3-Zimmer-Wohnung mit Balkon und Erstbezug in 1180 Wien - 78m²",
   "ergebnis": "unklar: Top 10, 4. OG, 78,66 m² (Grundriss RKM, ohne Adresse im Planfeld); Text nur \"nahe U6 Währinger Straße\", Punkt um 270 m versetzt. Schwester-Inserate: keine (kein weiteres RKM-Inserat, kein gleicher Energieausweis HWB 31,1/fGEE 0,74). Makler RKM Immobilien: keine Projektseite gefunden. Websuche \"RKM Immobilien Erstbezug 1180 Top 10 78,66 m² Balkon 10,34 m²\" nur weekend.at/ir.at-Kopien ohne Adresse (weekend.at/immomarktplatz von hier nicht abrufbar).",
   "datum": "2026-11-11"
+ },
+ "is-918216007315": {
+  "ids": [
+   "is-918216007315",
+   "wh-865769198"
+  ],
+  "ergebnis": "Ferrogasse 72 (ungefähr), Stiege F Top 2, erschlossen aus Lageplan; Projekt noch nicht gebaut",
+  "datum": "2026-11-11"
+ },
+ "wh-2145505668": {
+  "ids": [
+   "wh-2145505668",
+   "is-306756723890"
+  ],
+  "ergebnis": "Umkreis 150 m um E&V-Punkt, Kandidat Lange Gasse 50, nicht belegt",
+  "datum": "2026-11-11"
+ },
+ "wh-1804703607": {
+  "ids": [
+   "wh-1804703607"
+  ],
+  "ergebnis": "unklar, Nähe Belvedere/S Rennweg, keine Adresse auffindbar",
+  "datum": "2026-11-11"
+ },
+ "wh-1125259676": {
+  "ids": [
+   "wh-1125259676"
+  ],
+  "ergebnis": "Grailichgasse 3 (ungefähr) aus 360°-Rundgang",
+  "datum": "2026-11-11"
+ },
+ "wh-1033738299": {
+  "ids": [
+   "wh-1033738299"
+  ],
+  "ergebnis": "Neulinggasse, Top 13, Hausnummer offen",
+  "datum": "2026-11-11"
+ },
+ "fm-5721919": {
+  "ids": [
+   "fm-5721919",
+   "wh-1284784148",
+   "wh-2106401753"
+  ],
+  "ergebnis": "Neulinggasse 27, Top 17 (Grundriss-Schriftfeld)",
+  "datum": "2026-11-11"
+ },
+ "wh-1018213143": {
+  "ids": [
+   "wh-1018213143",
+   "is-931026892339"
+  ],
+  "ergebnis": "Zimmermanngasse 20 (ungefähr, Makler-Kartenpunkt)",
+  "datum": "2026-11-11"
+ },
+ "wh-1238384697": {
+  "ids": [
+   "wh-1238384697",
+   "is-374990928893",
+   "fm-5730717"
+  ],
+  "ergebnis": "Siolygasse (ungefähr), Top 19",
+  "datum": "2026-11-11"
+ },
+ "is-029535121467": {
+  "ids": [
+   "is-029535121467",
+   "wh-2013153679",
+   "fm-5754131"
+  ],
+  "ergebnis": "Raffelspergergasse 26, Haus 1 Top 2",
+  "datum": "2026-11-11"
+ },
+ "wh-1944054963": {
+  "ids": [
+   "wh-1944054963",
+   "is-214457638021",
+   "fm-5477830"
+  ],
+  "ergebnis": "Sollingergasse/Rodlergasse/Weinberggasse (ungefähr), Top 12",
+  "datum": "2026-11-11"
+ },
+ "wh-1893783825": {
+  "ids": [
+   "wh-1893783825",
+   "is-502983838547"
+  ],
+  "ergebnis": "Sieveringer Straße 135, Haus 6, Top 31",
+  "datum": "2026-11-11"
+ },
+ "wh-1018260629": {
+  "ids": [
+   "wh-1018260629",
+   "is-918288254355"
+  ],
+  "ergebnis": "Ferdinandstraße laut Text (ohne Hausnummer), liegt in der Zone Karmeliterviertel",
+  "datum": "2026-11-11"
  }
 }

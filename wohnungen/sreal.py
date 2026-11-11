@@ -22,6 +22,7 @@ BEZIRKE = {
     1030: "Wien 3., Landstraße",
     1080: "Wien 8., Josefstadt",
     1090: "Wien 9., Alsergrund",
+    1170: "Wien 17., Hernals",
     1180: "Wien 18., Währing",
     1190: "Wien 19., Döbling",
 }

@@ -697,13 +697,13 @@
  },
  "wh-1354035914": {
   "lage": {
-   "adresse": "Erndtgasse 28 (Alt-Gersthof)",
-   "lat": 48.23502,
-   "lon": 16.32118,
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
    "sicherheit": "ungefaehr",
-   "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
   },
-  "datum": "2026-10-28",
+  "datum": "2026-11-11",
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "Neubau, Erstbezug, schlüsselfertig. Bezug laut Inserat \"19 Monate ab Baustart\", Baujahr 2027; Baustart nirgends genannt (willhaben-Projekt \"In Bau/Planung\", Baubewilligung liegt vor). Q3 2027 geht nur bei Baustart bis Feb. 2026: Termin bei PlanetHome erfragen. https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gersthof-garten-geothermie-ganze-etage-b1-1354035914/"
@@ -747,13 +747,13 @@
  },
  "wh-829691413": {
   "lage": {
-   "adresse": "Erndtgasse 28 (Alt-Gersthof)",
-   "lat": 48.23502,
-   "lon": 16.32118,
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
    "sicherheit": "ungefaehr",
-   "begruendung": "Mittelpunkt von 10 Projekt-Inseraten (B1–B5, F1–F5) mit zufällig versetzten Punkten auf ImmoScout24 → Alt-Gersthof bei Erndtgasse 28 (±100 m); passt zu „ca. 10 Gehminuten zur S Gersthof“, Alsegger Straße und Thimiggasse in der Nähe"
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
   },
-  "datum": "2026-10-25"
+  "datum": "2026-11-11"
  },
  "wh-1164047911": {
   "lage": {
@@ -14680,6 +14680,327 @@
    "lon": null,
    "sicherheit": "genau",
    "begruendung": "gleiches Inserat, Hausnummer 36"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-918216007315": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Noch nicht gebaut: \"Verfügbar ab 19 Monate ab Baustart\", Baubewilligung liegt erst vor, Baujahr 2027 – Bezug frühestens 2028"
+  },
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  }
+ },
+ "wh-865769198": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Noch nicht gebaut: \"Verfügbar ab 19 Monate ab Baustart\", Baubewilligung liegt erst vor, Baujahr 2027 – Bezug frühestens 2028"
+  },
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  }
+ },
+ "is-126884792434": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau im Bau, laut liv.at \"Bezugsfertig 2027\" ohne Monat – Termin erfragen"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1893783825": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gas bezogen von Wienenergie\" (Fernwärme-Feld widerspricht dem Text)"
+  },
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "lat": 48.24852,
+   "lon": 16.32445,
+   "sicherheit": "genau",
+   "begruendung": "Früheres weekend.at-Inserat (Thurner) nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen; Wohnatelier Sievering"
+  }
+ },
+ "is-502983838547": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gas bezogen von Wienenergie\" (Fernwärme-Feld widerspricht dem Text)"
+  },
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Sieveringer Straße 135",
+   "lat": 48.24852,
+   "lon": 16.32445,
+   "sicherheit": "genau",
+   "begruendung": "Früheres weekend.at-Inserat (Thurner) nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen; Wohnatelier Sievering"
+  }
+ },
+ "wh-1018260629": {
+  "lage": {
+   "adresse": "Ferdinandstraße",
+   "sicherheit": "genau",
+   "begruendung": "\"in der ruhigen Ferdinandstraße\", Region Nestroyplatz"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-918288254355": {
+  "lage": {
+   "adresse": "Ferdinandstraße",
+   "sicherheit": "genau",
+   "begruendung": "\"in der ruhigen Ferdinandstraße\", Region Nestroyplatz"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5721919": {
+  "gleich_wie": "wh-1284784148",
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Neulinggasse 27",
+   "lat": 48.1990262,
+   "lon": 16.3855389,
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+  }
+ },
+ "fm-5744555": {
+  "gleich_wie": "wh-1156494211",
+  "datum": "2026-11-11"
+ },
+ "is-455694791895": {
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15244187": {
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1777491543": {
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-441955908122": {
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15244186": {
+  "lage": {
+   "adresse": "Ferrogasse 72",
+   "lat": 48.234015,
+   "lon": 16.319183,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-2145505668": {
+  "lage": {
+   "adresse": "Lange Gasse",
+   "lat": 48.211578,
+   "lon": 16.351824,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kartenpunkt der Engel & Völkers-Seite (±150 m), Ostseite einer Nord-Süd-Gasse, Jugendstilhaus; bester Kandidat Lange Gasse 50, nicht belegt."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-306756723890": {
+  "lage": {
+   "adresse": "Lange Gasse",
+   "lat": 48.211578,
+   "lon": 16.351824,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kartenpunkt der Engel & Völkers-Seite (±150 m), Ostseite einer Nord-Süd-Gasse, Jugendstilhaus; bester Kandidat Lange Gasse 50, nicht belegt."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1804703607": {
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "Keine Quelle nennt die Adresse; Lagekarte im Inserat: Kreis um S Rennweg (beide Seiten des Rennwegs möglich)"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1125259676": {
+  "lage": {
+   "adresse": "Grailichgasse 3",
+   "lat": 48.206748,
+   "lon": 16.386905,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Straße laut Inserat; Nr. 3 aus dem 360°-Rundgang (Blick vom Hauseingang auf Ecke Untere Viaduktgasse), keine Nummer lesbar"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1033738299": {
+  "lage": {
+   "adresse": "Neulinggasse",
+   "lat": 48.19913,
+   "lon": 16.39069,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Straße laut Inserat, 'Nähe Arenbergpark', Top 13 laut Grundriss, Hausnummer nirgends genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1284784148": {
+  "lage": {
+   "adresse": "Neulinggasse 27",
+   "lat": 48.1990262,
+   "lon": 16.3855389,
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-2106401753": {
+  "lage": {
+   "adresse": "Neulinggasse 27",
+   "lat": 48.1990262,
+   "lon": 16.3855389,
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1018213143": {
+  "lage": {
+   "adresse": "Zimmermanngasse 20",
+   "lat": 48.217676,
+   "lon": 16.34363,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Makler-Webseite immo.express setzt die Schwester-DG-Wohnungen desselben Hauses exakt auf den Hauspunkt Zimmermanngasse 20; ausgeschrieben steht die Adresse nirgends"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-931026892339": {
+  "lage": {
+   "adresse": "Zimmermanngasse 20",
+   "lat": 48.217676,
+   "lon": 16.34363,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Makler-Webseite immo.express setzt die Schwester-DG-Wohnungen desselben Hauses exakt auf den Hauspunkt Zimmermanngasse 20; ausgeschrieben steht die Adresse nirgends"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1238384697": {
+  "lage": {
+   "adresse": "Siolygasse",
+   "lat": 48.2442,
+   "lon": 16.3221,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-374990928893": {
+  "lage": {
+   "adresse": "Siolygasse",
+   "lat": 48.2442,
+   "lon": 16.3221,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5730717": {
+  "lage": {
+   "adresse": "Siolygasse",
+   "lat": 48.2442,
+   "lon": 16.3221,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-029535121467": {
+  "lage": {
+   "adresse": "Raffelspergergasse 26",
+   "lat": 48.24492,
+   "lon": 16.31592,
+   "sicherheit": "genau",
+   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-2013153679": {
+  "lage": {
+   "adresse": "Raffelspergergasse 26",
+   "lat": 48.24492,
+   "lon": 16.31592,
+   "sicherheit": "genau",
+   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5754131": {
+  "lage": {
+   "adresse": "Raffelspergergasse 26",
+   "lat": 48.24492,
+   "lon": 16.31592,
+   "sicherheit": "genau",
+   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1944054963": {
+  "lage": {
+   "adresse": "Sollingergasse",
+   "lat": 48.2435,
+   "lon": 16.335,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-214457638021": {
+  "lage": {
+   "adresse": "Sollingergasse",
+   "lat": 48.2435,
+   "lon": 16.335,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5477830": {
+  "lage": {
+   "adresse": "Sollingergasse",
+   "lat": 48.2435,
+   "lon": 16.335,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
   },
   "datum": "2026-11-11"
  }

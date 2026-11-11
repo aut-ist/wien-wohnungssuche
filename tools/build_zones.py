@@ -100,6 +100,20 @@ GEO_ZONEN = {
                     (48.19072, 16.39696), (48.19174, 16.39524), (48.19276, 16.39294), (48.19369, 16.39023),
                     (48.19442, 16.3866), (48.19493, 16.38526), (48.19573, 16.38326), (48.19698, 16.38041),
                     (48.19788, 16.37812), (48.2000, 16.3740), (48.2160, 16.3700)],
+    # Hernals (Wunsch 2026-11-11): Dreieck zwischen Kalvarienberggasse (West, 20 m westlich der Straßenmitte, die
+    # Westseite der Geschäftsstraße bleibt draußen), 18er-Grenze (Nord/Ost) und Jörgerstraße (Süd, 35 m nördlich
+    # der Straßenmitte, die Jörgerstraße selbst bleibt draußen). Punkte aus OpenStreetMap; Nord/Ost großzügig,
+    # wird genau auf den 17. zugeschnitten. Gebäudedaten der Stadt: fast nur Gründerzeit, kaum Gemeindebauten.
+    "hernals": [(48.218647, 16.332256), (48.219047, 16.332387), (48.219115, 16.332409), (48.219179, 16.332431), (48.219747, 16.332631),
+                (48.22039, 16.332856), (48.220891, 16.333331), (48.2217, 16.33411), (48.222441, 16.334831), (48.223259, 16.335604),
+                (48.225, 16.335604), (48.225, 16.342), (48.217644, 16.342), (48.217644, 16.341662), (48.217652, 16.341545),
+                (48.217804, 16.340423), (48.217887, 16.339866), (48.217942, 16.339545), (48.217971, 16.339321), (48.217972, 16.339219),
+                (48.217992, 16.338831), (48.218017, 16.338533), (48.218048, 16.338202), (48.218061, 16.338019), (48.218062, 16.33798),
+                (48.218057, 16.337931), (48.218, 16.33755), (48.217972, 16.33738), (48.217931, 16.337109), (48.21793, 16.337047),
+                (48.21793, 16.337005), (48.217931, 16.336958), (48.217934, 16.336913), (48.217938, 16.336882), (48.217941, 16.336855),
+                (48.218196, 16.335427), (48.218208, 16.335357), (48.218233, 16.335258), (48.218342, 16.334989), (48.218431, 16.334756),
+                (48.21845, 16.33467), (48.218466, 16.334564), (48.218479, 16.334458), (48.218484, 16.334345), (48.218489, 16.334094),
+                (48.218459, 16.332838), (48.218452, 16.332593), (48.218451, 16.332527), (48.218476, 16.332379)],
 }
 
 ZONES = [
@@ -119,6 +133,10 @@ ZONES = [
     # seit 2026-10-29: im 19. alles östlich der Straßenbahn 37 (Döblinger Hauptstraße/Hohe Warte) bis zum
     # Donaukanal, vom Gürtel bis Heiligenstadt. Genau zuschneiden (shapely): der alte Zuschnitt nimmt die
     # konvexe Hülle der Zone, die würde hier über die Straßenbahn nach Westen greifen.
+    # seit 2026-11-11: ein Stück Hernals unter der 18er-Grenze, ohne Toleranzrand (sonst wären Jörgerstraße und
+    # Westseite der Kalvarienberggasse wieder drin)
+    {"id": "hernals", "rolle": "erlaubt", "name": "Hernals: Kalvarienberggasse bis 18er-Grenze, ohne Jörgerstraße",
+     "nur_in_bezirk": 17, "puffer_m": 0, "zuschneiden": "genau"},
     {"id": "heiligenstadt_rot", "rolle": "ausgeschlossen", "name": "Heiligenstadt: Straßenbahn 37 bis Donaukanal",
      "nur_in_bezirk": 19, "puffer_m": 0, "zuschneiden": "genau"},
 ]

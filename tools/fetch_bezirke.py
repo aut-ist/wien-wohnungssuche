@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 URL = ("https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0"
        "&typeName=ogdwien:BEZIRKSGRENZEOGD&srsName=EPSG:4326&outputFormat=json")
-BEZIRKE = {1, 2, 3, 8, 9, 18, 19}
+BEZIRKE = {1, 2, 3, 8, 9, 17, 18, 19}
 TOLERANZ_M = 4
 
 

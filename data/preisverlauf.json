@@ -7188,10 +7188,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/zwei-ebenen-ein-zuhause-wohnen-in-toplage-mit-dachterrasse-tg-platz-988212014/",
    "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
-   "status": "grau",
-   "gruende": [
-    "Lage unklar: Kartenpunkt bis zu 263 m versetzt, Zonengrenze in der Nähe"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.22112,
    "lon": 16.337708,

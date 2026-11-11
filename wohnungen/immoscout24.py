@@ -23,6 +23,7 @@ SLUGS = {
     1030: "3-bezirk-landstrasse",
     1080: "8-bezirk-josefstadt",
     1090: "9-bezirk-alsergrund",
+    1170: "17-bezirk-hernals",
     1180: "18-bezirk-waehring",
     1190: "19-bezirk-doebling",
 }
