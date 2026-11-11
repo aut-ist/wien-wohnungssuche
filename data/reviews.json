@@ -14637,5 +14637,50 @@
    "begruendung": "Servitenviertel, U4 Friedensbrücke 3 Gehminuten; Hausnummer nicht ermittelbar"
   },
   "datum": "2026-11-10"
+ },
+ "wh-1423064844": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Derzeit über Airbnb kurzzeitig vermietet (kein Mietvertrag), voll möbliert; \"Übergabe in Absprache mit Ende des Jahres\". 2 Einheiten (Top 4 + Top 5) für 418.000 €."
+  },
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Untere Augartenstraße 36",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "willhaben-Text: Untere Augartenstraße 36, Top 4 + Top 5"
+  }
+ },
+ "is-954683596177": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau Village im Dritten, Baufeld 14B: Fertigstellung laut weekend.at-Exposés 2027, jüngste Meldung Frühjahr/Q2 2027 – Bezugstermin erfragen."
+  },
+  "preis": {
+   "eigennutzer": 928800,
+   "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung): 774.000 + 20 % = 928.800 €; Eigennutzerpreis erfragen."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-075900340074": {
+  "lage": {
+   "adresse": "Untere Augartenstraße 36",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiches Inserat, Hausnummer 36"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5780554": {
+  "lage": {
+   "adresse": "Untere Augartenstraße 36",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiches Inserat, Hausnummer 36"
+  },
+  "datum": "2026-11-11"
  }
 }

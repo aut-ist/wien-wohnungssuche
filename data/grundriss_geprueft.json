@@ -652,5 +652,62 @@
   "plaene": [
    "809013b2a696d2c8"
   ]
+ },
+ "wh-1423064844": {
+  "ids": [
+   "wh-1423064844",
+   "is-075900340074",
+   "fm-5780554"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-11",
+  "plaene": [
+   "96b2b2b2820a0cae",
+   "bab2aabaf2800eae"
+  ]
+ },
+ "wh-1749807365": {
+  "ids": [
+   "wh-1749807365",
+   "is-913235351290"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-11",
+  "plaene": [
+   "3870727262626a64"
+  ]
+ },
+ "is-954683596177": {
+  "ids": [
+   "is-954683596177",
+   "wh-1257064103"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-11",
+  "plaene": [
+   "43c3d2d2d2c24241"
+  ]
+ },
+ "ds-15097977": {
+  "ids": [
+   "ds-15097977"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-11",
+  "plaene": [
+   "7870547058486870"
+  ],
+  "hinweis": "technischer Plan mit Maßketten, Top 19 (127,71 m²) nicht eindeutig von den Nachbarräumen auf dem Blatt abgrenzbar"
+ },
+ "wh-821144839": {
+  "ids": [
+   "wh-821144839"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-11",
+  "plaene": [
+   "1c1416d29a9a9200",
+   "6de8cb5a454cac8c"
+  ]
  }
 }
