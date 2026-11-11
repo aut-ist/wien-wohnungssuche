@@ -408,6 +408,7 @@ def bewerten(r, rev):
     # 1) Lage
     lrev = rev.get("lage")
     lage_txt = None
+    nur_bezirk = False  # Lage nur auf den Bezirk genau: der Kartenpunkt sagt nichts über die Gürtelzeit
     if lrev and lrev.get("sicherheit") != "unklar":
         pos = (lrev.get("lat"), lrev.get("lon")) if lrev.get("lat") else (
             geocode(f"{lrev['adresse']}, {r['plz']} Wien") if lrev.get("adresse") else None)
@@ -452,7 +453,7 @@ def bewerten(r, rev):
                 return {**out, "status": "raus", "art": "lage", "gruende": [lage_txt], "lage": lage_txt}
         elif r["plz"] in CONFIG["bezirke"]["ganz"]:
             lage_txt = f"{(r['plz'] - 1000) // 10}. Bezirk (genaue Adresse nicht angegeben)"
-            out["ungefaehr"] = True
+            out["ungefaehr"] = nur_bezirk = True
             # Lage passt sowieso, aber für die Öffi-Zeit zum Gürtel (18./19.) braucht es die Adresse
             if r["plz"] in (1180, 1190) and not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
@@ -463,21 +464,24 @@ def bewerten(r, rev):
             if not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
     out["lage"] = lage_txt
-    # genau 3 Zimmer im 18./19. nur bis 10 Minuten Öffis zum Gürtel (Wunsch); bei ungefährer Lage nur raus,
-    # wenn es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau
-    if r.get("zimmer") == 3 and r["plz"] in (1180, 1190):
-        grenze = F["guertel_max_min_3_zimmer"]
-        g = guertel_zeit(out["lat"], out["lon"]) if out["lat"] else None
+    # 18./19. nur bis 15 Minuten Öffis zum Gürtel (Wunsch 2026-11-11), genau 3 Zimmer nur bis 10 (Wunsch);
+    # bei ungefährer Lage nur raus, wenn es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau
+    # (im Zweifel drin); nur der Bezirk bekannt = grau, bis die Adresse recherchiert ist
+    if r["plz"] in (1180, 1190):
+        drei = r.get("zimmer") == 3
+        grenze = F["guertel_max_min_3_zimmer"] if drei else F["guertel_max_min"]
+        wer = "3 Zimmer, " if drei else ""
+        g = guertel_zeit(out["lat"], out["lon"]) if out["lat"] and not nur_bezirk else None
         if not g:
-            if out["lat"]:  # keine Haltestelle im Umkreis von 1,2 km
-                return {**out, "status": "raus", "art": "guertel", "gruende": [f"3 Zimmer, mehr als {grenze} min zum Gürtel"]}
-            grau.append(f"3 Zimmer: Öffi-Zeit zum Gürtel unbekannt (max. {grenze} min), Lage fehlt")
+            if out["lat"] and not nur_bezirk:  # keine Haltestelle im Umkreis von 1,2 km
+                return {**out, "status": "raus", "art": "guertel", "gruende": [f"{wer}mehr als {grenze} min zum Gürtel"]}
+            grau.append(f"{wer}Öffi-Zeit zum Gürtel unbekannt (max. {grenze} min), Lage fehlt")
         elif g["min"] > grenze:
             spiel = ((r.get("lage_radius") or 250) / GEHEN_M_PRO_MIN) if out["ungefaehr"] else 0
             if g["min"] - spiel > grenze:
                 return {**out, "status": "raus", "art": "guertel",
-                        "gruende": [f"3 Zimmer, {g['min']} min zum Gürtel (max. {grenze})"]}
-            grau.append(f"3 Zimmer: etwa {g['min']} min zum Gürtel, Lage ungefähr (max. {grenze} min)")
+                        "gruende": [f"{wer}{g['min']} min zum Gürtel (max. {grenze})"]}
+            grau.append(f"{wer}etwa {g['min']} min zum Gürtel, Lage ungefähr (max. {grenze} min)")
     if out["ungefaehr"] and out["lat"] and not out.get("versetzt") and not (lrev and lrev.get("sicherheit") == "ungefaehr"):
         out["lat"], out["lon"] = _jitter(r["id"], out["lat"], out["lon"])
 

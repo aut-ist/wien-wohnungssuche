@@ -1,1 +1,37 @@
-[]
+[
+ {
+  "id": "wh-1691397623",
+  "ids": [
+   "wh-1691397623",
+   "is-390483139587"
+  ],
+  "titel": "Perfekt geschnittener Rückzugsort im Grünen: 97 m² Wohnkomfort mit Loggia, Balkon & Lift im 19. Bez.",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/perfekt-geschnittener-rueckzugsort-im-gruenen-97-m-wohnkomfort-mit-loggia-balkon-lift-im-19-bez-1691397623/",
+   "https://www.immobilienscout24.at/expose/6af06256b43d88c45b61f91f"
+  ],
+  "anbieter": "Klebl Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.248436,
+   16.329475
+  ],
+  "versatz_m": 0,
+  "preis": 679000.0,
+  "flaeche": 97.0,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1691397623/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-09"
+ }
+]
