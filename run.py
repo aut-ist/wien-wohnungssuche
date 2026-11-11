@@ -986,7 +986,7 @@ def zusammenfuehren(gruppe, reviews):
         p = [x["preis"] for x in revs if x.get("preis")]
         if p:
             rev["preis"] = p[0]
-        for k in ("kosten", "versteigerung"):  # von Hand geprüft (2026-11-04)
+        for k in ("kosten", "versteigerung", "gemeindebau"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11)
             v = [x[k] for x in revs if x.get(k)]
             if v:
                 rev[k] = v[0]
@@ -1122,17 +1122,22 @@ def build():
     aktiv = [{**r, "punkt_verdaechtig": True} if (r.get("lat"), r.get("lon")) in verdaechtig else r for r in aktiv]
     gruppen = gruppieren([r for r in aktiv if not _sammelinserat(r) and not r.get("bt_projekt")])
     # von Hand erkannte Doppelte (z. B. gleicher Grundriss, verschiedene Makler): reviews "gleich_wie"
-    for a, rv in reviews.items():
-        b = rv.get("gleich_wie")
-        ga = next((g for g in gruppen if any(r["id"] == a for r in g)), None)
-        gb = next((g for g in gruppen if any(r["id"] == b for r in g)), None)
-        if ga is not None and gb is not None and ga is not gb:
-            ga.extend(gb)
-            gruppen.remove(gb)
+    def gleich_wie_anwenden():
+        for a, rv in reviews.items():
+            b = rv.get("gleich_wie")
+            ga = next((g for g in gruppen if any(r["id"] == a for r in g)), None)
+            gb = next((g for g in gruppen if any(r["id"] == b for r in g)), None)
+            if ga is not None and gb is not None and ga is not gb:
+                ga.extend(gb)
+                gruppen.remove(gb)
+    gleich_wie_anwenden()
     _m = load_json(DATA / "markierungen.json", {})
     bt_zugeordnet = _bautraeger_einsortieren(gruppen, [r for r in aktiv if r.get("bt_projekt")], listings,
                                              set(_m.get("papierkorb") or {}) | set(_m.get("gemerkt") or {}))
     log(f"Bauträger: {bt_zugeordnet} Einheiten bestehenden Einträgen zugeordnet")
+    # noch einmal, damit gleich_wie auch Bauträger-Einheiten erfasst, die die Automatik nicht zuordnen konnte
+    # (2026-11-11: Zur Schönen Agnes Top 19, Ulreich 108,64 m², Portale 120,05 m²)
+    gleich_wie_anwenden()
     gruppen += [[r] for r in aktiv if _sammelinserat(r)]
     haeuser = haus_index(listings, reviews)  # für gleiches_haus: Adresse aus Schwester-Inseraten
     doppelt = sum(len(g) - 1 for g in gruppen)
@@ -1221,7 +1226,7 @@ def build():
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
-            "monatlich": (r.get("laufende_kosten") or {}).get("betrag"), "energie": r.get("energie"), "anbieter": r.get("anbieter"),
+            "monatlich": (rev.get("kosten") or {}).get("betrag") or (r.get("laufende_kosten") or {}).get("betrag"),  # von Hand geprüft zuerst "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": _mit_neuem_grundriss(r["ids"], _grundriss_nach_vorne(
                 r.get("bilder") or ([r["bild"]] if r.get("bild") else [])), plaene),
             "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),

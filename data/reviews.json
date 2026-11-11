@@ -10692,7 +10692,14 @@
    "eigennutzer": 870000,
    "begruendung": "Inserat zeigt Anlegerpreis netto 783.000 € ('zuzüglich 20 % Umsatzsteuer'); ARE-Einheitenliste Baufeld 14B Top 2.43 (8. OG, 99,06 m², Otto-Preminger-Str. 18): Preis 870.000 €, netto 783.000 €"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-119916323357": {
   "zustand": {
@@ -10703,7 +10710,14 @@
    "eigennutzer": 858000,
    "begruendung": "Inserat zeigt Anlegerpreis netto 772.000 € ('zuzüglich 20 % Umsatzsteuer'); ARE-Einheitenliste Baufeld 14B Top 1.46 (5. OG, 96,18 m², Otto-Preminger-Str. 18): Preis 858.000 €, netto 772.000 €"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1413084466": {
   "lage": {
@@ -11169,7 +11183,14 @@
    "eigennutzer": 879000,
    "begruendung": "Gleiche Wohnung (Hilde-Güden-Promenade 9/39 = Otto-Preminger-Straße 18/39, 100,99 m², 7. OG) bei DECUS als '| EIGENNUTZER |' um € 879.000 (wh-922690270); EDEX-Anlegervariante derselben Top: € 791.000 netto (wh-1879201226). Der USt-Satz im Text ist Textbaustein"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-554776023526": {
   "zustand": {
@@ -11180,7 +11201,14 @@
    "eigennutzer": 703000,
    "begruendung": "Gleiche Top Hilde-Güden-Promenade 11/21 (88,59 m², 2. OG) bietet EDEX für Eigennutzer um € 703.000 an (is-313920782325/ds-15232188 'Moderne 4-Zimmer Wohnung mit zwei Freiflächen'), EHL ebenso € 703.000 (ds-15139687); hier € 633.000 netto für Anleger"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-799091669": {
   "lage": {
@@ -11551,7 +11579,14 @@
    "eigennutzer": 830000,
    "begruendung": "ARE-Wohnungsfinder Baufeld 14B (gn.squarebytes.at Projekt 399): Top 2.05, 1. OG, 105,04 m² – Preis 830.000 €, Anleger netto 747.000 €. Inseratspreis 830.000 € ist trotz Floskel \"zzgl. 20 % USt\" der Eigennutzerpreis."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-013197279748": {
   "zustand": {
@@ -11562,7 +11597,15 @@
    "eigennutzer": 715000,
    "begruendung": "Inserat zeigt Anlegerpreis 644.000 € netto (\"zzgl. 20 % USt\", Titel ANLEGER). ARE-Wohnungsfinder 14B: Top 1.11, 1. OG, 88,45 m² – Anleger netto 644.000 €, Preis 715.000 € (Eigennutzer)."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "gleich_wie": "ds-14910005"
  },
  "wh-1346581280": {
   "lage": {
@@ -12015,14 +12058,28 @@
    "eigennutzer": 938400,
    "begruendung": "782.000 € netto: \"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer. Es handelt sich ... um eine Vorsorgewohnung\"; Eigennutzerpreis nur auf Anfrage, daher +20 % USt"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-313921760290": {
   "preis": {
    "eigennutzer": 843600,
    "begruendung": "703.000 € netto: \"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer. Es handelt sich ... um eine Vorsorgewohnung\"; Eigennutzerpreis nur auf Anfrage, daher +20 % USt"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1331684446": {
   "lage": {
@@ -12423,7 +12480,14 @@
    "eigennutzer": 844800,
    "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" – € 704.000 netto + 20 % USt = € 844.800"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-2143500290": {
   "lage": {
@@ -12724,7 +12788,14 @@
    "eigennutzer": 1014000,
    "begruendung": "\"Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung, Eigennutzerpreis auf Anfrage): 845.000 + 20 % = 1.014.000"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-309590924276": {
   "zustand": {
@@ -12735,7 +12806,14 @@
    "eigennutzer": 972000,
    "begruendung": "\"Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Anleger, Eigennutzerpreis auf Anfrage): 810.000 + 20 % = 972.000"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1679951842": {
   "lage": {
@@ -13074,7 +13152,14 @@
    "eigennutzer": 853200,
    "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (711.000 netto, Eigennutzerpreis nur auf Anfrage) -> 711.000 + 20 % = 853.200"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-343344746236": {
   "zustand": {
@@ -13085,7 +13170,14 @@
    "eigennutzer": 896400,
    "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (747.000 netto, Eigennutzerpreis nur auf Anfrage) -> 747.000 + 20 % = 896.400"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1946552852": {
   "lage": {
@@ -13915,7 +14007,14 @@
    "eigennutzer": 879000,
    "begruendung": "Anlegerpreis 791.000 netto; dieselbe Wohnung (100,99 m², 7. OG, Balkon 12,21 + Loggia 15,05 m², Hilde-Güden-Promenade 9) wird als Nicht-Anleger-Variante um 879.000 € angeboten (wh-2130672232); netto +20 % wären 949.200"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1379507400": {
   "lage": {
@@ -14272,7 +14371,14 @@
    "eigennutzer": 910000,
    "begruendung": "Inserat 819.000 € \"zuzüglich 20 % Umsatzsteuer\" (Vorsorge); Bauträger-Wohnungsfinder villageimdritten.at: Top 2.53 (10. OG, 99,06 m²) 910.000 €, netto 819.000 €"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-1439969788": {
   "lage": {
@@ -14416,7 +14522,14 @@
    "eigennutzer": 1032000,
    "begruendung": "\"Kaufpreis zuzüglich 20 % USt\", Vorsorgewohnung: 860.000 netto + 20 % = 1.032.000"
   },
-  "datum": "2026-11-03"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "wh-896948604": {
   "lage": {
@@ -14661,7 +14774,14 @@
    "eigennutzer": 928800,
    "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung): 774.000 + 20 % = 928.800 €; Eigennutzerpreis erfragen."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  }
  },
  "is-075900340074": {
   "lage": {
@@ -14716,7 +14836,14 @@
    "ergebnis": "hinweis",
    "begruendung": "Neubau im Bau, laut liv.at \"Bezugsfertig 2027\" ohne Monat – Termin erfragen"
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "lage": {
+   "adresse": "Michaelerstraße 15",
+   "lat": 48.228662,
+   "lon": 16.347343,
+   "sicherheit": "genau",
+   "begruendung": "Wohnungsplan liv (storage.justimmo.at): '1180 WIEN MICHAELERSTRASSE 15', 'Stiege 1 | #18', 3. Obergeschoss; liv.at Einheitenliste Stiege 1 Top 18, 109,54 m², Eigennutzer 1.191.300 €."
+  }
  },
  "wh-1893783825": {
   "heizung": {
@@ -14729,7 +14856,11 @@
    "lat": 48.24852,
    "lon": 16.32445,
    "sicherheit": "genau",
-   "begruendung": "Früheres weekend.at-Inserat (Thurner) nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen; Wohnatelier Sievering"
+   "begruendung": "Früheres weekend.at/immmo-Inserat nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen (164,22 m²); Wohnatelier Sievering."
+  },
+  "kosten": {
+   "betrag": 511,
+   "begruendung": "'Betriebskosten dzt. p.M. inkl. USt.: EUR 511,21'; 'Die monatliche Rücklage wird noch festgelegt' (kommt dazu); Gas direkt von Wien Energie."
   }
  },
  "is-502983838547": {
@@ -14743,22 +14874,30 @@
    "lat": 48.24852,
    "lon": 16.32445,
    "sicherheit": "genau",
-   "begruendung": "Früheres weekend.at-Inserat (Thurner) nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen; Wohnatelier Sievering"
+   "begruendung": "Früheres weekend.at/immmo-Inserat nennt Sieveringer Straße 135, Haus 6, Top 31 mit denselben Flächen (164,22 m²); Wohnatelier Sievering."
+  },
+  "kosten": {
+   "betrag": 511,
+   "begruendung": "'Betriebskosten dzt. p.M. inkl. USt.: EUR 511,21'; 'Die monatliche Rücklage wird noch festgelegt' (kommt dazu); Gas direkt von Wien Energie."
   }
  },
  "wh-1018260629": {
   "lage": {
-   "adresse": "Ferdinandstraße",
    "sicherheit": "genau",
-   "begruendung": "\"in der ruhigen Ferdinandstraße\", Region Nestroyplatz"
+   "begruendung": "Verkaufsplan-Foto im Inserat: 'JULIE & FERDY, Ferdinandstraße 17 1020 Wien', 1. OG, Top 6, 113,88 m²; Hausnummer 17 auch am Eingangsfoto",
+   "adresse": "Ferdinandstraße 17",
+   "lat": 48.213406,
+   "lon": 16.384383
   },
   "datum": "2026-11-11"
  },
  "is-918288254355": {
   "lage": {
-   "adresse": "Ferdinandstraße",
    "sicherheit": "genau",
-   "begruendung": "\"in der ruhigen Ferdinandstraße\", Region Nestroyplatz"
+   "begruendung": "Verkaufsplan-Foto im Inserat: 'JULIE & FERDY, Ferdinandstraße 17 1020 Wien', 1. OG, Top 6, 113,88 m²; Hausnummer 17 auch am Eingangsfoto",
+   "adresse": "Ferdinandstraße 17",
+   "lat": 48.213406,
+   "lon": 16.384383
   },
   "datum": "2026-11-11"
  },
@@ -14766,11 +14905,19 @@
   "gleich_wie": "wh-1284784148",
   "datum": "2026-11-11",
   "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'",
    "adresse": "Neulinggasse 27",
    "lat": 48.1990262,
-   "lon": 16.3855389,
-   "sicherheit": "genau",
-   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+   "lon": 16.3855389
+  },
+  "kosten": {
+   "betrag": 274,
+   "begruendung": "229,65 € BK brutto + 40,41 € sonstige netto (+10 % USt) laut Inserat"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Preis inkl. Sanierung durch den Bauträger nach Käuferwunsch (dieselbe Wohnung roh: 839.000 €); Fertigstellungstermin erfragen"
   }
  },
  "fm-5744555": {
@@ -14833,7 +14980,7 @@
    "lat": 48.211578,
    "lon": 16.351824,
    "sicherheit": "ungefaehr",
-   "begruendung": "Kartenpunkt der Engel & Völkers-Seite (±150 m), Ostseite einer Nord-Süd-Gasse, Jugendstilhaus; bester Kandidat Lange Gasse 50, nicht belegt."
+   "begruendung": "Engel & Völkers-Exposé W-0490NY: Kartenpunkt mit fuzzyMoveByMeter 150; Text 'ruhige Seitenstraße hinter dem Wiener Rathaus', Hochparterre, Jugendstilhaus; Lagekarte im Inserat kreist Lange Gasse/Schlösselgasse/Florianigasse ein. Hausnummer nirgends (Aushang im Stiegenhaus: Hausverwaltung ECO Immobilientreuhand, 1180). Kandidat Lange Gasse 50 nicht belegt."
   },
   "datum": "2026-11-11"
  },
@@ -14843,56 +14990,79 @@
    "lat": 48.211578,
    "lon": 16.351824,
    "sicherheit": "ungefaehr",
-   "begruendung": "Kartenpunkt der Engel & Völkers-Seite (±150 m), Ostseite einer Nord-Süd-Gasse, Jugendstilhaus; bester Kandidat Lange Gasse 50, nicht belegt."
+   "begruendung": "Engel & Völkers-Exposé W-0490NY: Kartenpunkt mit fuzzyMoveByMeter 150; Text 'ruhige Seitenstraße hinter dem Wiener Rathaus', Hochparterre, Jugendstilhaus; Lagekarte im Inserat kreist Lange Gasse/Schlösselgasse/Florianigasse ein. Hausnummer nirgends (Aushang im Stiegenhaus: Hausverwaltung ECO Immobilientreuhand, 1180). Kandidat Lange Gasse 50 nicht belegt."
   },
   "datum": "2026-11-11"
  },
  "wh-1804703607": {
   "lage": {
-   "sicherheit": "unklar",
-   "begruendung": "Keine Quelle nennt die Adresse; Lagekarte im Inserat: Kreis um S Rennweg (beide Seiten des Rennwegs möglich)"
+   "adresse": "Rennweg",
+   "lat": 48.197015,
+   "lon": 16.380739,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"wenige Schritte vom Schloss Belvedere\", Lagekarte mit Kreis um S Rennweg; Rennweg beim Belvedere liegt außerhalb der Zone Landstraße"
   },
   "datum": "2026-11-11"
  },
  "wh-1125259676": {
   "lage": {
-   "adresse": "Grailichgasse 3",
-   "lat": 48.206748,
-   "lon": 16.386905,
    "sicherheit": "ungefaehr",
-   "begruendung": "Straße laut Inserat; Nr. 3 aus dem 360°-Rundgang (Blick vom Hauseingang auf Ecke Untere Viaduktgasse), keine Nummer lesbar"
+   "begruendung": "Straße laut Inserat ('1030 Wien, Grailichgasse'); kurze Gasse mit nur Nr. 1-4 zwischen Invalidenstraße und Untere Viaduktgasse, alle in der Zone; Nr. 3 aus dem 360°-Rundgang, Eckhaus von 1910 laut Fassadenfoto auf ImmoScout24 (Straßenschilder unkenntlich gemacht)",
+   "adresse": "Grailichgasse 3",
+   "lat": 48.206737,
+   "lon": 16.386884
   },
   "datum": "2026-11-11"
  },
  "wh-1033738299": {
   "lage": {
+   "sicherheit": "ungefaehr",
+   "begruendung": "Straße laut Inserat, 'Nähe Arenbergpark', Top 13 im 1. Liftstock laut Grundriss, Altbau mit Erker; Hausnummer nirgends genannt (der Abschnitt beim Arenbergpark liegt ganz in der Zone)",
    "adresse": "Neulinggasse",
    "lat": 48.19913,
-   "lon": 16.39069,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Straße laut Inserat, 'Nähe Arenbergpark', Top 13 laut Grundriss, Hausnummer nirgends genannt"
+   "lon": 16.39069
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 275,
+   "begruendung": "willhaben: 'monatliche Kosten (inkl. MWSt): 274,71 Eur'"
+  }
  },
  "wh-1284784148": {
   "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'",
    "adresse": "Neulinggasse 27",
    "lat": 48.1990262,
-   "lon": 16.3855389,
-   "sicherheit": "genau",
-   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+   "lon": 16.3855389
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Preis inkl. Sanierung durch den Bauträger nach Käuferwunsch (dieselbe Wohnung roh: 839.000 €); Fertigstellungstermin erfragen"
+  },
+  "kosten": {
+   "betrag": 274,
+   "begruendung": "229,65 € BK brutto + 40,41 € sonstige netto (+10 % USt) laut Inserat"
+  }
  },
  "wh-2106401753": {
   "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'",
    "adresse": "Neulinggasse 27",
    "lat": 48.1990262,
-   "lon": 16.3855389,
-   "sicherheit": "genau",
-   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'"
+   "lon": 16.3855389
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 274,
+   "begruendung": "229,65 € BK brutto + 40,41 € sonstige netto (+10 % USt) laut Inserat"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Preis inkl. Sanierung durch den Bauträger nach Käuferwunsch (dieselbe Wohnung roh: 839.000 €); Fertigstellungstermin erfragen"
+  }
  },
  "wh-1018213143": {
   "lage": {
@@ -14900,9 +15070,13 @@
    "lat": 48.217676,
    "lon": 16.34363,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler-Webseite immo.express setzt die Schwester-DG-Wohnungen desselben Hauses exakt auf den Hauspunkt Zimmermanngasse 20; ausgeschrieben steht die Adresse nirgends"
+   "begruendung": "immo.express-Seiten der Schwester-DG-Wohnungen (Top 27, Top 30; 31 Einheiten, Luft-Wärmepumpe, Bj. 2025) tragen die Koordinaten 48.217676/16.34363, exakt der Nominatim-Punkt von 'Zimmermanngasse 20' (Adressfeld des Maklers); ausgeschrieben nirgends. Geschossplan zeigt Tür 28 (vermutlich Top 28)."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 564,
+   "begruendung": "Inserat: 'Betriebskosten monatlich 355,12 Euro' (inkl. USt) + 'Rücklage monatlich 208,66 Euro'; Heizung und Strom nach Verbrauch (Luftwärmepumpe)."
+  }
  },
  "is-931026892339": {
   "lage": {
@@ -14910,9 +15084,13 @@
    "lat": 48.217676,
    "lon": 16.34363,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler-Webseite immo.express setzt die Schwester-DG-Wohnungen desselben Hauses exakt auf den Hauspunkt Zimmermanngasse 20; ausgeschrieben steht die Adresse nirgends"
+   "begruendung": "immo.express-Seiten der Schwester-DG-Wohnungen (Top 27, Top 30; 31 Einheiten, Luft-Wärmepumpe, Bj. 2025) tragen die Koordinaten 48.217676/16.34363, exakt der Nominatim-Punkt von 'Zimmermanngasse 20' (Adressfeld des Maklers); ausgeschrieben nirgends. Geschossplan zeigt Tür 28 (vermutlich Top 28)."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 564,
+   "begruendung": "Inserat: 'Betriebskosten monatlich 355,12 Euro' (inkl. USt) + 'Rücklage monatlich 208,66 Euro'; Heizung und Strom nach Verbrauch (Luftwärmepumpe)."
+  }
  },
  "wh-1238384697": {
   "lage": {
@@ -14920,9 +15098,13 @@
    "lat": 48.2442,
    "lon": 16.3221,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+   "begruendung": "Top 19 (Einreichpläne), Stiege 1, Bj. 1984, Townhouse-Anlage mit Tiefgarage in Untersievering, willhaben-Region 'Siolygasse', Punkt ±254 m. Reihenhauszeilen im Umkreis laut OSM: Siolygasse 4, 6, 8, 10 (je 6-7 Häuser) und Gugitzgasse 10/11; Hausnummer nirgends genannt."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 561,
+   "begruendung": "'monatliche Kosten (inkl. MWSt): 561,02' = BK 89,34 + Rücklage 161,32 + sonstige 285,29 + USt 25,07 (weekend.at: Gesamtbelastung 561,02)."
+  }
  },
  "is-374990928893": {
   "lage": {
@@ -14930,9 +15112,13 @@
    "lat": 48.2442,
    "lon": 16.3221,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+   "begruendung": "Top 19 (Einreichpläne), Stiege 1, Bj. 1984, Townhouse-Anlage mit Tiefgarage in Untersievering, willhaben-Region 'Siolygasse', Punkt ±254 m. Reihenhauszeilen im Umkreis laut OSM: Siolygasse 4, 6, 8, 10 (je 6-7 Häuser) und Gugitzgasse 10/11; Hausnummer nirgends genannt."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 561,
+   "begruendung": "'monatliche Kosten (inkl. MWSt): 561,02' = BK 89,34 + Rücklage 161,32 + sonstige 285,29 + USt 25,07 (weekend.at: Gesamtbelastung 561,02)."
+  }
  },
  "fm-5730717": {
   "lage": {
@@ -14940,9 +15126,13 @@
    "lat": 48.2442,
    "lon": 16.3221,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 19 laut Plänen, willhaben-Region 'Siolygasse', Reihenhauszeilen im versetzten Umkreis; Hausnummer nirgends genannt (alternativ Gugitzgasse 10/11)"
+   "begruendung": "Top 19 (Einreichpläne), Stiege 1, Bj. 1984, Townhouse-Anlage mit Tiefgarage in Untersievering, willhaben-Region 'Siolygasse', Punkt ±254 m. Reihenhauszeilen im Umkreis laut OSM: Siolygasse 4, 6, 8, 10 (je 6-7 Häuser) und Gugitzgasse 10/11; Hausnummer nirgends genannt."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 561,
+   "begruendung": "'monatliche Kosten (inkl. MWSt): 561,02' = BK 89,34 + Rücklage 161,32 + sonstige 285,29 + USt 25,07 (weekend.at: Gesamtbelastung 561,02)."
+  }
  },
  "is-029535121467": {
   "lage": {
@@ -14950,7 +15140,7 @@
    "lat": 48.24492,
    "lon": 16.31592,
    "sicherheit": "genau",
-   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+   "begruendung": "Grundriss 'Haus 1 Top 02', Lageplan 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26."
   },
   "datum": "2026-11-11"
  },
@@ -14960,7 +15150,7 @@
    "lat": 48.24492,
    "lon": 16.31592,
    "sicherheit": "genau",
-   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+   "begruendung": "Grundriss 'Haus 1 Top 02', Lageplan 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26."
   },
   "datum": "2026-11-11"
  },
@@ -14970,37 +15160,1772 @@
    "lat": 48.24492,
    "lon": 16.31592,
    "sicherheit": "genau",
-   "begruendung": "Lageplan im Grundriss: 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26 mit 20 Wohnungen in 2 Häusern; Haus 1 Top 2"
+   "begruendung": "Grundriss 'Haus 1 Top 02', Lageplan 'EINGANG Raffelspergergasse'; Raiffeisen-WohnBau-Projekt Raffelspergergasse 26."
   },
   "datum": "2026-11-11"
  },
  "wh-1944054963": {
   "lage": {
    "adresse": "Sollingergasse",
-   "lat": 48.2435,
-   "lon": 16.335,
+   "lat": 48.243746,
+   "lon": 16.335356,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
+   "begruendung": "Top 12, 4. OG/DG-Maisonette, Bj. 1909; Text: Krottenbachstraße ca. 150 m, Weinberggasse 'wenige Meter'. Gründerzeithäuser dort laut Gebäudedaten der Stadt: Sollingergasse 29/31/33, Rodlergasse 21-25, Weinberggasse 41 (1913); Punkt = Sollingergasse 31 als Vertreter, Hausnummer nicht belegt."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 679,
+   "begruendung": "'Die laufenden Kosten betragen rund 679 Euro inkl USt. Darin enthalten sind die Betriebskosten, Warmwasser und Heizung, der Reparatur-Fonds sowie Internet und SAT' (Aufschlüsselung: BK 339 + Heizung 119 + Warmwasser 78 + Rücklage 119 = 655)."
+  }
  },
  "is-214457638021": {
   "lage": {
    "adresse": "Sollingergasse",
-   "lat": 48.2435,
-   "lon": 16.335,
+   "lat": 48.243746,
+   "lon": 16.335356,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
+   "begruendung": "Top 12, 4. OG/DG-Maisonette, Bj. 1909; Text: Krottenbachstraße ca. 150 m, Weinberggasse 'wenige Meter'. Gründerzeithäuser dort laut Gebäudedaten der Stadt: Sollingergasse 29/31/33, Rodlergasse 21-25, Weinberggasse 41 (1913); Punkt = Sollingergasse 31 als Vertreter, Hausnummer nicht belegt."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 679,
+   "begruendung": "'Die laufenden Kosten betragen rund 679 Euro inkl USt. Darin enthalten sind die Betriebskosten, Warmwasser und Heizung, der Reparatur-Fonds sowie Internet und SAT' (Aufschlüsselung: BK 339 + Heizung 119 + Warmwasser 78 + Rücklage 119 = 655)."
+  }
  },
  "fm-5477830": {
   "lage": {
    "adresse": "Sollingergasse",
-   "lat": 48.2435,
-   "lon": 16.335,
+   "lat": 48.243746,
+   "lon": 16.335356,
    "sicherheit": "ungefaehr",
-   "begruendung": "Top 12; Terrassenfotos (Krim-Kirche, Spittelau-Schlot), Weinberggasse 'wenige Meter', Krottenbachstraße ca. 150 m; Kandidaten Sollingergasse 29/31/33, Rodlergasse 25, Weinberggasse 41"
+   "begruendung": "Top 12, 4. OG/DG-Maisonette, Bj. 1909; Text: Krottenbachstraße ca. 150 m, Weinberggasse 'wenige Meter'. Gründerzeithäuser dort laut Gebäudedaten der Stadt: Sollingergasse 29/31/33, Rodlergasse 21-25, Weinberggasse 41 (1913); Punkt = Sollingergasse 31 als Vertreter, Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-11",
+  "kosten": {
+   "betrag": 679,
+   "begruendung": "'Die laufenden Kosten betragen rund 679 Euro inkl USt. Darin enthalten sind die Betriebskosten, Warmwasser und Heizung, der Reparatur-Fonds sowie Internet und SAT' (Aufschlüsselung: BK 339 + Heizung 119 + Warmwasser 78 + Rücklage 119 = 655)."
+  }
+ },
+ "wh-1147924802": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 4, 1. OG (ÖRAG-Liste: 76,54 m², 599.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-141398741634": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 4, 1. OG (ÖRAG-Liste: 76,54 m², 599.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1648076977": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 10, 2. OG (ÖRAG-Liste: 76,47 m², 619.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-298101001023": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 10, 2. OG (ÖRAG-Liste: 76,47 m², 619.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1771995194": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 23, 1.-2. DG (ÖRAG-Liste: 135,08 m², 1.099.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-576205001731": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 23, 1.-2. DG (ÖRAG-Liste: 135,08 m², 1.099.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1286327209": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 28, 2. DG (ÖRAG-Liste: 116,09 m², 1.099.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-501704110976": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "ÖRAG-Projektseite und ImmoScout24-Projektinserat: \"In der ruhigen und dennoch urban gelegenen Leopold-Ernst-Gasse 10 in 1170 Wien entsteht LEONORA\"; gleicher Text, Energieausweis (HWB 28,4/fGEE 0,71) und Grundriss-Schriftfeld LEONORA. Eckhaus Leopold-Ernst-Gasse 10 / Leitermayergasse (Lageplan im Grundriss). Grenzfall: Hausnummernpunkt liegt 17 m südlich der Zone, der Trakt entlang der Leitermayergasse liegt in der Zone. Top 28, 2. DG (ÖRAG-Liste: 116,09 m², 1.099.000 €)."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1319892174": {
+  "lage": {
+   "adresse": "Bergsteiggasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Gleiche Wohnung (87,77 m², 599.000 €, Terrasse 10,9 m², DG1+DG2) bei Sitarz & Partner auf weekend.at: \"Bergsteiggasse, 1170 Wien\", ohne Hausnummer; liegt im 255-m-Umkreis des willhaben-Punkts. Die ganze Bergsteiggasse liegt außerhalb beider erlaubter Stücke (geo.pruefe: 17. Bezirk)."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1946146230": {
+  "lage": {
+   "adresse": "Elterleinplatz",
+   "lat": 48.218126,
+   "lon": 16.331304,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Der Elterleinplatz ist in etwa fünf Gehminuten erreichbar\", Linien 9/43, Ortlieb-/Diepold-/Kongresspark; rund 460 m von den erlaubten Hernals-Stücken"
+  },
+  "kosten": {
+   "betrag": 362,
+   "begruendung": "\"Betriebskosten € 249,39 brutto und Rücklage € 112,27, insgesamt € 361,66\" (ab Jänner 2026, Inseratstext); kein Lift, Gastherme eigen."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-866442708": {
+  "lage": {
+   "adresse": "Hernalser Hauptstraße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"in einer Seitengasse der Hernalser Hauptstraße, 5 Gehminuten vom Elterleinplatz\", Straßenbahn 2, 9, 43; Haus Baujahr 1979 mit Gemeinschaftsgarten. Südlich der Jörgerstraße, außerhalb beider erlaubter Stücke."
+  },
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Kein Hinweis auf Vermietung der Wohnung: Haus \"wird fast ausschließlich von seinen Eigentümern bewohnt\"; vermietet sind nur Autoabstellplätze; gut gepflegt, Küche bleibt."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1169063397": {
+  "lage": {
+   "adresse": "Geblergasse 92",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Fassadenfoto zeigt Hausnummer 92 (Nachbarhaus 90); Text: \"Die 43er-Straßenbahn ist gleich ums Eck\". Geblergasse 92 passt am besten (43 an der Rosensteingasse ca. 250 m); andere 92er in 1170 (Hernalser Hauptstraße, Ottakringer Straße, Rosensteingasse, Schumanngasse, Dornbacher Straße) liegen ebenfalls außerhalb. Keine 92 in den erlaubten Stücken."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-051535514326": {
+  "lage": {
+   "adresse": "Geblergasse 92",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Fassadenfoto zeigt Hausnummer 92 (Nachbarhaus 90); Text: \"Die 43er-Straßenbahn ist gleich ums Eck\". Geblergasse 92 passt am besten (43 an der Rosensteingasse ca. 250 m); andere 92er in 1170 (Hernalser Hauptstraße, Ottakringer Straße, Rosensteingasse, Schumanngasse, Dornbacher Straße) liegen ebenfalls außerhalb. Keine 92 in den erlaubten Stücken."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1534734603": {
+  "lage": {
+   "adresse": "Rupertusplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel \"Nähe Dornbacher Pfarrkirche\" (Rupertusplatz), \"im Herzen von Dornbach\", 44A und 43. Dornbach liegt weit außerhalb der erlaubten Stücke."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-040709272529": {
+  "lage": {
+   "adresse": "Rupertusplatz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel \"Nähe Dornbacher Pfarrkirche\" (Rupertusplatz), \"im Herzen von Dornbach\", 44A und 43. Dornbach liegt weit außerhalb der erlaubten Stücke."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1090786976": {
+  "lage": {
+   "adresse": "Neuwaldegger Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Neuwaldegg: \"Neuwaldegger Bad/Park, Sportzentrum Marswiese\", 43/43A; willhaben-Punkt (±326 m) liegt laut Nominatim an der Neuwaldegger Straße, 1170. Weit außerhalb der erlaubten Stücke."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-868985859997": {
+  "lage": {
+   "adresse": "Neuwaldegger Straße",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Neuwaldegg: \"Neuwaldegger Bad/Park, Sportzentrum Marswiese\", 43/43A; willhaben-Punkt (±326 m) liegt laut Nominatim an der Neuwaldegger Straße, 1170. Weit außerhalb der erlaubten Stücke."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1882037443": {
+  "lage": {
+   "adresse": "Blumengasse 55",
+   "sicherheit": "genau",
+   "lat": 48.2214447,
+   "lon": 16.3315351,
+   "begruendung": "Energieausweis-PDF im Inserat: \"Wohnhaus Blumengasse 55, A 1170, Wien-Hernals\"; Text: \"Die Blumengasse liegt ...\", \"Haus wurde 1992 errichtet\". Blumengasse 55 liegt weit westlich von Nr. 1-9 (geo.pruefe: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1279676439": {
+  "lage": {
+   "adresse": "Klopstockgasse 20",
+   "sicherheit": "genau",
+   "begruendung": "Titel \"++ 3-Zimmer mit Terrasse ++ Klopstockgasse # 20\", Lage \"Klopstockgasse / Mariengasse / Hernalser Hauptstraße\"; Klopstockgasse liegt westlich der Kalvarienberggasse (geo.pruefe: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-156069567989": {
+  "lage": {
+   "adresse": "Schumanngasse 54/7",
+   "sicherheit": "genau",
+   "lat": 48.2219819,
+   "lon": 16.3362768,
+   "begruendung": "Inserat: \"Die Wohnung befindet sich in der Schumanngasse im 17. ... unmittelbar an der Grenze zum 18.\"; die angehängte 360°-Tour (giraffe360, Boom Living) heißt \"Schumanngasse 54/7- M\"; der Grundriss zeigt eine Eckwohnung mit abgeschrägter Ecke = Eckhaus Schumanngasse/Leitermayergasse. geo.pruefe: Zone Hernals, drin"
+  },
+  "kosten": {
+   "betrag": 311,
+   "begruendung": "ImmoScout24 \"Monatliche Kosten 310,83 €\" (Betriebskosten 165,79 € + USt 16,58 € + Sonstige Kosten 124,13 € + USt 4,33 €); Infrarotheizung über eigenen Strom"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-149131182777": {
+  "lage": {
+   "adresse": "Mayssengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Sie liegt nur wenige Schritte von der MAYSSENGASSE entfernt\" (MIA Real Estate, ohne Hausnummer); Mayssengasse liegt westlich der Kalvarienberggasse, weit außerhalb der zwei erlaubten Hernals-Stücke (geo.pruefe Mayssengasse 10: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-535720888566": {
+  "lage": {
+   "adresse": "Mayssengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Sie liegt nur wenige Schritte von der MAYSSENGASSE entfernt\" (MIA Real Estate, ohne Hausnummer); Mayssengasse liegt westlich der Kalvarienberggasse, weit außerhalb der zwei erlaubten Hernals-Stücke (geo.pruefe Mayssengasse 10: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-029383981584": {
+  "lage": {
+   "adresse": "Mayssengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Sie liegt nur wenige Schritte von der MAYSSENGASSE entfernt\" (MIA Real Estate, ohne Hausnummer); Mayssengasse liegt westlich der Kalvarienberggasse, weit außerhalb der zwei erlaubten Hernals-Stücke (geo.pruefe Mayssengasse 10: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-933260253410": {
+  "lage": {
+   "adresse": "Lorenz-Bayer-Platz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"perfekten Lage nahe dem idyllischen Lorenz-Bayer-Park\" (SIRA); Lorenz-Bayer-Platz liegt westlich der Kalvarienberggasse, klar außerhalb der erlaubten Hernals-Stücke (geo.pruefe: 17. Bezirk, nicht drin)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-076121190429": {
+  "lage": {
+   "adresse": "Mayssengasse",
+   "sicherheit": "genau",
+   "begruendung": "\"In der Mayssengasse, 1170 Wien, entsteht ein hochwertig revitalisiertes Wohnhaus\" (Boom Living, ohne Hausnummer); Mayssengasse klar außerhalb der erlaubten Hernals-Stücke"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-442970491946": {
+  "lage": {
+   "adresse": "Haslingergasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt \"Wiener Rose\" (IMMOcontract), laut leadersnet.at: \"Die Immobilie befindet sich in Wien-Hernals zwischen der Ottakringer Brauerei und Manner.\" Keine Hausnummer veröffentlicht (Portale, weekend.at, leadersnet). Repräsentativ Haslingergasse; klar außerhalb der zwei erlaubten Hernals-Stücke"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-240360798996": {
+  "lage": {
+   "adresse": "Haslingergasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Projekt \"Wiener Rose\" (IMMOcontract), laut leadersnet.at: \"Die Immobilie befindet sich in Wien-Hernals zwischen der Ottakringer Brauerei und Manner.\" Keine Hausnummer veröffentlicht (Portale, weekend.at, leadersnet). Repräsentativ Haslingergasse; klar außerhalb der zwei erlaubten Hernals-Stücke"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-692229587726": {
+  "lage": {
+   "adresse": "Lidlgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Ringsmuth-Projekt (5 DG-Wohnungen, Top 20-24): \"Lidlpark ca. 200m\", \"in der Nähe der Hernalser Hauptstraße sowie des Elterleinplatzes\", \"U6 Alser Straße ca. 1,2km\"; Adresse nur auf Anfrage (infina). Lidlpark liegt an der Lidlgasse, westlich der Kalvarienberggasse, klar außerhalb der erlaubten Stücke"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-847071656232": {
+  "lage": {
+   "adresse": "Lidlgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Ringsmuth-Projekt (5 DG-Wohnungen, Top 20-24): \"Lidlpark ca. 200m\", \"in der Nähe der Hernalser Hauptstraße sowie des Elterleinplatzes\", \"U6 Alser Straße ca. 1,2km\"; Adresse nur auf Anfrage (infina). Lidlpark liegt an der Lidlgasse, westlich der Kalvarienberggasse, klar außerhalb der erlaubten Stücke"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-826320798": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 72, Stiege 1, 5. OG laut Inserat ('Obere Donaustraße 23 | 1020 Wien', Leopold Quartier); Punkt 23/1 laut Adressdienst der Stadt Wien, 71 m außerhalb der Zone Karmeliterviertel/Augarten-Süd",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-656514111706": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 72, Stiege 1, 5. OG laut Inserat ('Obere Donaustraße 23 | 1020 Wien', Leopold Quartier); Punkt 23/1 laut Adressdienst der Stadt Wien, 71 m außerhalb der Zone Karmeliterviertel/Augarten-Süd",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15067204": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 72, Stiege 1, 5. OG laut Inserat ('Obere Donaustraße 23 | 1020 Wien', Leopold Quartier); Punkt 23/1 laut Adressdienst der Stadt Wien, 71 m außerhalb der Zone Karmeliterviertel/Augarten-Süd",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5626449": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 72, Stiege 1, 5. OG laut Inserat ('Obere Donaustraße 23 | 1020 Wien', Leopold Quartier); Punkt 23/1 laut Adressdienst der Stadt Wien, 71 m außerhalb der Zone Karmeliterviertel/Augarten-Süd",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1364778822": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 74, Stiege 2, 5. OG laut Inserat und Grundriss-Schriftfeld ('Obere Donaustraße 23 | 1020 Wien, Stiege 2, Top 74'); Punkt 23/2 laut Adressdienst der Stadt Wien, 72 m außerhalb der Zone",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.223198,
+   "lon": 16.370995
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-269224889990": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 74, Stiege 2, 5. OG laut Inserat und Grundriss-Schriftfeld ('Obere Donaustraße 23 | 1020 Wien, Stiege 2, Top 74'); Punkt 23/2 laut Adressdienst der Stadt Wien, 72 m außerhalb der Zone",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.223198,
+   "lon": 16.370995
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15015150": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 74, Stiege 2, 5. OG laut Inserat und Grundriss-Schriftfeld ('Obere Donaustraße 23 | 1020 Wien, Stiege 2, Top 74'); Punkt 23/2 laut Adressdienst der Stadt Wien, 72 m außerhalb der Zone",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.223198,
+   "lon": 16.370995
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5597935": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Top 74, Stiege 2, 5. OG laut Inserat und Grundriss-Schriftfeld ('Obere Donaustraße 23 | 1020 Wien, Stiege 2, Top 74'); Punkt 23/2 laut Adressdienst der Stadt Wien, 72 m außerhalb der Zone",
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.223198,
+   "lon": 16.370995
+  },
+  "kosten": {
+   "betrag": 378,
+   "begruendung": "Nicht im Inserat; gleich große Schwesterwohnung im selben Projekt (107,81 m², Balkon 15,33 m², infina.at Objekt 40428): 'Betriebskosten 297,73 € inkl. USt', 'Heizkosten 80,03 € inkl. USt'; Rücklage nicht genannt"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1356656437": {
+  "lage": {
+   "sicherheit": "ungefaehr",
+   "begruendung": "Plan im Inserat: 3. OG, Top 10, Straßenseite 'ROTENSTERNGASSE'; Street-View-Fotos im Inserat zeigen das Haus mit BILLA im Erdgeschoß (BILLA Rotensterngasse 21-23), ob Nr. 21 oder 23 ist nicht sicher",
+   "adresse": "Rotensterngasse 21",
+   "lat": 48.217463,
+   "lon": 16.383938
+  },
+  "kosten": {
+   "betrag": 407,
+   "begruendung": "'Die aktuellen Betriebskosten liegen bei ca. EUR 2,50/m² netto zzgl. USt, zzgl. Reparaturrücklage': 147,91 m² x 2,50 = 370 + 10 % USt = 407; Rücklage nicht beziffert, kommt dazu"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-14910005": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-439385177596": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15096285": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1705346570": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1173401627": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-721056129598": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-898020782325": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5547232": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771635": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-606707844119": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 11, Hilde-Güden-Promenade 11, Bauteil 01, OG1', DECUS nennt Otto-Preminger-Straße 18 (selbes Baufeld). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 715000,
+   "begruendung": "DECUS-Titel '... EIGENNUTZER ... BF 14B'; EHL-Einheitenliste Objekt 87621 (1. Etage, 4 Zi, 88,45 m²) 'eigennutzer € 715.000'"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-246741233753": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, Bauteil 01, OG4'. Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EHL-Einheitenliste Objekt 87650 (4. Etage, 5 Zi, 95,19 m²) 'eigennutzer € 852.000'; EHL-Preise sind Eigennutzerpreise (bei Top 11 gleich dem DECUS-'EIGENNUTZER'-Preis)"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15032200": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, Bauteil 01, OG4'. Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EHL-Einheitenliste Objekt 87650 (4. Etage, 5 Zi, 95,19 m²) 'eigennutzer € 852.000'; EHL-Preise sind Eigennutzerpreise (bei Top 11 gleich dem DECUS-'EIGENNUTZER'-Preis)"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-792090861": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, Bauteil 01, OG4'. Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EHL-Einheitenliste Objekt 87650 (4. Etage, 5 Zi, 95,19 m²) 'eigennutzer € 852.000'; EHL-Preise sind Eigennutzerpreise (bei Top 11 gleich dem DECUS-'EIGENNUTZER'-Preis)"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771628": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, Bauteil 01, OG4'. Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EHL-Einheitenliste Objekt 87650 (4. Etage, 5 Zi, 95,19 m²) 'eigennutzer € 852.000'; EHL-Preise sind Eigennutzerpreise (bei Top 11 gleich dem DECUS-'EIGENNUTZER'-Preis)"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-947816245144": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, OG4' (derStandard: 'Hilde-Güden-Promenade 11/40'). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "gleich_wie": "is-246741233753",
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EDEX schreibt 'Vorsorgewohnung ... Eigennutzerpreis auf Anfrage', dieselbe Top 40 steht bei EHL (Objekt 87650) mit 'eigennutzer € 852.000', also kein Aufschlag"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15282559": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, OG4' (derStandard: 'Hilde-Güden-Promenade 11/40'). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "gleich_wie": "is-246741233753",
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EDEX schreibt 'Vorsorgewohnung ... Eigennutzerpreis auf Anfrage', dieselbe Top 40 steht bei EHL (Objekt 87650) mit 'eigennutzer € 852.000', also kein Aufschlag"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-953793087710": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld 'Top Nr. 40, Hilde-Güden-Promenade 11, OG4' (derStandard: 'Hilde-Güden-Promenade 11/40'). Aspanggründe südlich vom Rennweg (Baufeld 14B, Bert-Brecht-Park, Straßenbahn 18 Wildgansplatz / 71 St. Marx), außerhalb der Zone Landstraße; der Portalpunkt 48.2017/16.3917 war falsch",
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau, Erstbezug; Fertigstellung 2. Quartal 2027 (EHL: 'Fertigstellung: 2. Quartal 2027', 'Beziehbar voraussichtlich Q2/2027'; DECUS: 1. Quartal 2027); 'Vorsorgewohnung' nur als Anlegerangebot, nicht vermietet",
+   "bezug_ok": true
+  },
+  "gleich_wie": "is-246741233753",
+  "preis": {
+   "eigennutzer": 852000,
+   "begruendung": "EDEX schreibt 'Vorsorgewohnung ... Eigennutzerpreis auf Anfrage', dieselbe Top 40 steht bei EHL (Objekt 87650) mit 'eigennutzer € 852.000', also kein Aufschlag"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1390888219": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Projekt Grace (CROWND/EHL), Top 16, 2. OG laut crownd.at und EHL; Punkt laut Adressdienst der Stadt Wien liegt in der Zone Landstraße, 49 m südlich der roten Zone Weißgerberviertel (deren Rand hier die Lorbeergasse ist; die Hetzgasse ab etwa Nr. 37 Richtung Löwengasse liegt drin)",
+   "adresse": "Hetzgasse 8",
+   "lat": 48.208979,
+   "lon": 16.388699
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-807060617954": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Projekt Grace (CROWND/EHL), Top 16, 2. OG laut crownd.at und EHL; Punkt laut Adressdienst der Stadt Wien liegt in der Zone Landstraße, 49 m südlich der roten Zone Weißgerberviertel (deren Rand hier die Lorbeergasse ist; die Hetzgasse ab etwa Nr. 37 Richtung Löwengasse liegt drin)",
+   "adresse": "Hetzgasse 8",
+   "lat": 48.208979,
+   "lon": 16.388699
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-098131872263": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Projekt Grace (CROWND/EHL), Top 16, 2. OG laut crownd.at und EHL; Punkt laut Adressdienst der Stadt Wien liegt in der Zone Landstraße, 49 m südlich der roten Zone Weißgerberviertel (deren Rand hier die Lorbeergasse ist; die Hetzgasse ab etwa Nr. 37 Richtung Löwengasse liegt drin)",
+   "adresse": "Hetzgasse 8",
+   "lat": 48.208979,
+   "lon": 16.388699
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-027157710735": {
+  "lage": {
+   "sicherheit": "genau",
+   "begruendung": "Schriftfeld des 3SI-Grundrisses: 'Neulinggasse 27, 1030 Wien, Top 17 • 3. OG'",
+   "adresse": "Neulinggasse 27",
+   "lat": 48.1990262,
+   "lon": 16.3855389
+  },
+  "kosten": {
+   "betrag": 274,
+   "begruendung": "229,65 € BK brutto + 40,41 € sonstige netto (+10 % USt) laut Inserat"
+  },
+  "datum": "2026-11-11",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Preis inkl. Sanierung durch den Bauträger nach Käuferwunsch (dieselbe Wohnung roh: 839.000 €); Fertigstellungstermin erfragen"
+  }
+ },
+ "wh-930064370": {
+  "lage": {
+   "adresse": "Michaelerstraße 15",
+   "lat": 48.228662,
+   "lon": 16.347343,
+   "sicherheit": "genau",
+   "begruendung": "Wohnungsplan liv (storage.justimmo.at): '1180 WIEN MICHAELERSTRASSE 15', 'Stiege 1 | #18', 3. Obergeschoss; liv.at Einheitenliste Stiege 1 Top 18, 109,54 m², Eigennutzer 1.191.300 €."
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-546814337945": {
+  "lage": {
+   "adresse": "Michaelerstraße 15",
+   "lat": 48.228662,
+   "lon": 16.347343,
+   "sicherheit": "genau",
+   "begruendung": "Wohnungsplan liv (storage.justimmo.at): '1180 WIEN MICHAELERSTRASSE 15', 'Stiege 1 | #18', 3. Obergeschoss; liv.at Einheitenliste Stiege 1 Top 18, 109,54 m², Eigennutzer 1.191.300 €."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1749807365": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung wie wh-1992576637 (ImmoLöwin): Top 10, 4. OG, 78,66 m², Balkon 10,34 m² zum Hof, fGEE 0,74, BK 158,05 + Rücklage 83,38; dort per Energieausweis 'Währinger Gürtel 79 Top 10' belegt. RE/MAX-Exposé 3845_509 (gleiche Wohnung) ist Nachbarnummer von 3845_510 'Währinger Gürtel 79'."
+  },
+  "gleich_wie": "wh-1992576637",
+  "kosten": {
+   "betrag": 257,
+   "begruendung": "Vorschreibung 2025 (ImmoLöwin-Inserat derselben Wohnung): BK-Akonto 158,05 + 10 % USt = 173,85 inkl. Lift 30,00 + Rücklage 83,38 = 257,23; RKM-Feld 'monatliche Kosten inkl. MWSt 257,24'."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-913235351290": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung wie wh-1992576637 (ImmoLöwin): Top 10, 4. OG, 78,66 m², Balkon 10,34 m² zum Hof, fGEE 0,74, BK 158,05 + Rücklage 83,38; dort per Energieausweis 'Währinger Gürtel 79 Top 10' belegt. RE/MAX-Exposé 3845_509 (gleiche Wohnung) ist Nachbarnummer von 3845_510 'Währinger Gürtel 79'."
+  },
+  "gleich_wie": "wh-1992576637",
+  "kosten": {
+   "betrag": 257,
+   "begruendung": "Vorschreibung 2025 (ImmoLöwin-Inserat derselben Wohnung): BK-Akonto 158,05 + 10 % USt = 173,85 inkl. Lift 30,00 + Rücklage 83,38 = 257,23; RKM-Feld 'monatliche Kosten inkl. MWSt 257,24'."
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-284582206208": {
+  "lage": {
+   "adresse": "Sieveringer Straße 221",
+   "lat": 48.254459,
+   "lon": 16.316487,
+   "sicherheit": "genau",
+   "begruendung": "Ulreich-Wohnungsplan 'STG 1 | Top 19, Sieveringer Straße 221, 1190 Wien', 108,64 m² (Projekt Zur Schönen Agnes, Sieveringer Straße 221-223)."
+  },
+  "gleich_wie": "wh-807003502",
+  "kosten": {
+   "betrag": 285,
+   "begruendung": "ulreich.at 'Betriebskosten: € 284,64', willhaben 'monatliche Kosten (inkl. MWSt): 284,64'; Rücklage nirgends gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-807003502": {
+  "lage": {
+   "adresse": "Sieveringer Straße 221",
+   "lat": 48.254459,
+   "lon": 16.316487,
+   "sicherheit": "genau",
+   "begruendung": "Ulreich-Wohnungsplan (willhaben-PDF 'ZSA_Wohnungsplan_Top 19'): 'STG 1 | Top 19, Sieveringer Straße 221, 1190 Wien', 108,64 m²; Eingangsschild im Foto 'Sieveringer Strasse 223' (Anlage 221-223)."
+  },
+  "kosten": {
+   "betrag": 285,
+   "begruendung": "willhaben (Ulreich/Akkadia) 'monatliche Kosten (inkl. MWSt): 284,64'; Rücklage nirgends gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11",
+  "eckdaten": {
+   "zimmer": 4,
+   "flaeche": 108.64
+  }
+ },
+ "wh-830319155": {
+  "lage": {
+   "adresse": "Sieveringer Straße 221",
+   "lat": 48.254459,
+   "lon": 16.316487,
+   "sicherheit": "genau",
+   "begruendung": "Ulreich-Wohnungsplan (willhaben-PDF 'ZSA_Wohnungsplan_Top 19'): 'STG 1 | Top 19, Sieveringer Straße 221, 1190 Wien', 108,64 m²; Eingangsschild im Foto 'Sieveringer Strasse 223' (Anlage 221-223)."
+  },
+  "kosten": {
+   "betrag": 285,
+   "begruendung": "willhaben (Ulreich/Akkadia) 'monatliche Kosten (inkl. MWSt): 284,64'; Rücklage nirgends gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11"
+ },
+ "is-542830793511": {
+  "lage": {
+   "adresse": "Sieveringer Straße 221",
+   "lat": 48.254459,
+   "lon": 16.316487,
+   "sicherheit": "genau",
+   "begruendung": "Ulreich-Wohnungsplan (willhaben-PDF 'ZSA_Wohnungsplan_Top 19'): 'STG 1 | Top 19, Sieveringer Straße 221, 1190 Wien', 108,64 m²; Eingangsschild im Foto 'Sieveringer Strasse 223' (Anlage 221-223)."
+  },
+  "kosten": {
+   "betrag": 285,
+   "begruendung": "willhaben (Ulreich/Akkadia) 'monatliche Kosten (inkl. MWSt): 284,64'; Rücklage nirgends gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5632435": {
+  "lage": {
+   "adresse": "Sieveringer Straße 221",
+   "lat": 48.254459,
+   "lon": 16.316487,
+   "sicherheit": "genau",
+   "begruendung": "Ulreich-Wohnungsplan (willhaben-PDF 'ZSA_Wohnungsplan_Top 19'): 'STG 1 | Top 19, Sieveringer Straße 221, 1190 Wien', 108,64 m²; Eingangsschild im Foto 'Sieveringer Strasse 223' (Anlage 221-223)."
+  },
+  "kosten": {
+   "betrag": 285,
+   "begruendung": "willhaben (Ulreich/Akkadia) 'monatliche Kosten (inkl. MWSt): 284,64'; Rücklage nirgends gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1772622239": {
+  "lage": {
+   "adresse": "Obersteinergasse 19",
+   "lat": 48.240979,
+   "lon": 16.34575,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'Lage: die Obersteinergasse 19 vereint ...'; Kartenbild im Inserat zeigt den Punkt an der Obersteinergasse."
+  },
+  "kosten": {
+   "betrag": 307,
+   "begruendung": "'monatliche Kosten (inkl. MWSt): 306,89 Eur' (exkl. 278,99); Rücklage nicht gesondert ausgewiesen."
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1277398574": {
+  "lage": {
+   "adresse": "Wigandgasse 37",
+   "lat": 48.274442,
+   "lon": 16.355227,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'Wigandgasse 37 - Klosterneuburg Zentrum ...', Kahlenbergerdorf, 2. OG/DG."
+  },
+  "preis": {
+   "eigennutzer": 1395000,
+   "begruendung": "'Der Kaufpreis ist netto angeführt. Alle Preise verstehen sich exklusive 20% Ust, die USt beträgt zum Kaufpreis von 1.162.500,- extra 232.500,- Euro'"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-142131520231": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15139677": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-2128683477": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771633": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1613189476": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-14950189": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-14909894": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15297981": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-106003237072": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-693197218718": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-922690270": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5547323": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-210976123408": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-622645414423": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15139689": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1234608181": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771637": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-854688705598": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-2018080260": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15096274": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5751083": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15064125": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1460801984": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15139681": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-834874346334": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5624649": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5755050": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-437626020053": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-802241013": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15252908": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15268823": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-209652958217": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15139684": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-938321775": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-530178303424": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-785400588028": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5740802": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5755065": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-966906440725": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15297990": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-138764612543": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15032214": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1957345969": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771636": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-687592671840": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15267771": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-369730016430": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-551088430127": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-159374310706": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15282516": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1134227222": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1084747835": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1879201226": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-14932274": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-141864043994": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-841595426": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15293632": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-14980445": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-816550455": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15233187": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1923988019": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15289962": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-909602783": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15232188": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-991530700515": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15139687": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1642037143": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5771632": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-233389462100": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15044439": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1351024779": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1953129898": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15244923": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1483931718": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15208968": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-886232320366": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "bt-253000989446": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1257064103": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.188599,
+   "lon": 16.396744,
+   "sicherheit": "genau",
+   "begruendung": "Village im Dritten, Aspanggründe (Baufeld 14B); Portalpunkt 48.2017/16.3917 falsch"
+  },
+  "datum": "2026-11-11"
+ },
+ "is-071468026293": {
+  "lage": {
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719,
+   "sicherheit": "genau",
+   "begruendung": "Punkt aus dem Adressdienst der Stadt Wien (Leopold Quartier); liegt rund 70 m außerhalb der Zone"
+  },
+  "datum": "2026-11-11"
+ },
+ "wh-1730263350": {
+  "lage": {
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719,
+   "sicherheit": "genau",
+   "begruendung": "Punkt aus dem Adressdienst der Stadt Wien (Leopold Quartier); liegt rund 70 m außerhalb der Zone"
+  },
+  "datum": "2026-11-11"
+ },
+ "ds-15133722": {
+  "lage": {
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719,
+   "sicherheit": "genau",
+   "begruendung": "Punkt aus dem Adressdienst der Stadt Wien (Leopold Quartier); liegt rund 70 m außerhalb der Zone"
+  },
+  "datum": "2026-11-11"
+ },
+ "fm-5665361": {
+  "lage": {
+   "adresse": "Obere Donaustraße 23",
+   "lat": 48.222966,
+   "lon": 16.370719,
+   "sicherheit": "genau",
+   "begruendung": "Punkt aus dem Adressdienst der Stadt Wien (Leopold Quartier); liegt rund 70 m außerhalb der Zone"
   },
   "datum": "2026-11-11"
  }

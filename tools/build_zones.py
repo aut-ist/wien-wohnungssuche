@@ -135,8 +135,10 @@ ZONES = [
     # konvexe Hülle der Zone, die würde hier über die Straßenbahn nach Westen greifen.
     # seit 2026-11-11: ein Stück Hernals unter der 18er-Grenze, ohne Toleranzrand (sonst wären Jörgerstraße und
     # Westseite der Kalvarienberggasse wieder drin)
+    # Seit dem Abend nur noch, wo die nächste öffentliche Volksschule und AHS zu Fuß nicht im 17. liegen
+    # (Saad: Kinder sollen nicht im 17. in die Schule; tools/schulweg_zone.py). Ergibt mehrere Teilgebiete.
     {"id": "hernals", "rolle": "erlaubt", "name": "Hernals: Kalvarienberggasse bis 18er-Grenze, ohne Jörgerstraße",
-     "nur_in_bezirk": 17, "puffer_m": 0, "zuschneiden": "genau"},
+     "nur_in_bezirk": 17, "puffer_m": 0, "zuschneiden": "genau", "fussweg": "schulweg_hernals.geojson"},
     {"id": "heiligenstadt_rot", "rolle": "ausgeschlossen", "name": "Heiligenstadt: Straßenbahn 37 bis Donaukanal",
      "nur_in_bezirk": 19, "puffer_m": 0, "zuschneiden": "genau"},
 ]
@@ -238,22 +240,34 @@ def main():
             to_geo = (fit_gedreht if shot.get("gedreht") else fit)(shot["refs"])
             ring = [to_geo(x, y) for x, y in shot["line"]]
         ring = [[round(lon, 6), round(lat, 6)] for lat, lon in ring]
+        ringe = [ring]
         if z.get("fussweg") and (ROOT / "geo" / z["fussweg"]).exists():
-            from shapely.geometry import Polygon
-            fw = json.loads((ROOT / "geo" / z["fussweg"]).read_text(encoding="utf-8"))["features"][0]
-            teil = Polygon(ring).intersection(Polygon(fw["geometry"]["coordinates"][0]))
-            if teil.geom_type != "Polygon":
-                teil = max(teil.geoms, key=lambda g: g.area)
-            ring = [[round(x, 6), round(y, 6)] for x, y in teil.exterior.coords[:-1]]
-        if z.get("zuschneiden") == "genau":
-            ring = genau_zuschneiden(ring, z["nur_in_bezirk"])
-        elif z.get("nur_in_bezirk") and z.get("zuschneiden", True):
-            # auf den Bezirk zuschneiden, damit die Karte nicht Nachbarbezirke rot färbt
-            ring = auf_bezirk_zuschneiden(ring, z["nur_in_bezirk"])
-        ring.append(ring[0])
-        props = {k: v for k, v in z.items()}
-        feats.append({"type": "Feature", "properties": props,
-                      "geometry": {"type": "Polygon", "coordinates": [ring]}})
+            # Fußweg-/Schulweg-Gebiet: kann aus mehreren Teilen bestehen, dann ein Zonen-Eintrag je Teil
+            from shapely.geometry import Polygon, shape
+            from shapely.ops import unary_union
+            fw = json.loads((ROOT / "geo" / z["fussweg"]).read_text(encoding="utf-8"))["features"]
+            teil = Polygon(ring).intersection(unary_union([shape(f["geometry"]) for f in fw]))
+            if z.get("zuschneiden") == "genau":  # erst auf den Bezirk, dann teilen (sonst bliebe nur das größte Stück)
+                bez = json.loads((ROOT / "geo" / "bezirke.geojson").read_text(encoding="utf-8"))["features"]
+                teil = teil.intersection(Polygon(next(f["geometry"]["coordinates"][0] for f in bez
+                                                      if f["properties"]["bezirk"] == z["nur_in_bezirk"])))
+            teile = [teil] if teil.geom_type == "Polygon" else [g for g in teil.geoms if g.geom_type == "Polygon"]
+            teile = [g for g in teile if g.area > 1e-8]  # Splitter unter ca. 70 m² weg
+            ringe = [[[round(x, 6), round(y, 6)] for x, y in g.exterior.coords[:-1]] for g in teile]
+        for i, ring in enumerate(ringe):
+            if z.get("fussweg") and len(ringe) > 1:
+                pass  # schon oben auf den Bezirk geschnitten
+            elif z.get("zuschneiden") == "genau":
+                ring = genau_zuschneiden(ring, z["nur_in_bezirk"])
+            elif z.get("nur_in_bezirk") and z.get("zuschneiden", True):
+                # auf den Bezirk zuschneiden, damit die Karte nicht Nachbarbezirke rot färbt
+                ring = auf_bezirk_zuschneiden(ring, z["nur_in_bezirk"])
+            ring.append(ring[0])
+            props = {k: v for k, v in z.items()}
+            if i:
+                props["id"] = f"{z['id']}_{i + 1}"
+            feats.append({"type": "Feature", "properties": props,
+                          "geometry": {"type": "Polygon", "coordinates": [ring]}})
     out = {"type": "FeatureCollection", "features": feats}
     path = ROOT / "geo" / "zones.geojson"
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

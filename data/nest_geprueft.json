@@ -5582,8 +5582,7 @@
    "wh-1749807365",
    "is-913235351290"
   ],
-  "titel": "Moderne 3-Zimmer-Wohnung mit Balkon und Erstbezug in 1180 Wien - 78m²",
-  "ergebnis": "unklar: Top 10, 4. OG, 78,66 m² (Grundriss RKM, ohne Adresse im Planfeld); Text nur \"nahe U6 Währinger Straße\", Punkt um 270 m versetzt. Schwester-Inserate: keine (kein weiteres RKM-Inserat, kein gleicher Energieausweis HWB 31,1/fGEE 0,74). Makler RKM Immobilien: keine Projektseite gefunden. Websuche \"RKM Immobilien Erstbezug 1180 Top 10 78,66 m² Balkon 10,34 m²\" nur weekend.at/ir.at-Kopien ohne Adresse (weekend.at/immomarktplatz von hier nicht abrufbar).",
+  "ergebnis": "Währinger Gürtel 79, Top 10, 4. OG (= wh-1992576637 ImmoLöwin, Energieausweis Top 10)",
   "datum": "2026-11-11"
  },
  "is-918216007315": {
@@ -5599,28 +5598,28 @@
    "wh-2145505668",
    "is-306756723890"
   ],
-  "ergebnis": "Umkreis 150 m um E&V-Punkt, Kandidat Lange Gasse 50, nicht belegt",
+  "ergebnis": "Lange Gasse (ungefähr, E&V-Punkt ±150 m, Hochparterre, Jugendstilhaus), Hausnummer nicht gefunden; Quellen E&V W-0490NY, weekend.at",
   "datum": "2026-11-11"
  },
  "wh-1804703607": {
   "ids": [
    "wh-1804703607"
   ],
-  "ergebnis": "unklar, Nähe Belvedere/S Rennweg, keine Adresse auffindbar",
+  "ergebnis": "unklar: nur 'beim Belvedere', Kreis um S Rennweg; keine Adresse auf Portalen, weekend.at, Engel & Völkers",
   "datum": "2026-11-11"
  },
  "wh-1125259676": {
   "ids": [
    "wh-1125259676"
   ],
-  "ergebnis": "Grailichgasse 3 (ungefähr) aus 360°-Rundgang",
+  "ergebnis": "Grailichgasse 3 (ungefähr; Gasse hat nur Nr. 1-4), 1. DG",
   "datum": "2026-11-11"
  },
  "wh-1033738299": {
   "ids": [
    "wh-1033738299"
   ],
-  "ergebnis": "Neulinggasse, Top 13, Hausnummer offen",
+  "ergebnis": "Neulinggasse beim Arenbergpark, Top 13, 1. Stock, Hausnummer nicht gefunden",
   "datum": "2026-11-11"
  },
  "fm-5721919": {
@@ -5637,7 +5636,7 @@
    "wh-1018213143",
    "is-931026892339"
   ],
-  "ergebnis": "Zimmermanngasse 20 (ungefähr, Makler-Kartenpunkt)",
+  "ergebnis": "Zimmermanngasse 20 (ungefähr: immo.express-Koordinaten = Nominatim Nr. 20), vermutlich Top 28 (Geschossplan), DG 5. OG",
   "datum": "2026-11-11"
  },
  "wh-1238384697": {
@@ -5646,7 +5645,7 @@
    "is-374990928893",
    "fm-5730717"
   ],
-  "ergebnis": "Siolygasse (ungefähr), Top 19",
+  "ergebnis": "Siolygasse (ungefähr), Top 19, Stiege 1; Kandidaten Siolygasse 4-10 / Gugitzgasse 10-11, nicht belegt",
   "datum": "2026-11-11"
  },
  "is-029535121467": {
@@ -5655,7 +5654,7 @@
    "wh-2013153679",
    "fm-5754131"
   ],
-  "ergebnis": "Raffelspergergasse 26, Haus 1 Top 2",
+  "ergebnis": "Raffelspergergasse 26, Haus 1 Top 2, EG (Grundriss/Lageplan, Raiffeisen WohnBau)",
   "datum": "2026-11-11"
  },
  "wh-1944054963": {
@@ -5664,7 +5663,7 @@
    "is-214457638021",
    "fm-5477830"
   ],
-  "ergebnis": "Sollingergasse/Rodlergasse/Weinberggasse (ungefähr), Top 12",
+  "ergebnis": "Sollingergasse (ungefähr), Top 12; Kandidaten Sollingergasse 29/31/33, Rodlergasse 21-25, Weinberggasse 41",
   "datum": "2026-11-11"
  },
  "wh-1893783825": {
@@ -5672,7 +5671,7 @@
    "wh-1893783825",
    "is-502983838547"
   ],
-  "ergebnis": "Sieveringer Straße 135, Haus 6, Top 31",
+  "ergebnis": "Sieveringer Straße 135, Haus 6, Top 31 (früheres weekend.at/immmo-Inserat)",
   "datum": "2026-11-11"
  },
  "wh-1018260629": {
@@ -5680,7 +5679,277 @@
    "wh-1018260629",
    "is-918288254355"
   ],
-  "ergebnis": "Ferdinandstraße laut Text (ohne Hausnummer), liegt in der Zone Karmeliterviertel",
+  "ergebnis": "Ferdinandstraße 17, Top 6, 1. OG (Verkaufsplan-Foto 'JULIE & FERDY, Ferdinandstraße 17', Hausnummer am Eingangsfoto)",
+  "datum": "2026-11-11"
+ },
+ "wh-1147924802": {
+  "ids": [
+   "wh-1147924802",
+   "is-141398741634"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Leopold-Ernst-Gasse 10, Top 4 (1. OG), Projekt LEONORA; Quelle ÖRAG-Projektseite + IS-Projektinserat"
+ },
+ "wh-1648076977": {
+  "ids": [
+   "wh-1648076977",
+   "is-298101001023"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Leopold-Ernst-Gasse 10, Top 10 (2. OG), Projekt LEONORA; Quelle ÖRAG-Projektseite + IS-Projektinserat"
+ },
+ "wh-1771995194": {
+  "ids": [
+   "wh-1771995194",
+   "is-576205001731"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Leopold-Ernst-Gasse 10, Top 23 (1.-2. DG), Projekt LEONORA; Quelle ÖRAG-Projektseite + IS-Projektinserat"
+ },
+ "wh-1286327209": {
+  "ids": [
+   "wh-1286327209",
+   "is-501704110976"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Leopold-Ernst-Gasse 10, Top 28 (2. DG), Projekt LEONORA; Quelle ÖRAG-Projektseite + IS-Projektinserat"
+ },
+ "wh-1319892174": {
+  "ids": [
+   "wh-1319892174"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Bergsteiggasse (ohne Nr.), DG-Maisonette; Quelle Sitarz-Inserat derselben Wohnung auf weekend.at"
+ },
+ "wh-1946146230": {
+  "ids": [
+   "wh-1946146230"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "unklar, vermutlich Umgebung Rosensteingasse/Hernalser Hauptstraße (Öffi-Angaben); keine Hausnummer gefunden"
+ },
+ "wh-866442708": {
+  "ids": [
+   "wh-866442708"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Seitengasse der Hernalser Hauptstraße (ohne Nr.), Text; keine Hausnummer gefunden"
+ },
+ "wh-1169063397": {
+  "ids": [
+   "wh-1169063397",
+   "is-051535514326"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Hausnummer 92 laut Fassadenfoto, Straße vermutlich Geblergasse (43 ums Eck); nicht bestätigt"
+ },
+ "wh-1534734603": {
+  "ids": [
+   "wh-1534734603",
+   "is-040709272529"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Dornbach, Nähe Pfarrkirche/Rupertusplatz (Titel); keine Hausnummer"
+ },
+ "wh-1090786976": {
+  "ids": [
+   "wh-1090786976",
+   "is-868985859997"
+  ],
+  "datum": "2026-11-11",
+  "ergebnis": "Neuwaldegg, Neuwaldegger Straße (willhaben-Punkt + Text), Stiege 3, Hochparterre; keine Hausnummer"
+ },
+ "wh-1882037443": {
+  "ids": [
+   "wh-1882037443"
+  ],
+  "ergebnis": "Blumengasse 55 (Top unbekannt, 2. OG), Quelle: Energieausweis-PDF im willhaben-Inserat; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "wh-1279676439": {
+  "ids": [
+   "wh-1279676439"
+  ],
+  "ergebnis": "Klopstockgasse 20 (1. DG), Quelle: Inseratstitel; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-156069567989": {
+  "ids": [
+   "is-156069567989"
+  ],
+  "ergebnis": "Schumanngasse 54, Top 7, Quelle: Titel der 360°-Tour im ImmoScout24-Anhang (tour.giraffe360.com) + Eck-Grundriss; drin (Zone Hernals)",
+  "datum": "2026-11-11"
+ },
+ "is-149131182777": {
+  "ids": [
+   "is-149131182777"
+  ],
+  "ergebnis": "nur \"wenige Schritte von der Mayssengasse\" (MIA Real Estate), keine Hausnummer gefunden; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-535720888566": {
+  "ids": [
+   "is-535720888566"
+  ],
+  "ergebnis": "nur \"wenige Schritte von der Mayssengasse\" (MIA Real Estate), keine Hausnummer gefunden; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-029383981584": {
+  "ids": [
+   "is-029383981584"
+  ],
+  "ergebnis": "nur \"wenige Schritte von der Mayssengasse\" (MIA Real Estate), keine Hausnummer gefunden; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-933260253410": {
+  "ids": [
+   "is-933260253410"
+  ],
+  "ergebnis": "nahe Lorenz-Bayer-Park, keine Hausnummer; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-076121190429": {
+  "ids": [
+   "is-076121190429"
+  ],
+  "ergebnis": "Mayssengasse (Boom Living Revitalisierung, 10 Einheiten), keine Hausnummer; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-442970491946": {
+  "ids": [
+   "is-442970491946"
+  ],
+  "ergebnis": "Projekt Wiener Rose, \"zwischen der Ottakringer Brauerei und Manner\" (leadersnet), keine Hausnummer veröffentlicht; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-240360798996": {
+  "ids": [
+   "is-240360798996"
+  ],
+  "ergebnis": "Projekt Wiener Rose, \"zwischen der Ottakringer Brauerei und Manner\" (leadersnet), keine Hausnummer veröffentlicht; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "is-692229587726": {
+  "ids": [
+   "is-692229587726",
+   "is-847071656232"
+  ],
+  "ergebnis": "Ringsmuth DG-Projekt, Top 21, ca. 200 m vom Lidlpark, Adresse nur auf Anfrage; außerhalb",
+  "datum": "2026-11-11"
+ },
+ "wh-826320798": {
+  "ids": [
+   "wh-826320798",
+   "is-656514111706",
+   "ds-15067204",
+   "wh-1364778822",
+   "is-269224889990",
+   "ds-15015150",
+   "fm-5626449",
+   "fm-5597935"
+  ],
+  "ergebnis": "Obere Donaustraße 23 (Leopold Quartier), zwei Wohnungen in der Gruppe: Top 72 Stiege 1 und Top 74 Stiege 2, je 5. OG; Inseratstext + Grundriss-Schriftfeld; beide Stiegen laut Stadt-Wien-Adressdienst 71-72 m außerhalb der Zone",
+  "datum": "2026-11-11"
+ },
+ "wh-1356656437": {
+  "ids": [
+   "wh-1356656437"
+  ],
+  "ergebnis": "Rotensterngasse 21 (ungefähr, Haus mit BILLA 21-23), Top 10, 3. OG (Plan mit Straßenname, Street-View-Fotos)",
+  "datum": "2026-11-11"
+ },
+ "ds-14910005": {
+  "ids": [
+   "ds-14910005",
+   "is-439385177596",
+   "ds-15096285",
+   "wh-1705346570",
+   "wh-1173401627",
+   "is-721056129598",
+   "is-898020782325",
+   "fm-5547232",
+   "fm-5771635",
+   "bt-606707844119"
+  ],
+  "ergebnis": "Hilde-Güden-Promenade 11, Top 11, OG1, Village im Dritten BF 14B (Grundriss-Schriftfeld), Aspanggründe, außerhalb der Zone",
+  "datum": "2026-11-11"
+ },
+ "is-246741233753": {
+  "ids": [
+   "is-246741233753",
+   "ds-15032200",
+   "wh-792090861",
+   "fm-5771628"
+  ],
+  "ergebnis": "Hilde-Güden-Promenade 11, Top 40, OG4, Village im Dritten BF 14B (Grundriss-Schriftfeld), Aspanggründe, außerhalb der Zone",
+  "datum": "2026-11-11"
+ },
+ "is-947816245144": {
+  "ids": [
+   "is-947816245144",
+   "ds-15282559",
+   "bt-953793087710"
+  ],
+  "ergebnis": "Hilde-Güden-Promenade 11, Top 40, OG4 (gleiche Wohnung wie is-246741233753), außerhalb der Zone",
+  "datum": "2026-11-11"
+ },
+ "wh-1390888219": {
+  "ids": [
+   "wh-1390888219",
+   "bt-807060617954",
+   "bt-098131872263"
+  ],
+  "ergebnis": "Hetzgasse 8, Top 16, 2. OG, Projekt Grace (crownd.at, EHL)",
+  "datum": "2026-11-11"
+ },
+ "wh-1284784148": {
+  "ids": [
+   "wh-1284784148",
+   "wh-2106401753",
+   "fm-5721919",
+   "bt-027157710735"
+  ],
+  "ergebnis": "Neulinggasse 27, Top 17, 3. OG (3SI-Grundriss)",
+  "datum": "2026-11-11"
+ },
+ "is-126884792434": {
+  "ids": [
+   "is-126884792434",
+   "wh-930064370",
+   "bt-546814337945"
+  ],
+  "ergebnis": "Michaelerstraße 15, Stiege 1 Top 18, 3. OG (liv-Wohnungsplan, liv.at Einheitenliste)",
+  "datum": "2026-11-11"
+ },
+ "bt-284582206208": {
+  "ids": [
+   "bt-284582206208"
+  ],
+  "ergebnis": "Sieveringer Straße 221, Stg 1 Top 19, DG1+DG2 (Ulreich-Wohnungsplan); = wh-807003502",
+  "datum": "2026-11-11"
+ },
+ "wh-807003502": {
+  "ids": [
+   "wh-807003502",
+   "wh-830319155",
+   "is-542830793511",
+   "fm-5632435"
+  ],
+  "ergebnis": "Sieveringer Straße 221, Stg 1 Top 19, DG-Maisonette 108,64 m² (Ulreich-Wohnungsplan im willhaben-PDF)",
+  "datum": "2026-11-11"
+ },
+ "wh-1772622239": {
+  "ids": [
+   "wh-1772622239"
+  ],
+  "ergebnis": "Obersteinergasse 19 (im Text), Top unbekannt",
+  "datum": "2026-11-11"
+ },
+ "wh-1277398574": {
+  "ids": [
+   "wh-1277398574"
+  ],
+  "ergebnis": "Wigandgasse 37 (im Text), Kahlenbergerdorf, 2. OG/DG",
   "datum": "2026-11-11"
  }
 }

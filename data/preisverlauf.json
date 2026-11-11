@@ -211,13 +211,6 @@
    "bauart": "Neubau",
    "stockwerk": "2",
    "monatlich": 323.5,
-   "energie": {
-    "hwb": "25,7",
-    "hwb_class": "B",
-    "fgee": "0,78",
-    "fgee_class": "A"
-   },
-   "anbieter": "IMMOcontract Immobilien Vermittlung GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/7/991/072/087_-146277659.jpg",
     "https://cache.willhaben.at/mmo/7/991/072/087_-1940045762.jpg",
@@ -415,13 +408,6 @@
    "bauart": "Neubau",
    "stockwerk": "1",
    "monatlich": null,
-   "energie": {
-    "hwb": 19.0,
-    "hwb_class": "A",
-    "fgee": 0.71,
-    "fgee_class": "A"
-   },
-   "anbieter": "IMMO AGENTUR Burchartz & Krenn",
    "bilder": [
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P9000009qW8V-1752509962-137df11a8be441a9846b43407359d20d",
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P9000009qW8V-1752491880-eca4e1972fa44559a8c89c829734020c",
@@ -542,13 +528,6 @@
    "bauart": "Neubau",
    "stockwerk": "1",
    "monatlich": null,
-   "energie": {
-    "hwb": "19",
-    "hwb_class": "A",
-    "fgee": "0,71",
-    "fgee_class": "A"
-   },
-   "anbieter": "IMMO AGENTUR Burchartz & Krenn GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/7/181/065/3507_-505226974.jpg",
     "https://cache.willhaben.at/mmo/7/181/065/3507_316711533.jpg",
@@ -845,13 +824,6 @@
    "bauart": "Altbau",
    "stockwerk": "1",
    "monatlich": null,
-   "energie": {
-    "hwb": "33,5",
-    "hwb_class": "B",
-    "fgee": "0,77",
-    "fgee_class": "A"
-   },
-   "anbieter": "EDEX Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/5/118/914/3375_-2062181885.jpg",
     "https://cache.willhaben.at/mmo/5/118/914/3375_1560202559.jpg",
@@ -1166,13 +1138,6 @@
    "bauart": "Neubau",
    "stockwerk": "3",
    "monatlich": 309.92,
-   "energie": {
-    "hwb": "25,7",
-    "hwb_class": "B",
-    "fgee": "0,78",
-    "fgee_class": "A"
-   },
-   "anbieter": "IMMOcontract Immobilien Vermittlung GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/101/754/2154_1016466117.jpg",
     "https://cache.willhaben.at/mmo/3/130/998/0503_-890011974.jpg",
@@ -1992,13 +1957,6 @@
    "bauart": "Altbau",
    "stockwerk": "3",
    "monatlich": null,
-   "energie": {
-    "hwb": "27,4",
-    "hwb_class": "B",
-    "fgee": "0,49",
-    "fgee_class": "A++"
-   },
-   "anbieter": "EDEX Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/7/138/574/1007_170645234.jpg",
     "https://cache.willhaben.at/mmo/3/192/565/8613_1111365298.jpg",
@@ -2367,13 +2325,6 @@
    "bauart": null,
    "stockwerk": "2",
    "monatlich": null,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "CROWND Estates Service GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/8/103/336/2768_1569913644.jpg",
     "https://cache.willhaben.at/mmo/8/103/336/2768_-795904452.jpg",
@@ -2522,13 +2473,6 @@
    "bauart": "Altbau",
    "stockwerk": "1",
    "monatlich": null,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Sangreal Living & Estates GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/9/112/594/7689_-1083613855.jpg",
     "https://cache.willhaben.at/mmo/9/112/594/7689_963865974.jpg",
@@ -2834,13 +2778,6 @@
    "bauart": "Altbau",
    "stockwerk": "DG",
    "monatlich": 546.7,
-   "energie": {
-    "hwb": "38,9",
-    "hwb_class": "B",
-    "fgee": "0,86",
-    "fgee_class": "B"
-   },
-   "anbieter": "Dimag Die Immobilienagentur GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/6/161/058/7856_-1092296425.jpg",
     "grundrisse/wh-1610587856.svg?v=1c765684",
@@ -3228,13 +3165,6 @@
    "bauart": "Neubau",
    "stockwerk": "2",
    "monatlich": null,
-   "energie": {
-    "hwb": "31,52",
-    "hwb_class": "B",
-    "fgee": "0,68",
-    "fgee_class": "A+"
-   },
-   "anbieter": "ESTINA Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/9/188/474/9609_736216003.jpg",
     "https://cache.willhaben.at/mmo/9/188/474/9609_-2118439289.jpg",
@@ -4735,13 +4665,6 @@
    "bauart": "Altbau",
    "stockwerk": "1",
    "monatlich": 453.53,
-   "energie": {
-    "hwb": "141,8",
-    "hwb_class": "D",
-    "fgee": "2,3",
-    "fgee_class": "D"
-   },
-   "anbieter": "TMU Realitäten",
    "bilder": [
     "https://cache.willhaben.at/mmo/9/806/537/669_733780055.jpg",
     "https://cache.willhaben.at/mmo/5/119/306/8115_-807170457.jpg",
@@ -4939,13 +4862,6 @@
    "bauart": "Altbau",
    "stockwerk": "3",
    "monatlich": 358.5,
-   "energie": {
-    "hwb": "115,5",
-    "hwb_class": "D",
-    "fgee": "2,17",
-    "fgee_class": "D"
-   },
-   "anbieter": "Spiegelfeld Immobilien GmbH",
    "bilder": [
     "https://ic.ds.at/JL7Gyg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/f2d4616a29ccf850f03dc4871e1cf0fc/fm_h1080_w1920/uxtYVncZhBnTZ5eU8eR22320260921.jpg",
     "https://ic.ds.at/23tYqw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/d6ddab6914c81639fe8b1986d52859cf/fm_h1080_w1920/22PTPdC1YcrRruh7OlkHiw20260422.jpg",
@@ -5265,13 +5181,6 @@
    "bauart": "Neubau",
    "stockwerk": "Erdgeschoss",
    "monatlich": 280.0,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "FPF Immobilien GmbH",
    "bilder": [
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000AEr9x-1566d3ed6f37490fb34438496578732d",
     "grundrisse/is-275425614522.svg?v=ab0ed0e0",
@@ -5810,13 +5719,6 @@
    "bauart": "Altbau",
    "stockwerk": null,
    "monatlich": 461.21,
-   "energie": {
-    "hwb": "40,8",
-    "hwb_class": "B",
-    "fgee": "0,72",
-    "fgee_class": "A"
-   },
-   "anbieter": "Immolöwin GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/1/172/634/6051_351682626.jpg",
     "grundrisse/wh-1726346051.svg?v=ef2c1c70",
@@ -6208,13 +6110,6 @@
    "bauart": "Neubau",
    "stockwerk": null,
    "monatlich": 263.78,
-   "energie": {
-    "hwb": 35.3,
-    "hwb_class": "B",
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Prima Service PS Immobilien",
    "bilder": [
     "https://ic.ds.at/xAqQ_Q/plain/immoimporte/topreal/DB36211058_1455_2610110913.JPG",
     "https://ic.ds.at/o-oflA/plain/immoimporte/topreal/DB36211058_371F_2610110913.JPG",
@@ -6510,13 +6405,6 @@
    "bauart": "Neubau",
    "stockwerk": "6",
    "monatlich": null,
-   "energie": {
-    "hwb": "40",
-    "hwb_class": "B",
-    "fgee": "0,77",
-    "fgee_class": "A"
-   },
-   "anbieter": "TRISTAR Immobilien",
    "bilder": [
     "https://cache.willhaben.at/mmo/1/805/443/931_1177405818.jpg",
     "https://cache.willhaben.at/mmo/1/805/443/931_2052598415.jpg",
@@ -6692,13 +6580,6 @@
    "bauart": "Neubau",
    "stockwerk": "5",
    "monatlich": 257.24,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Wohnkader GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/2/980/261/752_-1480421789.jpg",
     "grundrisse/wh-980261752.svg?v=21a7c2f3",
@@ -7076,13 +6957,6 @@
    "bauart": "Altbau",
    "stockwerk": "0",
    "monatlich": 329.93,
-   "energie": {
-    "hwb": "148,4",
-    "hwb_class": "E",
-    "fgee": "2,43",
-    "fgee_class": "D"
-   },
-   "anbieter": "Thurner Realitäten GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/183/912/9284_-495903093.jpg",
     "grundrisse/wh-1839129284.svg?v=04dcdae7",
@@ -7188,8 +7062,10 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/zwei-ebenen-ein-zuhause-wohnen-in-toplage-mit-dachterrasse-tg-platz-988212014/",
    "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
-   "status": "gruen",
-   "gruende": [],
+   "status": "grau",
+   "gruende": [
+    "Lage unklar: Kartenpunkt bis zu 263 m versetzt, Zonengrenze in der Nähe"
+   ],
    "offline": false,
    "lat": 48.22112,
    "lon": 16.337708,
@@ -7233,13 +7109,6 @@
    "bauart": null,
    "stockwerk": null,
    "monatlich": 366.47,
-   "energie": {
-    "hwb": "28,6",
-    "hwb_class": "B",
-    "fgee": "0,79",
-    "fgee_class": "A"
-   },
-   "anbieter": "REMAX Welcome",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/988/212/014_1226476750.jpg",
     "https://cache.willhaben.at/mmo/4/988/212/014_-1227379265.jpg",
@@ -7379,13 +7248,6 @@
    "bauart": "Neubau",
    "stockwerk": "3",
    "monatlich": 401.62,
-   "energie": {
-    "hwb": "38,9",
-    "hwb_class": "B",
-    "fgee": "1,01",
-    "fgee_class": "C"
-   },
-   "anbieter": "EDEX Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/7/134/340/8527_522771973.jpg",
     "https://cache.willhaben.at/mmo/7/134/340/8527_-745052480.jpg",
@@ -7518,13 +7380,6 @@
    "bauart": "Neubau",
    "stockwerk": "DG",
    "monatlich": 427.0,
-   "energie": {
-    "hwb": 27.5,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "privat",
    "bilder": [
     "https://ic.ds.at/zuFyjg/plain/private-ads/49dad5a7-c34c-4b97-843c-d399fa36abfa/58fd4577-4e70-41e7-aff3-0ed5e9321a98.jpeg",
     "https://ic.ds.at/-gU6OQ/plain/private-ads/49dad5a7-c34c-4b97-843c-d399fa36abfa/4d47eeb4-ad32-4c16-aa1e-5ea429f5b132.jpeg",
@@ -7787,13 +7642,6 @@
    "bauart": "Altbau",
    "stockwerk": "1",
    "monatlich": null,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Pia Estate GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/8/987/879/158_-1144484656.jpg",
     "https://cache.willhaben.at/mmo/8/987/879/158_-538648628.jpg",
@@ -8098,13 +7946,6 @@
    "bauart": "Altbau",
    "stockwerk": "3",
    "monatlich": 300.33,
-   "energie": {
-    "hwb": "134,7",
-    "hwb_class": "D",
-    "fgee": "1,51",
-    "fgee_class": null
-   },
-   "anbieter": "Landaa Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/8/142/418/6158_576277321.jpg",
     "https://cache.willhaben.at/mmo/8/810/937/458_2069544245.jpg",
@@ -8383,13 +8224,6 @@
    "bauart": "Altbau",
    "stockwerk": "1",
    "monatlich": 386.89,
-   "energie": {
-    "hwb": "105",
-    "hwb_class": "D",
-    "fgee": "2,68",
-    "fgee_class": "E"
-   },
-   "anbieter": "Moritz Immobilientreuhand GmbH",
    "bilder": [
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001snH6K-1783432414-c34045651c684ac8b488ac1d2a9591d7",
     "https://cache.willhaben.at/mmo/7/129/101/1907_172042676.jpg",
@@ -8591,13 +8425,6 @@
    "bauart": "Altbau",
    "stockwerk": "2",
    "monatlich": 431.31,
-   "energie": {
-    "hwb": "92,9",
-    "hwb_class": null,
-    "fgee": "1,96",
-    "fgee_class": null
-   },
-   "anbieter": "Lind Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/5/180/507/0625_-614684930.jpg",
     "https://cache.willhaben.at/mmo/5/180/507/0625_1205438755.jpg",
@@ -8747,13 +8574,6 @@
    "bauart": "Altbau",
    "stockwerk": null,
    "monatlich": 283.28,
-   "energie": {
-    "hwb": "120,3",
-    "hwb_class": "D",
-    "fgee": "1,95",
-    "fgee_class": "D"
-   },
-   "anbieter": "Hacker & Partner GesmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/126/659/0524_708361351.jpg",
     "https://cache.willhaben.at/mmo/4/126/659/0524_-508685092.jpg",
@@ -9451,13 +9271,6 @@
    "bauart": "Altbau",
    "stockwerk": "DG",
    "monatlich": 275.0,
-   "energie": {
-    "hwb": "28,2",
-    "hwb_class": "B",
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Dimag Die Immobilienagentur GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/1/201/277/7061_-179023954.jpg",
     "https://cache.willhaben.at/mmo/1/201/277/7061_-855717018.jpg",
@@ -9677,13 +9490,6 @@
    "bauart": "Neubau",
    "stockwerk": "4",
    "monatlich": 402.15,
-   "energie": {
-    "hwb": "27,1",
-    "hwb_class": "B",
-    "fgee": "0,78",
-    "fgee_class": "A"
-   },
-   "anbieter": "R2R Real Estate GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/8/143/996/9788_-768383396.jpg",
     "https://cache.willhaben.at/mmo/8/172/326/3888_882345854_n.jpg",
@@ -10219,13 +10025,6 @@
    "bauart": "Altbau",
    "stockwerk": "0",
    "monatlich": 360.22,
-   "energie": {
-    "hwb": "142,2",
-    "hwb_class": "D",
-    "fgee": "2,29",
-    "fgee_class": "D"
-   },
-   "anbieter": "Kuhn Immobilien GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/0/214/350/0290_1793933864.jpg",
     "https://cache.willhaben.at/mmo/0/214/350/0290_-548500047.jpg",
@@ -10363,13 +10162,6 @@
    "bauart": "Altbau",
    "stockwerk": "2. Stock",
    "monatlich": 350.58,
-   "energie": {
-    "hwb": "93,88",
-    "hwb_class": "C",
-    "fgee": "1,75",
-    "fgee_class": "D"
-   },
-   "anbieter": "UNIO-VERSE GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/2/167/995/1842_-779469314.jpg",
     "grundrisse/wh-1679951842.jpg?v=5629f58d",
@@ -10485,13 +10277,6 @@
    "bauart": "Neubau",
    "stockwerk": null,
    "monatlich": 686.48,
-   "energie": {
-    "hwb": "130",
-    "hwb_class": "D",
-    "fgee": "2,13",
-    "fgee_class": "D"
-   },
-   "anbieter": "RIMMO Prime Vermittlungs GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/3/117/847/6723_1106277044.jpg",
     "grundrisse/wh-1178476723.svg?v=cabfc25d",
@@ -10620,13 +10405,6 @@
    "bauart": "Altbau",
    "stockwerk": "2",
    "monatlich": 242.0,
-   "energie": {
-    "hwb": "159,2",
-    "hwb_class": "E",
-    "fgee": "2,82",
-    "fgee_class": "E"
-   },
-   "anbieter": "Meyrhofer & Partner Immobilien",
    "bilder": [
     "https://cache.willhaben.at/mmo/5/188/869/2015_-189325549.jpg",
     "https://cache.willhaben.at/mmo/5/188/869/2015_-1177618232.jpg",
@@ -10940,13 +10718,6 @@
    "bauart": "Neubau",
    "stockwerk": "6",
    "monatlich": null,
-   "energie": {
-    "hwb": null,
-    "hwb_class": null,
-    "fgee": null,
-    "fgee_class": null
-   },
-   "anbieter": "Wohnkader GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/896/948/604_-525643113.jpg",
     "https://cache.willhaben.at/mmo/4/896/948/604_345045547.jpg",
@@ -11129,13 +10900,6 @@
    "bauart": "Neubau",
    "stockwerk": null,
    "monatlich": 323.71,
-   "energie": {
-    "hwb": "56,9",
-    "hwb_class": "C",
-    "fgee": "1,61",
-    "fgee_class": "C"
-   },
-   "anbieter": "marina eiffe immobilien",
    "bilder": [
     "https://cache.willhaben.at/mmo/7/194/910/0357_-1575277788.jpg",
     "grundrisse/wh-1949100357.svg?v=af259081",
@@ -11273,13 +11037,6 @@
    "bauart": "Neubau",
    "stockwerk": null,
    "monatlich": 457.94,
-   "energie": {
-    "hwb": 100.0,
-    "hwb_class": "C",
-    "fgee": 1.88,
-    "fgee_class": "D"
-   },
-   "anbieter": "IMMOLADIES GmbH",
    "bilder": [
     "https://cache.willhaben.at/mmo/2/142/473/2942_-2130966710.jpg",
     "https://cache.willhaben.at/mmo/2/142/473/2942_-1232498520.png",
@@ -11387,13 +11144,6 @@
    "bauart": "Altbau",
    "stockwerk": null,
    "monatlich": 392.68,
-   "energie": {
-    "hwb": 147.8,
-    "hwb_class": "D",
-    "fgee": 3.63,
-    "fgee_class": "F"
-   },
-   "anbieter": "Dr. Alexandra Gabriel Realitätenvermittlungsgesellschaft m.b.H.",
    "bilder": [
     "https://ic.ds.at/BuQjsg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/4299ebad12e0767e91e998753f8d721f/Fc_Lbl_M11DZO5AbjoOwChZRn3pxrb.jpg_fm_h1080_w1920/7aZgoJ2jbheOEOCbeeBZu720240620.jpeg",
     "https://ic.ds.at/cYusEw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/313d1cd66e1022dacbe32d47eea9cac3/Fc_Lbl_M11DZO5AbjoOwChZRn3pxrb.jpg_fm_h1080_w1920/7szBzMk1w3RO0FEyQ4oxIR20240620.jpg",
@@ -11520,13 +11270,6 @@
    "bauart": "Altbau",
    "stockwerk": "2",
    "monatlich": 354.53,
-   "energie": {
-    "hwb": "72,2",
-    "hwb_class": "C",
-    "fgee": "1,37",
-    "fgee_class": "C"
-   },
-   "anbieter": "Adastra Immobilien - WMKM Opfermann e.U.",
    "bilder": [
     "https://cache.willhaben.at/mmo/4/124/556/4904_157087727.jpg",
     "https://cache.willhaben.at/mmo/4/124/556/4904_560058353.jpg",
@@ -11653,8 +11396,6 @@
    "bauart": null,
    "stockwerk": "3. OG",
    "monatlich": null,
-   "energie": null,
-   "anbieter": "J&P Immobilien / EHL",
    "bilder": [
     "https://semper47.at/wp-content/uploads/2026/07/wb-intro-fassade.jpg",
     "https://semper47.at/wp-content/uploads/2026/07/wb-top-16-1024x724.png",
@@ -11761,8 +11502,6 @@
    "bauart": null,
    "stockwerk": "3. OG",
    "monatlich": null,
-   "energie": null,
-   "anbieter": "J&P Immobilien / EHL",
    "bilder": [
     "https://semper47.at/wp-content/uploads/2026/07/wb-intro-fassade.jpg",
     "https://semper47.at/wp-content/uploads/2026/07/wb-top-18-1024x724.png",
