@@ -82,7 +82,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   liegt (Saad: max. 10 min; tools/fussweg_zone.py, OSM-Fußweg-Routing -> geo/fussweg_landstrasse.geojson,
   build_zones schneidet die Zone damit), dazu eine rote Zone nach Saads Umriss (Weißgerberviertel vom Donaukanal
   bis Lorbeergasse, Hetzgasse/Löwengasse bis unters Hundertwasserhaus). Sie gilt streng (`streng`: auch
-  ungefähre Lagen darin sind raus, nicht "im Zweifel drin" wie im 9./19.) und wird auf der Karte gezeigt.
+  ungefähre Lagen darin sind raus, nicht "im Zweifel drin" wie im 9./19.). Seit 2026-11-11 werden keine roten Zonen
+  mehr auf der Karte gezeichnet (Wunsch), sie gelten aber alle weiter.
 - Öffi-Linien auf der Karte (tools/fetch_oeffis.py, lokal laufen lassen, braucht shapely): 8., 9., 18., 19.
   und die blauen Zonen im 2. und 3. Straßenbahn/Bus/U-Bahn aus dem GTFS der Wiener Linien (aktuelle Wege, U-Bahn
   in Linienfarbe, ohne Nachtbusse und Sonderfahrpläne); OEFFLINIENOGD von data.wien.gv.at ist veraltet
