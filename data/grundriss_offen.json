@@ -1,1 +1,329 @@
-[]
+[
+ {
+  "id": "wh-826320798",
+  "ids": [
+   "wh-826320798",
+   "is-656514111706",
+   "ds-15067204",
+   "wh-1364778822",
+   "is-269224889990",
+   "ds-15015150",
+   "fm-5626449",
+   "fm-5597935"
+  ],
+  "titel": "Mehr Raum für das, was zählt - Familienleben neu gedacht",
+  "adresse": "Obere Donaustraße 23",
+  "flaeche": 107.81,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/2/136/477/8822_-493483396.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-826320798/"
+ },
+ {
+  "id": "wh-1390888219",
+  "ids": [
+   "wh-1390888219",
+   "bt-807060617954",
+   "bt-098131872263"
+  ],
+  "titel": "Elegantes 4-Zimmer Apartment in bester Lage",
+  "adresse": "Hetzgasse 8",
+  "flaeche": 117.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/4Ij9Iqrr1V7QaxwE29d34C.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/7a78WjbJot4X8PPMQUfMRP.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/4A8rVLjvjjldJBBTY32OMH.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/5NkqYjDMlgyHi7EIgVC3Xs.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/1b1k3PMG37TwXTBgXqAZmq.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/6OzbCiba5JgwBPcCfULjCi.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/3T9xGE3cYu6Gg5T0LLfS9a.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/jYQUwWCqHq4oiSZG0ZAYo.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/310TFNuIBFay2z1gV4BTsQ.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/5pUlrRMVTb0P9PfahZAnlx.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/68QYRA7wVvtSsVqnxxM9Ph.jpg",
+   "https://files.justimmo.at/public/pic/fullhd_unbranded/2Bc0nCGzWTtCB4LQhE3Ct1.jpg",
+   "https://cache.willhaben.at/mmo/9/139/088/8219_-8957942_n.jpg",
+   "https://cache.willhaben.at/mmo/9/139/088/8219_1210495671_n.jpg",
+   "https://cache.willhaben.at/mmo/9/139/088/8219_-472263150_n.jpg",
+   "https://cache.willhaben.at/mmo/9/139/088/8219_-1123099788_n.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1390888219/"
+ },
+ {
+  "id": "wh-1284784148",
+  "ids": [
+   "wh-1284784148",
+   "wh-2106401753",
+   "bt-027157710735"
+  ],
+  "titel": "The TAILORED - Inspired by YOU designed by MASTERS",
+  "adresse": "Neulinggasse 27",
+  "flaeche": 111.53,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/210/640/1753_370073771.jpg",
+   "https://cache.willhaben.at/mmo/8/128/478/4148_2085624317.jpg",
+   "https://cache.willhaben.at/mmo/8/128/478/4148_-1068645345.jpg",
+   "https://cache.willhaben.at/mmo/8/128/478/4148_9469364.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1284784148/"
+ },
+ {
+  "id": "bt-284582206208",
+  "ids": [
+   "bt-284582206208"
+  ],
+  "titel": "Zur Schönen Agnes – Top 19, 4 Zimmer",
+  "adresse": "Sieveringer Straße 221",
+  "flaeche": 108.64,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://www.ulreich.at/wp-content/uploads/2025/11/Ulreich_Auszeichnung_Real_Estate_Architecture.webp",
+   "https://www.ulreich.at/wp-content/uploads/2025/11/Ulreich_Auszeichnung_BIG_SEE_Architecture_Award_2025.webp",
+   "https://www.ulreich.at/wp-content/uploads/2025/11/Ulreich-Auszeichnung_Fiabci_Prix_dExcellence_Austria.webp"
+  ],
+  "ordner": "data/grundrisse_zeichnen/bt-284582206208/"
+ },
+ {
+  "id": "wh-2145505668",
+  "ids": [
+   "wh-2145505668",
+   "is-306756723890"
+  ],
+  "titel": "Altbauwohnung mit jungem Spirit in Bestlage nahe dem Wiener Rathaus",
+  "adresse": null,
+  "flaeche": 135.0,
+  "zimmer": 5,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/214/550/5668_1067872307.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2145505668/"
+ },
+ {
+  "id": "wh-1238384697",
+  "ids": [
+   "wh-1238384697",
+   "is-374990928893",
+   "fm-5730717"
+  ],
+  "titel": "Mehr als eine Wohnung - exklusives Eck-Townhouse in Wiener Bestlage",
+  "adresse": null,
+  "flaeche": 124.0,
+  "zimmer": 5,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/7/123/838/4697_-706951560.jpg",
+   "https://cache.willhaben.at/mmo/7/123/838/4697_1700461911.jpg",
+   "https://cache.willhaben.at/mmo/7/123/838/4697_1755896803.jpg",
+   "https://cache.willhaben.at/mmo/7/123/838/4697_-911525347.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1238384697/"
+ },
+ {
+  "id": "is-029535121467",
+  "ids": [
+   "is-029535121467",
+   "wh-2013153679",
+   "fm-5754131"
+  ],
+  "titel": "++ FANTASTISCHE VIER Zimmer Wohnung ++ mit Garten und Terrasse",
+  "adresse": null,
+  "flaeche": 118.97,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84Jq-45e9d1165cb24209bfd075202462bd0f"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-029535121467/"
+ },
+ {
+  "id": "wh-1156494211",
+  "ids": [
+   "wh-1156494211",
+   "is-174359216554"
+  ],
+  "titel": "Exklusive 145-m²-Eigentumswohnung mit Terrasse in Wien-Grinzing",
+  "adresse": "Grinzinger Allee 74",
+  "flaeche": 145.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/1/115/649/4211_1020985357.jpg",
+   "https://cache.willhaben.at/mmo/1/115/649/4211_-784730812.jpg",
+   "https://cache.willhaben.at/mmo/1/115/649/4211_2129475487.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1156494211/"
+ },
+ {
+  "id": "wh-1944054963",
+  "ids": [
+   "wh-1944054963",
+   "is-214457638021",
+   "fm-5477830"
+  ],
+  "titel": "Dachterrassen-Wohnung mit Traumblick I Ruhelage I Klimaanlage I Nähe Obkirchermarkt, Sievering und Grinzing",
+  "adresse": null,
+  "flaeche": 150.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/194/405/4963_-858060079.jpg",
+   "https://cache.willhaben.at/mmo/3/194/405/4963_-163606392.jpg",
+   "https://cache.willhaben.at/mmo/3/194/405/4963_2129498003.jpg",
+   "https://cache.willhaben.at/mmo/3/194/405/4963_350055184.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1944054963/"
+ },
+ {
+  "id": "wh-807003502",
+  "ids": [
+   "wh-807003502",
+   "wh-830319155",
+   "is-542830793511",
+   "fm-5632435"
+  ],
+  "titel": "ZUR SCHÖNEN AGNES - Erstbezug: 4-Zimmer-Dachgeschoss-Maisonette mit Balkon & Terrasse im grünen Sievering - PROVISIONSFREI",
+  "adresse": "Sieveringer Straße 221",
+  "flaeche": 120.05,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/2/807/003/502_1339525400.jpg",
+   "https://cache.willhaben.at/mmo/5/830/319/155_-2007974982.png",
+   "https://cache.willhaben.at/mmo/5/830/319/155_-1765067155.jpg",
+   "https://cache.willhaben.at/mmo/5/830/319/155_1579106360.jpg",
+   "https://cache.willhaben.at/mmo/5/830/319/155_933870889.jpg",
+   "https://cache.willhaben.at/mmo/2/807/003/502_482916255.jpg",
+   "https://cache.willhaben.at/mmo/2/807/003/502_-48845415.jpg",
+   "https://cache.willhaben.at/mmo/2/807/003/502_-1656651568.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-807003502/"
+ },
+ {
+  "id": "fm-5744555",
+  "ids": [
+   "fm-5744555"
+  ],
+  "titel": "Exklusive 145-m²-Eigentumswohnung mit Terrasse in Wien-Grinzing ...",
+  "adresse": "Grinzinger Allee 74",
+  "flaeche": 145.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://media.findmyhome.at/md1/4/5744555/s1/DB10118370_648D.JPG",
+   "https://media.findmyhome.at/md1/4/5744555/s1/DB10118370_321C.JPG",
+   "https://media.findmyhome.at/md1/4/5744555/s1/DB10118370_412C.JPG"
+  ],
+  "ordner": "data/grundrisse_zeichnen/fm-5744555/"
+ },
+ {
+  "id": "fm-5721919",
+  "ids": [
+   "fm-5721919"
+  ],
+  "titel": "The TAILORED - Inspired by YOU designed by ...",
+  "adresse": "Neulinggasse 27/17",
+  "flaeche": 111.53,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://media.findmyhome.at/md1/3/5721919/s1/ChonanxKuF1pMbeFntXGg8.jpg",
+   "https://media.findmyhome.at/md1/3/5721919/s1/9VMFSny31rvU4LTqo3KrGC.jpg",
+   "https://media.findmyhome.at/md1/3/5721919/s1/b1wuuQGDKakXHqPkFWooXA.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/fm-5721919/"
+ },
+ {
+  "id": "is-126884792434",
+  "ids": [
+   "is-126884792434",
+   "wh-930064370",
+   "bt-546814337945"
+  ],
+  "titel": "Familienfreundlich &amp; großzügig – Stilvolle 4-Zimmer-Neubauwohnung mit sonnigen Freiflächen in 1180 Wien",
+  "adresse": "Michaelerstraße 15",
+  "flaeche": 109.54,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E847O-1775740375-998b2d3f8c4b450c934884dbf1ba6a4a",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E847O-1766072694-d2d713cda65e42cfadef19c82cf76de7"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-126884792434/"
+ },
+ {
+  "id": "is-918216007315",
+  "ids": [
+   "is-918216007315",
+   "wh-865769198"
+  ],
+  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F2)",
+  "adresse": null,
+  "flaeche": 102.7,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83VK-1788794609-24fbee18e6b144d1839a81e1756efe8a",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83VK-1788794609-d1ca9d4ed1b549f89ef3ab2ee17c6845",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83VK-1788794609-42d19d53e5724232897f0e0abf6a3918",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83VK-1788794610-3e1d6ddef55d4d7aae6664e37a90bec6"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-918216007315/"
+ },
+ {
+  "id": "wh-1804703607",
+  "ids": [
+   "wh-1804703607"
+  ],
+  "titel": "Wohnen beim Belvedere: Altbau-Charme trifft modernen Familienluxus",
+  "adresse": null,
+  "flaeche": 176.0,
+  "zimmer": 5,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/7/180/470/3607_301733329.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1804703607/"
+ },
+ {
+  "id": "wh-1018213143",
+  "ids": [
+   "wh-1018213143",
+   "is-931026892339"
+  ],
+  "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit sehr großer Terrasse",
+  "adresse": null,
+  "flaeche": 122.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/101/821/3143_-433592231.jpg",
+   "https://cache.willhaben.at/mmo/3/101/821/3143_523709384.jpg",
+   "https://cache.willhaben.at/mmo/3/101/821/3143_1423542011.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1018213143/"
+ }
+]

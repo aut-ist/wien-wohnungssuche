@@ -1,1 +1,425 @@
-[]
+[
+ {
+  "id": "wh-2145505668",
+  "ids": [
+   "wh-2145505668",
+   "is-306756723890"
+  ],
+  "titel": "Altbauwohnung mit jungem Spirit in Bestlage nahe dem Wiener Rathaus",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/altbauwohnung-mit-jungem-spirit-in-bestlage-nahe-dem-wiener-rathaus-2145505668/",
+   "https://www.immobilienscout24.at/expose/6a0af24167e26614cd8bdb69"
+  ],
+  "anbieter": "Engel & Völkers Wien, EuV Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "8. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.212326,
+   16.351274
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 135.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "137",
+   "hwb_class": null,
+   "fgee": "2,35",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2145505668/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "is-918216007315",
+  "ids": [
+   "is-918216007315",
+   "wh-865769198"
+  ],
+  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F2)",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/gersthof-garten-geothermie-ganze-etage-f2-865769198/",
+   "https://www.immobilienscout24.at/expose/6a9ebb12fbc4951379abd78c"
+  ],
+  "anbieter": "PlanetHome Immobilien Austria GmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.23855,
+   16.315048
+  ],
+  "versatz_m": 0,
+  "preis": 1170000,
+  "flaeche": 102.7,
+  "zimmer": 4,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": 36.0,
+   "hwb_class": "B",
+   "fgee": 0.55,
+   "fgee_class": "A++"
+  },
+  "grundrisse": "data/grundrisse/is-918216007315/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1238384697",
+  "ids": [
+   "wh-1238384697",
+   "is-374990928893",
+   "fm-5730717"
+  ],
+  "titel": "Mehr als eine Wohnung - exklusives Eck-Townhouse in Wiener Bestlage",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/mehr-als-eine-wohnung-exklusives-eck-townhouse-in-wiener-bestlage-1238384697/",
+   "https://www.findmyhome.at/5730717",
+   "https://www.immobilienscout24.at/expose/6a959bc970a8712bbd49e522"
+  ],
+  "anbieter": "RKM Immobilien e.U.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 254 m versetzt)",
+  "punkt": [
+   48.24343,
+   16.322966
+  ],
+  "versatz_m": 254,
+  "preis": 1200000.0,
+  "flaeche": 124.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "140,46",
+   "hwb_class": "E",
+   "fgee": "2,87",
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1238384697/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "is-029535121467",
+  "ids": [
+   "is-029535121467",
+   "wh-2013153679",
+   "fm-5754131"
+  ],
+  "titel": "++ FANTASTISCHE VIER Zimmer Wohnung ++ mit Garten und Terrasse",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/-fantastische-vier-zimmer-wohnung-mit-garten-und-terrasse-2013153679/",
+   "https://www.findmyhome.at/5754131",
+   "https://www.immobilienscout24.at/expose/6ac4d3c7c55903b1d740788f"
+  ],
+  "anbieter": "Prima Service PS Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.250651,
+   16.32471
+  ],
+  "versatz_m": 0,
+  "preis": 1198000,
+  "flaeche": 118.97,
+  "zimmer": 4,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": 30.82,
+   "hwb_class": "B",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-029535121467/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1944054963",
+  "ids": [
+   "wh-1944054963",
+   "is-214457638021",
+   "fm-5477830"
+  ],
+  "titel": "Dachterrassen-Wohnung mit Traumblick I Ruhelage I Klimaanlage I Nähe Obkirchermarkt, Sievering und Grinzing",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/dachterrassen-wohnung-mit-traumblick-i-ruhelage-i-klimaanlage-i-naehe-obkirchermarkt-sievering-und-grinzing-1944054963/",
+   "https://www.findmyhome.at/5477830",
+   "https://www.immobilienscout24.at/expose/67f3908466e50472c6a3d74e"
+  ],
+  "anbieter": "RIWOG Real Estate Management GmbH",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 252 m versetzt)",
+  "punkt": [
+   48.244633,
+   16.336224
+  ],
+  "versatz_m": 252,
+  "preis": 1199000.0,
+  "flaeche": 150.0,
+  "zimmer": 4,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1944054963/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1893783825",
+  "ids": [
+   "wh-1893783825",
+   "is-502983838547"
+  ],
+  "titel": "1190! TRAUMIMMOBILIE in Döbling: \"Saniertes 5-Zimmer Eigentum mit Garten, Terrasse + Tiefgaragenplatz\"",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/1190-traumimmobilie-in-doebling-saniertes-5-zimmer-eigentum-mit-garten-terrasse-tiefgaragenplatz-1893783825/",
+   "https://www.immobilienscout24.at/expose/6aeaf4558860165e455d47e5"
+  ],
+  "anbieter": "HERZEL Immobilien e.U.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 255 m versetzt)",
+  "punkt": [
+   48.249245,
+   16.327135
+  ],
+  "versatz_m": 255,
+  "preis": 1190000.0,
+  "flaeche": 164.22,
+  "zimmer": 5,
+  "stockwerk": "0",
+  "energie": {
+   "hwb": "224,1",
+   "hwb_class": "F",
+   "fgee": "1,97",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1893783825/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1018260629",
+  "ids": [
+   "wh-1018260629",
+   "is-918288254355"
+  ],
+  "titel": "Projekt JULIE & FERDY - Exklusive Innenstadtwohnung mit ruhigem Innenhofblick",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/projekt-julie-ferdy-exklusive-innenstadtwohnung-mit-ruhigem-innenhofblick-1018260629/",
+   "https://www.immobilienscout24.at/expose/6a8c0163adb9b66ebd5169d3"
+  ],
+  "anbieter": "STEUP Realitäten GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 262 m versetzt)",
+  "punkt": [
+   48.215046,
+   16.38685
+  ],
+  "versatz_m": 262,
+  "preis": 1180000.0,
+  "flaeche": 113.88,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1018260629/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1804703607",
+  "ids": [
+   "wh-1804703607"
+  ],
+  "titel": "Wohnen beim Belvedere: Altbau-Charme trifft modernen Familienluxus",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/wohnen-beim-belvedere-altbau-charme-trifft-modernen-familienluxus-1804703607/"
+  ],
+  "anbieter": "Engel & Völkers Wien, EuV Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.196655,
+   16.400082
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 176.0,
+  "zimmer": 5,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "65",
+   "hwb_class": null,
+   "fgee": "1,27",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1804703607/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1125259676",
+  "ids": [
+   "wh-1125259676"
+  ],
+  "titel": "TERRASSENAPARTMENT IN SCHÖNEM STILHAUS",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/terrassenapartment-in-schoenem-stilhaus-1125259676/"
+  ],
+  "anbieter": "Stanzel & Co Wohnungs- u Geschäftsvermittlung GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse (Kartenpunkt bis zu 251 m versetzt)",
+  "punkt": [
+   48.2068,
+   16.39
+  ],
+  "versatz_m": 251,
+  "preis": 1200000.0,
+  "flaeche": 157.55,
+  "zimmer": 4,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "41,6",
+   "hwb_class": "B",
+   "fgee": "1,04",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1125259676/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Virtueller Rundgang durch die Immobilie",
+    "url": "https://my.realonaut.com/player/jyqny/de"
+   }
+  ],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1033738299",
+  "ids": [
+   "wh-1033738299"
+  ],
+  "titel": "4-Zimmer-Küche-Wohnung in schönem Altbau",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/4-zimmer-kueche-wohnung-in-schoenem-altbau-1033738299/"
+  ],
+  "anbieter": "Altenburg Realitäten GmbH & Co KG",
+  "adresse_im_inserat": "Neulinggasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.19913,
+   16.39069
+  ],
+  "versatz_m": 0,
+  "preis": 1200000.0,
+  "flaeche": 105.67,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "90,3",
+   "hwb_class": "C",
+   "fgee": "1,7",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1033738299/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "wh-1018213143",
+  "ids": [
+   "wh-1018213143",
+   "is-931026892339"
+  ],
+  "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit sehr großer Terrasse",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/exklusive-dachgeschosswohnung-im-9-bezirk-mit-sehr-grosser-terrasse-1018213143/",
+   "https://www.immobilienscout24.at/expose/69f9191144f63d502e185c6f"
+  ],
+  "anbieter": "Immoexpress KG",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 9. Bezirk bekannt",
+  "punkt": [
+   48.213998,
+   16.344482
+  ],
+  "versatz_m": 0,
+  "preis": 1165000.0,
+  "flaeche": 122.0,
+  "zimmer": 4,
+  "stockwerk": "5",
+  "energie": {
+   "hwb": "35",
+   "hwb_class": "B",
+   "fgee": "1",
+   "fgee_class": "B"
+  },
+  "grundrisse": "data/grundrisse/wh-1018213143/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "fm-5721919",
+  "ids": [
+   "fm-5721919"
+  ],
+  "titel": "The TAILORED - Inspired by YOU designed by ...",
+  "plz": 1030,
+  "links": [
+   "https://www.findmyhome.at/5721919"
+  ],
+  "anbieter": "3SI Makler GmbH",
+  "adresse_im_inserat": "Neulinggasse 27/17",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.19944,
+   16.393532
+  ],
+  "versatz_m": 0,
+  "preis": 1179000.0,
+  "flaeche": 111.53,
+  "zimmer": 4,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": 121.6,
+   "hwb_class": "D",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/fm-5721919/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ }
+]
