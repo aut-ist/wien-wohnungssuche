@@ -464,11 +464,15 @@ def bewerten(r, rev):
             if not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
     out["lage"] = lage_txt
-    # 18./19. nur bis 15 Minuten Öffis zum Gürtel (Wunsch 2026-11-11), genau 3 Zimmer nur bis 10 (Wunsch);
-    # bei ungefährer Lage nur raus, wenn es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau
-    # (im Zweifel drin); nur der Bezirk bekannt = grau, bis die Adresse recherchiert ist
-    if r["plz"] in (1180, 1190):
-        drei = r.get("zimmer") == 3
+    # 18./19. nur bis 15 Minuten Öffis zum Gürtel (Wunsch 2026-11-11, nur für Wohnungen, die ab
+    # `guertel_max_min_ab` neu gefunden werden; die schon bekannten bleiben, wie bei flaeche_min das früheste
+    # "erstmals" der Gruppe), genau 3 Zimmer nur bis 10 (Wunsch, für alle); bei ungefährer Lage nur raus, wenn
+    # es auch vom günstigsten Punkt im Umkreis zu weit wäre, sonst grau (im Zweifel drin); nur der Bezirk
+    # bekannt = grau, bis die Adresse recherchiert ist (auch das nur für neue; bekannte wie bisher)
+    drei = r.get("zimmer") == 3
+    neu_seit_guertel = (r.get("erstmals") or TODAY) >= F["guertel_max_min_ab"]
+    nur_bezirk = nur_bezirk and neu_seit_guertel
+    if r["plz"] in (1180, 1190) and (drei or neu_seit_guertel):
         grenze = F["guertel_max_min_3_zimmer"] if drei else F["guertel_max_min"]
         wer = "3 Zimmer, " if drei else ""
         g = guertel_zeit(out["lat"], out["lon"]) if out["lat"] and not nur_bezirk else None

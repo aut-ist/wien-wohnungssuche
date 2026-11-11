@@ -35,7 +35,8 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
 
 ## Frage `lage`
 Im 1., 2., 3. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. entscheidet
-die Öffi-Zeit zum Gürtel (höchstens 15 min, 3 Zimmer 10 min), dafür wird die Adresse gebraucht. Achte deshalb auch auf
+die Öffi-Zeit zum Gürtel (3 Zimmer höchstens 10 min; ab 2026-11-12 neu gefundene höchstens 15 min),
+dafür wird die Adresse gebraucht. Achte deshalb auch auf
 Projektnamen mit Adresse ("M86" = Martinstraße 86), Hausnamen und Straßen in Grundriss-Texten.
 
 Finde aus Text und Titel die genaueste Lage: Straße mit Hausnummer, Straße, Kreuzung,

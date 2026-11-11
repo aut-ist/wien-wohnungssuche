@@ -8,6 +8,7 @@
     "preis_max_3_zimmer": 700000,
     "guertel_max_min_3_zimmer": 10,
     "guertel_max_min": 15,
+    "guertel_max_min_ab": "2026-11-12",
     "einzug_spaetestens": "2027-09",
     "laufende_kosten_max": 700,
     "gemeindebau_min_m": 30

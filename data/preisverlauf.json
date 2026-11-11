@@ -5136,10 +5136,8 @@
    "quelle": "ImmoScout24",
    "url": "https://www.immobilienscout24.at/expose/6915a053877b165550921612",
    "titel": "Traumhafte Gartenwohnung mit 230 m² Freifläche - hochwertig saniert &amp; perfekt gelegen",
-   "status": "raus",
-   "gruende": [
-    "16 min zum Gürtel (max. 15)"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.246478,
    "lon": 16.351689,
@@ -5153,7 +5151,11 @@
    "plz": 1190,
    "adresse": "Dionysius-Andrassy-Straße 10",
    "lage": "19. Bezirk (aus Beschreibung: Dionysius-Andrassy-Straße 10)",
-   "heizung": null,
+   "heizung": {
+    "ergebnis": "gas",
+    "text": "\"Die Heizung erfolgt über einen zentralen Gas-Heizkessel im Keller\"",
+    "von": "Claude"
+   },
    "bild": "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000AEr9x-1566d3ed6f37490fb34438496578732d",
    "erstmals": "2026-10-25",
    "neu": false,
@@ -9983,10 +9985,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neu-stilvolles-altbau-juwel-mit-eigengarten-in-gersthofer-jugendstil-villa-2143500290/",
    "titel": "NEU! Stilvolles Altbau-Juwel mit Eigengarten in Gersthofer Jugendstil-Villa",
-   "status": "grau",
-   "gruende": [
-    "etwa 17 min zum Gürtel, Lage ungefähr (max. 15 min)"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.22897,
    "lon": 16.324809,
@@ -11230,10 +11230,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/silbergasse-moderne-5-zimmer-maisonette-in-gruenruhelage-1245564904/",
    "titel": "Silbergasse: moderne 5-Zimmer Maisonette in Grünruhelage",
-   "status": "grau",
-   "gruende": [
-    "etwa 16 min zum Gürtel, Lage ungefähr (max. 15 min)"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.249075,
    "lon": 16.35231,

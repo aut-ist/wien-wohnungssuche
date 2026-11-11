@@ -10,9 +10,11 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (`miete_bis` liest das Enddatum). Seit 2026-10-28 außerdem: genau 3 Zimmer nur bis 700.000 €
   (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
   grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt die Preisgrenze nicht.
-  Seit 2026-11-11 gilt im 18./19. für alle Wohnungen: höchstens 15 min Öffis zum Gürtel (`guertel_max_min`,
-  geschätzte Zeit wie in der Karte angezeigt; 3 Zimmer weiter 10 min). Ist nur der Bezirk bekannt, ist die Wohnung
-  grau, bis die Adresse recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit).
+  Für Wohnungen, die ab 2026-11-12 neu gefunden werden (`guertel_max_min_ab`, frühestes "erstmals" der Gruppe),
+  gilt im 18./19. auch bei 4+ Zimmern: höchstens 15 min Öffis zum Gürtel (`guertel_max_min`, geschätzte Zeit wie in
+  der Karte angezeigt). Die schon bekannten bleiben, wie sie sind (Saad: "Lass alle, die wir jetzt haben, drinnen,
+  der Cut-off ist für die Zukunft"). Ist bei einer neuen nur der Bezirk bekannt, ist sie grau, bis die Adresse
+  recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit).
   Einzug spätestens Q3 2027 (`config.json` `einzug_spaetestens`): `zustand.bezug_einschaetzen`
   liest Fertigstellung/Bezug/"Verfügbar ab" aus allen Inseraten der Gruppe (der späteste Termin
   zählt; Lift, Balkone, Energieausweis, Miete zählen nicht) und sonst das Baujahr-Feld (2027 ohne
