@@ -59,6 +59,35 @@ def _abstand_m(lon, lat, feature):
     return 0 if _in_polygon(lon, lat, c) else _dist_ring_m(lon, lat, c[0])
 
 
+_GEMEINDEBAUTEN = None
+
+
+def gemeindebau_naehe(lat, lon, max_m):
+    """Nächster Gemeindebau (geo/gemeindebauten.geojson) höchstens max_m vom Punkt entfernt
+    -> (abstand_m, name) oder None. 0 m heißt: der Punkt liegt im Umriss."""
+    global _GEMEINDEBAUTEN
+    if _GEMEINDEBAUTEN is None:
+        pfad = ROOT / "geo" / "gemeindebauten.geojson"
+        feats = json.loads(pfad.read_text(encoding="utf-8"))["features"] if pfad.exists() else []
+        _GEMEINDEBAUTEN = []
+        for f in feats:
+            polys = f["geometry"]["coordinates"]
+            pts = [p for poly in polys for p in poly[0]]
+            box = (min(x for x, _ in pts), min(y for _, y in pts), max(x for x, _ in pts), max(y for _, y in pts))
+            p = f["properties"]
+            _GEMEINDEBAUTEN.append((box, polys, (p.get("HOFNAME") or p.get("ADRESSE") or "").strip()))
+    dx, dy = max_m / K_LON, max_m / K_LAT
+    best = None
+    for (x0, y0, x1, y1), polys, name in _GEMEINDEBAUTEN:
+        if lon < x0 - dx or lon > x1 + dx or lat < y0 - dy or lat > y1 + dy:
+            continue
+        for poly in polys:
+            d = 0 if _in_polygon(lon, lat, poly) else _dist_ring_m(lon, lat, poly[0])
+            if d <= max_m and (best is None or d < best[0]):
+                best = (d, name)
+    return best
+
+
 def bezirksmitte(nr):
     """Ungefährer Mittelpunkt eines Bezirks (Mittel der Randpunkte) -> (lat, lon)."""
     for f in BEZIRKE:

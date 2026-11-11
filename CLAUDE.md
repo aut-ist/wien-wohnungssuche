@@ -84,6 +84,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   bis Lorbeergasse, Hetzgasse/Löwengasse bis unters Hundertwasserhaus). Sie gilt streng (`streng`: auch
   ungefähre Lagen darin sind raus, nicht "im Zweifel drin" wie im 9./19.). Seit 2026-11-11 werden keine roten Zonen
   mehr auf der Karte gezeichnet (Wunsch), sie gelten aber alle weiter.
+- Gemeindebau (Wunsch 2026-11-11, "nicht neben Sozialbauten"): liegt eine Wohnung mit genauer Lage höchstens
+  `gemeindebau_min_m` (30 m: Nachbarhaus oder direkt gegenüber) vom Umriss eines Gemeindebaus, ist sie raus (Filter, wie
+  zu hohe Kosten). Daten: geo/gemeindebauten.geojson aus `tools/fetch_gemeindebauten.py` (GEMBAUTENFLOGD), Prüfung
+  `geo.gemeindebau_naehe` (nur Standardbibliothek). Ungefähre Lagen werden nicht geprüft; Nest und Brutkasten bleiben
+  unangetastet (Saad); review `{"gemeindebau": {"ok": true}}` hebt einen Fehlalarm auf. Bei 30 m flogen am ersten Tag
+  16 Inserate raus; bei 100 m wäre es die Hälfte der Karte gewesen (Gemeindebauten stehen fast überall).
 - Seit 2026-11-11 auch ein Stück Hernals (17., `mit_zonen`, Zone `hernals` in tools/build_zones.py, ohne Toleranzrand):
   Dreieck Kalvarienberggasse (Westseite nicht) / 18er-Grenze / Jörgerstraße (Jörgerstraße selbst nicht; Saad: nachts
   unangenehm). Grundlage: Gebäudedaten der Stadt (GEBAEUDEINFOOGD fast nur Gründerzeit, GEMBAUTENFLOGD kaum Gemeindebau),

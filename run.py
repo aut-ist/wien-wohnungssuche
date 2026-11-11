@@ -1142,6 +1142,14 @@ def build():
                 and (haus := gleiches_haus(r, gruppe, haeuser))):
             rev = {**rev, "lage": haus}
         b = bewerten({**r, "_alle": [(x.get("titel"), x.get("text"), x.get("baujahr")) for x in gruppe]}, rev)
+        # Wunsch 2026-11-11: nicht direkt neben einem Gemeindebau. Nur bei genauer Lage (bei ungefährer wäre es
+        # geraten); Nest und Brutkasten bleiben unangetastet (Saad: "einfach lassen"); review gemeindebau.ok hebt es auf
+        gb_max = CONFIG["filter"].get("gemeindebau_min_m")
+        if (gb_max and b["status"] != "raus" and not b["ungefaehr"] and b.get("lat") and not set(r["ids"]) & nest
+                and not (rev.get("gemeindebau") or {}).get("ok")
+                and (gb := geo.gemeindebau_naehe(b["lat"], b["lon"], gb_max))):
+            b = {**b, "status": "raus", "art": "filter",
+                 "gruende": [f"Gemeindebau {gb[1].title()} {round(gb[0])} m entfernt" if gb[0] else f"im Gemeindebau {gb[1].title()}"]}
         offline = r["zuletzt"] < stichtag  # beim letzten Scrape auf keinem Portal mehr gefunden
         if offline:
             d = r["zuletzt"].split("-")
@@ -1299,7 +1307,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY
