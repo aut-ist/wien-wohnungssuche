@@ -574,7 +574,6 @@ legende.onAdd = () => {
   }
   d.innerHTML =
     '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
-    '<div><i class="flaeche" style="border-color:#d24b3e;background:rgba(210,75,62,.15)"></i>nicht erwünscht</div>' +
     oeffiLeg +
     `<div>${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>` +
     `<div>${legEi('gruen', { gas: true })} Gasheizung <span class="leg-ei">${goldEi(16)}</span> im Nest <span class="leg-ei">${goldEi(16, true)}</span> im Nest, Gas</div>` +
@@ -588,7 +587,7 @@ legende.addTo(map);
 async function ladeGebiete() {
   // no-cache: nach Zonen-Änderungen sonst bis zu 10 min die alte Datei aus dem Handy-Cache (2026-11-01)
   const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
-  const [bez, zonen, oeffis] = await Promise.all([j('geo/bezirke.geojson'), j('geo/zones.geojson'), j('geo/oeffis.geojson').catch(() => null)]);
+  const [bez, oeffis] = await Promise.all([j('geo/bezirke.geojson'), j('geo/oeffis.geojson').catch(() => null)]);
   state.oeffis = oeffis;  // auch für die Lage-Vorschau in den Details
   L.geoJSON(bez, { pane: 'gebiete', interactive: false,
     // Bezirksgrenzen gepunktet und dezent, damit sie nicht mit Öffi-Linien verwechselt werden
@@ -596,9 +595,7 @@ async function ladeGebiete() {
       ? { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillColor: '#3b5bdb', fillOpacity: .05 }
       : { color: '#8a7fb8', weight: 1.4, dashArray: '1 5', lineCap: 'round', fillOpacity: 0 } }).addTo(map);
   // nur die roten Zonen zeichnen; die blauen Zonen (1./2./3. Bezirk) und die roten im 3. wirken nur im Filter
-  if (!NUR_NEST) L.geoJSON(zonen, { pane: 'gebiete', filter: f => f.properties.rolle !== 'erlaubt' && !f.properties.verstecken,
-    style: { color: '#d24b3e', weight: 2, fillOpacity: .15 },
-    onEachFeature: (f, l) => l.bindTooltip(f.properties.name, { sticky: true }) }).addTo(map);
+  // Rote Zonen werden seit 2026-11-11 nicht mehr gezeichnet (Wunsch); sie gelten aber weiter (run.py filtert).
   if (oeffis) {
     L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
       style: f => { const o = OEFFI[f.properties.typ]; return { color: f.properties.farbe || o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
