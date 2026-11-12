@@ -5951,5 +5951,30 @@
   ],
   "ergebnis": "Wigandgasse 37 (im Text), Kahlenbergerdorf, 2. OG/DG",
   "datum": "2026-11-11"
+ },
+ "wh-1551392296": {
+  "ids": [
+   "wh-1551392296",
+   "is-140443238674"
+  ],
+  "titel": "Erstbezug 3-Zimmer-Altbauwohnung nahe Votivpark (VOTIV QUARTIER)",
+  "ergebnis": "Währinger Straße 22, Top 3/4 (genau): Grundriss von 16EAST nennt Adresse und Top, 79,09 m² stimmen; Haus 1828 Carl Högl für Gräfin Thurn = Newaldhof, Währinger Straße 22 (geschichtewiki.wien.gv.at/Newaldhof). Schwester-Inserat is-728091059845 (Projekt, ohne Daten).",
+  "datum": "2026-11-12"
+ },
+ "is-866342019443": {
+  "ids": [
+   "is-866342019443"
+  ],
+  "titel": "Charmante Dachgeschosswohnung 1170 (Confido)",
+  "ergebnis": "unklar: Schwester-Inserate Confido 1170: wh-1047702808 (129 m², gleiches Objekt, ohne Adresse), kein gleicher Energieausweis mit Hausnummer; Grundriss (2 Bilder) nur Maße/WNFL 128,71, keine Adresse; Confido-Website nicht erreichbar; Websuche 'Confido 4-Zimmer Maisonette 129 m² 1170 Baujahr 1993' ohne Treffer. Nur 17. Bezirk bekannt, Haus von 1993.",
+  "datum": "2026-11-12"
+ },
+ "ds-15271527": {
+  "ids": [
+   "ds-15271527"
+  ],
+  "titel": "Exklusiver Dachgeschosstraum 1180 (BestInvest)",
+  "ergebnis": "unklar: Schwester-Inserat is-600928138188 (gleicher HWB 117,58/fGEE 1,73, ohne Hausnummer); Grundrisse-Ordner fehlt; BestInvest-Website nicht geprüft/erreichbar; Websuche 'BestInvest Dachgeschosswohnung 1180 95 m² Terrasse 20 m² Galerie' ohne Treffer.",
+  "datum": "2026-11-12"
  }
 }

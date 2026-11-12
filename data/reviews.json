@@ -16928,5 +16928,41 @@
    "begruendung": "Punkt aus dem Adressdienst der Stadt Wien (Leopold Quartier); liegt rund 70 m außerhalb der Zone"
   },
   "datum": "2026-11-11"
+ },
+ "ds-15271527": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur '18. Bezirk', keine Straße im Text"
+  },
+  "datum": "2026-11-12"
+ },
+ "is-866342019443": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur '17. Bezirk', keine Straße im Text; Haus Baujahr 1993"
+  },
+  "datum": "2026-11-12"
+ },
+ "wh-1551392296": {
+  "lage": {
+   "adresse": "Währinger Straße 22",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss (16EAST) nennt Währinger Str. 22, Top 3/4; Newaldhof 1828 Högl/Gräfin Thurn laut Wien Geschichte Wiki"
+  },
+  "datum": "2026-11-12"
+ },
+ "is-140443238674": {
+  "lage": {
+   "adresse": "Währinger Straße 22",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss (16EAST) nennt Währinger Str. 22, Top 3/4; Newaldhof 1828 Högl/Gräfin Thurn laut Wien Geschichte Wiki"
+  },
+  "datum": "2026-11-12"
  }
 }
