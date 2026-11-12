@@ -294,13 +294,13 @@
    "zimmer": 4,
    "flaeche": 120
   },
-  "datum": "2026-10-28",
+  "datum": "2026-11-12",
   "lage": {
-   "adresse": null,
-   "lat": 48.22729,
-   "lon": 16.32562,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Laut willhaben-JSON liegt das Objekt bei 48.22729, 16.32562 (POSITION_RADIUS_METERS 269). Das Schwesterinserat derselben Villa (wh-2143500290, 151 m², 1.099.000 EUR) hat denselben Punkt. Der bisherige Kartenpunkt (48.2367, aus 'Gersthofer Straße' im Text) liegt rund 1 km zu weit nördlich. Die Fotos zeigen eine Jugendstil-Eckvilla mit Eckturm und Spitzhelm, hinter einer Hecke an einer Allee-Kreuzung. Die Hausnummer ist nicht ermittelt; Top 5 laut Kuhn-Grundriss."
+   "adresse": "Salierigasse 1",
+   "lat": 48.228628,
+   "lon": 16.326243,
+   "sicherheit": "genau",
+   "begruendung": "Exposé-PDF Kuhn (kuhn-immobilien.at/expose/17194210/1796058): '1180 Wien, Salierigasse 1/5', 119,56 m². Schwester von Top 4+5 (151,27 m²). Top 5."
   }
  },
  "wh-1861675237": {
@@ -2006,13 +2006,13 @@
  },
  "is-353657297097": {
   "lage": {
-   "adresse": null,
-   "lat": 48.22729,
-   "lon": 16.32562,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Laut willhaben-JSON liegt das Objekt bei 48.22729, 16.32562 (POSITION_RADIUS_METERS 269). Das Schwesterinserat derselben Villa (wh-2143500290, 151 m², 1.099.000 EUR) hat denselben Punkt. Der bisherige Kartenpunkt (48.2367, aus 'Gersthofer Straße' im Text) liegt rund 1 km zu weit nördlich. Die Fotos zeigen eine Jugendstil-Eckvilla mit Eckturm und Spitzhelm, hinter einer Hecke an einer Allee-Kreuzung. Die Hausnummer ist nicht ermittelt; Top 5 laut Kuhn-Grundriss."
+   "adresse": "Salierigasse 1",
+   "lat": 48.228628,
+   "lon": 16.326243,
+   "sicherheit": "genau",
+   "begruendung": "Exposé-PDF Kuhn (kuhn-immobilien.at/expose/17194210/1796058): '1180 Wien, Salierigasse 1/5', 119,56 m². Schwester von Top 4+5 (151,27 m²). Top 5."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-1920823179": {
   "lage": {
@@ -2603,13 +2603,13 @@
  },
  "ds-15097977": {
   "lage": {
-   "adresse": null,
-   "lat": 48.22805,
-   "lon": 16.336,
+   "adresse": "Währinger Straße 147",
+   "lat": 48.22813,
+   "lon": 16.33557,
    "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss (Dr. Gabriel) zeigt Top 19, 127,71 m², Straßenfront 'WÄHRINGER STRASSE'; Inserat: 'Blick auf den Aumannplatz'. Aumannplatz liegt zwischen Gentzgasse und Währinger Straße, gegenüber liegt die Südseite der Währinger Straße Nr. 139-149 (Nominatim). Punkt = Mitte dieser Häuserzeile (ca. Nr. 143/145); Hausnummer offen."
+   "begruendung": "Grundriss mit Straßenseite 'Währinger Straße' und Blick über Straßenbahn und Aumannplatz auf die Gentzgasse: nur die Zeile Währinger Straße 143-147 gegenüber dem Platz. 147 wegen Baujahr 1900 im IR-Exposé (= Stadt Wien; 145: 1902, 143: 1899); 145 bleibt möglich. Top 19 (2. Stock)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "is-317247139346": {
   "lage": {
@@ -5495,30 +5495,33 @@
  },
  "wh-1343408527": {
   "lage": {
-   "lat": 48.22342,
-   "lon": 16.33725,
-   "sicherheit": "ungefaehr",
-   "begruendung": "EDEX, Top 22, 3. OG, Eckhaus mit Erker (Grundriss). Lage im Inserat: Antonigasse, Währinger Straße, Kreuzgasse; Vogl-Markt und Schubertpark wenige Schritte; Straßenbahn 40/41/42 ca. 2 min. Punkt = Johann-Nepomuk-Vogl-Platz, ca. 150 m vom willhaben-Punkt (Radius 270 m). Infina 220025 nur 'Adresse anfragen'."
+   "adresse": "Antonigasse 48",
+   "lat": 48.2228235,
+   "lon": 16.3369625,
+   "sicherheit": "genau",
+   "begruendung": "Außenfoto (derStandard 15284905, 1620 px) zeigt das Eckhaus mit Erker, Straßenschild '18. Antonigasse' und Hausnummer 48; Ecke Leitermayergasse (Stadt-Wien-Gebäudeinfo: Leitermayergasse 28), 60 m vom Vogl-Markt. Top 22 mit abgeschrägter Ecke im Grundriss. Top 22 (3. OG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "is-419978136281": {
   "lage": {
-   "lat": 48.22342,
-   "lon": 16.33725,
-   "sicherheit": "ungefaehr",
-   "begruendung": "EDEX, Top 22, 3. OG, Eckhaus mit Erker (Grundriss). Lage im Inserat: Antonigasse, Währinger Straße, Kreuzgasse; Vogl-Markt und Schubertpark wenige Schritte; Straßenbahn 40/41/42 ca. 2 min. Punkt = Johann-Nepomuk-Vogl-Platz, ca. 150 m vom willhaben-Punkt (Radius 270 m). Infina 220025 nur 'Adresse anfragen'."
+   "adresse": "Antonigasse 48",
+   "lat": 48.2228235,
+   "lon": 16.3369625,
+   "sicherheit": "genau",
+   "begruendung": "Außenfoto (derStandard 15284905, 1620 px) zeigt das Eckhaus mit Erker, Straßenschild '18. Antonigasse' und Hausnummer 48; Ecke Leitermayergasse (Stadt-Wien-Gebäudeinfo: Leitermayergasse 28), 60 m vom Vogl-Markt. Top 22 mit abgeschrägter Ecke im Grundriss. Top 22 (3. OG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "ds-15284905": {
   "lage": {
-   "lat": 48.22342,
-   "lon": 16.33725,
-   "sicherheit": "ungefaehr",
-   "begruendung": "EDEX, Top 22, 3. OG, Eckhaus mit Erker (Grundriss). Lage im Inserat: Antonigasse, Währinger Straße, Kreuzgasse; Vogl-Markt und Schubertpark wenige Schritte; Straßenbahn 40/41/42 ca. 2 min. Punkt = Johann-Nepomuk-Vogl-Platz, ca. 150 m vom willhaben-Punkt (Radius 270 m). Infina 220025 nur 'Adresse anfragen'."
+   "adresse": "Antonigasse 48",
+   "lat": 48.2228235,
+   "lon": 16.3369625,
+   "sicherheit": "genau",
+   "begruendung": "Außenfoto (derStandard 15284905, 1620 px) zeigt das Eckhaus mit Erker, Straßenschild '18. Antonigasse' und Hausnummer 48; Ecke Leitermayergasse (Stadt-Wien-Gebäudeinfo: Leitermayergasse 28), 60 m vom Vogl-Markt. Top 22 mit abgeschrägter Ecke im Grundriss. Top 22 (3. OG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-1456351165": {
   "lage": {
@@ -6251,35 +6254,43 @@
  },
  "ds-15280487": {
   "lage": {
-   "adresse": "Haizingergasse",
-   "sicherheit": "ungefaehr",
-   "begruendung": "derStandard-Text: '++ HAIZINGERGASSE in 1180 Wien ++', nahe Gymnasiumstraße/Währinger Straße, Linien 40/41/42; Grundriss: Top 17, 1. Dachgeschoss, 76,17 m². Hausnummer weder in Grundriss, IS-Daten noch Websuche. Aktueller Punkt (48.23008,16.329297) ist nur Geocode 'Währinger Straße'."
+   "adresse": "Haizingergasse 10",
+   "lat": 48.228455,
+   "lon": 16.343961,
+   "sicherheit": "genau",
+   "begruendung": "RE/MAX 4You bietet denselben Top 17 als Projekt 'The Four Uniques', Haizingergasse (gleicher Grundriss: Balkon 4,51, Loggia 4,44, Terrasse 1,70 m², immomarktplatz.at/de/immobilien/expose/id/83438); Fassadenfoto: Haus mit Garagentor zwischen Eckhaus Gymnasiumstraße 16 und Haizingergasse 8 (Commons-Foto File:Haizingergasse_8,_Hans_Kazda.jpg). Heizung widersprüchlich: RE/MAX Fernwärme, PS Immobilien Gasetage. Top 17 (1. DG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-1098629070": {
   "lage": {
-   "adresse": "Haizingergasse",
-   "sicherheit": "ungefaehr",
-   "begruendung": "derStandard-Text: '++ HAIZINGERGASSE in 1180 Wien ++', nahe Gymnasiumstraße/Währinger Straße, Linien 40/41/42; Grundriss: Top 17, 1. Dachgeschoss, 76,17 m². Hausnummer weder in Grundriss, IS-Daten noch Websuche. Aktueller Punkt (48.23008,16.329297) ist nur Geocode 'Währinger Straße'."
+   "adresse": "Haizingergasse 10",
+   "lat": 48.228455,
+   "lon": 16.343961,
+   "sicherheit": "genau",
+   "begruendung": "RE/MAX 4You bietet denselben Top 17 als Projekt 'The Four Uniques', Haizingergasse (gleicher Grundriss: Balkon 4,51, Loggia 4,44, Terrasse 1,70 m², immomarktplatz.at/de/immobilien/expose/id/83438); Fassadenfoto: Haus mit Garagentor zwischen Eckhaus Gymnasiumstraße 16 und Haizingergasse 8 (Commons-Foto File:Haizingergasse_8,_Hans_Kazda.jpg). Heizung widersprüchlich: RE/MAX Fernwärme, PS Immobilien Gasetage. Top 17 (1. DG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "is-705895638838": {
   "lage": {
-   "adresse": "Haizingergasse",
-   "sicherheit": "ungefaehr",
-   "begruendung": "derStandard-Text: '++ HAIZINGERGASSE in 1180 Wien ++', nahe Gymnasiumstraße/Währinger Straße, Linien 40/41/42; Grundriss: Top 17, 1. Dachgeschoss, 76,17 m². Hausnummer weder in Grundriss, IS-Daten noch Websuche. Aktueller Punkt (48.23008,16.329297) ist nur Geocode 'Währinger Straße'."
+   "adresse": "Haizingergasse 10",
+   "lat": 48.228455,
+   "lon": 16.343961,
+   "sicherheit": "genau",
+   "begruendung": "RE/MAX 4You bietet denselben Top 17 als Projekt 'The Four Uniques', Haizingergasse (gleicher Grundriss: Balkon 4,51, Loggia 4,44, Terrasse 1,70 m², immomarktplatz.at/de/immobilien/expose/id/83438); Fassadenfoto: Haus mit Garagentor zwischen Eckhaus Gymnasiumstraße 16 und Haizingergasse 8 (Commons-Foto File:Haizingergasse_8,_Hans_Kazda.jpg). Heizung widersprüchlich: RE/MAX Fernwärme, PS Immobilien Gasetage. Top 17 (1. DG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "fm-5757967": {
   "lage": {
-   "adresse": "Haizingergasse",
-   "sicherheit": "ungefaehr",
-   "begruendung": "derStandard-Text: '++ HAIZINGERGASSE in 1180 Wien ++', nahe Gymnasiumstraße/Währinger Straße, Linien 40/41/42; Grundriss: Top 17, 1. Dachgeschoss, 76,17 m². Hausnummer weder in Grundriss, IS-Daten noch Websuche. Aktueller Punkt (48.23008,16.329297) ist nur Geocode 'Währinger Straße'."
+   "adresse": "Haizingergasse 10",
+   "lat": 48.228455,
+   "lon": 16.343961,
+   "sicherheit": "genau",
+   "begruendung": "RE/MAX 4You bietet denselben Top 17 als Projekt 'The Four Uniques', Haizingergasse (gleicher Grundriss: Balkon 4,51, Loggia 4,44, Terrasse 1,70 m², immomarktplatz.at/de/immobilien/expose/id/83438); Fassadenfoto: Haus mit Garagentor zwischen Eckhaus Gymnasiumstraße 16 und Haizingergasse 8 (Commons-Foto File:Haizingergasse_8,_Hans_Kazda.jpg). Heizung widersprüchlich: RE/MAX Fernwärme, PS Immobilien Gasetage. Top 17 (1. DG)."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-2119958719": {
   "lage": {
@@ -6393,8 +6404,8 @@
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
   },
-  "datum": "2026-11-08",
-  "gleich_wie": "wh-1976681473"
+  "datum": "2026-11-12",
+  "gleich_wie": "wh-1067490371"
  },
  "fm-5762142": {
   "lage": {
@@ -6412,7 +6423,8 @@
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "gleich_wie": "wh-1067490371"
  },
  "is-594301583629": {
   "lage": {
@@ -6430,7 +6442,8 @@
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "gleich_wie": "wh-1067490371"
  },
  "ds-15287152": {
   "lage": {
@@ -6439,7 +6452,8 @@
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "gleich_wie": "wh-1067490371"
  },
  "ds-15287153": {
   "lage": {
@@ -6448,34 +6462,38 @@
    "sicherheit": "ungefaehr",
    "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "gleich_wie": "wh-1067490371"
  },
  "wh-980261752": {
   "lage": {
-   "lat": 48.225,
-   "lon": 16.3472,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat: 'Direkt gegenüber der Volksoper', 'Kutschkermarkt befindet sich unmittelbar hinter dem Haus', Station Volksoper (40/41/42); Verkaufsgrundriss Top 10, 78,66 m² (Text 89 m²), DG-Ausbau 2024. Volksoper 48.2247,16.3498, Kutschkermarkt 48.2240,16.3441 -> Block zwischen Währinger Gürtel und Kutschkergasse an der Währinger Straße/Schulgasse; im 262-m-Kreis des willhaben-Punkts."
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22413,
+   "lon": 16.34866,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung wie ImmoLöwin wh-1992576637 (78,66 m², Westbalkon 10,34 m² zum Hof, Rücklage 83,38 €), deren Energieausweis 'Währinger Gürtel 79 - Top 10' nennt (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf); Wohnkader-Schwester wh-896948604 mit wortgleichem Lagetext nennt 'Am Währinger Gürtel 79'. Top 10."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "is-678397180162": {
   "lage": {
-   "lat": 48.225,
-   "lon": 16.3472,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat: 'Direkt gegenüber der Volksoper', 'Kutschkermarkt befindet sich unmittelbar hinter dem Haus', Station Volksoper (40/41/42); Verkaufsgrundriss Top 10, 78,66 m² (Text 89 m²), DG-Ausbau 2024. Volksoper 48.2247,16.3498, Kutschkermarkt 48.2240,16.3441 -> Block zwischen Währinger Gürtel und Kutschkergasse an der Währinger Straße/Schulgasse; im 262-m-Kreis des willhaben-Punkts."
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22413,
+   "lon": 16.34866,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung wie ImmoLöwin wh-1992576637 (78,66 m², Westbalkon 10,34 m² zum Hof, Rücklage 83,38 €), deren Energieausweis 'Währinger Gürtel 79 - Top 10' nennt (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf); Wohnkader-Schwester wh-896948604 mit wortgleichem Lagetext nennt 'Am Währinger Gürtel 79'. Top 10."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "fm-5757595": {
   "lage": {
-   "lat": 48.225,
-   "lon": 16.3472,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat: 'Direkt gegenüber der Volksoper', 'Kutschkermarkt befindet sich unmittelbar hinter dem Haus', Station Volksoper (40/41/42); Verkaufsgrundriss Top 10, 78,66 m² (Text 89 m²), DG-Ausbau 2024. Volksoper 48.2247,16.3498, Kutschkermarkt 48.2240,16.3441 -> Block zwischen Währinger Gürtel und Kutschkergasse an der Währinger Straße/Schulgasse; im 262-m-Kreis des willhaben-Punkts."
+   "adresse": "Währinger Gürtel 79",
+   "lat": 48.22413,
+   "lon": 16.34866,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung wie ImmoLöwin wh-1992576637 (78,66 m², Westbalkon 10,34 m² zum Hof, Rücklage 83,38 €), deren Energieausweis 'Währinger Gürtel 79 - Top 10' nennt (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf); Wohnkader-Schwester wh-896948604 mit wortgleichem Lagetext nennt 'Am Währinger Gürtel 79'. Top 10."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-1837111459": {
   "lage": {
@@ -6853,21 +6871,23 @@
  },
  "wh-1949100357": {
   "lage": {
-   "lat": 48.243774,
-   "lon": 16.348812,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Lage laut Inserat 'Döbling | Saarplatz | KH Rudolfinerhaus', Sackgasse, Haus Baujahr 1995, 3 Etagen, Tiefgarage, Top 9 (Grundriss), 1. OG. Hausnummer nicht gefunden (auch weekend.at ohne Adresse); willhaben-Punkt bis 269 m versetzt."
+   "adresse": "Seleskowitschgasse 2",
+   "lat": 48.243545,
+   "lon": 16.350665,
+   "sicherheit": "genau",
+   "begruendung": "Über Fotos/Orthofoto, kein Dokument: nächste Sackgasse zum willhaben-Punkt (132 m, STRASSENGRAPHOGD); Seleskowitschgasse 2 = Haus B der Anlage mit Nußwaldgasse 8; weißes Haus mit Steildach, Gaupen, Ostterrassen und Rasengarten wie im Inserat, auf dem Gartenfoto Rundpavillon und Gaupendach des St.-Elisabeth-Heims (Nußwaldgasse 10-12) nordöstlich. Top 9 im Grundriss. Restrisiko: Haus A (Nußwaldgasse 8). Top 9."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "is-092384315052": {
   "lage": {
-   "lat": 48.243774,
-   "lon": 16.348812,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Lage laut Inserat 'Döbling | Saarplatz | KH Rudolfinerhaus', Sackgasse, Haus Baujahr 1995, 3 Etagen, Tiefgarage, Top 9 (Grundriss), 1. OG. Hausnummer nicht gefunden (auch weekend.at ohne Adresse); willhaben-Punkt bis 269 m versetzt."
+   "adresse": "Seleskowitschgasse 2",
+   "lat": 48.243545,
+   "lon": 16.350665,
+   "sicherheit": "genau",
+   "begruendung": "Über Fotos/Orthofoto, kein Dokument: nächste Sackgasse zum willhaben-Punkt (132 m, STRASSENGRAPHOGD); Seleskowitschgasse 2 = Haus B der Anlage mit Nußwaldgasse 8; weißes Haus mit Steildach, Gaupen, Ostterrassen und Rasengarten wie im Inserat, auf dem Gartenfoto Rundpavillon und Gaupendach des St.-Elisabeth-Heims (Nußwaldgasse 10-12) nordöstlich. Top 9 im Grundriss. Restrisiko: Haus A (Nußwaldgasse 8). Top 9."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12"
  },
  "wh-875112006": {
   "lage": {
@@ -10421,10 +10441,10 @@
    "adresse": "Czartoryskigasse 7",
    "lat": 48.228133,
    "lon": 16.326387,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
+   "sicherheit": "genau",
+   "begruendung": "Fotos gegen Stadt-Wien-Daten: runder Eckturm am Hausfoto, im Orthofoto nur bei Czartoryskigasse 7 ein runder Turmhelm (Villa 1848-1918, GEBAEUDEINFOOGD); über die Gartenmauer sieht man den Spitzhelm-Eckturm von Salierigasse 1 (55 m nördlich). 1. Stock, Top offen. Kein Dokument nennt die Adresse (Hacker-Exposé nur Bezirk)."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "wh-2122122976": {
   "lage": {
@@ -12512,23 +12532,23 @@
  },
  "wh-2143500290": {
   "lage": {
-   "adresse": "Czartoryskigasse 30",
-   "lat": 48.22897,
-   "lon": 16.324809,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Quelltext nennt die Adresse; per Luftbild/Foto erschlossen: Kuhn-Foto 25 (willhaben) zeigt Eckvilla mit achteckigem dunklem Spitzhelm-Eckturm, hinter Hecke/Mauer zurückversetzt an ruhiger Kreuzung mit Parkspuren. Genau so ein Turm steht im Orthofoto (basemap.at bmaporthofoto30cm) an der SO-Ecke von Czartoryskigasse 30 / Ecke Schöffelgasse 17 (Stadt-Wien-FMZK-Umriss mit polygonalem Eckerker = Grundriss-Erker 'Zugang Garten'; Bauperiode 1848–1918, freistehende Villa). Runde-1-Kandidat Gersthofer Straße 3 widerlegt: Ecke liegt direkt am Gehsteig der 4-spurigen Gersthofer Straße, Ziegeldach, kein Spitzhelm, keine Hecke/kein Eckgarten. 196 m vom Portalpunkt (Radius 269 m). Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neu-stilvolles-altbau-juwel-mit-eigengarten-in-gersthofer-jugendstil-villa-2143500290/"
+   "adresse": "Salierigasse 1",
+   "lat": 48.228628,
+   "lon": 16.326243,
+   "sicherheit": "genau",
+   "begruendung": "Exposé-PDF Kuhn (kuhn-immobilien.at/expose/17201767/1796058): '1180 Wien, Salierigasse 1/4+5', 151,27 m². Eckhaus Salierigasse 1 = Czartoryskigasse 24 (ADRESSENOGD). Vermutung Czartoryskigasse 30 widerlegt. Top 4+5."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "is-972647531666": {
   "lage": {
-   "adresse": "Czartoryskigasse 30",
-   "lat": 48.22897,
-   "lon": 16.324809,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Quelltext nennt die Adresse; per Luftbild/Foto erschlossen: Kuhn-Foto 25 (willhaben) zeigt Eckvilla mit achteckigem dunklem Spitzhelm-Eckturm, hinter Hecke/Mauer zurückversetzt an ruhiger Kreuzung mit Parkspuren. Genau so ein Turm steht im Orthofoto (basemap.at bmaporthofoto30cm) an der SO-Ecke von Czartoryskigasse 30 / Ecke Schöffelgasse 17 (Stadt-Wien-FMZK-Umriss mit polygonalem Eckerker = Grundriss-Erker 'Zugang Garten'; Bauperiode 1848–1918, freistehende Villa). Runde-1-Kandidat Gersthofer Straße 3 widerlegt: Ecke liegt direkt am Gehsteig der 4-spurigen Gersthofer Straße, Ziegeldach, kein Spitzhelm, keine Hecke/kein Eckgarten. 196 m vom Portalpunkt (Radius 269 m). Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/neu-stilvolles-altbau-juwel-mit-eigengarten-in-gersthofer-jugendstil-villa-2143500290/"
+   "adresse": "Salierigasse 1",
+   "lat": 48.228628,
+   "lon": 16.326243,
+   "sicherheit": "genau",
+   "begruendung": "Exposé-PDF Kuhn (kuhn-immobilien.at/expose/17201767/1796058): '1180 Wien, Salierigasse 1/4+5', 151,27 m². Eckhaus Salierigasse 1 = Czartoryskigasse 24 (ADRESSENOGD). Vermutung Czartoryskigasse 30 widerlegt. Top 4+5."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "wh-2057412870": {
   "lage": {
@@ -14428,9 +14448,9 @@
    "lat": 48.244195,
    "lon": 16.345647,
    "sicherheit": "ungefaehr",
-   "begruendung": "Sehr wahrscheinlich Rudolfinergasse 22, Top 6 (Grundriss 'TOP 6 153,32 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Front 16,82 m, hinten 18,53 m, Tiefe 12,80 m, schräge linke Seitenwand, Stiegen-/Aufzugsturm hinten links-mittig) deckt sich mit FMZK-Footprint Rudolfinergasse 22 (Trapez ca. 16,8/17,9 x 12,9 m mit hinterem Turm); Orthofoto: Mansarddach mit Flachdach-Terrassen oben wie Dachdraufsicht; Straßenfront nach Süden (='sonnige Südausrichtung', hinten Nordterrasse), gegenüber das Rudolfinerhaus; Dachterrassenfoto: Millennium Tower, DC Tower, Kirche St. Paul Oberdöbling, Spittelau-Turm ergeben per Peilung eine Sichtlinie durch Rudolfinergasse 22; Schneefoto zeigt Nachbarhäuser Nr. 20/18 und Karmelitenkirche (NO). Quelle Fotos/Grundrisse: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusive-4-zi-dg-wohnung-in-1190-wien-mit-3-terrassen-neuwertig-und-grosszuegig-1178476723/"
+   "begruendung": "Kein Dokument mit Hausnummer (weekend.at nur 'nahe dem Rudolfinerhaus'). Grundriss 1. DG Top 6 153,32 m², Front 16,82 m / Tiefe 12,80 m passt zum FMZK-Umriss Rudolfinergasse 22 (16,78 / 12,84 m); im 330-m-Umkreis gibt es aber rund ein Dutzend ähnliche Umrisse. Top 6."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "is-232031823710": {
   "lage": {
@@ -14438,9 +14458,9 @@
    "lat": 48.244195,
    "lon": 16.345647,
    "sicherheit": "ungefaehr",
-   "begruendung": "Sehr wahrscheinlich Rudolfinergasse 22, Top 6 (Grundriss 'TOP 6 153,32 m²'), aber keine Quelle nennt die Hausnummer: Grundriss (Front 16,82 m, hinten 18,53 m, Tiefe 12,80 m, schräge linke Seitenwand, Stiegen-/Aufzugsturm hinten links-mittig) deckt sich mit FMZK-Footprint Rudolfinergasse 22 (Trapez ca. 16,8/17,9 x 12,9 m mit hinterem Turm); Orthofoto: Mansarddach mit Flachdach-Terrassen oben wie Dachdraufsicht; Straßenfront nach Süden (='sonnige Südausrichtung', hinten Nordterrasse), gegenüber das Rudolfinerhaus; Dachterrassenfoto: Millennium Tower, DC Tower, Kirche St. Paul Oberdöbling, Spittelau-Turm ergeben per Peilung eine Sichtlinie durch Rudolfinergasse 22; Schneefoto zeigt Nachbarhäuser Nr. 20/18 und Karmelitenkirche (NO). Quelle Fotos/Grundrisse: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/exklusive-4-zi-dg-wohnung-in-1190-wien-mit-3-terrassen-neuwertig-und-grosszuegig-1178476723/"
+   "begruendung": "Kein Dokument mit Hausnummer (weekend.at nur 'nahe dem Rudolfinerhaus'). Grundriss 1. DG Top 6 153,32 m², Front 16,82 m / Tiefe 12,80 m passt zum FMZK-Umriss Rudolfinergasse 22 (16,78 / 12,84 m); im 330-m-Umkreis gibt es aber rund ein Dutzend ähnliche Umrisse. Top 6."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "wh-1253010671": {
   "lage": {
@@ -14495,20 +14515,20 @@
    "adresse": "Czartoryskigasse 7",
    "lat": 48.228133,
    "lon": 16.326387,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
+   "sicherheit": "genau",
+   "begruendung": "Fotos gegen Stadt-Wien-Daten: runder Eckturm am Hausfoto, im Orthofoto nur bei Czartoryskigasse 7 ein runder Turmhelm (Villa 1848-1918, GEBAEUDEINFOOGD); über die Gartenmauer sieht man den Spitzhelm-Eckturm von Salierigasse 1 (55 m nördlich). 1. Stock, Top offen. Kein Dokument nennt die Adresse (Hacker-Exposé nur Bezirk)."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "ds-15300525": {
   "lage": {
    "adresse": "Czartoryskigasse 7",
    "lat": 48.228133,
    "lon": 16.326387,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Quelltext nennt die Adresse (auch Makler-Exposé https://www.hackerreal.at/expose/17336089/447230 nur '1180 Wien, Währing', Lagekarte = verschleierter Kreis um 48.2272/16.3249). Per Foto+Luftbild erschlossen: Hausfoto zeigt freistehende Altbau-Villa mit gerundetem Eckturm (Mansarddach, Hausrelief), Garten mit Nussbaum direkt an Turm-Ecke, Stahlbalkon mit Treppe; Balkonblick auf gelbe Gemeindebau-Zeilen mit PV-Dächern. Orthofoto (basemap.at) zeigt runden Turmhelm genau an der Nordecke von Czartoryskigasse 7 (FMZK/Adresspunkt), Garten an der WNW-Seite, daneben Gemeindebau-Zeilen Czartoryskigasse 3–5 und 9 (Bauperiode nach 1945); Czartoryskigasse 7 selbst: Villa 1848–1918 (passt 'Baujahr ca. 1900'); ~100 m zur Station Czartoryskigasse (10A/42A)."
+   "sicherheit": "genau",
+   "begruendung": "Fotos gegen Stadt-Wien-Daten: runder Eckturm am Hausfoto, im Orthofoto nur bei Czartoryskigasse 7 ein runder Turmhelm (Villa 1848-1918, GEBAEUDEINFOOGD); über die Gartenmauer sieht man den Spitzhelm-Eckturm von Salierigasse 1 (55 m nördlich). 1. Stock, Top offen. Kein Dokument nennt die Adresse (Hacker-Exposé nur Bezirk)."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-12"
  },
  "is-379333165602": {
   "lage": {
@@ -14764,23 +14784,23 @@
  },
  "wh-1245564904": {
   "lage": {
-   "adresse": "Silbergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Titel nennt Silbergasse (19.); Grundriss Top 3/3, 2. Stock, 99,49 m², Garten; Hausnummer nicht ermittelbar"
+   "adresse": "Silbergasse 11",
+   "lat": 48.244651,
+   "lon": 16.348302,
+   "sicherheit": "genau",
+   "begruendung": "Über Fotos/Orthofoto, kein Dokument: Grundriss (Trakt 16,30 m, trapezförmiger Garten im Westen, Feuermauer im Süden, Balkon Ost) passt auf das Hinterhaus Silbergasse 11 (Orthofoto ca. 17,5 x 9 m, Feuermauer zu Rudolfinergasse 6); auf den Fotos Baum vor dem Balkon und das Gartenhaus mit gewölbtem Glasdach ('Silbergasse 11 Gartenhaus', ADRESSENOGD). willhaben-Punkt 57 m entfernt. Stiege 3 laut Inserat, Register führt das Hinterhaus als 11/2. Top 3/3."
   },
-  "datum": "2026-11-10"
+  "datum": "2026-11-12"
  },
  "is-746751592314": {
   "lage": {
-   "adresse": "Silbergasse",
-   "lat": null,
-   "lon": null,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Titel nennt Silbergasse (19.); Hausnummer nicht ermittelbar"
+   "adresse": "Silbergasse 11",
+   "lat": 48.244651,
+   "lon": 16.348302,
+   "sicherheit": "genau",
+   "begruendung": "Über Fotos/Orthofoto, kein Dokument: Grundriss (Trakt 16,30 m, trapezförmiger Garten im Westen, Feuermauer im Süden, Balkon Ost) passt auf das Hinterhaus Silbergasse 11 (Orthofoto ca. 17,5 x 9 m, Feuermauer zu Rudolfinergasse 6); auf den Fotos Baum vor dem Balkon und das Gartenhaus mit gewölbtem Glasdach ('Silbergasse 11 Gartenhaus', ADRESSENOGD). willhaben-Punkt 57 m entfernt. Stiege 3 laut Inserat, Register führt das Hinterhaus als 11/2. Top 3/3."
   },
-  "datum": "2026-11-10"
+  "datum": "2026-11-12"
  },
  "is-808247788392": {
   "lage": {
@@ -15028,22 +15048,22 @@
  "wh-2145505668": {
   "lage": {
    "adresse": "Lammgasse 10",
-   "lat": 48.21276,
-   "lon": 16.35212,
+   "lat": 48.212839,
+   "lon": 16.352054,
    "sicherheit": "ungefaehr",
-   "begruendung": "Wahrscheinlich, nicht belegt (Recherche 2026-11-11): E&V-Exposé W-0490NY nennt als Viertel Google 'Alservorstadt' (im 8. nördlich der Florianigasse); Lammgasse 10 liegt 141 m vom um 150 m versetzten E&V-Punkt, Baujahr 1911 (Sandig/Appermann, Jugendstil), Ostseite einer Nord-Süd-Gasse wie der Nordpfeil im Grundriss verlangt (Straßenfenster nach Westen), Hausumriss (FMZK) passt zum Grundriss (Wohnung am Südende, runde Stiege nördlich), durchs Tor sichtbares Gegenüber passt zu Lammgasse 7 (cremefarben, gebändertes Erdgeschoss). Top unbekannt (Hochparterre). Kein Foto von Portal/Hausnummer gefunden. Hausverwaltung laut Aushang ECO Immobilientreuhand, 1180."
+   "begruendung": "Sehr wahrscheinlich, ohne Dokument: Nordpfeil ergibt Straßenachse 351° wie die Lammgasse, Straßenfenster auf der Ostseite (gerade Nummern); FMZK-Umriss Nr. 10 maßgenau (Haupttrakt 13,3 m tief, Plan 13,2; Seitenflügel 5,8 x 16,9 m, Plan 5,7 x 16,5; Stiegenhaus 12,3 m vom Südende), Baujahr 1911 (Sandig/Appermann). Gegenproben Wickenburggasse 10/14, Lange Gasse 46/50/70-76, Lederergasse 4/16 passen nicht. Top unbekannt. Top Hochparterre."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-12"
  },
  "is-306756723890": {
   "lage": {
    "adresse": "Lammgasse 10",
-   "lat": 48.21276,
-   "lon": 16.35212,
+   "lat": 48.212839,
+   "lon": 16.352054,
    "sicherheit": "ungefaehr",
-   "begruendung": "Wahrscheinlich, nicht belegt (Recherche 2026-11-11): E&V-Exposé W-0490NY nennt als Viertel Google 'Alservorstadt' (im 8. nördlich der Florianigasse); Lammgasse 10 liegt 141 m vom um 150 m versetzten E&V-Punkt, Baujahr 1911 (Sandig/Appermann, Jugendstil), Ostseite einer Nord-Süd-Gasse wie der Nordpfeil im Grundriss verlangt (Straßenfenster nach Westen), Hausumriss (FMZK) passt zum Grundriss (Wohnung am Südende, runde Stiege nördlich), durchs Tor sichtbares Gegenüber passt zu Lammgasse 7 (cremefarben, gebändertes Erdgeschoss). Top unbekannt (Hochparterre). Kein Foto von Portal/Hausnummer gefunden. Hausverwaltung laut Aushang ECO Immobilientreuhand, 1180."
+   "begruendung": "Sehr wahrscheinlich, ohne Dokument: Nordpfeil ergibt Straßenachse 351° wie die Lammgasse, Straßenfenster auf der Ostseite (gerade Nummern); FMZK-Umriss Nr. 10 maßgenau (Haupttrakt 13,3 m tief, Plan 13,2; Seitenflügel 5,8 x 16,9 m, Plan 5,7 x 16,5; Stiegenhaus 12,3 m vom Südende), Baujahr 1911 (Sandig/Appermann). Gegenproben Wickenburggasse 10/14, Lange Gasse 46/50/70-76, Lederergasse 4/16 passen nicht. Top unbekannt. Top Hochparterre."
   },
-  "datum": "2026-11-11"
+  "datum": "2026-11-12"
  },
  "wh-1804703607": {
   "lage": {
