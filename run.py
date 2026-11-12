@@ -1228,8 +1228,10 @@ def build():
             "ungefaehr": b["ungefaehr"], "radius": (r.get("lage_radius") or None) if b["ungefaehr"] else None,
             "preis": b.get("preis") or r.get("preis"),
             "preis_inserat": r.get("preis") if b.get("preis") else None, "preis_hinweis": b.get("preis_hinweis"),
-            "flaeche": r.get("flaeche") or eck.get("flaeche"),
-            "zimmer": r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
+            # Eckdaten aus Prüfungen füllen nur Lücken; mit "vorrang" ersetzen sie die Portalangabe
+            # (2026-11-12: Wohnkader "ca. 150 m²", laut Grundriss 141 m²)
+            "flaeche": (eck.get("vorrang") and eck.get("flaeche")) or r.get("flaeche") or eck.get("flaeche"),
+            "zimmer": (eck.get("vorrang") and eck.get("zimmer")) or r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),

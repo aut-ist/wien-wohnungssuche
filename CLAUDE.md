@@ -205,6 +205,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Duplikate: `gruppieren()` in run.py führt dieselbe Wohnung über Portale zu einem Punkt
   zusammen (Preis ±1,5 %, Fläche ±1,5 m², pro Portal nur ein Inserat). Anderer Energieausweis
   (HWB > 5 % Abweichung) oder anderes Baujahr heißt anderes Haus: nie zusammenführen.
+  Von Hand: review "gleich_wie" (Saad 2026-11-12: Währinger Gürtel 79 Top 13, Immolwin 141 m² und Wohnkader
+  "ca. 150 m²" ohne Energieausweis-Werte, gleiche Räume auf den Fotos). Review-Eckdaten füllen sonst nur Lücken;
+  mit `"vorrang": true` ersetzen sie Fläche/Zimmer der Portale (dort 141 m² laut Grundriss und Vorschreibung).
 - "Neu" auf der Karte zählt ab dem ersten Tag, an dem eine Wohnung auf der Karte steht
   (`data/sichtbar_seit.json`), nicht ab dem ersten Fund; so sind auch Wohnungen neu, die erst nach
   einer Regeländerung passen ("NEU" nur in der Liste). Karte: grünes Ei für alles, was in Frage

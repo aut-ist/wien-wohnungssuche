@@ -1695,7 +1695,18 @@
    "sicherheit": "genau",
    "begruendung": "Energieausweis-PDF auf der Makler-Seite (immoloewin.at, Objekt 17333773, https://storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): 'Währinger Gürtel 79 - Top 13, 1180 Wien', HWB 40,8 / fGEE 0,72, Baujahr ca. 1900 wie im Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
+   "vorrang": true
+  },
+  "gleich_wie": "wh-896948604"
  },
  "is-493874425207": {
   "lage": {
@@ -1705,7 +1716,17 @@
    "sicherheit": "genau",
    "begruendung": "Energieausweis-PDF auf der Makler-Seite (immoloewin.at, Objekt 17333773, https://storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): 'Währinger Gürtel 79 - Top 13, 1180 Wien', HWB 40,8 / fGEE 0,72, Baujahr ca. 1900 wie im Inserat."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-12",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
+   "vorrang": true
+  }
  },
  "is-982652952980": {
   "lage": {
@@ -14539,7 +14560,17 @@
    "sicherheit": "genau",
    "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-03"
+  "datum": "2026-11-12",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
+   "vorrang": true
+  }
  },
  "is-318198593061": {
   "lage": {
@@ -14549,7 +14580,17 @@
    "sicherheit": "genau",
    "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-03"
+  "datum": "2026-11-12",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
+   "vorrang": true
+  }
  },
  "fm-5773091": {
   "lage": {
@@ -14559,7 +14600,17 @@
    "sicherheit": "genau",
    "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-03"
+  "datum": "2026-11-12",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
+   "vorrang": true
+  }
  },
  "wh-2073677070": {
   "lage": {
