@@ -472,7 +472,8 @@ def bewerten(r, rev):
     drei = r.get("zimmer") == 3
     neu_seit_guertel = (r.get("erstmals") or TODAY) >= F["guertel_max_min_ab"]
     nur_bezirk = nur_bezirk and neu_seit_guertel
-    if r["plz"] in (1180, 1190) and (drei or neu_seit_guertel):
+    # review {"guertel": {"ok": true}}: Ausnahme von Saad (2026-11-12 Seleskowitschgasse 2, 3 Zimmer, 14 min)
+    if r["plz"] in (1180, 1190) and (drei or neu_seit_guertel) and not (rev.get("guertel") or {}).get("ok"):
         grenze = F["guertel_max_min_3_zimmer"] if drei else F["guertel_max_min"]
         wer = "3 Zimmer, " if drei else ""
         g = guertel_zeit(out["lat"], out["lon"]) if out["lat"] and not nur_bezirk else None
@@ -994,7 +995,7 @@ def zusammenfuehren(gruppe, reviews):
         p = [x["preis"] for x in revs if x.get("preis")]
         if p:
             rev["preis"] = p[0]
-        for k in ("kosten", "versteigerung", "gemeindebau"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11)
+        for k in ("kosten", "versteigerung", "gemeindebau", "guertel"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11, guertel 11-12)
             v = [x[k] for x in revs if x.get(k)]
             if v:
                 rev[k] = v[0]
@@ -1322,7 +1323,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY

@@ -14,7 +14,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   gilt im 18./19. auch bei 4+ Zimmern: höchstens 18 min Öffis zum Gürtel (Saad, erst 15, dann 18) (`guertel_max_min`, geschätzte Zeit wie in
   der Karte angezeigt). Die schon bekannten bleiben, wie sie sind (Saad: "Lass alle, die wir jetzt haben, drinnen,
   der Cut-off ist für die Zukunft"). Ist bei einer neuen nur der Bezirk bekannt, ist sie grau, bis die Adresse
-  recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit).
+  recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit). Ausnahmen nur auf Saads Wort:
+  review `{"guertel": {"ok": true}}` (2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min, Nest).
   Einzug spätestens Q3 2027 (`config.json` `einzug_spaetestens`): `zustand.bezug_einschaetzen`
   liest Fertigstellung/Bezug/"Verfügbar ab" aus allen Inseraten der Gruppe (der späteste Termin
   zählt; Lift, Balkone, Energieausweis, Miete zählen nicht) und sonst das Baujahr-Feld (2027 ohne

@@ -10934,10 +10934,8 @@
    "quelle": "willhaben",
    "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/3-zimmer-balkon-ins-gruene-garage-absolute-ruhelage-im-herzen-von-doebling-1949100357/",
    "titel": "3 Zimmer | Balkon ins Grüne | Garage | Absolute Ruhelage im Herzen von Döbling",
-   "status": "raus",
-   "gruende": [
-    "3 Zimmer, 14 min zum Gürtel (max. 10)"
-   ],
+   "status": "gruen",
+   "gruende": [],
    "offline": false,
    "lat": 48.243545,
    "lon": 16.350665,
@@ -10951,7 +10949,11 @@
    "plz": 1190,
    "adresse": "Seleskowitschgasse 2",
    "lage": "19. Bezirk (aus Beschreibung: Seleskowitschgasse 2)",
-   "heizung": null,
+   "heizung": {
+    "ergebnis": "gas",
+    "von": "automatisch",
+    "text": "Heizung: Etagenheizung (willhaben); Heizungsart: Gasheizung (willhaben); und Essbereich, der durch seine Offenheit und Helligkeit besticht. Die hochwertig ausgestattete Küche mit Geräten von Bosch und Miele fügt sich harmonisch in den Raum ein und bietet mit einer angrenzenden Speisekammer zusätzlichen Stauraum und Funktionalität. Für besondere Wohnatmosphäre sorgt der stilvolle italienische Stein-Kamin mit externer Luftzufuhr - ein seltenes Detail, das dem Raum Wärme und Charakter verleiht. Das Badezimmer ist mit Dusche, Waschbecken sowie einer Waschmaschine ausgestattet, das WC ist separat angelegt.  (willhaben)"
+   },
    "bild": "https://cache.willhaben.at/mmo/7/194/910/0357_-1575277788.jpg",
    "erstmals": "2026-10-25",
    "neu": false,

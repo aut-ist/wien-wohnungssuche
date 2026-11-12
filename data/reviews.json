@@ -6877,7 +6877,11 @@
    "sicherheit": "genau",
    "begruendung": "Über Fotos/Orthofoto, kein Dokument: nächste Sackgasse zum willhaben-Punkt (132 m, STRASSENGRAPHOGD); Seleskowitschgasse 2 = Haus B der Anlage mit Nußwaldgasse 8; weißes Haus mit Steildach, Gaupen, Ostterrassen und Rasengarten wie im Inserat, auf dem Gartenfoto Rundpavillon und Gaupendach des St.-Elisabeth-Heims (Nußwaldgasse 10-12) nordöstlich. Top 9 im Grundriss. Restrisiko: Haus A (Nußwaldgasse 8). Top 9."
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-12",
+  "guertel": {
+   "ok": true,
+   "begruendung": "Ausnahme von Saad 2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min zum Gürtel (max. 10), bleibt trotzdem drin."
+  }
  },
  "is-092384315052": {
   "lage": {
@@ -6887,7 +6891,11 @@
    "sicherheit": "genau",
    "begruendung": "Über Fotos/Orthofoto, kein Dokument: nächste Sackgasse zum willhaben-Punkt (132 m, STRASSENGRAPHOGD); Seleskowitschgasse 2 = Haus B der Anlage mit Nußwaldgasse 8; weißes Haus mit Steildach, Gaupen, Ostterrassen und Rasengarten wie im Inserat, auf dem Gartenfoto Rundpavillon und Gaupendach des St.-Elisabeth-Heims (Nußwaldgasse 10-12) nordöstlich. Top 9 im Grundriss. Restrisiko: Haus A (Nußwaldgasse 8). Top 9."
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-12",
+  "guertel": {
+   "ok": true,
+   "begruendung": "Ausnahme von Saad 2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min zum Gürtel (max. 10), bleibt trotzdem drin."
+  }
  },
  "wh-875112006": {
   "lage": {
