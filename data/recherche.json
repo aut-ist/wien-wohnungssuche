@@ -1,1 +1,103 @@
-[]
+[
+ {
+  "id": "wh-1551392296",
+  "ids": [
+   "wh-1551392296",
+   "is-140443238674"
+  ],
+  "titel": "Erstbezug im stilvoller 3-Zimmer-Altbauwohnung - in begehrte Lage nahe Votivpark",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/erstbezug-im-stilvoller-3-zimmer-altbauwohnung-in-begehrte-lage-nahe-votivpark-1551392296/",
+   "https://www.immobilienscout24.at/expose/6af45d61428a4602f07a75f8"
+  ],
+  "anbieter": "16EAST Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk (Kartenpunkt bis zu 259 m versetzt)",
+  "punkt": [
+   48.21797,
+   16.355778
+  ],
+  "versatz_m": 259,
+  "preis": 590000.0,
+  "flaeche": 79.09,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "94,3",
+   "hwb_class": "D",
+   "fgee": "2,68",
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1551392296/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-12"
+ },
+ {
+  "id": "is-866342019443",
+  "ids": [
+   "is-866342019443"
+  ],
+  "titel": "Ideale Raumaufteilung - Charmante Dachgeschosswohnung in ansprechender Lage!",
+  "plz": 1170,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae788d2ab037e120bdfc584"
+  ],
+  "anbieter": "Confido Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 17. Bezirk bekannt",
+  "punkt": [
+   48.21682,
+   16.323342
+  ],
+  "versatz_m": 0,
+  "preis": 639000.0,
+  "flaeche": 128.71,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 53.6,
+   "hwb_class": "C",
+   "fgee": 1.18,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/is-866342019443/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11"
+ },
+ {
+  "id": "ds-15271527",
+  "ids": [
+   "ds-15271527"
+  ],
+  "titel": "Exklusiver Dachgeschosstraum mit Wohlfühlfaktor - Großartig in jeder Hinsicht in 1180 Wien",
+  "plz": 1180,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15271527"
+  ],
+  "anbieter": "BestInvest Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.23717,
+   16.314441
+  ],
+  "versatz_m": 0,
+  "preis": 760000.0,
+  "flaeche": 95.3,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 117.58,
+   "hwb_class": "D",
+   "fgee": 1.73,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/ds-15271527/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-25"
+ }
+]

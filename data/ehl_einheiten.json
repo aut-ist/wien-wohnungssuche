@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11",
+ "stand": "2026-11-12",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -49,15 +49,6 @@
    ],
    "einheiten": [
     {
-     "top": "4",
-     "stiege": "",
-     "geschoss": "1. Etage",
-     "zimmer": "2",
-     "flaeche": "57,3 m2",
-     "eigennutzer": "€ 1.200,-",
-     "href": "https://www.ehl.at/objekt/68284"
-    },
-    {
      "top": "12",
      "stiege": "",
      "geschoss": "5. Etage",
@@ -87,16 +78,6 @@
      "href": "https://www.ehl.at/objekt/68730",
      "loggia": "1,32 m²",
      "balkon": "3,19 m²"
-    },
-    {
-     "top": "78",
-     "stiege": "",
-     "geschoss": "1. DG",
-     "zimmer": "3",
-     "flaeche": "76,13 m2",
-     "eigennutzer": "€ 1.750,01",
-     "href": "https://www.ehl.at/objekt/68999",
-     "terrasse": "22,73 m²"
     },
     {
      "top": "102",
@@ -1182,6 +1163,142 @@
    ],
    "lat": 48.244605,
    "lon": 16.357972
+  },
+  {
+   "schluessel": "ehl-blumengasse-31-1170-wien",
+   "name": "FLORAVIE",
+   "bautraeger": "EHL Wohnen",
+   "plz": 1170,
+   "adresse": "Blumengasse 31",
+   "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/blumengasse-31-1170-wien",
+   "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/blumengasse-31-1170-wien",
+   "parser": "datei",
+   "text": "In gefragter Lage nahe Kalvarienberggasse und Elterleinplatz entsteht ein modernes Wohnprojekt, das urbanes Leben mit hoher Wohnqualität verbindet. Die durchdacht geplanten Wohnungen bieten vor allem kompakte 2-Zimmer-Einheiten sowie ausgewählte größere Wohnungen und sprechen damit sowohl Eigennutzer als auch Anleger an. Helle Wohnräume, funktionale Grundrisse und eine klare architektonische Gestaltung schaffen ein zeitgemäßes Wohnumfeld, das sich flexibel an unterschiedliche Lebensphasen anpasst. Die Kombination aus urbaner Infrastruktur und ruhigem Wohnumfeld macht das Projekt besonders attraktiv.\nDie Ausstattung orientiert sich an modernen Wohnbedürfnissen und bietet eine hochwertige, zeitlose Ausführung. Durchdachte Raumkonzepte ermöglichen eine optimale Nutzung der Wohnflächen und sorgen für ein angenehmes Wohngefühl. Großzügige Fensterflächen bringen viel Tageslicht in die Wohnungen und unterstreichen den offenen Charakter der Räume. Der Fokus liegt auf Funktionalität, Komfort und langfristiger Nutzbarkeit – sowohl für Eigennutzer als auch für Anleger.\nDie Lage überzeugt durch eine sehr gute Infrastruktur und zählt zu den nachgefragten Wohngegenden mit weiterem Entwicklungspotenzial. Einkaufsmöglichkeiten, Gastronomie und Einrichtungen des täglichen Bedarfs befinden sich rund um die Kalvarienberggasse und den Elterleinplatz. Die Nähe zum AKH sowie zu Grün- und Erholungsflächen wie dem Postsportplatz und der Alszeile erhöht die Lebensqualität zusätzlich. Durch den geplanten Ausbau der U-Bahn-Anbindung wird der Standort künftig noch stärker aufgewertet.\nPassivhausqualität trifft modernes Stadtleben\nIm beliebten 17. Wiener Gemeindebezirk entsteht mit FLORAVIE ein hochwertiges Neubauprojekt nach Passivhausstandard, der hochwertigste energieeffiziente Standard im Neubaubereich, vereint mit zeitgemäßer Architektur. In ruhiger Lage der Blumengasse genießen zukünftige Bewohner die perfekte Balance zwischen urbanem Lebensgefühl und entspannter Wohnatmosphäre.\nDas Projekt kombiniert einen behutsam integrierten Altbestand mit einem modernen Neubau und richtet sich an Menschen, die bewusst wohnen möchten: klimabewusste Eigennutzer, junge Paare und Singles, die Wert auf nachhaltige Bauweise, niedrigen Energieverbrauch und langfristige Wohnqualität legen.\nDas Wohnungsangebot reicht von kompakten Appartements bis hin zu hochwertig ausgestatteten Dachgeschosswohnungen mit attraktiven Freiflächen. Großteils verfügen die Wohnungen über Balkone, Terrassen oder Eigengärten und schaffen damit zusätzlichen privaten Freiraum mitten in der Stadt.\nDie innovative Passivhaus-Technologie sorgt gemeinsam mit einer zentralen Wohnraumlüftung mit Wärmerückgewinnung für ein konstant angenehmes Raumklima – sowohl im Sommer als auch im Winter. Das bedeutet nicht nur hohen Wohnkomfort, sondern auch energieeffizientes und zukunftsfittes Wohnen mit nachhaltig reduzierten Betriebskosten.\nGroßteils mit Balkon, Terrasse oder Eigengarten\nTiefgarage inkl. Autolift mit 6 Stellplätzen (ab € 31.000,- brutto)\nDie Ausstattung verbindet hochwertige Materialien mit funktionalem Wohnkomfort und nachhaltiger Bauqualität:\nBodenebene Duschen mit hochwertiger Sanitärausstattung\nFenster und Terrassentüren mit Wärmedämmglas\nGeräuschlose Wohnraumlüftung mit Wärmerückgewinnung\nDie Blumengasse befindet sich in ruhiger Wohnlage im Herzen von Hernals – einem Bezirk, der für seine hohe Lebensqualität, seine gewachsene Grätzlstruktur und seine Nähe zu Erholungsräumen bekannt ist. Das Umfeld verbindet klassische Wiener Wohnatmosphäre mit moderner Infrastruktur und erfreut sich besonders bei jungen Bewohnern und Eigennutzern großer Beliebtheit.\nIn unmittelbarer Umgebung finden sich zahlreiche Cafés, Restaurants, Nahversorger und Geschäfte des täglichen Bedarfs. Auch das Freizeitangebot überzeugt: Der Kongresspark, der Lidlpark sowie die nahegelegenen Ausläufer des Wienerwalds bieten vielfältige Möglichkeiten für Sport, Erholung und Freizeit im Grünen.\nDie öffentliche Verkehrsanbindung ist ausgezeichnet:\nStraßenbahnlinien mit direkter Verbindung in die Innenstadt\nDurch die sehr gute Anbindung sind sowohl die Wiener Innenstadt als auch Universitäten, Arbeitsstandorte und Freizeiteinrichtungen rasch erreichbar.\nEin detaillierten Überblick finden Sie auf unsere EHL-Projekthomepage !\nFertigstellung: voraussichtlich Herbst/Winter 2027\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.",
+   "galerie": [
+    "https://www.ehl.at/fileadmin/user_upload/Hausansicht_Hof.jpg",
+    "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Floravie_1170/Hausansicht_Hof.jpg",
+    "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Floravie_1170/Visualsierung_Wohnkueche_RG.jpg",
+    "https://www.ehl.at/fileadmin/user_upload/Hausansicht_Strasse.jpg"
+   ],
+   "einheiten": [
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "47,37 m2",
+     "eigennutzer": "€ 407.489,-",
+     "href": "https://www.ehl.at/objekt/96444",
+     "terrasse": "10,06 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "45,7 m2",
+     "eigennutzer": "€ 345.972,-",
+     "href": "https://www.ehl.at/objekt/96445",
+     "loggia": "4,33 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "50,42 m2",
+     "eigennutzer": "€ 382.954,-",
+     "href": "https://www.ehl.at/objekt/96446",
+     "terrasse": "8,71 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "2. Etage",
+     "zimmer": "2",
+     "flaeche": "47,37 m2",
+     "eigennutzer": "€ 421.303,-",
+     "href": "https://www.ehl.at/objekt/96447",
+     "loggia": "3,05 m²",
+     "balkon": "4,04 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "2. Etage",
+     "zimmer": "2",
+     "flaeche": "48,02 m2",
+     "eigennutzer": "€ 401.941,-",
+     "href": "https://www.ehl.at/objekt/96448",
+     "loggia": "3,06 m²",
+     "balkon": "4,02 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "4",
+     "flaeche": "89,56 m2",
+     "eigennutzer": "€ 790.681,-",
+     "href": "https://www.ehl.at/objekt/96449",
+     "terrasse": "16,46 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "3",
+     "flaeche": "73,82 m2",
+     "eigennutzer": "€ 667.094,-",
+     "href": "https://www.ehl.at/objekt/96450",
+     "terrasse": "17,37 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "1.5",
+     "flaeche": "42,15 m2",
+     "eigennutzer": "€ 305.448,-",
+     "href": "https://www.ehl.at/objekt/96453",
+     "garten": "8,68 m²",
+     "terrasse": "5,59 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "1.5",
+     "flaeche": "42,51 m2",
+     "eigennutzer": "€ 317.715,-",
+     "href": "https://www.ehl.at/objekt/96454",
+     "garten": "12,78 m²",
+     "terrasse": "8,82 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "1.5",
+     "flaeche": "43,01 m2",
+     "eigennutzer": "€ 334.332,-",
+     "href": "https://www.ehl.at/objekt/96455",
+     "garten": "11,63 m²",
+     "terrasse": "8,4 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "1.5",
+     "flaeche": "35,8 m2",
+     "eigennutzer": "€ 288.331,-",
+     "href": "https://www.ehl.at/objekt/96456",
+     "terrasse": "9,54 m²"
+    }
+   ],
+   "lat": 48.220374,
+   "lon": 16.335299
   },
   {
    "schluessel": "ehl-cloud-9-agnesgasse-9-1190-wien",
@@ -3231,6 +3348,64 @@
     "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Marina_Tower/Marina_Tower_TOP_417.jpg"
    ],
    "einheiten": []
+  },
+  {
+   "schluessel": "ehl-ottakringer-strasse-1170-wien",
+   "name": "Ottakringer Straße",
+   "bautraeger": "EHL Wohnen",
+   "plz": 1170,
+   "adresse": null,
+   "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/ottakringer-strasse-1170-wien",
+   "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/ottakringer-strasse-1170-wien",
+   "parser": "datei",
+   "text": "Ihr neues zu Hause in der Nähe des Yppenplatzes!\nIm Herzen des 17. Bezirks entsteht ein modernes Wohnensemble mit 60 Eigentumswohnungen und einem Geschäftslokal, welches sich durch die ansprechende Architektur, hochwertige Ausstattung und perfekte Lage auszeichnet. Geplant sind 2-5 Zimmer-Wohnungen mit ca. 33m²-121m². Jeder Wohnung ist eine Freifläche zugeordnet. Ein Fassadenbegrünungskonzept und ein begrünter Innenhof setzen ein Zeichen für Nachhaltigkeit und stellen damit Lebensqualität in den Vordergrund. Diese Wohlfühloase verteilt sich über zwei Wohnhäuser und ein Townhouse und fügt sich perfekt in dieses urbane Grätzl ein.\nHelle Wohnungen mit großzügigen Freiflächen\nDas nachhaltige Neubauprojekt in der Ottakringer Straße bietet helle, offene Grundrisse sowie großzügige Freiflächen in Form von Balkonen, Dachterrassen, Loggien und Gärten. Die Wohnungen mit Größen von 33 m² bis 121 m² verfügen alle über hochwertige Fliesen und Eichenparkettboden sowie Fußbodenheizung mittels Fernwärme, was ideale Voraussetzungen für ein modernes Zuhause schafft.\nDiese Lage zeichnet sich durch den hippen Yppenplatz mit dem florierenden Brunnenmarkt aus. Kulturelle Vielfalt und das traditionelle Wien treffen hier einander und erschaffen eine einzigartige Atmosphäre. Restaurants, Bars, Geschäfte des täglichen Bedarfs, Ärzte, Kindergärten und Schulen sind in unmittelbarer Nähe zu finden. Öffentliche Verkehrsmittel transportieren Sie in die Innenstadt aber an den grünen Rand Wiens.",
+   "galerie": [
+    "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Ottakringer_Strasse_26_1160_Wien/240312_Winegg_OttakringerStrasse26_VER_Top20_WK.jpg",
+    "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Ottakringer_Strasse_26_1160_Wien/240329_Winegg_OttakringerStrasse26_OTT_Top33_WK.jpg",
+    "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Ottakringer_Strasse_26_1160_Wien/Hausansicht_3.jpg"
+   ],
+   "einheiten": [
+    {
+     "top": "1",
+     "stiege": "22",
+     "geschoss": "4. Etage",
+     "zimmer": "2",
+     "flaeche": "33,08 m2",
+     "eigennutzer": "€ 271.000,-",
+     "href": "https://www.ehl.at/objekt/78200",
+     "loggia": "2,46 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "27",
+     "geschoss": "1. DG",
+     "zimmer": "2",
+     "flaeche": "33,08 m2",
+     "eigennutzer": "€ 299.000,-",
+     "href": "https://www.ehl.at/objekt/78205",
+     "loggia": "2,55 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "5",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "33,54 m2",
+     "eigennutzer": "€ 249.000,-",
+     "href": "https://www.ehl.at/objekt/78224",
+     "loggia": "3,4 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "17",
+     "geschoss": "3. Etage",
+     "zimmer": "2",
+     "flaeche": "32,58 m2",
+     "eigennutzer": "€ 273.000,-",
+     "href": "https://www.ehl.at/objekt/78236",
+     "balkon": "3,31 m²"
+    }
+   ]
   },
   {
    "schluessel": "ehl-park-flats-1030-wien",
@@ -6421,16 +6596,6 @@
      "eigennutzer": "€ 716.000,-",
      "href": "https://www.ehl.at/objekt/87984",
      "balkon": "24,15 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "10. Etage",
-     "zimmer": "4",
-     "flaeche": "95,87 m2",
-     "eigennutzer": "€ 929.000,-",
-     "href": "https://www.ehl.at/objekt/87985",
-     "balkon": "29,38 m²"
     }
    ],
    "lat": 48.188852,
@@ -8120,17 +8285,6 @@
      "stiege": "",
      "geschoss": "9. Etage",
      "zimmer": "2",
-     "flaeche": "43,4 m2",
-     "eigennutzer": "€ 392.000,-",
-     "href": "https://www.ehl.at/objekt/87712",
-     "loggia": "5,66 m²",
-     "balkon": "3,01 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "9. Etage",
-     "zimmer": "2",
      "flaeche": "58,92 m2",
      "eigennutzer": "€ 529.000,-",
      "href": "https://www.ehl.at/objekt/87713",
@@ -8169,17 +8323,6 @@
      "href": "https://www.ehl.at/objekt/87716",
      "loggia": "15,63 m²",
      "balkon": "12,02 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "10. Etage",
-     "zimmer": "2",
-     "flaeche": "43,4 m2",
-     "eigennutzer": "€ 399.000,-",
-     "href": "https://www.ehl.at/objekt/87717",
-     "loggia": "5,67 m²",
-     "balkon": "3,01 m²"
     }
    ],
    "lat": 48.18868,
