@@ -6744,8 +6744,8 @@
    "lage": "18. Bezirk (aus Beschreibung: Währinger Gürtel 79)",
    "heizung": {
     "ergebnis": "unklar",
-    "von": "automatisch",
-    "text": "wird noch geprüft: Heizung: Etagenheizung (willhaben); Heizungsart: Luftwärmepumpe (willhaben); Luftwärmepumpe (willhaben)"
+    "text": "Widerspruch: willhaben/ImmoScout nennen teils 'Gasheizung'/'Energieträger Gas', Beschreibung und FindMyHome 'Luftwärmepumpe'; Etagenheizung ohne klaren Träger",
+    "von": "Claude"
    },
    "bild": "https://cache.willhaben.at/mmo/2/980/261/752_-1480421789.jpg",
    "erstmals": "2026-10-25",
@@ -11517,7 +11517,7 @@
    "monatlich": 392.68,
    "bilder": [
     "https://cache.willhaben.at/mmo/5/183/413/7525_1751882211.jpg",
-    "https://cache.willhaben.at/mmo/5/183/413/7525_-2123520099.jpg",
+    "grundrisse/wh-1834137525.svg?v=73c79f5c",
     "https://cache.willhaben.at/mmo/5/183/413/7525_-1097379216.jpg",
     "https://cache.willhaben.at/mmo/5/183/413/7525_2036857389.jpg",
     "https://cache.willhaben.at/mmo/5/183/413/7525_-1205509110.jpg",
@@ -11537,7 +11537,8 @@
     "https://cache.willhaben.at/mmo/5/183/413/7525_-41174021.jpg",
     "https://cache.willhaben.at/mmo/5/183/413/7525_1263164956.jpg",
     "https://cache.willhaben.at/mmo/5/183/413/7525_201267321.jpg",
-    "https://cache.willhaben.at/mmo/5/183/413/7525_-815580999.jpg"
+    "https://cache.willhaben.at/mmo/5/183/413/7525_-815580999.jpg",
+    "https://cache.willhaben.at/mmo/5/183/413/7525_-2123520099.jpg"
    ],
    "freiflaeche": [],
    "zustand": "Sehr gut/gut",
