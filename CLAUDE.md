@@ -150,6 +150,16 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   versetzten Punkten den Umkreis absuchen, Gehzeiten/Entfernungen aus dem Text mit `tools/ortung.py`
   einmessen. Ergebnis mit `run.py review ID --adresse/--lat --lon --sicherheit` für alle IDs der
   Gruppe eintragen, in `data/nest_geprueft.json` vermerken, bauen, pushen, Wächter neu starten.
+- Neue Wohnungen immer recherchieren (Saad 2026-11-13: "für die neuen Wohnungen ordentlichen Research immer"): ab
+  `RECHERCHE_ALLE_AB` kommt jede neue Wohnung einmal in data/recherche.json, auch wenn das Portal eine Hausnummer nennt
+  (`portaladresse_pruefen: true` = bestätigen oder korrigieren). Bewährt am 2026-11-12 (12 von 15 Nest-Adressen gefunden):
+  Exposé-PDFs auf Makler-Seiten (Kuhn: "Salierigasse 1/4+5"), Energieausweis-PDFs (storage.justimmo.at nennt "Straße Nr - Top X",
+  auch die eines anderen Maklers für dieselbe Wohnung), große derStandard-Fotos (Straßenschild + Hausnummer lesbar),
+  dieselbe Wohnung bei anderen Maklern (immomarktplatz, ir.at, weekend.at; gleiche Fotos/Grundrisse/Energieausweis),
+  Stadt-Wien-WFS (data.wien.gv.at: ADRESSENOGD, FMZKBKMOGD-Umrisse gegen Grundrissmaße, GEBAEUDEINFOOGD Baujahr,
+  STRASSENGRAPHOGD für "Sackgasse"), Orthofoto (mapsneu.wien.gv.at bmaporthofoto30cm) gegen Fensterblick und Dachform,
+  Nordpfeil im Grundriss + Straßenachse, Wikimedia-Commons-Fotos der Nachbarhäuser. "genau" nur mit Beleg (Dokument oder
+  eindeutiges Foto), sonst "ungefaehr" mit Gegenproben; nie raten.
 - Neubauprojekte direkt bei Bauträgern (Wunsch 2026-11-09): `wohnungen/bautraeger.py` liest täglich die Einheitenlisten aus
   `data/bautraeger_projekte.json` (Tabellen, data-Attribute, RIWOG-JSON) und die 3SI-Übersicht; nur freie Wohnungen mit Preis, kein Büro,
   nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,

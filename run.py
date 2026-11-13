@@ -33,6 +33,7 @@ PENDING = DATA / "pending.json"
 RECHERCHE = DATA / "recherche.json"
 GEPRUEFT = DATA / "nest_geprueft.json"
 RECHERCHE_PRO_TAG = 25  # mehr schafft die Morgen-Routine nicht sinnvoll; Grundrisse nur für diese
+RECHERCHE_ALLE_AB = "2026-11-13"  # ab hier gefundene Wohnungen werden immer recherchiert, auch mit Portaladresse
 # Preisverlauf der Nest-Wohnungen, bleibt auch, wenn das Inserat verschwindet (Verhandlungsspielraum)
 PREISARCHIV = DATA / "preisverlauf.json"
 SICHTBAR = DATA / "sichtbar_seit.json"
@@ -1173,7 +1174,10 @@ def build():
         frei = {i: korb_zeit[i] for i in r["ids"] if not offline and korb_status.get(i, {}).get("offline")}
         if not offline:
             zaehler[b["status"]] += 1
-        if (not offline and b["status"] != "raus" and not lage_genau(r, rev, b)
+        # Saad 2026-11-13: neue Wohnungen immer ordentlich recherchieren, auch wenn das Portal eine Hausnummer nennt
+        # (Makler setzen Standardpunkte/-adressen); einmal pro Wohnung, erledigt = Eintrag in nest_geprueft.json
+        neu_pruefen = (r["erstmals"] >= RECHERCHE_ALLE_AB and (rev.get("lage") or {}).get("sicherheit") != "genau")
+        if (not offline and b["status"] != "raus" and (neu_pruefen or not lage_genau(r, rev, b))
                 and not set(r["ids"]) & (erledigt | (korb - set(frei)))):
             recherche.append({
                 "id": r["id"], "ids": r["ids"], "titel": r["titel"], "plz": r["plz"],
@@ -1185,6 +1189,8 @@ def build():
                 "grundrisse": f"data/grundrisse/{r['id']}/", "im_nest": bool(set(r["ids"]) & nest),
                 "dokumente": [d for i in r["ids"] for d in (listings.get(i) or {}).get("dokumente") or []],
                 "erstmals": r["erstmals"],
+                # Portaladresse mit Hausnummer, aber ungeprüft: bestätigen oder korrigieren
+                "portaladresse_pruefen": lage_genau(r, rev, b),
             })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:
             pending.append({
