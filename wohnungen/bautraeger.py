@@ -111,7 +111,8 @@ def _aus_tabellen(page):
                 continue
             w = {f: zellen[i] for f, i in sp.items()}
             w["attr_id"] = (re.search(r'data-[a-z-]*id="([^"]+)"', attr) or [None, None])[1]
-            w["href"] = (re.search(r'(?i)(?:data-href|href)="(?!mailto:|tel:|javascript:)([^"#][^"]*)"', attr + z) or [None, None])[1]
+            # (?<!:): kein xlink:href von SVG-Icons (3SI hat in jeder Zeile einen "Merken"-Stern)
+            w["href"] = (re.search(r'(?i)(?<![:\w])(?:data-href|href)="(?!mailto:|tel:|javascript:)([^"#][^"]*)"', attr + z) or [None, None])[1]
             yield w
 
 
