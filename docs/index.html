@@ -768,7 +768,7 @@ function aktionenHtml(w, papierkorb) {
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id || state.vor === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
         : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
@@ -820,7 +820,8 @@ function goldEi(groesse, gas = false) {
   </svg>`;
 }
 function eiIcon(w) {
-  const aktiv = state.aktiv === w.id, k = aktiv ? 1.6 : 1;  // gerade geöffnete Wohnung: großes Ei mit Puls
+  // gerade geöffnete oder in der Liste angetippte Wohnung: großes Ei mit Puls
+  const aktiv = state.aktiv === w.id || state.vor === w.id, k = aktiv ? 1.6 : 1;
   const cls = 'ei-icon' + (aktiv ? ' aktiv' : '');
   if (istBrut(w)) {  // Brutkasten: Küken mit Leuchten, damit es auf der Karte auffällt
     const s = 34 * k;
@@ -841,7 +842,7 @@ function eiAktualisieren(id) {
   const m = state.marker[id], w = id && state.daten.find(x => x.id === id);
   if (!m || !w) return;
   m.setIcon(eiIcon(w));
-  m.setZIndexOffset(state.aktiv === id ? 10000 : istBrut(w) ? 2000 : istGemerkt(w) ? 1000 : ({ raus: 0, grau: 1, gruen: 2 })[w.status] * 100);
+  m.setZIndexOffset(state.aktiv === id || state.vor === id ? 10000 : istBrut(w) ? 2000 : istGemerkt(w) ? 1000 : ({ raus: 0, grau: 1, gruen: 2 })[w.status] * 100);
 }
 
 function zeichneMarker(liste) {
@@ -851,11 +852,11 @@ function zeichneMarker(liste) {
   [...liste].sort((a, b) => rang[a.status] - rang[b.status] + (istGemerkt(a) - istGemerkt(b)) * 10).forEach(w => {
     if (!w.lat) return;
     const m = L.marker([w.lat, w.lon], { icon: eiIcon(w),
-      zIndexOffset: state.aktiv === w.id ? 10000 : istGemerkt(w) ? 1000 : rang[w.status] * 100 });
+      zIndexOffset: state.aktiv === w.id || state.vor === w.id ? 10000 : istGemerkt(w) ? 1000 : rang[w.status] * 100 });
     // Vorschau beim Drüberfahren nur mit Maus; auf Touch-Geräten öffnet der Tipp direkt die Wohnung
     if (MAUS) m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
-    m.on('click', () => oeffne(w.id, true));
+    m.on('click', () => oeffne(w.id, true));  // auch das vorgewählte Ei: zweiter Tipp öffnet die Ansicht
     m.addTo(markerEbene);
     state.marker[w.id] = m;
   });
@@ -1043,8 +1044,31 @@ function miniGross(an) {
 function textHtml(t) {
   return esc(t || '').replace(/^## (.+)$/gm, '<h4>$1</h4>').replace(/\n(<h4>)/g, '$1').replace(/(<\/h4>)\n/g, '$1');
 }
+/* Kärtchen in der Liste antippen (Wunsch 2026-11-13): erst fliegt die Karte sanft zur Wohnung, nicht zu nah,
+   damit man beim Hinzoomen sieht, wo sie liegt; nochmal aufs Kärtchen oder aufs Ei tippen öffnet die Ansicht.
+   Fotos antippen öffnet am Handy weiter direkt. */
+const VOR_ZOOM = 15;
+function vorwaehlen(id) {
+  const m = state.marker[id];
+  if (!m) return oeffne(id);  // ohne Punkt auf der Karte gibt es nichts zu zeigen
+  const vorher = state.vor;
+  state.vor = id;
+  state.selbstBewegt = true;
+  if (vorher && vorher !== id) eiAktualisieren(vorher);
+  eiAktualisieren(id);
+  document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
+  document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
+  map.flyTo(m.getLatLng(), VOR_ZOOM, { duration: 1.4, easeLinearity: .2 });
+}
+function vorwahlWeg() {
+  const vorher = state.vor;
+  state.vor = null;
+  if (vorher) eiAktualisieren(vorher);
+}
 function oeffne(id, vonKarte) {
   const vorher = state.aktiv;
+  if (state.vor && state.vor !== id) vorwahlWeg();
+  state.vor = null;
   state.aktiv = id; state.bildIdx = 0;
   state.selbstBewegt = true;  // Karte folgt jetzt der gewählten Wohnung, nicht mehr dem Einpassen
   // Verlaufseintrag, damit Zurück (Taste/Wischgeste) zur Übersicht führt statt aus der Seite
@@ -1248,7 +1272,7 @@ document.getElementById('app').addEventListener('click', e => {
   if (akt === 'korb' || akt === 'korb-zu') return tabWechseln(akt === 'korb' ? 'papierkorb' : 'alle');
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);
-  if (akt === 'oeffnen') return oeffne(id);
+  if (akt === 'oeffnen') return state.vor === id || state.aktiv === id ? oeffne(id) : vorwaehlen(id);
   if (akt === 'vollbild') {  // Foto in der Liste: Handy -> Wohnung öffnen, Computer -> Vollbild
     if (HANDY) return oeffne(id);
     const streifen = t.closest('.fotos');

@@ -215,6 +215,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   kommt, hell-oranges Ei mit Gasheizung (bewusst blasser als das goldorange Nest-Ei; blass = schon angeschaut, gestrichelt = Lage ungefähr),
   goldenes Ei = im Nest, goldorange = im Nest mit Gasheizung; keine passt/unklar/raus- und keine
   Neu-Markierung auf der Karte (Wunsch).
+- Kärtchen in der Liste (Wunsch 2026-11-13): erster Tipp aufs Kärtchen (nicht auf die Fotos) fliegt die Karte sanft zur Wohnung
+  (`vorwaehlen`, Zoom 15, nicht zu nah, damit man beim Hinzoomen sieht, wo sie liegt), Ei und Kärtchen leuchten; zweiter Tipp aufs
+  Kärtchen oder aufs Ei öffnet die Ansicht. Fotos antippen öffnet am Handy weiter direkt, Eier auf der Karte öffnen sofort.
 - Brutkasten (Wunsch 2026-11-07): Nestle, die das Paar besichtigen will. Tab "🐣 Brutkasten" statt des
   Papierkorb-Tabs (Papierkorb jetzt als Link unter der Liste), 🐣-Knopf auf Karten und in den Details, auf der
   Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
