@@ -6473,7 +6473,11 @@
    "sicherheit": "genau",
    "begruendung": "Dieselbe Wohnung wie ImmoLöwin wh-1992576637 (78,66 m², Westbalkon 10,34 m² zum Hof, Rücklage 83,38 €), deren Energieausweis 'Währinger Gürtel 79 - Top 10' nennt (storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf); Wohnkader-Schwester wh-896948604 mit wortgleichem Lagetext nennt 'Am Währinger Gürtel 79'. Top 10."
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-13",
+  "heizung": {
+   "ergebnis": "unklar",
+   "begruendung": "Widerspruch: willhaben/ImmoScout nennen teils 'Gasheizung'/'Energieträger Gas', Beschreibung und FindMyHome 'Luftwärmepumpe'; Etagenheizung ohne klaren Träger"
+  }
  },
  "is-678397180162": {
   "lage": {
@@ -17043,5 +17047,115 @@
    "begruendung": "Grundriss (16EAST) nennt Währinger Str. 22, Top 3/4; Newaldhof 1828 Högl/Gräfin Thurn laut Wien Geschichte Wiki"
   },
   "datum": "2026-11-12"
+ },
+ "sr-0960075854": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.19919,
+   "lon": 16.421822,
+   "sicherheit": "ungefaehr",
+   "begruendung": "KLG Unter dem Heustadlwasser (Prater/Freudenau, 2. Bezirk), weit außerhalb Karmeliterviertel; Rohbau unfertig"
+  },
+  "datum": "2026-11-13"
+ },
+ "ds-15305282": {
+  "lage": {
+   "adresse": null,
+   "lat": 48.2344,
+   "lon": 16.2834,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Neuwaldegg nahe Endstelle Linie 43 (17. Bezirk, nicht Hernals-Zone)"
+  },
+  "datum": "2026-11-13"
+ },
+ "wh-1342674120": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inseratstext: 'Am Währinger Gürtel 79 ... zwei spiegelverkehrte Dachgeschosswohnungen'; Top unbekannt"
+  },
+  "datum": "2026-11-13"
+ },
+ "wh-1119704631": {
+  "lage": {
+   "adresse": "Schulgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'Die Lage in der Schulgasse' (Projekt Marie, EDEX); Plan Top 10 (DG); Hausnummer nicht öffentlich"
+  },
+  "datum": "2026-11-13"
+ },
+ "is-613433577429": {
+  "lage": {
+   "adresse": "Schulgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Projekt Marie, Schulgasse (Schwesterinserat), Top 10"
+  },
+  "datum": "2026-11-13"
+ },
+ "ds-15315127": {
+  "lage": {
+   "adresse": "Schulgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Projekt Marie, Schulgasse (Schwesterinserat), Top 10"
+  },
+  "datum": "2026-11-13"
+ },
+ "wh-1646449580": {
+  "lage": {
+   "adresse": "Zirkusgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Zirkusgasse laut ir.at-Exposé (EHL Obj. 96363/95993, 97,86 m², 899.000 €); Grundriss Top 7; Hausnummer unbekannt"
+  },
+  "datum": "2026-11-13"
+ },
+ "is-623620637109": {
+  "lage": {
+   "adresse": "Zirkusgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Zirkusgasse laut ir.at-Exposé (EHL Obj. 96363/95993, 97,86 m², 899.000 €); Grundriss Top 7; Hausnummer unbekannt"
+  },
+  "datum": "2026-11-13"
+ },
+ "ds-15315240": {
+  "lage": {
+   "adresse": "Zirkusgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Zirkusgasse laut ir.at-Exposé (EHL Obj. 96363/95993, 97,86 m², 899.000 €); Grundriss Top 7; Hausnummer unbekannt"
+  },
+  "datum": "2026-11-13"
+ },
+ "fm-5782781": {
+  "lage": {
+   "adresse": "Zirkusgasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Zirkusgasse laut ir.at-Exposé (EHL Obj. 96363/95993, 97,86 m², 899.000 €); Grundriss Top 7; Hausnummer unbekannt"
+  },
+  "datum": "2026-11-13"
+ },
+ "ds-15303629": {
+  "lage": {
+   "adresse": "Währinger Gürtel 119",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'Währinger Gürtel 119 Ecke Anastasius-Grün-Gasse'; Riedergarten-Plan 1.OG Top 15 (ca. 98,98 m²), Zuordnung Top wahrscheinlich"
+  },
+  "datum": "2026-11-13"
  }
 }
