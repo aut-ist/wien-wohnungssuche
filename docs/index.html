@@ -117,6 +117,13 @@
     background: rgba(255,255,255,.9); cursor: pointer; font-size: 16px; display: none; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
   .foto-wrap:hover .foto-nav { display: block; }
   .foto-nav.l { left: 8px; } .foto-nav.r { right: 8px; }
+  /* Touch (kein Hover): Pfeile immer zeigen, damit man sieht, dass man wischen kann (Wunsch 2026-11-13);
+     am ersten Foto kein Pfeil nach links, am letzten keiner nach rechts */
+  @media (hover: none) {
+    .foto-nav { display: block; width: 28px; height: 28px; font-size: 15px; line-height: 28px; padding: 0; color: #333;
+      background: rgba(255,255,255,.78); }
+    .foto-wrap.am-anfang .foto-nav.l, .foto-wrap.am-ende .foto-nav.r { display: none; }
+  }
   .aktionen { position: absolute; top: 8px; right: 8px; display: flex; gap: 6px; }
   .rund { width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center;
     font-size: 17px; background: rgba(255,255,255,.95); box-shadow: 0 2px 8px rgba(0,0,0,.2); line-height: 1; }
@@ -289,7 +296,9 @@
     #detail.offen { transform: translateY(0); }
     .galerie .gross { height: 320px; }
     .fotos, .fotos img { height: 240px; }
-    #vollbild .vb-l, #vollbild .vb-r { display: none; }
+    /* Handy: kleine Pfeile als Hinweis, dass man wischen kann (Wischen geht weiter) */
+    #vollbild .vb-l, #vollbild .vb-r { width: 36px; height: 36px; font-size: 20px; opacity: .75; }
+    #vollbild .vb-l { left: 6px; } #vollbild .vb-r { right: 6px; }
     /* Kopf am Handy in einer Zeile: Titel links, kleine Knöpfe rechts untereinander, ohne Live-Anzeige */
     header { flex-wrap: nowrap; padding: 8px 12px; }
     .kopf-rechts { margin-left: auto; flex: none; flex-direction: column; align-items: flex-end; gap: 4px; }
@@ -769,7 +778,7 @@ function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
   return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id || state.vor === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
-    <div class="foto-wrap">
+    <div class="foto-wrap am-anfang">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
         : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
@@ -932,7 +941,11 @@ function fotosNachladen(f, bis = Math.round(f.scrollLeft / Math.max(1, f.clientW
   [...f.querySelectorAll('img')].forEach((b, k) => { if (k <= bis && b.dataset.src) { b.src = b.dataset.src; b.removeAttribute('data-src'); } });
 }
 document.addEventListener('scroll', e => {
-  if (e.target instanceof Element && e.target.classList.contains('fotos')) fotosNachladen(e.target);
+  if (!(e.target instanceof Element) || !e.target.classList.contains('fotos')) return;
+  const f = e.target, w = f.closest('.foto-wrap');
+  fotosNachladen(f);
+  w?.classList.toggle('am-anfang', f.scrollLeft < 10);
+  w?.classList.toggle('am-ende', f.scrollLeft + f.clientWidth >= f.scrollWidth - 10);
 }, true);
 document.addEventListener('click', e => {  // falls der Beobachter nicht anspringt: Tippen lädt auch
   if (!e.target.closest?.('.mehr-laden')) return;
@@ -1046,7 +1059,7 @@ function textHtml(t) {
 }
 /* Kärtchen in der Liste antippen (Wunsch 2026-11-13): erst fliegt die Karte sanft zur Wohnung, nicht zu nah,
    damit man beim Hinzoomen sieht, wo sie liegt; nochmal aufs Kärtchen oder aufs Ei tippen öffnet die Ansicht.
-   Fotos antippen öffnet am Handy weiter direkt. */
+   Ein Tipp aufs Foto zählt genauso (seit 2026-11-13 abends), Wischen durch die Fotos nicht. */
 const VOR_ZOOM = 15;
 function vorwaehlen(id) {
   const m = state.marker[id];
@@ -1273,8 +1286,9 @@ document.getElementById('app').addEventListener('click', e => {
   if (akt === 'weg') return wegwerfen(id);
   if (akt === 'zurueck') return wiederherstellen(id);
   if (akt === 'oeffnen') return state.vor === id || state.aktiv === id ? oeffne(id) : vorwaehlen(id);
-  if (akt === 'vollbild') {  // Foto in der Liste: Handy -> Wohnung öffnen, Computer -> Vollbild
-    if (HANDY) return oeffne(id);
+  if (akt === 'vollbild') {  // Foto in der Liste: erst zur Wohnung auf der Karte (Wischen ist kein Tipp, bleibt nur Blättern),
+    if (state.vor !== id && state.aktiv !== id && state.marker[id]) return vorwaehlen(id);  // dann Handy -> Wohnung öffnen,
+    if (HANDY) return oeffne(id);  // Computer -> Vollbild
     const streifen = t.closest('.fotos');
     return vollbildAuf(punkt(id), Math.round(streifen.scrollLeft / streifen.clientWidth), false);
   }

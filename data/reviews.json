@@ -17074,9 +17074,20 @@
    "lat": null,
    "lon": null,
    "sicherheit": "genau",
-   "begruendung": "Inseratstext: 'Am Währinger Gürtel 79 ... zwei spiegelverkehrte Dachgeschosswohnungen'; Top unbekannt"
+   "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-13"
+  "datum": "2026-11-13",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
+  },
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.0,
+   "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie). 2026-11-13: Wohnkader neu inseriert als wh-1342674120 (alle 30 Fotos gleich).",
+   "vorrang": true
+  },
+  "gleich_wie": "wh-1726346051"
  },
  "wh-1119704631": {
   "lage": {
