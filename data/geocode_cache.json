@@ -2110,5 +2110,123 @@
  "lidlgasse, 1170 wien": [
   48.225213,
   16.323521
+ ],
+ "schrottgießergasse, 1020 wien": [
+  48.214717,
+  16.38437
+ ],
+ "löwengasse, 1030 wien": [
+  48.207824,
+  16.393366
+ ],
+ "/10, 1170 wien": [
+  48.223738,
+  16.325013
+ ],
+ "/28, 1170 wien": [
+  48.223782,
+  16.327987
+ ],
+ "/23, 1170 wien": [
+  48.223353,
+  16.327583
+ ],
+ "martinstraße, akh, u6 michelbeuern, 1180 wien": null,
+ "kreuzgasse, akh, u6, 1180 wien": null,
+ "kreuzgasse, 1180 wien": [
+  48.223202,
+  16.338449
+ ],
+ "sternwartepark, währinger straße, 1180 wien": null,
+ "sternwartepark, 1180 wien": null,
+ "plenergasse, 1180 wien": [
+  48.227149,
+  16.336755
+ ],
+ "währinger straße 168/26, 1180 wien": [
+  48.228572,
+  16.333152
+ ],
+ "währinger straße 168/54, 1180 wien": [
+  48.229707,
+  16.329941
+ ],
+ "nussberg, donau, 1190 wien": null,
+ "hofzeile, wertheimsteinpark / 37, 10a, 39a, 1190 wien": null,
+ "grinzinger straße 111/5, 1190 wien": [
+  48.253984,
+  16.350855
+ ],
+ "sievering, 1190 wien": [
+  48.252081,
+  16.321046
+ ],
+ "nußwaldgasse 22a/7, 1190 wien": [
+  48.244034,
+  16.350549
+ ],
+ "nussberg, donau, grinzing, 1190 wien": null,
+ "venediger au, prater, 1020 wien": null,
+ "venediger au, 1020 wien": [
+  48.219152,
+  16.396935
+ ],
+ "volkermarkt|augarten, 1020 wien": null,
+ "augarten und tabor, 1020 wien": null,
+ "börsegasse 9, 1090 wien": [
+  48.214206,
+  16.368302
+ ],
+ "nussdorferstrasse, 1090 wien": [
+  48.231328,
+  16.352451
+ ],
+ "porzellangasse / servitenviertel, 1090 wien": [
+  48.219881,
+  16.361453
+ ],
+ "donaukanal, servitenviertel, 1090 wien": null,
+ "donaukanal, 1090 wien": [
+  48.235514,
+  16.361978
+ ],
+ "lorenz-bayer-park, straßenbahn, manner fabrik, geschäfte des tägöichen bedarfs, 1170 wien": null,
+ "lorenz-bayer-park, 1170 wien": null,
+ "währinger gürtel. , 1090 wien": [
+  48.222061,
+  16.346133
+ ],
+ "heiligenstädter str.. , 1190 wien": [
+  48.248303,
+  16.362384
+ ],
+ "heiligenstädter str. , 1190 wien": [
+  48.248303,
+  16.362384
+ ],
+ "cobenzlgasse., 1190 wien": [
+  48.266513,
+  16.322758
+ ],
+ "hafnersteig. , 1010 wien": [
+  48.211075,
+  16.377694
+ ],
+ "nestroygasse  , 1020 wien": [
+  48.220711,
+  16.374139
+ ],
+ "nestroygasse., 1020 wien": [
+  48.220711,
+  16.374139
+ ],
+ "herminengasse  , 1020 wien": [
+  48.218101,
+  16.373759
+ ],
+ "dornbach, neuwaldegg, heuberg, 1170 wien": null,
+ "dornbach, 1170 wien": [
+  48.2311,
+  16.294621
  ]
 }

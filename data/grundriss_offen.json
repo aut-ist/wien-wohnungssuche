@@ -1,1 +1,108 @@
-[]
+[
+ {
+  "id": "wh-1834137525",
+  "ids": [
+   "wh-1834137525",
+   "ds-15097977",
+   "is-317247139346",
+   "fm-5645066"
+  ],
+  "titel": "ELEGANTE ALTBAUWOHNUNG MIT BLICK AUF DEN AUMANNPLATZ",
+  "adresse": null,
+  "flaeche": 127.71,
+  "zimmer": 5,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/5/183/413/7525_-2123520099.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1834137525/"
+ },
+ {
+  "id": "wh-1342674120",
+  "ids": [
+   "wh-1342674120"
+  ],
+  "titel": "Exklusive 150-m²-Dachgeschosswohnung auf zwei Ebenen mit Terrassen und spektakulärem Stadtblick - Wien-Währing, 18. Bezirk",
+  "adresse": null,
+  "flaeche": 150.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/0/134/267/4120_345045547.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1342674120/"
+ },
+ {
+  "id": "wh-1119704631",
+  "ids": [
+   "wh-1119704631",
+   "is-613433577429",
+   "ds-15315127"
+  ],
+  "titel": "Marie | DG-Komfort mitten im 18. - großzügig. sonnig. elegant.",
+  "adresse": null,
+  "flaeche": 123.47,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/1/111/970/4631_-1274485450.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1119704631/"
+ },
+ {
+  "id": "wh-1646449580",
+  "ids": [
+   "wh-1646449580",
+   "is-623620637109",
+   "ds-15315240",
+   "fm-5782781"
+  ],
+  "titel": "Wohnen in zentraler Lage!",
+  "adresse": "Schrottgießergasse",
+  "flaeche": 97.86,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/0/164/644/9580_1122476381.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1646449580/"
+ },
+ {
+  "id": "ds-15303629",
+  "ids": [
+   "ds-15303629"
+  ],
+  "titel": "Wohnungen im exklusiven Eckhaus aus der Gründerzeit in Wien Währing.",
+  "adresse": "Währinger Park",
+  "flaeche": 101.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/x-HOHA/plain/immoimporte/justimmo_backfill/storage.justimmo.at/thumb/aac437cb58815b4b835eaa79dd33dc8d/fm_h1080_w1920/vVwTrS1ER0zG80PsTOQdp20260316.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15303629/"
+ },
+ {
+  "id": "sr-0960075854",
+  "ids": [
+   "sr-0960075854"
+  ],
+  "titel": "Kleingartenhaus in traumhafter Grünruhelage – Unter dem Heustadlwasser",
+  "adresse": null,
+  "flaeche": 102.2,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://www.sreal.at/asset/realty/OBGC202611121352004940a6bc9b3b7/aHR0cHM6Ly9zdG9yYWdlLmp1c3RpbW1vLmF0L3RodW1iL2Q2ZWQ3Y2NlY2M5ZDBkNDE0MjkwMGI0NDNhZGI3OGU2L2ZjX2g3MTNfdzk1MC9qdmFXTmd6d2dKOURWdUcxTWRTeXg3LmpwZw/eyJmaXQiOiJjb250YWluIiwiaCI6NTAwLCJxIjo4MCwidyI6MTAwMH0.jpg?s=ad1ee644473034c6b9f2245763ac0c88",
+   "https://www.sreal.at/images/sreal-mysreal-cta2.png",
+   "https://www.sreal.at/asset/realty/OBGC202611121352004940a6bc9b3b7/aHR0cHM6Ly9zdG9yYWdlLmp1c3RpbW1vLmF0L3RodW1iL2Y0ZGJkZmQxY2QwN2EwYjJhMGMzNjExZTNmN2Y2MDk4L2ZjX2g3MTNfdzk1MC9kZWpwTWk0aVZFd2FWYU14aU1xdkxELmpwZw/eyJmaXQiOiJjb250YWluIiwiaCI6NTAwLCJxIjo4MCwidyI6MTAwMH0.jpg?s=8a6b28e162239b9f1165f3422d041d09"
+  ],
+  "ordner": "data/grundrisse_zeichnen/sr-0960075854/"
+ }
+]
