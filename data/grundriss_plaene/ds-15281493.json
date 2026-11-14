@@ -1,0 +1,15 @@
+{
+ "ids": ["ds-15281493"],
+ "ersetzt": ["https://ic.ds.at/SMm78A/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/20235fb3347d8e51e576c44ee662f61b/fm_h1080_w1920/JR6KYUYK251uQWoghU3s6H20260529.jpg"],
+ "titel": "Grundriss Top 19",
+ "raeume": [
+  {"name": "Wohnküche", "m2": 32.78, "art": "wohnen", "punkte": [[0,0],[5.95,0],[5.95,5.53],[0,5.53]], "beschriftung": [2.98,3.0]},
+  {"name": "Zimmer", "m2": 17.7, "art": "zimmer", "punkte": [[6.05,0],[9.25,0],[9.25,5.53],[6.05,5.53]]},
+  {"name": "Bad", "m2": 5.94, "art": "bad", "punkte": [[0,5.53],[2.16,5.53],[2.16,8.28],[0,8.28]]},
+  {"name": "WC", "m2": 2.07, "art": "wc", "punkte": [[2.27,5.53],[4.27,5.53],[4.27,6.57],[2.27,6.57]]},
+  {"name": "Vorraum", "m2": 12.63, "art": "flur", "punkte": [[4.4,5.53],[7.3,5.53],[7.3,9.88],[4.4,9.88]]}
+ ],
+ "fenster": [[[0.2,0],[2.4,0]],[[2.65,0],[4.1,0]],[[6.6,0],[8.05,0]]],
+ "tueren": [{"von": [6.0,5.53],"bis": [6.85,5.53],"seite": -1}],
+ "wohnflaeche": 71.12
+}

@@ -9867,7 +9867,11 @@
  },
  "ds-15170427": {
   "gleich_wie": "wh-2112347036",
-  "datum": "2026-10-28"
+  "datum": "2026-11-14",
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Fertiggestellter Neubau (Staudgasse 40), \"sofort verfügbar\"; Anleger nur beworben, nicht vermietet"
+  }
  },
  "wh-1419652776": {
   "gleich_wie": "wh-2112347036",
@@ -17168,5 +17172,56 @@
    "begruendung": "Text: 'Währinger Gürtel 119 Ecke Anastasius-Grün-Gasse'; Riedergarten-Plan 1.OG Top 15 (ca. 98,98 m²), Zuordnung Top wahrscheinlich"
   },
   "datum": "2026-11-13"
+ },
+ "ds-15167556": {
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Fertiggestellter Neubau (Staudgasse 40), \"sofort verfügbar\"; Anleger nur beworben, nicht vermietet"
+  },
+  "datum": "2026-11-14"
+ },
+ "ds-15314888": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "begruendung": "LEONORA, Top 4, 1. OG, 76,54 m² (Grundriss-Schriftfeld, gleiche Daten wie ÖRAG-Liste 599.000 €); Energieausweis HWB 28,4/fGEE 0,71 wie Leopold-Ernst-Gasse 10; Text: Nähe Kalvarienberggasse, Tram 9 Blumengasse"
+  },
+  "datum": "2026-11-14"
+ },
+ "ds-15281493": {
+  "lage": {
+   "adresse": "Barawitzkagasse 13",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld \"BARAWITZKAGASSE 13 TOP 19\" (71 m², Wohnküche + 1 Zimmer); Text: Hohe Warte / Döblinger Hauptstraße, Wertheimsteinpark"
+  },
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 71
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Aktuell vermietet, Titel \"vermietet bis 9.2027\" - Ende der Befristung (Sept 2027) erfragen"
+  },
+  "datum": "2026-11-14"
+ },
+ "wh-1633989860": {
+  "lage": {
+   "adresse": "Nickelgasse 4",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld: NICKELGASSE 4, 1020 WIEN, Top 4, 2. OG, 132,69 m² (KarmAliter Living); Portaladresse bestätigt"
+  },
+  "datum": "2026-11-14"
+ },
+ "is-767234975679": {
+  "lage": {
+   "adresse": "Nickelgasse 4",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Wie wh-1633989860: Grundriss Top 4, Nickelgasse 4, 2. OG"
+  },
+  "datum": "2026-11-14"
  }
 }
