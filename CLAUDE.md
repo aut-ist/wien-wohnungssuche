@@ -250,7 +250,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Ideen-Grätzl (Wunsch 2026-11-15): Gegenden außerhalb der Suchgebiete, die passen könnten (Öffi-Zeit zur U6 am Gürtel und zum
   Schottentor, Schulen aus SCHULEOGD, Reddit r/wien), stehen in `data/ideen.json`. `python tools/ideen_karte.py [gtfs.zip]` (shapely,
   lokal) schreibt `docs/geo/ideen.json` und `docs/geo/oeffis_ideen.geojson` (U-Bahn und Straßenbahn im ganzen Bereich, Busse nur in den
-  Grätzln). Auf der Karte nur über den Knopf „💡 Ideen“ (aus beim Laden, lädt erst beim Einschalten), nicht in der Gast-Ansicht `?nest`. Fotos und Details stehen in
+  Grätzln). Auf der Karte nur über den Knopf „💡 Ideen“ (lädt erst beim Einschalten), nicht in der Gast-Ansicht `?nest`. Der Knopf öffnet einen eigenen
+  Vollbild-Modus (Saad: am Handy sonst unbrauchbar): nur Ideen-Punkte und ihre Öffis, Eier und Liste ausgeblendet, „‹ Zurück“ oben; Tipp auf einen
+  Punkt = Vollbild-Info mit Commons-Fotos (`fotos` in ideen.json), Fahrzeiten, Street View, ‹ › durch alle Grätzl. Fotos und Details stehen in
   einem Claude-Artifact (Link in ideen.json, privat). Die Ideen sind KEINE Suchgebiete: der Scrape sucht dort nicht.
 - Öffis auf der Karte (Saad 2026-11-15, am Handy sonst „scheußlich unübersichtlich“): in der Übersicht nur U-Bahn und S-Bahn,
   Straßenbahn ab Zoom 14, Bus ab Zoom 15 (dünner, blasser), Stationen ab 14. Gilt auch für die Ideen-Ebene.
