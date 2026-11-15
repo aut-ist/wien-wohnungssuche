@@ -1456,7 +1456,7 @@ ideenSchalter.onAdd = () => {
   });
   return d;
 };
-ideenSchalter.addTo(map);
+if (!NUR_NEST) ideenSchalter.addTo(map);  // nur für Saad und Gigi, nicht in der Gast-Ansicht ?nest (Wunsch 2026-11-15)
 
 document.addEventListener('keydown', e => {
   if (vb.el.classList.contains('offen')) {  // Vollbild hat Vorrang

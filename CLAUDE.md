@@ -250,5 +250,5 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Ideen-Grätzl (Wunsch 2026-11-15): Gegenden außerhalb der Suchgebiete, die passen könnten (Öffi-Zeit zur U6 am Gürtel und zum
   Schottentor, Schulen aus SCHULEOGD, Reddit r/wien), stehen in `data/ideen.json`. `python tools/ideen_karte.py [gtfs.zip]` (shapely,
   lokal) schreibt `docs/geo/ideen.json` und `docs/geo/oeffis_ideen.geojson` (U-Bahn und Straßenbahn im ganzen Bereich, Busse nur in den
-  Grätzln). Auf der Karte nur über den Knopf „💡 Ideen“ (aus beim Laden, lädt erst beim Einschalten). Fotos und Details stehen in
+  Grätzln). Auf der Karte nur über den Knopf „💡 Ideen“ (aus beim Laden, lädt erst beim Einschalten), nicht in der Gast-Ansicht `?nest`. Fotos und Details stehen in
   einem Claude-Artifact (Link in ideen.json, privat). Die Ideen sind KEINE Suchgebiete: der Scrape sucht dort nicht.
