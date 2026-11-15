@@ -17750,5 +17750,166 @@
    "begruendung": "laut Titel sanierungsbedürftig"
   },
   "datum": "2026-11-15"
+ },
+ "wh-1680347027": {
+  "lage": {
+   "adresse": "Johann-Strauß-Gasse 22/22",
+   "lat": 48.187836,
+   "lon": 16.367827,
+   "sicherheit": "genau",
+   "begruendung": "Energieausweis identisch: Inserat HWB 83,41 kWh/m²a, gültig bis 12.06.2029 (willhaben-Attribute); Infina-Inserat https://www.infina.at/immobilien/finden/wohnung-wien-219539/ nennt ausdrücklich 'Johann-Strauß-Gasse 22, 1040 Wien', BJ 1959, Lift, West-/Ost-Ausrichtung und denselben Energieausweis (HWB 83,41, gültig bis 12.06.2029). Grundriss-PDF https://storage.justimmo.at/file/TfKd9iaDF537JS1bZqq7TD.pdf: 'Nähe Phorusgasse, Johann Straußgasse', Ost-West, 4. Liftstock. Alter Titel auf weekend.at: 'ALOIS DRASCHE PARK - Erstbezug 4. Liftstock 100% Grünblick'. Gegenproben: Stadt Wien GEBAEUDEINFO JS"
+  },
+  "eckdaten": {
+   "stockwerk": "4. Liftstock (willhaben: '4. Etage / 5. Wohnetage')",
+   "baujahr": "1960 (Inserat; Infina nennt 1959), thermische Sanierung 2019",
+   "zustand": "Erstbezug nach Generalrenovierung 2026"
+  },
+  "kosten": {
+   "betrag": 466.03,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-111428672801": {
+  "lage": {
+   "adresse": "Johann-Strauß-Gasse 22/22",
+   "lat": 48.187836,
+   "lon": 16.367827,
+   "sicherheit": "genau",
+   "begruendung": "Energieausweis identisch: Inserat HWB 83,41 kWh/m²a, gültig bis 12.06.2029 (willhaben-Attribute); Infina-Inserat https://www.infina.at/immobilien/finden/wohnung-wien-219539/ nennt ausdrücklich 'Johann-Strauß-Gasse 22, 1040 Wien', BJ 1959, Lift, West-/Ost-Ausrichtung und denselben Energieausweis (HWB 83,41, gültig bis 12.06.2029). Grundriss-PDF https://storage.justimmo.at/file/TfKd9iaDF537JS1bZqq7TD.pdf: 'Nähe Phorusgasse, Johann Straußgasse', Ost-West, 4. Liftstock. Alter Titel auf weekend.at: 'ALOIS DRASCHE PARK - Erstbezug 4. Liftstock 100% Grünblick'. Gegenproben: Stadt Wien GEBAEUDEINFO JS"
+  },
+  "eckdaten": {
+   "stockwerk": "4. Liftstock (willhaben: '4. Etage / 5. Wohnetage')",
+   "baujahr": "1960 (Inserat; Infina nennt 1959), thermische Sanierung 2019",
+   "zustand": "Erstbezug nach Generalrenovierung 2026"
+  },
+  "kosten": {
+   "betrag": 466.03,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-2120605691": {
+  "eckdaten": {
+   "stockwerk": "Hochparterre",
+   "baujahr": "Altbau (keine Jahreszahl)",
+   "zustand": "sehr gut/gut (Portalfeld)"
+  },
+  "kosten": {
+   "betrag": 305.99,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-2130820541": {
+  "lage": {
+   "adresse": "Mittersteig 11",
+   "lat": 48.191483,
+   "lon": 16.363704,
+   "sicherheit": "genau",
+   "begruendung": "Hausfoto im Inserat (willhaben Bild 2) zeigt das Eckhaus mit Straßenschild '4., Cissy-Kraner-Platz' am Mast davor; Cissy-Kraner-Platz liegt laut Wien Geschichte Wiki (https://www.geschichtewiki.wien.gv.at/Cissy-Kraner-Platz) bei 48.19088/16.36313, am Dreieck Mittersteig/Lambrechtgasse. Orthofoto: einziges Nachkriegs-Eckhaus mit EG + 6 Stockwerken + Terrassengeschoß an diesem Platz ist Mittersteig 11 (ADRESSENOGD Mittersteig 11/1 und 11/2; GEBAEUDEINFO: nach 1945, 7 Geschoße, Stiege 2 auch als Lambrechtgasse 18 geführt) – passt zu Text (BJ ca. 1964, KG+EG+1.–6. Stock+Terrassengeschoß, zwei Stie"
+  },
+  "eckdaten": {
+   "stockwerk": "6. Liftstock (Stiege 1)",
+   "baujahr": "ca. 1964",
+   "zustand": "renovierungsbedürftig, technische Anlagen veraltet"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "renovierungsbedürftig (Text: 'Die Wohnung befindet sich in einem renovierungsbedürftigen Zustand, die technischen Anlagen sind veraltet')"
+  },
+  "kosten": {
+   "betrag": 284.82,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1646812023": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 30",
+   "lat": 48.188423,
+   "lon": 16.371264,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (willhaben Bild 23) beschriftet 'GRAF-STARHEMBERG-GASSE' (Straßenseite) und 'INNENHOF'; willhaben 'Stiege: 3', BJ 1963, 1. Liftstock; Text: Innenhof grenzt an Palais Schönburg, Loggia südwestseitig. Stadt Wien: ADRESSENOGD Graf-Starhemberg-Gasse 30 hat Stiegen 30/1–30/3, GEBAEUDEINFO nach 1945, 6 Geschoße, Baulücke; Orthofoto zeigt GSG 30 (Westseite der Gasse) direkt am Garten des Palais Schönburg (Rainergasse 11), Hofseite nach SW. Gegenproben: Kolschitzkygasse 14–18 grenzt auch an den Palaisgarten, Hof dort aber nach NW und Straße nicht GSG; GSG 40–42 und 44 (je ≥3 Stieg"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock (Stiege 3)",
+   "baujahr": "1963",
+   "zustand": "gepflegt; 2002 Generalsanierung (Elektrik, Heizung, Fenster, Küche), 2018 Bad/WC/Parkett/Türen neu, 2019 Klimaanlage, 2023/24 neue Therme"
+  },
+  "kosten": {
+   "betrag": 274.09,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-631867446058": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 30",
+   "lat": 48.188423,
+   "lon": 16.371264,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (willhaben Bild 23) beschriftet 'GRAF-STARHEMBERG-GASSE' (Straßenseite) und 'INNENHOF'; willhaben 'Stiege: 3', BJ 1963, 1. Liftstock; Text: Innenhof grenzt an Palais Schönburg, Loggia südwestseitig. Stadt Wien: ADRESSENOGD Graf-Starhemberg-Gasse 30 hat Stiegen 30/1–30/3, GEBAEUDEINFO nach 1945, 6 Geschoße, Baulücke; Orthofoto zeigt GSG 30 (Westseite der Gasse) direkt am Garten des Palais Schönburg (Rainergasse 11), Hofseite nach SW. Gegenproben: Kolschitzkygasse 14–18 grenzt auch an den Palaisgarten, Hof dort aber nach NW und Straße nicht GSG; GSG 40–42 und 44 (je ≥3 Stieg"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock (Stiege 3)",
+   "baujahr": "1963",
+   "zustand": "gepflegt; 2002 Generalsanierung (Elektrik, Heizung, Fenster, Küche), 2018 Bad/WC/Parkett/Türen neu, 2019 Klimaanlage, 2023/24 neue Therme"
+  },
+  "kosten": {
+   "betrag": 274.09,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "fm-5737546": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 30",
+   "lat": 48.188423,
+   "lon": 16.371264,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat (willhaben Bild 23) beschriftet 'GRAF-STARHEMBERG-GASSE' (Straßenseite) und 'INNENHOF'; willhaben 'Stiege: 3', BJ 1963, 1. Liftstock; Text: Innenhof grenzt an Palais Schönburg, Loggia südwestseitig. Stadt Wien: ADRESSENOGD Graf-Starhemberg-Gasse 30 hat Stiegen 30/1–30/3, GEBAEUDEINFO nach 1945, 6 Geschoße, Baulücke; Orthofoto zeigt GSG 30 (Westseite der Gasse) direkt am Garten des Palais Schönburg (Rainergasse 11), Hofseite nach SW. Gegenproben: Kolschitzkygasse 14–18 grenzt auch an den Palaisgarten, Hof dort aber nach NW und Straße nicht GSG; GSG 40–42 und 44 (je ≥3 Stieg"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock (Stiege 3)",
+   "baujahr": "1963",
+   "zustand": "gepflegt; 2002 Generalsanierung (Elektrik, Heizung, Fenster, Küche), 2018 Bad/WC/Parkett/Türen neu, 2019 Klimaanlage, 2023/24 neue Therme"
+  },
+  "kosten": {
+   "betrag": 274.09,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "ds-15312405": {
+  "lage": {
+   "adresse": "Johann-Strauß-Gasse 27/5 + 2",
+   "lat": 48.187908,
+   "lon": 16.36812,
+   "sicherheit": "genau",
+   "begruendung": "Portaladresse 'Johann Strauss Gasse 27' (https://immobilien.derstandard.at/detail/15312405) bestätigt: Fassadenfoto (Bild 14) zeigt Hausnummernschild '27' neben dem Portal; Gründerzeitfassade passt zu GEBAEUDEINFO JSG 27 (1848–1918, 4 Geschoße, Straßentrakter). Angehängte Einreichpläne: https://bc.ds.at/private-ads/86628c57-7305-4d68-bf5d-d0247ed22404/5ed11c56-b939-4ce2-8454-75e6ac2451fc.pdf ('HOCHPARTERRE': Top 5, WNF 77,85 m², Garten Top 5 37,67 m²) und https://bc.ds.at/private-ads/86628c57-7305-4d68-bf5d-d0247ed22404/0bc07c91-c133-4688-9353-cea31f553e45.pdf ('ERDGESCHOSS': Top 2, NFL 75,13 "
+  },
+  "eckdaten": {
+   "stockwerk": "Hochparterre (Top 5) + Souterrain/Erdgeschoß (Top 2)",
+   "baujahr": "Gründerzeit (Stadt Wien: Bauperiode 1848–1918)",
+   "zustand": "guter Zustand (laut Text), teilmöbliert"
+  },
+  "kosten": {
+   "betrag": 460.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1652874346": {
+  "gleich_wie": "wh-1680347027",
+  "datum": "2026-11-15"
+ },
+ "is-071323430235": {
+  "gleich_wie": "wh-1680347027",
+  "datum": "2026-11-15"
+ },
+ "wh-1770891658": {
+  "gleich_wie": "wh-1680347027",
+  "datum": "2026-11-15"
  }
 }

@@ -6267,5 +6267,48 @@
   "titel": "",
   "datum": "2026-11-15",
   "ergebnis": "unklar: Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen)"
+ },
+ "wh-1680347027": {
+  "ids": [
+   "wh-1680347027",
+   "is-111428672801"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Johann-Strauß-Gasse 22/22"
+ },
+ "wh-2120605691": {
+  "ids": [
+   "wh-2120605691"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: -"
+ },
+ "wh-2130820541": {
+  "ids": [
+   "wh-2130820541"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Mittersteig 11 (raus: renovierungsbedürftig (Text: 'Die Wohnung befindet sich in einem renovierungsbedürftigen Zustand, die technischen Anlagen sind veraltet'))"
+ },
+ "wh-1646812023": {
+  "ids": [
+   "wh-1646812023",
+   "is-631867446058",
+   "fm-5737546"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Graf-Starhemberg-Gasse 30"
+ },
+ "ds-15312405": {
+  "ids": [
+   "ds-15312405"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Johann-Strauß-Gasse 27/5 + 2"
  }
 }
