@@ -260,3 +260,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   „Stockwerk: …“/„Etage: …“ im Text (`_stockwerk_aus_text`); review `eckdaten` kann jetzt auch `stockwerk`, `baujahr`, `zustand` setzen
   (Recherche-Wissen, z. B. „Dachgeschoß (Maisonette)“, „Gründerzeit (Inserat sagt 1957)“). Street View: der 150-pro-Lauf-Deckel zählte
   bis dahin auch Punkte aus dem Zwischenspeicher mit, dadurch bekamen neue Wohnungen nach den ersten 150 keinen Link.
+- Wieden nach Saads Zeichnung (2026-11-15 abends, ersetzt die Linie bei 48,192°): Zone `wieden` in tools/build_zones.py, aus einem
+  Google-Maps-Screenshot über fünf Bezugspunkte entzerrt (Restfehler < 20 m), ohne `nur_in_bezirk` (gilt im 4. und den Streifen im 1., 3., 5.).
+  Dafür wird 1050 auf allen Portalen gescrapt (FindMyHome-Bezirk 104); im 5. zählt nur dieser Streifen, Inserate nur mit
+  „5. Bezirk“ sind deshalb raus (nicht grau wie im 1./2./3./4.).

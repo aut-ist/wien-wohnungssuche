@@ -1,1 +1,533 @@
-[]
+[
+ {
+  "id": "wh-899489261",
+  "ids": [
+   "wh-899489261",
+   "is-280583058270",
+   "ds-15300028"
+  ],
+  "titel": "Gestalten Sie Ihren Wohntraum: 3,5-Zimmer-Wohnung mit Loggia in 1040",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/gestalten-sie-ihren-wohntraum-3-5-zimmer-wohnung-mit-loggia-in-1040-899489261/",
+   "https://www.immobilienscout24.at/expose/6ae4839e305a4c8d31e4b012",
+   "https://immobilien.derstandard.at/detail/15300028"
+  ],
+  "anbieter": "EDEX Immobilien GmbH",
+  "adresse_im_inserat": "Lambrechtgasse",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.190678,
+   16.364449
+  ],
+  "versatz_m": 0,
+  "preis": 635000.0,
+  "flaeche": 99.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": 95.8,
+   "hwb_class": "D",
+   "fgee": 2.06,
+   "fgee_class": "G"
+  },
+  "grundrisse": "data/grundrisse/wh-899489261/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1652874346",
+  "ids": [
+   "wh-1652874346",
+   "is-071323430235"
+  ],
+  "titel": "ERSTBEZUG MITTEN IM VIERTEN - 2026 GENERALRENOVIERT - GROSSE ZIMMER - 4. LIFTSTOCK - THERMISCH SANIERTES HAUS - EUR 6340.- / m²",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/erstbezug-mitten-im-vierten-2026-generalrenoviert-grosse-zimmer-4-liftstock-thermisch-saniertes-haus-eur-6340-m-1652874346/",
+   "https://www.immobilienscout24.at/expose/6a6c6d46e4215da4dd34d222"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (24 m außerhalb)",
+  "punkt": [
+   48.18773,
+   16.36925
+  ],
+  "versatz_m": 0,
+  "preis": 698000.0,
+  "flaeche": 112.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": 83.41,
+   "hwb_class": "C",
+   "fgee": 1932.0,
+   "fgee_class": "G"
+  },
+  "grundrisse": "data/grundrisse/wh-1652874346/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1680347027",
+  "ids": [
+   "wh-1680347027",
+   "is-111428672801"
+  ],
+  "titel": "MEDITERANES WOHNEN - ERSTBEZUG - 2026 GENERALRENOVIERT - GROSSE 3 ZIMMER - 4. LIFTSTOCK - OST / WEST und GRÜN- RUHELAGE",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/mediteranes-wohnen-erstbezug-2026-generalrenoviert-grosse-3-zimmer-4-liftstock-ost-west-und-gruen-ruhelage-1680347027/",
+   "https://www.immobilienscout24.at/expose/6adf17ff5c125e1024fd5cd9"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (24 m außerhalb)",
+  "punkt": [
+   48.18773,
+   16.36925
+  ],
+  "versatz_m": 0,
+  "preis": 699000.0,
+  "flaeche": 110.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": 83.41,
+   "hwb_class": "C",
+   "fgee": 1932.0,
+   "fgee_class": "G"
+  },
+  "grundrisse": "data/grundrisse/wh-1680347027/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1635820936",
+  "ids": [
+   "wh-1635820936"
+  ],
+  "titel": "Großzügige Maisonette-Wohnung mit Terrasse- Exklusiv im 2. Dachgeschoß!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/grosszuegige-maisonette-wohnung-mit-terrasse-exklusiv-im-2-dachgeschoss-1635820936/"
+  ],
+  "anbieter": "EHL Immobilien GmbH",
+  "adresse_im_inserat": "Leibenfrostgasse",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (18 m außerhalb)",
+  "punkt": [
+   48.189823,
+   16.363906
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 120.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1635820936/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1914170203",
+  "ids": [
+   "wh-1914170203",
+   "is-211916303624"
+  ],
+  "titel": "helle, klassische Altbauwohnung in bester Lage!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/helle-klassische-altbauwohnung-in-bester-lage-1914170203/",
+   "https://www.immobilienscout24.at/expose/6aba4b0312988b549b78732b"
+  ],
+  "anbieter": "Coricon Properties",
+  "adresse_im_inserat": "Weyringergasse",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (9 m außerhalb)",
+  "punkt": [
+   48.18855,
+   16.376784
+  ],
+  "versatz_m": 0,
+  "preis": 695000.0,
+  "flaeche": 127.0,
+  "zimmer": 3,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": 118.0,
+   "hwb_class": "D",
+   "fgee": 2.54,
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1914170203/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2120605691",
+  "ids": [
+   "wh-2120605691"
+  ],
+  "titel": "91 m² Altbauwohnung beim Schloss Belvedere",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/91-m-altbauwohnung-beim-schloss-belvedere-2120605691/"
+  ],
+  "anbieter": null,
+  "adresse_im_inserat": "Belvederegasse",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.19107,
+   16.37577
+  ],
+  "versatz_m": 0,
+  "preis": 477932.0,
+  "flaeche": 91.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2120605691/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1413792004",
+  "ids": [
+   "wh-1413792004",
+   "is-986666236125",
+   "ds-14878043",
+   "fm-5532484"
+  ],
+  "titel": "Stilvolle Altbauwohnung in bester Lage",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/stilvolle-altbauwohnung-in-bester-lage-1413792004/",
+   "https://www.findmyhome.at/5532484",
+   "https://www.immobilienscout24.at/expose/689f389214b48b707551c87a",
+   "https://immobilien.derstandard.at/detail/14878043"
+  ],
+  "anbieter": "Avium Real GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (7 m außerhalb)",
+  "punkt": [
+   48.188782,
+   16.378781
+  ],
+  "versatz_m": 0,
+  "preis": 650000.0,
+  "flaeche": 77.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": 67.0,
+   "hwb_class": "C",
+   "fgee": 1.22,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1413792004/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1770891658",
+  "ids": [
+   "wh-1770891658"
+  ],
+  "titel": "Helle 3-Zimmer-Wohnung im 4. Liftstock mit ca. 111m² Wohnfläche",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/helle-3-zimmer-wohnung-im-4-liftstock-mit-ca-111m-wohnflaeche-1770891658/"
+  ],
+  "anbieter": "von Alten Immobilientreuhand GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (46 m außerhalb)",
+  "punkt": [
+   48.188764,
+   16.364881
+  ],
+  "versatz_m": 0,
+  "preis": 698000.0,
+  "flaeche": 111.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1770891658/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2130820541",
+  "ids": [
+   "wh-2130820541"
+  ],
+  "titel": "Wohnung mit Loggia im 6.Liftstock nahe der Wiener Innenstadt",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohnung-mit-loggia-im-6-liftstock-nahe-der-wiener-innenstadt-2130820541/"
+  ],
+  "anbieter": "Invest-Real Immobilientreuhänder GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.190428,
+   16.363373
+  ],
+  "versatz_m": 0,
+  "preis": 369000.0,
+  "flaeche": 79.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2130820541/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1809408848",
+  "ids": [
+   "wh-1809408848",
+   "is-004269199226",
+   "ds-15047598"
+  ],
+  "titel": "TOP-LAGE! Helle 3-4 Zimmer Altbauwohnung im 3. Liftstock",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/top-lage-helle-3-4-zimmer-altbauwohnung-im-3-liftstock-1809408848/",
+   "https://www.immobilienscout24.at/expose/6ad9fe2301ba79afa471e27d",
+   "https://immobilien.derstandard.at/detail/15047598"
+  ],
+  "anbieter": "Omerovic Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.191245,
+   16.374284
+  ],
+  "versatz_m": 0,
+  "preis": 539000.0,
+  "flaeche": 88.0,
+  "zimmer": 4,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": 61.6,
+   "hwb_class": "C",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1809408848/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1992940864",
+  "ids": [
+   "wh-1992940864",
+   "is-100570278331",
+   "ds-15101337"
+  ],
+  "titel": "Dachgeschosstraum mit 23 m² Terrasse in Top Lage!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/dachgeschosstraum-mit-23-m-terrasse-in-top-lage-1992940864/",
+   "https://www.immobilienscout24.at/expose/69d517e521d56b4b8f2f0623",
+   "https://immobilien.derstandard.at/detail/15101337"
+  ],
+  "anbieter": "Coricon Properties",
+  "adresse_im_inserat": "Lambrechtgasse",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.190678,
+   16.364449
+  ],
+  "versatz_m": 0,
+  "preis": 998000.0,
+  "flaeche": 122.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 42.6,
+   "hwb_class": "B",
+   "fgee": 0.78,
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/wh-1992940864/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1646812023",
+  "ids": [
+   "wh-1646812023",
+   "is-631867446058",
+   "fm-5737546"
+  ],
+  "titel": "Gemütliches Zuhause: 3-Zimmer-Wohnung mit Balkon in Top Lage",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/gemuetliches-zuhause-3-zimmer-wohnung-mit-balkon-in-top-lage-1646812023/",
+   "https://www.findmyhome.at/5737546",
+   "https://www.immobilienscout24.at/expose/6ac38067d5a40fb28cd4e186"
+  ],
+  "anbieter": "DOMO Gebäudeverwaltungs- und Realitätengesellschaft m.b.H.",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.188252,
+   16.373073
+  ],
+  "versatz_m": 0,
+  "preis": 580000.0,
+  "flaeche": 88.0,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 77.8,
+   "hwb_class": "C",
+   "fgee": 1.32,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1646812023/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1958235282",
+  "ids": [
+   "wh-1958235282",
+   "ds-15260929",
+   "is-370737533351",
+   "fm-5744325"
+  ],
+  "titel": "\"++ AbsoluteRuhelage!++\"",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/-absoluteruhelage-1958235282/",
+   "https://www.findmyhome.at/5744325",
+   "https://www.immobilienscout24.at/expose/6ab14de8b1208e468bd12b37",
+   "https://immobilien.derstandard.at/detail/15260929"
+  ],
+  "anbieter": "REMAX Donau-City-Immobilien",
+  "adresse_im_inserat": "Belvederegasse 39",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.190176,
+   16.3727
+  ],
+  "versatz_m": 0,
+  "preis": 420000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "98,6",
+   "hwb_class": "C",
+   "fgee": "1,67",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1958235282/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "hier",
+    "url": "https://360.remax.at/player/preview/6116/de"
+   }
+  ],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-2093562040",
+  "ids": [
+   "wh-2093562040",
+   "is-818205025911"
+  ],
+  "titel": "UNIQUE GARDEN - Einzigartiges Juwel mit 40m² Garten mitten in der Stadt",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/unique-garden-einzigartiges-juwel-mit-40m-garten-mitten-in-der-stadt-2093562040/",
+   "https://www.immobilienscout24.at/expose/6a9a73a0d03a40dd4b25a67f"
+  ],
+  "anbieter": "GOHN Immobilien GmbH",
+  "adresse_im_inserat": "Johann-Strauß-Gasse",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (36 m außerhalb)",
+  "punkt": [
+   48.187698,
+   16.368137
+  ],
+  "versatz_m": 0,
+  "preis": 600000.0,
+  "flaeche": 80.0,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 73.6,
+   "hwb_class": "C",
+   "fgee": 1.83,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-2093562040/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15312405",
+  "ids": [
+   "ds-15312405"
+  ],
+  "titel": "Zentrumsnahe ruhige Gartenwohnung im 4 Bezirk",
+  "plz": 1040,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15312405"
+  ],
+  "anbieter": null,
+  "adresse_im_inserat": "Johann Strauss Gasse 27",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (14 m außerhalb)",
+  "punkt": [
+   48.187897,
+   16.368198
+  ],
+  "versatz_m": 0,
+  "preis": 789000.0,
+  "flaeche": 155.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15312405/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ }
+]

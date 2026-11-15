@@ -2341,5 +2341,215 @@
  "schelleingasse, 1040 wien": [
   48.185465,
   16.369161
+ ],
+ "siebenbrunnengasse, 1050 wien": [
+  48.185828,
+  16.354339
+ ],
+ "wiedner hauptstraße, 1050 wien": [
+  48.186696,
+  16.363687
+ ],
+ "schwarzhorngasse, 1050 wien": [
+  48.18724,
+  16.3534
+ ],
+ "diehlgasse 42/17, 1050 wien": [
+  48.18476,
+  16.348744
+ ],
+ "diehlgasse 42/9-10, 1050 wien": null,
+ "diehlgasse 42/9+10, 1050 wien": null,
+ "reinprechtsdorferstrasse, 1050 wien": [
+  48.187465,
+  16.352349
+ ],
+ "diehlgasse 42/8+9, 1050 wien": [
+  48.18476,
+  16.348744
+ ],
+ "reinprechtsdorfer straße, 1050 wien": [
+  48.187465,
+  16.352349
+ ],
+ "reinprechtsdorfer straße 33/7, 1050 wien": [
+  48.182401,
+  16.357378
+ ],
+ "diehlgasse 42/21, 1050 wien": [
+  48.18476,
+  16.348744
+ ],
+ "am hundsturm, 1050 wien": [
+  48.187429,
+  16.347848
+ ],
+ "diehlgasse 42/23-24, 1050 wien": null,
+ "vogelsanggasse 33/16+17, 1050 wien": null,
+ "schönbrunner straße 22-24/37, 1050 wien": null,
+ "bräuhausgasse, 1050 wien": [
+  48.188508,
+  16.350595
+ ],
+ "schönbrunner straße 22-24/35, 1050 wien": null,
+ "schönbrunner straße, 1050 wien": [
+  48.187781,
+  16.345096
+ ],
+ "diehlgasse 42/8+9+10, 1050 wien": null,
+ "diehlgasse 42/8-10, 1050 wien": null,
+ "högelmüllergasse 12/12, 1050 wien": [
+  48.18445,
+  16.353628
+ ],
+ "kohlgasse, 1050 wien": [
+  48.181871,
+  16.355604
+ ],
+ "siebenbrunnengasse 9/1, 1050 wien": [
+  48.185828,
+  16.354339
+ ],
+ "schönbrunner straße 60, 1050 wien": [
+  48.190255,
+  16.353202
+ ],
+ "högelmüllergasse 12/14, 1050 wien": [
+  48.18445,
+  16.353628
+ ],
+ "schönbrunner straße 22-24/34, 1050 wien": null,
+ "siebenbrunnengasse 9/2+3 / v2, 1050 wien": null,
+ "schönbrunner straße 60/8, 1050 wien": [
+  48.189452,
+  16.352029
+ ],
+ "siebenbrunnengasse 44/7 variante, 1050 wien": null,
+ "siebenbrunnengasse 9/6+7 / v2, 1050 wien": null,
+ "siebenbrunnengasse 9/10+11 / v2, 1050 wien": null,
+ "siebenbrunnengasse 44/14, 1050 wien": [
+  48.185828,
+  16.354339
+ ],
+ "siebenbrunnengasse 44/2, 1050 wien": [
+  48.186553,
+  16.357086
+ ],
+ "siebenbrunnengasse 9/12+13 / v1, 1050 wien": [
+  48.181602,
+  16.347882
+ ],
+ "siebenbrunnengasse 9/12+13 / v2, 1050 wien": [
+  48.181602,
+  16.347882
+ ],
+ "siebenbrunnengasse 44/13, 1050 wien": [
+  48.185828,
+  16.354339
+ ],
+ "schönburgstraße 5, 1040 wien": [
+  48.188434,
+  16.368586
+ ],
+ "karlsplatz, theresianum, taubstummengasse, 1040 wien": null,
+ "karlsplatz, 1040 wien": [
+  48.200391,
+  16.369598
+ ],
+ "johann strauss gasse 27, 1040 wien": [
+  48.187897,
+  16.368198
+ ],
+ "johann strauss gasse, 1040 wien": [
+  48.189006,
+  16.366726
+ ],
+ "rainergasse 100, 1040 wien": [
+  48.18895,
+  16.368648
+ ],
+ "siebenbrunnengasse 44, 1050 wien": [
+  48.186067,
+  16.355189
+ ],
+ "schottenring 16, 1050 wien": [
+  48.215297,
+  16.366322
+ ],
+ "diehlgasse 42, 1050 wien": [
+  48.185959,
+  16.34796
+ ],
+ "fernbahnhof 20, 1050 wien": null,
+ "amtshausgasse 20, 1050 wien": [
+  48.183751,
+  16.352808
+ ],
+ "börsegasse 12, 1050 wien": [
+  48.215376,
+  16.367601
+ ],
+ "rockhgasse 6, 1050 wien": [
+  48.213266,
+  16.36613
+ ],
+ "fernbahnhof 1, 1050 wien": null,
+ "arbeitergasse, brandmayergasse, 1050 wien": null,
+ "arbeitergasse, 1050 wien": [
+  48.184381,
+  16.346882
+ ],
+ "embelgasse 45, 1050 wien": [
+  48.185134,
+  16.350475
+ ],
+ "krongasse 6, 1050 wien": [
+  48.192024,
+  16.363006
+ ],
+ "margaretenstraße, 1050 wien": [
+  48.187868,
+  16.35241
+ ],
+ "schönbrunner straße 22-24/33, 1050 wien": null,
+ "schönbrunner straße 22-24, 1050 wien": [
+  48.192546,
+  16.357105
+ ],
+ "kettenbrückengasse 1/34, 1050 wien": [
+  48.195281,
+  16.360547
+ ],
+ "sankt-johann-gasse, 1050 wien": [
+  48.186872,
+  16.345588
+ ],
+ "pilgramgasse, 1050 wien": [
+  48.192128,
+  16.354281
+ ],
+ "diehlgasse 42/1, 1050 wien": [
+  48.18476,
+  16.348744
+ ],
+ "naschmarkt, 1050 wien": [
+  48.19818,
+  16.362622
+ ],
+ "kettenbrückengasse 1/29, 1050 wien": [
+  48.195281,
+  16.360547
+ ],
+ "kettenbrückengasse 1, 1050 wien": [
+  48.19424,
+  16.361722
+ ],
+ "högelmüllergasse, 1050 wien": [
+  48.18445,
+  16.353628
+ ],
+ "grohgasse 10, 1050 wien": [
+  48.191072,
+  16.356294
  ]
 }

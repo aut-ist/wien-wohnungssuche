@@ -106,9 +106,10 @@ GEO_ZONEN = {
     "botschaftsviertel": [(48.2000, 16.3740), (48.19788, 16.37812), (48.19698, 16.38041), (48.19573, 16.38326),
                           (48.19493, 16.38526), (48.19442, 16.3866), (48.2005, 16.3880), (48.2040, 16.3860),
                           (48.2062, 16.3790), (48.2062, 16.3680)],
-    # Freihausviertel und Wieden-Nord (Saad 2026-11-15, „großzügig“): der ganze 4. nördlich ca. 48,192° (Höhe Mühlgasse/
-    # Rainergasse/Südrand Theresianum, Belvedere-Westseite bis Prinz-Eugen-Straße); wird genau auf den 4. zugeschnitten.
-    "freihaus": [(48.2060, 16.3500), (48.2060, 16.3900), (48.1920, 16.3900), (48.1920, 16.3500)],
+    # Wieden nach Saads Zeichnung (2026-11-15, Google-Maps-Screenshot, entzerrt über Kettenbrückengasse, Karlskirche,
+    # Staatsoper, Oberes Belvedere und Secession, Restfehler unter 20 m): Staatsoper/Karlsplatz bis Quartier Belvedere,
+    # Belvedere-Westseite bis Margaretenstraße. Gilt in allen Bezirken, die sie berührt (vor allem 4., Streifen im 1., 3., 5.).
+    "wieden": [(48.201688, 16.374287), (48.200968, 16.375064), (48.200455, 16.376341), (48.199464, 16.377919), (48.198706, 16.378205), (48.197027, 16.378115), (48.195354, 16.377863), (48.194054, 16.377631), (48.19219, 16.377466), (48.191407, 16.378468), (48.190614, 16.37973), (48.189477, 16.380159), (48.189011, 16.380134), (48.188795, 16.378329), (48.188515, 16.375705), (48.188048, 16.373072), (48.187605, 16.372396), (48.187861, 16.370453), (48.188048, 16.367854), (48.188875, 16.365616), (48.189668, 16.364353), (48.190444, 16.36358), (48.190193, 16.362751), (48.191231, 16.36248), (48.192012, 16.361544), (48.192816, 16.359956), (48.193773, 16.359355), (48.195102, 16.358773), (48.196198, 16.359484), (48.197609, 16.361842), (48.198647, 16.36418), (48.199498, 16.366508), (48.200361, 16.36851), (48.20105, 16.370177), (48.201551, 16.371835), (48.201784, 16.373151)],
     # Hernals (Wunsch 2026-11-11): Dreieck zwischen Kalvarienberggasse (West, 20 m westlich der Straßenmitte, die
     # Westseite der Geschäftsstraße bleibt draußen), 18er-Grenze (Nord/Ost) und Jörgerstraße (Süd, 35 m nördlich
     # der Straßenmitte, die Jörgerstraße selbst bleibt draußen). Punkte aus OpenStreetMap; Nord/Ost großzügig,
@@ -136,8 +137,7 @@ ZONES = [
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
     {"id": "botschaftsviertel", "rolle": "erlaubt", "name": "Botschaftsviertel (Rennweg bis Beatrixgasse, Ungargasse bis Heumarkt)",
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau"},
-    {"id": "freihaus", "rolle": "erlaubt", "name": "Freihausviertel / Wieden-Nord (bis Höhe Theresianum)",
-     "nur_in_bezirk": 4, "puffer_m": 50, "zuschneiden": "genau"},
+    {"id": "wieden", "rolle": "erlaubt", "name": "Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)", "puffer_m": 50},
     # streng: auch ungefähre Lagen darin sind raus (Saad 2026-11-01); wird wie die anderen roten Zonen gezeichnet
     {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel / Hundertwasserhaus (zu weit zur U-Bahn)",
      "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau", "streng": True},

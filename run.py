@@ -469,6 +469,9 @@ def bewerten(r, rev):
             # Lage passt sowieso, aber für die Öffi-Zeit zum Gürtel (18./19.) braucht es die Adresse
             if r["plz"] in (1180, 1190) and not (lrev or rev.get("lage")):
                 out["fragen"].append("lage")
+        elif r["plz"] == 1050:
+            # Im 5. gilt nur ein schmaler Streifen der Wieden-Zone (ca. 9 von 200 ha): nur "5. Bezirk" heißt fast sicher draußen
+            return {**out, "status": "raus", "art": "lage", "gruende": ["nur 5. Bezirk bekannt (Zone dort nur ein Streifen an der Margaretenstraße)"]}
         else:
             lage_txt = f"Lage unklar, nur {(r['plz'] - 1000) // 10}. Bezirk bekannt"
             out["ungefaehr"] = True
