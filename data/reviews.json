@@ -17428,30 +17428,32 @@
  "wh-1766625657": {
   "lage": {
    "adresse": "Kettenbrückengasse 8",
-   "lat": 48.19481762,
-   "lon": 16.36115743,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Die Lagebeschreibung nennt die Kettenbrückengasse, der Grundriss (Bild 9) zeigt 'Top 7'. Baujahr 1962, THEWOSAN-saniert, Lift, 2. Stock, straßenseitig; die Inserate führen 1040 Wieden (willhaben-URL, ImmoScout '1040 Wien'). Die Kettenbrückengasse ist die Grenze zwischen 4. und 5. Bezirk: Gerade Nummern liegen in 1040, ungerade in 1050 (ADRESSENOGD). Laut GEBAEUDEINFOOGD ist auf der 1040-Seite nur Nr. 8 ein Nachkriegsbau (soz./gemeinn. Wohnbau, 7 Geschoße); 2 bis 6 und 10 bis 24 sind Biedermeier- bzw. Gründerzeithäuser. Der einzige weitere Nachkriegsbau ist Nr. 5 auf der 1050-Seite (1946 bis 1976, 4 Geschoße). Die Fenster-Fotos (ImmoScout in voller Auflösung) zeigen gegenüber verzierte Biedermeier-Fassaden mit rustiziertem Sockel; das passt zu Nr. 7 gegenüber von Nr. 8. Der Adresspunkt liegt rund 165 m vom Portalpunkt, also im Umkreis von 258 m. Weekend-Inserat mit identischem Text (Ref. 13138): https://www.weekend.at/de/immobilie/3-zimmer-wohnung-naehe-naschmarkt/OBGC2026100221271588257a3cf2405. Keine Hausnummer belegt, deshalb 'ungefaehr'; Nr. 5 (1050) ist nicht ganz ausgeschlossen. Top 7."
+   "lat": 48.194818,
+   "lon": 16.361157,
+   "sicherheit": "genau",
+   "begruendung": "Inseratstext beider Portale nennt wörtlich 'Die Kettenbrückengasse 8 befindet sich ...' (https://www.immobilienscout24.at/expose/6ab63d634b0779efd2e476b7, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbaner-wohntraum-im-herzen-wiens-grosszuegige-3-zimmer-wohnung-nahe-naschmarkt-883905576/); willhaben-Feld 'Wohnungsnummer: 7', 2. OG. Gegenprobe Stadt Wien: Kettenbrückengasse 8 (1040) ist laut GEBAEUDEINFOOGD der einzige Nachkriegsbau im Abschnitt (nach 1945, 7 Geschoße, Wohnbau) zwischen Biedermeierhäusern (Nr. 4, 6 Schubert-Sterbehaus, 10, 12) - passt zu Baujahr 1962. Adresspunkt ADRESSENOGD = Portalpunkt. Top 7."
   },
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "bisher als Büro genutzt, Bad mit alten Fliesen, Fotos teils KI-retuschiert"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "gleich_wie": "is-509233592559"
  },
  "is-735305166633": {
   "lage": {
    "adresse": "Kettenbrückengasse 8",
-   "lat": 48.19481762,
-   "lon": 16.36115743,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Die Lagebeschreibung nennt die Kettenbrückengasse, der Grundriss (Bild 9) zeigt 'Top 7'. Baujahr 1962, THEWOSAN-saniert, Lift, 2. Stock, straßenseitig; die Inserate führen 1040 Wieden (willhaben-URL, ImmoScout '1040 Wien'). Die Kettenbrückengasse ist die Grenze zwischen 4. und 5. Bezirk: Gerade Nummern liegen in 1040, ungerade in 1050 (ADRESSENOGD). Laut GEBAEUDEINFOOGD ist auf der 1040-Seite nur Nr. 8 ein Nachkriegsbau (soz./gemeinn. Wohnbau, 7 Geschoße); 2 bis 6 und 10 bis 24 sind Biedermeier- bzw. Gründerzeithäuser. Der einzige weitere Nachkriegsbau ist Nr. 5 auf der 1050-Seite (1946 bis 1976, 4 Geschoße). Die Fenster-Fotos (ImmoScout in voller Auflösung) zeigen gegenüber verzierte Biedermeier-Fassaden mit rustiziertem Sockel; das passt zu Nr. 7 gegenüber von Nr. 8. Der Adresspunkt liegt rund 165 m vom Portalpunkt, also im Umkreis von 258 m. Weekend-Inserat mit identischem Text (Ref. 13138): https://www.weekend.at/de/immobilie/3-zimmer-wohnung-naehe-naschmarkt/OBGC2026100221271588257a3cf2405. Keine Hausnummer belegt, deshalb 'ungefaehr'; Nr. 5 (1050) ist nicht ganz ausgeschlossen. Top 7."
+   "lat": 48.194818,
+   "lon": 16.361157,
+   "sicherheit": "genau",
+   "begruendung": "Inseratstext beider Portale nennt wörtlich 'Die Kettenbrückengasse 8 befindet sich ...' (https://www.immobilienscout24.at/expose/6ab63d634b0779efd2e476b7, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbaner-wohntraum-im-herzen-wiens-grosszuegige-3-zimmer-wohnung-nahe-naschmarkt-883905576/); willhaben-Feld 'Wohnungsnummer: 7', 2. OG. Gegenprobe Stadt Wien: Kettenbrückengasse 8 (1040) ist laut GEBAEUDEINFOOGD der einzige Nachkriegsbau im Abschnitt (nach 1945, 7 Geschoße, Wohnbau) zwischen Biedermeierhäusern (Nr. 4, 6 Schubert-Sterbehaus, 10, 12) - passt zu Baujahr 1962. Adresspunkt ADRESSENOGD = Portalpunkt. Top 7."
   },
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "bisher als Büro genutzt, Bad mit alten Fliesen, Fotos teils KI-retuschiert"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "gleich_wie": "is-509233592559"
  },
  "wh-1859602771": {
   "lage": {
@@ -17505,7 +17507,14 @@
  },
  "is-574888557974": {
   "gleich_wie": "wh-1551722658",
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "lage": {
+   "adresse": "Schelleingasse",
+   "lat": 48.186981,
+   "lon": 16.373836,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen), Lift, Gründerzeit-Altbau. Willhaben zeigt keine Karte (SHOW_MAP false), Portalpunkt wertlos. Fassadenfoto: breites symmetrisches Späthistorismus-Haus (ca. 10 Achsen, EG + 4 Geschoße, Mittelportal mit Vasen/Kartuschen, Garagentor links im Sockel), linker Nachbar eingerüstet, rechts gelbes Gründerzeithaus, Schrägparkplätze, keine Straßenbäume; Hausnummer nicht sichtbar. Gegenproben: typologisch passen die Doppeltrakter Schelleingasse 6, 8, 10, 12 (1910-12), 46 (1902) oder 52 (1905); Nr. 44 (3SI, renoviert, Bäume davor) passt nicht als Nachbar. Kein Dokument, Makler-Website (klutz-ivb.at) ohne Exposé. Keine Hausnummer belegbar. Top 3. Punkt: Mitte der Schelleingasse, Hausnummer offen."
+  }
  },
  "fm-5555023": {
   "lage": {
@@ -17596,6 +17605,120 @@
   "zustand": {
    "ergebnis": "hinweis",
    "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1951630935": {
+  "lage": {
+   "adresse": "Karlsgasse",
+   "lat": 48.196866,
+   "lon": 16.369552,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Text: 'in der Karlsgasse' (1040), nahe Karlskirche/TU, 1. Stock, hofseitig. Einreichplan unter den Fotos (willhaben-Bild 0935_1878305155.jpg) zeigt 'TOP 5, 1. Stock', Nutzfläche neu 120,62 m², Grundeigentümer/Bauwerber DI Vera Korab, MA-37-Stempel 2007 - aber keine Adresse (Lageplan nicht sichtbar). Gleiche Wohnung war bei Vigo als möblierte Mietwohnung inseriert (Objekt 7618/864, 120,62 m², 2.900 EUR/Monat; ir.at/de/immobilien/expose/id/1623443, inzwischen offline) - ebenfalls ohne Hausnummer. Willhaben-Punkt 48.191883/16.371063 ist der Standard-Bezirkspunkt 1040, wertlos. Gegenproben: Fotos zeigen klar Gründerzeit-Altbau (Stuckrosetten, hohe Räume, Altbau-Stiegenhaus), Baujahr 1957 im Inserat ist falsch; Nachkriegsbauten der Karlsgasse (5, 9, 14) scheiden damit aus, TU (2-10) und Nr. 11/13 sind öffentlich genutzt. Nordpfeil des Plans: Straßenfassade schaut nach SO, also eher Westseite der Karlsgasse (Altbauten 18, 20, 22; Nr. 16 ohne Daten); der schräge Grundstücksrand am Hof (im Plan rechts) ließ sich in den FMZK-Umrissen keinem Haus eindeutig zuordnen. Keine Hausnummer belegbar. Top 5. Punkt: Karlsgasse 20 (Westseite 18-22 laut Nordpfeil), Hausnummer offen."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Dieselbe Wohnung war möbliert zur Miete inseriert (Vigo, 2.900 €): klären, ob sie noch vermietet ist; Baujahr 1957 im Inserat stimmt nicht (Gründerzeit)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-509233592559": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.194818,
+   "lon": 16.361157,
+   "sicherheit": "genau",
+   "begruendung": "Inseratstext beider Portale nennt wörtlich 'Die Kettenbrückengasse 8 befindet sich ...' (https://www.immobilienscout24.at/expose/6ab63d634b0779efd2e476b7, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbaner-wohntraum-im-herzen-wiens-grosszuegige-3-zimmer-wohnung-nahe-naschmarkt-883905576/); willhaben-Feld 'Wohnungsnummer: 7', 2. OG. Gegenprobe Stadt Wien: Kettenbrückengasse 8 (1040) ist laut GEBAEUDEINFOOGD der einzige Nachkriegsbau im Abschnitt (nach 1945, 7 Geschoße, Wohnbau) zwischen Biedermeierhäusern (Nr. 4, 6 Schubert-Sterbehaus, 10, 12) - passt zu Baujahr 1962. Adresspunkt ADRESSENOGD = Portalpunkt. Top 7."
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-883905576": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.194818,
+   "lon": 16.361157,
+   "sicherheit": "genau",
+   "begruendung": "Inseratstext beider Portale nennt wörtlich 'Die Kettenbrückengasse 8 befindet sich ...' (https://www.immobilienscout24.at/expose/6ab63d634b0779efd2e476b7, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbaner-wohntraum-im-herzen-wiens-grosszuegige-3-zimmer-wohnung-nahe-naschmarkt-883905576/); willhaben-Feld 'Wohnungsnummer: 7', 2. OG. Gegenprobe Stadt Wien: Kettenbrückengasse 8 (1040) ist laut GEBAEUDEINFOOGD der einzige Nachkriegsbau im Abschnitt (nach 1945, 7 Geschoße, Wohnbau) zwischen Biedermeierhäusern (Nr. 4, 6 Schubert-Sterbehaus, 10, 12) - passt zu Baujahr 1962. Adresspunkt ADRESSENOGD = Portalpunkt. Top 7."
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-2091283511": {
+  "lage": {
+   "adresse": "Schaumburgergasse 6",
+   "lat": 48.191151,
+   "lon": 16.367596,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Exposé-PDF (https://www.ir.at/de/immobilien/expose/id/1662574 liefert ein PDF, Objektnr. 5296) enthält Grundriss 'Top 35 • EG' (untere Ebene der Maisonette) und Plan Top 35+36; Adresse dort weiß abgedeckt. Schwesterinserate desselben Maklers mit wortgleichem Haustext ('Eckzinshaus, 3 Regelgeschosse + ausgebautes DG', Bj. 1900, nahe Wiedner Hauptstraße/Margarethenstraße; PDF ir.at 1616407 = Obj. 5114 Top 25 1. DG, PDF ir.at 1577696 = Obj. 4911 Top 9 1. OG) haben Fensterfotos auf die Straße: gegenüber Haustür mit Hausnummernschild '5', daneben ein langer Schulbau, dahinter eine Kreuzung mit älterem Schulbau (Rundbogenfenster). Das passt zu Schaumburgergasse 5 + Volksschule Schaumburgergasse 7-7A + Kreuzung Waltergasse + Bundesrealgymnasium Waltergasse 7 (=Schaumburgergasse 9, Bj. 1853). Die Kamera steht damit auf der Westseite gegenüber Nr. 5/7, also Schaumburgergasse 6 (Bj. 1887, 4 Geschoße = EG + 3 OG; Orthofoto: Dach mit vielen Dachflächenfenstern = ausgebautes DG). Dachterrassen-Panorama zeigt Karlskirche mit DC Tower rechts davon - passt zu dieser Lage, nicht zum Portalpunkt. Unsicher: Schaumburgergasse 6 ist kein Eckhaus und mit ca. 22 x 11 m klein für 'Top 35'; Nachbar ist nur das Eckhaus Wiedner Hauptstraße 55 / Schaumburgergasse 2-4 (Café Wortner, Bj. 1814, 3 Geschoße), das nicht zu 'um 1900' passt. Portalpunkt 48.192142/16.363596 (r=255 m) liegt ca. 320 m entfernt. Dass die Schwesterinserate im selben Haus liegen, ist aus identischem Text/Makler/Baujahr geschlossen, nicht belegt. Top 35."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "wird noch saniert, Fertigstellungstermin nicht genannt (Einzug bis Q3 2027 nachfragen)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-063191323074": {
+  "lage": {
+   "adresse": "Schaumburgergasse 6",
+   "lat": 48.191151,
+   "lon": 16.367596,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Exposé-PDF (https://www.ir.at/de/immobilien/expose/id/1662574 liefert ein PDF, Objektnr. 5296) enthält Grundriss 'Top 35 • EG' (untere Ebene der Maisonette) und Plan Top 35+36; Adresse dort weiß abgedeckt. Schwesterinserate desselben Maklers mit wortgleichem Haustext ('Eckzinshaus, 3 Regelgeschosse + ausgebautes DG', Bj. 1900, nahe Wiedner Hauptstraße/Margarethenstraße; PDF ir.at 1616407 = Obj. 5114 Top 25 1. DG, PDF ir.at 1577696 = Obj. 4911 Top 9 1. OG) haben Fensterfotos auf die Straße: gegenüber Haustür mit Hausnummernschild '5', daneben ein langer Schulbau, dahinter eine Kreuzung mit älterem Schulbau (Rundbogenfenster). Das passt zu Schaumburgergasse 5 + Volksschule Schaumburgergasse 7-7A + Kreuzung Waltergasse + Bundesrealgymnasium Waltergasse 7 (=Schaumburgergasse 9, Bj. 1853). Die Kamera steht damit auf der Westseite gegenüber Nr. 5/7, also Schaumburgergasse 6 (Bj. 1887, 4 Geschoße = EG + 3 OG; Orthofoto: Dach mit vielen Dachflächenfenstern = ausgebautes DG). Dachterrassen-Panorama zeigt Karlskirche mit DC Tower rechts davon - passt zu dieser Lage, nicht zum Portalpunkt. Unsicher: Schaumburgergasse 6 ist kein Eckhaus und mit ca. 22 x 11 m klein für 'Top 35'; Nachbar ist nur das Eckhaus Wiedner Hauptstraße 55 / Schaumburgergasse 2-4 (Café Wortner, Bj. 1814, 3 Geschoße), das nicht zu 'um 1900' passt. Portalpunkt 48.192142/16.363596 (r=255 m) liegt ca. 320 m entfernt. Dass die Schwesterinserate im selben Haus liegen, ist aus identischem Text/Makler/Baujahr geschlossen, nicht belegt. Top 35."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "wird noch saniert, Fertigstellungstermin nicht genannt (Einzug bis Q3 2027 nachfragen)"
+  },
+  "datum": "2026-11-15"
+ },
+ "fm-5665050": {
+  "lage": {
+   "adresse": "Schaumburgergasse 6",
+   "lat": 48.191151,
+   "lon": 16.367596,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Exposé-PDF (https://www.ir.at/de/immobilien/expose/id/1662574 liefert ein PDF, Objektnr. 5296) enthält Grundriss 'Top 35 • EG' (untere Ebene der Maisonette) und Plan Top 35+36; Adresse dort weiß abgedeckt. Schwesterinserate desselben Maklers mit wortgleichem Haustext ('Eckzinshaus, 3 Regelgeschosse + ausgebautes DG', Bj. 1900, nahe Wiedner Hauptstraße/Margarethenstraße; PDF ir.at 1616407 = Obj. 5114 Top 25 1. DG, PDF ir.at 1577696 = Obj. 4911 Top 9 1. OG) haben Fensterfotos auf die Straße: gegenüber Haustür mit Hausnummernschild '5', daneben ein langer Schulbau, dahinter eine Kreuzung mit älterem Schulbau (Rundbogenfenster). Das passt zu Schaumburgergasse 5 + Volksschule Schaumburgergasse 7-7A + Kreuzung Waltergasse + Bundesrealgymnasium Waltergasse 7 (=Schaumburgergasse 9, Bj. 1853). Die Kamera steht damit auf der Westseite gegenüber Nr. 5/7, also Schaumburgergasse 6 (Bj. 1887, 4 Geschoße = EG + 3 OG; Orthofoto: Dach mit vielen Dachflächenfenstern = ausgebautes DG). Dachterrassen-Panorama zeigt Karlskirche mit DC Tower rechts davon - passt zu dieser Lage, nicht zum Portalpunkt. Unsicher: Schaumburgergasse 6 ist kein Eckhaus und mit ca. 22 x 11 m klein für 'Top 35'; Nachbar ist nur das Eckhaus Wiedner Hauptstraße 55 / Schaumburgergasse 2-4 (Café Wortner, Bj. 1814, 3 Geschoße), das nicht zu 'um 1900' passt. Portalpunkt 48.192142/16.363596 (r=255 m) liegt ca. 320 m entfernt. Dass die Schwesterinserate im selben Haus liegen, ist aus identischem Text/Makler/Baujahr geschlossen, nicht belegt. Top 35."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "wird noch saniert, Fertigstellungstermin nicht genannt (Einzug bis Q3 2027 nachfragen)"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1505576897": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.190056,
+   "lon": 16.36544,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Text: 'in der charmanten Lambrechtgasse', Bj. 1871, 5 Geschoße (EG, 1.-3. OG, ausgebautes DG), Lift, voll unterkellert; verkauft werden Top 5 (104,70 m²) + Top 5a (35,70 m²) im 3. OG. Fassadenfoto (Hausnummer weggeretuscht): schmales 5-achsiges Gründerzeithaus, Einfahrt links, rechter Nachbar eingerüstet. Gegenproben Stadt Wien: In der Lambrechtgasse hat nur Nr. 4 die Kombination 5 Geschoße + 'betriebliche Nutzung' (alle ImmoTrading-Einheiten im Haus sind Büros) + Gründerzeit 1848-1918, kein Eckhaus; FMZK-Straßenfront Nr. 4 ca. 10,8 m (passt zu 5 Achsen); Nachbarn 6 und 8 haben 4 Geschoße, Nr. 2 ist Eckhaus (im Orthofoto Baustelle/Planen = eingerüsteter Nachbar). Schwesterinserate desselben Hauses ohne Hausnummer: Büro 1. OG 102,5 m² (https://www.weekend.at/de/immobilie/charmanter-altbau-in-begehrter-lage-des-4-wiener-gemeindebezirks/OBGC202607111036416127a5634247f), EG Top 1/1a Büro mit Garten (https://www.immobilienscout24.at/expose/6a555c18030fad82cc571442). Top 5 + 5a."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büro im Zinshaus, Wohnnutzung erst nach Umwidmung (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-440264054740": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.190056,
+   "lon": 16.36544,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Text: 'in der charmanten Lambrechtgasse', Bj. 1871, 5 Geschoße (EG, 1.-3. OG, ausgebautes DG), Lift, voll unterkellert; verkauft werden Top 5 (104,70 m²) + Top 5a (35,70 m²) im 3. OG. Fassadenfoto (Hausnummer weggeretuscht): schmales 5-achsiges Gründerzeithaus, Einfahrt links, rechter Nachbar eingerüstet. Gegenproben Stadt Wien: In der Lambrechtgasse hat nur Nr. 4 die Kombination 5 Geschoße + 'betriebliche Nutzung' (alle ImmoTrading-Einheiten im Haus sind Büros) + Gründerzeit 1848-1918, kein Eckhaus; FMZK-Straßenfront Nr. 4 ca. 10,8 m (passt zu 5 Achsen); Nachbarn 6 und 8 haben 4 Geschoße, Nr. 2 ist Eckhaus (im Orthofoto Baustelle/Planen = eingerüsteter Nachbar). Schwesterinserate desselben Hauses ohne Hausnummer: Büro 1. OG 102,5 m² (https://www.weekend.at/de/immobilie/charmanter-altbau-in-begehrter-lage-des-4-wiener-gemeindebezirks/OBGC202607111036416127a5634247f), EG Top 1/1a Büro mit Garten (https://www.immobilienscout24.at/expose/6a555c18030fad82cc571442). Top 5 + 5a."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büro im Zinshaus, Wohnnutzung erst nach Umwidmung (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1551722658": {
+  "lage": {
+   "adresse": "Schelleingasse",
+   "lat": 48.186981,
+   "lon": 16.373836,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen), Lift, Gründerzeit-Altbau. Willhaben zeigt keine Karte (SHOW_MAP false), Portalpunkt wertlos. Fassadenfoto: breites symmetrisches Späthistorismus-Haus (ca. 10 Achsen, EG + 4 Geschoße, Mittelportal mit Vasen/Kartuschen, Garagentor links im Sockel), linker Nachbar eingerüstet, rechts gelbes Gründerzeithaus, Schrägparkplätze, keine Straßenbäume; Hausnummer nicht sichtbar. Gegenproben: typologisch passen die Doppeltrakter Schelleingasse 6, 8, 10, 12 (1910-12), 46 (1902) oder 52 (1905); Nr. 44 (3SI, renoviert, Bäume davor) passt nicht als Nachbar. Kein Dokument, Makler-Website (klutz-ivb.at) ohne Exposé. Keine Hausnummer belegbar. Top 3. Punkt: Mitte der Schelleingasse, Hausnummer offen."
   },
   "datum": "2026-11-15"
  }

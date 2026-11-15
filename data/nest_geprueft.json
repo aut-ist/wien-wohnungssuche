@@ -4064,12 +4064,13 @@
  "wh-1936450562": {
   "ids": [
    "wh-1936450562",
+   "wh-1918956062",
    "is-242596775507",
    "ds-15274027"
   ],
-  "titel": "WOHNTRAUM IM BOTSCHAFTSVIERTEL | HELLE 3-ZIMMERWOHNUNG",
-  "ergebnis": "Rechte Bahngasse (Straße laut Text und Exposé https://www.wienraum.at/expose/16988149/1547467); Hausnummer erschlossen: Rechte Bahngasse 48 (einziger Nachkriegsbau der Straße, Bj. 1948 laut data.wien.gv.at GEBAEUDEINFO; Inserat Bj. 1952/1955; Nähe Kathedrale/Sacré Coeur passt). Alternative Jaurèsgasse 5-7 (Bj. 1952, gleich ums Eck). Top unbekannt, 3. Stock. Grundriss ohne Adresse, Exposé/Matterport/YouTube ohne Adresse.",
-  "datum": "2026-11-01"
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Rechte Bahngasse 48 (ungefaehr)"
  },
  "wh-2034706878": {
   "ids": [
@@ -6222,5 +6223,49 @@
   "titel": "",
   "datum": "2026-11-15",
   "ergebnis": "Kettenbrückengasse 8 (ungefaehr)"
+ },
+ "wh-1951630935": {
+  "ids": [
+   "wh-1951630935"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Text: 'in der Karlsgasse' (1040), nahe Karlskirche/TU, 1. Stock, hofseitig. Einreichplan unter den Fotos (willhaben-Bild 0935_1878305155.jpg) zeigt 'TOP 5, 1. Stock', Nutzfläche neu 120,62 m², Grundei"
+ },
+ "is-509233592559": {
+  "ids": [
+   "is-509233592559",
+   "wh-883905576"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Kettenbrückengasse 8, Top 7 (genau)"
+ },
+ "wh-2091283511": {
+  "ids": [
+   "wh-2091283511",
+   "is-063191323074",
+   "fm-5665050"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Schaumburgergasse 6, Top 35 (ungefaehr)"
+ },
+ "wh-1505576897": {
+  "ids": [
+   "wh-1505576897",
+   "is-440264054740"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Lambrechtgasse 4, Top 5 + 5a (ungefaehr)"
+ },
+ "wh-1551722658": {
+  "ids": [
+   "wh-1551722658"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen)"
  }
 }

@@ -47,7 +47,7 @@
    "wh-1951630935"
   ],
   "titel": "AM KARLSPLATZ!",
-  "adresse": null,
+  "adresse": "Karlsgasse",
   "flaeche": 120.62,
   "zimmer": 4,
   "im_nest": false,
@@ -75,21 +75,24 @@
   "ordner": "data/grundrisse_zeichnen/wh-1267554905/"
  },
  {
-  "id": "wh-1766625657",
+  "id": "is-509233592559",
   "ids": [
+   "is-509233592559",
+   "wh-883905576",
    "wh-1766625657",
    "is-735305166633"
   ],
-  "titel": "3-Zimmer-Wohnung Nähe Naschmarkt",
+  "titel": "Urbaner Wohntraum im Herzen Wiens – großzügige 3-Zimmer-Wohnung nahe Naschmarkt",
   "adresse": "Kettenbrückengasse 8",
-  "flaeche": 84.1,
+  "flaeche": 84.19,
   "zimmer": 3,
   "im_nest": false,
   "neu_gezeichnet": false,
   "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3r9Y-1789547189-9ae17f6f549e4c20ae348027085c0ddb",
    "https://cache.willhaben.at/mmo/7/176/662/5657_1321912106.jpg"
   ],
-  "ordner": "data/grundrisse_zeichnen/wh-1766625657/"
+  "ordner": "data/grundrisse_zeichnen/is-509233592559/"
  },
  {
   "id": "wh-1859602771",
@@ -123,41 +126,5 @@
    "https://media.findmyhome.at/md1/4/5555023/s1/DB10118428_4D47.JPG"
   ],
   "ordner": "data/grundrisse_zeichnen/fm-5555023/"
- },
- {
-  "id": "is-509233592559",
-  "ids": [
-   "is-509233592559",
-   "wh-883905576"
-  ],
-  "titel": "Urbaner Wohntraum im Herzen Wiens – großzügige 3-Zimmer-Wohnung nahe Naschmarkt",
-  "adresse": "Kettenbrückengasse 8",
-  "flaeche": 84.19,
-  "zimmer": 3,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3r9Y-1789547189-9ae17f6f549e4c20ae348027085c0ddb"
-  ],
-  "ordner": "data/grundrisse_zeichnen/is-509233592559/"
- },
- {
-  "id": "wh-2091283511",
-  "ids": [
-   "wh-2091283511",
-   "is-063191323074",
-   "fm-5665050"
-  ],
-  "titel": "Erstbezug 5-Zimmer Wohnung mit Terrasse im DG, Nähe Wiedner Hauptstraße",
-  "adresse": null,
-  "flaeche": 119.85,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/1/209/128/3511_-1348436995_n.jpg",
-   "https://cache.willhaben.at/mmo/1/209/128/3511_1932362825_n.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-2091283511/"
  }
 ]
