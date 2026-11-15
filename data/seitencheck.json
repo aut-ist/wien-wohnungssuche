@@ -1,6 +1,6 @@
 {
  "datum": "2026-11-15",
- "zeit": "20:53",
+ "zeit": "20:56",
  "ok": true,
  "probleme": [],
  "werte": {
@@ -8,12 +8,12 @@
   "eier": 46,
   "karten": 18,
   "bilder_geladen": 18,
-  "dom": 1392,
-  "heap_mb": 29,
+  "dom": 1373,
+  "heap_mb": 26,
   "eier_gescrollt": 46,
   "karten_gescrollt": 18,
   "bilder_geladen_gescrollt": 18,
-  "dom_gescrollt": 1392,
-  "heap_mb_gescrollt": 29
+  "dom_gescrollt": 1373,
+  "heap_mb_gescrollt": 26
  }
 }

@@ -272,66 +272,6 @@
   .laerm-stufen span { width: 30px; text-align: center; }
   .laerm-stufen i { display: block; height: 9px; border-radius: 2px; margin-bottom: 1px; }
   .laerm-fehler { color: #b3261e; margin-top: 3px; }
-  /* ---------- Ideen-Modus (2026-11-15): Vollbild-Karte nur mit Ideen-Grätzln und Öffis ---------- */
-  #app.ideen-modus { grid-template-columns: 1fr !important; grid-template-rows: 1fr !important; }
-  #app.ideen-modus > header, #app.ideen-modus > #seite, #app.ideen-modus > section { display: none !important; }
-  #app.ideen-modus #map { grid-row: 1 / -1 !important; grid-column: 1 / -1; }
-  .ideen-an .leaflet-marker-pane, .ideen-an .leaflet-shadow-pane, .ideen-an .leaflet-popup-pane { display: none; }
-  .ideen-an .leaflet-top.leaflet-left, .ideen-an .leaflet-bottom.leaflet-right > .leaflet-control:not(.leaflet-control-attribution) { display: none; }
-  .ideen-an .leaflet-top.leaflet-right { top: calc(66px + env(safe-area-inset-top, 0px)); }
-  #ideenLeiste { position: fixed; z-index: 1200; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 10px;
-    padding: calc(10px + env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) 10px max(12px, env(safe-area-inset-left, 0px));
-    background: linear-gradient(var(--panel) 70%, transparent); }
-  #ideenLeiste[hidden], #ideenFarben[hidden], #ideeVoll[hidden] { display: none; }
-  #ideenLeiste .btn { flex: none; box-shadow: var(--shadow); }
-  #ideenLeiste .titel { min-width: 0; line-height: 1.25; }
-  #ideenLeiste .titel b { display: block; font-size: 16px; }
-  #ideenLeiste .titel small { display: block; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  #ideenFarben { position: fixed; z-index: 1200; left: max(10px, env(safe-area-inset-left, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px));
-    display: flex; flex-wrap: wrap; gap: 6px; max-width: calc(100vw - 60px); }
-  #ideenFarben span { display: inline-flex; align-items: center; gap: 5px; background: var(--panel); border-radius: 999px; padding: 4px 10px;
-    font-size: 12px; box-shadow: var(--shadow); }
-  #ideenFarben i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
-  .idee-nr { display: flex; align-items: center; gap: 4px; white-space: nowrap; cursor: pointer; }
-  .idee-nr span { flex: none; width: 32px; height: 32px; border-radius: 50%; color: #fff; font: 700 15px/32px system-ui, sans-serif; text-align: center;
-    border: 2.5px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.35); }
-  .idee-nr em { display: none; font: 600 12px system-ui, sans-serif; font-style: normal; background: rgba(255,255,255,.92); color: #1d231f;
-    padding: 2px 7px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
-  .ideen-namen .idee-nr em { display: inline; }
-  /* Vollbild-Info zu einem Grätzl */
-  #ideeVoll { position: fixed; z-index: 4000; inset: 0; background: var(--panel); overflow-y: auto; overscroll-behavior: contain;
-    padding-bottom: env(safe-area-inset-bottom, 0px); }
-  @media (min-width: 801px) { #ideeVoll { left: auto; width: min(540px, 100%); box-shadow: -8px 0 30px rgba(0,0,0,.25); } }
-  .iv-kopf { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 8px;
-    padding: calc(8px + env(safe-area-inset-top, 0px)) 12px 8px; background: var(--panel); border-bottom: 1px solid var(--line); }
-  .iv-kopf .nav { display: flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 13px; }
-  .iv-kopf .btn { padding: 6px 12px; }
-  .iv-fotos { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; background: #111; }
-  .iv-fotos::-webkit-scrollbar { display: none; }
-  .iv-fotos figure { flex: 0 0 100%; margin: 0; position: relative; scroll-snap-align: start; }
-  .iv-fotos img { width: 100%; height: min(56vw, 44dvh); object-fit: cover; display: block; }
-  .iv-fotos figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 12px 8px; color: #fff; font-size: 13px; line-height: 1.3;
-    background: linear-gradient(transparent, rgba(0,0,0,.7)); }
-  .iv-fotos figcaption small { display: block; font-size: 10.5px; opacity: .8; }
-  .iv-fotos figcaption a { color: inherit; }
-  .iv-punkte { display: flex; justify-content: center; gap: 5px; padding: 8px 0 0; }
-  .iv-punkte i { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
-  .iv-punkte i.an { background: var(--ink); }
-  .iv-inhalt { padding: 10px 16px 24px; display: grid; gap: 14px; }
-  .iv-titel { display: flex; gap: 10px; align-items: center; }
-  .iv-titel .nr { flex: none; width: 34px; height: 34px; border-radius: 50%; color: #fff; font: 700 16px/34px system-ui, sans-serif; text-align: center; }
-  .iv-titel h2 { margin: 0; font-size: 20px; line-height: 1.2; }
-  .iv-titel small { display: block; color: var(--muted); font-size: 13.5px; }
-  .iv-zeiten { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-  .iv-zeiten div { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
-  .iv-zeiten b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
-  .iv-zeiten span { font-size: 12.5px; color: var(--muted); line-height: 1.3; display: block; }
-  .iv-block h3 { margin: 0 0 3px; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
-  .iv-block p { margin: 0; font-size: 15px; line-height: 1.5; }
-  .iv-knoepfe { display: flex; flex-wrap: wrap; gap: 8px; }
-  .iv-knoepfe a, .iv-knoepfe button { text-decoration: none; }
-  .iv-knoepfe .btn { color: var(--ink); }
-  .iv-knoepfe .haupt { background: var(--ink); color: var(--panel); border-color: var(--ink); }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
   .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
   .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
@@ -453,10 +393,6 @@
     <div id="detail" aria-live="polite"></div>
   </aside>
   <div id="map"></div>
-  <div id="ideenLeiste" hidden><button class="btn" id="ideenZurueck">‹ Zurück</button>
-    <div class="titel"><b>💡 Ideen für euer Nestle</b><small>Tippt auf einen Punkt · Minuten: U6 am Gürtel / Schottentor</small></div></div>
-  <div id="ideenFarben" hidden><span><i style="background:#d9631e"></i>nah dran</span><span><i style="background:#2f6fb5"></i>grüner, ruhiger</span><span><i style="background:#8a5bc4"></i>Neubau</span><span><i style="background:#8b938d"></i>zu weit</span></div>
-  <div id="ideeVoll" role="dialog" aria-modal="true" aria-label="Grätzl im Detail" hidden></div>
   <dialog id="frage" aria-labelledby="frageTitel">
     <form method="dialog">
       <h3 id="frageTitel">Wirklich raushaun?</h3>
@@ -1441,9 +1377,7 @@ const laermEbene = new LaermKacheln('https://inspire.lfrz.gv.at/000804/wms', {
 });
 // Öffis nur zeigen, wenn der Filter-Knopf an und die Lärmkarte aus ist (sonst sieht man den Lärm nicht gut genug, Wunsch 2026-11-10)
 function oeffisAnwenden() {
-  // Ideen an: ihr eigenes Netz statt der Suchgebiets-Öffis (sonst am Handy zu viele Linien, 2026-11-15)
-  const an = document.getElementById('btnOeffis').getAttribute('aria-pressed') === 'true' && !map.hasLayer(laermEbene)
-    && !map.getContainer().classList.contains('ideen-an');
+  const an = document.getElementById('btnOeffis').getAttribute('aria-pressed') === 'true' && !map.hasLayer(laermEbene);
   if (an) oeffiEbene.addTo(map); else oeffiEbene.remove();
   document.querySelectorAll('.oeffi-leg').forEach(x => x.style.display = an ? '' : 'none');
 }
@@ -1475,140 +1409,6 @@ laermSchalter.onAdd = () => {
 };
 laermSchalter.addTo(map);
 
-// Ideen-Modus (Saad 2026-11-15, data/ideen.json, tools/ideen_karte.py): eigene Vollbild-Karte nur mit den Ideen-Grätzln
-// und ihren Öffis (U-Bahn immer, Straßenbahn ab Zoom 14, Bus ab 15); Tipp auf einen Punkt = ganze Info im Vollbild mit Fotos.
-// Nur über den 💡-Knopf, nicht in der Gast-Ansicht ?nest. Wird erst beim ersten Einschalten geladen.
-map.createPane('ideen').style.zIndex = 375;  // unter den Öffis, über der Grundkarte
-const ideenEbene = L.layerGroup();
-const IDEE_FARBE = { a: '#d9631e', b: '#2f6fb5', c: '#8a5bc4' };
-const IDEE_STUFE = { a: 'Nah dran', b: 'Grüner oder ruhiger', c: 'Neubauquartier' };
-let ideen = null, ideenNah = null, ideeIdx = 0, ideenVorher = null;
-async function ideenLaden() {
-  const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
-  const [daten, netz] = await Promise.all([j('geo/ideen.json'), j('geo/oeffis_ideen.geojson')]);
-  const linien = typen => L.geoJSON(netz, { pane: 'oeffis', interactive: false, filter: f => typen.includes(f.properties.typ),
-    style: f => { const o = OEFFI[f.properties.typ], fein = f.properties.typ !== 'ubahn';
-      return { color: f.properties.farbe || o.c, weight: fein ? o.w - 0.5 : o.w, dashArray: o.d, opacity: fein ? .6 : .85 }; } });
-  linien(['ubahn']).addTo(ideenEbene);
-  const bim = linien(['tram']), bus = linien(['bus']);
-  const stationen = L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
-    pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1, interactive: false })
-      .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' }) });
-  for (const w of daten.zu_weit) {
-    L.circle([w.lat, w.lon], { pane: 'ideen', radius: w.r, color: '#8b938d', weight: 1.5, dashArray: '4 4', fillColor: '#8b938d', fillOpacity: .12 })
-      .bindTooltip(`${esc(w.name)}: schön, aber ${w.guertel_min} min zum Gürtel`, { direction: 'top' }).addTo(ideenEbene);
-  }
-  daten.gebiete.forEach((g, i) => {
-    const farbe = IDEE_FARBE[g.stufe];
-    L.circle([g.lat, g.lon], { pane: 'ideen', radius: g.r, color: farbe, weight: 2.5, fillColor: farbe, fillOpacity: .2 })
-      .on('click', () => ideeZeigen(i)).addTo(ideenEbene);
-    L.marker([g.lat, g.lon], { pane: 'ideen', icon: L.divIcon({ className: 'idee-nr', iconSize: [32, 32], iconAnchor: [16, 16],
-      html: `<span style="background:${farbe}">${g.nr}</span><em>${esc(g.name.replace(/ \(\d+\.\)$/, ''))} · ${g.guertel_min}/${g.schottentor_min} min</em>` }) })
-      .on('click', () => ideeZeigen(i)).addTo(ideenEbene);
-  });
-  ideenNah = () => {
-    const an = map.hasLayer(ideenEbene), z = map.getZoom();
-    for (const [l, ab] of [[bim, 14], [stationen, 14], [bus, 15]]) an && z >= ab ? ideenEbene.addLayer(l) : ideenEbene.removeLayer(l);
-    map.getContainer().classList.toggle('ideen-namen', an && z >= 14);
-  };
-  map.on('zoomend', () => ideenNah());
-  ideen = daten;
-}
-async function ideenAn() {
-  const knopf = document.querySelector('[aria-label="Ideen"]');
-  try { if (!ideen) await ideenLaden(); } catch (e) { return; }
-  ideenVorher = { mitte: map.getCenter(), zoom: map.getZoom() };
-  if (state.aktiv) schliesse();
-  document.getElementById('app').classList.add('ideen-modus');
-  map.getContainer().classList.add('ideen-an');
-  knopf?.setAttribute('aria-pressed', true);
-  oeffisAnwenden();
-  ideenEbene.addTo(map);
-  document.getElementById('ideenLeiste').hidden = false;
-  document.getElementById('ideenFarben').hidden = false;
-  map.invalidateSize({ pan: false });  // die Karte ist jetzt bildschirmfüllend: erst neu messen, dann einpassen
-  requestAnimationFrame(() => {
-    map.invalidateSize({ pan: false });
-    map.fitBounds(L.latLngBounds(ideen.gebiete.map(g => [g.lat, g.lon])), { paddingTopLeft: [24, 90], paddingBottomRight: [24, 80], animate: false });
-    ideenNah();
-  });
-}
-function ideenAus() {
-  if (!document.getElementById('app').classList.contains('ideen-modus')) return;
-  ideeZu();
-  ideenEbene.remove();
-  document.getElementById('app').classList.remove('ideen-modus');
-  map.getContainer().classList.remove('ideen-an', 'ideen-namen');
-  document.querySelector('[aria-label="Ideen"]')?.setAttribute('aria-pressed', false);
-  document.getElementById('ideenLeiste').hidden = true;
-  document.getElementById('ideenFarben').hidden = true;
-  oeffisAnwenden();
-  setTimeout(() => { map.invalidateSize(); if (ideenVorher) map.setView(ideenVorher.mitte, ideenVorher.zoom, { animate: false }); }, 60);
-}
-function ideeZeigen(i) {
-  const n = ideen.gebiete.length;
-  ideeIdx = (i + n) % n;
-  const g = ideen.gebiete[ideeIdx], farbe = IDEE_FARBE[g.stufe];
-  const sv = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${g.streetview[0]},${g.streetview[1]}`;
-  const fotos = g.fotos || [];
-  const el = document.getElementById('ideeVoll');
-  el.innerHTML = `
-    <div class="iv-kopf">
-      <button class="btn" data-iv="zu" aria-label="Schließen">✕</button>
-      <div class="nav"><button class="btn" data-iv="vor" aria-label="Vorheriges Grätzl">‹</button>${ideeIdx + 1} / ${n}<button class="btn" data-iv="nach" aria-label="Nächstes Grätzl">›</button></div>
-    </div>
-    ${fotos.length ? `<div class="iv-fotos">${fotos.map(f => `<figure>${img(f.url, `alt="${esc(f.text)}"`)}
-      <figcaption>${esc(f.text)}<small>Foto: ${esc(f.von)}, ${esc(f.lizenz)}, <a href="${esc(f.quelle)}" target="_blank" rel="noopener">Wikimedia Commons</a></small></figcaption></figure>`).join('')}</div>
-      <div class="iv-punkte">${fotos.map((_, k) => `<i class="${k ? '' : 'an'}"></i>`).join('')}</div>` : ''}
-    <div class="iv-inhalt">
-      <div class="iv-titel"><span class="nr" style="background:${farbe}">${g.nr}</span><div><h2>${esc(g.name)}</h2><small>${esc(IDEE_STUFE[g.stufe])} · ${esc(g.unter)}</small></div></div>
-      <div class="iv-zeiten">
-        <div><b>${g.guertel_min} min</b><span>zur U6 am Gürtel<br>ab ${esc(g.guertel_ab)}</span></div>
-        <div><b>${g.schottentor_min} min</b><span>zum Schottentor<br>ab ${esc(g.schottentor_ab)}</span></div>
-      </div>
-      <div class="iv-knoepfe">
-        <a class="btn haupt" href="${sv}" target="_blank" rel="noopener">👁 Street View</a>
-        <button class="btn" data-iv="karte">📍 Auf der Karte</button>
-        ${g.reddit ? `<a class="btn" href="${esc(g.reddit)}" target="_blank" rel="noopener">Reddit</a>` : ''}
-      </div>
-      <div class="iv-block"><h3>Warum es euch gefallen würde</h3><p>${esc(g.gefallen)}</p></div>
-      <div class="iv-block"><h3>Wie es dort ist</h3><p>${esc(ideeBeschreibung(g))}</p></div>
-      <div class="iv-block"><h3>Schulen</h3><p>${esc(g.schulen)}</p></div>
-      <div class="iv-block"><h3>Aber</h3><p>${esc(g.minus)}</p></div>
-    </div>`;
-  el.hidden = false;
-  el.scrollTop = 0;
-  const strip = el.querySelector('.iv-fotos');
-  if (strip) strip.addEventListener('scroll', () => {
-    const k = Math.round(strip.scrollLeft / strip.clientWidth);
-    el.querySelectorAll('.iv-punkte i').forEach((p, x) => p.classList.toggle('an', x === k));
-  }, { passive: true });
-}
-const ideeBeschreibung = g => g.text || g.unter;
-function ideeZu() { const el = document.getElementById('ideeVoll'); el.hidden = true; el.innerHTML = ''; }
-document.getElementById('ideeVoll').addEventListener('click', e => {
-  const a = e.target.closest('[data-iv]')?.dataset.iv;
-  if (a === 'zu') ideeZu();
-  if (a === 'vor') ideeZeigen(ideeIdx - 1);
-  if (a === 'nach') ideeZeigen(ideeIdx + 1);
-  if (a === 'karte') { const g = ideen.gebiete[ideeIdx]; ideeZu(); map.flyTo([g.lat, g.lon], 15, { duration: .8 }); }
-});
-document.addEventListener('keydown', e => {
-  if (document.getElementById('ideeVoll').hidden) return;
-  if (e.key === 'Escape') ideeZu();
-  if (e.key === 'ArrowRight') ideeZeigen(ideeIdx + 1);
-  if (e.key === 'ArrowLeft') ideeZeigen(ideeIdx - 1);
-});
-document.getElementById('ideenZurueck').addEventListener('click', ideenAus);
-const ideenSchalter = L.control({ position: 'topleft' });
-ideenSchalter.onAdd = () => {
-  const d = L.DomUtil.create('div', 'laerm-schalter');
-  d.innerHTML = '<button class="btn" aria-pressed="false" aria-label="Ideen" title="Ideen-Grätzl außerhalb der Suchgebiete">💡<span class="laerm-name">Ideen</span></button>';
-  L.DomEvent.disableClickPropagation(d);
-  d.querySelector('button').addEventListener('click', () => ideenAn());
-  return d;
-};
-if (!NUR_NEST) ideenSchalter.addTo(map);  // nur für Saad und Gigi, nicht in der Gast-Ansicht ?nest (Wunsch 2026-11-15)
 
 document.addEventListener('keydown', e => {
   if (vb.el.classList.contains('offen')) {  // Vollbild hat Vorrang
@@ -1632,7 +1432,7 @@ function tabWechseln(tab) {
   document.getElementById('liste').scrollTop = 0;
   schliesse(); zeichne();
 }
-document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => { ideenAus(); tabWechseln(b.dataset.tab); }));
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => tabWechseln(b.dataset.tab)));
 document.getElementById('btnOeffis').addEventListener('click', e => {
   e.currentTarget.setAttribute('aria-pressed', e.currentTarget.getAttribute('aria-pressed') !== 'true');
   oeffisAnwenden();
