@@ -20,6 +20,7 @@ BEZIRKE = {
     1010: "Wien 1., Innere Stadt",
     1020: "Wien 2., Leopoldstadt",
     1030: "Wien 3., Landstraße",
+    1040: "Wien 4., Wieden",
     1080: "Wien 8., Josefstadt",
     1090: "Wien 9., Alsergrund",
     1170: "Wien 17., Hernals",

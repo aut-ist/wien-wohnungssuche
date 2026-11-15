@@ -256,3 +256,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   einem Claude-Artifact (Link in ideen.json, privat). Die Ideen sind KEINE Suchgebiete: der Scrape sucht dort nicht.
 - Öffis auf der Karte (Saad 2026-11-15, am Handy sonst „scheußlich unübersichtlich“): in der Übersicht nur U-Bahn und S-Bahn,
   Straßenbahn ab Zoom 14, Bus ab Zoom 15 (dünner, blasser), Stationen ab 14. Gilt auch für die Ideen-Ebene.
+- Seit 2026-11-15 (Saad, „großzügige Grenzen“) zwei weitere blaue Zonen: Botschaftsviertel im 3. (Rennweg bis Beatrixgasse,
+  Ungargasse bis Heumarkt, ergänzt die Fußweg-Zone um den Rochusmarkt nach Westen) und Freihausviertel/Wieden-Nord im 4. (alles
+  nördlich ca. 48,192°, Höhe Mühlgasse/Rainergasse/Südrand Theresianum, inkl. Belvedere-Westseite). Dafür wird 1040 auf allen Portalen
+  gescrapt (config `mit_zonen`, Slugs in den Portal-Modulen, FindMyHome-Bezirk 103), geo/bezirke.geojson hat den 4., Inserate nur mit
+  „4. Bezirk“ sind grau mit Lage-Frage wie im 1./2./3. Beide Gebiete kamen aus den Ideen-Grätzln (data/ideen.json).

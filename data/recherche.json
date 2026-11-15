@@ -1,1 +1,31 @@
-[]
+[
+ {
+  "id": "wh-1918956062",
+  "ids": [
+   "wh-1918956062"
+  ],
+  "titel": "WOHNTRAUM IM BOTSCHAFTSVIERTEL | HELLE 3-ZIMMERWOHNUNG",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/wohntraum-im-botschaftsviertel-helle-3-zimmerwohnung-1918956062/"
+  ],
+  "anbieter": "WIENRAUM Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Botschaftsviertel (Rennweg bis Beatrixgasse, Ungargasse bis Heumarkt)",
+  "punkt": [
+   48.19836,
+   16.385238
+  ],
+  "versatz_m": 0,
+  "preis": 499000.0,
+  "flaeche": 79.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1918956062/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-03",
+  "portaladresse_pruefen": false
+ }
+]

@@ -21,6 +21,7 @@ SLUGS = {
     1010: "1-bezirk-innere-stadt",
     1020: "2-bezirk-leopoldstadt",
     1030: "3-bezirk-landstrasse",
+    1040: "4-bezirk-wieden",
     1080: "8-bezirk-josefstadt",
     1090: "9-bezirk-alsergrund",
     1170: "17-bezirk-hernals",

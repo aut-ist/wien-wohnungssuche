@@ -12,6 +12,7 @@ SLUGS = {
     1010: "wien-1010-innere-stadt",
     1020: "wien-1020-leopoldstadt",
     1030: "wien-1030-landstrasse",
+    1040: "wien-1040-wieden",
     1080: "wien-1080-josefstadt",
     1090: "wien-1090-alsergrund",
     1170: "wien-1170-hernals",

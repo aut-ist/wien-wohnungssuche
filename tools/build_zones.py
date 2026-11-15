@@ -100,6 +100,15 @@ GEO_ZONEN = {
                     (48.19072, 16.39696), (48.19174, 16.39524), (48.19276, 16.39294), (48.19369, 16.39023),
                     (48.19442, 16.3866), (48.19493, 16.38526), (48.19573, 16.38326), (48.19698, 16.38041),
                     (48.19788, 16.37812), (48.2000, 16.3740), (48.2160, 16.3700)],
+    # Botschaftsviertel (Saad 2026-11-15, „großzügige Grenzen“): Süd = Rennweg (dieselben Punkte wie die Landstraße-Zone),
+    # Ost = Ungargasse bis zum Rennweg, Nord = Beatrixgasse/Johannesgasse, West = Bezirksgrenze (Am Heumarkt/Lothringerstraße,
+    # hier großzügig nach außen, wird genau auf den 3. zugeschnitten). Ergänzt die Fußweg-Zone um Rochusmarkt/U3 nach Westen.
+    "botschaftsviertel": [(48.2000, 16.3740), (48.19788, 16.37812), (48.19698, 16.38041), (48.19573, 16.38326),
+                          (48.19493, 16.38526), (48.19442, 16.3866), (48.2005, 16.3880), (48.2040, 16.3860),
+                          (48.2062, 16.3790), (48.2062, 16.3680)],
+    # Freihausviertel und Wieden-Nord (Saad 2026-11-15, „großzügig“): der ganze 4. nördlich ca. 48,192° (Höhe Mühlgasse/
+    # Rainergasse/Südrand Theresianum, Belvedere-Westseite bis Prinz-Eugen-Straße); wird genau auf den 4. zugeschnitten.
+    "freihaus": [(48.2060, 16.3500), (48.2060, 16.3900), (48.1920, 16.3900), (48.1920, 16.3500)],
     # Hernals (Wunsch 2026-11-11): Dreieck zwischen Kalvarienberggasse (West, 20 m westlich der Straßenmitte, die
     # Westseite der Geschäftsstraße bleibt draußen), 18er-Grenze (Nord/Ost) und Jörgerstraße (Süd, 35 m nördlich
     # der Straßenmitte, die Jörgerstraße selbst bleibt draußen). Punkte aus OpenStreetMap; Nord/Ost großzügig,
@@ -125,6 +134,10 @@ ZONES = [
     # (Saad: max. 10 min zu Fuß; Polygon aus tools/fussweg_zone.py)
     {"id": "landstrasse", "rolle": "erlaubt", "name": "Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
+    {"id": "botschaftsviertel", "rolle": "erlaubt", "name": "Botschaftsviertel (Rennweg bis Beatrixgasse, Ungargasse bis Heumarkt)",
+     "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau"},
+    {"id": "freihaus", "rolle": "erlaubt", "name": "Freihausviertel / Wieden-Nord (bis Höhe Theresianum)",
+     "nur_in_bezirk": 4, "puffer_m": 50, "zuschneiden": "genau"},
     # streng: auch ungefähre Lagen darin sind raus (Saad 2026-11-01); wird wie die anderen roten Zonen gezeichnet
     {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel / Hundertwasserhaus (zu weit zur U-Bahn)",
      "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau", "streng": True},
