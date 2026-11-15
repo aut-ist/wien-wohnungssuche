@@ -6310,5 +6310,91 @@
   "titel": "",
   "datum": "2026-11-15",
   "ergebnis": "genau: Johann-Strauß-Gasse 27/5 + 2"
+ },
+ "wh-899489261": {
+  "ids": [
+   "wh-899489261",
+   "is-280583058270",
+   "ds-15300028"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Lambrechtgasse 16/19"
+ },
+ "wh-1635820936": {
+  "ids": [
+   "wh-1635820936"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Leibenfrostgasse 8/35"
+ },
+ "wh-1413792004": {
+  "ids": [
+   "wh-1413792004",
+   "is-986666236125",
+   "ds-14878043",
+   "fm-5532484"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "ungefaehr: Mommsengasse 30/30"
+ },
+ "wh-1809408848": {
+  "ids": [
+   "wh-1809408848",
+   "is-004269199226",
+   "ds-15047598"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: - (raus: renovierungsbedürftig laut Text: 'kann jedoch saniert werden und mit ein wenig Aufwand wieder in einen guten Zustand gebracht werden' (Grenzfall, Saad entscheiden lassen))"
+ },
+ "wh-1958235282": {
+  "ids": [
+   "wh-1958235282",
+   "ds-15260929",
+   "is-370737533351",
+   "fm-5744325"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Belvederegasse 39"
+ },
+ "wh-1016643947": {
+  "ids": [
+   "wh-1016643947",
+   "is-332933240384"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Hartmanngasse 15/18"
+ },
+ "wh-863089132": {
+  "ids": [
+   "wh-863089132",
+   "is-541172348876"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Krongasse 14/17 (raus: Lebenslanges Wohnrecht der Verkäufer (Jg. 1944 und 1950) wird im Grundbuch eingetragen; laut Inserat kann der Käufer die Wohnung bis zum Erlöschen weder selbst bewohnen noch vermieten. Keine Kurzzeit- oder Mietwohnung, sondern Kauf mit Wohnrecht (Anlage mit 10-20 Jahren Horizont).)"
+ },
+ "wh-926797373": {
+  "ids": [
+   "wh-926797373",
+   "is-392262724556"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Margaretenplatz 5"
+ },
+ "wh-1776606349": {
+  "ids": [
+   "wh-1776606349",
+   "is-009266425677"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Rüdigergasse 20"
  }
 }
