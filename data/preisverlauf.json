@@ -12495,8 +12495,8 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.224811,
-   "lon": 16.346296,
+   "lat": 48.226578,
+   "lon": 16.336144,
    "ungefaehr": false,
    "radius": null,
    "preis": 1190000.0,
@@ -12505,8 +12505,8 @@
    "flaeche": 123.47,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": "Schulgasse",
-   "lage": "18. Bezirk (aus Beschreibung: Schulgasse)",
+   "adresse": "Schulgasse 77",
+   "lage": "18. Bezirk (aus Beschreibung: Schulgasse 77)",
    "heizung": {
     "ergebnis": "kein_gas",
     "von": "automatisch",
@@ -12562,10 +12562,10 @@
    ],
    "zustand": "Erstbezug",
    "guertel": {
-    "min": 3,
-    "ab": null,
+    "min": 10,
+    "ab": "Aumannplatz",
     "gehen": 3,
-    "ziel": "Währinger Straße-Volksoper",
+    "ziel": null,
     "ungefaehr": false
    },
    "zuletzt": "2026-11-15"
