@@ -651,7 +651,15 @@ function sortiere(l) {
 }
 // korb_frei: ausgegraut rausgeworfen und wieder online -> zählt nicht mehr (nur derselbe Eintrag; wer sie
 // danach wieder rauswirft, schreibt einen neuen Zeitstempel und sie ist weg)
-const imPapierkorb = w => idsVon(w).some(id => mein.papierkorb[id] && mein.papierkorb[id] !== w.korb_frei?.[id]);
+// Liegt eine Nummer der Wohnung im Papierkorb und eine andere im Nest (verschiedene Inserate, erst später zusammengeführt),
+// zählt die jüngere Entscheidung (2026-11-15: Aumannplatz-Wohnung, Korb 28.10., Nest 10.11., war unsichtbar)
+const zeit = v => String(v || '').replace(/^fav\s*/, '');
+const imPapierkorb = w => {
+  const korb = idsVon(w).filter(id => mein.papierkorb[id] && mein.papierkorb[id] !== w.korb_frei?.[id]).map(id => zeit(mein.papierkorb[id]));
+  if (!korb.length) return false;
+  const nest = idsVon(w).filter(id => mein.gemerkt[id]).map(id => zeit(mein.gemerkt[id]));
+  return !nest.length || korb.sort().pop() > nest.sort().pop();
+};
 const istGemerkt = w => hat('gemerkt', w);
 // Brutkasten = Nestle, die ihr besichtigen wollt (Wunsch 2026-11-07). Gespeichert im Nest-Eintrag selbst
 // ("fav " vor dem Zeitstempel), weil die Firebase-Regeln nur gemerkt/papierkorb/gesehen zulassen.

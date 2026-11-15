@@ -205,6 +205,10 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Portal, m², Zimmer, Stock, HWB; ohne HWB auf beiden Seiten derselbe Titel; `neu_inseriert`) übernehmen Verlauf, Nest und Prüfungen der alten Nummer,
   Zusätzlich hängt `build` verschwundene Nummern aus dem Nest-Archiv (preisverlauf.json) an die Gruppe, wenn alle
   noch online stehenden Nummern des Archiv-Eintrags in dieser Gruppe sind (2026-11-15: FPF-Gartenwohnung verlor sonst das Nest-Ei),
+  und hängt verschwundene Papierkorb-/Nest-Inserate an ihre Kopie auf einem anderen Portal (`_gleiche_kopie`: gleicher Makler,
+  Titelanfang, PLZ, Zimmer, m², Preis, HWB; 2026-11-15 kamen so 11 weggeworfene Wohnungen über derStandard zurück, weil willhaben/
+  ImmoScout sie seit der 75-m²-Grenze nicht mehr laden). Liegen Nummern einer Wohnung im Nest und im Papierkorb, zählt auf der
+  Seite die jüngere Entscheidung (`imPapierkorb`),
   auch wenn die alte schon Wochen weg ist (bis sie gelöscht wird; Rausgeworfenes bleibt dafür ein Jahr in
   listings.json).
 - Papierkorb und Neu-Inserate (Wunsch 2026-10-30): wer eine ausgegraute ("nicht mehr online") Wohnung

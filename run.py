@@ -922,6 +922,28 @@ def _grundriss_offen(karte, nest, korb, plaene):
     return offen
 
 
+def _gleiche_kopie(a, b):
+    """Dasselbe Inserat eines Maklers auf einem anderen Portal (oder neu eingestellt): gleicher Makler, gleicher
+    Titelanfang, PLZ, Zimmer, m² (±1,5), Preis (±1,5 %), Energieausweis (HWB ±5 %, falls beide einen haben)."""
+    def norm(t, n):
+        return re.sub(r"[^a-z0-9äöüß]", "", htmllib.unescape(t or "").lower())[:n]
+    def hwb(r):
+        try:
+            return float(str((r.get("energie") or {}).get("hwb")).replace(",", "."))
+        except (TypeError, ValueError):
+            return None
+    if not (a.get("anbieter") and b.get("anbieter") and norm(a["anbieter"], 6) == norm(b["anbieter"], 6)):
+        return False
+    if len(norm(a.get("titel"), 30)) < 20 or norm(a.get("titel"), 30) != norm(b.get("titel"), 30):
+        return False
+    if not (a.get("plz") == b.get("plz") and a.get("zimmer") == b.get("zimmer") and a.get("flaeche") and b.get("flaeche")
+            and abs(a["flaeche"] - b["flaeche"]) <= 1.5 and a.get("preis") and b.get("preis")
+            and abs(a["preis"] - b["preis"]) <= 0.015 * a["preis"]):
+        return False
+    ha, hb = hwb(a), hwb(b)
+    return ha is None or hb is None or abs(ha - hb) <= 0.05 * max(ha, hb)
+
+
 def zusammenfuehren(gruppe, reviews):
     """Eine Gruppe -> ein Datensatz mit der besten Info aller Portale + zusammengeführte Prüfungen."""
     def rang(r):
@@ -1163,6 +1185,7 @@ def build():
     haeuser = haus_index(listings, reviews)  # für gleiches_haus: Adresse aus Schwester-Inseraten
     doppelt = sum(len(g) - 1 for g in gruppen)
     in_gruppen = {x["id"] for g in gruppen for x in g}
+    markiert_weg = [x for i, x in listings.items() if i in (korb | nest) and i not in in_gruppen and not x.get("nachfolger")]
     for gruppe in gruppen:
         r, rev = zusammenfuehren(gruppe, reviews)
         # Nest über Neu-Inserate hinweg: kennt das Nest-Archiv diese Wohnung (gemeinsame Nummer), hängen seine
@@ -1174,6 +1197,12 @@ def build():
             online = set(e["ids"]) & in_gruppen
             if online and online <= set(r["ids"]) and set(e["ids"]) & nest:
                 r["ids"] = r["ids"] + [i for i in e["ids"] if i not in in_gruppen and i not in r["ids"]]
+        # Weggeworfenes/Gemerktes, dessen Inserat verschwunden ist, nimmt seine Kopie auf einem anderen Portal mit
+        # (2026-11-15: 7 im Papierkorb gelandete Wohnungen kamen über derStandard zurück, weil willhaben/ImmoScout
+        # sie seit der 75-m²-Grenze nicht mehr laden). Streng: gleicher Makler, Titelanfang, PLZ, Zimmer, m², Preis.
+        for c in markiert_weg:
+            if any(_gleiche_kopie(c, x) for x in gruppe) and c["id"] not in r["ids"]:
+                r["ids"] = r["ids"] + [c["id"]]
         if ((rev.get("lage") or {}).get("sicherheit") != "genau" and not re.search(r"\d", r.get("adresse") or "")
                 and (haus := gleiches_haus(r, gruppe, haeuser))):
             rev = {**rev, "lage": haus}
