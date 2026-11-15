@@ -6396,5 +6396,33 @@
   "titel": "",
   "datum": "2026-11-15",
   "ergebnis": "genau: Rüdigergasse 20"
+ },
+ "wh-1914170203": {
+  "ids": [
+   "wh-1914170203",
+   "is-211916303624"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "ungefaehr: Weyringergasse 29/9"
+ },
+ "wh-1992940864": {
+  "ids": [
+   "wh-1992940864",
+   "is-100570278331",
+   "ds-15101337"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "ungefaehr: Lambrechtgasse 11"
+ },
+ "wh-2093562040": {
+  "ids": [
+   "wh-2093562040",
+   "is-818205025911"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "genau: Johann-Strauß-Gasse 27/5"
  }
 }

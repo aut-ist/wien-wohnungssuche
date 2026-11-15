@@ -18327,5 +18327,138 @@
    "ergebnis": "hinweis",
    "begruendung": "Neubau 2015, laut Text komplett ausgestattet; Zimmer: 2 Schlafzimmer + Wohnesszimmer + Galerie (Gästezimmer)"
   }
+ },
+ "wh-1914170203": {
+  "lage": {
+   "adresse": "Weyringergasse 29/9",
+   "lat": 48.1882698,
+   "lon": 16.3753617,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Portalpunkte (willhaben, Makler-Seite https://immobilien.coricon-properties.com/objekt/16489183: 48.18855/16.37678, ohne Radius) liegen nur 20 m neben der Straßenmitte der Weyringergasse und sind damit ein Straßen-Geocode ohne Aussage. Eingrenzung: Laut Text liegt das Haus nahe Argentinierstraße und Favoritenstraße, ist ein Jahrhundertwendehaus (BJ 1913) mit Lift, und der Salon mit dem bewilligten ca. 21 m² Balkon liegt im Süden in Ruhelage mit Blick auf Baumkronen. Das passt zur Südseite (Hofseite nach Süden mit großen Bäumen) zwischen Argentinierstraße und Favoritenstraße. Nur dort stehe"
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG",
+   "baujahr": "1913 (laut Inserat; Stadt Wien: Nr. 29 1911, Nr. 27/27A 1910)",
+   "zustand": "gepflegt / sehr gut (letzte Modernisierung 2026)"
+  },
+  "kosten": {
+   "betrag": 264.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-211916303624": {
+  "lage": {
+   "adresse": "Weyringergasse 29/9",
+   "lat": 48.1882698,
+   "lon": 16.3753617,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Portalpunkte (willhaben, Makler-Seite https://immobilien.coricon-properties.com/objekt/16489183: 48.18855/16.37678, ohne Radius) liegen nur 20 m neben der Straßenmitte der Weyringergasse und sind damit ein Straßen-Geocode ohne Aussage. Eingrenzung: Laut Text liegt das Haus nahe Argentinierstraße und Favoritenstraße, ist ein Jahrhundertwendehaus (BJ 1913) mit Lift, und der Salon mit dem bewilligten ca. 21 m² Balkon liegt im Süden in Ruhelage mit Blick auf Baumkronen. Das passt zur Südseite (Hofseite nach Süden mit großen Bäumen) zwischen Argentinierstraße und Favoritenstraße. Nur dort stehe"
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG",
+   "baujahr": "1913 (laut Inserat; Stadt Wien: Nr. 29 1911, Nr. 27/27A 1910)",
+   "zustand": "gepflegt / sehr gut (letzte Modernisierung 2026)"
+  },
+  "kosten": {
+   "betrag": 264.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1992940864": {
+  "lage": {
+   "adresse": "Lambrechtgasse 11",
+   "lat": 48.1905328,
+   "lon": 16.3644242,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Portalpunkte (willhaben und Coricon-Seite https://immobilien.coricon-properties.com/objekt/16510852: 48.190678/16.364449, ohne Radius) sind nur ein Straßen-Geocode, ca. 20 m neben der Straßenmitte der Lambrechtgasse. derStandard (https://immobilien.derstandard.at/detail/15101337) und immmo.at nennen keine Hausnummer. Gegenprobe Orthofoto (mapsneu.wien.gv.at, 30 cm): Auf dem Dach von Lambrechtgasse 11 liegt hofseitig eine geflieste Terrasse mit Möbeln und Glasaufbau. Direkt daneben stehen die großen Bäume im Hof zwischen Lambrechtgasse 9-13 und Phorusgasse. Das passt zu den Terrassenfotos: "
+  },
+  "eckdaten": {
+   "stockwerk": "Dachgeschoß, 2 Ebenen (1. DG + Galerie mit Terrasse)",
+   "baujahr": "Haus ca. 1900, DG-Ausbau ca. 2004 (Text nennt auch 2016)",
+   "zustand": "gepflegt"
+  },
+  "kosten": {
+   "betrag": 460.77,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-100570278331": {
+  "lage": {
+   "adresse": "Lambrechtgasse 11",
+   "lat": 48.1905328,
+   "lon": 16.3644242,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Portalpunkte (willhaben und Coricon-Seite https://immobilien.coricon-properties.com/objekt/16510852: 48.190678/16.364449, ohne Radius) sind nur ein Straßen-Geocode, ca. 20 m neben der Straßenmitte der Lambrechtgasse. derStandard (https://immobilien.derstandard.at/detail/15101337) und immmo.at nennen keine Hausnummer. Gegenprobe Orthofoto (mapsneu.wien.gv.at, 30 cm): Auf dem Dach von Lambrechtgasse 11 liegt hofseitig eine geflieste Terrasse mit Möbeln und Glasaufbau. Direkt daneben stehen die großen Bäume im Hof zwischen Lambrechtgasse 9-13 und Phorusgasse. Das passt zu den Terrassenfotos: "
+  },
+  "eckdaten": {
+   "stockwerk": "Dachgeschoß, 2 Ebenen (1. DG + Galerie mit Terrasse)",
+   "baujahr": "Haus ca. 1900, DG-Ausbau ca. 2004 (Text nennt auch 2016)",
+   "zustand": "gepflegt"
+  },
+  "kosten": {
+   "betrag": 460.77,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "ds-15101337": {
+  "lage": {
+   "adresse": "Lambrechtgasse 11",
+   "lat": 48.1905328,
+   "lon": 16.3644242,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Portalpunkte (willhaben und Coricon-Seite https://immobilien.coricon-properties.com/objekt/16510852: 48.190678/16.364449, ohne Radius) sind nur ein Straßen-Geocode, ca. 20 m neben der Straßenmitte der Lambrechtgasse. derStandard (https://immobilien.derstandard.at/detail/15101337) und immmo.at nennen keine Hausnummer. Gegenprobe Orthofoto (mapsneu.wien.gv.at, 30 cm): Auf dem Dach von Lambrechtgasse 11 liegt hofseitig eine geflieste Terrasse mit Möbeln und Glasaufbau. Direkt daneben stehen die großen Bäume im Hof zwischen Lambrechtgasse 9-13 und Phorusgasse. Das passt zu den Terrassenfotos: "
+  },
+  "eckdaten": {
+   "stockwerk": "Dachgeschoß, 2 Ebenen (1. DG + Galerie mit Terrasse)",
+   "baujahr": "Haus ca. 1900, DG-Ausbau ca. 2004 (Text nennt auch 2016)",
+   "zustand": "gepflegt"
+  },
+  "kosten": {
+   "betrag": 460.77,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-2093562040": {
+  "lage": {
+   "adresse": "Johann-Strauß-Gasse 27/5",
+   "lat": 48.187908,
+   "lon": 16.36812,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Hochparterre-Wohnung (80 m², 40 m² Garten) wie derStandard ds-15312405 (dort zusammen mit der Souterrain-Einheit, Hausnummernschild 27 auf dem Fassadenfoto); GOHN nennt optional das Paket mit dem Lokal darunter. Die Portalpunkte (48.187698/16.368137) liegen ca. 13 m neben der Straßenmitte der Johann-Strauß-Gasse und sind nur ein Straßen-Geocode. Das Makler-Kartenbild (Foto 15 auf ImmoScout24, https://www.immobilienscout24.at/expose/6a9a73a0d03a40dd4b25a67f) zeigt einen Pin mit Kreis in der Johann-Strauß-Gas"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Stock (über Souterrain-Geschäftslokal)",
+   "baujahr": "1900",
+   "zustand": "saniert / renoviert"
+  },
+  "kosten": {
+   "betrag": 239.69,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-818205025911": {
+  "lage": {
+   "adresse": "Johann-Strauß-Gasse 27/5",
+   "lat": 48.187908,
+   "lon": 16.36812,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Hochparterre-Wohnung (80 m², 40 m² Garten) wie derStandard ds-15312405 (dort zusammen mit der Souterrain-Einheit, Hausnummernschild 27 auf dem Fassadenfoto); GOHN nennt optional das Paket mit dem Lokal darunter. Die Portalpunkte (48.187698/16.368137) liegen ca. 13 m neben der Straßenmitte der Johann-Strauß-Gasse und sind nur ein Straßen-Geocode. Das Makler-Kartenbild (Foto 15 auf ImmoScout24, https://www.immobilienscout24.at/expose/6a9a73a0d03a40dd4b25a67f) zeigt einen Pin mit Kreis in der Johann-Strauß-Gas"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Stock (über Souterrain-Geschäftslokal)",
+   "baujahr": "1900",
+   "zustand": "saniert / renoviert"
+  },
+  "kosten": {
+   "betrag": 239.69,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-15"
  }
 }
