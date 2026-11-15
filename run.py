@@ -11,6 +11,7 @@
 import argparse
 import datetime as dt
 import hashlib
+import html as htmllib
 import math
 import re
 import shutil
@@ -167,9 +168,14 @@ def neu_inseriert(listings, gesehen):
                   and r.get("zuletzt") != TODAY), key=lambda r: r.get("zuletzt") or "", reverse=True)
     for n in [r for r in listings.values() if r["id"] in gesehen and r.get("erstmals") == TODAY]:
         hwb = (n.get("energie") or {}).get("hwb")
+        titel = re.sub(r"\W+", " ", htmllib.unescape(n.get("titel") or "")).strip().lower()
         for a in weg:
+            # ohne Energieausweis auf beiden Seiten reicht derselbe Titel (2026-11-15: FPF-Gartenwohnung)
+            gleich = ((a.get("energie") or {}).get("hwb") == hwb) if hwb else (
+                not (a.get("energie") or {}).get("hwb") and len(titel) >= 20
+                and re.sub(r"\W+", " ", htmllib.unescape(a.get("titel") or "")).strip().lower() == titel)
             if (a["id"][:2] == n["id"][:2] and a.get("plz") == n.get("plz") and a.get("anbieter")
-                    and a.get("anbieter") == n.get("anbieter") and hwb and (a.get("energie") or {}).get("hwb") == hwb
+                    and a.get("anbieter") == n.get("anbieter") and gleich
                     and a.get("flaeche") and n.get("flaeche") and abs(a["flaeche"] - n["flaeche"]) <= 0.5
                     and a.get("zimmer") == n.get("zimmer") and str(a.get("stockwerk")) == str(n.get("stockwerk"))):
                 n["erstmals"] = min(a["erstmals"], n["erstmals"])
@@ -1151,8 +1157,18 @@ def build():
     gruppen += [[r] for r in aktiv if _sammelinserat(r)]
     haeuser = haus_index(listings, reviews)  # für gleiches_haus: Adresse aus Schwester-Inseraten
     doppelt = sum(len(g) - 1 for g in gruppen)
+    in_gruppen = {x["id"] for g in gruppen for x in g}
     for gruppe in gruppen:
         r, rev = zusammenfuehren(gruppe, reviews)
+        # Nest über Neu-Inserate hinweg: kennt das Nest-Archiv diese Wohnung (gemeinsame Nummer), hängen seine
+        # Nummern mit an, auch wenn die gemerkte selbst verschwunden ist (2026-11-15: FPF-Gartenwohnung
+        # Dionysius-Andrassy-Straße 10, ImmoScout neu inseriert ohne Energieausweis -> Nest-Ei war weg).
+        # Nur verschwundene Nummern und nur, wenn alle noch online stehenden Nummern des Eintrags in dieser Gruppe
+        # sind: bei Projekten (LEONORA, Liechtensteinstraße 24) enthält das Archiv auch Nachbarwohnungen.
+        for e in archiv.values():
+            online = set(e["ids"]) & in_gruppen
+            if online and online <= set(r["ids"]) and set(e["ids"]) & nest:
+                r["ids"] = r["ids"] + [i for i in e["ids"] if i not in in_gruppen and i not in r["ids"]]
         if ((rev.get("lage") or {}).get("sicherheit") != "genau" and not re.search(r"\d", r.get("adresse") or "")
                 and (haus := gleiches_haus(r, gruppe, haeuser))):
             rev = {**rev, "lage": haus}
