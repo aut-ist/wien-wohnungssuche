@@ -922,6 +922,18 @@ def _grundriss_offen(karte, nest, korb, plaene):
     return offen
 
 
+_STOCK_TEXT = re.compile(r"(?im)^\W*(?:stockwerk|etage|geschoß|geschoss)\s*:\s*([^\n]{1,30})$")
+
+
+def _stockwerk_aus_text(gruppe):
+    """Stockwerk aus "Stockwerk: 2. Stock" / "Etage: 1. OG" im Inseratstext, wenn kein Portal es als Feld liefert."""
+    for x in gruppe:
+        m = _STOCK_TEXT.search(x.get("text") or "")
+        if m:
+            return m.group(1).strip(" .")
+    return None
+
+
 def _gleiche_kopie(a, b):
     """Dasselbe Inserat eines Maklers auf einem anderen Portal (oder neu eingestellt): gleicher Makler, gleicher
     Titelanfang, PLZ, Zimmer, m² (±1,5), Preis (±1,5 %), Energieausweis (HWB ±5 %, falls beide einen haben)."""
@@ -1292,11 +1304,14 @@ def build():
             "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
-            "baujahr": r.get("baujahr"), "bauart": r.get("bauart"), "stockwerk": r.get("stockwerk"),
+            # Eckdaten aus der Recherche ergänzen Stockwerk/Baujahr/Zustand; Stockwerk sonst aus dem Text (2026-11-15:
+            # "STOCKWERK: 2. Stock", "Stockwerk: 1. OG" standen nur im Text, die Karte zeigte nichts)
+            "baujahr": eck.get("baujahr") or r.get("baujahr"), "bauart": r.get("bauart"),
+            "stockwerk": eck.get("stockwerk") or r.get("stockwerk") or _stockwerk_aus_text(gruppe),
             "monatlich": (rev.get("kosten") or {}).get("betrag") or (r.get("laufende_kosten") or {}).get("betrag"),  # von Hand geprüft zuerst "energie": r.get("energie"), "anbieter": r.get("anbieter"),
             "bilder": _mit_neuem_grundriss(r["ids"], _grundriss_nach_vorne(
                 r.get("bilder") or ([r["bild"]] if r.get("bild") else [])), plaene),
-            "freiflaeche": r.get("freiflaeche") or [], "zustand": r.get("zustand"),
+            "freiflaeche": r.get("freiflaeche") or [], "zustand": eck.get("zustand") or r.get("zustand"),
             # nur 18./19. Bezirk und nur bei bekannter Lage (bei ungefährer Lage wäre die Zeit geraten)
             "guertel": ({**g, "ungefaehr": bool(b.get("landmarke"))}
                         if r["plz"] in (1180, 1190) and (not b["ungefaehr"] or b.get("landmarke"))
@@ -1326,9 +1341,12 @@ def build():
             continue
         try:
             from wohnungen import geocode as _g
-            if neu_abgefragt >= 150 and f"{w['lat']:.6f},{w['lon']:.6f}" not in (_g._blick or {}):
+            # nur echte neue Abfragen zählen (bis 2026-11-15 zählten auch die aus dem Zwischenspeicher mit, dann bekamen
+            # nach den ersten 150 Wohnungen neue keinen Street-View-Link mehr)
+            neu = _g._blick is None or f"{w['lat']:.6f},{w['lon']:.6f}" not in _g._blick
+            if neu and neu_abgefragt >= 150:
                 continue
-            neu_abgefragt += 1
+            neu_abgefragt += neu
             w["sv"] = strassenblick(w["lat"], w["lon"])
         except Exception as e:  # Netz weg: dann eben ohne
             log(f"Street-View-Punkt {w['id']}: {e}")

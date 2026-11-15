@@ -256,3 +256,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   nördlich ca. 48,192°, Höhe Mühlgasse/Rainergasse/Südrand Theresianum, inkl. Belvedere-Westseite). Dafür wird 1040 auf allen Portalen
   gescrapt (config `mit_zonen`, Slugs in den Portal-Modulen, FindMyHome-Bezirk 103), geo/bezirke.geojson hat den 4., Inserate nur mit
   „4. Bezirk“ sind grau mit Lage-Frage wie im 1./2./3. Beide Gebiete kamen aus den Ideen-Grätzln.
+- Kartendetails (2026-11-15, Saad: Infos der neuen Wohnungen unvollständig): Stockwerk kommt, wenn kein Portal es als Feld liefert, aus
+  „Stockwerk: …“/„Etage: …“ im Text (`_stockwerk_aus_text`); review `eckdaten` kann jetzt auch `stockwerk`, `baujahr`, `zustand` setzen
+  (Recherche-Wissen, z. B. „Dachgeschoß (Maisonette)“, „Gründerzeit (Inserat sagt 1957)“). Street View: der 150-pro-Lauf-Deckel zählte
+  bis dahin auch Punkte aus dem Zwischenspeicher mit, dadurch bekamen neue Wohnungen nach den ersten 150 keinen Link.

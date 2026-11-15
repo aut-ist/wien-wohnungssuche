@@ -17353,7 +17353,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Bad und Küche laut Fotos alt (80er-Jahre), Renovierung einplanen; zwei zusammengelegte Tops 10+11"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "zustand": "Bad und Küche alt (laut Fotos)"
+  }
  },
  "is-622009355191": {
   "lage": {
@@ -17367,7 +17370,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Bad und Küche laut Fotos alt (80er-Jahre), Renovierung einplanen; zwei zusammengelegte Tops 10+11"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "zustand": "Bad und Küche alt (laut Fotos)"
+  }
  },
  "wh-1588467096": {
   "lage": {
@@ -17524,7 +17530,11 @@
    "sicherheit": "genau",
    "begruendung": "Dieselbe Wohnung (gleicher Text 'Wohneinheit TOP 48', 120,04 m², DG-Maisonette über 1. und 2. DG, 990.000 EUR) bei WINEGG auf weekend.at mit Adresse 'Schäffergasse 18-20, 1040 Wien': https://www.weekend.at/de/immobilie/wohnen-mitten-im-vierten-urbane-lebensqualitaet-in-zentrumsnaehe-grosszuegige-maisonette-wohnung-moderne-ausstattung/OBGC202509081134354066b93049a83 ; weitere JP-, Infina- und 3SI-Inserate desselben Hauses nennen ebenfalls Schäffergasse 18-20, Baujahr 1991, Tiefgarage. Gegenproben: GEBAEUDEINFOOGD Schäffergasse 18 und 20 = Bauten nach 1945 (die übrigen Häuser der Gasse sind Gründerzeit/Biedermeier), zwei Häuser = 'beide Stiegenhäuser' im Text; FindMyHome-Punkt 48.193998/16.364073 liegt rund 80 m daneben. Koordinate = Adresspunkt Schäffergasse 18 (Hauptadresse, Ecke Freundgasse 1); Schäffergasse 20 liegt bei 48.19386154/16.36354473. Top 48."
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "stockwerk": "Dachgeschoß (Maisonette über 2 Ebenen)",
+   "zustand": "saniert (laut Text)"
+  }
  },
  "wh-2139788662": {
   "lage": {
@@ -17578,7 +17588,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "baujahr": "1962 (Haus laut Schwesterinserat)"
+  }
  },
  "is-837093014194": {
   "lage": {
@@ -17592,7 +17605,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "baujahr": "1962 (Haus laut Schwesterinserat)"
+  }
  },
  "fm-5739416": {
   "lage": {
@@ -17606,7 +17622,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "baujahr": "1962 (Haus laut Schwesterinserat)"
+  }
  },
  "wh-1951630935": {
   "lage": {
@@ -17620,7 +17639,10 @@
    "ergebnis": "hinweis",
    "begruendung": "Dieselbe Wohnung war möbliert zur Miete inseriert (Vigo, 2.900 €): klären, ob sie noch vermietet ist; Baujahr 1957 im Inserat stimmt nicht (Gründerzeit)"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-15",
+  "eckdaten": {
+   "baujahr": "Gründerzeit (Inserat sagt 1957, Fotos zeigen Altbau)"
+  }
  },
  "is-509233592559": {
   "lage": {
