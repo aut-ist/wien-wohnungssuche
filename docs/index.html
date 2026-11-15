@@ -272,6 +272,10 @@
   .laerm-stufen span { width: 30px; text-align: center; }
   .laerm-stufen i { display: block; height: 9px; border-radius: 2px; margin-bottom: 1px; }
   .laerm-fehler { color: #b3261e; margin-top: 3px; }
+  .idee-nr { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
+  .idee-nr span { flex: none; width: 24px; height: 24px; border-radius: 50%; color: #fff; font: 700 12px/24px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+  .idee-nr em { font: 600 11px system-ui, sans-serif; font-style: normal; background: rgba(255,255,255,.88); color: #1d231f; padding: 1px 5px; border-radius: 6px; }
+  .idee-pop p { margin: 6px 0 0; }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
   .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
   .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
@@ -1399,6 +1403,60 @@ laermSchalter.onAdd = () => {
   return d;
 };
 laermSchalter.addTo(map);
+
+// Ideen-Grätzl außerhalb der Suchgebiete (Saad 2026-11-15, data/ideen.json, tools/ideen_karte.py): nur mit dem Knopf,
+// mit eigenem Öffi-Netz (U-Bahn und Straßenbahn im ganzen Bereich, Busse in den Grätzln); wird erst beim Einschalten geladen
+map.createPane('ideen').style.zIndex = 375;  // unter den Öffis, über der Grundkarte
+const ideenEbene = L.layerGroup();
+const IDEE_FARBE = { a: '#d9631e', b: '#2f6fb5', c: '#8a5bc4' };
+let ideenGeladen = null;
+async function ideenLaden() {
+  const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
+  const [ideen, netz] = await Promise.all([j('geo/ideen.json'), j('geo/oeffis_ideen.geojson')]);
+  L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
+    style: f => { const o = OEFFI[f.properties.typ]; return { color: f.properties.farbe || o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
+    onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(ideenEbene);
+  const stationen = L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
+    pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
+      .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' }) });
+  const stationenZeigen = () => map.hasLayer(ideenEbene) && map.getZoom() >= 14 ? ideenEbene.addLayer(stationen) : ideenEbene.removeLayer(stationen);
+  map.on('zoomend', stationenZeigen);
+  for (const w of ideen.zu_weit) {
+    L.circle([w.lat, w.lon], { pane: 'ideen', radius: w.r, color: '#8b938d', weight: 1.5, dashArray: '4 4', fillColor: '#8b938d', fillOpacity: .12 })
+      .bindTooltip(`${esc(w.name)}: schön, aber ${w.guertel_min} min zum Gürtel`).addTo(ideenEbene);
+  }
+  for (const g of ideen.gebiete) {
+    const farbe = IDEE_FARBE[g.stufe];
+    const sv = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${g.streetview[0]},${g.streetview[1]}`;
+    const html = `<div class="idee-pop"><b>${g.nr}. ${esc(g.name)}</b><br><i>${esc(g.unter)}</i>
+      <p>🚋 ${g.guertel_min} min zur U6 am Gürtel (ab ${esc(g.guertel_ab)}) · ${g.schottentor_min} min zum Schottentor</p>
+      <p><b>Warum es euch gefallen würde:</b> ${esc(g.gefallen)}</p><p><b>Schulen:</b> ${esc(g.schulen)}</p><p><b>Aber:</b> ${esc(g.minus)}</p>
+      <p><a href="${sv}" target="_blank" rel="noopener">👁 Street View</a> · <a href="${esc(ideen.details)}" target="_blank" rel="noopener">📷 Fotos und Details</a>${g.reddit ? ` · <a href="${esc(g.reddit)}" target="_blank" rel="noopener">Reddit</a>` : ''}</p></div>`;
+    L.circle([g.lat, g.lon], { pane: 'ideen', radius: g.r, color: farbe, weight: 2, fillColor: farbe, fillOpacity: .18 })
+      .bindPopup(html, { maxWidth: 320 }).addTo(ideenEbene);
+    L.marker([g.lat, g.lon], { pane: 'ideen', icon: L.divIcon({ className: 'idee-nr', html: `<span style="background:${farbe}">${g.nr}</span><em>${esc(g.name.replace(/ \(\d+\.\)$/, ''))} · ${g.guertel_min}/${g.schottentor_min} min</em>`, iconSize: [26, 26], iconAnchor: [13, 13] }) })
+      .bindPopup(html, { maxWidth: 320 }).addTo(ideenEbene);
+  }
+  ideenGeladen = { stationenZeigen, grenzen: L.latLngBounds(ideen.gebiete.map(g => [g.lat, g.lon])) };
+}
+const ideenSchalter = L.control({ position: 'topleft' });
+ideenSchalter.onAdd = () => {
+  const d = L.DomUtil.create('div', 'laerm-schalter');
+  d.innerHTML = '<button class="btn" aria-pressed="false" aria-label="Ideen" title="Ideen-Grätzl außerhalb der Suchgebiete mit Öffi-Netz einblenden">💡<span class="laerm-name">Ideen</span></button>';
+  const knopf = d.querySelector('button');
+  L.DomEvent.disableClickPropagation(d);
+  knopf.addEventListener('click', async () => {
+    const an = !map.hasLayer(ideenEbene);
+    knopf.setAttribute('aria-pressed', an);
+    if (!an) { ideenEbene.remove(); return; }
+    try { if (!ideenGeladen) await ideenLaden(); } catch (e) { knopf.setAttribute('aria-pressed', false); return; }
+    ideenEbene.addTo(map);
+    ideenGeladen.stationenZeigen();
+    map.flyToBounds(ideenGeladen.grenzen.pad(0.15), { duration: 1 });
+  });
+  return d;
+};
+ideenSchalter.addTo(map);
 
 document.addEventListener('keydown', e => {
   if (vb.el.classList.contains('offen')) {  // Vollbild hat Vorrang
