@@ -623,9 +623,18 @@ async function ladeGebiete() {
   // nur die roten Zonen zeichnen; die blauen Zonen (1./2./3. Bezirk) und die roten im 3. wirken nur im Filter
   // Rote Zonen werden seit 2026-11-11 nicht mehr gezeichnet (Wunsch); sie gelten aber weiter (run.py filtert).
   if (oeffis) {
-    L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
-      style: f => { const o = OEFFI[f.properties.typ]; return { color: f.properties.farbe || o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
-      onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(oeffiEbene);
+    // Übersicht nur U-Bahn und S-Bahn; Straßenbahn ab Zoom 14, Bus ab 15 (Saad 2026-11-15: sonst liegen die Linien
+    // am Handy dicht über den Bezirken und man sieht die Eier nicht)
+    const linien = typen => L.geoJSON(oeffis, { pane: 'oeffis', filter: f => typen.includes(f.properties.typ),
+      style: f => { const o = OEFFI[f.properties.typ], fein = f.properties.typ === 'tram' || f.properties.typ === 'bus';
+        return { color: f.properties.farbe || o.c, weight: fein ? o.w - 0.5 : o.w, dashArray: o.d, opacity: fein ? .6 : .8 }; },
+      onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) });
+    linien(['ubahn', 'sbahn']).addTo(oeffiEbene);
+    const bim = linien(['tram']), bus = linien(['bus']);
+    const naheLinien = () => { map.getZoom() >= 14 ? oeffiEbene.addLayer(bim) : oeffiEbene.removeLayer(bim);
+      map.getZoom() >= 15 ? oeffiEbene.addLayer(bus) : oeffiEbene.removeLayer(bus); };
+    map.on('zoomend', naheLinien);
+    naheLinien();
     // Stationen nur nah herangezoomt zeigen, sonst überdecken die Namen in der Übersicht alles
     const stationen = L.geoJSON(oeffis, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
       pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
@@ -1436,16 +1445,18 @@ async function ideenLaden() {
   const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
   const [ideen, netz] = await Promise.all([j('geo/ideen.json'), j('geo/oeffis_ideen.geojson')]);
   const linien = typen => L.geoJSON(netz, { pane: 'oeffis', filter: f => typen.includes(f.properties.typ),
-    style: f => { const o = OEFFI[f.properties.typ]; return { color: f.properties.farbe || o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
+    style: f => { const o = OEFFI[f.properties.typ], fein = f.properties.typ !== 'ubahn';
+      return { color: f.properties.farbe || o.c, weight: fein ? o.w - 0.5 : o.w, dashArray: o.d, opacity: fein ? .6 : .8 }; },
     onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) });
   linien(['ubahn']).addTo(ideenEbene);
-  const nahLinien = linien(['tram', 'bus']);  // Straßenbahn und Bus erst nah herangezoomt, sonst überdecken sie die Nummern
+  const nahLinien = linien(['tram']), busLinien = linien(['bus']);  // Straßenbahn ab 14, Bus ab 15, sonst überdecken sie die Nummern
   const stationen = L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
     pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
       .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' }) });
   const stationenZeigen = () => {
     const nah = map.hasLayer(ideenEbene) && map.getZoom() >= 14;
     for (const l of [stationen, nahLinien]) nah ? ideenEbene.addLayer(l) : ideenEbene.removeLayer(l);
+    map.hasLayer(ideenEbene) && map.getZoom() >= 15 ? ideenEbene.addLayer(busLinien) : ideenEbene.removeLayer(busLinien);
   };
   map.on('zoomend', stationenZeigen);
   for (const w of ideen.zu_weit) {
