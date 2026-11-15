@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parent.parent
 GTFS = "https://www.wienerlinien.at/ogd_realtime/doku/ogd/gtfs/gtfs.zip"
 TYPEN = {"0": "tram", "1": "ubahn", "3": "bus"}
 K_LON, K_LAT = 74200, 111320
-BUS_RAND_M = 250   # Busse nur so weit über den Grätzl-Kreis hinaus
+BUS_RAND_M = 120   # Straßenbahn und Bus nur so weit über den Grätzl-Kreis hinaus (Handy: sonst unübersichtlich)
 EINFACH = 0.00004  # Vereinfachung der Linien in Grad (ca. 3-4 m)
 
 
@@ -69,7 +69,7 @@ def main():
     for s, pts in punkte.items():
         typ, linie, farbe = wahl[s]
         linie_geo = LineString([(x, y) for _, x, y in sorted(pts)])
-        teil = linie_geo.intersection(bus_gebiet if typ == "bus" else bereich)
+        teil = linie_geo.intersection(bereich if typ == "ubahn" else bus_gebiet)
         if teil.is_empty:
             continue
         stuecke = [teil] if teil.geom_type == "LineString" else [g for g in getattr(teil, "geoms", []) if g.geom_type == "LineString"]

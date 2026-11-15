@@ -273,9 +273,21 @@
   .laerm-stufen i { display: block; height: 9px; border-radius: 2px; margin-bottom: 1px; }
   .laerm-fehler { color: #b3261e; margin-top: 3px; }
   .idee-nr { display: flex; align-items: center; gap: 4px; white-space: nowrap; }
-  .idee-nr span { flex: none; width: 24px; height: 24px; border-radius: 50%; color: #fff; font: 700 12px/24px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
-  .idee-nr em { font: 600 11px system-ui, sans-serif; font-style: normal; background: rgba(255,255,255,.88); color: #1d231f; padding: 1px 5px; border-radius: 6px; }
+  .idee-nr span { flex: none; width: 28px; height: 28px; border-radius: 50%; color: #fff; font: 700 14px/28px system-ui, sans-serif; text-align: center; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35); }
+  /* Namen erst nah herangezoomt, sonst überlappen sie am Handy (2026-11-15) */
+  .idee-nr em { display: none; font: 600 11px system-ui, sans-serif; font-style: normal; background: rgba(255,255,255,.9); color: #1d231f; padding: 1px 5px; border-radius: 6px; }
+  .ideen-namen .idee-nr em { display: inline; }
   .idee-pop p { margin: 6px 0 0; }
+  #ideenListe { overflow-y: auto; flex: 1; padding: 10px; display: grid; gap: 8px; align-content: start; }
+  #ideenListe[hidden], #liste[hidden], .idee-mehr[hidden] { display: none; }
+  .idee-mehr { display: block; font-size: 14px; line-height: 1.45; margin-top: 4px; }
+  #ideenListe .kopf { font-size: 13px; color: var(--muted, #666); line-height: 1.4; }
+  .idee-zeile { display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start; text-align: left; width: 100%;
+    background: var(--panel, #fff); border: 1px solid rgba(0,0,0,.1); border-radius: 12px; padding: 10px 12px; font: inherit; color: inherit; cursor: pointer; }
+  .idee-zeile .b { width: 28px; height: 28px; border-radius: 50%; color: #fff; font: 700 14px/28px system-ui, sans-serif; text-align: center; }
+  .idee-zeile b { display: block; font-size: 15px; }
+  .idee-zeile small { display: block; font-size: 13px; opacity: .75; margin-top: 1px; }
+  .idee-zeile .min { font-variant-numeric: tabular-nums; font-weight: 600; }
   .legende { background: var(--panel); padding: 8px 10px; border-radius: 10px; box-shadow: var(--shadow); font-size: 12px; line-height: 1.75; }
   .legende i { display: inline-block; width: 16px; height: 0; margin-right: 6px; vertical-align: middle; border-top: 3px solid; }
   .legende .flaeche { height: 10px; border: 1.5px solid; border-radius: 2px; }
@@ -393,6 +405,7 @@
       <button class="tab" role="tab" data-tab="gemerkt" aria-selected="false">🥚 Im Nest <span id="nGemerkt"></span></button>
       <button class="tab" role="tab" data-tab="brut" aria-selected="false">🐣 Brutkasten <span id="nBrut"></span></button>
     </div>
+    <div id="ideenListe" hidden></div>
     <div id="liste"></div>
     <div id="detail" aria-live="polite"></div>
   </aside>
@@ -1372,7 +1385,9 @@ const laermEbene = new LaermKacheln('https://inspire.lfrz.gv.at/000804/wms', {
 });
 // Öffis nur zeigen, wenn der Filter-Knopf an und die Lärmkarte aus ist (sonst sieht man den Lärm nicht gut genug, Wunsch 2026-11-10)
 function oeffisAnwenden() {
-  const an = document.getElementById('btnOeffis').getAttribute('aria-pressed') === 'true' && !map.hasLayer(laermEbene);
+  // Ideen an: ihr eigenes Netz statt der Suchgebiets-Öffis (sonst am Handy zu viele Linien, 2026-11-15)
+  const an = document.getElementById('btnOeffis').getAttribute('aria-pressed') === 'true' && !map.hasLayer(laermEbene)
+    && !map.getContainer().classList.contains('ideen-an');
   if (an) oeffiEbene.addTo(map); else oeffiEbene.remove();
   document.querySelectorAll('.oeffi-leg').forEach(x => x.style.display = an ? '' : 'none');
 }
@@ -1408,18 +1423,30 @@ laermSchalter.addTo(map);
 // mit eigenem Öffi-Netz (U-Bahn und Straßenbahn im ganzen Bereich, Busse in den Grätzln); wird erst beim Einschalten geladen
 map.createPane('ideen').style.zIndex = 375;  // unter den Öffis, über der Grundkarte
 const ideenEbene = L.layerGroup();
+const ideenKreise = {};
 const IDEE_FARBE = { a: '#d9631e', b: '#2f6fb5', c: '#8a5bc4' };
 let ideenGeladen = null;
+function ideeText(g, details) {
+  const sv = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${g.streetview[0]},${g.streetview[1]}`;
+  return `<p>🚋 ${g.guertel_min} min zur U6 am Gürtel (ab ${esc(g.guertel_ab)}) · ${g.schottentor_min} min zum Schottentor (ab ${esc(g.schottentor_ab)})</p>
+    <p><b>Warum es euch gefallen würde:</b> ${esc(g.gefallen)}</p><p><b>Schulen:</b> ${esc(g.schulen)}</p><p><b>Aber:</b> ${esc(g.minus)}</p>
+    <p><a href="${sv}" target="_blank" rel="noopener">👁 Street View</a> · <a href="${esc(details)}" target="_blank" rel="noopener">📷 Fotos und Details</a>${g.reddit ? ` · <a href="${esc(g.reddit)}" target="_blank" rel="noopener">Reddit</a>` : ''}</p>`;
+}
 async function ideenLaden() {
   const j = p => fetch(p, { cache: 'no-cache' }).then(r => r.json());
   const [ideen, netz] = await Promise.all([j('geo/ideen.json'), j('geo/oeffis_ideen.geojson')]);
-  L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ !== 'station',
+  const linien = typen => L.geoJSON(netz, { pane: 'oeffis', filter: f => typen.includes(f.properties.typ),
     style: f => { const o = OEFFI[f.properties.typ]; return { color: f.properties.farbe || o.c, weight: o.w, dashArray: o.d, opacity: .8 }; },
-    onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) }).addTo(ideenEbene);
+    onEachFeature: (f, l) => l.bindTooltip(`${OEFFI[f.properties.typ].n} ${esc(f.properties.linien)}`, { sticky: true }) });
+  linien(['ubahn']).addTo(ideenEbene);
+  const nahLinien = linien(['tram', 'bus']);  // Straßenbahn und Bus erst nah herangezoomt, sonst überdecken sie die Nummern
   const stationen = L.geoJSON(netz, { pane: 'oeffis', filter: f => f.properties.typ === 'station',
     pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 5, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1 })
       .bindTooltip(`${esc(f.properties.name)} <b>${esc(f.properties.linien)}</b>`, { permanent: true, direction: 'right', offset: [6, 0], className: 'station' }) });
-  const stationenZeigen = () => map.hasLayer(ideenEbene) && map.getZoom() >= 14 ? ideenEbene.addLayer(stationen) : ideenEbene.removeLayer(stationen);
+  const stationenZeigen = () => {
+    const nah = map.hasLayer(ideenEbene) && map.getZoom() >= 14;
+    for (const l of [stationen, nahLinien]) nah ? ideenEbene.addLayer(l) : ideenEbene.removeLayer(l);
+  };
   map.on('zoomend', stationenZeigen);
   for (const w of ideen.zu_weit) {
     L.circle([w.lat, w.lon], { pane: 'ideen', radius: w.r, color: '#8b938d', weight: 1.5, dashArray: '4 4', fillColor: '#8b938d', fillOpacity: .12 })
@@ -1427,17 +1454,42 @@ async function ideenLaden() {
   }
   for (const g of ideen.gebiete) {
     const farbe = IDEE_FARBE[g.stufe];
-    const sv = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${g.streetview[0]},${g.streetview[1]}`;
-    const html = `<div class="idee-pop"><b>${g.nr}. ${esc(g.name)}</b><br><i>${esc(g.unter)}</i>
-      <p>🚋 ${g.guertel_min} min zur U6 am Gürtel (ab ${esc(g.guertel_ab)}) · ${g.schottentor_min} min zum Schottentor</p>
-      <p><b>Warum es euch gefallen würde:</b> ${esc(g.gefallen)}</p><p><b>Schulen:</b> ${esc(g.schulen)}</p><p><b>Aber:</b> ${esc(g.minus)}</p>
-      <p><a href="${sv}" target="_blank" rel="noopener">👁 Street View</a> · <a href="${esc(ideen.details)}" target="_blank" rel="noopener">📷 Fotos und Details</a>${g.reddit ? ` · <a href="${esc(g.reddit)}" target="_blank" rel="noopener">Reddit</a>` : ''}</p></div>`;
-    L.circle([g.lat, g.lon], { pane: 'ideen', radius: g.r, color: farbe, weight: 2, fillColor: farbe, fillOpacity: .18 })
-      .bindPopup(html, { maxWidth: 320 }).addTo(ideenEbene);
-    L.marker([g.lat, g.lon], { pane: 'ideen', icon: L.divIcon({ className: 'idee-nr', html: `<span style="background:${farbe}">${g.nr}</span><em>${esc(g.name.replace(/ \(\d+\.\)$/, ''))} · ${g.guertel_min}/${g.schottentor_min} min</em>`, iconSize: [26, 26], iconAnchor: [13, 13] }) })
-      .bindPopup(html, { maxWidth: 320 }).addTo(ideenEbene);
+    const html = `<div class="idee-pop"><b>${g.nr}. ${esc(g.name)}</b><br><i>${esc(g.unter)}</i>${ideeText(g, ideen.details)}</div>`;
+    const kreis = L.circle([g.lat, g.lon], { pane: 'ideen', radius: g.r, color: farbe, weight: 2.5, fillColor: farbe, fillOpacity: .22 })
+      .bindPopup(html, { maxWidth: 300, autoPanPaddingTopLeft: [10, 60] }).addTo(ideenEbene);
+    ideenKreise[g.id] = kreis;
+    L.marker([g.lat, g.lon], { pane: 'ideen', icon: L.divIcon({ className: 'idee-nr', html: `<span style="background:${farbe}">${g.nr}</span><em>${esc(g.name.replace(/ \(\d+\.\)$/, ''))} · ${g.guertel_min}/${g.schottentor_min} min</em>`, iconSize: [28, 28], iconAnchor: [14, 14] }) })
+      .on('click', () => kreis.openPopup()).addTo(ideenEbene);
   }
-  ideenGeladen = { stationenZeigen, grenzen: L.latLngBounds(ideen.gebiete.map(g => [g.lat, g.lon])) };
+  const namenZeigen = () => map.getContainer().classList.toggle('ideen-namen', map.getZoom() >= 14);
+  map.on('zoomend', namenZeigen);
+  // Liste unter der Karte statt der Wohnungen, solange Ideen an sind
+  const box = document.getElementById('ideenListe');
+  box.innerHTML = `<div class="kopf">💡 Ideen außerhalb eurer Suchgebiete. Minuten: zur U6 am Gürtel / zum Schottentor. Tippen zeigt das Grätzl. <a href="${esc(ideen.details)}" target="_blank" rel="noopener">Fotos und Details</a></div>`
+    + ideen.gebiete.map(g => `<div class="idee-zeile" role="button" tabindex="0" data-id="${esc(g.id)}"><span class="b" style="background:${IDEE_FARBE[g.stufe]}">${g.nr}</span>
+      <span><b>${esc(g.name)}</b><small><span class="min">${g.guertel_min} / ${g.schottentor_min} min</span> · ${esc(g.unter)}</small>
+      <span class="idee-mehr idee-pop" hidden>${ideeText(g, ideen.details)}</span></span></div>`).join('');
+  box.querySelectorAll('.idee-zeile').forEach(b => {
+    const zeigen = e => {
+      if (e.target.closest('a')) return;  // Links (Street View, Fotos) normal öffnen
+      const mehr = b.querySelector('.idee-mehr'), auf = mehr.hidden;
+      box.querySelectorAll('.idee-mehr').forEach(m => { m.hidden = true; });
+      mehr.hidden = !auf;
+      if (auf) map.flyTo(ideenKreise[b.dataset.id].getLatLng(), 14, { duration: .8 });
+    };
+    b.addEventListener('click', zeigen);
+    b.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); zeigen(e); } });
+  });
+  ideenGeladen = { stationenZeigen, namenZeigen, grenzen: L.latLngBounds(ideen.gebiete.map(g => [g.lat, g.lon])) };
+}
+function ideenAus() {
+  if (!map.hasLayer(ideenEbene)) return;
+  ideenEbene.remove();
+  map.getContainer().classList.remove('ideen-an', 'ideen-namen');
+  oeffisAnwenden();
+  document.getElementById('ideenListe').hidden = true;
+  document.getElementById('liste').hidden = false;
+  document.querySelector('[aria-label="Ideen"]')?.setAttribute('aria-pressed', false);
 }
 const ideenSchalter = L.control({ position: 'topleft' });
 ideenSchalter.onAdd = () => {
@@ -1447,12 +1499,16 @@ ideenSchalter.onAdd = () => {
   L.DomEvent.disableClickPropagation(d);
   knopf.addEventListener('click', async () => {
     const an = !map.hasLayer(ideenEbene);
-    knopf.setAttribute('aria-pressed', an);
-    if (!an) { ideenEbene.remove(); return; }
+    if (!an) return ideenAus();
+    knopf.setAttribute('aria-pressed', true);
     try { if (!ideenGeladen) await ideenLaden(); } catch (e) { knopf.setAttribute('aria-pressed', false); return; }
+    map.getContainer().classList.add('ideen-an');
+    oeffisAnwenden();
     ideenEbene.addTo(map);
-    ideenGeladen.stationenZeigen();
-    map.flyToBounds(ideenGeladen.grenzen.pad(0.15), { duration: 1 });
+    ideenGeladen.stationenZeigen(); ideenGeladen.namenZeigen();
+    document.getElementById('ideenListe').hidden = false;
+    document.getElementById('liste').hidden = true;
+    map.flyToBounds(ideenGeladen.grenzen.pad(0.1), { duration: 1 });
   });
   return d;
 };
@@ -1480,7 +1536,7 @@ function tabWechseln(tab) {
   document.getElementById('liste').scrollTop = 0;
   schliesse(); zeichne();
 }
-document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => tabWechseln(b.dataset.tab)));
+document.querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => { ideenAus(); tabWechseln(b.dataset.tab); }));
 document.getElementById('btnOeffis').addEventListener('click', e => {
   e.currentTarget.setAttribute('aria-pressed', e.currentTarget.getAttribute('aria-pressed') !== 'true');
   oeffisAnwenden();
