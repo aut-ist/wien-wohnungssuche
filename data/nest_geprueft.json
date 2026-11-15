@@ -5606,8 +5606,9 @@
   "ids": [
    "wh-1804703607"
   ],
-  "ergebnis": "unklar: nur 'beim Belvedere', Kreis um S Rennweg; keine Adresse auf Portalen, weekend.at, Engel & Völkers",
-  "datum": "2026-11-11"
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Keine Hausnummer gefunden. willhaben ohne Karte und ohne Anhänge (SHOW_MAP=false; der Portalpunkt 48.1958/16.3984 liegt weit weg Richtung St. Marx). Das E&V-Exposé W-047Y0Y (https://www.engelvoelkers."
  },
  "wh-1125259676": {
   "ids": [
@@ -6074,5 +6075,152 @@
   "titel": "Wunderschöne Wohnung mit Grünblick in Hofruhelage",
   "ergebnis": "Barawitzkagasse 13, Top 19 (Grundriss-Schriftfeld, 71 m²); Lage 1190 passt zu Hohe Warte/Wertheimsteinpark im Text",
   "datum": "2026-11-14"
+ },
+ "wh-1397465846": {
+  "ids": [
+   "wh-1397465846",
+   "wh-1881315258",
+   "is-048965204670",
+   "is-195572886534",
+   "ds-15279194",
+   "fm-5785346",
+   "fm-5740970"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Reisnerstraße 36, Top 16 (genau)"
+ },
+ "wh-1267554905": {
+  "ids": [
+   "wh-1267554905",
+   "is-622009355191"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Mayerhofgasse 7, Top 10+11 (genau)"
+ },
+ "wh-1779552302": {
+  "ids": [
+   "wh-1779552302",
+   "is-180344819750"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Weder Text noch Fotos noch die Detailseiten von willhaben und ImmoScout nennen eine Straße; ImmoScout zeigt nur 'Adresse anfragen'. Bekannt ist: 4. Bezirk, U1 Südtiroler Platz 'nahezu vor der Haustüre"
+ },
+ "wh-1588467096": {
+  "ids": [
+   "wh-1588467096",
+   "is-418530523256"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Lambrechtgasse 4, Top 5 (ungefaehr)"
+ },
+ "wh-1520033903": {
+  "ids": [
+   "wh-1520033903",
+   "is-803749031965"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Lambrechtgasse 4, Top 2-3 + 2a (ungefaehr)"
+ },
+ "wh-1766625657": {
+  "ids": [
+   "wh-1766625657",
+   "is-735305166633"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Kettenbrückengasse 8, Top 7 (ungefaehr)"
+ },
+ "wh-1859602771": {
+  "ids": [
+   "wh-1859602771"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Schmöllerlgasse 7, Top Stiege 2, 1. OG (Top-Nummer unbekannt) (genau)"
+ },
+ "wh-1055278300": {
+  "ids": [
+   "wh-1055278300",
+   "is-083044551389"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Graf-Starhemberg-Gasse 7, Top 1. Stock (Top-Nummer unbekannt) (genau)"
+ },
+ "wh-1531493086": {
+  "ids": [
+   "wh-1531493086",
+   "is-058664498484"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Weyringergasse 7, Top 4. Stock (Top-Nummer unbekannt) (ungefaehr)"
+ },
+ "wh-1933941429": {
+  "ids": [
+   "wh-1933941429",
+   "is-898470449692"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Keine Adresse gefunden. willhaben: SHOW_MAP=false, Standardpunkt 1040. ImmoScout: Punkt 48.18846/16.37903 nahe Weyringergasse/Mommsengasse, aber ImmoScout-Punkte sind verschoben und liegen auffällig o"
+ },
+ "is-574888557974": {
+  "ids": [
+   "is-574888557974"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Dieselbe Wohnung wie wh-1551722658 (Paket 1): gleicher Titel, Preis 689.000, gleicher Energieausweis HWB 170 / fGEE 2,51, gleicher Makler (Mag. Boris Klutz, Vertragserrichter Winkler). Geprüft auf htt"
+ },
+ "wh-1264408516": {
+  "ids": [
+   "wh-1264408516",
+   "is-498447901951"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "unklar: Kein Beleg für die Hausnummer gefunden. Inserate (willhaben, ImmoScout24 https://www.immobilienscout24.at/expose/6ae4f43abb6b770022c020c7) nennen nur 1040, Karlsplatz/Oper/Naschmarkt fußläufig, 2. Sto"
+ },
+ "fm-5555023": {
+  "ids": [
+   "fm-5555023"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Schäffergasse 18-20, Top 48 (genau)"
+ },
+ "wh-2139788662": {
+  "ids": [
+   "wh-2139788662",
+   "is-634595963612"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Belvederegasse 18 (ungefaehr)"
+ },
+ "wh-1810331986": {
+  "ids": [
+   "wh-1810331986",
+   "is-872888636030"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Südtiroler Platz 2 (genau)"
+ },
+ "wh-1067019749": {
+  "ids": [
+   "wh-1067019749",
+   "is-837093014194",
+   "fm-5739416"
+  ],
+  "titel": "",
+  "datum": "2026-11-15",
+  "ergebnis": "Kettenbrückengasse 8 (ungefaehr)"
  }
 }

@@ -75,12 +75,29 @@
   "ordner": "data/grundrisse_zeichnen/wh-1267554905/"
  },
  {
+  "id": "wh-1766625657",
+  "ids": [
+   "wh-1766625657",
+   "is-735305166633"
+  ],
+  "titel": "3-Zimmer-Wohnung Nähe Naschmarkt",
+  "adresse": "Kettenbrückengasse 8",
+  "flaeche": 84.1,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/7/176/662/5657_1321912106.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1766625657/"
+ },
+ {
   "id": "wh-1859602771",
   "ids": [
    "wh-1859602771"
   ],
   "titel": "Funktional geschnittene 3-Zimmer-Wohnung mit Terrasse im 4. Bezirk Wien - 82m² Wohnkomfort!",
-  "adresse": null,
+  "adresse": "Schmöllerlgasse 7",
   "flaeche": 82.0,
   "zimmer": 3,
   "im_nest": false,
@@ -96,7 +113,7 @@
    "fm-5555023"
   ],
   "titel": "Wunderschöne DG Maisonette am Rande des beliebten ...",
-  "adresse": "Schäffergasse",
+  "adresse": "Schäffergasse 18-20",
   "flaeche": 120.04,
   "zimmer": 4,
   "im_nest": false,
@@ -125,41 +142,6 @@
   "ordner": "data/grundrisse_zeichnen/is-509233592559/"
  },
  {
-  "id": "wh-1055278300",
-  "ids": [
-   "wh-1055278300",
-   "is-083044551389"
-  ],
-  "titel": "Elegante Altbauwohnung in repräsentativem Haus im Herzen des 4. Bezirks",
-  "adresse": null,
-  "flaeche": 132.0,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/0/105/527/8300_195778804.jpg",
-   "https://cache.willhaben.at/mmo/0/105/527/8300_1953628899.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1055278300/"
- },
- {
-  "id": "wh-2139788662",
-  "ids": [
-   "wh-2139788662",
-   "is-634595963612"
-  ],
-  "titel": "Top-Lage! Familienwohnung mit ca. 83 m² Terrasse",
-  "adresse": null,
-  "flaeche": 140.0,
-  "zimmer": 5,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/2/213/978/8662_1998404208.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-2139788662/"
- },
- {
   "id": "wh-2091283511",
   "ids": [
    "wh-2091283511",
@@ -177,75 +159,5 @@
    "https://cache.willhaben.at/mmo/1/209/128/3511_1932362825_n.jpg"
   ],
   "ordner": "data/grundrisse_zeichnen/wh-2091283511/"
- },
- {
-  "id": "wh-1531493086",
-  "ids": [
-   "wh-1531493086",
-   "is-058664498484"
-  ],
-  "titel": "Stilvolles Altbau-City-Apartment Nahe Schloss Belvedere",
-  "adresse": null,
-  "flaeche": 88.0,
-  "zimmer": 3,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/6/153/149/3086_766548069.jpg",
-   "https://cache.willhaben.at/mmo/6/153/149/3086_1747047100.jpg",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83y2-1792444872-431408fd3db048de8c6b57512a0a1013"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1531493086/"
- },
- {
-  "id": "wh-1810331986",
-  "ids": [
-   "wh-1810331986",
-   "is-872888636030"
-  ],
-  "titel": "Lichtdurchflutete Altbauwohnung mit historischem Charme",
-  "adresse": null,
-  "flaeche": 128.0,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/6/181/033/1986_-1578626929.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1810331986/"
- },
- {
-  "id": "wh-1520033903",
-  "ids": [
-   "wh-1520033903",
-   "is-803749031965"
-  ],
-  "titel": "Charmanter Altbau in begehrter Lage des 4. Wiener Gemeindebezirks",
-  "adresse": null,
-  "flaeche": 138.8,
-  "zimmer": null,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/3/152/003/3903_-166508659.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1520033903/"
- },
- {
-  "id": "wh-1766625657",
-  "ids": [
-   "wh-1766625657",
-   "is-735305166633"
-  ],
-  "titel": "3-Zimmer-Wohnung Nähe Naschmarkt",
-  "adresse": null,
-  "flaeche": 84.1,
-  "zimmer": 3,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/7/176/662/5657_1321912106.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1766625657/"
  }
 ]

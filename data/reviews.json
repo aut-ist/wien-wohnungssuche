@@ -13620,42 +13620,58 @@
  "wh-1881315258": {
   "lage": {
    "adresse": "Reisnerstraße 36",
-   "lat": 48.1989642,
-   "lon": 16.3837524,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss Kokron: 'TOP 16', Straßenseite 'REISNERSTRASSE'; Fassadenfoto zeigt Hausnummer '36' über dem Tor und Straßenschild an der Ecke (Neulinggasse kreuzt nördlich, OSM); Bj. 1877, 1. DG (ungefähr: Hausnummer auf dem Fassadenfoto unscharf (36, evtl. 26/56))"
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-15",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  }
  },
  "is-195572886534": {
   "lage": {
    "adresse": "Reisnerstraße 36",
-   "lat": 48.1989642,
-   "lon": 16.3837524,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss Kokron: 'TOP 16', Straßenseite 'REISNERSTRASSE'; Fassadenfoto zeigt Hausnummer '36' über dem Tor und Straßenschild an der Ecke (Neulinggasse kreuzt nördlich, OSM); Bj. 1877, 1. DG (ungefähr: Hausnummer auf dem Fassadenfoto unscharf (36, evtl. 26/56))"
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-15",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  }
  },
  "ds-15279194": {
   "lage": {
    "adresse": "Reisnerstraße 36",
-   "lat": 48.1989642,
-   "lon": 16.3837524,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss Kokron: 'TOP 16', Straßenseite 'REISNERSTRASSE'; Fassadenfoto zeigt Hausnummer '36' über dem Tor und Straßenschild an der Ecke (Neulinggasse kreuzt nördlich, OSM); Bj. 1877, 1. DG (ungefähr: Hausnummer auf dem Fassadenfoto unscharf (36, evtl. 26/56))"
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-15",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  }
  },
  "fm-5740970": {
   "lage": {
    "adresse": "Reisnerstraße 36",
-   "lat": 48.1989642,
-   "lon": 16.3837524,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss Kokron: 'TOP 16', Straßenseite 'REISNERSTRASSE'; Fassadenfoto zeigt Hausnummer '36' über dem Tor und Straßenschild an der Ecke (Neulinggasse kreuzt nördlich, OSM); Bj. 1877, 1. DG (ungefähr: Hausnummer auf dem Fassadenfoto unscharf (36, evtl. 26/56))"
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-15",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  }
  },
  "wh-1326145246": {
   "lage": {
@@ -17281,6 +17297,306 @@
    "begruendung": "Text: 'Die Rechte Bahngasse liegt im Botschaftsviertel', Kathedrale hl. Nikolaus und Sacré Coeur unmittelbar nahe, Baujahr 1952/55, 3. Liftstock, Ostseite. Einziger Nachkriegsbau an der Rechten Bahngasse laut Stadt Wien Gebäudeinfo (Nr. 48, Bj. 1948, 6 Geschoße, neben Sacré Coeur); Hausnummer nicht bestätigt"
   },
   "gleich_wie": "wh-1936450562",
+  "datum": "2026-11-15"
+ },
+ "wh-1397465846": {
+  "lage": {
+   "adresse": "Reisnerstraße 36",
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-048965204670": {
+  "lage": {
+   "adresse": "Reisnerstraße 36",
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  },
+  "datum": "2026-11-15"
+ },
+ "fm-5785346": {
+  "lage": {
+   "adresse": "Reisnerstraße 36",
+   "lat": 48.19893711,
+   "lon": 16.38377468,
+   "sicherheit": "genau",
+   "begruendung": "Großes derStandard-Fassadenfoto (ds-15279194, Bild 9, https://immobilien.derstandard.at/detail/15279194) zeigt die Hausnummer '36' deutlich auf dem Schild im Torbogen und ein Straßenschild '3., Reisnerstraße' an der Ecke; die frühere Unschärfe (26/56) ist damit ausgeräumt. Der Kokron-Grundriss nennt 'TOP 16' und als Straßenseite 'REISNERSTRASSE'. Gegenproben über GEBAEUDEINFOOGD: Reisnerstraße 36 hat Baujahr 1875 (Inserat: 1877) und 4 Geschoße (Inserat: 4 Etagen, 1. DG); Reisnerstraße 26 ist von 1884, eine Nr. 56 gibt es nicht. Der Adresspunkt liegt rund 130 m vom Portalpunkt und damit im Umkreis von 270 m. Top 16."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "77 m² Wohnfläche plus ca. 38 m² Dachboden-Nutzfläche (keine Wohnfläche)"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1267554905": {
+  "lage": {
+   "adresse": "Mayerhofgasse 7",
+   "lat": 48.19245919,
+   "lon": 16.36884677,
+   "sicherheit": "genau",
+   "begruendung": "Bestandsplan im Inserat (willhaben Bild 24, Schriftfeld BENDA, '1040 WIEN, MAYERHOFGASSE 7', 'TOP 10-11 131,38 m²', datiert 11.02.2025, Ecke Danhausergasse/Mayerhofgasse eingezeichnet). Der Inseratstext nennt Mayerhofgasse 7 und 'Wohnungsnummer: 10+11'. Gegenprobe über ADRESSENOGD: Mayerhofgasse 7 in 1040 existiert und liegt rund 3 m vom Portalpunkt. GEBAEUDEINFOOGD gibt Baujahr 1843 und 4 Geschoße an; das Inserat nennt 1900. Top 10+11."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Bad und Küche laut Fotos alt (80er-Jahre), Renovierung einplanen; zwei zusammengelegte Tops 10+11"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-622009355191": {
+  "lage": {
+   "adresse": "Mayerhofgasse 7",
+   "lat": 48.19245919,
+   "lon": 16.36884677,
+   "sicherheit": "genau",
+   "begruendung": "Bestandsplan im Inserat (willhaben Bild 24, Schriftfeld BENDA, '1040 WIEN, MAYERHOFGASSE 7', 'TOP 10-11 131,38 m²', datiert 11.02.2025, Ecke Danhausergasse/Mayerhofgasse eingezeichnet). Der Inseratstext nennt Mayerhofgasse 7 und 'Wohnungsnummer: 10+11'. Gegenprobe über ADRESSENOGD: Mayerhofgasse 7 in 1040 existiert und liegt rund 3 m vom Portalpunkt. GEBAEUDEINFOOGD gibt Baujahr 1843 und 4 Geschoße an; das Inserat nennt 1900. Top 10+11."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Bad und Küche laut Fotos alt (80er-Jahre), Renovierung einplanen; zwei zusammengelegte Tops 10+11"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1588467096": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.19005576,
+   "lon": 16.36544031,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Der Text nennt die Lambrechtgasse (1040), Baujahr 1871, EG + 1. bis 3. OG + ausgebautes DG (5 Geschoße), Lift und Top 5 im 3. OG. Das Haus ist dasselbe wie in Gruppe wh-1520033903 (gleicher Makler, gleicher Energieausweis HWB 115,9 / fGEE 1,85, dieselben Fassaden- und Stiegenhausfotos). Dort zeigt der Grundriss des 1. OG eine Straßenfront von 13,60 m, einen Haupttrakt von 11,40 m Tiefe, einen Seitenflügel nach hinten rechts und einen Lichthof rechts. Gegenproben: In den FMZK-Gebäudeumrissen (data.wien.gv.at FMZKBKMOGD) hat nur die gerade Seite rund 13,5 m breite Häuser (Lambrechtgasse 4, 6 und 8: je 13,3 bis 13,5 m breit und 20 bis 21 m tief). Die ungeraden Nummern 13, 15 und 17 sind rund 20 m breit. Der Lichtschacht liegt bei Nr. 4 rechts (Südostseite) in rund 8 m Tiefe wie im Plan, bei Nr. 6 dagegen links. GEBAEUDEINFOOGD: Nr. 4 ist ein Gründerzeit-Seitenflügelhaus mit 5 Geschoßen; Nr. 6 und 8 haben 4. Der linke Nachbar auf dem Fassadenfoto ist ein verzierter Gründerzeitbau; neben Nr. 8 steht dagegen der Nachkriegsbau 8A, das schließt Nr. 8 aus. Die Hausnummer ist auf dem Fassadenfoto unkenntlich gemacht, kein Dokument nennt sie, deshalb nur 'ungefaehr'. Der Portalpunkt (48.191883/16.371063) ist ein Ersatzpunkt rund 470 m östlich und unbrauchbar. Top 5."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büroflächen im Zinshaus, Wohnnutzung erst nach Umwidmung (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-418530523256": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.19005576,
+   "lon": 16.36544031,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Der Text nennt die Lambrechtgasse (1040), Baujahr 1871, EG + 1. bis 3. OG + ausgebautes DG (5 Geschoße), Lift und Top 5 im 3. OG. Das Haus ist dasselbe wie in Gruppe wh-1520033903 (gleicher Makler, gleicher Energieausweis HWB 115,9 / fGEE 1,85, dieselben Fassaden- und Stiegenhausfotos). Dort zeigt der Grundriss des 1. OG eine Straßenfront von 13,60 m, einen Haupttrakt von 11,40 m Tiefe, einen Seitenflügel nach hinten rechts und einen Lichthof rechts. Gegenproben: In den FMZK-Gebäudeumrissen (data.wien.gv.at FMZKBKMOGD) hat nur die gerade Seite rund 13,5 m breite Häuser (Lambrechtgasse 4, 6 und 8: je 13,3 bis 13,5 m breit und 20 bis 21 m tief). Die ungeraden Nummern 13, 15 und 17 sind rund 20 m breit. Der Lichtschacht liegt bei Nr. 4 rechts (Südostseite) in rund 8 m Tiefe wie im Plan, bei Nr. 6 dagegen links. GEBAEUDEINFOOGD: Nr. 4 ist ein Gründerzeit-Seitenflügelhaus mit 5 Geschoßen; Nr. 6 und 8 haben 4. Der linke Nachbar auf dem Fassadenfoto ist ein verzierter Gründerzeitbau; neben Nr. 8 steht dagegen der Nachkriegsbau 8A, das schließt Nr. 8 aus. Die Hausnummer ist auf dem Fassadenfoto unkenntlich gemacht, kein Dokument nennt sie, deshalb nur 'ungefaehr'. Der Portalpunkt (48.191883/16.371063) ist ein Ersatzpunkt rund 470 m östlich und unbrauchbar. Top 5."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büroflächen im Zinshaus, Wohnnutzung erst nach Umwidmung (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1520033903": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.19005576,
+   "lon": 16.36544031,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Gleiches Haus wie Gruppe wh-1588467096 (gleicher Makler ImmoTrading, gleicher Energieausweis HWB 115,9 / fGEE 1,85, gleiche Fassaden- und Stiegenhausfotos, Lambrechtgasse, Baujahr 1871). Der Grundriss im Inserat (Bild 14, '1. OBERGESCHOSS', Top 2/Top 1 und Top 3) zeigt eine Straßenfront von 13,60 m, einen Haupttrakt von 11,40 m Tiefe, einen Seitenflügel hinten rechts und einen Lichthof rechts. Gegenproben über FMZK-Umrisse und GEBAEUDEINFOOGD: Nur Lambrechtgasse 4 passt in Breite (13,5 m), Tiefe (21,4 m), Lage des Lichtschachts rechts und Geschoßzahl (5). Nr. 6 hat den Lichtschacht links und 4 Geschoße; neben Nr. 8 steht der Nachkriegsbau 8A, nicht der verzierte Nachbar vom Foto; die ungeraden Nummern sind rund 20 m breit. Die Hausnummer ist auf dem Foto verdeckt, ein Dokument fehlt, deshalb 'ungefaehr'. Weekend-Inserat derselben Einheit: https://www.weekend.at/de/immobilie/charmanter-altbau-in-begehrter-lage-des-4-wiener-gemeindebezirks/OBGC202607111036416127a5634247f Top 2-3 + 2a."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büro (weekend.at: Objektart Büro/Praxis, Nutzung Gewerbe), Umwidmung zu Wohnung erst möglich (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-803749031965": {
+  "lage": {
+   "adresse": "Lambrechtgasse 4",
+   "lat": 48.19005576,
+   "lon": 16.36544031,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Gleiches Haus wie Gruppe wh-1588467096 (gleicher Makler ImmoTrading, gleicher Energieausweis HWB 115,9 / fGEE 1,85, gleiche Fassaden- und Stiegenhausfotos, Lambrechtgasse, Baujahr 1871). Der Grundriss im Inserat (Bild 14, '1. OBERGESCHOSS', Top 2/Top 1 und Top 3) zeigt eine Straßenfront von 13,60 m, einen Haupttrakt von 11,40 m Tiefe, einen Seitenflügel hinten rechts und einen Lichthof rechts. Gegenproben über FMZK-Umrisse und GEBAEUDEINFOOGD: Nur Lambrechtgasse 4 passt in Breite (13,5 m), Tiefe (21,4 m), Lage des Lichtschachts rechts und Geschoßzahl (5). Nr. 6 hat den Lichtschacht links und 4 Geschoße; neben Nr. 8 steht der Nachkriegsbau 8A, nicht der verzierte Nachbar vom Foto; die ungeraden Nummern sind rund 20 m breit. Die Hausnummer ist auf dem Foto verdeckt, ein Dokument fehlt, deshalb 'ungefaehr'. Weekend-Inserat derselben Einheit: https://www.weekend.at/de/immobilie/charmanter-altbau-in-begehrter-lage-des-4-wiener-gemeindebezirks/OBGC202607111036416127a5634247f Top 2-3 + 2a."
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Büro (weekend.at: Objektart Büro/Praxis, Nutzung Gewerbe), Umwidmung zu Wohnung erst möglich (Recherche 2026-11-15)"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1766625657": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.19481762,
+   "lon": 16.36115743,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Lagebeschreibung nennt die Kettenbrückengasse, der Grundriss (Bild 9) zeigt 'Top 7'. Baujahr 1962, THEWOSAN-saniert, Lift, 2. Stock, straßenseitig; die Inserate führen 1040 Wieden (willhaben-URL, ImmoScout '1040 Wien'). Die Kettenbrückengasse ist die Grenze zwischen 4. und 5. Bezirk: Gerade Nummern liegen in 1040, ungerade in 1050 (ADRESSENOGD). Laut GEBAEUDEINFOOGD ist auf der 1040-Seite nur Nr. 8 ein Nachkriegsbau (soz./gemeinn. Wohnbau, 7 Geschoße); 2 bis 6 und 10 bis 24 sind Biedermeier- bzw. Gründerzeithäuser. Der einzige weitere Nachkriegsbau ist Nr. 5 auf der 1050-Seite (1946 bis 1976, 4 Geschoße). Die Fenster-Fotos (ImmoScout in voller Auflösung) zeigen gegenüber verzierte Biedermeier-Fassaden mit rustiziertem Sockel; das passt zu Nr. 7 gegenüber von Nr. 8. Der Adresspunkt liegt rund 165 m vom Portalpunkt, also im Umkreis von 258 m. Weekend-Inserat mit identischem Text (Ref. 13138): https://www.weekend.at/de/immobilie/3-zimmer-wohnung-naehe-naschmarkt/OBGC2026100221271588257a3cf2405. Keine Hausnummer belegt, deshalb 'ungefaehr'; Nr. 5 (1050) ist nicht ganz ausgeschlossen. Top 7."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "bisher als Büro genutzt, Bad mit alten Fliesen, Fotos teils KI-retuschiert"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-735305166633": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.19481762,
+   "lon": 16.36115743,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Lagebeschreibung nennt die Kettenbrückengasse, der Grundriss (Bild 9) zeigt 'Top 7'. Baujahr 1962, THEWOSAN-saniert, Lift, 2. Stock, straßenseitig; die Inserate führen 1040 Wieden (willhaben-URL, ImmoScout '1040 Wien'). Die Kettenbrückengasse ist die Grenze zwischen 4. und 5. Bezirk: Gerade Nummern liegen in 1040, ungerade in 1050 (ADRESSENOGD). Laut GEBAEUDEINFOOGD ist auf der 1040-Seite nur Nr. 8 ein Nachkriegsbau (soz./gemeinn. Wohnbau, 7 Geschoße); 2 bis 6 und 10 bis 24 sind Biedermeier- bzw. Gründerzeithäuser. Der einzige weitere Nachkriegsbau ist Nr. 5 auf der 1050-Seite (1946 bis 1976, 4 Geschoße). Die Fenster-Fotos (ImmoScout in voller Auflösung) zeigen gegenüber verzierte Biedermeier-Fassaden mit rustiziertem Sockel; das passt zu Nr. 7 gegenüber von Nr. 8. Der Adresspunkt liegt rund 165 m vom Portalpunkt, also im Umkreis von 258 m. Weekend-Inserat mit identischem Text (Ref. 13138): https://www.weekend.at/de/immobilie/3-zimmer-wohnung-naehe-naschmarkt/OBGC2026100221271588257a3cf2405. Keine Hausnummer belegt, deshalb 'ungefaehr'; Nr. 5 (1050) ist nicht ganz ausgeschlossen. Top 7."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "bisher als Büro genutzt, Bad mit alten Fliesen, Fotos teils KI-retuschiert"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1859602771": {
+  "lage": {
+   "adresse": "Schmöllerlgasse 7",
+   "lat": 48.19261947,
+   "lon": 16.37642063,
+   "sicherheit": "genau",
+   "begruendung": "Foto 26 (Fassade) im willhaben-Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/funktional-geschnittene-3-zimmer-wohnung-mit-terrasse-im-4-bezirk-wien-82m-wohnkomfort-1859602771/ zeigt neben dem Haustor das blaue Hausnummernschild '7'. Der Straßenname darauf ist unscharf, passt aber zu 'Schmöllerlgasse'. Gegenprobe GEBAEUDEINFOOGD: Schmöllerlgasse 7 hat eine Stiege 2 mit 4 Geschoßen, Bautyp Baulückenbebauung nach 1945. Das deckt sich mit dem Inserat: 'Stiege II', 'Anzahl Etagen 4', 'Baujahr 1953', Wohnhausanlage mit Innenhof. Unter allen Häusern Nr. 7 im 4. Bezirk ist das die einzige Nachkriegsbebauung mit 4 Geschoßen. Die Lage passt zum Text ('Botschaftsviertel nahe Schloss Belvedere'). Das Balkonfoto zeigt gegenüber eine Gasse mit Villengärten (Schmöllerlgasse 3 ist eine freistehende Villa, Nr. 5 das Isbary-Palais). Der willhaben-Punkt (48.191883/16.371063, Favoritenstraße/Waltergasse) ist ein Standardpunkt, den auch andere Makler (ImmoTrading) verwenden, und sagt nichts aus. weekend.at-Exposé (https://www.weekend.at/de/immobilie/x/OBGC20260707114031962f34827f70f) ohne Adresse. Koordinate = Adresspunkt Schmöllerlgasse 7/2 (Stiege 2) aus ADRESSENOGD. Top Stiege 2, 1. OG (Top-Nummer unbekannt)."
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1055278300": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 7",
+   "lat": 48.19154121,
+   "lon": 16.36898055,
+   "sicherheit": "genau",
+   "begruendung": "Das Fassadenfoto (Bild 12, 'AI-modified', Werbung verpixelt) im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/elegante-altbauwohnung-in-repraesentativem-haus-im-herzen-des-4-bezirks-1055278300/ zeigt dasselbe Haus wie die Wikimedia-Commons-Fotos 'Graf-Starhemberg-Gasse 7, Wien' (https://commons.wikimedia.org/wiki/File:Wien_020_(4531750634).jpg und https://commons.wikimedia.org/wiki/File:Wien_021_(4531117903).jpg): Rundbogenportal mit Konsolen-Köpfen, schmiedeeiserner Balkon darüber, Zwillingsfenster mit Rautenmuster-Feldern, gleiche Achsenzahl. Gegenproben: GEBAEUDEINFOOGD nennt für Graf-Starhemberg-Gasse 7 Baujahr 1889 (wie im Inserat), Seitenflügelhaus mit 5 Geschoßen (passt zu Lift und 'Ausrichtung in ruhige Innenhöfe'). Der Kreis der Lagekarte im Inserat (zwischen Wiedner Hauptstraße und U1) liegt ca. 65 m vom Adresspunkt. Laut Nordpfeil im Grundriss liegt die Wohnung in einem Flügel quer zur Gasse Richtung ONO, Fenster nach SSO und NNW; das passt zum Seitenflügel auf der Ostseite der Gasse. Gegenüber steht die Volksschule (Nr. 8-10), auf der Fahrbahn die Tempo-30-Markierung. E&V-ID W-04BSR2 (https://www.engelvoelkers.com/at/de/exposes/b2fa7b76-5d07-53bc-aa1a-f66ac6083ac0) zeigt nur einen verschobenen Punkt. Der ImmoScout-Punkt 48.19008/16.36589 liegt ca. 280 m daneben. Top 1. Stock (Top-Nummer unbekannt)."
+  },
+  "datum": "2026-11-15"
+ },
+ "is-083044551389": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 7",
+   "lat": 48.19154121,
+   "lon": 16.36898055,
+   "sicherheit": "genau",
+   "begruendung": "Das Fassadenfoto (Bild 12, 'AI-modified', Werbung verpixelt) im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/elegante-altbauwohnung-in-repraesentativem-haus-im-herzen-des-4-bezirks-1055278300/ zeigt dasselbe Haus wie die Wikimedia-Commons-Fotos 'Graf-Starhemberg-Gasse 7, Wien' (https://commons.wikimedia.org/wiki/File:Wien_020_(4531750634).jpg und https://commons.wikimedia.org/wiki/File:Wien_021_(4531117903).jpg): Rundbogenportal mit Konsolen-Köpfen, schmiedeeiserner Balkon darüber, Zwillingsfenster mit Rautenmuster-Feldern, gleiche Achsenzahl. Gegenproben: GEBAEUDEINFOOGD nennt für Graf-Starhemberg-Gasse 7 Baujahr 1889 (wie im Inserat), Seitenflügelhaus mit 5 Geschoßen (passt zu Lift und 'Ausrichtung in ruhige Innenhöfe'). Der Kreis der Lagekarte im Inserat (zwischen Wiedner Hauptstraße und U1) liegt ca. 65 m vom Adresspunkt. Laut Nordpfeil im Grundriss liegt die Wohnung in einem Flügel quer zur Gasse Richtung ONO, Fenster nach SSO und NNW; das passt zum Seitenflügel auf der Ostseite der Gasse. Gegenüber steht die Volksschule (Nr. 8-10), auf der Fahrbahn die Tempo-30-Markierung. E&V-ID W-04BSR2 (https://www.engelvoelkers.com/at/de/exposes/b2fa7b76-5d07-53bc-aa1a-f66ac6083ac0) zeigt nur einen verschobenen Punkt. Der ImmoScout-Punkt 48.19008/16.36589 liegt ca. 280 m daneben. Top 1. Stock (Top-Nummer unbekannt)."
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1531493086": {
+  "lage": {
+   "adresse": "Weyringergasse 7",
+   "lat": 48.18872274,
+   "lon": 16.37951361,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Hausnummer nicht belegt, nur eingegrenzt. Lagekarte im Inserat (Bild 9): kleiner Kreis (ca. 170 m) um Weyringergasse/Mommsengasse/Wiedner Gürtel. E&V-Exposé W-04BE5A (https://www.engelvoelkers.com/at/de/exposes/5cdb3f81-a0d9-5fa0-a6f2-eeb1b9eeaa78): Punkt 48.18916/16.37836 (Mommsengasse/Weyringergasse). Text: Hauptbahnhof 5 Gehminuten, Schweizergarten nah. Grundriss (Bild 8): Fenster nur an einer Front; der Nordpfeil zeigt nach links unten, die Front schaut also nach ca. NNW. Durch das Fenster der Wohnküche sieht man gegenüber einen modernen Mehrgeschoßer mit Fensterbändern (Bild 4). Im Kreis schauen nach NNW nur die Häuser auf der Südseite der Weyringergasse (ungerade Nr. 5-17). Gegenüber Nr. 7 steht Weyringergasse 8 Stiege 1 (laut GEBAEUDEINFOOGD Nachkriegsbau, 6 Geschoße), daher ist die beste Adresse Weyringergasse 7 (bzw. 7A). Dagegen spricht: GEBAEUDEINFOOGD nennt für Weyringergasse 5-17 die Baujahre 1886-1890, das Inserat nennt 1905 und 'denkmalgeschützt'. Die Häuser mit Baujahr um 1905 im Kreis (Mommsengasse 30 / Wiedner Gürtel 12, 1900/1906) schauen nach OSO/SSO und passen nicht zum Nordpfeil. Der ImmoScout-Punkt 48.18847/16.37841 sagt nichts aus (ImmoScout setzt bei mehreren Inseraten fast dieselbe Breite 48.1884x). Alternativen: Weyringergasse 5, 9, 11. Top 4. Stock (Top-Nummer unbekannt)."
+  },
+  "datum": "2026-11-15"
+ },
+ "is-058664498484": {
+  "lage": {
+   "adresse": "Weyringergasse 7",
+   "lat": 48.18872274,
+   "lon": 16.37951361,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Hausnummer nicht belegt, nur eingegrenzt. Lagekarte im Inserat (Bild 9): kleiner Kreis (ca. 170 m) um Weyringergasse/Mommsengasse/Wiedner Gürtel. E&V-Exposé W-04BE5A (https://www.engelvoelkers.com/at/de/exposes/5cdb3f81-a0d9-5fa0-a6f2-eeb1b9eeaa78): Punkt 48.18916/16.37836 (Mommsengasse/Weyringergasse). Text: Hauptbahnhof 5 Gehminuten, Schweizergarten nah. Grundriss (Bild 8): Fenster nur an einer Front; der Nordpfeil zeigt nach links unten, die Front schaut also nach ca. NNW. Durch das Fenster der Wohnküche sieht man gegenüber einen modernen Mehrgeschoßer mit Fensterbändern (Bild 4). Im Kreis schauen nach NNW nur die Häuser auf der Südseite der Weyringergasse (ungerade Nr. 5-17). Gegenüber Nr. 7 steht Weyringergasse 8 Stiege 1 (laut GEBAEUDEINFOOGD Nachkriegsbau, 6 Geschoße), daher ist die beste Adresse Weyringergasse 7 (bzw. 7A). Dagegen spricht: GEBAEUDEINFOOGD nennt für Weyringergasse 5-17 die Baujahre 1886-1890, das Inserat nennt 1905 und 'denkmalgeschützt'. Die Häuser mit Baujahr um 1905 im Kreis (Mommsengasse 30 / Wiedner Gürtel 12, 1900/1906) schauen nach OSO/SSO und passen nicht zum Nordpfeil. Der ImmoScout-Punkt 48.18847/16.37841 sagt nichts aus (ImmoScout setzt bei mehreren Inseraten fast dieselbe Breite 48.1884x). Alternativen: Weyringergasse 5, 9, 11. Top 4. Stock (Top-Nummer unbekannt)."
+  },
+  "datum": "2026-11-15"
+ },
+ "is-574888557974": {
+  "gleich_wie": "wh-1551722658",
+  "datum": "2026-11-15"
+ },
+ "fm-5555023": {
+  "lage": {
+   "adresse": "Schäffergasse 18-20",
+   "lat": 48.19409113,
+   "lon": 16.36398173,
+   "sicherheit": "genau",
+   "begruendung": "Dieselbe Wohnung (gleicher Text 'Wohneinheit TOP 48', 120,04 m², DG-Maisonette über 1. und 2. DG, 990.000 EUR) bei WINEGG auf weekend.at mit Adresse 'Schäffergasse 18-20, 1040 Wien': https://www.weekend.at/de/immobilie/wohnen-mitten-im-vierten-urbane-lebensqualitaet-in-zentrumsnaehe-grosszuegige-maisonette-wohnung-moderne-ausstattung/OBGC202509081134354066b93049a83 ; weitere JP-, Infina- und 3SI-Inserate desselben Hauses nennen ebenfalls Schäffergasse 18-20, Baujahr 1991, Tiefgarage. Gegenproben: GEBAEUDEINFOOGD Schäffergasse 18 und 20 = Bauten nach 1945 (die übrigen Häuser der Gasse sind Gründerzeit/Biedermeier), zwei Häuser = 'beide Stiegenhäuser' im Text; FindMyHome-Punkt 48.193998/16.364073 liegt rund 80 m daneben. Koordinate = Adresspunkt Schäffergasse 18 (Hauptadresse, Ecke Freundgasse 1); Schäffergasse 20 liegt bei 48.19386154/16.36354473. Top 48."
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-2139788662": {
+  "lage": {
+   "adresse": "Belvederegasse 18",
+   "lat": 48.19115872,
+   "lon": 16.37585041,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Dokument mit Hausnummer, aber mehrere unabhängige Gegenproben: (1) Text: Zugang vom St.-Elisabeth-Platz, modernes Wohnhaus Baujahr 1991, Tiefgarage mit Duplex-Stellplatz, 2. OG mit ca. 83 m² Dachgarten. (2) Garagen-Inserate von WI-RE (ir.at https://ir.at/de/immobilien/expose/id/790580 und /790581, laut Suchindex, Seiten inzwischen offline): Tiefgarage 'in einem Wohnhaus in der Belvederegasse 18 (4.), die Einfahrt liegt direkt am Sankt-Elisabeth Platz', Stapelparker, Baujahr 1991. (3) GEBAEUDEINFOOGD: Belvederegasse 18 = Bau nach 1945, 6 Geschoße, Front zum Nordende des St.-Elisabeth-Platzes (Karolinenmarkt); die anderen Häuser am Platz sind Gründerzeit. (4) FMZK-Baukörper und Orthofoto: hinter dem 18 m hohen Haus ein schmaler, 6 m hoher Gebäudeteil Richtung NNW = Dachterrasse auf Höhe 2. OG; an seinem Ende die gegiebelte Feuermauer des 16 m hohen Nachbarhauses, wie im Terrassenfoto; der Erker des Zimmers links neben der Terrasse passt zum Grundriss; Nordpfeil im Grundriss (leicht nach Osten gedreht) und Fenster nach drei Seiten passen zur freien Nordostecke. willhaben-Punkt 48.19262/16.369448 ist der Standardpunkt von Engel & Völkers (gleich wie bei wh-1810331986), ImmoScout-Punkt 48.192/16.37604 liegt rund 95 m nördlich. Engel & Völkers-Exposé ohne Adresse: https://www.engelvoelkers.com/hu/en/exposes/e534d727-5f17-522c-94f8-2b90d3d273ae"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-634595963612": {
+  "lage": {
+   "adresse": "Belvederegasse 18",
+   "lat": 48.19115872,
+   "lon": 16.37585041,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Dokument mit Hausnummer, aber mehrere unabhängige Gegenproben: (1) Text: Zugang vom St.-Elisabeth-Platz, modernes Wohnhaus Baujahr 1991, Tiefgarage mit Duplex-Stellplatz, 2. OG mit ca. 83 m² Dachgarten. (2) Garagen-Inserate von WI-RE (ir.at https://ir.at/de/immobilien/expose/id/790580 und /790581, laut Suchindex, Seiten inzwischen offline): Tiefgarage 'in einem Wohnhaus in der Belvederegasse 18 (4.), die Einfahrt liegt direkt am Sankt-Elisabeth Platz', Stapelparker, Baujahr 1991. (3) GEBAEUDEINFOOGD: Belvederegasse 18 = Bau nach 1945, 6 Geschoße, Front zum Nordende des St.-Elisabeth-Platzes (Karolinenmarkt); die anderen Häuser am Platz sind Gründerzeit. (4) FMZK-Baukörper und Orthofoto: hinter dem 18 m hohen Haus ein schmaler, 6 m hoher Gebäudeteil Richtung NNW = Dachterrasse auf Höhe 2. OG; an seinem Ende die gegiebelte Feuermauer des 16 m hohen Nachbarhauses, wie im Terrassenfoto; der Erker des Zimmers links neben der Terrasse passt zum Grundriss; Nordpfeil im Grundriss (leicht nach Osten gedreht) und Fenster nach drei Seiten passen zur freien Nordostecke. willhaben-Punkt 48.19262/16.369448 ist der Standardpunkt von Engel & Völkers (gleich wie bei wh-1810331986), ImmoScout-Punkt 48.192/16.37604 liegt rund 95 m nördlich. Engel & Völkers-Exposé ohne Adresse: https://www.engelvoelkers.com/hu/en/exposes/e534d727-5f17-522c-94f8-2b90d3d273ae"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1810331986": {
+  "lage": {
+   "adresse": "Südtiroler Platz 2",
+   "lat": 48.18644183,
+   "lon": 16.37292651,
+   "sicherheit": "genau",
+   "begruendung": "Hausfoto im Inserat (willhaben Bild 9, ImmoScout Bild 9 in voller Größe): weißes Gründerzeithaus mit Wiener Hausnummernschild '2' über der Eingangstür, davor der Abgang der U1-Station Hauptbahnhof (Südtiroler Platz), rechts das Nachkriegshaus mit dem Hostel 'Do Step Inn' (Do Step Inn Central, Südtiroler Platz 3), links das Nachkriegs-Eckhaus Südtiroler Platz 1. Der Lageplan im Inserat kreist genau diesen Bereich (Schaumburgergrund/Hauptbahnhof) ein. Gegenprobe GEBAEUDEINFOOGD: Südtiroler Platz 2 = Gründerzeit-Doppeltrakter (1848-1918), 7 Geschoße, passt zu Baujahr 1902 und 3. Stock mit Lift; Südtiroler Platz 1 und 3 = nach 1945. Portalpunkte sind falsch: willhaben 48.19262/16.369448 = Engel & Völkers-Standardpunkt, ImmoScout 48.1853/16.36902 rund 300 m westlich. Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/lichtdurchflutete-altbauwohnung-mit-historischem-charme-1810331986/"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-872888636030": {
+  "lage": {
+   "adresse": "Südtiroler Platz 2",
+   "lat": 48.18644183,
+   "lon": 16.37292651,
+   "sicherheit": "genau",
+   "begruendung": "Hausfoto im Inserat (willhaben Bild 9, ImmoScout Bild 9 in voller Größe): weißes Gründerzeithaus mit Wiener Hausnummernschild '2' über der Eingangstür, davor der Abgang der U1-Station Hauptbahnhof (Südtiroler Platz), rechts das Nachkriegshaus mit dem Hostel 'Do Step Inn' (Do Step Inn Central, Südtiroler Platz 3), links das Nachkriegs-Eckhaus Südtiroler Platz 1. Der Lageplan im Inserat kreist genau diesen Bereich (Schaumburgergrund/Hauptbahnhof) ein. Gegenprobe GEBAEUDEINFOOGD: Südtiroler Platz 2 = Gründerzeit-Doppeltrakter (1848-1918), 7 Geschoße, passt zu Baujahr 1902 und 3. Stock mit Lift; Südtiroler Platz 1 und 3 = nach 1945. Portalpunkte sind falsch: willhaben 48.19262/16.369448 = Engel & Völkers-Standardpunkt, ImmoScout 48.1853/16.36902 rund 300 m westlich. Quelle: https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/lichtdurchflutete-altbauwohnung-mit-historischem-charme-1810331986/"
+  },
+  "datum": "2026-11-15"
+ },
+ "wh-1067019749": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.19481762,
+   "lon": 16.36115743,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Hausfoto im Inserat (Bild 2): siebengeschoßiges Nachkriegs-Eckhaus mit dem Geschäft 'NEUROTH' (Hörakustik) im Erdgeschoß; Straßenschilder nicht lesbar. Neuroth GmbH steht laut WKO-Firmen-A-Z an 'Schönbrunner Straße 9, 1040 Wien' (https://firmen.wko.at/neuroth-gmbh/wien/); laut ADRESSENOGD ist Schönbrunner Straße 9 die Nebenadresse des Eckhauses Kettenbrückengasse 8 (Hauptadresse, gleicher Adresspunkt). Gegenproben: GEBAEUDEINFOOGD Kettenbrückengasse 8 = Bau nach 1945, 7 Geschoße; FMZK-Baukörper 23 m hoch, Flachdach, Ecklage wie im Foto; Text 'U4 Kettenbrückengasse direkt ums Eck', Lift, Mosaikparkett/Marmor und Terrazzo-Stiegenhaus passen zum Nachkriegsbau; willhaben-Punkt 48.194675/16.362885 (Radius 255 m) liegt rund 130 m entfernt. Nicht 'genau', weil weder Hausnummer noch Straßenschild im Foto lesbar sind und die Neuroth-Filiale nur über ein Verzeichnis belegt ist."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
+  },
+  "datum": "2026-11-15"
+ },
+ "is-837093014194": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.19481762,
+   "lon": 16.36115743,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Hausfoto im Inserat (Bild 2): siebengeschoßiges Nachkriegs-Eckhaus mit dem Geschäft 'NEUROTH' (Hörakustik) im Erdgeschoß; Straßenschilder nicht lesbar. Neuroth GmbH steht laut WKO-Firmen-A-Z an 'Schönbrunner Straße 9, 1040 Wien' (https://firmen.wko.at/neuroth-gmbh/wien/); laut ADRESSENOGD ist Schönbrunner Straße 9 die Nebenadresse des Eckhauses Kettenbrückengasse 8 (Hauptadresse, gleicher Adresspunkt). Gegenproben: GEBAEUDEINFOOGD Kettenbrückengasse 8 = Bau nach 1945, 7 Geschoße; FMZK-Baukörper 23 m hoch, Flachdach, Ecklage wie im Foto; Text 'U4 Kettenbrückengasse direkt ums Eck', Lift, Mosaikparkett/Marmor und Terrazzo-Stiegenhaus passen zum Nachkriegsbau; willhaben-Punkt 48.194675/16.362885 (Radius 255 m) liegt rund 130 m entfernt. Nicht 'genau', weil weder Hausnummer noch Straßenschild im Foto lesbar sind und die Neuroth-Filiale nur über ein Verzeichnis belegt ist."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
+  },
+  "datum": "2026-11-15"
+ },
+ "fm-5739416": {
+  "lage": {
+   "adresse": "Kettenbrückengasse 8",
+   "lat": 48.19481762,
+   "lon": 16.36115743,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Hausfoto im Inserat (Bild 2): siebengeschoßiges Nachkriegs-Eckhaus mit dem Geschäft 'NEUROTH' (Hörakustik) im Erdgeschoß; Straßenschilder nicht lesbar. Neuroth GmbH steht laut WKO-Firmen-A-Z an 'Schönbrunner Straße 9, 1040 Wien' (https://firmen.wko.at/neuroth-gmbh/wien/); laut ADRESSENOGD ist Schönbrunner Straße 9 die Nebenadresse des Eckhauses Kettenbrückengasse 8 (Hauptadresse, gleicher Adresspunkt). Gegenproben: GEBAEUDEINFOOGD Kettenbrückengasse 8 = Bau nach 1945, 7 Geschoße; FMZK-Baukörper 23 m hoch, Flachdach, Ecklage wie im Foto; Text 'U4 Kettenbrückengasse direkt ums Eck', Lift, Mosaikparkett/Marmor und Terrazzo-Stiegenhaus passen zum Nachkriegsbau; willhaben-Punkt 48.194675/16.362885 (Radius 255 m) liegt rund 130 m entfernt. Nicht 'genau', weil weder Hausnummer noch Straßenschild im Foto lesbar sind und die Neuroth-Filiale nur über ein Verzeichnis belegt ist."
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fotos laut Vermerk KI-generiert, Bad wirkt unrenoviert"
+  },
   "datum": "2026-11-15"
  }
 }
