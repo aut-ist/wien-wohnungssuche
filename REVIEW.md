@@ -25,7 +25,11 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
 - 3. Bezirk (seit 2026-11-01) nur der Norden: zwischen Wienfluss (Stadtpark, Wien Mitte) und
   Donaukanal, im Süden bis zum Rennweg (Schwarzenbergplatz bis St. Marx), im Osten bis etwa
   Kunst Haus Wien, Hundertwasserhaus und U3 Kardinal-Nagl-Platz. Nicht Weißgerberlände, Erdberg,
-  Arsenal oder südlich vom Rennweg.
+  Arsenal oder südlich vom Rennweg. Seit 2026-11-15 zusätzlich das ganze Botschaftsviertel: Rennweg bis Beatrixgasse,
+  Ungargasse bis Heumarkt/Schwarzenbergplatz (Metternichgasse, Jaurèsgasse, Reisnerstraße, Strohgasse, Rechte Bahngasse).
+- 4. Bezirk (seit 2026-11-15) nur Freihausviertel und Wieden-Nord: alles nördlich etwa Mühlgasse, Rainergasse und Südende
+  Theresianum (Naschmarkt-Seite, Schleifmühlgasse, Karlsplatz, Favoritenstraße bis zum Theresianum, Belvedere-Westseite bis
+  Prinz-Eugen-Straße). Nicht der Süden Richtung Wiedner Gürtel und Südtiroler Platz.
 - 17. Bezirk (seit 2026-11-11) nur ein kleines Stück Hernals direkt unter dem 18.: östlich der Kalvarienberggasse
   (ihre Westseite nicht) bis zur 18er-Grenze, im Süden bis knapp vor die Jörgerstraße (die Jörgerstraße selbst,
   Elterleinplatz und Hernalser Hauptstraße nicht). Seit dem Abend davon nur noch ein Stück (Schulweg: Kinder nicht
@@ -34,7 +38,7 @@ bei der Heizung, gilt die konkretere Angabe; im Zweifel `unklar` mit Begründung
 - Ob ein Punkt drin ist, rechnet `run.py` selbst. Du lieferst nur die beste Adresse.
 
 ## Frage `lage`
-Im 1., 2., 3. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. entscheidet
+Im 1., 2., 3., 4. und 9. Bezirk entscheidet die Lage, ob die Wohnung drin ist. Im 18. und 19. entscheidet
 die Öffi-Zeit zum Gürtel (3 Zimmer höchstens 10 min; ab 2026-11-12 neu gefundene höchstens 18 min),
 dafür wird die Adresse gebraucht. Achte deshalb auch auf
 Projektnamen mit Adresse ("M86" = Martinstraße 86), Hausnamen und Straßen in Grundriss-Texten.
@@ -122,7 +126,7 @@ Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
 ## Neubauprojekte suchen (jeden Montag, nach den Grundrissen; seit 2026-11-09)
 Zusätzlich zu den Portalen liest `wohnungen/bautraeger.py` täglich die Einheitenlisten der Projekte in
 `data/bautraeger_projekte.json`. Jeden Montag (`TZ=Europe/Vienna date +%u` ist 1) neue Projekte in 1180, 1190, 1080, 1090, 1010,
-1020, 1030 suchen, höchstens 15 Websuchen:
+1020, 1030, 1040 suchen, höchstens 15 Websuchen:
 - **Was funktioniert** (Test 2026-11-09): Projektname oder Adresse + Bauträger + "Projekt Wohnungen", zum Beispiel
   `Semper47 Semperstraße 47 Wien Boutique Projekt Wohnungen Preisliste`. Startpunkte sind die Sammelinserate in `data/listings.json`
   (`"projekt": true` oder `/neubauprojekt/` in der URL) und die Übersichten winegg.at/de/wohnprojekte/, optin.at/de/projekte,
