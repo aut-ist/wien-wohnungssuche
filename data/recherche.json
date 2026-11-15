@@ -51,7 +51,7 @@
   ],
   "anbieter": "H.S. Immomakler",
   "adresse_im_inserat": null,
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (24 m außerhalb)",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (8 m außerhalb)",
   "punkt": [
    48.18773,
    16.36925
@@ -87,7 +87,7 @@
   ],
   "anbieter": "H.S. Immomakler",
   "adresse_im_inserat": null,
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (24 m außerhalb)",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (8 m außerhalb)",
   "punkt": [
    48.18773,
    16.36925
@@ -121,7 +121,7 @@
   ],
   "anbieter": "EHL Immobilien GmbH",
   "adresse_im_inserat": "Leibenfrostgasse",
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (18 m außerhalb)",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
   "punkt": [
    48.189823,
    16.363906
@@ -152,7 +152,7 @@
   ],
   "anbieter": "Coricon Properties",
   "adresse_im_inserat": "Weyringergasse",
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (9 m außerhalb)",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
   "punkt": [
    48.18855,
    16.376784
@@ -221,7 +221,7 @@
   ],
   "anbieter": "Avium Real GmbH",
   "adresse_im_inserat": null,
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (7 m außerhalb)",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
   "punkt": [
    48.188782,
    16.378781
@@ -255,7 +255,7 @@
   ],
   "anbieter": "von Alten Immobilientreuhand GmbH",
   "adresse_im_inserat": null,
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (46 m außerhalb)",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
   "punkt": [
    48.188764,
    16.364881
@@ -474,7 +474,7 @@
   ],
   "anbieter": "GOHN Immobilien GmbH",
   "adresse_im_inserat": "Johann-Strauß-Gasse",
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (36 m außerhalb)",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (11 m außerhalb)",
   "punkt": [
    48.187698,
    16.368137
@@ -508,7 +508,7 @@
   ],
   "anbieter": null,
   "adresse_im_inserat": "Johann Strauss Gasse 27",
-  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (14 m außerhalb)",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
   "punkt": [
    48.187897,
    16.368198
@@ -529,5 +529,149 @@
   "dokumente": [],
   "erstmals": "2026-11-15",
   "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-863089132",
+  "ids": [
+   "wh-863089132",
+   "is-541172348876"
+  ],
+  "titel": "Ein Zuhause auf Zeit - ein Vermögenswert auf Dauer, Wohnung mit Terrasse in der obersten Etage, Wien-Margareten",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/ein-zuhause-auf-zeit-ein-vermoegenswert-auf-dauer-wohnung-mit-terrasse-in-der-obersten-etage-wien-margareten-863089132/",
+   "https://www.immobilienscout24.at/expose/6af0cf955e0dc0ba6b085f70"
+  ],
+  "anbieter": "Fermoso Immobilientreuhand GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.191005,
+   16.361176
+  ],
+  "versatz_m": 0,
+  "preis": 512500.0,
+  "flaeche": 99.0,
+  "zimmer": null,
+  "stockwerk": "5",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-863089132/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-926797373",
+  "ids": [
+   "wh-926797373",
+   "is-392262724556"
+  ],
+  "titel": "Einzigartiges Loft mit Terrasse, Sauna & besonderem Glaskuppel-Highlight am Margaretenplatz",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/einzigartiges-loft-mit-terrasse-sauna-besonderem-glaskuppel-highlight-am-margaretenplatz-926797373/",
+   "https://www.immobilienscout24.at/expose/6acc8fbff3f8fa22ba41f98c"
+  ],
+  "anbieter": "STEUP Realitäten GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.192754,
+   16.358514
+  ],
+  "versatz_m": 0,
+  "preis": 890000.0,
+  "flaeche": 120.0,
+  "zimmer": null,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 103.3,
+   "hwb_class": "D",
+   "fgee": 1.55,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-926797373/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1016643947",
+  "ids": [
+   "wh-1016643947",
+   "is-332933240384"
+  ],
+  "titel": "LICHT, LUFT & LEBENSQUALITÄT - 4-ZIMMER-WOHNUNG MIT LOGGIA IN RUHIGER STADTLAGE (1050) ZU KAUFEN!",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/licht-luft-lebensqualitaet-4-zimmer-wohnung-mit-loggia-in-ruhiger-stadtlage-1050-zu-kaufen-1016643947/",
+   "https://www.immobilienscout24.at/expose/6ad788c5a8ed9e41d60384be"
+  ],
+  "anbieter": "IMMO-GITH GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.19013,
+   16.361927
+  ],
+  "versatz_m": 0,
+  "preis": 548000.0,
+  "flaeche": 103.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 100.0,
+   "hwb_class": "C",
+   "fgee": 2.41,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1016643947/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1776606349",
+  "ids": [
+   "wh-1776606349",
+   "is-009266425677"
+  ],
+  "titel": "NÄHE NASCHMARKT: RUHIGE TRAUMWOHNUNG MIT BALKON, TERRASSE UND AUF WUNSCH MIT GARAGENPLATZ",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/naehe-naschmarkt-ruhige-traumwohnung-mit-balkon-terrasse-und-auf-wunsch-mit-garagenplatz-1776606349/",
+   "https://www.immobilienscout24.at/expose/6adf862f194449f656def9f3"
+  ],
+  "anbieter": "RealBuero Sabine Steinecker",
+  "adresse_im_inserat": "Rüdigergasse",
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (27 m außerhalb)",
+  "punkt": [
+   48.194254,
+   16.356719
+  ],
+  "versatz_m": 0,
+  "preis": 825000.0,
+  "flaeche": 118.0,
+  "zimmer": null,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 34.01,
+   "hwb_class": "B",
+   "fgee": 0.99,
+   "fgee_class": "B"
+  },
+  "grundrisse": "data/grundrisse/wh-1776606349/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
  }
 ]
