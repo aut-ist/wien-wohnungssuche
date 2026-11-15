@@ -414,6 +414,11 @@ def bewerten(r, rev):
 
     # 1) Lage
     lrev = rev.get("lage")
+    # Ausnahme nur auf Saads Wort: review {"zone": {"ok": true}} (2026-11-15: 3SI Obere Donaustraße 23, knapp außerhalb
+    # der blauen Zone im 2., zwischen Augarten und Donaukanal)
+    def pruefe(lat, lon):
+        drin, txt, z = geo.pruefe(lat, lon)
+        return (True, txt + " – Ausnahme (Saad)", z) if (rev.get("zone") or {}).get("ok") and not drin else (drin, txt, z)
     lage_txt = None
     nur_bezirk = False  # Lage nur auf den Bezirk genau: der Kartenpunkt sagt nichts über die Gürtelzeit
     if lrev and lrev.get("sicherheit") != "unklar":
@@ -423,7 +428,7 @@ def bewerten(r, rev):
             out["lat"], out["lon"] = pos
             if lrev.get("adresse"):  # geprüfte Adresse (Recherche) statt der aus dem Inserat zeigen/verlinken
                 out["adresse"] = lrev["adresse"]
-            drin, lage_txt, _ = geo.pruefe(*pos)
+            drin, lage_txt, _ = pruefe(*pos)
             lage_txt += (f" (gleiches Haus wie ein anderes Inserat: {lrev['adresse']})" if lrev.get("quelle") == "gleiches Haus"
                          else f" (aus Beschreibung: {lrev.get('adresse') or 'Koordinaten'})")
             out["ungefaehr"] = lrev.get("sicherheit") != "genau"
@@ -449,7 +454,7 @@ def bewerten(r, rev):
                 if not rev.get("lage"):
                     out["fragen"].append("lage")
         elif r.get("lat") and r.get("lage_genauigkeit") in ("adresse", "strasse"):
-            drin, lage_txt, _ = geo.pruefe(r["lat"], r["lon"])
+            drin, lage_txt, _ = pruefe(r["lat"], r["lon"])
             if not drin and r["lage_genauigkeit"] == "strasse" and rot_vielleicht_draussen(r["lat"], r["lon"], 200):
                 # nur die Straße bekannt, und die reicht aus der roten Zone hinaus
                 out["ungefaehr"] = True
@@ -1002,7 +1007,7 @@ def zusammenfuehren(gruppe, reviews):
         p = [x["preis"] for x in revs if x.get("preis")]
         if p:
             rev["preis"] = p[0]
-        for k in ("kosten", "versteigerung", "gemeindebau", "guertel"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11, guertel 11-12)
+        for k in ("kosten", "versteigerung", "gemeindebau", "guertel", "zone"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11, guertel 11-12)
             v = [x[k] for x in revs if x.get(k)]
             if v:
                 rev[k] = v[0]
@@ -1345,7 +1350,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel", "zone"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY

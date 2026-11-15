@@ -16,6 +16,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   der Cut-off ist für die Zukunft"). Ist bei einer neuen nur der Bezirk bekannt, ist sie grau, bis die Adresse
   recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit). Ausnahmen nur auf Saads Wort:
   review `{"guertel": {"ok": true}}` (2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min, Nest).
+  Genauso für die Zonen: review `{"zone": {"ok": true}}` lässt eine Wohnung außerhalb der Zonen drin (2026-11-15: 3SI-Neubau
+  Obere Donaustraße 23 zwischen Augarten und Donaukanal, beide 107,81-m²-Wohnungen; Saad wollte das Projekt zurück, als NEU).
   Einzug spätestens Q3 2027 (`config.json` `einzug_spaetestens`): `zustand.bezug_einschaetzen`
   liest Fertigstellung/Bezug/"Verfügbar ab" aus allen Inseraten der Gruppe (der späteste Termin
   zählt; Lift, Balkone, Energieausweis, Miete zählen nicht) und sonst das Baujahr-Feld (2027 ohne
