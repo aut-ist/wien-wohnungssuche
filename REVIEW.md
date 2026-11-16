@@ -126,7 +126,7 @@ Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
 ## Neubauprojekte suchen (jeden Montag, nach den Grundrissen; seit 2026-11-09)
 Zusätzlich zu den Portalen liest `wohnungen/bautraeger.py` täglich die Einheitenlisten der Projekte in
 `data/bautraeger_projekte.json`. Jeden Montag (`TZ=Europe/Vienna date +%u` ist 1) neue Projekte in 1180, 1190, 1080, 1090, 1010,
-1020, 1030, 1040, 1050 suchen, höchstens 15 Websuchen:
+1020, 1030, 1040, 1050, 1060 suchen, höchstens 15 Websuchen:
 - **Was funktioniert** (Test 2026-11-09): Projektname oder Adresse + Bauträger + "Projekt Wohnungen", zum Beispiel
   `Semper47 Semperstraße 47 Wien Boutique Projekt Wohnungen Preisliste`. Startpunkte sind die Sammelinserate in `data/listings.json`
   (`"projekt": true` oder `/neubauprojekt/` in der URL) und die Übersichten winegg.at/de/wohnprojekte/, optin.at/de/projekte,

@@ -268,3 +268,11 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Google-Maps-Screenshot über fünf Bezugspunkte entzerrt (Restfehler < 20 m), ohne `nur_in_bezirk` (gilt im 4. und den Streifen im 1., 3., 5.).
   Dafür wird 1050 auf allen Portalen gescrapt (FindMyHome-Bezirk 104); im 5. zählt nur dieser Streifen, Inserate nur mit
   „5. Bezirk“ sind deshalb raus (nicht grau wie im 1./2./3./4.).
+- Saads zweite Zeichnung (2026-11-16, „nimm die Gegend allgemein noch weiter auf“): Zone `wieden` jetzt Ring/Babenbergerstraße –
+  Mariahilfer Straße bis Höhe Stiftgasse – Wienzeile/Pilgramgasse – Margaretenstraße – Nikolsdorf – Weyringergasse – Quartier Belvedere –
+  Belvedere-Ostseite (erste Häuser im Fasanviertel) – Rennweg, 100 m Rand, mit der alten Zone vereinigt (341 ha). Dafür wird 1060 auf allen
+  Portalen gescrapt (FindMyHome-Bezirk 105); „nur 6. Bezirk“ ist grau (nicht raus wie im 5.).
+- S-Bahn (2026-11-16, Saad: „vom Hauptbahnhof ist man mit der S-Bahn schnell in Mitte“): tools/fetch_oeffis.py zeichnet die S-Bahn-Strecken
+  in ganz Wien (an der Stadtgrenze aus BEZIRKSGRENZEOGD abgeschnitten) und die S-Bahn-Stationen: OEFFHALTESTOGD LTYP 5 bis ca. 100 m neben
+  einer Strecke mit Bahnlinien in HLINIEN (HLINIEN ist abgeschnitten); Rennweg, Wien Mitte und Quartier Belvedere von Hand. Öffis
+  (Straßenbahn/Bus/U-Bahn) gelten jetzt für alle blauen Zonen (`GEBIETE`).

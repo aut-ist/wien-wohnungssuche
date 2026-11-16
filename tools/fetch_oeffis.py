@@ -41,7 +41,8 @@ GLEICH_M = 20         # so nah an einem schon gezeichneten Stück derselben Lini
 # war am 2026-11-01 doppelt zu sehen): dort erst ab 120 m Abstand als eigener Weg zeichnen
 GLEICH_M_UBAHN = 120
 GEBIETE = ([f for f in geo.BEZIRKE if f["properties"]["bezirk"] in (8, 9, 18, 19)]
-           + [f for f in geo.ZONEN if f["properties"]["id"] in ("leopoldstadt", "landstrasse")])
+           # alle blauen Zonen (seit 2026-11-16 auch Innere Stadt, Botschaftsviertel, Wieden/Margareten, Hernals)
+           + [f for f in geo.ZONEN if not f["properties"]["id"].endswith("_rot")])
 RAND_M = 120          # damit die Linien bis zu den Stationen am Rand (Gürtel) reichen
 MIN_IM_GEBIET_M = 400  # so viel muss eine Linie im Gebiet fahren, um zu zählen
 STATION_RAND_M = 250
@@ -236,6 +237,9 @@ def main():
     feats += _u5(gtfs[("ubahn", "U2")]["roh"])
 
     # S-Bahn-Strecken von data.wien.gv.at
+    from shapely.geometry import LineString, Point, shape
+    from shapely.ops import unary_union
+    wien = unary_union([shape(f["geometry"]) for f in _laden("BEZIRKSGRENZEOGD")]).buffer(0.0003)
     sbahn = []
     for f in _laden("OEFFLINIENOGD"):
         if f["properties"]["LTYP"] != "5" or f["properties"].get("LTYPTXT") == "Zug":
@@ -243,30 +247,59 @@ def main():
         g = f["geometry"]
         for line in (g["coordinates"] if g["type"] == "MultiLineString" else [g["coordinates"]]):
             line = [tuple(p[:2]) for p in line]
-            stuecke, drin_m = _im_gebiet(line, box)
+            # ganz Wien, nicht nur ums Suchgebiet (Saad 2026-11-16: vom Hauptbahnhof ist man mit der S-Bahn
+            # schnell in Wien Mitte usw., das soll man sehen)
             namen = [x.strip() for x in f["properties"]["LBEZEICHNUNG"].split(",") if x.strip()]
-            sbahn += [(namen, t) for t in stuecke]
+            schnitt = LineString(line).intersection(wien)  # nur innerhalb der Stadtgrenze
+            for t in getattr(schnitt, "geoms", [schnitt]):
+                if t.geom_type == "LineString" and t.length > 0:
+                    sbahn.append((namen, list(t.coords)))
     for namen, teil in sbahn:
         feats.insert(0, {"type": "Feature", "properties": {"typ": "sbahn", "linien": ", ".join(namen)},
                          "geometry": {"type": "LineString", "coordinates":
                                       [[round(a, 5), round(b, 5)] for a, b in simplify(teil, 6)]}})
 
     # U- und S-Bahn-Stationen (eine pro Name)
+    s_netz = [(namen, teil, LineString(teil)) for namen, teil in sbahn]
     stationen = {}
     for f in _laden("OEFFHALTESTOGD"):
         p = f["properties"]
         if str(p["LTYP"]) not in ("4", "5"):
             continue
         lon, lat = f["geometry"]["coordinates"][:2]
-        if not in_box((lon, lat)) or _abstand(lon, lat) > STATION_RAND_M:
+        # S-Bahn-Halte in ganz Wien: LTYP 5 (Bahnhof) bis ca. 100 m neben einer S-Bahn-Strecke, mit Bahnlinien in
+        # HLINIEN (oder abgeschnittener Liste wie am Hauptbahnhof, oder Rennweg, das dort nur Ersatzverkehr nennt).
+        # Die S-Linien kommen von den Strecken daneben, weil HLINIEN abgeschnitten ist. Ohne die Bahn-Bedingung
+        # kamen Bus-/Badner-Bahn-Halte wie Czartoryskigasse oder Gutheil-Schoder-Gasse dazu.
+        s_linien = set()
+        hl = str(p["HLINIEN"])
+        bahn = re.search(r"(^|,)\s*(S\d+|R\d*|REX ?\d*|CJX\d*)\s*(,|$)", hl) or len(hl) > 200 or p["HTXTK"] == "Rennweg"
+        if (str(p["LTYP"]) == "5" and bahn and "," not in p["HTXTK"] and "Autoreisezug" not in p["HTXTK"]
+                and wien.contains(Point(lon, lat))):
+            for namen, teil, linie in s_netz:
+                if linie.distance(Point(lon, lat)) < 0.0012:
+                    s_linien.update(namen)
+        if not s_linien and (not in_box((lon, lat)) or _abstand(lon, lat) > STATION_RAND_M):
             continue
         name = p["HTXTK"].split(" (")[0]
         s = stationen.setdefault(name, {"lon": [], "lat": [], "linien": set()})
         s["lon"].append(lon); s["lat"].append(lat)
         s["linien"].update(x.strip() for x in str(p["HLINIEN"]).split(",") if x.strip())
+        s["linien"].update(s_linien)
     # nur echte U-/S-Bahn-Stationen (keine Ersatzverkehr-Haltestellen), Label nur mit U-/S-Linien
     tag = re.compile(r"^(U\d|S\d+)$")
     stationen = {n: s for n, s in stationen.items() if any(tag.match(l) for l in s["linien"])}
+    # Rennweg und Wien Mitte nennen in HLINIEN keine S-Linie (abgeschnitten bzw. nur Ersatzverkehr): S-Linien von Hand
+    for name, linien in (("Rennweg", ["S1", "S2", "S3", "S4"]), ("Mitte-Landstraße", ["S1", "S2", "S3", "S4", "S7"])):
+        if name in stationen:
+            stationen[name]["linien"].update(linien)
+        elif name == "Rennweg":
+            stationen[name] = {"lon": [16.38628], "lat": [48.19479], "linien": set(linien)}
+    # Quartier Belvedere (S-Bahn-Station seit 2012) hat in OEFFHALTESTOGD nur Straßenbahn-Halte: Punkt aus deren Mitte
+    if "Quartier Belvedere" not in stationen:
+        qb = [l.distance(Point(16.3808, 48.1877)) < 0.0012 and set(n) for n, _, l in s_netz]
+        stationen["Quartier Belvedere"] = {"lon": [16.3808], "lat": [48.1877],
+                                          "linien": set().union(*[x for x in qb if x]) or {"S1", "S2", "S3", "S4"}}
     for name, s in stationen.items():
         linien = sorted(l for l in s["linien"] if tag.match(l))
         feats.append({"type": "Feature",

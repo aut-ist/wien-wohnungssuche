@@ -23,6 +23,7 @@ SLUGS = {
     1030: "3-bezirk-landstrasse",
     1040: "4-bezirk-wieden",
     1050: "5-bezirk-margareten",
+    1060: "6-bezirk-mariahilf",
     1080: "8-bezirk-josefstadt",
     1090: "9-bezirk-alsergrund",
     1170: "17-bezirk-hernals",

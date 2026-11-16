@@ -142,6 +142,6 @@ def pruefe(lat, lon):
             return True, f"Zone {p['name']}", bez
         if d <= p.get("puffer_m", 0):
             return True, f"Randlage Zone {p['name']} ({round(d)} m außerhalb)", bez
-    if bez in (1, 2, 3, 4, 5):
+    if bez in (1, 2, 3, 4, 5, 6):
         return False, f"{bez}. Bezirk außerhalb der blauen Zone", bez
     return False, f"{bez}. Bezirk" if bez else "außerhalb der Suchbezirke", bez

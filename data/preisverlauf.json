@@ -12671,7 +12671,7 @@
    "zimmer": 4,
    "plz": 1040,
    "adresse": "Graf-Starhemberg-Gasse 7",
-   "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (aus Beschreibung: Graf-Starhemberg-Gasse 7)",
+   "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Graf-Starhemberg-Gasse 7)",
    "heizung": {
     "ergebnis": "gas",
     "von": "automatisch",
@@ -12782,7 +12782,7 @@
    "zimmer": 5,
    "plz": 1040,
    "adresse": "Belvederegasse 18",
-   "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (aus Beschreibung: Belvederegasse 18)",
+   "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Belvederegasse 18)",
    "heizung": {
     "ergebnis": "kein_gas",
     "von": "automatisch",
@@ -12943,7 +12943,7 @@
    "zimmer": 4,
    "plz": 1040,
    "adresse": "Leibenfrostgasse 8/35",
-   "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (aus Beschreibung: Leibenfrostgasse 8/35)",
+   "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Leibenfrostgasse 8/35)",
    "heizung": {
     "ergebnis": "gas",
     "von": "automatisch",

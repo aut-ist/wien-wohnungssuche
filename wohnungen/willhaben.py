@@ -14,6 +14,7 @@ SLUGS = {
     1030: "wien-1030-landstrasse",
     1040: "wien-1040-wieden",
     1050: "wien-1050-margareten",
+    1060: "wien-1060-mariahilf",
     1080: "wien-1080-josefstadt",
     1090: "wien-1090-alsergrund",
     1170: "wien-1170-hernals",

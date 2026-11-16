@@ -110,7 +110,11 @@ GEO_ZONEN = {
     # Staatsoper, Oberes Belvedere und Secession, Restfehler unter 20 m): Staatsoper/Karlsplatz bis Quartier Belvedere,
     # Saad danach: „etwas großzügiger, außer unten Richtung Hauptbahnhof“ -> Zeichnung um 150 m erweitert, im Süden bei 48,1878° abgeschnitten.
     # Belvedere-Westseite bis Margaretenstraße. Gilt in allen Bezirken, die sie berührt (vor allem 4., Streifen im 1., 3., 5.).
-    "wieden": [(48.188973, 16.361894), (48.189375, 16.361145), (48.189836, 16.360802), (48.19066, 16.360577), (48.19104, 16.360121), (48.191936, 16.358425), (48.193253, 16.35749), (48.195119, 16.356752), (48.195512, 16.356847), (48.196863, 16.357726), (48.19873, 16.360721), (48.202277, 16.369342), (48.20282, 16.371156), (48.203114, 16.372823), (48.203025, 16.374541), (48.202846, 16.375321), (48.201979, 16.376463), (48.201528, 16.377563), (48.200445, 16.379305), (48.199793, 16.37988), (48.198658, 16.380225), (48.192652, 16.379532), (48.191503, 16.38125), (48.191065, 16.381635), (48.189556, 16.382177), (48.188833, 16.382138), (48.188341, 16.381888), (48.187949, 16.381377), (48.1878, 16.380937), (48.1878, 16.364421), (48.188847, 16.362754)],
+    # 2026-11-16 Saads zweite Zeichnung („nimm die Gegend allgemein noch weiter auf“): Burgring/Babenbergerstraße – Mariahilfer
+    # Straße bis Höhe Stiftgasse – Wienzeile/Pilgramgasse – Margaretenstraße/Krongasse – Nikolsdorf – Weyringergasse – Quartier Belvedere –
+    # Belvedere-Ostseite bis Rennweg – Schwarzenbergplatz – Ring; über 6 U-Bahn-Stationen/Belvedere entzerrt (Restfehler < 35 m),
+    # 100 m großzügiger, mit der alten Zone vereinigt, im Süden nicht tiefer als die Zeichnung (48,1869°). 341 ha statt 237 ha.
+    "wieden": [(48.18937, 16.36115), (48.19066, 16.36058), (48.19194, 16.35843), (48.19321, 16.35752), (48.19417, 16.35511), (48.19523, 16.3536), (48.19638, 16.35278), (48.19794, 16.35259), (48.19932, 16.35322), (48.20074, 16.35491), (48.20217, 16.35757), (48.20475, 16.36391), (48.20505, 16.36518), (48.205, 16.36597), (48.2042, 16.36826), (48.20282, 16.37115), (48.20311, 16.37282), (48.20285, 16.37532), (48.20044, 16.3793), (48.19979, 16.37988), (48.19831, 16.38019), (48.19815, 16.38101), (48.1974, 16.38245), (48.1961, 16.38434), (48.19458, 16.3858), (48.19331, 16.38659), (48.19189, 16.38594), (48.19034, 16.38422), (48.18901, 16.38215), (48.18834, 16.38189), (48.18795, 16.38138), (48.1878, 16.37852), (48.18693, 16.37612), (48.18693, 16.3679), (48.1878, 16.36738), (48.1878, 16.36442), (48.18885, 16.36275), (48.18897, 16.36189), (48.18937, 16.36115)],
     # Hernals (Wunsch 2026-11-11): Dreieck zwischen Kalvarienberggasse (West, 20 m westlich der Straßenmitte, die
     # Westseite der Geschäftsstraße bleibt draußen), 18er-Grenze (Nord/Ost) und Jörgerstraße (Süd, 35 m nördlich
     # der Straßenmitte, die Jörgerstraße selbst bleibt draußen). Punkte aus OpenStreetMap; Nord/Ost großzügig,
@@ -138,7 +142,7 @@ ZONES = [
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau", "fussweg": "fussweg_landstrasse.geojson"},
     {"id": "botschaftsviertel", "rolle": "erlaubt", "name": "Botschaftsviertel (Rennweg bis Beatrixgasse, Ungargasse bis Heumarkt)",
      "nur_in_bezirk": 3, "puffer_m": 50, "zuschneiden": "genau"},
-    {"id": "wieden", "rolle": "erlaubt", "name": "Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)", "puffer_m": 50},
+    {"id": "wieden", "rolle": "erlaubt", "name": "Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)", "puffer_m": 50},
     # streng: auch ungefähre Lagen darin sind raus (Saad 2026-11-01); wird wie die anderen roten Zonen gezeichnet
     {"id": "weissgerber_rot", "rolle": "ausgeschlossen", "name": "Weißgerberviertel / Hundertwasserhaus (zu weit zur U-Bahn)",
      "nur_in_bezirk": 3, "puffer_m": 0, "zuschneiden": "genau", "streng": True},
