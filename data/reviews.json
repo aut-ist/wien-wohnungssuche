@@ -12808,23 +12808,43 @@
  },
  "is-452837182639": {
   "lage": {
-   "adresse": "Pettenkofengasse",
-   "lat": 48.19215405,
-   "lon": 16.38538192,
+   "adresse": "Hegergasse 13, Stiege 2, Top 1",
+   "lat": 48.191736,
+   "lon": 16.388023,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler-Website realgoodliving.at/objektdetail/16959730: Kartenpunkt 48.19215/16.38538 an der Pettenkofengasse (20-25 m zu Nr. 1-4, Bauten der 1960er), Bau 1962; derselbe Makler setzt beim Helio Tower den Punkt ~100 m neben das Haus, daher nur ungefähr"
+   "begruendung": "Dieselbe Wohnung inseriert auch De Icco Immobilien (wh-1088437451, 'Top Lage - wunderschöne und geräumige Neubauwohnung nähe Rennweg', Lage 'Hegergasse nähe Fasangasse', Hochparterre Stiege 2, auch https://www.weekend.at/de/immobilie/top-lage-wunderschoene-und-geraeumige-neubauwohnung-naehe-rennweg/OBGC2022111414121310208621db193). Identisch sind: Betriebskosten 173,64, Rücklage 72,13, Gesamtkosten 313,38, HWB 94,7, fGEE 1,84, Energieausweis gültig bis 01.09.2029, Baujahr 1962, 7 Etagen, 10 m² Keller und das Wohnzimmerfoto. Der Grundriss bei RealGoodLiving trägt 'Top 1 75,45 m²'. Zur Hausnumme"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-16",
+  "eckdaten": {
+   "stockwerk": "Hochparterre/EG",
+   "baujahr": "1962",
+   "zustand": "saniert; Fassade laut De Icco neu gedämmt (Kosten in Rücklage berücksichtigt)"
+  },
+  "gleich_wie": "wh-1088437451",
+  "kosten": {
+   "betrag": 313.38,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  }
  },
  "ds-15178381": {
   "lage": {
-   "adresse": "Pettenkofengasse",
-   "lat": 48.19215405,
-   "lon": 16.38538192,
+   "adresse": "Hegergasse 13, Stiege 2, Top 1",
+   "lat": 48.191736,
+   "lon": 16.388023,
    "sicherheit": "ungefaehr",
-   "begruendung": "Makler-Website realgoodliving.at/objektdetail/16959730: Kartenpunkt 48.19215/16.38538 an der Pettenkofengasse (20-25 m zu Nr. 1-4, Bauten der 1960er), Bau 1962; derselbe Makler setzt beim Helio Tower den Punkt ~100 m neben das Haus, daher nur ungefähr"
+   "begruendung": "Dieselbe Wohnung inseriert auch De Icco Immobilien (wh-1088437451, 'Top Lage - wunderschöne und geräumige Neubauwohnung nähe Rennweg', Lage 'Hegergasse nähe Fasangasse', Hochparterre Stiege 2, auch https://www.weekend.at/de/immobilie/top-lage-wunderschoene-und-geraeumige-neubauwohnung-naehe-rennweg/OBGC2022111414121310208621db193). Identisch sind: Betriebskosten 173,64, Rücklage 72,13, Gesamtkosten 313,38, HWB 94,7, fGEE 1,84, Energieausweis gültig bis 01.09.2029, Baujahr 1962, 7 Etagen, 10 m² Keller und das Wohnzimmerfoto. Der Grundriss bei RealGoodLiving trägt 'Top 1 75,45 m²'. Zur Hausnumme"
   },
-  "datum": "2026-11-01"
+  "datum": "2026-11-16",
+  "eckdaten": {
+   "stockwerk": "Hochparterre/EG",
+   "baujahr": "1962",
+   "zustand": "saniert; Fassade laut De Icco neu gedämmt (Kosten in Rücklage berücksichtigt)"
+  },
+  "gleich_wie": "wh-1088437451",
+  "kosten": {
+   "betrag": 313.38,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  }
  },
  "ds-15136039": {
   "lage": {
@@ -17513,13 +17533,22 @@
  },
  "is-574888557974": {
   "gleich_wie": "wh-1551722658",
-  "datum": "2026-11-15",
+  "datum": "2026-11-16",
   "lage": {
-   "adresse": "Schelleingasse",
-   "lat": 48.186981,
-   "lon": 16.373836,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen), Lift, Gründerzeit-Altbau. Willhaben zeigt keine Karte (SHOW_MAP false), Portalpunkt wertlos. Fassadenfoto: breites symmetrisches Späthistorismus-Haus (ca. 10 Achsen, EG + 4 Geschoße, Mittelportal mit Vasen/Kartuschen, Garagentor links im Sockel), linker Nachbar eingerüstet, rechts gelbes Gründerzeithaus, Schrägparkplätze, keine Straßenbäume; Hausnummer nicht sichtbar. Gegenproben: typologisch passen die Doppeltrakter Schelleingasse 6, 8, 10, 12 (1910-12), 46 (1902) oder 52 (1905); Nr. 44 (3SI, renoviert, Bäume davor) passt nicht als Nachbar. Kein Dokument, Makler-Website (klutz-ivb.at) ohne Exposé. Keine Hausnummer belegbar. Top 3. Punkt: Mitte der Schelleingasse, Hausnummer offen."
+   "adresse": "Schelleingasse 5/3",
+   "lat": 48.187557,
+   "lon": 16.376192,
+   "sicherheit": "genau",
+   "begruendung": "Top 3 steht im willhaben-Text ('geschlossene Loggia von Top 3'). Das Stiegenhausfoto bei ImmoScout24 (Bild 14, Exposé 6ac34b607e7b719383b31f37) zeigt ein altes Hausschild mit der Nummer '1320'. Laut Häuserverzeichnis Wieden 1914 (Wienbibliothek, https://www.digital.wienbibliothek.at/download/pdf/1793741.pdf, S. 121) ist E.Z. 1320 Schelleingasse 5: erbaut 1909, 4 Stockwerke, 424 m². Gegenproben: Das Fassadenfoto (Bild 1) zeigt ein Gründerzeithaus mit Garagentor zum Souterrain, also zum Stellplatz. Links steht ein eingerüsteter Nachkriegsbau (Schelleingasse 3 laut GEBAEUDEINFOOGD nach 1945), rec"
+  },
+  "eckdaten": {
+   "stockwerk": "Parterre (Hochparterre)",
+   "baujahr": "1909",
+   "zustand": "gepflegt, gut erhalten (keine Generalsanierung, Parkett vor einigen Jahren abgeschliffen)"
+  },
+  "kosten": {
+   "betrag": 152.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   }
  },
  "fm-5555023": {
@@ -17736,13 +17765,22 @@
  },
  "wh-1551722658": {
   "lage": {
-   "adresse": "Schelleingasse",
-   "lat": 48.186981,
-   "lon": 16.373836,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen), Lift, Gründerzeit-Altbau. Willhaben zeigt keine Karte (SHOW_MAP false), Portalpunkt wertlos. Fassadenfoto: breites symmetrisches Späthistorismus-Haus (ca. 10 Achsen, EG + 4 Geschoße, Mittelportal mit Vasen/Kartuschen, Garagentor links im Sockel), linker Nachbar eingerüstet, rechts gelbes Gründerzeithaus, Schrägparkplätze, keine Straßenbäume; Hausnummer nicht sichtbar. Gegenproben: typologisch passen die Doppeltrakter Schelleingasse 6, 8, 10, 12 (1910-12), 46 (1902) oder 52 (1905); Nr. 44 (3SI, renoviert, Bäume davor) passt nicht als Nachbar. Kein Dokument, Makler-Website (klutz-ivb.at) ohne Exposé. Keine Hausnummer belegbar. Top 3. Punkt: Mitte der Schelleingasse, Hausnummer offen."
+   "adresse": "Schelleingasse 5/3",
+   "lat": 48.187557,
+   "lon": 16.376192,
+   "sicherheit": "genau",
+   "begruendung": "Top 3 steht im willhaben-Text ('geschlossene Loggia von Top 3'). Das Stiegenhausfoto bei ImmoScout24 (Bild 14, Exposé 6ac34b607e7b719383b31f37) zeigt ein altes Hausschild mit der Nummer '1320'. Laut Häuserverzeichnis Wieden 1914 (Wienbibliothek, https://www.digital.wienbibliothek.at/download/pdf/1793741.pdf, S. 121) ist E.Z. 1320 Schelleingasse 5: erbaut 1909, 4 Stockwerke, 424 m². Gegenproben: Das Fassadenfoto (Bild 1) zeigt ein Gründerzeithaus mit Garagentor zum Souterrain, also zum Stellplatz. Links steht ein eingerüsteter Nachkriegsbau (Schelleingasse 3 laut GEBAEUDEINFOOGD nach 1945), rec"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-16",
+  "eckdaten": {
+   "stockwerk": "Parterre (Hochparterre)",
+   "baujahr": "1909",
+   "zustand": "gepflegt, gut erhalten (keine Generalsanierung, Parkett vor einigen Jahren abgeschliffen)"
+  },
+  "kosten": {
+   "betrag": 152.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  }
  },
  "wh-1664959669": {
   "zustand": {
@@ -18467,7 +18505,16 @@
    "sicherheit": "ungefaehr",
    "begruendung": "\"Nahezu vor der Haustüre U1 Südtiroler Platz\", Hauptbahnhof 3 Min. zu Fuß, 4. Bezirk nahe Grenze zu Favoriten"
   },
-  "datum": "2026-11-16"
+  "datum": "2026-11-16",
+  "eckdaten": {
+   "stockwerk": "5. Liftstock",
+   "baujahr": "1956",
+   "zustand": "renovierungsbedürftig wirkend (alte Tapeten und Küche auf Fotos; 'voller Potential', 'Ihre Kreativität ist gefragt'); im Text nicht ausdrücklich so genannt"
+  },
+  "kosten": {
+   "betrag": 295.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  }
  },
  "wh-1245455886": {
   "lage": {
@@ -18672,6 +18719,877 @@
    "lon": null,
    "sicherheit": "ungefaehr",
    "begruendung": "Weyringerhof, Region Favoritenstraße - Weyringergasse, U1 2 Min.; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-2117259019": {
+  "eckdaten": {
+   "stockwerk": "Mezzanin (willhaben-Feld FLOOR sagt 3)",
+   "baujahr": "1900",
+   "zustand": "Haus frisch saniert, Wohnung neuwertig"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb Suchgebiet (Göschlgasse, ca. 175–225 m außerhalb der Zone Wieden)"
+  },
+  "kosten": {
+   "betrag": 332.67,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15233348": {
+  "eckdaten": {
+   "stockwerk": "Mezzanin (willhaben-Feld FLOOR sagt 3)",
+   "baujahr": "1900",
+   "zustand": "Haus frisch saniert, Wohnung neuwertig"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb Suchgebiet (Göschlgasse, ca. 175–225 m außerhalb der Zone Wieden)"
+  },
+  "kosten": {
+   "betrag": 332.67,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-771299948548": {
+  "eckdaten": {
+   "stockwerk": "Mezzanin (willhaben-Feld FLOOR sagt 3)",
+   "baujahr": "1900",
+   "zustand": "Haus frisch saniert, Wohnung neuwertig"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb Suchgebiet (Göschlgasse, ca. 175–225 m außerhalb der Zone Wieden)"
+  },
+  "kosten": {
+   "betrag": 332.67,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-2034555377": {
+  "lage": {
+   "adresse": "Hegergasse 13, Stiege 2, Top 1",
+   "lat": 48.191736,
+   "lon": 16.388023,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Dieselbe Wohnung inseriert auch De Icco Immobilien (wh-1088437451, 'Top Lage - wunderschöne und geräumige Neubauwohnung nähe Rennweg', Lage 'Hegergasse nähe Fasangasse', Hochparterre Stiege 2, auch https://www.weekend.at/de/immobilie/top-lage-wunderschoene-und-geraeumige-neubauwohnung-naehe-rennweg/OBGC2022111414121310208621db193). Identisch sind: Betriebskosten 173,64, Rücklage 72,13, Gesamtkosten 313,38, HWB 94,7, fGEE 1,84, Energieausweis gültig bis 01.09.2029, Baujahr 1962, 7 Etagen, 10 m² Keller und das Wohnzimmerfoto. Der Grundriss bei RealGoodLiving trägt 'Top 1 75,45 m²'. Zur Hausnumme"
+  },
+  "eckdaten": {
+   "stockwerk": "Hochparterre/EG",
+   "baujahr": "1962",
+   "zustand": "saniert; Fassade laut De Icco neu gedämmt (Kosten in Rücklage berücksichtigt)"
+  },
+  "gleich_wie": "wh-1088437451",
+  "kosten": {
+   "betrag": 313.38,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-949394667": {
+  "lage": {
+   "adresse": "Kölblgasse 2/9+10",
+   "lat": 48.191043,
+   "lon": 16.384987,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Die Adresse 'Kölblgasse 2' und 'Etage 1/Top 9+10' stehen im willhaben-Inserat (Wunderlich, LOCATION/ADDRESS_1, Punkt ohne Versatzradius). Gegenprobe GEBAEUDEINFOOGD: Kölblgasse 2 ist 'nach 1945', 7 Geschoße, das passt zu Baujahr 1951, Neubau und Lift. Kein Dokument oder Hausnummernfoto geprüft, weil die Wohnung ohnehin ausscheidet. Matterport-Rundgang: https://my.matterport.com/show/?m=s8P5jhZ9JP9. Lage in der Zone (geo.pruefe: drin)."
+  },
+  "eckdaten": {
+   "stockwerk": "1. Stock (Lift)",
+   "baujahr": "1951",
+   "zustand": "renovierungsbedürftig (BUILDING_CONDITION: Sanierungsbedürftig)"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "renovierungs-/sanierungsbedürftig (Text: 'Die Wohnungen befinden sich in renovierungsbedürftigem Zustand')"
+  },
+  "kosten": {
+   "betrag": 317.39,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1305143344": {
+  "eckdaten": {
+   "stockwerk": "2. Stock",
+   "zustand": "generalsaniert ('soeben saniert, alles erneuert')"
+  },
+  "kosten": {
+   "betrag": 528.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-180344819750": {
+  "eckdaten": {
+   "stockwerk": "5. Liftstock",
+   "baujahr": "1956",
+   "zustand": "renovierungsbedürftig wirkend (alte Tapeten und Küche auf Fotos; 'voller Potential', 'Ihre Kreativität ist gefragt'); im Text nicht ausdrücklich so genannt"
+  },
+  "kosten": {
+   "betrag": 295.0,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-912097457": {
+  "eckdaten": {
+   "stockwerk": "1. Stock (Lift)",
+   "baujahr": "1900",
+   "zustand": "sehr gut, modern ausgestattet"
+  },
+  "kosten": {
+   "betrag": 322.44,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1018321793": {
+  "eckdaten": {
+   "stockwerk": "5. Liftstock",
+   "baujahr": "1956",
+   "zustand": "sehr gut saniert, möbliert"
+  },
+  "kosten": {
+   "betrag": 164.46,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-609498060699": {
+  "lage": {
+   "adresse": "Schönburgstraße 40",
+   "lat": 48.18662,
+   "lon": 16.369799,
+   "sicherheit": "genau",
+   "begruendung": "Die Adresse 'Schönburgstraße 40' steht im ImmoScout24-Exposé (privat, https://www.immobilienscout24.at/expose/6a675cba39525ed9f362309f). Das Fassadenfoto (Bild 1) zeigt das Hausnummernschild '40' über dem Eingang. Gegenprobe GEBAEUDEINFOOGD: Schönburgstraße 40 ist ein Gründerzeit-Straßentrakter (1902) mit 5 Geschoßen, das passt zum Foto. Randlage, 34 m außerhalb der Zone, also innerhalb des Puffers."
+  },
+  "eckdaten": {
+   "flaeche": 109,
+   "vorrang": true,
+   "stockwerk": "Hochparterre",
+   "baujahr": "1902"
+  },
+  "kosten": {
+   "betrag": 347.32,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-909188439": {
+  "eckdaten": {
+   "stockwerk": "2. DG, Maisonette über 3 Ebenen, Stiege 2, Lift",
+   "baujahr": "1997 (laut Inserat, wohl DG-Ausbau)",
+   "zustand": "neuwertig (Portal), keine Sanierungsangabe"
+  },
+  "kosten": {
+   "betrag": 319.47,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1111758266": {
+  "eckdaten": {
+   "stockwerk": "5. Etage / DG (Haus mit 5 bzw. 6 Etagen), Penthouse-Maisonette mit Galerie",
+   "baujahr": "Altbau um 1900, DG-Ausbau 2005",
+   "zustand": "gepflegt, keine Angabe"
+  },
+  "gleich_wie": "wh-895035518",
+  "kosten": {
+   "betrag": 669.7,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-566584788160": {
+  "eckdaten": {
+   "stockwerk": "5. Etage / DG (Haus mit 5 bzw. 6 Etagen), Penthouse-Maisonette mit Galerie",
+   "baujahr": "Altbau um 1900, DG-Ausbau 2005",
+   "zustand": "gepflegt, keine Angabe"
+  },
+  "gleich_wie": "wh-895035518",
+  "kosten": {
+   "betrag": 669.7,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1425161632": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'befindet sich in der Liniengasse', Haus 1993, 29 Einheiten, Tiefgarage, Wohnzimmer/Küche südseitig zur Liniengasse (= nördliche, gerade Straßenseite). Fassadenfoto im Inserat (willhaben Bild 13) zeigt das Hausnummernschild '48' neben der Garageneinfahrt. Gegenprobe: dieselbe Wohnung inseriert ein anderer Makler mit Adresse 'Liniengasse 48' (willhaben 1385444240 / ImmoScout 6a705f2bb7896eeb90b6cdfc: ca. 82 m², 1. Stock, separate Küche, 2 Schlafzimmer ins Grüne, separates WC, Gemeinschaftsgarten, Garagenplatz gegen Aufpreis; das Badfoto dort ist eine virtuell möblierte Version desselben B"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock",
+   "baujahr": "1993",
+   "zustand": "generalsaniert, Erstbezug nach Sanierung, ohne Küche"
+  },
+  "gleich_wie": "is-252450172266",
+  "datum": "2026-11-16"
+ },
+ "is-236589119625": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'befindet sich in der Liniengasse', Haus 1993, 29 Einheiten, Tiefgarage, Wohnzimmer/Küche südseitig zur Liniengasse (= nördliche, gerade Straßenseite). Fassadenfoto im Inserat (willhaben Bild 13) zeigt das Hausnummernschild '48' neben der Garageneinfahrt. Gegenprobe: dieselbe Wohnung inseriert ein anderer Makler mit Adresse 'Liniengasse 48' (willhaben 1385444240 / ImmoScout 6a705f2bb7896eeb90b6cdfc: ca. 82 m², 1. Stock, separate Küche, 2 Schlafzimmer ins Grüne, separates WC, Gemeinschaftsgarten, Garagenplatz gegen Aufpreis; das Badfoto dort ist eine virtuell möblierte Version desselben B"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock",
+   "baujahr": "1993",
+   "zustand": "generalsaniert, Erstbezug nach Sanierung, ohne Küche"
+  },
+  "gleich_wie": "is-252450172266",
+  "datum": "2026-11-16"
+ },
+ "ds-15038408": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Text: 'befindet sich in der Liniengasse', Haus 1993, 29 Einheiten, Tiefgarage, Wohnzimmer/Küche südseitig zur Liniengasse (= nördliche, gerade Straßenseite). Fassadenfoto im Inserat (willhaben Bild 13) zeigt das Hausnummernschild '48' neben der Garageneinfahrt. Gegenprobe: dieselbe Wohnung inseriert ein anderer Makler mit Adresse 'Liniengasse 48' (willhaben 1385444240 / ImmoScout 6a705f2bb7896eeb90b6cdfc: ca. 82 m², 1. Stock, separate Küche, 2 Schlafzimmer ins Grüne, separates WC, Gemeinschaftsgarten, Garagenplatz gegen Aufpreis; das Badfoto dort ist eine virtuell möblierte Version desselben B"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Liftstock",
+   "baujahr": "1993",
+   "zustand": "generalsaniert, Erstbezug nach Sanierung, ohne Küche"
+  },
+  "gleich_wie": "is-252450172266",
+  "datum": "2026-11-16"
+ },
+ "wh-1505802634": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/8",
+   "lat": 48.19600026,
+   "lon": 16.35374422,
+   "sicherheit": "genau",
+   "begruendung": "Kuhn-Exposé https://www.kuhn-immobilien.at/expose/17200459/1796058 (Objekt 17200459, Obj.-Nr. 2560): Grundriss mit Schriftfeld 'TOP 8 76,53 m²', Raumgrößen passen (Zimmer 22,82 mit Erker + 11,56 zur einen Straße, Zimmer 18,22 + Küche 9,33 zur anderen, Vorraum 11,67). Text: Erker/Wohnzimmer zur Magdalenenstraße, Küche/Schlafzimmer zur Kaunitzgasse, Zweifronten-Zinshaus, Mezzanin, kein Lift. Zweifronthäuser zwischen den beiden Straßen sind nur Kaunitzgasse 33 (= Magdalenenstraße 20, Bj. 1897) und Kaunitzgasse 35 (= Magdalenenstraße 22, Spitzhaus). Stadt-Wien-Mehrzweckkarte (FMZKBKMOGD): die Erke"
+  },
+  "eckdaten": {
+   "stockwerk": "Mezzanin (Kuhn: 1. Etage/1. OG), kein Lift",
+   "baujahr": "1897 (GEBAEUDEINFOOGD), Inserat 1900; Sanierung 2026",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "gleich_wie": "wh-1578383809",
+  "kosten": {
+   "betrag": 180.59,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-415951023468": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/8",
+   "lat": 48.19600026,
+   "lon": 16.35374422,
+   "sicherheit": "genau",
+   "begruendung": "Kuhn-Exposé https://www.kuhn-immobilien.at/expose/17200459/1796058 (Objekt 17200459, Obj.-Nr. 2560): Grundriss mit Schriftfeld 'TOP 8 76,53 m²', Raumgrößen passen (Zimmer 22,82 mit Erker + 11,56 zur einen Straße, Zimmer 18,22 + Küche 9,33 zur anderen, Vorraum 11,67). Text: Erker/Wohnzimmer zur Magdalenenstraße, Küche/Schlafzimmer zur Kaunitzgasse, Zweifronten-Zinshaus, Mezzanin, kein Lift. Zweifronthäuser zwischen den beiden Straßen sind nur Kaunitzgasse 33 (= Magdalenenstraße 20, Bj. 1897) und Kaunitzgasse 35 (= Magdalenenstraße 22, Spitzhaus). Stadt-Wien-Mehrzweckkarte (FMZKBKMOGD): die Erke"
+  },
+  "eckdaten": {
+   "stockwerk": "Mezzanin (Kuhn: 1. Etage/1. OG), kein Lift",
+   "baujahr": "1897 (GEBAEUDEINFOOGD), Inserat 1900; Sanierung 2026",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "gleich_wie": "wh-1578383809",
+  "kosten": {
+   "betrag": 180.59,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-172831952356": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/8",
+   "lat": 48.19600026,
+   "lon": 16.35374422,
+   "sicherheit": "genau",
+   "begruendung": "Kuhn-Exposé https://www.kuhn-immobilien.at/expose/17200459/1796058 (Objekt 17200459, Obj.-Nr. 2560): Grundriss mit Schriftfeld 'TOP 8 76,53 m²', Raumgrößen passen (Zimmer 22,82 mit Erker + 11,56 zur einen Straße, Zimmer 18,22 + Küche 9,33 zur anderen, Vorraum 11,67). Text: Erker/Wohnzimmer zur Magdalenenstraße, Küche/Schlafzimmer zur Kaunitzgasse, Zweifronten-Zinshaus, Mezzanin, kein Lift. Zweifronthäuser zwischen den beiden Straßen sind nur Kaunitzgasse 33 (= Magdalenenstraße 20, Bj. 1897) und Kaunitzgasse 35 (= Magdalenenstraße 22, Spitzhaus). Stadt-Wien-Mehrzweckkarte (FMZKBKMOGD): die Erke"
+  },
+  "eckdaten": {
+   "stockwerk": "Mezzanin (Kuhn: 1. Etage/1. OG), kein Lift",
+   "baujahr": "1897 (GEBAEUDEINFOOGD), Inserat 1900; Sanierung 2026",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "gleich_wie": "wh-1578383809",
+  "kosten": {
+   "betrag": 180.59,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-895035518": {
+  "eckdaten": {
+   "stockwerk": "DG/Penthouse-Maisonette (Haus 6 Etagen), privater Liftausgang",
+   "baujahr": "Altbau, DG-Ausbau 2005 (laut Energieausweis)",
+   "zustand": "gehoben, keine Sanierungsangabe"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Lage sicher außerhalb der Zone (westlicher 6. Bezirk nahe U6 Gumpendorfer Straße / U4 Margaretengürtel, laut Gehzeiten), Hausnummer aber nicht belegt"
+  },
+  "kosten": {
+   "betrag": 669.7,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-869029373763": {
+  "eckdaten": {
+   "stockwerk": "DG/Penthouse-Maisonette (Haus 6 Etagen), privater Liftausgang",
+   "baujahr": "Altbau, DG-Ausbau 2005 (laut Energieausweis)",
+   "zustand": "gehoben, keine Sanierungsangabe"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Lage sicher außerhalb der Zone (westlicher 6. Bezirk nahe U6 Gumpendorfer Straße / U4 Margaretengürtel, laut Gehzeiten), Hausnummer aber nicht belegt"
+  },
+  "kosten": {
+   "betrag": 669.7,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15240432": {
+  "eckdaten": {
+   "stockwerk": "DG/Penthouse-Maisonette (Haus 6 Etagen), privater Liftausgang",
+   "baujahr": "Altbau, DG-Ausbau 2005 (laut Energieausweis)",
+   "zustand": "gehoben, keine Sanierungsangabe"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Lage sicher außerhalb der Zone (westlicher 6. Bezirk nahe U6 Gumpendorfer Straße / U4 Margaretengürtel, laut Gehzeiten), Hausnummer aber nicht belegt"
+  },
+  "kosten": {
+   "betrag": 669.7,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1850444597": {
+  "eckdaten": {
+   "flaeche": 54,
+   "vorrang": true
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Laut Grundriss nur ca. 54 m² Wohnfläche im EG (Rest Abstellraum im UG, Straßenraum als Atelier), dazu Lage Nähe Mollardgasse wahrscheinlich außerhalb der Zone"
+  }
+ },
+ "wh-865710118": {
+  "lage": {
+   "adresse": "Girardigasse 2",
+   "lat": 48.198704,
+   "lon": 16.362477,
+   "sicherheit": "genau",
+   "begruendung": "Text: Eckzinshaus, Wohn- und Schlafzimmer auf die Girardigasse, Baujahr 1859. Eckhäuser der Girardigasse laut ADRESSENOGD: Nr. 1 (=Linke Wienzeile 22), Nr. 2 (=Linke Wienzeile 20), Nr. 9/10 (Lehárgasse); Baujahr 1859 passt nur zu 1/2 (GEBAEUDEINFOOGD 1849-1859, 9/10 = 1860). Beleg: Kalandra-Inserat 'Girardigasse 2' (https://www.immobilienscout24.at/expose/6a4cb052e2a39efc84a6efcf, auch weekend.at 'Luxus-Dachgeschosswohnung am Naschmarkt', Baujahr 1859) zeigt denselben gewölbten Eingangsgang (Briefkästen, Holztor mit Oberlicht) und denselben Hof (Wand mit Kletterpflanze, Kopfsteinpflaster, Müll"
+  },
+  "eckdaten": {
+   "stockwerk": "4. Liftstock",
+   "baujahr": "1859 (Inserat und Kalandra; OGD 1849-1859)",
+   "zustand": "modernisiert/renoviert, möbliert; Fassade 2023 renoviert"
+  },
+  "kosten": {
+   "betrag": 280.98,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15042683": {
+  "lage": {
+   "adresse": "Girardigasse 2",
+   "lat": 48.198704,
+   "lon": 16.362477,
+   "sicherheit": "genau",
+   "begruendung": "Text: Eckzinshaus, Wohn- und Schlafzimmer auf die Girardigasse, Baujahr 1859. Eckhäuser der Girardigasse laut ADRESSENOGD: Nr. 1 (=Linke Wienzeile 22), Nr. 2 (=Linke Wienzeile 20), Nr. 9/10 (Lehárgasse); Baujahr 1859 passt nur zu 1/2 (GEBAEUDEINFOOGD 1849-1859, 9/10 = 1860). Beleg: Kalandra-Inserat 'Girardigasse 2' (https://www.immobilienscout24.at/expose/6a4cb052e2a39efc84a6efcf, auch weekend.at 'Luxus-Dachgeschosswohnung am Naschmarkt', Baujahr 1859) zeigt denselben gewölbten Eingangsgang (Briefkästen, Holztor mit Oberlicht) und denselben Hof (Wand mit Kletterpflanze, Kopfsteinpflaster, Müll"
+  },
+  "eckdaten": {
+   "stockwerk": "4. Liftstock",
+   "baujahr": "1859 (Inserat und Kalandra; OGD 1849-1859)",
+   "zustand": "modernisiert/renoviert, möbliert; Fassade 2023 renoviert"
+  },
+  "kosten": {
+   "betrag": 280.98,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-328393814425": {
+  "lage": {
+   "adresse": "Girardigasse 2",
+   "lat": 48.198704,
+   "lon": 16.362477,
+   "sicherheit": "genau",
+   "begruendung": "Text: Eckzinshaus, Wohn- und Schlafzimmer auf die Girardigasse, Baujahr 1859. Eckhäuser der Girardigasse laut ADRESSENOGD: Nr. 1 (=Linke Wienzeile 22), Nr. 2 (=Linke Wienzeile 20), Nr. 9/10 (Lehárgasse); Baujahr 1859 passt nur zu 1/2 (GEBAEUDEINFOOGD 1849-1859, 9/10 = 1860). Beleg: Kalandra-Inserat 'Girardigasse 2' (https://www.immobilienscout24.at/expose/6a4cb052e2a39efc84a6efcf, auch weekend.at 'Luxus-Dachgeschosswohnung am Naschmarkt', Baujahr 1859) zeigt denselben gewölbten Eingangsgang (Briefkästen, Holztor mit Oberlicht) und denselben Hof (Wand mit Kletterpflanze, Kopfsteinpflaster, Müll"
+  },
+  "eckdaten": {
+   "stockwerk": "4. Liftstock",
+   "baujahr": "1859 (Inserat und Kalandra; OGD 1849-1859)",
+   "zustand": "modernisiert/renoviert, möbliert; Fassade 2023 renoviert"
+  },
+  "kosten": {
+   "betrag": 280.98,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-925379496": {
+  "lage": {
+   "adresse": "Girardigasse 3",
+   "lat": 48.198871,
+   "lon": 16.362021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Adresse 'Girardigasse 3' steht in zwei Inseraten (PENZ auf willhaben mit exaktem Punkt 48.19884/16.361996, Radius 0 = ADRESSENOGD-Punkt auf 3 m; MICHAEL AUER auf derStandard, streetAddress 'Girardigasse 3'). Kein Dokument und kein Foto mit Hausnummer gefunden (PENZ-Seite https://www.penz-immobilien.at/immobilie/wien-charmante-4-zimmer-stilaltbauwohnung-beim-naschmarkt/ ohne Adresse, keine Außenfotos). Gegenproben passen: GEBAEUDEINFOOGD Girardigasse 3 Bauzeit 1849-1859, 5 Geschoße (Inserat 1858), ruhige Seitengasse beim Naschmarkt, Lift. In Zone (True). Nicht dasselbe Haus wie wh-865710118 (do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Stock",
+   "baujahr": "1858 (Inserat; OGD 1849-1859)",
+   "zustand": "sehr gut/gut, original erhaltener Stilaltbau"
+  },
+  "kosten": {
+   "betrag": 340.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15288467": {
+  "lage": {
+   "adresse": "Girardigasse 3",
+   "lat": 48.198871,
+   "lon": 16.362021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Adresse 'Girardigasse 3' steht in zwei Inseraten (PENZ auf willhaben mit exaktem Punkt 48.19884/16.361996, Radius 0 = ADRESSENOGD-Punkt auf 3 m; MICHAEL AUER auf derStandard, streetAddress 'Girardigasse 3'). Kein Dokument und kein Foto mit Hausnummer gefunden (PENZ-Seite https://www.penz-immobilien.at/immobilie/wien-charmante-4-zimmer-stilaltbauwohnung-beim-naschmarkt/ ohne Adresse, keine Außenfotos). Gegenproben passen: GEBAEUDEINFOOGD Girardigasse 3 Bauzeit 1849-1859, 5 Geschoße (Inserat 1858), ruhige Seitengasse beim Naschmarkt, Lift. In Zone (True). Nicht dasselbe Haus wie wh-865710118 (do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. Stock",
+   "baujahr": "1858 (Inserat; OGD 1849-1859)",
+   "zustand": "sehr gut/gut, original erhaltener Stilaltbau"
+  },
+  "kosten": {
+   "betrag": 340.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-348901655526": {
+  "lage": {
+   "adresse": "Fasangasse 24, Stiege 2, Top 14",
+   "lat": 48.191883,
+   "lon": 16.385649,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Zellmann https://www.zellmann.at/objekt/17386322 (Objektnr. 26629, 78,24 m², 439.000): '1030 Wien, Fasangasse 24 / 2 / 14'. ADRESSENOGD 'Fasangasse 24/2' 48.191883/16.385649, in Zone (True). GEBAEUDEINFOOGD hat für Nr. 24 keinen Eintrag (Nachbar 26: nach 1945, 6 Geschoße); Inserat Baujahr 1964."
+  },
+  "eckdaten": {
+   "stockwerk": "6. Stock mit Lift (ImmoScout: 7. Ebene)",
+   "baujahr": "1964, thermische Sanierung 2026",
+   "zustand": "gepflegt; Haus vollsaniert (neue Fenster, gedämmte Fassade); beziehbar sofort"
+  },
+  "kosten": {
+   "betrag": 267.26,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Thermisch generalsaniert 2026, nicht vermietet (zellmann.at)"
+  }
+ },
+ "wh-1105903107": {
+  "lage": {
+   "adresse": "Fasangasse 24, Stiege 2, Top 14",
+   "lat": 48.191883,
+   "lon": 16.385649,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Zellmann https://www.zellmann.at/objekt/17386322 (Objektnr. 26629, 78,24 m², 439.000): '1030 Wien, Fasangasse 24 / 2 / 14'. ADRESSENOGD 'Fasangasse 24/2' 48.191883/16.385649, in Zone (True). GEBAEUDEINFOOGD hat für Nr. 24 keinen Eintrag (Nachbar 26: nach 1945, 6 Geschoße); Inserat Baujahr 1964."
+  },
+  "eckdaten": {
+   "stockwerk": "6. Stock mit Lift (ImmoScout: 7. Ebene)",
+   "baujahr": "1964, thermische Sanierung 2026",
+   "zustand": "gepflegt; Haus vollsaniert (neue Fenster, gedämmte Fassade); beziehbar sofort"
+  },
+  "kosten": {
+   "betrag": 267.26,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Thermisch generalsaniert 2026, nicht vermietet (zellmann.at)"
+  }
+ },
+ "wh-1008871901": {
+  "lage": {
+   "adresse": "Fasangasse 24, Stiege 2, Top 14",
+   "lat": 48.191883,
+   "lon": 16.385649,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Zellmann https://www.zellmann.at/objekt/17386322 (Objektnr. 26629, 78,24 m², 439.000): '1030 Wien, Fasangasse 24 / 2 / 14'. ADRESSENOGD 'Fasangasse 24/2' 48.191883/16.385649, in Zone (True). GEBAEUDEINFOOGD hat für Nr. 24 keinen Eintrag (Nachbar 26: nach 1945, 6 Geschoße); Inserat Baujahr 1964."
+  },
+  "eckdaten": {
+   "stockwerk": "6. Stock mit Lift (ImmoScout: 7. Ebene)",
+   "baujahr": "1964, thermische Sanierung 2026",
+   "zustand": "gepflegt; Haus vollsaniert (neue Fenster, gedämmte Fassade); beziehbar sofort"
+  },
+  "kosten": {
+   "betrag": 267.26,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Thermisch generalsaniert 2026, nicht vermietet (zellmann.at)"
+  }
+ },
+ "is-545408739312": {
+  "lage": {
+   "adresse": "Fasangasse 24, Stiege 2, Top 14",
+   "lat": 48.191883,
+   "lon": 16.385649,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Zellmann https://www.zellmann.at/objekt/17386322 (Objektnr. 26629, 78,24 m², 439.000): '1030 Wien, Fasangasse 24 / 2 / 14'. ADRESSENOGD 'Fasangasse 24/2' 48.191883/16.385649, in Zone (True). GEBAEUDEINFOOGD hat für Nr. 24 keinen Eintrag (Nachbar 26: nach 1945, 6 Geschoße); Inserat Baujahr 1964."
+  },
+  "eckdaten": {
+   "stockwerk": "6. Stock mit Lift (ImmoScout: 7. Ebene)",
+   "baujahr": "1964, thermische Sanierung 2026",
+   "zustand": "gepflegt; Haus vollsaniert (neue Fenster, gedämmte Fassade); beziehbar sofort"
+  },
+  "kosten": {
+   "betrag": 267.26,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Thermisch generalsaniert 2026, nicht vermietet (zellmann.at)"
+  }
+ },
+ "is-502664205193": {
+  "lage": {
+   "adresse": "Fasangasse 24, Stiege 2, Top 14",
+   "lat": 48.191883,
+   "lon": 16.385649,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Zellmann https://www.zellmann.at/objekt/17386322 (Objektnr. 26629, 78,24 m², 439.000): '1030 Wien, Fasangasse 24 / 2 / 14'. ADRESSENOGD 'Fasangasse 24/2' 48.191883/16.385649, in Zone (True). GEBAEUDEINFOOGD hat für Nr. 24 keinen Eintrag (Nachbar 26: nach 1945, 6 Geschoße); Inserat Baujahr 1964."
+  },
+  "eckdaten": {
+   "stockwerk": "6. Stock mit Lift (ImmoScout: 7. Ebene)",
+   "baujahr": "1964, thermische Sanierung 2026",
+   "zustand": "gepflegt; Haus vollsaniert (neue Fenster, gedämmte Fassade); beziehbar sofort"
+  },
+  "kosten": {
+   "betrag": 267.26,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Thermisch generalsaniert 2026, nicht vermietet (zellmann.at)"
+  }
+ },
+ "wh-1346539059": {
+  "lage": {
+   "adresse": "Linke Wienzeile 54/Top 9",
+   "lat": 48.197027,
+   "lon": 16.357208,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Birnleitner https://www.birnleitner-immobilien.at/properties/elegantes-altbau-ambiente-4-zimmer-wohnung-beim-naschmarkt (article 4378 = Objektnummer 4378, 1.120.000): street 'Linke Wienzeile', streetNumber '54/Top 9'. Grundriss-PDF (https://cache.willhaben.at/adpdf/9/134/653/9059_1545384412.pdf) nennt TOP 9, 124,48 m², Raumhöhe 3,70 m. Gegenprobe GEBAEUDEINFOOGD: Linke Wienzeile 54 Baujahr 1889 (Wilhelm Jelinek, 5 Geschoße) = Inserat 1889. Der willhaben-Punkt 48.19497/16.350754 ist ein Standardpunkt (auch bei Vospernik/Wallgasse) und unbrauchbar. In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "unbekannt (Top 9, Raumhöhe 3,70 m deutet auf 1./2. Stock), Lift",
+   "baujahr": "1889",
+   "zustand": "gepflegter Altbau, gute Ausstattung"
+  },
+  "kosten": {
+   "betrag": 428.82,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Befristet vermietet ab 09/2024 für 3 Jahre, also bis ca. 08/09 2027 – innerhalb der Grenze; genaues Mietende klären"
+  }
+ },
+ "is-134860728281": {
+  "lage": {
+   "adresse": "Linke Wienzeile 54/Top 9",
+   "lat": 48.197027,
+   "lon": 16.357208,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Birnleitner https://www.birnleitner-immobilien.at/properties/elegantes-altbau-ambiente-4-zimmer-wohnung-beim-naschmarkt (article 4378 = Objektnummer 4378, 1.120.000): street 'Linke Wienzeile', streetNumber '54/Top 9'. Grundriss-PDF (https://cache.willhaben.at/adpdf/9/134/653/9059_1545384412.pdf) nennt TOP 9, 124,48 m², Raumhöhe 3,70 m. Gegenprobe GEBAEUDEINFOOGD: Linke Wienzeile 54 Baujahr 1889 (Wilhelm Jelinek, 5 Geschoße) = Inserat 1889. Der willhaben-Punkt 48.19497/16.350754 ist ein Standardpunkt (auch bei Vospernik/Wallgasse) und unbrauchbar. In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "unbekannt (Top 9, Raumhöhe 3,70 m deutet auf 1./2. Stock), Lift",
+   "baujahr": "1889",
+   "zustand": "gepflegter Altbau, gute Ausstattung"
+  },
+  "kosten": {
+   "betrag": 428.82,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Befristet vermietet ab 09/2024 für 3 Jahre, also bis ca. 08/09 2027 – innerhalb der Grenze; genaues Mietende klären"
+  }
+ },
+ "ds-14433831": {
+  "lage": {
+   "adresse": "Linke Wienzeile 54/Top 9",
+   "lat": 48.197027,
+   "lon": 16.357208,
+   "sicherheit": "genau",
+   "begruendung": "Maklerseite Birnleitner https://www.birnleitner-immobilien.at/properties/elegantes-altbau-ambiente-4-zimmer-wohnung-beim-naschmarkt (article 4378 = Objektnummer 4378, 1.120.000): street 'Linke Wienzeile', streetNumber '54/Top 9'. Grundriss-PDF (https://cache.willhaben.at/adpdf/9/134/653/9059_1545384412.pdf) nennt TOP 9, 124,48 m², Raumhöhe 3,70 m. Gegenprobe GEBAEUDEINFOOGD: Linke Wienzeile 54 Baujahr 1889 (Wilhelm Jelinek, 5 Geschoße) = Inserat 1889. Der willhaben-Punkt 48.19497/16.350754 ist ein Standardpunkt (auch bei Vospernik/Wallgasse) und unbrauchbar. In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "unbekannt (Top 9, Raumhöhe 3,70 m deutet auf 1./2. Stock), Lift",
+   "baujahr": "1889",
+   "zustand": "gepflegter Altbau, gute Ausstattung"
+  },
+  "kosten": {
+   "betrag": 428.82,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Befristet vermietet ab 09/2024 für 3 Jahre, also bis ca. 08/09 2027 – innerhalb der Grenze; genaues Mietende klären"
+  }
+ },
+ "wh-1104956280": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-580303021615": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15281626": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1341793707": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-623737084484": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15291095": {
+  "eckdaten": {
+   "stockwerk": "2. Stock ohne Lift",
+   "baujahr": "ca. 1899",
+   "zustand": "gut"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen)"
+  },
+  "kosten": {
+   "betrag": 318.06,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1005454330": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/Top 16",
+   "lat": 48.196,
+   "lon": 16.353744,
+   "sicherheit": "genau",
+   "begruendung": "Einheitenliste im marina-eiffe-Inserat wh-2114557201 (Foto 17): 'Kaunitzgasse 33, 1060 Wien', Top 16, 2.OG, 3 Zimmer, 79,85 m², 599.000. Grundriss im Kuhn-Exposé (https://www.kuhn-immobilien.at/expose/17153992/1796058): 'TOP 16 79,85 m²'. Gegenproben: Wohnzimmer zur Magdalenenstraße, denn Kaunitzgasse 33 ist ein Durchhaus = Magdalenenstraße 20 (gleicher ADRESSENOGD-Punkt), passt zu 'Zweifronten-Zinshaus'; GEBAEUDEINFOOGD Baujahr 1897, 5 Geschoße (Inserat 1900, eiffe: 5 Etagen). In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG (über Hochparterre), ohne Lift",
+   "baujahr": "1897 (OGD; Inserat 1900)",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "kosten": {
+   "betrag": 187.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-890638937": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/Top 16",
+   "lat": 48.196,
+   "lon": 16.353744,
+   "sicherheit": "genau",
+   "begruendung": "Einheitenliste im marina-eiffe-Inserat wh-2114557201 (Foto 17): 'Kaunitzgasse 33, 1060 Wien', Top 16, 2.OG, 3 Zimmer, 79,85 m², 599.000. Grundriss im Kuhn-Exposé (https://www.kuhn-immobilien.at/expose/17153992/1796058): 'TOP 16 79,85 m²'. Gegenproben: Wohnzimmer zur Magdalenenstraße, denn Kaunitzgasse 33 ist ein Durchhaus = Magdalenenstraße 20 (gleicher ADRESSENOGD-Punkt), passt zu 'Zweifronten-Zinshaus'; GEBAEUDEINFOOGD Baujahr 1897, 5 Geschoße (Inserat 1900, eiffe: 5 Etagen). In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG (über Hochparterre), ohne Lift",
+   "baujahr": "1897 (OGD; Inserat 1900)",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "kosten": {
+   "betrag": 187.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-2114557201": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/Top 16",
+   "lat": 48.196,
+   "lon": 16.353744,
+   "sicherheit": "genau",
+   "begruendung": "Einheitenliste im marina-eiffe-Inserat wh-2114557201 (Foto 17): 'Kaunitzgasse 33, 1060 Wien', Top 16, 2.OG, 3 Zimmer, 79,85 m², 599.000. Grundriss im Kuhn-Exposé (https://www.kuhn-immobilien.at/expose/17153992/1796058): 'TOP 16 79,85 m²'. Gegenproben: Wohnzimmer zur Magdalenenstraße, denn Kaunitzgasse 33 ist ein Durchhaus = Magdalenenstraße 20 (gleicher ADRESSENOGD-Punkt), passt zu 'Zweifronten-Zinshaus'; GEBAEUDEINFOOGD Baujahr 1897, 5 Geschoße (Inserat 1900, eiffe: 5 Etagen). In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG (über Hochparterre), ohne Lift",
+   "baujahr": "1897 (OGD; Inserat 1900)",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "kosten": {
+   "betrag": 187.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-974807938578": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/Top 16",
+   "lat": 48.196,
+   "lon": 16.353744,
+   "sicherheit": "genau",
+   "begruendung": "Einheitenliste im marina-eiffe-Inserat wh-2114557201 (Foto 17): 'Kaunitzgasse 33, 1060 Wien', Top 16, 2.OG, 3 Zimmer, 79,85 m², 599.000. Grundriss im Kuhn-Exposé (https://www.kuhn-immobilien.at/expose/17153992/1796058): 'TOP 16 79,85 m²'. Gegenproben: Wohnzimmer zur Magdalenenstraße, denn Kaunitzgasse 33 ist ein Durchhaus = Magdalenenstraße 20 (gleicher ADRESSENOGD-Punkt), passt zu 'Zweifronten-Zinshaus'; GEBAEUDEINFOOGD Baujahr 1897, 5 Geschoße (Inserat 1900, eiffe: 5 Etagen). In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG (über Hochparterre), ohne Lift",
+   "baujahr": "1897 (OGD; Inserat 1900)",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "kosten": {
+   "betrag": 187.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-995211503099": {
+  "lage": {
+   "adresse": "Kaunitzgasse 33/Top 16",
+   "lat": 48.196,
+   "lon": 16.353744,
+   "sicherheit": "genau",
+   "begruendung": "Einheitenliste im marina-eiffe-Inserat wh-2114557201 (Foto 17): 'Kaunitzgasse 33, 1060 Wien', Top 16, 2.OG, 3 Zimmer, 79,85 m², 599.000. Grundriss im Kuhn-Exposé (https://www.kuhn-immobilien.at/expose/17153992/1796058): 'TOP 16 79,85 m²'. Gegenproben: Wohnzimmer zur Magdalenenstraße, denn Kaunitzgasse 33 ist ein Durchhaus = Magdalenenstraße 20 (gleicher ADRESSENOGD-Punkt), passt zu 'Zweifronten-Zinshaus'; GEBAEUDEINFOOGD Baujahr 1897, 5 Geschoße (Inserat 1900, eiffe: 5 Etagen). In Zone (True)."
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG (über Hochparterre), ohne Lift",
+   "baujahr": "1897 (OGD; Inserat 1900)",
+   "zustand": "Erstbezug nach Generalsanierung (Wohnung und Haus)"
+  },
+  "kosten": {
+   "betrag": 187.96,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1893363662": {
+  "lage": {
+   "adresse": "Dürergasse 4/Top 13/14 (zusammengelegt)",
+   "lat": 48.1975,
+   "lon": 16.356534,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Dokument mit Adresse (IMMONATION-Exposé https://www.immonation.at/expose/17338534/1301827 und Objektseite nennen nur 1060; ihr Kartenpunkt ist der versetzte Portalpunkt). Grundriss: 'TOP 13/14 104,01 m²'. Herleitung: 'auf Wohnstraße ausgerichtet' und 'zwischen Mariahilfer Straße und Naschmarkt nahe Haus des Meeres'. Die einzige Wohnstraße dort laut WOHNSTRASSEOGD ist die Dürergasse. Fassadenfoto (Bild 24): 5 Achsen, EG + 4 Geschoße + DG-Gauben, besonnte Fassade (also Nordseite der Gasse mit geraden Nummern), links ein niedriger Nachbar (ca. 2 Geschoße), rechts ein hoher Prunkbau. Das pass"
+  },
+  "eckdaten": {
+   "stockwerk": "3. Stock, Lift",
+   "baujahr": "1875 laut Inserat (OGD Dürergasse 4: 1895)",
+   "zustand": "ausgezeichnet; Haus im Zuge des DG-Ausbaus in den 2010er-Jahren umfassend saniert"
+  },
+  "kosten": {
+   "betrag": 416.35,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-005940854993": {
+  "lage": {
+   "adresse": "Dürergasse 4/Top 13/14 (zusammengelegt)",
+   "lat": 48.1975,
+   "lon": 16.356534,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Kein Dokument mit Adresse (IMMONATION-Exposé https://www.immonation.at/expose/17338534/1301827 und Objektseite nennen nur 1060; ihr Kartenpunkt ist der versetzte Portalpunkt). Grundriss: 'TOP 13/14 104,01 m²'. Herleitung: 'auf Wohnstraße ausgerichtet' und 'zwischen Mariahilfer Straße und Naschmarkt nahe Haus des Meeres'. Die einzige Wohnstraße dort laut WOHNSTRASSEOGD ist die Dürergasse. Fassadenfoto (Bild 24): 5 Achsen, EG + 4 Geschoße + DG-Gauben, besonnte Fassade (also Nordseite der Gasse mit geraden Nummern), links ein niedriger Nachbar (ca. 2 Geschoße), rechts ein hoher Prunkbau. Das pass"
+  },
+  "eckdaten": {
+   "stockwerk": "3. Stock, Lift",
+   "baujahr": "1875 laut Inserat (OGD Dürergasse 4: 1895)",
+   "zustand": "ausgezeichnet; Haus im Zuge des DG-Ausbaus in den 2010er-Jahren umfassend saniert"
+  },
+  "kosten": {
+   "betrag": 416.35,
+   "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
   "datum": "2026-11-16"
  }

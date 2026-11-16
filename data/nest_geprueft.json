@@ -6106,8 +6106,8 @@
    "is-180344819750"
   ],
   "titel": "",
-  "datum": "2026-11-15",
-  "ergebnis": "unklar: Weder Text noch Fotos noch die Detailseiten von willhaben und ImmoScout nennen eine Straße; ImmoScout zeigt nur 'Adresse anfragen'. Bekannt ist: 4. Bezirk, U1 Südtiroler Platz 'nahezu vor der Haustüre"
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
  },
  "wh-1588467096": {
   "ids": [
@@ -6262,11 +6262,12 @@
  },
  "wh-1551722658": {
   "ids": [
-   "wh-1551722658"
+   "wh-1551722658",
+   "is-574888557974"
   ],
   "titel": "",
-  "datum": "2026-11-15",
-  "ergebnis": "unklar: Text (willhaben-Detailseite): 'Die Schelleingasse liegt ...', Top 3 im Parterre, 92,02 m² + geschlossene Loggia 4,81 m² + Eigengarten 29,54 m², KFZ-Abstellplatz 11,04 m² im Souterrain (nur Kleinwagen)"
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Schelleingasse 5/3"
  },
  "wh-1680347027": {
   "ids": [
@@ -6464,5 +6465,195 @@
   "titel": "Generalsanierte Altbauwohnung im Weyringerhof",
   "ergebnis": "unklar: Weyringergasse/Favoritenstraße (ungefähr), Hausnummer nicht gefunden. Geprüft: Schwester-Inserate (Kalandra, anderer HWB/Fotos: keine), Grundriss (Kalandra-Plan ohne Adresse, 4 Bilder), Websuchen 'Weyringerhof Wien Weyringergasse Adresse', 'Weyringerhof Wien 1040 Eigentumswohnung' (kein Treffer zum Namen); justimmo-PDF und weekend.at von hier gesperrt.",
   "datum": "2026-11-16"
+ },
+ "wh-2117259019": {
+  "ids": [
+   "wh-2117259019",
+   "ds-15233348",
+   "is-771299948548"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Göschlgasse (raus: außerhalb Suchgebiet (Göschlgasse, ca. 175–225 m außerhalb der Zone Wieden))"
+ },
+ "wh-2034555377": {
+  "ids": [
+   "wh-2034555377",
+   "is-452837182639",
+   "ds-15178381"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Hegergasse 13, Stiege 2, Top 1"
+ },
+ "wh-949394667": {
+  "ids": [
+   "wh-949394667"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Kölblgasse 2/9+10 (raus: renovierungs-/sanierungsbedürftig (Text: 'Die Wohnungen befinden sich in renovierungsbedürftigem Zustand'))"
+ },
+ "wh-1305143344": {
+  "ids": [
+   "wh-1305143344"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
+ },
+ "wh-912097457": {
+  "ids": [
+   "wh-912097457"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1018321793": {
+  "ids": [
+   "wh-1018321793"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
+ },
+ "is-609498060699": {
+  "ids": [
+   "is-609498060699"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Schönburgstraße 40"
+ },
+ "wh-909188439": {
+  "ids": [
+   "wh-909188439"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1111758266": {
+  "ids": [
+   "wh-1111758266",
+   "is-566584788160"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: - (raus: Lage sicher außerhalb der Zone (westlicher 6. Bezirk nahe U6 Gumpendorfer Straße / U4 Margaretengürtel, laut Gehzeiten zweier Makler), Hausnummer aber nicht belegt)"
+ },
+ "wh-1425161632": {
+  "ids": [
+   "wh-1425161632",
+   "is-236589119625",
+   "ds-15038408"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Liniengasse 48 (raus: Lage außerhalb der Zone (Liniengasse 48, westlicher 6. Bezirk))"
+ },
+ "wh-1505802634": {
+  "ids": [
+   "wh-1505802634",
+   "is-415951023468",
+   "is-172831952356"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Kaunitzgasse 33/8"
+ },
+ "wh-895035518": {
+  "ids": [
+   "wh-895035518",
+   "is-869029373763",
+   "ds-15240432"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: - (raus: Lage sicher außerhalb der Zone (westlicher 6. Bezirk nahe U6 Gumpendorfer Straße / U4 Margaretengürtel, laut Gehzeiten), Hausnummer aber nicht belegt)"
+ },
+ "wh-1850444597": {
+  "ids": [
+   "wh-1850444597"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "unklar: -"
+ },
+ "wh-865710118": {
+  "ids": [
+   "wh-865710118",
+   "ds-15042683",
+   "is-328393814425"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Girardigasse 2"
+ },
+ "wh-925379496": {
+  "ids": [
+   "wh-925379496",
+   "ds-15288467"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Girardigasse 3"
+ },
+ "is-348901655526": {
+  "ids": [
+   "is-348901655526",
+   "wh-1105903107",
+   "wh-1008871901",
+   "is-545408739312",
+   "is-502664205193"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Fasangasse 24, Stiege 2, Top 14"
+ },
+ "wh-1346539059": {
+  "ids": [
+   "wh-1346539059",
+   "is-134860728281",
+   "ds-14433831"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Linke Wienzeile 54/Top 9"
+ },
+ "wh-1104956280": {
+  "ids": [
+   "wh-1104956280",
+   "is-580303021615",
+   "ds-15281626",
+   "wh-1341793707",
+   "is-623737084484",
+   "ds-15291095"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Wallgasse (raus: außerhalb der Suchzone (Wallgasse, alle Hausnummern draußen))"
+ },
+ "wh-1005454330": {
+  "ids": [
+   "wh-1005454330",
+   "wh-890638937",
+   "wh-2114557201",
+   "is-974807938578",
+   "is-995211503099"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "genau: Kaunitzgasse 33/Top 16"
+ },
+ "wh-1893363662": {
+  "ids": [
+   "wh-1893363662",
+   "is-005940854993"
+  ],
+  "titel": "",
+  "datum": "2026-11-16",
+  "ergebnis": "ungefaehr: Dürergasse 4/Top 13/14 (zusammengelegt)"
  }
 }
