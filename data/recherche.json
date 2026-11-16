@@ -1,1 +1,177 @@
-[]
+[
+ {
+  "id": "wh-1245455886",
+  "ids": [
+   "wh-1245455886",
+   "ds-15284906",
+   "is-439985056759",
+   "fm-5760460"
+  ],
+  "titel": "360° TOUR // GENERALSANIERTE ALTBAUWOHNUNG IM WEYRINGERHOF",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/360-tour-generalsanierte-altbauwohnung-im-weyringerhof-1245455886/",
+   "https://www.findmyhome.at/5760460",
+   "https://www.immobilienscout24.at/expose/6ad0be7f831505646b846290",
+   "https://immobilien.derstandard.at/detail/15284906"
+  ],
+  "anbieter": "KALANDRA Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (Kartenpunkt bis zu 252 m versetzt)",
+  "punkt": [
+   48.18921,
+   16.374825
+  ],
+  "versatz_m": 252,
+  "preis": 548000.0,
+  "flaeche": 77.66,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "126",
+   "hwb_class": "C",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1245455886/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Plan",
+    "url": "https://storage.justimmo.at/file/6nE0HBvgJziAKJRWBWT5lw.pdf"
+   }
+  ],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1864822363",
+  "ids": [
+   "wh-1864822363",
+   "wh-1106679882",
+   "is-909454878977",
+   "ds-15237523",
+   "is-195378031041",
+   "ds-14934425"
+  ],
+  "titel": "Urbanes Wohnen mit Stil - moderne 4-Zimmer-Altbauwohnung im 4. Bezirk",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbanes-wohnen-mit-stil-moderne-4-zimmer-altbauwohnung-im-4-bezirk-1864822363/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbanes-wohnen-mit-stil-moderne-4-zimmer-altbauwohnung-im-4-bezirk-1106679882/",
+   "https://www.immobilienscout24.at/expose/6a95847c70a8712bbd49b7e1",
+   "https://www.immobilienscout24.at/expose/68ef75078c4b5843c5d42e21",
+   "https://immobilien.derstandard.at/detail/15237523",
+   "https://immobilien.derstandard.at/detail/14934425"
+  ],
+  "anbieter": "Chalupa Immobilienvermittlung GmbH",
+  "adresse_im_inserat": "Schlüsselgasse 6",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.192917,
+   16.367956
+  ],
+  "versatz_m": 0,
+  "preis": 980000.0,
+  "flaeche": 121.0,
+  "zimmer": 4,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "116,2",
+   "hwb_class": "D",
+   "fgee": "3,1",
+   "fgee_class": "E"
+  },
+  "grundrisse": "data/grundrisse/wh-1864822363/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1614076273",
+  "ids": [
+   "wh-1614076273",
+   "is-698722861693"
+  ],
+  "titel": "HELLE CITYWOHNUNG NÄHE SCHLOSS BELVEDERE",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/helle-citywohnung-naehe-schloss-belvedere-1614076273/",
+   "https://www.immobilienscout24.at/expose/6aa2755c94a488aa407492c5"
+  ],
+  "anbieter": "IMMOBILIEN Sabine Klein e.U.",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (4 m außerhalb) (Kartenpunkt bis zu 266 m versetzt)",
+  "punkt": [
+   48.18776,
+   16.376396
+  ],
+  "versatz_m": 266,
+  "preis": 498000.0,
+  "flaeche": 87.72,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "82,3",
+   "hwb_class": "C",
+   "fgee": "1,07",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1614076273/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1028882628",
+  "ids": [
+   "wh-1028882628",
+   "is-881513529727",
+   "ds-15222659",
+   "wh-2065446663",
+   "is-150071026202",
+   "ds-14881932",
+   "fm-5534546",
+   "fm-5721674",
+   "bt-259231259560"
+  ],
+  "titel": "Schönbrunner Straße 22-24 - Prachtvoll Wohnen in urbaner Trendlage",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/schoenbrunner-strasse-22-24-prachtvoll-wohnen-in-urbaner-trendlage-1028882628/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/wohnen-ueber-den-daechern-dachmaisonette-mit-terrasse-beim-schlossquadrat-2065446663/",
+   "https://www.3si.at/de/immobilien/1050-wien-schoenbrunner-strasse-3-zimmer-eigentumswohnung-21811/",
+   "https://www.findmyhome.at/5534546",
+   "https://www.findmyhome.at/5721674",
+   "https://www.immobilienscout24.at/expose/6a7edc595da7d769108b9ae6",
+   "https://www.immobilienscout24.at/expose/68a5c6c10474583ccf91b15b",
+   "https://immobilien.derstandard.at/detail/15222659",
+   "https://immobilien.derstandard.at/detail/14881932"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": "Schönbrunner Straße 22-24",
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere)",
+  "punkt": [
+   48.193577,
+   16.358297
+  ],
+  "versatz_m": 0,
+  "preis": 699000.0,
+  "flaeche": 90.38,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "92",
+   "hwb_class": "C",
+   "fgee": "2,2",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1028882628/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ }
+]

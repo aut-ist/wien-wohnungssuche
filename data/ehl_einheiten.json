@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-15",
+ "stand": "2026-11-16",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -3901,6 +3901,120 @@
    ],
    "lat": 48.184894,
    "lon": 16.412357
+  },
+  {
+   "schluessel": "ehl-quartier-starhemberg-favoritenstrasse-60-1040-wien",
+   "name": "Quartier Starhemberg",
+   "bautraeger": "EHL Wohnen",
+   "plz": 1040,
+   "adresse": "Quartier-Starhemberg-Favoritenstraße 60",
+   "url_projekt": "https://www.ehl.at/wohnen/wohnprojekte/quartier-starhemberg-favoritenstrasse-60-1040-wien",
+   "url_einheiten": "https://www.ehl.at/wohnen/wohnprojekte/quartier-starhemberg-favoritenstrasse-60-1040-wien",
+   "parser": "datei",
+   "text": "Exklusives Wohnen mit Geschichte – zwischen Favoritenstraße und Graf-Starhemberg-Gasse\nIm „Quartier Starhemberg“ verschmelzen Wiener Geschichte und modernes Wohngefühl zu einem außergewöhnlichen Ensemble. Fünf Baukörper – bestehend aus vier liebevoll revitalisierten Gründerzeithäusern und einer ehemaligen Hutfabrik – bilden ein harmonisches Ganzes rund um eine rund 800 m² große, begrünte Innenhof-Oase.\nDas großzügige Wohnquartier umfasst Einheiten von 35 m² bis 240 m² mit 2 bis 5 Zimmern auf etwa 7.500 m² Gesamtfläche und bietet damit eine Vielfalt an Wohnungstypen für unterschiedliche Lebensstile – von der kompakten City-Wohnung bis zum luxuriösen Penthouse:\nWiener Altbauwohnungen mit hohen Decken und stilvollen Terrassen\nSmarte City-Apartments für urbanes Wohnen\nExklusive Penthousewohnungen mit Weitblick bis zum Kahlenberg – auf Wunsch mit eigenem Pool\nLoftwohnungen mit großzügigen Freiflächen\nJeder Gebäudeteil erzählt seine eigene Geschichte:\nDie Gründerzeithäuser an der Favoritenstraße begeistern mit prachtvollen Fassaden, beeindruckenden Raumhöhen und Dachterrassenwohnungen mit optionalem Pool und Kahlenbergblick.\nDer loftartige Trakt der ehemaligen Hutfabrik öffnet sich zum ruhigen, begrünten Innenhof.\nEntlang der Graf-Starhemberg-Gasse befinden sich ebenso liebevoll sanierte Altbauwohnungen, ergänzt durch Balkone und Terrassen.\nDie zentrale Lage im Herzen von Wieden überzeugt durch perfekte Infrastruktur:\nEinkaufsmöglichkeiten, Restaurants, Cafés, Banken und Apotheken liegen in unmittelbarer Nähe.\nDie BahnhofCity Wien mit über 90 Shops und Gastronomiebetrieben ist bequem zu Fuß erreichbar.\nAuch Bildungseinrichtungen wie die Theresianische Akademie befinden sich in Gehdistanz. Das nahegelegene Schloss Belvedere mit seinem barocken Garten und seinen Ausstellungen bildet das kulturelle Highlight des Bezirks.",
+   "galerie": [
+    "https://www.ehl.at/fileadmin/user_upload/Aussenansicht_Strasse.jpg",
+    "https://www.ehl.at/fileadmin/user_upload/Wohn-Essbereich_2.jpg",
+    "https://www.ehl.at/fileadmin/user_upload/Schlafzimmer.jpg",
+    "https://www.ehl.at/fileadmin/user_upload/Terrasse_04.jpg",
+    "https://www.ehl.at/fileadmin/user_upload/Lageplan_02.jpg"
+   ],
+   "einheiten": [
+    {
+     "top": "1",
+     "stiege": "123",
+     "geschoss": "1. DG",
+     "zimmer": "2",
+     "flaeche": "93,49 m2",
+     "eigennutzer": "€ 1.300.000,-",
+     "href": "https://www.ehl.at/objekt/90870",
+     "balkon": "12,07 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "124",
+     "geschoss": "1. DG",
+     "zimmer": "4",
+     "flaeche": "140,23 m2",
+     "eigennutzer": "€ 1.975.000,-",
+     "href": "https://www.ehl.at/objekt/90871",
+     "balkon": "13,26 m²",
+     "terrasse": "10,34 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "125",
+     "geschoss": "1. DG",
+     "zimmer": "4",
+     "flaeche": "181,93 m2",
+     "eigennutzer": "€ 2.258.000,-",
+     "href": "https://www.ehl.at/objekt/90872",
+     "balkon": "9,11 m²"
+    },
+    {
+     "top": "1",
+     "stiege": "126",
+     "geschoss": "1. DG",
+     "zimmer": "2",
+     "flaeche": "72,84 m2",
+     "eigennutzer": "€ 972.000,-",
+     "href": "https://www.ehl.at/objekt/90873",
+     "balkon": "9,65 m²"
+    },
+    {
+     "top": "2",
+     "stiege": "210",
+     "geschoss": "2. Etage",
+     "zimmer": "3",
+     "flaeche": "82,9 m2",
+     "eigennutzer": "€ 925.000,-",
+     "href": "https://www.ehl.at/objekt/90879",
+     "balkon": "15,3 m²"
+    },
+    {
+     "top": "2",
+     "stiege": "213",
+     "geschoss": "3. Etage",
+     "zimmer": "3",
+     "flaeche": "69,84 m2",
+     "eigennutzer": "€ 875.000,-",
+     "href": "https://www.ehl.at/objekt/90880",
+     "balkon": "19,54 m²"
+    },
+    {
+     "top": "2",
+     "stiege": "215",
+     "geschoss": "4. Etage",
+     "zimmer": "4",
+     "flaeche": "113,12 m2",
+     "eigennutzer": "€ 1.850.000,-",
+     "href": "https://www.ehl.at/objekt/90882",
+     "loggia": "6,42 m²",
+     "balkon": "19,32 m²"
+    },
+    {
+     "top": "2",
+     "stiege": "218",
+     "geschoss": "1. DG",
+     "zimmer": "3",
+     "flaeche": "153,45 m2",
+     "eigennutzer": "€ 2.750.000,-",
+     "href": "https://www.ehl.at/objekt/90883",
+     "balkon": "48,03 m²",
+     "terrasse": "63,76 m²"
+    },
+    {
+     "top": "2",
+     "stiege": "219",
+     "geschoss": "1. DG",
+     "zimmer": "4",
+     "flaeche": "158,47 m2",
+     "eigennutzer": "€ 2.680.000,-",
+     "href": "https://www.ehl.at/objekt/90884",
+     "balkon": "23,63 m²",
+     "terrasse": "98,41 m²"
+    }
+   ]
   },
   {
    "schluessel": "ehl-semper47-1180-wien",
