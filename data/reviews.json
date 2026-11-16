@@ -18460,5 +18460,219 @@
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
   "datum": "2026-11-15"
+ },
+ "wh-1779552302": {
+  "lage": {
+   "adresse": "Südtiroler Platz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Nahezu vor der Haustüre U1 Südtiroler Platz\", Hauptbahnhof 3 Min. zu Fuß, 4. Bezirk nahe Grenze zu Favoriten"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1245455886": {
+  "lage": {
+   "adresse": "Weyringergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Weyringerhof, Region Favoritenstraße - Weyringergasse, U1 2 Min.; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1933941429": {
+  "lage": {
+   "adresse": "Schwindgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Botschaftsviertel des 4. Bezirks\", nahe Belvedere und Schweizergarten, Theater Akzent; keine Straße genannt"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1614076273": {
+  "lage": {
+   "adresse": "Weyringergasse",
+   "sicherheit": "genau",
+   "begruendung": "\"Die Weyringergasse selbst ist eine ruhige Wohnstraße\", U1 Hauptbahnhof Ausgang Kolschitzkygasse"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1864822363": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6/6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Top 6 laut Einreichplan (120,51 m², 2. Stock); Adresse Schlüsselgasse 6 in allen Inseraten"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1106679882": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "wie wh-1864822363"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-909454878977": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "wie wh-1864822363"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15237523": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "wie wh-1864822363"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-195378031041": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "wie wh-1864822363"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-14934425": {
+  "lage": {
+   "adresse": "Schlüsselgasse 6",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "wie wh-1864822363"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-1028882628": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-881513529727": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15222659": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "wh-2065446663": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-150071026202": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-14881932": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "fm-5534546": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "fm-5721674": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "bt-259231259560": {
+  "lage": {
+   "adresse": "Schönbrunner Straße 24",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Haus 24/1 Top 34 laut Inserat (derStandard, ImmoScout24), 3SI: Top 1/34, 90,38 m², 699.000 €"
+  },
+  "datum": "2026-11-16"
+ },
+ "ds-15284906": {
+  "lage": {
+   "adresse": "Weyringergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Weyringerhof, Region Favoritenstraße - Weyringergasse, U1 2 Min.; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-16"
+ },
+ "is-439985056759": {
+  "lage": {
+   "adresse": "Weyringergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Weyringerhof, Region Favoritenstraße - Weyringergasse, U1 2 Min.; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-16"
+ },
+ "fm-5760460": {
+  "lage": {
+   "adresse": "Weyringergasse",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Weyringerhof, Region Favoritenstraße - Weyringergasse, U1 2 Min.; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-16"
  }
 }

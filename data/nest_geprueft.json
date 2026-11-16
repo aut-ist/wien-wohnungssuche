@@ -6424,5 +6424,45 @@
   "titel": "",
   "datum": "2026-11-15",
   "ergebnis": "genau: Johann-Strauß-Gasse 27/5"
+ },
+ "wh-1864822363": {
+  "ids": [
+   "wh-1864822363",
+   "wh-1106679882",
+   "is-909454878977",
+   "ds-15237523",
+   "is-195378031041",
+   "ds-14934425"
+  ],
+  "titel": "Urbanes Wohnen mit Stil - 4-Zimmer-Altbauwohnung",
+  "ergebnis": "Schlüsselgasse 6 (genau): Adresse steht im Lagetext aller Inserate, ImmoScout24/weekend.at-Suche bestätigt 121 m², 2. Stock, Chalupa. Top nicht gefunden. Top 6 laut Grundriss (Titelblock 'TOP 6 120,51 m²').",
+  "datum": "2026-11-16"
+ },
+ "wh-1028882628": {
+  "ids": [
+   "wh-1028882628",
+   "is-881513529727",
+   "ds-15222659",
+   "wh-2065446663",
+   "is-150071026202",
+   "ds-14881932",
+   "fm-5534546",
+   "fm-5721674",
+   "bt-259231259560"
+  ],
+  "titel": "Schönbrunner Straße 22-24",
+  "ergebnis": "Schönbrunner Straße 24, Haus 24/1 Top 34 (genau): derStandard 'Schönbrunner Straße 22-24/34', Inserat-Text 'Haus 24/1 Top 34', 3SI 'Top 1/34, 3 Zimmer', willhaben wh-2065446663 nennt Nr. 24; 90,38 m², 699.000 €.",
+  "datum": "2026-11-16"
+ },
+ "wh-1245455886": {
+  "ids": [
+   "wh-1245455886",
+   "ds-15284906",
+   "is-439985056759",
+   "fm-5760460"
+  ],
+  "titel": "Generalsanierte Altbauwohnung im Weyringerhof",
+  "ergebnis": "unklar: Weyringergasse/Favoritenstraße (ungefähr), Hausnummer nicht gefunden. Geprüft: Schwester-Inserate (Kalandra, anderer HWB/Fotos: keine), Grundriss (Kalandra-Plan ohne Adresse, 4 Bilder), Websuchen 'Weyringerhof Wien Weyringergasse Adresse', 'Weyringerhof Wien 1040 Eigentumswohnung' (kein Treffer zum Namen); justimmo-PDF und weekend.at von hier gesperrt.",
+  "datum": "2026-11-16"
  }
 }

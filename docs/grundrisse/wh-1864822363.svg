@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1608" height="1771" viewBox="0 0 1608 1771" font-family="Helvetica, Arial, sans-serif">
+<rect width="1608" height="1771" fill="#ffffff"/>
+<polygon points="131.8,272.8 515.8,272.8 515.8,676.8 131.8,676.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="131.8,272.8 515.8,272.8 515.8,676.8 131.8,676.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="525.8,272.8 761.8,272.8 761.8,676.8 525.8,676.8" fill="#f3e2c3" stroke="none"/>
+<polygon points="525.8,272.8 761.8,272.8 761.8,676.8 525.8,676.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="767.8,283.8 1010.8,283.8 1010.8,798.8 131.8,798.8 131.8,676.8 767.8,676.8" fill="#efefec" stroke="none"/>
+<polygon points="767.8,283.8 1010.8,283.8 1010.8,798.8 131.8,798.8 131.8,676.8 767.8,676.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="889.8,181.8 990.8,181.8 990.8,283.8 889.8,283.8" fill="#dcecf3" stroke="none"/>
+<polygon points="889.8,181.8 990.8,181.8 990.8,283.8 889.8,283.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="767.8,121.8 879.8,121.8 879.8,256.8 767.8,256.8" fill="#e3f0da" stroke="none"/>
+<polygon points="767.8,121.8 879.8,121.8 879.8,256.8 767.8,256.8" fill="none" stroke="#7a8f6e" stroke-width="6.0" stroke-linejoin="miter" stroke-dasharray="18 10"/>
+<polygon points="1020.8,474.8 1242.8,474.8 1242.8,697.8 1020.8,697.8" fill="#dcecf3" stroke="none"/>
+<polygon points="1020.8,474.8 1242.8,474.8 1242.8,697.8 1020.8,697.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1020.8,707.8 1182.8,707.8 1182.8,798.8 1020.8,798.8" fill="#e6e6e2" stroke="none"/>
+<polygon points="1020.8,707.8 1182.8,707.8 1182.8,798.8 1020.8,798.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="121.8,858.8 515.8,858.8 515.8,1404.8 121.8,1404.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="121.8,858.8 515.8,858.8 515.8,1404.8 121.8,1404.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="525.8,858.8 1000.8,858.8 1000.8,1404.8 525.8,1404.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="525.8,858.8 1000.8,858.8 1000.8,1404.8 525.8,1404.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1010.8,858.8 1485.8,858.8 1485.8,1404.8 1010.8,1404.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="1010.8,858.8 1485.8,858.8 1485.8,1404.8 1010.8,1404.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<line x1="161.8" y1="1404.8" x2="495.8" y2="1404.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="161.8" y1="1404.8" x2="495.8" y2="1404.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="565.8" y1="1404.8" x2="959.8" y2="1404.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="565.8" y1="1404.8" x2="959.8" y2="1404.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1050.8" y1="1404.8" x2="1444.8" y2="1404.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1050.8" y1="1404.8" x2="1444.8" y2="1404.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="161.8" y1="272.8" x2="495.8" y2="272.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="161.8" y1="272.8" x2="495.8" y2="272.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="565.8" y1="272.8" x2="737.8" y2="272.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="565.8" y1="272.8" x2="737.8" y2="272.8" stroke="#6fa7cf" stroke-width="4"/>
+<text x="323.8" y="468.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="323.8" y="512.8" font-size="32.8" fill="#555" text-anchor="middle">18,44 m²</text>
+<text x="643.8" y="468.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Küche</text>
+<text x="643.8" y="512.8" font-size="32.8" fill="#555" text-anchor="middle">8,09 m²</text>
+<text x="721.1" y="610.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorraum</text>
+<text x="721.1" y="654.5" font-size="32.8" fill="#555" text-anchor="middle">14,08 m²</text>
+<text x="940.3" y="228.5" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">WC</text>
+<text x="940.3" y="260.2" font-size="23.6" fill="#555" text-anchor="middle">1,37 m²</text>
+<text x="823.8" y="185.0" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Balkon</text>
+<text x="823.8" y="216.7" font-size="23.6" fill="#555" text-anchor="middle">1,79 m²</text>
+<text x="1131.8" y="580.3" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="1131.8" y="624.3" font-size="32.8" fill="#555" text-anchor="middle">4,54 m²</text>
+<text x="1101.8" y="747.3" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">AR</text>
+<text x="1101.8" y="791.3" font-size="32.8" fill="#555" text-anchor="middle">1,41 m²</text>
+<text x="318.8" y="1125.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="318.8" y="1169.8" font-size="32.8" fill="#555" text-anchor="middle">21,48 m²</text>
+<text x="763.3" y="1125.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="763.3" y="1169.8" font-size="32.8" fill="#555" text-anchor="middle">25,55 m²</text>
+<text x="1248.3" y="1125.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="1248.3" y="1169.8" font-size="32.8" fill="#555" text-anchor="middle">25,55 m²</text>
+<text x="121.8" y="1546.7" font-size="46.0" font-weight="700" fill="#2b2b2b">Grundriss Top 6, 2. Stock</text>
+<text x="121.8" y="1600.7" font-size="36.0" fill="#444">Wohnfläche ca. 120,51 m² · Freifläche ca. 1,79 m²</text>
+<text x="121.8" y="1650.7" font-size="28.0" fill="#888">Neu gezeichnet nach dem Einreichplan (Top 6, 120,51 m² + 1,79 m² Balkon); Raumgrößen laut Plan, Proportionen ungefähr.</text>
+<rect x="121.8" y="1682.7" width="100.0" height="10" fill="#2f2f2f"/><rect x="221.8" y="1682.7" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="121.8" y="1726.7" font-size="26.0" fill="#666">0</text><text x="321.8" y="1726.7" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+</svg>
