@@ -167,6 +167,57 @@
   "portaladresse_pruefen": true
  },
  {
+  "id": "wh-1506927205",
+  "ids": [
+   "wh-1506927205"
+  ],
+  "titel": "ECHTE SUPERLAGE - HERRLICHE WOHNUNG auf 2 EBENEN - 6/7. LIFTSTOCK - NEUBAU 1991 (renoviert) - KLIMAANLAGE - GARAGENOPTION",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/echte-superlage-herrliche-wohnung-auf-2-ebenen-6-7-liftstock-neubau-1991-renoviert-klimaanlage-garagenoption-1506927205/"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden (Saads Zeichnung: Karlsplatz bis Quartier Belvedere) (Kartenpunkt bis zu 257 m versetzt)",
+  "punkt": [
+   48.195377,
+   16.364069
+  ],
+  "versatz_m": 257,
+  "preis": 990000.0,
+  "flaeche": 120.0,
+  "zimmer": 4,
+  "stockwerk": "5",
+  "energie": {
+   "hwb": "65,9",
+   "hwb_class": "C",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1506927205/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Dokument 1",
+    "url": "https://storage.justimmo.at/file/wb3F1hNx3R7k55pJC9g2D.pdf"
+   },
+   {
+    "name": "Dokument 2",
+    "url": "https://storage.justimmo.at/file/3buNuG7fyJXoI71KWtydap.pdf"
+   },
+   {
+    "name": "LINK ZUM PROJEKT",
+    "url": "https://www.hs-immo.at/wohnbauprojekt/14438200?from=193419"
+   },
+   {
+    "name": "LINK ZUM PROJEKT",
+    "url": "https://www.hs-immo.at/wohnbauprojekt/14438200?from=193419"
+   }
+  ],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
   "id": "wh-1537603478",
   "ids": [
    "wh-1537603478",

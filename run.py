@@ -346,9 +346,9 @@ def laufende_kosten(gruppe):
         text = f"{r.get('text') or ''}"
         alt_is = r["id"].startswith("is-") and not r.get("monatlich_neu")  # alte, aufaddierte ImmoScout-Werte
         if r.get("monatlich") and 30 < r["monatlich"] < 5000 and not alt_is:
-            heiz = [_eur(m.group(1)) for f in r.get("heizung_felder") or [] for m in [_HEIZKOSTEN.search(f)] if m]
-            extra = sum(h for h in heiz if h and h < 1000) * 1.2
-            kand.append((r["monatlich"] + extra, f"{r['quelle']}: monatliche Kosten" + (" + Heizkosten" if extra else "")))
+            # willhabens "monatliche Kosten" enthalten die ausgewiesenen Heizkosten schon (2026-11-16, Sebastianplatz 4:
+            # 532 netto = Heizung 106 + Rücklage 165 + sonstige 165 + BK); bis dahin wurden sie doppelt gezählt
+            kand.append((r["monatlich"], f"{r['quelle']}: monatliche Kosten"))
         for zeile in text.split("\n"):
             if re.search(r"(?i)kaufpreis|provision|grunderwerb|grundbuch|vertragserricht|stand der|jährlich|pro jahr|p\.\s?a\.", zeile):
                 continue

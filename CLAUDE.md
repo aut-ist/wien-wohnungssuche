@@ -33,6 +33,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Von Hand: review `{"kosten": {"betrag": N, "begruendung": ...}}`. Ebenfalls raus (gleicher Tag):
   Versteigerung, Exekution, Insolvenz/Konkurs, Masseverwalter, Bieterverfahren (`versteigerung()`);
   review `{"versteigerung": {"ok": true}}` hebt einen Fehlalarm auf.
+  Bis 2026-11-16 wurden bei willhaben die ausgewiesenen Heizkosten zusätzlich zu "monatliche Kosten" addiert, obwohl die Summe sie
+  schon enthält (Sebastianplatz 4: 579 € statt 706 €); behoben, 8 Wohnungen kamen zurück (7 davon im Papierkorb).
 - Adress-Recherche: höchstens `RECHERCHE_PRO_TAG` (25) pro Morgen, `data/recherche.json` ist nach
   Vorrang sortiert (Nest, dann neueste; Gaswohnungen sind ganz normale Wohnungen); Grundrisse lädt der Workflow nur für diese.
 - Täglicher Ablauf: GitHub Actions scrapt (`taeglich.yml`, drei Termine ab 04:23 UTC, wer heute
