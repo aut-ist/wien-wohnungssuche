@@ -98,6 +98,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   `geo.gemeindebau_naehe` (nur Standardbibliothek). Ungefähre Lagen werden nicht geprüft; Nest und Brutkasten bleiben
   unangetastet (Saad); review `{"gemeindebau": {"ok": true}}` hebt einen Fehlalarm auf. Bei 30 m flogen am ersten Tag
   16 Inserate raus; bei 100 m wäre es die Hälfte der Karte gewesen (Gemeindebauten stehen fast überall).
+  Seit 2026-11-16 AUS (Saad: „ignoriere in Zukunft diese Gemeindebau-Regel“): `gemeindebau_min_m` = 0 in config.json; dadurch kamen
+  23 Wohnungen zurück, 14 davon liegen im Papierkorb und bleiben weg. Code und Daten bleiben, aber nicht wieder einschalten.
 - Seit 2026-11-11 auch ein Stück Hernals (17., `mit_zonen`, Zone `hernals` in tools/build_zones.py, ohne Toleranzrand):
   Dreieck Kalvarienberggasse (Westseite nicht) / 18er-Grenze / Jörgerstraße (Jörgerstraße selbst nicht; Saad: nachts
   unangenehm). Grundlage: Gebäudedaten der Stadt (GEBAEUDEINFOOGD fast nur Gründerzeit, GEMBAUTENFLOGD kaum Gemeindebau),
