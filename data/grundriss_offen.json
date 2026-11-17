@@ -1,1 +1,103 @@
-[]
+[
+ {
+  "id": "ds-15033286",
+  "ids": [
+   "ds-15033286"
+  ],
+  "titel": "Wunderschöne 3-Zimmer Altbauwohnung im EG, Erstbezug!",
+  "adresse": "Josefstädter Straße",
+  "flaeche": 72.08,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/F6qb_A/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/14f88c72b3d5da7578483bfabd9a048a/fm_h1080_w1920/VNRo3JXEqJbr1fS1dbeDl20240528.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15033286/"
+ },
+ {
+  "id": "wh-1812115298",
+  "ids": [
+   "wh-1812115298",
+   "is-665447703919"
+  ],
+  "titel": "1080 Wien | 3-Zimmer ALTBAUWOHNUNG 84 m²| direkt beim 1. Bezirk/U2 Rathaus| Befristet vermietet bis 01.07.2027",
+  "adresse": null,
+  "flaeche": 83.95,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/181/211/5298_-1967846130.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1812115298/"
+ },
+ {
+  "id": "wh-2051483595",
+  "ids": [
+   "wh-2051483595",
+   "is-553132312714"
+  ],
+  "titel": "Ruhige 3-Zimmer-Wohnung im Herzen des Karmeliterviertels - an der Grenze zum 1. Bezirk",
+  "adresse": null,
+  "flaeche": 77.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/5/205/148/3595_1421169793.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2051483595/"
+ },
+ {
+  "id": "wh-1659871697",
+  "ids": [
+   "wh-1659871697"
+  ],
+  "titel": "3-Zi-Wohnung, Mayerhofgasse nächst U1",
+  "adresse": "Graf-Starhemberg-Gasse",
+  "flaeche": 81.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/7/165/987/1697_-1309016584.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1659871697/"
+ },
+ {
+  "id": "wh-1622252988",
+  "ids": [
+   "wh-1622252988",
+   "is-387479455059",
+   "fm-5786028"
+  ],
+  "titel": "4,5 Zimmer Altbauwohnung mit historischem Hintergrund in Grinzing",
+  "adresse": null,
+  "flaeche": 155.17,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/162/225/2988_-319503285.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1622252988/"
+ },
+ {
+  "id": "wh-2043631003",
+  "ids": [
+   "wh-2043631003"
+  ],
+  "titel": "Guter Preis - gute Lage - beim Draschepark",
+  "adresse": null,
+  "flaeche": 91.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/204/363/1003_370646030.jpg",
+   "https://cache.willhaben.at/mmo/3/204/363/1003_-74393696.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2043631003/"
+ }
+]

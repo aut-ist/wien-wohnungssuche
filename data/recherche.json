@@ -1,41 +1,5 @@
 [
  {
-  "id": "is-157247399087",
-  "ids": [
-   "is-157247399087",
-   "wh-1936786992"
-  ],
-  "titel": "Provisionsfrei - Elegante 3-Zimmer-Eigentumswohnung im Botschaftsviertel nahe dem Belvedere",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/provisionsfrei-elegante-3-zimmer-eigentumswohnung-im-botschaftsviertel-nahe-dem-belvedere-1936786992/",
-   "https://www.immobilienscout24.at/expose/6acd2653ef1e338987dc1e2c"
-  ],
-  "anbieter": "Alvero Real GmbH",
-  "adresse_im_inserat": "Mommsengasse  17",
-  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
-  "punkt": [
-   48.1902,
-   16.37805
-  ],
-  "versatz_m": 0,
-  "preis": 555000,
-  "flaeche": 75.0,
-  "zimmer": 3,
-  "stockwerk": "2",
-  "energie": {
-   "hwb": null,
-   "hwb_class": null,
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/is-157247399087/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-15",
-  "portaladresse_pruefen": true
- },
- {
   "id": "wh-1957985619",
   "ids": [
    "wh-1957985619",
@@ -68,7 +32,7 @@
    "fgee_class": "A+"
   },
   "grundrisse": "data/grundrisse/wh-1957985619/",
-  "im_nest": false,
+  "im_nest": true,
   "dokumente": [
    {
     "name": "Euphoria_Wohnungsplan_Stg1_Top04.pdf",
@@ -85,137 +49,6 @@
   ],
   "erstmals": "2026-11-15",
   "portaladresse_pruefen": true
- },
- {
-  "id": "is-587123872112",
-  "ids": [
-   "is-587123872112",
-   "ds-15308873",
-   "wh-1355409394"
-  ],
-  "titel": "PROVISIONSFREI &amp; FREI VERMIETBAR: Erstklassige 117 m² Eckwohnung mit perfekter Raumaufteilung - Eine absolute Rarität in Bestlage des 4. Bezirks (Wieden)! Ideal für Eigennutzer, wertbeständige Anleger oder als exklusive Premium-WG.",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/provisionsfrei-frei-vermietbar-erstklassige-117-m-eckwohnung-mit-perfekter-raumaufteilung-eine-absolute-raritaet-in-bestlage-des-4-bezirks-wieden-ideal-fuer-eigennutzer-wertbestaendige-anleger-oder-als-exklusive-premium-wg-1355409394/",
-   "https://www.immobilienscout24.at/expose/6aedea4c9fa973ea5c471716",
-   "https://immobilien.derstandard.at/detail/15308873"
-  ],
-  "anbieter": "privat",
-  "adresse_im_inserat": "Rainergasse 7 6",
-  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
-  "punkt": [
-   48.18984,
-   16.3708
-  ],
-  "versatz_m": 0,
-  "preis": 778050,
-  "flaeche": 117.0,
-  "zimmer": 4,
-  "stockwerk": "1",
-  "energie": {
-   "hwb": 94.8,
-   "hwb_class": "C",
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/is-587123872112/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-15",
-  "portaladresse_pruefen": true
- },
- {
-  "id": "wh-1456752819",
-  "ids": [
-   "wh-1456752819",
-   "is-001378839744",
-   "wh-2131288874",
-   "is-079199026872",
-   "ds-15282839"
-  ],
-  "titel": "Exklusive 4-Zimmer-Wohnung mit großzügiger Wohnküche beim Naschmarkt - Faulmanngasse 3, 1040 Wien",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/exklusive-4-zimmer-wohnung-mit-grosszuegiger-wohnkueche-beim-naschmarkt-faulmanngasse-3-1040-wien-1456752819/",
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/exklusive-4-zimmer-wohnung-mit-grosszuegiger-wohnkueche-beim-naschmarkt-faulmanngasse-3-1040-wien-2131288874/",
-   "https://www.immobilienscout24.at/expose/6ab3c8edecb25972a21d9c5d",
-   "https://www.immobilienscout24.at/expose/6ace3b4f7e120aae468cbbba",
-   "https://immobilien.derstandard.at/detail/15282839"
-  ],
-  "anbieter": "Immocity Real Estate GmbH",
-  "adresse_im_inserat": "Faulmanngasse 3",
-  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
-  "punkt": [
-   48.1985,
-   16.365593
-  ],
-  "versatz_m": 0,
-  "preis": 998000.0,
-  "flaeche": 115.2,
-  "zimmer": 4,
-  "stockwerk": "1",
-  "energie": {
-   "hwb": "43,8",
-   "hwb_class": "B",
-   "fgee": "1,7",
-   "fgee_class": "C"
-  },
-  "grundrisse": "data/grundrisse/wh-1456752819/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-15",
-  "portaladresse_pruefen": true
- },
- {
-  "id": "wh-1506927205",
-  "ids": [
-   "wh-1506927205"
-  ],
-  "titel": "ECHTE SUPERLAGE - HERRLICHE WOHNUNG auf 2 EBENEN - 6/7. LIFTSTOCK - NEUBAU 1991 (renoviert) - KLIMAANLAGE - GARAGENOPTION",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/echte-superlage-herrliche-wohnung-auf-2-ebenen-6-7-liftstock-neubau-1991-renoviert-klimaanlage-garagenoption-1506927205/"
-  ],
-  "anbieter": "H.S. Immomakler",
-  "adresse_im_inserat": null,
-  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (Kartenpunkt bis zu 257 m versetzt)",
-  "punkt": [
-   48.195377,
-   16.364069
-  ],
-  "versatz_m": 257,
-  "preis": 990000.0,
-  "flaeche": 120.0,
-  "zimmer": 4,
-  "stockwerk": "5",
-  "energie": {
-   "hwb": "65,9",
-   "hwb_class": "C",
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-1506927205/",
-  "im_nest": false,
-  "dokumente": [
-   {
-    "name": "Dokument 1",
-    "url": "https://storage.justimmo.at/file/wb3F1hNx3R7k55pJC9g2D.pdf"
-   },
-   {
-    "name": "Dokument 2",
-    "url": "https://storage.justimmo.at/file/3buNuG7fyJXoI71KWtydap.pdf"
-   },
-   {
-    "name": "LINK ZUM PROJEKT",
-    "url": "https://www.hs-immo.at/wohnbauprojekt/14438200?from=193419"
-   },
-   {
-    "name": "LINK ZUM PROJEKT",
-    "url": "https://www.hs-immo.at/wohnbauprojekt/14438200?from=193419"
-   }
-  ],
-  "erstmals": "2026-11-15",
-  "portaladresse_pruefen": false
  },
  {
   "id": "wh-1537603478",
@@ -250,13 +83,261 @@
    "fgee_class": "A"
   },
   "grundrisse": "data/grundrisse/wh-1537603478/",
-  "im_nest": false,
+  "im_nest": true,
   "dokumente": [
    {
     "name": "Virtuelle Tour",
     "url": "https://floorfy.com/tour/2648716?play=no"
    }
   ],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1812115298",
+  "ids": [
+   "wh-1812115298",
+   "is-665447703919"
+  ],
+  "titel": "1080 Wien | 3-Zimmer ALTBAUWOHNUNG 84 m²| direkt beim 1. Bezirk/U2 Rathaus| Befristet vermietet bis 01.07.2027",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/1080-wien-3-zimmer-altbauwohnung-84-m-direkt-beim-1-bezirk-u2-rathaus-befristet-vermietet-bis-01-07-2027-1812115298/",
+   "https://www.immobilienscout24.at/expose/6afb329d1e8d07cc8fcc4c09"
+  ],
+  "anbieter": "PLENUS Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "8. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.21394,
+   16.349477
+  ],
+  "versatz_m": 0,
+  "preis": 697000.0,
+  "flaeche": 83.95,
+  "zimmer": 3,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "225",
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1812115298/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-17",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1622252988",
+  "ids": [
+   "wh-1622252988",
+   "is-387479455059",
+   "fm-5786028"
+  ],
+  "titel": "4,5 Zimmer Altbauwohnung mit historischem Hintergrund in Grinzing",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/4-5-zimmer-altbauwohnung-mit-historischem-hintergrund-in-grinzing-1622252988/",
+   "https://www.findmyhome.at/5786028",
+   "https://www.immobilienscout24.at/expose/6afb318e1e8d07cc8fcc4a72"
+  ],
+  "anbieter": "LIFESTYLE PROPERTIES",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (Kartenpunkt bis zu 262 m versetzt)",
+  "punkt": [
+   48.2538,
+   16.351562
+  ],
+  "versatz_m": 262,
+  "preis": 1099000.0,
+  "flaeche": 155.17,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "187,61",
+   "hwb_class": "E",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1622252988/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-17",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2051483595",
+  "ids": [
+   "wh-2051483595",
+   "is-553132312714"
+  ],
+  "titel": "Ruhige 3-Zimmer-Wohnung im Herzen des Karmeliterviertels - an der Grenze zum 1. Bezirk",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/ruhige-3-zimmer-wohnung-im-herzen-des-karmeliterviertels-an-der-grenze-zum-1-bezirk-2051483595/",
+   "https://www.immobilienscout24.at/expose/6afb3d7d1e8d07cc8fcc5c84"
+  ],
+  "anbieter": "Adamant Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 266 m versetzt)",
+  "punkt": [
+   48.21783,
+   16.375992
+  ],
+  "versatz_m": 266,
+  "preis": 479000.0,
+  "flaeche": 77.0,
+  "zimmer": 3,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": "109",
+   "hwb_class": "D",
+   "fgee": "1,95",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-2051483595/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-17",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2043631003",
+  "ids": [
+   "wh-2043631003"
+  ],
+  "titel": "Guter Preis - gute Lage - beim Draschepark",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/guter-preis-gute-lage-beim-draschepark-2043631003/"
+  ],
+  "anbieter": "REISCHEL Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.193167,
+   16.367417
+  ],
+  "versatz_m": 0,
+  "preis": 420000.0,
+  "flaeche": 91.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "138",
+   "hwb_class": "D",
+   "fgee": "3,01",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2043631003/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-17",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1659871697",
+  "ids": [
+   "wh-1659871697"
+  ],
+  "titel": "3-Zi-Wohnung, Mayerhofgasse nächst U1",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/3-zi-wohnung-mayerhofgasse-naechst-u1-1659871697/"
+  ],
+  "anbieter": "Georg Fresacher - TheRealEstate - Immobilienmakler GmbH",
+  "adresse_im_inserat": "Graf-Starhemberg-Gasse",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.189877,
+   16.370216
+  ],
+  "versatz_m": 0,
+  "preis": 585000.0,
+  "flaeche": 81.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "32,9",
+   "hwb_class": "B",
+   "fgee": "0,81",
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/wh-1659871697/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-17",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-157247399087",
+  "ids": [
+   "is-157247399087",
+   "wh-1936786992"
+  ],
+  "titel": "Provisionsfrei - Elegante 3-Zimmer-Eigentumswohnung im Botschaftsviertel nahe dem Belvedere",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/provisionsfrei-elegante-3-zimmer-eigentumswohnung-im-botschaftsviertel-nahe-dem-belvedere-1936786992/",
+   "https://www.immobilienscout24.at/expose/6acd2653ef1e338987dc1e2c"
+  ],
+  "anbieter": "Alvero Real GmbH",
+  "adresse_im_inserat": "Mommsengasse  17",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.1902,
+   16.37805
+  ],
+  "versatz_m": 0,
+  "preis": 555000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/is-157247399087/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "ds-15250539",
+  "ids": [
+   "ds-15250539"
+  ],
+  "titel": "Perfekte Citylage zwischen Naschmarkt und Karlsplatz - Stadtwohnung in exklusiver Wiedner Lage",
+  "plz": 1040,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15250539"
+  ],
+  "anbieter": "Novel Real Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.192146,
+   16.371063
+  ],
+  "versatz_m": 0,
+  "preis": 699000.0,
+  "flaeche": 80.85,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 42.5,
+   "hwb_class": "B",
+   "fgee": 1.01,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/ds-15250539/",
+  "im_nest": false,
+  "dokumente": [],
   "erstmals": "2026-11-15",
   "portaladresse_pruefen": false
  },
@@ -295,43 +376,37 @@
   "portaladresse_pruefen": true
  },
  {
-  "id": "wh-1981403697",
+  "id": "ds-15229012",
   "ids": [
-   "wh-1981403697",
-   "is-892440189052",
-   "ds-15123117",
-   "fm-5660160"
+   "ds-15229012"
   ],
-  "titel": "4-Zimmer-Altbauwohnung mit Balkon und Fischgrätparkett",
-  "plz": 1050,
+  "titel": "Toskana-Flair in Hernals | 95 m² Erstbezug mit ca. 16 m² Freiflächen & Grünblick",
+  "plz": 1170,
   "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/4-zimmer-altbauwohnung-mit-balkon-und-fischgraetparkett-1981403697/",
-   "https://www.findmyhome.at/5660160",
-   "https://www.immobilienscout24.at/expose/69f088cc05a4ad176024780a",
-   "https://immobilien.derstandard.at/detail/15123117"
+   "https://immobilien.derstandard.at/detail/15229012"
   ],
-  "anbieter": "JP Immobilien",
-  "adresse_im_inserat": "Schönbrunner Straße 39",
-  "lage": "Randlage Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (13 m außerhalb)",
+  "anbieter": "NEUREAL GmbH",
+  "adresse_im_inserat": "Leitermayergasse 4",
+  "lage": "Zone Hernals: Kalvarienberggasse bis 18er-Grenze, ohne Jörgerstraße",
   "punkt": [
-   48.19275,
-   16.35766
+   48.220916,
+   16.335323
   ],
   "versatz_m": 0,
-  "preis": 879000.0,
-  "flaeche": 119.28,
-  "zimmer": 4,
+  "preis": 649000.0,
+  "flaeche": 95.49,
+  "zimmer": 3,
   "stockwerk": null,
   "energie": {
-   "hwb": "128,1",
-   "hwb_class": "D",
-   "fgee": "1,78",
-   "fgee_class": "D"
+   "hwb": 37,
+   "hwb_class": "B",
+   "fgee": 0.74,
+   "fgee_class": "A"
   },
-  "grundrisse": "data/grundrisse/wh-1981403697/",
+  "grundrisse": "data/grundrisse/ds-15229012/",
   "im_nest": false,
   "dokumente": [],
-  "erstmals": "2026-11-15",
+  "erstmals": "2026-11-13",
   "portaladresse_pruefen": true
  }
 ]
