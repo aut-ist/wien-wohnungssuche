@@ -836,13 +836,32 @@ def _grundriss_nach_vorne(bilder):
     höchsten Grundriss-Wert aus tools/bild_hashes.py (ab 0,6, wie tools/grundrisse.py) oder "grundriss" im Namen."""
     hashes = _bild_hashes()
     wert = {u: (hashes.get(u) or {}).get("g") or (1.0 if "grundriss" in u.lower() else 0) for u in bilder}
-    # Seit 2026-11-17 (Saad): ALLE Grundrisse direkt nach dem ersten Foto, der beste zuerst, dann die übrigen Fotos
+    # Seit 2026-11-17 (Saad): ALLE Grundrisse direkt nach dem ersten Foto, dann die übrigen Fotos. Der Grundriss-Wert allein
+    # reicht dafür nicht (Lagepläne, Finanzierungs-Logos und Badfotos kamen auf 0,8-0,9, echte Pläne teils nur 0,7): angesehene
+    # Bilder stehen in data/grundriss_klassen.json (Fingerabdruck -> plan / kein / haesslich). Bestätigte Pläne kommen alle
+    # nach vorne, hässliche Pläne (es gibt einen schöneren) ans Ende; ohne Bestätigung wie bisher nur der beste Kandidat.
     if len(bilder) < 3:
         return bilder
-    plaene = sorted((u for u in bilder[1:] if wert[u] >= 0.6), key=lambda u: -wert[u])
-    if not plaene or wert[bilder[0]] >= wert[plaene[0]]:
-        return bilder
-    return [bilder[0]] + plaene + [u for u in bilder[1:] if u not in plaene]
+    klasse = {u: _grundriss_klassen().get((hashes.get(u) or {}).get("h")) for u in bilder}
+    plaene = sorted((u for u in bilder[1:] if klasse[u] == "plan"), key=lambda u: -wert[u])
+    if not plaene:
+        offen = [u for u in bilder[1:] if klasse[u] is None and wert[u] >= 0.6]
+        bester = max(offen, key=lambda u: wert[u], default=None)
+        if bester is not None and wert[bilder[0]] < wert[bester]:
+            plaene = [bester]
+    haesslich = [u for u in bilder[1:] if klasse[u] == "haesslich"]
+    return [bilder[0]] + plaene + [u for u in bilder[1:] if u not in plaene and u not in haesslich] + haesslich
+
+
+_GR_KLASSEN = None
+
+
+def _grundriss_klassen():
+    """data/grundriss_klassen.json: von Claude angesehene Bilder, Fingerabdruck -> plan / kein / haesslich (2026-11-17)."""
+    global _GR_KLASSEN
+    if _GR_KLASSEN is None:
+        _GR_KLASSEN = load_json(DATA / "grundriss_klassen.json", {})
+    return _GR_KLASSEN
 
 
 GR_PLAENE = DATA / "grundriss_plaene"

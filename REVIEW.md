@@ -121,6 +121,10 @@ nebeneinander mit Überschrift; `ersetzt` = URLs der hässlichen Pläne, die kom
 erfinden), mit `python tools/grundriss_zeichnen.py` prüfen. In jedem Fall in `data/grundriss_geprueft.json`
 eintragen: `"ID": {"ids": [...], "ergebnis": "schoen" | "neu_gezeichnet" | "kein_grundriss" | "unlesbar",
 "am": "JJJJ-MM-TT", "plaene": [Fingerabdrücke "h" der angesehenen URLs aus data/bild_hashes.json]}`.
+Zusätzlich jedes angesehene Bild in `data/grundriss_klassen.json` eintragen (Fingerabdruck "h" -> "plan" | "kein" | "haesslich";
+"haesslich" nur, wenn es für die Wohnung einen schöneren Plan gibt): alle "plan"-Bilder stehen dann direkt hinter dem ersten Foto
+(Saad 2026-11-17), "haesslich" ganz hinten; Lagepläne/Logos/Fotos ("kein") bleiben, wo sie sind. Der automatische Grundriss-Wert
+verwechselt Lagepläne, Finanzierungs-Logos und Badfotos mit Plänen, deshalb zählt die Klasse.
 Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
 
 ## Neubauprojekte suchen (jeden Montag, nach den Grundrissen; seit 2026-11-09)

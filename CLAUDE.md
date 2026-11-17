@@ -184,7 +184,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   die Fotos der Detailseite jeden Morgen überschrieben; jetzt bleibt die längere Liste. `tools/bild_hashes.py`
   (pillow, im Workflow) speichert je Foto-URL Fingerabdruck und Grundriss-Wert in `data/bild_hashes.json`;
   `_bilder_der_gruppe` in run.py wirft Fotos mit <= 6 von 64 Bits Unterschied als doppelt raus,
-  `_grundriss_nach_vorne` stellt seit 2026-11-17 ALLE Grundrisse (Wert >= 0,6, bester zuerst) direkt hinter das erste Foto, dann erst die übrigen Fotos (Saad; vorher nur den besten an Stelle 2). Ohne Fingerabdrücke:
+  `_grundriss_nach_vorne` stellt seit 2026-11-17 ALLE Grundrisse (Wert >= 0,6, bester zuerst) direkt hinter das erste Foto, dann erst die übrigen Fotos (Saad; vorher nur den besten an Stelle 2). Grundlage ist `data/grundriss_klassen.json` (angesehene Bilder: plan/kein/haesslich), weil der Grundriss-Wert Lagepläne, Logos und Badfotos mit 0,8-0,9 bewertet; ohne Eintrag nur der beste Kandidat wie früher. Ohne Fingerabdrücke:
   je Makler nur das Inserat mit den meisten Fotos.
 - Neu gezeichnete Grundrisse (Wunsch 2026-11-06): gibt es für eine Nest- oder neue Wohnung nur abfotografierte,
   technische oder bekritzelte Pläne, zeichnet Claude sie neu: `data/grundriss_plaene/ID.json` (Räume in Metern,
