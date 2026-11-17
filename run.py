@@ -80,7 +80,7 @@ def filter_grund(r, bestand=False):
         return f"nur {r['flaeche']:g} m²"
     if r.get("zimmer") and r["zimmer"] < F["zimmer_min"]:
         return f"nur {r['zimmer']} Zimmer"
-    # 3 Zimmer nur bis 700.000 € galt 2026-10-28 bis 2026-11-17 (Saad: „diese Regel soll komplett weg“); null = aus
+    # genau 3 Zimmer: 700.000 € ab 2026-10-28, am 2026-11-17 kurz aus, seit dem Abend 850.000 € (Saad); null = aus
     if F.get("preis_max_3_zimmer") and r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]:
         return f"3 Zimmer über {F['preis_max_3_zimmer']:,.0f} €".replace(",", ".")
     return None

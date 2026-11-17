@@ -7,7 +7,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Kriterien: `config.json` (Preis bis 1.200.000 € seit 2026-11-11, davor 1.150.000 € ab 2026-11-01, davor 1 Mio; m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig oder teilsaniert, seit 2026-11-06 auch "zu modernisierende" und "unsanierte" Wohnungen (`wohnungen/zustand.py`), befristet vermietet über Ende September 2027 hinaus
-  (`miete_bis` liest das Enddatum). Von 2026-10-28 bis 2026-11-17 galt: genau 3 Zimmer nur bis 700.000 € (seit 2026-11-17 komplett weg, Saad; `preis_max_3_zimmer` = null)
+  (`miete_bis` liest das Enddatum). Von 2026-10-28 bis 2026-11-17 galt: genau 3 Zimmer nur bis 700.000 € (am 2026-11-17 erst komplett weg, am selben Abend neu: genau 3 Zimmer nur bis 850.000 €, Saad; `preis_max_3_zimmer`)
   (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
   grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt die Preisgrenze nicht.
   Für Wohnungen, die ab 2026-11-12 neu gefunden werden (`guertel_max_min_ab`, frühestes "erstmals" der Gruppe),
