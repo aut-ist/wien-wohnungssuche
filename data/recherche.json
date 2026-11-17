@@ -1,56 +1,5 @@
 [
  {
-  "id": "wh-1957985619",
-  "ids": [
-   "wh-1957985619",
-   "is-043648088806",
-   "ds-15279316"
-  ],
-  "titel": "Townhouse mit Garten in 1040 Wien | 112 m² | Dachterrasse | Erstbezug",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/townhouse-mit-garten-in-1040-wien-112-m-dachterrasse-erstbezug-1957985619/",
-   "https://www.immobilienscout24.at/expose/6ac9133e0fef2ebeab6cbe34",
-   "https://immobilien.derstandard.at/detail/15279316"
-  ],
-  "anbieter": "Ulreich Bauträger GmbH",
-  "adresse_im_inserat": "Schönburgstraße 5",
-  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
-  "punkt": [
-   48.18856,
-   16.368752
-  ],
-  "versatz_m": 0,
-  "preis": 1070000.0,
-  "flaeche": 144.86,
-  "zimmer": 4,
-  "stockwerk": "0",
-  "energie": {
-   "hwb": "28",
-   "hwb_class": "B",
-   "fgee": "0,6",
-   "fgee_class": "A+"
-  },
-  "grundrisse": "data/grundrisse/wh-1957985619/",
-  "im_nest": true,
-  "dokumente": [
-   {
-    "name": "Euphoria_Wohnungsplan_Stg1_Top04.pdf",
-    "url": "https://cache.willhaben.at/adpdf/9/195/798/5619_309825308.pdf"
-   },
-   {
-    "name": "Euphoria_Broschüre_ENG.pdf",
-    "url": "https://cache.willhaben.at/adpdf/9/195/798/5619_-971540373.pdf"
-   },
-   {
-    "name": "Euphoria_Broschüre_DE.pdf",
-    "url": "https://cache.willhaben.at/adpdf/9/195/798/5619_964836721.pdf"
-   }
-  ],
-  "erstmals": "2026-11-15",
-  "portaladresse_pruefen": true
- },
- {
   "id": "wh-1537603478",
   "ids": [
    "wh-1537603478",
@@ -373,40 +322,6 @@
   "im_nest": false,
   "dokumente": [],
   "erstmals": "2026-11-15",
-  "portaladresse_pruefen": true
- },
- {
-  "id": "ds-15229012",
-  "ids": [
-   "ds-15229012"
-  ],
-  "titel": "Toskana-Flair in Hernals | 95 m² Erstbezug mit ca. 16 m² Freiflächen & Grünblick",
-  "plz": 1170,
-  "links": [
-   "https://immobilien.derstandard.at/detail/15229012"
-  ],
-  "anbieter": "NEUREAL GmbH",
-  "adresse_im_inserat": "Leitermayergasse 4",
-  "lage": "Zone Hernals: Kalvarienberggasse bis 18er-Grenze, ohne Jörgerstraße",
-  "punkt": [
-   48.220916,
-   16.335323
-  ],
-  "versatz_m": 0,
-  "preis": 649000.0,
-  "flaeche": 95.49,
-  "zimmer": 3,
-  "stockwerk": null,
-  "energie": {
-   "hwb": 37,
-   "hwb_class": "B",
-   "fgee": 0.74,
-   "fgee_class": "A"
-  },
-  "grundrisse": "data/grundrisse/ds-15229012/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-13",
   "portaladresse_pruefen": true
  }
 ]

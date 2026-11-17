@@ -13047,8 +13047,8 @@
     "Fertigstellung/Bezug 08/2027"
    ],
    "offline": false,
-   "lat": 48.18856,
-   "lon": 16.368752,
+   "lat": 48.188434,
+   "lon": 16.368586,
    "ungefaehr": false,
    "radius": null,
    "preis": 1070000.0,
@@ -13058,7 +13058,7 @@
    "zimmer": 4,
    "plz": 1040,
    "adresse": "Schönburgstraße 5",
-   "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+   "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Schönburgstraße 5)",
    "heizung": {
     "ergebnis": "kein_gas",
     "von": "automatisch",
