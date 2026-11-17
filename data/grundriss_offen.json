@@ -62,7 +62,7 @@
    "is-152128919488"
   ],
   "titel": "RARITÄT in TRAUMLAGE: in dieser klimatisierten DG-Wohnung mit 15m² Terrasse wohnt die Kreativität!",
-  "adresse": null,
+  "adresse": "Danhausergasse 5",
   "flaeche": 140.0,
   "zimmer": 3,
   "im_nest": false,
@@ -74,38 +74,54 @@
   "ordner": "data/grundrisse_zeichnen/wh-1297211285/"
  },
  {
-  "id": "wh-1910824776",
+  "id": "wh-2013491167",
   "ids": [
+   "wh-2013491167",
    "wh-1910824776",
+   "is-446721545771",
+   "ds-15255229",
    "ds-15220909",
    "is-414807347327"
   ],
-  "titel": "Provisionsfrei! Argentinierstrasse/ Karlsplatz! Renovierte 107qm sonnige ruhige barrierefreie Eigentumswohnung mit 8200qm privatem Park und Garage",
-  "adresse": "Argentinierstrasse 29",
+  "titel": "Moderne 3-Zi-Wohnung 107m² mit Loggia, Garage & Klimaanlage im Herzen von 1040 Wien!",
+  "adresse": "Argentinierstraße 29/16",
   "flaeche": 107.0,
   "zimmer": 3,
   "im_nest": false,
   "neu_gezeichnet": false,
   "plaene": [
+   "https://cache.willhaben.at/mmo/7/201/349/1167_-475341225.jpg",
    "https://cache.willhaben.at/mmo/6/191/082/4776_-1587189792.jpg",
    "https://ic.ds.at/Ks0zRg/plain/immoimporte/OMProptech/101929345/full.jpg"
   ],
-  "ordner": "data/grundrisse_zeichnen/wh-1910824776/"
+  "ordner": "data/grundrisse_zeichnen/wh-2013491167/"
  },
  {
   "id": "wh-2114117059",
   "ids": [
    "wh-2114117059",
-   "is-159481937836"
+   "wh-1339439600",
+   "wh-1382541862",
+   "is-403739427838",
+   "ds-15311444",
+   "ds-15298638",
+   "is-869436556578",
+   "is-159481937836",
+   "fm-5773376",
+   "fm-5770286",
+   "bt-388327331304"
   ],
   "titel": "AM BELVEDERE - ERSTBEZUG - 15m² BALKON - - GRÜNBLICK - HISTORISCHES JUWEL - HIGH END RENOVIERT",
-  "adresse": null,
+  "adresse": "Theresianumgasse 10/8",
   "flaeche": 89.0,
   "zimmer": 3,
   "im_nest": false,
   "neu_gezeichnet": false,
   "plaene": [
-   "https://cache.willhaben.at/mmo/9/211/411/7059_-456634421.jpg"
+   "https://cache.willhaben.at/mmo/9/211/411/7059_-456634421.jpg",
+   "https://cache.willhaben.at/mmo/0/133/943/9600_-1473195257.jpg",
+   "https://ic.ds.at/kMdB5Q/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/e5da4fd25a7206903f6c6af417d5f397/fm_h1080_w1920/SHPF8UhoumrbyLN3Gv5PeJ20261029.jpg",
+   "https://ic.ds.at/I9JCdg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/23d29e7c4ef909e5e1ed08e0472b8156/fm_h1080_w1920/XrMsuceAysmJ9MoxREtmgB20261019.jpg"
   ],
   "ordner": "data/grundrisse_zeichnen/wh-2114117059/"
  },

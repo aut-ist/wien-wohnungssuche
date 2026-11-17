@@ -236,9 +236,9 @@
    "wh-1109460584",
    "ds-14925214"
   ],
-  "titel": "DG-Projekt im 9. Bezirk · 5 Wohnungen · Ost- & Westterrassen · 53-106 m² Urbanes Wohnen · Parks & Uni-Nähe · Sonne von morgens bis abends !",
-  "datum": "2026-10-27",
-  "ergebnis": "unklar: keine Adresse auffindbar (willhaben, weekend.at, derStandard, immmo nennen nur 1090; Bauträger ungenannt, früher auch über IMMOMETER als 'CITY-DG'). DG-Ausbau eines 6-stöckigen Gründerzeithauses, Tops 28–32, fertig 2025, normaler Kaufpreis (kein Anlegerpreis). Versetzter Punkt (261 m) bei Bindergasse/Nußdorfer Straße, westlich der Liechtensteinstraße; das Haus kann aber auch in der roten Zone liegen. Daher grau behalten. Adresse bei TRISTAR (Nedeljko Bakic) erfragen."
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "ds-15233012": {
   "ids": [
@@ -1135,18 +1135,18 @@
    "wh-1081599137",
    "is-675302552744"
   ],
-  "titel": "Wiener Erbe - Projekt Schulgasse 1180",
-  "ergebnis": "Strasse bestaetigt: Schulgasse (westlicher Abschnitt im willhaben-Kreis), Top 2 EG; Hausnummer offen (https://www.weekend.at/de/projekt/wiener-erbe-projekt-schulgasse-1180/OBGC202505181633073414cd97e758a)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schulgasse 77/2"
  },
  "wh-1671747539": {
   "ids": [
    "wh-1671747539",
    "is-932286088532"
   ],
-  "titel": "Exklusive Maisonette-Wohnungen | Terrassen | Dachterrassen | 360° Rundumblick | Toplage 1180 | Nähe Kutschkermarkt - PROVISIONSFREI!",
-  "ergebnis": "keine Adresse gefunden; bleibt im willhaben-Kreis (267 m)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 40-42"
  },
  "wh-1248965634": {
   "ids": [
@@ -1235,9 +1235,9 @@
    "is-954752493372",
    "ds-15282767"
   ],
-  "titel": "ÜBER DEN DÄCHERN WÄHRINGS | TOPLAGE NÄHE KUTSCHKERMARKT | EXKLUSIVE DACHGESCHOSSWOHNUNG MIT KLIMAANLAGE | TERRASSE | ERSTBEZUG",
-  "ergebnis": "nur Gegend: Stilaltbau mit DG-Ausbau 2025 zwischen Aumannplatz und Kutschkermarkt (Immosan Ref. 11848, Schwesterobjekte 11846/11847/11849/11850 im selben Haus); Hausnummer offen",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 40-42"
  },
  "wh-1798746759": {
   "ids": [
@@ -1572,9 +1572,9 @@
    "wh-1224399479",
    "is-043807605006"
   ],
-  "titel": "** WILLKOMMEN IN DER HOFZEILE RESIDENZ - ZEITLOSE ELEGANZ IN EINER DER EXKLUSIVSTEN WOHNLAGEN WIENS **",
-  "ergebnis": "korrigiert: Hofzeile (ohne Hausnummer)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1241690985": {
   "ids": [
@@ -1608,9 +1608,9 @@
    "is-739891876894",
    "ds-15037206"
   ],
-  "titel": "EDEN & IVY - Stilvolle 3-Zimmer Dachgeschosswohnung mit Balkon & Grünblick",
-  "ergebnis": "korrigiert: Weitlofgasse 9, Stiege 1 Top 8 (Projektseite weekend.at)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Weitlofgasse 9/1/8"
  },
  "wh-1343408527": {
   "ids": [
@@ -1629,9 +1629,9 @@
    "ds-15253824",
    "fm-5741726"
   ],
-  "titel": "Exklusive Gartenwohnung mit Wintergarten",
-  "ergebnis": "korrigiert: Weitlofgasse 9, EG Top 1V2 (Projektseite weekend.at)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Weitlofgasse 9/1/V2 (laut FindMyHome-Anschrift, unbestätigt)"
  },
  "wh-1798193890": {
   "ids": [
@@ -1672,11 +1672,12 @@
  },
  "wh-1861675237": {
   "ids": [
-   "wh-1861675237"
+   "wh-1861675237",
+   "wh-1129776374"
   ],
-  "titel": "Provisionsfreie, traumhafte Dachgeschosswohnung mit umfangreicher Ausstattung - Nähe Kutschkermarkt",
-  "ergebnis": "korrigiert: Gentzgasse 40–42, Top 27 (weekend.at-Inserat derselben Einheit)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 40-42/27"
  },
  "wh-1534262201": {
   "ids": [
@@ -1811,9 +1812,9 @@
    "is-893695117618",
    "fm-5732689"
   ],
-  "titel": "Großzügige 3-Zimmer-Wohnung mit Loggia und Balkon im 18. Gemeindebezirk, Nähe Währinger Park",
-  "ergebnis": "Semperstraße 47, Top 9 (2. OG): Einheitenliste https://semper47.at (83,81 m², 845.000 €)",
-  "datum": "2026-11-01"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Semperstraße 47/9 (raus: Bezug erst Herbst 2027 (SEMPER47-Inserate derselben Einheit: 'Verfügbar ab: Ab Herbst 2027' / 'Fertigstellung voraussichtlich Herbst 2027'), später als Q3 2027)"
  },
  "wh-933053051": {
   "ids": [
@@ -2052,9 +2053,9 @@
    "wh-1837111459",
    "ds-15296751"
   ],
-  "titel": "Kutschkerviertel ganz oben: Elegantes Dachgeschoss mit privater Terrasse & Klimaanlage",
-  "ergebnis": "eingegrenzt: Edelhofgasse (1180), Hausnummer offen. Quelle: willhaben-Inserat 1837111459, Feld 'Lage'",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Edelhofgasse"
  },
  "is-815719770369": {
   "ids": [
@@ -2372,9 +2373,9 @@
    "is-123368120836",
    "fm-5747908"
   ],
-  "titel": "3 Zimmer Design-Apartment mit 17 m² Loggien & 360°-Dachterrasse",
-  "ergebnis": "korrigiert (Indiz): Leopold-Figl-Hof, Morzinplatz 4 / Gonzagagasse 2-4, Stiege 4, 6. Stock",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Morzinplatz 4, Stiege 4"
  },
  "wh-819934565": {
   "ids": [
@@ -2414,9 +2415,9 @@
    "ds-15081382",
    "fm-5634701"
   ],
-  "titel": "Wunderschöne 3-Zimmer Wohnung, Nähe Rudolfinerhaus",
-  "ergebnis": "korrigiert: Gatterburggasse 12 (BUWOG Inside XIX), Stiege 1, 2. Stock, Top unbekannt",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gatterburggasse 12"
  },
  "wh-970588726": {
   "ids": [
@@ -2508,9 +2509,9 @@
    "is-828729462668",
    "ds-15148030"
   ],
-  "titel": "Charmante Altbauwohnung in erstklassiger Innenstadtlage nahe Stephansplatz",
-  "ergebnis": "unklar: nur 'nahe Stephansplatz' bekannt, also eher Zentrum/Stephansviertel und nicht Boerse/Schottenviertel; keine Adresse auffindbar.",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1265614041": {
   "ids": [
@@ -2519,18 +2520,18 @@
    "is-729237928900",
    "fm-5763424"
   ],
-  "titel": "Großzügigkeit trifft Innenstadtcharme! Perfekte Raumaufteilung + Tolle Infrastruktur und Anbindung + Angenehme Ruhelage! Jetzt zugreifen!",
-  "ergebnis": "ungefaehr: Bereich Passauer Platz / Maria am Gestade, Hausnummer offen.",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Passauer Platz 5"
  },
  "wh-924938628": {
   "ids": [
    "wh-924938628",
    "is-760672620149"
   ],
-  "titel": "GOLDENER PFAU | SONNE. FREIRAUM. WOHNGENUSS IM KARMELITERVIERTEL",
-  "ergebnis": "korrigiert: Große Pfarrgasse 14 (Projekt Goldener Pfau), 2. OG, Top nicht ermittelt.",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Große Pfarrgasse 14"
  },
  "wh-1400087847": {
   "ids": [
@@ -2538,9 +2539,9 @@
    "is-516805490963",
    "ds-15279144"
   ],
-  "titel": "Exklusives Wohnen im historischen Palais Rohan",
-  "ergebnis": "korrigiert: Praterstraße 38 (Palais Rohan), 3. OG, vermutlich Top 16.",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Praterstraße 38"
  },
  "wh-1929706532": {
   "ids": [
@@ -2620,13 +2621,20 @@
  "wh-1927520262": {
   "ids": [
    "wh-1927520262",
+   "wh-1911962789",
    "is-938620129255",
    "ds-15276747",
-   "fm-5755152"
+   "fm-5755152",
+   "is-061006799236",
+   "is-420389458969",
+   "is-250478398344",
+   "wh-790154720",
+   "ds-15303480",
+   "is-815214702403"
   ],
-  "titel": "3 ZIMMER DACHGESCHOSSWOHNUNG | MIT RUHIGE TERRASSE | IM HERZEN VON LEOPOLDSTADT",
-  "ergebnis": "bestätigt/präzisiert: Czerninplatz 5, Top 18 (1. DG), 98,53 m² – gleiche Wohnung wie wh-1911962789 (Plankopf im MAXSTA-Grundriss)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Czerninplatz 5"
  },
  "wh-1109986256": {
   "ids": [
@@ -2694,9 +2702,9 @@
    "is-534922911464",
    "ds-15275359"
   ],
-  "titel": "Lichtdurchflutete Dachgeschosswohnung Nähe Karmeliterplatz",
-  "ergebnis": "nur eingegrenzt: Umgebung Karmeliterplatz/Karmelitermarkt, Adresse nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1076948279": {
   "ids": [
@@ -2774,9 +2782,9 @@
    "wh-1085444948",
    "is-127008618889"
   ],
-  "titel": "Villenwohnung mit Ausgang in den Garten! Seltene Gelegenheit! Wohnen wie Hedy Lamarr!",
-  "ergebnis": "korrigiert: Peter-Jordan-Straße 12, Hochparterre (Hedy-Lamarr-Kindheitswohnung, austria.org; Lage im Kreis bestätigt)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Peter-Jordan-Straße 12"
  },
  "wh-1932579757": {
   "ids": [
@@ -2867,14 +2875,19 @@
  "wh-1396896339": {
   "ids": [
    "wh-1396896339",
+   "wh-2031876373",
    "wh-1396513020",
+   "is-119672638287",
+   "ds-15292845",
    "is-792588933469",
-   "fm-5768617",
-   "is-878713950707"
+   "fm-5766040",
+   "is-878713950707",
+   "fm-5766453",
+   "bt-984771916304"
   ],
-  "titel": "SERVITENVIERTEL: Altbau mit Flügeltüren & Fischgrätparkettboden",
-  "ergebnis": "ungefähr: Müllnergasse (ohne Nr.), Mezzanin Top 6 laut Grundriss im willhaben-Inserat https://www.willhaben.at/iad/object?adId=1396896339; gleiches Haus wie wh-858468629 / wh-995387538 / wh-2031876373",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Müllnergasse 33/6"
  },
  "wh-858468629": {
   "ids": [
@@ -2974,9 +2987,9 @@
    "wh-1440418028",
    "is-432766351124"
   ],
-  "titel": "Altbau von zeitloser Eleganz - komplett saniert, 103m² am Alsergrund",
-  "ergebnis": "korrigiert (ungefähr): Achamergasse, 1090 (ohne Nr.), laut Inserat https://www.willhaben.at/iad/object?adId=1440418028",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Achamergasse"
  },
  "wh-2031876373": {
   "ids": [
@@ -3002,9 +3015,9 @@
    "wh-921951567",
    "is-708035519865"
   ],
-  "titel": "Charmante 3-Zimmer Wohnung beim Prater",
-  "ergebnis": "unverändert: nur 2. Bezirk bekannt, vermutlich Umfeld Vorgartenmarkt (außerhalb Karmeliterviertel-Zone)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: - (raus: Außerhalb des Suchgebiets: Exposé-Lagekreis (Stuwerviertel/Ilgplatz, 1020) liegt vollständig außerhalb der blauen Zonen)"
  },
  "wh-1143146207": {
   "ids": [
@@ -3156,9 +3169,9 @@
   "ids": [
    "wh-1726762243"
   ],
-  "titel": "HOCHWERTIG WOHNEN IN 1090 WIEN - SCHICK MÖBLIERTE 3 ZIMMERWOHNUNG",
-  "ergebnis": "korrigiert (ungefähr): Lustkandlgasse, vermutlich Top 16 (Hausnummer unbekannt)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Lustkandlgasse 45/16 (vermutlich, laut früherer Grundriss-Recherche)"
  },
  "wh-1037846214": {
   "ids": [
@@ -3207,9 +3220,9 @@
    "wh-801272997",
    "is-047422146128"
   ],
-  "titel": "Stilvolle 3-Zimmer-Wohnung mit 2 Schlafzimmern im 9. Bezirk",
-  "ergebnis": "korrigiert: Glasergasse 6, 2. Stock",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Glasergasse 6"
  },
  "wh-1223685896": {
   "ids": [
@@ -3330,12 +3343,11 @@
  },
  "wh-1403606580": {
   "ids": [
-   "wh-1403606580",
-   "fm-5766453"
+   "wh-1403606580"
   ],
-  "titel": "\"Exklusive Altbauwohnung im 9. Bezirk nahe Volksoper - helle 3-Zimmer-Wohnung, erweiterbar auf 4 Zimmer\"",
-  "ergebnis": "ungefähr: Altbau direkt neben der Volksoper (Währinger Straße 78), Hausnummer nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1837371440": {
   "ids": [
@@ -3545,9 +3557,9 @@
    "is-026478422655",
    "ds-15158643"
   ],
-  "titel": "„Rare Art-Déco Residence – Wiener Wohnkultur auf höchstem Niveau“ (engl. &amp; укр.)",
-  "ergebnis": "unverändert: nur Umfeld Währinger Park/Gentzgasse (18.), Hausnummer nicht ermittelbar",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Gymnasiumstraße 12/11"
  },
  "ds-15259698": {
   "ids": [
@@ -3617,9 +3629,9 @@
   "ids": [
    "is-365817003938"
   ],
-  "titel": "Provisionsfreie, traumhafte Dachgeschosswohnung mit umfangreicher Ausstattung - Nähe Kutschkermarkt",
-  "ergebnis": "korrigiert: Gentzgasse 40–42, Top 27 (DG-Maisonette)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 40-42/27"
  },
  "is-637527325828": {
   "ids": [
@@ -3848,9 +3860,9 @@
    "wh-1821006648",
    "is-172485104011"
   ],
-  "titel": "LOFTCHARAKTER I ALSERBACHSTRASSE I EINE NEUE DIMENSION DES WOHNENS",
-  "ergebnis": "Straße bestätigt: Alserbachstraße Höhe Porzellangasse, Hausnummer offen; wahrscheinlich Nordseite (Ausschlusszone prüfen).",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Alserbachstraße 37"
  },
  "wh-830204052": {
   "ids": [
@@ -6673,5 +6685,1388 @@
   "titel": "Toskana-Flair in Hernals",
   "ergebnis": "Leitermayergasse 4, vermutlich Top 6 (ir.at: nur Top 6, 95 m², 3 Zi, 649.000 € noch frei)",
   "datum": "2026-11-17"
+ },
+ "is-684418751442": {
+  "ids": [
+   "is-684418751442",
+   "wh-1233793494",
+   "is-923365937332",
+   "wh-1332548958",
+   "is-504591489852",
+   "ds-15246078",
+   "wh-934966706",
+   "wh-1905525308",
+   "wh-1266558549",
+   "wh-2076974606",
+   "fm-5736373",
+   "is-505092214614",
+   "ds-15033176",
+   "fm-5560963",
+   "bt-439186850316"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Sternwartestraße 18/7"
+ },
+ "wh-1725838879": {
+  "ids": [
+   "wh-1725838879",
+   "wh-1274647261",
+   "wh-2127892084",
+   "ds-15289869",
+   "is-299479822217",
+   "is-483911668748",
+   "fm-5778655",
+   "fm-5782961",
+   "is-464112884609"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Sternwartestraße 3/18"
+ },
+ "wh-1729659590": {
+  "ids": [
+   "wh-1729659590",
+   "ds-15307640",
+   "bt-633055790402"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 7"
+ },
+ "wh-2146736446": {
+  "ids": [
+   "wh-2146736446",
+   "is-407396083158"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 7"
+ },
+ "wh-1288366496": {
+  "ids": [
+   "wh-1288366496",
+   "is-352975556485"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 2, Top 11"
+ },
+ "wh-1900693222": {
+  "ids": [
+   "wh-1900693222",
+   "wh-1256498968",
+   "wh-2118808057",
+   "ds-15307639",
+   "is-975537260333",
+   "fm-5695623",
+   "bt-182678612859"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 8"
+ },
+ "wh-1949956966": {
+  "ids": [
+   "wh-1949956966",
+   "wh-2061539788",
+   "wh-909832437",
+   "ds-15307637",
+   "bt-517407352554"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 10"
+ },
+ "wh-1342524901": {
+  "ids": [
+   "wh-1342524901",
+   "wh-1476911088",
+   "ds-15307636",
+   "bt-158820899526"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 11"
+ },
+ "wh-2136223863": {
+  "ids": [
+   "wh-2136223863"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 11"
+ },
+ "wh-1431612997": {
+  "ids": [
+   "wh-1431612997",
+   "wh-1798763090",
+   "ds-15307626",
+   "bt-777103447146"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 1, Top 19"
+ },
+ "wh-1163906612": {
+  "ids": [
+   "wh-1163906612",
+   "wh-1288397582",
+   "ds-15307653",
+   "bt-256873027593"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 1, Top 10"
+ },
+ "wh-1215544063": {
+  "ids": [
+   "wh-1215544063",
+   "wh-973128737",
+   "ds-15307632",
+   "bt-571580369111"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 4, Top 1"
+ },
+ "wh-1109768697": {
+  "ids": [
+   "wh-1109768697",
+   "ds-14920024"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Landstraßer Hauptstraße 103/Top 35"
+ },
+ "is-506609722448": {
+  "ids": [
+   "is-506609722448",
+   "wh-1122033581"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Strohgasse 14"
+ },
+ "wh-1448014572": {
+  "ids": [
+   "wh-1448014572",
+   "ds-15307645",
+   "bt-427248005921"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 1"
+ },
+ "wh-1753947052": {
+  "ids": [
+   "wh-1753947052",
+   "is-365758194762"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 3, Top 5"
+ },
+ "wh-1051923368": {
+  "ids": [
+   "wh-1051923368",
+   "fm-5727256"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 4, Top 7"
+ },
+ "wh-926873202": {
+  "ids": [
+   "wh-926873202"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 4, Top 3"
+ },
+ "wh-1943247089": {
+  "ids": [
+   "wh-1943247089",
+   "is-670614662098"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 2, Top 10"
+ },
+ "wh-1264597813": {
+  "ids": [
+   "wh-1264597813",
+   "ds-15307655",
+   "bt-217364090975"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 1, Top 8"
+ },
+ "wh-1401509932": {
+  "ids": [
+   "wh-1401509932",
+   "fm-5727257"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27, Stiege 4, Top 1"
+ },
+ "wh-1238985285": {
+  "ids": [
+   "wh-1238985285",
+   "fm-5725119"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25-27/19 (Stiege I)"
+ },
+ "is-817778010214": {
+  "ids": [
+   "is-817778010214",
+   "wh-1093801284"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Neulinggasse 15/23"
+ },
+ "wh-906174063": {
+  "ids": [
+   "wh-906174063",
+   "wh-1058021097",
+   "bt-024997008159"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Neulinggasse 27/10"
+ },
+ "wh-1518456917": {
+  "ids": [
+   "wh-1518456917",
+   "is-233081230661"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Landstraßer Hauptstraße 102/23A (raus: Bezug erst Q4/2027 (willhaben AVAILABLE_DATE 'Q4/2027', Text: 'Bis Q4/2027 entstehen ...') – später als Q3 2027)"
+ },
+ "wh-1806078758": {
+  "ids": [
+   "wh-1806078758",
+   "ds-15304013",
+   "is-748695608679"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Salesianergasse 1B"
+ },
+ "wh-1201967038": {
+  "ids": [
+   "wh-1201967038"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Beatrixgasse 27"
+ },
+ "ds-15312213": {
+  "ids": [
+   "ds-15312213",
+   "is-969379541687",
+   "wh-2097856894"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/22 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "is-429521535428": {
+  "ids": [
+   "is-429521535428",
+   "wh-1411108108",
+   "ds-15039641",
+   "bt-856629673705"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/16 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "is-289924095382": {
+  "ids": [
+   "is-289924095382",
+   "wh-2004162026",
+   "ds-15038904"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/10 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "is-576894325918": {
+  "ids": [
+   "is-576894325918",
+   "wh-1350700439",
+   "ds-15123651",
+   "bt-215481675763",
+   "bt-596377613780"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/42 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "is-609725953303": {
+  "ids": [
+   "is-609725953303",
+   "wh-2083544015",
+   "ds-15267772",
+   "bt-725648813920"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/10 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "is-057341599836": {
+  "ids": [
+   "is-057341599836",
+   "ds-15246130",
+   "wh-2061199448"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 11/1 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "wh-1832832271": {
+  "ids": [
+   "wh-1832832271",
+   "ds-15308372",
+   "is-231487848211",
+   "bt-853878587776"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/42 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "wh-911738491": {
+  "ids": [
+   "wh-911738491",
+   "ds-15308370",
+   "is-359693927116",
+   "bt-414215701276"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hilde-Güden-Promenade 9/52 (raus: Lage außerhalb Suchgebiet: Hilde-Güden-Promenade 9/11 (Village im Dritten, Baufeld 14B) laut ADRESSENOGD 48.188,16.396, geo.pruefe=False ('3. Bezirk außerhalb der blauen Zone'). Portalpunkt 48.201733,16.39165 ist ein Standardpunkt des Maklers.)"
+ },
+ "wh-1274688384": {
+  "ids": [
+   "wh-1274688384",
+   "is-151790000895"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Beatrixgasse 27"
+ },
+ "wh-928956706": {
+  "ids": [
+   "wh-928956706",
+   "ds-15202227",
+   "is-972862399687"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Salesianergasse 1B"
+ },
+ "wh-1360787013": {
+  "ids": [
+   "wh-1360787013",
+   "wh-1553519949",
+   "ds-14695549",
+   "fm-5438905",
+   "fm-5708574"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Stelzhamergasse 4/8"
+ },
+ "wh-2114850140": {
+  "ids": [
+   "wh-2114850140",
+   "ds-15062674",
+   "fm-5624070"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/9"
+ },
+ "wh-1125956296": {
+  "ids": [
+   "wh-1125956296",
+   "ds-15062676",
+   "is-021052935531",
+   "fm-5624072"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/7"
+ },
+ "wh-1963843096": {
+  "ids": [
+   "wh-1963843096",
+   "ds-15062677",
+   "fm-5624073"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/6"
+ },
+ "wh-943901176": {
+  "ids": [
+   "wh-943901176",
+   "ds-15062648",
+   "fm-5624074",
+   "is-717862058260"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/4"
+ },
+ "wh-1099727273": {
+  "ids": [
+   "wh-1099727273",
+   "ds-15062649",
+   "fm-5624075",
+   "is-842609907371"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/3"
+ },
+ "wh-1611053176": {
+  "ids": [
+   "wh-1611053176",
+   "ds-15062650",
+   "fm-5624076",
+   "is-353126224628"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/1"
+ },
+ "wh-1931252124": {
+  "ids": [
+   "wh-1931252124",
+   "ds-15300946",
+   "fm-5772434"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Marxergasse 26, Stiege 3, Top 15"
+ },
+ "wh-1333157496": {
+  "ids": [
+   "wh-1333157496",
+   "wh-1959569714",
+   "ds-14695550",
+   "fm-5438906",
+   "fm-5708575"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Stelzhamergasse 4/7"
+ },
+ "wh-861623431": {
+  "ids": [
+   "wh-861623431",
+   "ds-15123211",
+   "is-740862771217"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1964900996": {
+  "ids": [
+   "wh-1964900996",
+   "wh-1094729798",
+   "ds-15313935",
+   "fm-5772796",
+   "fm-5781425"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Bechardgasse 22"
+ },
+ "wh-1141357604": {
+  "ids": [
+   "wh-1141357604"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Marxergasse 48"
+ },
+ "wh-2007974757": {
+  "ids": [
+   "wh-2007974757",
+   "bt-004948562421"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hetzgasse 8/26"
+ },
+ "wh-1584869194": {
+  "ids": [
+   "wh-1584869194",
+   "wh-1975992151",
+   "ds-14695520",
+   "fm-5438891",
+   "fm-5708577",
+   "is-985189269447"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Stelzhamergasse 4/4"
+ },
+ "wh-1824029871": {
+  "ids": [
+   "wh-1824029871",
+   "wh-920693893",
+   "ds-14695546",
+   "fm-5708571",
+   "fm-5438902"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Stelzhamergasse 4/11"
+ },
+ "wh-1641148408": {
+  "ids": [
+   "wh-1641148408",
+   "is-514289719576",
+   "bt-681657747078"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hetzgasse 8/10"
+ },
+ "wh-1274653344": {
+  "ids": [
+   "wh-1274653344",
+   "bt-712421064672"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hetzgasse 8/26"
+ },
+ "wh-2019175802": {
+  "ids": [
+   "wh-2019175802",
+   "is-464514007208"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Favoritenstraße 60/Bauteil 60.1, Top unbekannt"
+ },
+ "wh-629454889": {
+  "ids": [
+   "wh-629454889",
+   "is-273794550245",
+   "bt-721358670866"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Favoritenstraße 60, Stiege 2, Top 10 (EHL: 'Top 210/2')"
+ },
+ "is-071474026638": {
+  "ids": [
+   "is-071474026638",
+   "wh-1145828968"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Weyringergasse 31/9"
+ },
+ "ds-15279317": {
+  "ids": [
+   "ds-15279317",
+   "wh-1249793301",
+   "is-701078610083"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schönburgstraße 5, Stiege 1, Top 9"
+ },
+ "wh-1274304827": {
+  "ids": [
+   "wh-1274304827",
+   "is-933510989434"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Mommsengasse"
+ },
+ "ds-15256204": {
+  "ids": [
+   "ds-15256204"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "ds-15244192": {
+  "ids": [
+   "ds-15244192",
+   "is-342188594602"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1714274242": {
+  "ids": [
+   "wh-1714274242"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Marxergasse 24"
+ },
+ "wh-1675069748": {
+  "ids": [
+   "wh-1675069748"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Jacquingasse"
+ },
+ "ds-15062675": {
+  "ids": [
+   "ds-15062675",
+   "fm-5624071"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Bechardgasse 23/8"
+ },
+ "wh-1589217609": {
+  "ids": [
+   "wh-1589217609",
+   "fm-5784237",
+   "is-542298693982"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Landstraßer Hauptstraße 102/21 (raus: Bezug erst Q4/2027 ('Verfügbar ab: Q4/2027', 'Bis Q4/2027 entstehen ...'))"
+ },
+ "wh-880604716": {
+  "ids": [
+   "wh-880604716",
+   "fm-5695289"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Landstraßer Hauptstraße 83-85 (raus: Sanierungsbedürftig (laut Inserat-Attribut und Text))"
+ },
+ "ds-14534966": {
+  "ids": [
+   "ds-14534966",
+   "wh-2022794074",
+   "is-502245464547"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Billy-Wilder-Promenade 7 (raus: Außerhalb des Suchgebiets (Billy-Wilder-Promenade 7, Aspanggründe))"
+ },
+ "wh-2057495176": {
+  "ids": [
+   "wh-2057495176",
+   "fm-5784240",
+   "is-564617283344"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Landstraßer Hauptstraße 102/24 (raus: Bezug erst Q4/2027 ('Bis Q4/2027 entstehen ...', Projekt-Fertigstellung Q4/2027))"
+ },
+ "wh-1975076419": {
+  "ids": [
+   "wh-1975076419"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 1, Top 8"
+ },
+ "wh-1288793394": {
+  "ids": [
+   "wh-1288793394",
+   "wh-1101861893",
+   "ds-15307654",
+   "is-203550157564",
+   "bt-662446518949"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 1, Top 9"
+ },
+ "wh-1742111266": {
+  "ids": [
+   "wh-1742111266",
+   "wh-1095783754",
+   "ds-15307648",
+   "is-178442583374",
+   "bt-774159106713"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 2, Top 10"
+ },
+ "wh-1914218471": {
+  "ids": [
+   "wh-1914218471",
+   "wh-2105743691",
+   "ds-15307625",
+   "is-624280428211",
+   "bt-026624632938"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 2, Top 11"
+ },
+ "wh-1266832714": {
+  "ids": [
+   "wh-1266832714"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 3, Top 1 (+ Büroeinheit)"
+ },
+ "wh-1389980399": {
+  "ids": [
+   "wh-1389980399",
+   "wh-1695330854",
+   "ds-15307642",
+   "is-813142818527",
+   "bt-197716157147"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 3, Top 5"
+ },
+ "wh-1571118386": {
+  "ids": [
+   "wh-1571118386",
+   "is-842945735895"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 3, Top 7"
+ },
+ "wh-1534722213": {
+  "ids": [
+   "wh-1534722213",
+   "wh-1974786337",
+   "ds-15307631",
+   "is-473775699943",
+   "bt-216184970642",
+   "bt-560838438628"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 4, Top 3"
+ },
+ "wh-1916239750": {
+  "ids": [
+   "wh-1916239750",
+   "wh-909368037",
+   "ds-15307630",
+   "bt-792211458381"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apostelgasse 25, Stiege 4, Top 7"
+ },
+ "wh-2087146729": {
+  "ids": [
+   "wh-2087146729",
+   "is-766495090489"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schulgasse 77/2"
+ },
+ "wh-1041842204": {
+  "ids": [
+   "wh-1041842204",
+   "ds-15033229",
+   "is-591046182414",
+   "fm-5676754"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schulgasse 77/2"
+ },
+ "wh-1415570496": {
+  "ids": [
+   "wh-1415570496",
+   "is-693512810882"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 26/29"
+ },
+ "wh-1887615829": {
+  "ids": [
+   "wh-1887615829",
+   "is-252705734192"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Gentzgasse 26/27"
+ },
+ "ds-15276305": {
+  "ids": [
+   "ds-15276305",
+   "ds-15313801",
+   "is-205562980298",
+   "is-863075382659",
+   "wh-1375771306",
+   "wh-1317075338",
+   "fm-5755299",
+   "fm-5781372"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Währinger Straße 168/58"
+ },
+ "is-995226834372": {
+  "ids": [
+   "is-995226834372",
+   "ds-14988861",
+   "wh-1450035216",
+   "bt-997971152207"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Michaelerstraße 15/2/1"
+ },
+ "wh-1226471000": {
+  "ids": [
+   "wh-1226471000",
+   "is-698531511959",
+   "ds-14990917",
+   "bt-594631246041"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Michaelerstraße 15/2/4"
+ },
+ "bt-841991150931": {
+  "ids": [
+   "bt-841991150931"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Michaelerstraße 15/2/7"
+ },
+ "bt-925280256667": {
+  "ids": [
+   "bt-925280256667"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Semperstraße 47/14 (raus: Bezug erst Herbst 2027 ('Verfügbar ab: Ab Herbst 2027' im SEMPER47-Inserat wh-1106341839), später als Q3 2027)"
+ },
+ "wh-1259630000": {
+  "ids": [
+   "wh-1259630000",
+   "ds-15244930",
+   "ds-15300490",
+   "is-260660255256",
+   "fm-5771772"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Gentzgasse 150, Stiege 3"
+ },
+ "is-128693114961": {
+  "ids": [
+   "is-128693114961",
+   "wh-1924902917"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Martinstraße 86/11"
+ },
+ "ds-15312469": {
+  "ids": [
+   "ds-15312469",
+   "is-136538212853",
+   "wh-1852609195",
+   "fm-5780056"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Sternwartestraße 18/7"
+ },
+ "ds-15276429": {
+  "ids": [
+   "ds-15276429",
+   "is-064783525767",
+   "wh-1145266982"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Thurngasse 8"
+ },
+ "wh-1038500221": {
+  "ids": [
+   "wh-1038500221",
+   "wh-1126497040",
+   "wh-2032571009",
+   "wh-850539074",
+   "wh-971312682",
+   "is-434502341639"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rögergasse 14B/10"
+ },
+ "is-255933318703": {
+  "ids": [
+   "is-255933318703",
+   "wh-1780404861",
+   "ds-15071001",
+   "fm-5628578"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Hahngasse 30/7"
+ },
+ "wh-1557490714": {
+  "ids": [
+   "wh-1557490714",
+   "wh-1658034587",
+   "wh-1730917427",
+   "wh-1879511789",
+   "wh-952322032"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rögergasse 14B/10"
+ },
+ "wh-1699909323": {
+  "ids": [
+   "wh-1699909323",
+   "is-980094781128",
+   "fm-5785582"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rögergasse 14B/10"
+ },
+ "wh-1997869709": {
+  "ids": [
+   "wh-1997869709",
+   "ds-15315119",
+   "is-052257362552"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-826183537": {
+  "ids": [
+   "wh-826183537",
+   "is-447032285891",
+   "ds-15216990",
+   "is-802870675664",
+   "fm-5717652",
+   "bt-160177816914"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rögergasse 14B/10"
+ },
+ "is-295408348457": {
+  "ids": [
+   "is-295408348457",
+   "wh-1367548899",
+   "ds-15216989",
+   "is-967950003089",
+   "wh-1554822784",
+   "ds-15276280",
+   "wh-1131052217",
+   "wh-1560134419",
+   "wh-1591686877",
+   "wh-1726299344",
+   "wh-1735809410",
+   "is-044709654567",
+   "fm-5717651",
+   "is-818944905959",
+   "fm-5754667",
+   "fm-5785583",
+   "bt-980915352151"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rögergasse 14B/7"
+ },
+ "wh-1741991177": {
+  "ids": [
+   "wh-1741991177",
+   "is-459975761206"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Glasergasse 17/62"
+ },
+ "wh-1925607195": {
+  "ids": [
+   "wh-1925607195",
+   "wh-1133457677",
+   "ds-15231557",
+   "is-522371775788",
+   "is-284903265821"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Glasergasse 17/62"
+ },
+ "wh-1335840289": {
+  "ids": [
+   "wh-1335840289",
+   "wh-1031457721",
+   "wh-1320501752",
+   "wh-1363957208",
+   "wh-1225909285",
+   "ds-15275460",
+   "ds-15307350",
+   "is-247306141767",
+   "is-378621286704",
+   "is-674684041982",
+   "fm-5753621",
+   "fm-5589700",
+   "fm-5776865",
+   "fm-5784209"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rotenlöwengasse 16/13"
+ },
+ "is-002761387703": {
+  "ids": [
+   "is-002761387703",
+   "bt-383237037017"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rotenlöwengasse 16/13"
+ },
+ "is-627682092011": {
+  "ids": [
+   "is-627682092011",
+   "ds-15263691",
+   "wh-1986166114",
+   "wh-889658299",
+   "fm-5746946",
+   "bt-664057525274"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Leibenfrostgasse 8/31"
+ },
+ "wh-1267370323": {
+  "ids": [
+   "wh-1267370323",
+   "ds-14951160",
+   "fm-5565918",
+   "fm-5785420"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/19"
+ },
+ "wh-862899004": {
+  "ids": [
+   "wh-862899004",
+   "ds-14951159",
+   "fm-5565917"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/28"
+ },
+ "wh-1945581627": {
+  "ids": [
+   "wh-1945581627",
+   "ds-14951190",
+   "fm-5565913"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/21"
+ },
+ "wh-1160293219": {
+  "ids": [
+   "wh-1160293219",
+   "ds-14951189"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/22"
+ },
+ "wh-1017783742": {
+  "ids": [
+   "wh-1017783742",
+   "is-969721748840"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/19"
+ },
+ "wh-1328981309": {
+  "ids": [
+   "wh-1328981309",
+   "is-269097614406"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/28"
+ },
+ "wh-1441426609": {
+  "ids": [
+   "wh-1441426609",
+   "is-683489053697"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/21"
+ },
+ "wh-1715817160": {
+  "ids": [
+   "wh-1715817160"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Wiedner Hauptstraße 70/22"
+ },
+ "wh-2114117059": {
+  "ids": [
+   "wh-2114117059",
+   "is-159481937836"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Theresianumgasse 10/8"
+ },
+ "wh-1837893373": {
+  "ids": [
+   "wh-1837893373",
+   "ds-15261145",
+   "fm-5744549",
+   "is-302197735292"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Anton-Burg-Gasse 2"
+ },
+ "wh-615965043": {
+  "ids": [
+   "wh-615965043",
+   "fm-5041021"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "ds-15184044": {
+  "ids": [
+   "ds-15184044",
+   "is-853964677531"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Schönburgstraße 30"
+ },
+ "wh-1297211285": {
+  "ids": [
+   "wh-1297211285",
+   "ds-15302429",
+   "fm-5774020",
+   "is-152128919488"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Danhausergasse 5"
+ },
+ "wh-2013491167": {
+  "ids": [
+   "wh-2013491167",
+   "ds-15255229",
+   "is-446721545771"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Argentinierstraße 29/16"
+ },
+ "wh-1339439600": {
+  "ids": [
+   "wh-1339439600",
+   "wh-1382541862",
+   "is-403739427838",
+   "ds-15311444",
+   "ds-15298638",
+   "is-869436556578",
+   "fm-5773376",
+   "fm-5770286",
+   "bt-388327331304"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Theresianumgasse 10/8"
+ },
+ "wh-1514454661": {
+  "ids": [
+   "wh-1514454661",
+   "ds-15174800",
+   "fm-5692507",
+   "is-088508746309"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Prinz-Eugen-Straße 52"
+ },
+ "wh-798838335": {
+  "ids": [
+   "wh-798838335",
+   "ds-15303923",
+   "is-939729553207"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Rienößlgasse 2/2/9"
+ },
+ "wh-1048268017": {
+  "ids": [
+   "wh-1048268017",
+   "wh-1540530802",
+   "wh-975507377",
+   "is-527185784382",
+   "ds-15276279",
+   "ds-14927926",
+   "ds-15208571",
+   "is-626556611630",
+   "is-839282516313",
+   "fm-5754666",
+   "fm-5712181",
+   "bt-776669074606"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schäffergasse 18-20/1/48"
+ },
+ "wh-1902497415": {
+  "ids": [
+   "wh-1902497415",
+   "ds-14545583",
+   "is-483687005862",
+   "fm-5336840"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: - (raus: unbefristet vermietet (seit 1969, Mieter Jg. 1939))"
+ },
+ "wh-2124522289": {
+  "ids": [
+   "wh-2124522289",
+   "ds-15313131",
+   "is-993212656406"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Elisabethstraße 4"
+ },
+ "ds-15196055": {
+  "ids": [
+   "ds-15196055",
+   "is-776207427327",
+   "fm-5705687"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: - (raus: sanierungsbeduerftig und als Wohnung/Praxis/Buero (gewerblich) angeboten; Inserate offline)"
+ },
+ "wh-1808771896": {
+  "ids": [
+   "wh-1808771896",
+   "is-809873459000"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1330238316": {
+  "ids": [
+   "wh-1330238316"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Passauer Platz 5 (raus: sanierungsbeduerftig (Portalangabe; Kaufpreis gilt fuer unsanierten Zustand))"
+ },
+ "wh-1794179391": {
+  "ids": [
+   "wh-1794179391"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Passauer Platz 5, Stiege 2"
+ },
+ "wh-1622888577": {
+  "ids": [
+   "wh-1622888577",
+   "ds-15224740",
+   "fm-5723075",
+   "is-764323960616"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Färbergasse 8/Top 11"
+ },
+ "wh-1343548927": {
+  "ids": [
+   "wh-1343548927"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: - (raus: sanierungsbeduerftig (laut Text); zudem reserviert)"
+ },
+ "is-123354391442": {
+  "ids": [
+   "is-123354391442",
+   "wh-1611857504"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: - (raus: Bezug erst Ende 2027 (Fertigstellung November 2027, nach Q3 2027))"
+ },
+ "wh-1550591637": {
+  "ids": [
+   "wh-1550591637",
+   "fm-5785278",
+   "fm-5785533",
+   "wh-1215423631"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Czerninplatz 5"
+ },
+ "bt-351958679852": {
+  "ids": [
+   "bt-351958679852"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Große Pfarrgasse 7/Top 6"
+ },
+ "bt-412445257491": {
+  "ids": [
+   "bt-412445257491"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Große Pfarrgasse 7/Top 22"
  }
 }

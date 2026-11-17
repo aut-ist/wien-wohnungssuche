@@ -1,19 +1,19 @@
 {
  "datum": "2026-11-17",
- "zeit": "17:31",
+ "zeit": "17:45",
  "ok": true,
  "probleme": [],
  "werte": {
-  "listings_mb": 5.69,
-  "eier": 264,
+  "listings_mb": 5.6,
+  "eier": 209,
   "karten": 30,
   "bilder_geladen": 30,
-  "dom": 2880,
-  "heap_mb": 29,
-  "eier_gescrollt": 264,
+  "dom": 2686,
+  "heap_mb": 33,
+  "eier_gescrollt": 209,
   "karten_gescrollt": 120,
   "bilder_geladen_gescrollt": 120,
-  "dom_gescrollt": 6534,
-  "heap_mb_gescrollt": 29
+  "dom_gescrollt": 6365,
+  "heap_mb_gescrollt": 33
  }
 }
