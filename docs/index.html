@@ -480,7 +480,15 @@ const gemeinsam = {
       } else if (teile.length === 1 && LISTEN.includes(teile[0])) {
         mein[teile[0]] = patch ? Object.assign(mein[teile[0]], msg.data) : Object.assign({}, msg.data || {});
       } else if (teile.length === 2 && LISTEN.includes(teile[0])) {
-        if (msg.data == null) delete mein[teile[0]][teile[1]]; else mein[teile[0]][teile[1]] = msg.data;
+        // 2026-11-17: Echo der eigenen Änderung (gleicher Wert) nicht nochmal zeichnen, und "gesehen" nur am Ei/Kärtchen
+        // ändern statt alles neu aufzubauen – jedes Ereignis baute bis dahin 470 Eier, Liste, Detail und Minikarte neu,
+        // das iPhone stürzte beim Öffnen und Rauswerfen ab
+        const [l, id] = teile, alt = mein[l][id];
+        if ((msg.data ?? null) === (alt ?? null)) return;
+        if (msg.data == null) delete mein[l][id]; else mein[l][id] = msg.data;
+        sichern();
+        if (l === 'gesehen') { const w = state.daten?.find(x => (x.ids || [x.id]).includes(id)); if (w) eiAktualisieren(w.id); return; }
+        neuZeichnen(); return;
       }
       sichern(); neuZeichnen();
     };
@@ -1068,8 +1076,10 @@ async function zeigeDetail(id, neuLaden = true) {
    schon einmal den Speicher gesprengt), nur diese Wohnung und die U-Bahn-Linien, Zoom so, dass Gürtel/Umgebung
    erkennbar sind. Starr, bis man sie antippt; dann groß und beweglich. */
 function miniKarte(w) {
-  if (state.mini) { state.mini.remove(); state.mini = null; }
   const el = document.getElementById('miniKarte');
+  // nur neu anlegen, wenn eine andere Wohnung gezeigt wird oder der Container neu ist (spart Kacheln/Speicher am iPhone)
+  if (state.mini && state.miniId === w.id && el && state.mini.getContainer() === el) return;
+  if (state.mini) { state.mini.remove(); state.mini = null; }
   if (!el || !w.lat) return;
   const m = L.map(el, { zoomControl: false, attributionControl: true, dragging: false, touchZoom: false, scrollWheelZoom: false,
     doubleClickZoom: false, boxZoom: false, keyboard: false, tap: false }).setView([w.lat, w.lon], w.ungefaehr ? 14.5 : 15);
@@ -1078,7 +1088,7 @@ function miniKarte(w) {
     style: f => ({ color: f.properties.farbe || '#555', weight: 4, opacity: .85 }), interactive: false }).addTo(m);
   if (w.ungefaehr) L.circle([w.lat, w.lon], { radius: w.radius || 250, color: '#c9a227', weight: 2, dashArray: '5 5', fillOpacity: .12, interactive: false }).addTo(m);
   L.circleMarker([w.lat, w.lon], { radius: 9, color: '#fff', weight: 3, fillColor: istGemerkt(w) ? '#e3a400' : '#2f9e5b', fillOpacity: 1, interactive: false }).addTo(m);
-  state.mini = m; state.miniMitte = [w.lat, w.lon];
+  state.mini = m; state.miniMitte = [w.lat, w.lon]; state.miniId = w.id;
 }
 function miniGross(an) {
   const wrap = document.getElementById('miniWrap'), m = state.mini;

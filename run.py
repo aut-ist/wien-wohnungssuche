@@ -1380,7 +1380,10 @@ def build():
     # Grenze 6 MB; 2/3 davon waren Fotolisten von "raus"-Wohnungen, die man nur über den Filter "raus" sieht). Nest bleibt ganz.
     for w in karte:
         if w["status"] == "raus" and not set(w["ids"]) & nest:
-            w["bilder"] = w["bilder"][:5]
+            # 2026-11-17 abends: iPhone stürzte beim Öffnen/Rauswerfen wieder ab ("wiederholt ein Problem"); Ausgeschlossene
+            # (2/3 der Einträge, nur über den Filter "raus" sichtbar) nur noch mit 1 Foto und ohne Preisverlauf, spart Speicher
+            w["bilder"] = w["bilder"][:1]
+            w.pop("preisverlauf", None)
     quellen =sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
                          "quellen": quellen, "wohnungen": karte}, indent=None)

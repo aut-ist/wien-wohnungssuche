@@ -2152,13 +2152,18 @@
  "wh-854619889": {
   "ids": [
    "wh-854619889",
+   "wh-1471621088",
+   "wh-1895397099",
    "is-392383969247",
    "ds-15286445",
-   "fm-5761899"
+   "fm-5761899",
+   "ds-15209168",
+   "is-629094419009",
+   "is-592657705012"
   ],
   "titel": "",
   "datum": "2026-11-17",
-  "ergebnis": "unklar: -"
+  "ergebnis": "genau: Piaristengasse 5-7, Stiege 2, W 57 (5. OG, laut Bauplan)"
  },
  "wh-1023026100": {
   "ids": [
@@ -8021,7 +8026,7 @@
   ],
   "titel": "",
   "datum": "2026-11-17",
-  "ergebnis": "unklar: -"
+  "ergebnis": "genau: Kleeblattgasse 5/4. Liftstock links (laut Inserat)"
  },
  "wh-1330238316": {
   "ids": [
@@ -8476,13 +8481,17 @@
  "wh-1560011709": {
   "ids": [
    "wh-1560011709",
+   "wh-1598181954",
+   "ds-15276937",
    "ds-15314722",
    "fm-5782386",
-   "is-834747763918"
+   "is-834747763918",
+   "fm-5755331",
+   "is-377125443175"
   ],
   "titel": "",
   "datum": "2026-11-17",
-  "ergebnis": "ungefaehr: Rüdigergasse"
+  "ergebnis": "ungefaehr: Rüdigergasse 5/DG-Maisonette (Duplex)"
  },
  "ds-15314806": {
   "ids": [
