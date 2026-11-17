@@ -205,6 +205,7 @@
   .thumbs { position: relative; display: flex; gap: 4px; overflow-x: auto; padding: 6px; background: #111; scrollbar-width: thin; }
   .thumbs img { width: 64px; height: 48px; object-fit: cover; border-radius: 4px; opacity: .55; cursor: pointer; flex: none; }
   .thumbs img.an { opacity: 1; outline: 2px solid #fff; }
+  @media (max-width: 800px) { .thumbs { display: none; } }  /* iPhone-Speicher (2026-11-17): Wischen statt Vorschauleiste */
   .detail-body { padding: 14px 16px 30px; }
   .detail-body h2 { font-size: 16px; margin: 6px 0 10px; line-height: 1.35; }
   .detail-body h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 18px 0 6px; }
@@ -426,13 +427,21 @@ const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e87
   ubahn: { c: '#6d4c41', w: 4, n: 'U-Bahn', g: 'linear-gradient(90deg,#E3000F 20%,#A862A4 20% 40%,#319F49 40% 60%,#0097A0 60% 80%,#9D6830 80%)' }, sbahn: { c: '#0277bd', w: 3, d: '8 4', n: 'S-Bahn' } };
 const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-AT');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const img = (src, extra = '') => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
+// Fotos direkt von Bauträger-/Makler-Seiten (3SI, WINEGG, EHL, justimmo …) sind bis 15 Megapixel groß; das iPhone entpackt jedes
+// voll (ca. 30 MB je Bild) und stürzte beim Öffnen solcher Wohnungen ab (2026-11-17). Die laufen deshalb verkleinert über
+// images.weserv.nl (öffentlicher Bild-Verkleinerer, bekommt nur die Bild-URL); klappt das nicht, lädt das Original (onerror).
+// Die großen Portale liefern selbst passende Größen.
+const KLEIN_OK = /^https?:\/\/(cache\.willhaben\.at|ic\.ds\.at|pictures\.immobilienscout24\.de|media\.findmyhome\.at)\//i;
+const bu = (u, w = 1280) => !u || !/^https?:/i.test(u) || KLEIN_OK.test(u) ? u
+  : `https://images.weserv.nl/?url=${encodeURIComponent(u)}&w=${w}&h=${w}&fit=inside&we`;
+const ORIG = u => bu(u) === u ? '' : ` data-orig="${esc(u)}" onerror="if(this.dataset.orig&&this.src!==this.dataset.orig)this.src=this.dataset.orig"`;
+const img = (src, extra = '') => `<img src="${esc(bu(src))}"${ORIG(src)} alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
 // Vorschaubilder (Detail, Vollbild): erst laden, wenn sie in den sichtbaren Streifen rücken. Vorher holte die Seite alle bis zu
 // 60 Fotos in voller Größe auf einmal ("lazy" greift in waagrechten Streifen am iPhone nicht), Safari stürzte dann beim Öffnen
 // oder Rauswerfen einer Wohnung ab ("wiederholt ein Problem aufgetreten", 2026-11-17).
-const thumb = (src, extra = '') => `<img data-src="${esc(src)}" alt="" referrerpolicy="no-referrer" decoding="async" ${extra}>`;
+const thumb = (src, extra = '') => `<img data-src="${esc(bu(src, 240))}"${ORIG(src)} alt="" referrerpolicy="no-referrer" decoding="async" ${extra}>`;
 function thumbsLaden(box) {
-  if (!box) return;
+  if (!box || !box.offsetParent) return;  // ausgeblendet (Handy): nichts laden
   const lade = () => {
     const rechts = box.scrollLeft + box.clientWidth + 300;
     box.querySelectorAll('img[data-src]').forEach(b => {
@@ -821,7 +830,7 @@ function karteHtml(w, papierkorb) {
   return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id || state.vor === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap am-anfang">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
-        : `<img data-src="${esc(b)}" alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
+        : `<img data-src="${esc(bu(b))}"${ORIG(b)} alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="links" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="rechts" aria-label="Foto weiter">›</button>
       <span class="foto-zahl">${(w.bilder || []).length} Fotos</span>` : ''}
       <div class="aktionen">${aktionenHtml(w, papierkorb)}</div>
@@ -1180,13 +1189,15 @@ function vollbildZeigen() {
   const bild = vb.el.querySelector(':scope > img');
   zoomWeg();
   bild.referrerPolicy = 'no-referrer';
-  bild.src = vb.bilder[vb.i];
+  bild.dataset.orig = vb.bilder[vb.i];
+  bild.onerror = () => { if (bild.src !== bild.dataset.orig) bild.src = bild.dataset.orig; };
+  bild.src = bu(vb.bilder[vb.i], 2000);
   vb.el.querySelector('.vb-zahl').textContent = `${vb.i + 1} / ${n}`;
   vb.el.querySelectorAll('.vb-thumbs img').forEach((t, k) => t.classList.toggle('an', k === vb.i));
   vb.el.querySelector('.vb-thumbs img.an')?.scrollIntoView({ inline: 'center', block: 'nearest' });
   thumbsLaden(vb.el.querySelector('.vb-thumbs'))?.();
   // nächstes Bild schon vorladen
-  const vor = new Image(); vor.referrerPolicy = 'no-referrer'; vor.src = vb.bilder[(vb.i + 1) % n];
+  const vor = new Image(); vor.referrerPolicy = 'no-referrer'; vor.src = bu(vb.bilder[(vb.i + 1) % n], 2000);
 }
 function vollbildZu() {
   if (history.state?.vollbild) history.back();  // popstate ruft vollbildZuJetzt()

@@ -276,3 +276,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   in ganz Wien (an der Stadtgrenze aus BEZIRKSGRENZEOGD abgeschnitten) und die S-Bahn-Stationen: OEFFHALTESTOGD LTYP 5 bis ca. 100 m neben
   einer Strecke mit Bahnlinien in HLINIEN (HLINIEN ist abgeschnitten); Rennweg, Wien Mitte und Quartier Belvedere von Hand. Öffis
   (Straßenbahn/Bus/U-Bahn) gelten jetzt für alle blauen Zonen (`GEBIETE`).
+- iPhone-Abstürze (2026-11-17, „wiederholt ein Problem“ beim Öffnen/Rauswerfen): (1) Vorschauleisten luden bis zu 60 Fotos in voller Größe,
+  jetzt nur sichtbare (`thumbsLaden`), am Handy gar keine Leiste; (2) jedes Firebase-Ereignis (auch das Echo der eigenen Änderung und
+  „gesehen“) baute alle Eier, Liste, Detail und Minikarte neu, jetzt nur bei echten Änderungen, „gesehen“ nur am Ei; (3) Fotos von
+  Bauträger-/Makler-Seiten (3SI, WINEGG, EHL, justimmo, bis 15 MP) laufen verkleinert über images.weserv.nl (`bu()`, Fallback aufs Original);
+  (4) raus-Wohnungen nur mit 1 Foto, ohne Preisverlauf in listings.json.
