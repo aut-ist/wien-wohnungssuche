@@ -202,7 +202,7 @@
   @keyframes ei-puls { 0% { transform: scale(.55); opacity: 1; } 100% { transform: scale(1.35); opacity: 0; } }
   @keyframes ei-hops { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
   .galerie .foto-nav { display: block; }
-  .thumbs { display: flex; gap: 4px; overflow-x: auto; padding: 6px; background: #111; scrollbar-width: thin; }
+  .thumbs { position: relative; display: flex; gap: 4px; overflow-x: auto; padding: 6px; background: #111; scrollbar-width: thin; }
   .thumbs img { width: 64px; height: 48px; object-fit: cover; border-radius: 4px; opacity: .55; cursor: pointer; flex: none; }
   .thumbs img.an { opacity: 1; outline: 2px solid #fff; }
   .detail-body { padding: 14px 16px 30px; }
@@ -427,6 +427,22 @@ const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e87
 const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-AT');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const img = (src, extra = '') => `<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
+// Vorschaubilder (Detail, Vollbild): erst laden, wenn sie in den sichtbaren Streifen rücken. Vorher holte die Seite alle bis zu
+// 60 Fotos in voller Größe auf einmal ("lazy" greift in waagrechten Streifen am iPhone nicht), Safari stürzte dann beim Öffnen
+// oder Rauswerfen einer Wohnung ab ("wiederholt ein Problem aufgetreten", 2026-11-17).
+const thumb = (src, extra = '') => `<img data-src="${esc(src)}" alt="" referrerpolicy="no-referrer" decoding="async" ${extra}>`;
+function thumbsLaden(box) {
+  if (!box) return;
+  const lade = () => {
+    const rechts = box.scrollLeft + box.clientWidth + 300;
+    box.querySelectorAll('img[data-src]').forEach(b => {
+      if (b.offsetLeft < rechts || b.classList.contains('an')) { b.src = b.dataset.src; b.removeAttribute('data-src'); }
+    });
+  };
+  lade();
+  if (!box.dataset.beobachtet) { box.dataset.beobachtet = '1'; box.addEventListener('scroll', lade, { passive: true }); }
+  return lade;
+}
 
 /* ---------- Speicher ----------
    Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher (Firebase Realtime
@@ -995,7 +1011,7 @@ async function zeigeDetail(id, neuLaden = true) {
       ${bilder.length > 1 ? `<button class="foto-nav l" data-akt="gal-l" aria-label="Foto zurück">‹</button><button class="foto-nav r" data-akt="gal-r" aria-label="Foto weiter">›</button>
       <span class="foto-zahl">${state.bildIdx + 1} / ${bilder.length}</span>` : ''}
     </div>
-    <div class="thumbs">${bilder.map((b, i) => img(b, `data-akt="gal" data-i="${i}" class="${i === state.bildIdx ? 'an' : ''}"`)).join('')}</div>` : ''}
+    <div class="thumbs">${bilder.map((b, i) => thumb(b, `data-akt="gal" data-i="${i}" class="${i === state.bildIdx ? 'an' : ''}"`)).join('')}</div>` : ''}
     <div class="detail-body">
       <div class="zeile1"><span class="preis" style="font-size:22px">${eur(w.preis)}</span><span class="meta">${f.qm}</span>
         ${guertelOben(w)}</div>
@@ -1036,6 +1052,9 @@ async function zeigeDetail(id, neuLaden = true) {
     </div>`;
   el.classList.add('offen');
   if (neuLaden) el.scrollTop = 0;
+  const tb = el.querySelector('.thumbs'), an = tb?.querySelector('img.an');
+  if (tb && an && !neuLaden) tb.scrollLeft = an.offsetLeft - tb.clientWidth / 2;
+  thumbsLaden(tb);
   miniKarte(w);
   if (!state.details[w.id]) {
     try {
@@ -1140,7 +1159,7 @@ function vollbildAuf(w, i, vonDetail) {
   if (!bilder.length) return;
   Object.assign(vb, { w, i, vonDetail, bilder });
   vb.el.querySelector('.t').textContent = `${eur(w.preis)} · ${w.flaeche ?? '?'} m² · ${w.titel || ''}`;
-  vb.el.querySelector('.vb-thumbs').innerHTML = bilder.map((b, k) => img(b, `data-i="${k}"`)).join('');
+  vb.el.querySelector('.vb-thumbs').innerHTML = bilder.map((b, k) => thumb(b, `data-i="${k}"`)).join('');
   vb.el.classList.add('offen');
   history.pushState({ ...(history.state || {}), vollbild: true }, '');
   vollbildZeigen();
@@ -1155,6 +1174,7 @@ function vollbildZeigen() {
   vb.el.querySelector('.vb-zahl').textContent = `${vb.i + 1} / ${n}`;
   vb.el.querySelectorAll('.vb-thumbs img').forEach((t, k) => t.classList.toggle('an', k === vb.i));
   vb.el.querySelector('.vb-thumbs img.an')?.scrollIntoView({ inline: 'center', block: 'nearest' });
+  thumbsLaden(vb.el.querySelector('.vb-thumbs'))?.();
   // nächstes Bild schon vorladen
   const vor = new Image(); vor.referrerPolicy = 'no-referrer'; vor.src = vb.bilder[(vb.i + 1) % n];
 }
