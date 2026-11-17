@@ -18822,7 +18822,12 @@
    "betrag": 528.0,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-16"
+  "datum": "2026-11-17",
+  "lage": {
+   "adresse": "Fasangasse",
+   "sicherheit": "unklar",
+   "begruendung": "\"im Herzen des Fasanviertels\", \"Straßenbahn vor der Haustüre\" - keine Straße genannt"
+  }
  },
  "is-180344819750": {
   "eckdaten": {
@@ -18858,7 +18863,12 @@
    "betrag": 164.46,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-16"
+  "datum": "2026-11-17",
+  "lage": {
+   "adresse": "Wiedner Gürtel",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"direkt am Wiedner Gürtel ... nahe Hauptbahnhof\""
+  }
  },
  "is-609498060699": {
   "lage": {
@@ -18890,7 +18900,12 @@
    "betrag": 319.47,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-16"
+  "datum": "2026-11-17",
+  "lage": {
+   "adresse": "Esterházypark",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Blick auf das Haus des Meeres, 6. Bezirk, U3 Neubaugasse/U2 MuseumsQuartier nahe"
+  }
  },
  "wh-1111758266": {
   "eckdaten": {
@@ -19592,5 +19607,93 @@
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
   "datum": "2026-11-16"
+ },
+ "is-335731139237": {
+  "lage": {
+   "adresse": "Am Hameau",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Lage am Hameau ... im 19. Bezirk\" (Wohnanlage Hameau, Neustift am Walde)"
+  },
+  "eckdaten": {
+   "flaeche": 84
+  },
+  "datum": "2026-11-17"
+ },
+ "is-157247399087": {
+  "heizung": {
+   "ergebnis": "unklar",
+   "begruendung": "Widerspruch: ImmoScout24 Energieträger Gas, willhaben Fernwärme; Text nur 'Hauszentralheizung'"
+  },
+  "datum": "2026-11-17"
+ },
+ "is-587123872112": {
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "\"ab Dezember komplett bestandsfrei\", sehr guter, sanierter Zustand"
+  },
+  "datum": "2026-11-17"
+ },
+ "ds-15250539": {
+  "lage": {
+   "adresse": "Kettenbrückengasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"zwischen Naschmarkt und Karlsplatz\", \"U4 Kettenbrückengasse direkt ums Eck\""
+  },
+  "datum": "2026-11-17"
+ },
+ "wh-2043631003": {
+  "lage": {
+   "adresse": "Alois-Drasche-Park",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"nur 2 Minuten vom Alois-Drasche-Park\", 4. Bezirk, Nähe Hauptbahnhof"
+  },
+  "datum": "2026-11-17"
+ },
+ "wh-1659871697": {
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", \"Gas-Brennwertanlage (gemeinschaftlich)\""
+  },
+  "datum": "2026-11-17"
+ },
+ "wh-1957985619": {
+  "lage": {
+   "adresse": "Schönburgstraße 5",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Projekt Euphoria (Ulreich), Exposé-PDF Euphoria_Wohnungsplan_Stg1_Top04, Stiege 1 Top 4"
+  },
+  "datum": "2026-11-17"
+ },
+ "is-043648088806": {
+  "lage": {
+   "adresse": "Schönburgstraße 5",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie wh-1957985619, Euphoria Top 4"
+  },
+  "datum": "2026-11-17"
+ },
+ "ds-15279316": {
+  "lage": {
+   "adresse": "Schönburgstraße 5",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie wh-1957985619, Euphoria Top 4"
+  },
+  "datum": "2026-11-17"
+ },
+ "ds-15229012": {
+  "lage": {
+   "adresse": "Leitermayergasse 4",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat nennt Leitermayergasse, NEUREAL-Projekt 13 Einheiten, laut ir.at nur Top 6 (95 m², 3 Zi, 649.000 €) frei"
+  },
+  "datum": "2026-11-17"
  }
 }
