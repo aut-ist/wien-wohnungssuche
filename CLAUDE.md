@@ -7,7 +7,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Kriterien: `config.json` (Preis bis 1.200.000 € seit 2026-11-11, davor 1.150.000 € ab 2026-11-01, davor 1 Mio; m², ab 3 Zimmer seit 2026-10-28; auf der Karte Auswahl 3 / 4 / 5+) und `geo/zones.geojson` (Zonen,
   erzeugt von `tools/build_zones.py`). Außerdem raus: unbefristet vermietet und
   sanierungsbedürftig oder teilsaniert, seit 2026-11-06 auch "zu modernisierende" und "unsanierte" Wohnungen (`wohnungen/zustand.py`), befristet vermietet über Ende September 2027 hinaus
-  (`miete_bis` liest das Enddatum). Seit 2026-10-28 außerdem: genau 3 Zimmer nur bis 700.000 €
+  (`miete_bis` liest das Enddatum). Von 2026-10-28 bis 2026-11-17 galt: genau 3 Zimmer nur bis 700.000 € (seit 2026-11-17 komplett weg, Saad; `preis_max_3_zimmer` = null)
   (`filter_grund`) und im 18./19. nur bis 10 min Öffis zum Gürtel (`bewerten`; bei ungefährer Lage
   grau statt raus, solange es vom Umkreis aus reichen könnte); für 4+ Zimmer gilt die Preisgrenze nicht.
   Für Wohnungen, die ab 2026-11-12 neu gefunden werden (`guertel_max_min_ab`, frühestes "erstmals" der Gruppe),
@@ -184,7 +184,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   die Fotos der Detailseite jeden Morgen überschrieben; jetzt bleibt die längere Liste. `tools/bild_hashes.py`
   (pillow, im Workflow) speichert je Foto-URL Fingerabdruck und Grundriss-Wert in `data/bild_hashes.json`;
   `_bilder_der_gruppe` in run.py wirft Fotos mit <= 6 von 64 Bits Unterschied als doppelt raus,
-  `_grundriss_nach_vorne` stellt das grundrissartigste Foto (Wert >= 0,6) an Stelle 2. Ohne Fingerabdrücke:
+  `_grundriss_nach_vorne` stellt seit 2026-11-17 ALLE Grundrisse (Wert >= 0,6, bester zuerst) direkt hinter das erste Foto, dann erst die übrigen Fotos (Saad; vorher nur den besten an Stelle 2). Ohne Fingerabdrücke:
   je Makler nur das Inserat mit den meisten Fotos.
 - Neu gezeichnete Grundrisse (Wunsch 2026-11-06): gibt es für eine Nest- oder neue Wohnung nur abfotografierte,
   technische oder bekritzelte Pläne, zeichnet Claude sie neu: `data/grundriss_plaene/ID.json` (Räume in Metern,

@@ -153,40 +153,6 @@
   "portaladresse_pruefen": false
  },
  {
-  "id": "wh-2043631003",
-  "ids": [
-   "wh-2043631003"
-  ],
-  "titel": "Guter Preis - gute Lage - beim Draschepark",
-  "plz": 1040,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/guter-preis-gute-lage-beim-draschepark-2043631003/"
-  ],
-  "anbieter": "REISCHEL Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 4. Bezirk bekannt",
-  "punkt": [
-   48.193167,
-   16.367417
-  ],
-  "versatz_m": 0,
-  "preis": 420000.0,
-  "flaeche": 91.0,
-  "zimmer": 3,
-  "stockwerk": null,
-  "energie": {
-   "hwb": "138",
-   "hwb_class": "D",
-   "fgee": "3,01",
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-2043631003/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-17",
-  "portaladresse_pruefen": false
- },
- {
   "id": "wh-1659871697",
   "ids": [
    "wh-1659871697"
@@ -219,6 +185,278 @@
   "dokumente": [],
   "erstmals": "2026-11-17",
   "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15012545",
+  "ids": [
+   "ds-15012545",
+   "wh-823247318",
+   "is-185239230351"
+  ],
+  "titel": "Familiendomizil in zentraler Lage: 3 Zimmer mit beeindruckender XL Innenhofterrasse",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/familiendomizil-in-zentraler-lage-3-zimmer-mit-beeindruckender-xl-innenhofterrasse-823247318/",
+   "https://www.immobilienscout24.at/expose/69664ccca181e8385d79bc1c",
+   "https://immobilien.derstandard.at/detail/15012545"
+  ],
+  "anbieter": "Wohn3 Team GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.196911,
+   16.348098
+  ],
+  "versatz_m": 0,
+  "preis": 875000.0,
+  "flaeche": 88.29,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15012545/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15129681",
+  "ids": [
+   "ds-15129681",
+   "is-291215668829",
+   "wh-1879070680"
+  ],
+  "titel": "Hochwertig ausgestattete Dachgeschoßwohnung mit Terrasse und Fernblick Nähe Mariahilferstraße",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/hochwertig-ausgestattete-dachgeschosswohnung-mit-terrasse-und-fernblick-naehe-mariahilferstrasse-1879070680/",
+   "https://www.immobilienscout24.at/expose/69f8b6ef2786f64d52ecc330",
+   "https://immobilien.derstandard.at/detail/15129681"
+  ],
+  "anbieter": "Birnleitner Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.188545,
+   16.342317
+  ],
+  "versatz_m": 0,
+  "preis": 729000.0,
+  "flaeche": 79.66,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15129681/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1255849915",
+  "ids": [
+   "wh-1255849915",
+   "ds-14970057",
+   "is-358099341650"
+  ],
+  "titel": "*** Ihre Stadt-Oase über den Dächern *** - Maisonette mit Outdoor-Feeling & Garage am Naschmarkt",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/-ihre-stadt-oase-ueber-den-daechern-maisonette-mit-outdoor-feeling-garage-am-naschmarkt-1255849915/",
+   "https://www.immobilienscout24.at/expose/6a310ab9df878ebbbccbacf2",
+   "https://immobilien.derstandard.at/detail/14970057"
+  ],
+  "anbieter": "Realitäten Perkonig Immobilientreuhand KG",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.199113,
+   16.360361
+  ],
+  "versatz_m": 0,
+  "preis": 745000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1255849915/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1704023790",
+  "ids": [
+   "wh-1704023790",
+   "ds-15316505",
+   "is-830606566368"
+  ],
+  "titel": "Wohnen + arbeiten + entspannen am Naschmarkt / DG-Maisonette + 25 m² Terrassen",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/wohnen-arbeiten-entspannen-am-naschmarkt-dg-maisonette-25-m-terrassen-1704023790/",
+   "https://www.immobilienscout24.at/expose/6af6f8f7527e8ad0f9b9ee4f",
+   "https://immobilien.derstandard.at/detail/15316505"
+  ],
+  "anbieter": "NEW Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.199951,
+   16.358881
+  ],
+  "versatz_m": 0,
+  "preis": 749000.0,
+  "flaeche": 86.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1704023790/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-152074148112",
+  "ids": [
+   "is-152074148112",
+   "wh-1543075604"
+  ],
+  "titel": "Anleger aufgepasst! Familiendomizil - 3-Zimmer Traum mit beeindruckender XL Innenhofterrasse",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/anleger-aufgepasst-familiendomizil-3-zimmer-traum-mit-beeindruckender-xl-innenhofterrasse-1543075604/",
+   "https://www.immobilienscout24.at/expose/69674be3a1d7e32ac6259154"
+  ],
+  "anbieter": "Wohn3 Team GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.195353,
+   16.352863
+  ],
+  "versatz_m": 0,
+  "preis": 802752.0,
+  "flaeche": 88.29,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-152074148112/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1635030385",
+  "ids": [
+   "wh-1635030385"
+  ],
+  "titel": "STILVOLLES ALTBAU-JUWEL AM RANDE ZUM 1. BEZIRK IM HERZEN WIENS",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/stilvolles-altbau-juwel-am-rande-zum-1-bezirk-im-herzen-wiens-1635030385/"
+  ],
+  "anbieter": "MOO Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.200242,
+   16.362686
+  ],
+  "versatz_m": 0,
+  "preis": 729000.0,
+  "flaeche": 90.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1635030385/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-786884640999",
+  "ids": [
+   "is-786884640999"
+  ],
+  "titel": "Millergasse",
+  "plz": 1060,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ad862c8fdf14a55a0071bf5"
+  ],
+  "anbieter": "Moser Immobilien Holding GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.19384,
+   16.343143
+  ],
+  "versatz_m": 0,
+  "preis": 875000.0,
+  "flaeche": 104.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-786884640999/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1048268017",
+  "ids": [
+   "wh-1048268017",
+   "wh-1540530802",
+   "wh-975507377",
+   "is-527185784382",
+   "ds-15276279",
+   "ds-14927926",
+   "ds-15208571",
+   "is-626556611630",
+   "is-839282516313",
+   "fm-5754666",
+   "fm-5712181",
+   "bt-776669074606"
+  ],
+  "titel": "WOHNEN MITTEN IM VIERTEN - Urbane Lebensqualität in Zentrumsnähe - Großzügige Maisonette-Wohnung - Moderne Ausstattung",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohnen-mitten-im-vierten-urbane-lebensqualitaet-in-zentrumsnaehe-grosszuegige-maisonette-wohnung-moderne-ausstattung-1048268017/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wunderschoene-dg-maisonette-am-rande-des-beliebten-freihausviertels-1540530802/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/geraeumige-3-zimmer-dachgeschosswohnung-nahe-tu-wien-975507377/",
+   "https://www.3si.at/de/immobilien/1040-wien-schaeffergasse-3-zimmer-eigentumswohnung-21200/",
+   "https://www.findmyhome.at/5754666",
+   "https://www.findmyhome.at/5712181",
+   "https://www.immobilienscout24.at/expose/6ac61c8782645fa72d66b694",
+   "https://www.immobilienscout24.at/expose/68e4e26623549de8b6cacfa7",
+   "https://www.immobilienscout24.at/expose/6a662c38805cb4960a927bd0",
+   "https://immobilien.derstandard.at/detail/15276279",
+   "https://immobilien.derstandard.at/detail/14927926",
+   "https://immobilien.derstandard.at/detail/15208571"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": "Schäffergasse 18-20",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.194127,
+   16.363993
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 120.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1048268017/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
  },
  {
   "id": "is-157247399087",
@@ -257,6 +495,963 @@
   "portaladresse_pruefen": true
  },
  {
+  "id": "ds-15279317",
+  "ids": [
+   "ds-15279317",
+   "wh-1249793301",
+   "is-701078610083"
+  ],
+  "titel": "Urbanes Wohnen auf höchstem Niveau, 3-Zimmer-Eigentum nahe Belvedere mit Terrasse | Stg. 1 Top 09",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbanes-wohnen-auf-hoechstem-niveau-3-zimmer-eigentum-nahe-belvedere-mit-terrasse-stg-1-top-09-1249793301/",
+   "https://www.immobilienscout24.at/expose/6ac9133e935b5da952b33cbb",
+   "https://immobilien.derstandard.at/detail/15279317"
+  ],
+  "anbieter": "Ulreich Bauträger GmbH",
+  "adresse_im_inserat": "Schönburgstraße 5",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.188559,
+   16.368752
+  ],
+  "versatz_m": 0,
+  "preis": 705000.0,
+  "flaeche": 82.04,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15279317/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-2019175802",
+  "ids": [
+   "wh-2019175802",
+   "is-464514007208"
+  ],
+  "titel": "Quartier Starhemberg - Geschichte bewahrt. Zukunft gebaut. Jetzt bezugsbereit.",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/quartier-starhemberg-geschichte-bewahrt-zukunft-gebaut-jetzt-bezugsbereit-2019175802/",
+   "https://www.immobilienscout24.at/expose/68c95c07a710f8619a91629a"
+  ],
+  "anbieter": "WI-RE Immobilienmakler GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.18782,
+   16.375164
+  ],
+  "versatz_m": 0,
+  "preis": 870000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2019175802/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-627682092011",
+  "ids": [
+   "is-627682092011",
+   "ds-15263691",
+   "wh-1986166114",
+   "wh-889658299",
+   "fm-5746946",
+   "bt-664057525274"
+  ],
+  "titel": "Wohnkomfort auf zwei Ebenen mit großzügiger Terrasse",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/exklusiver-maisonette-wohntraum-mit-offener-galerie-und-privater-dachterrasse-in-begehrter-lage-1986166114/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohnkomfort-auf-zwei-ebenen-mit-grosszuegiger-terrasse-889658299/",
+   "https://www.3si.at/de/immobilien/1040-wien-leibenfrostgasse-3-zimmer-eigentumswohnung-22137/",
+   "https://www.findmyhome.at/5746946",
+   "https://www.immobilienscout24.at/expose/6ab633394b0779efd2e43b2d",
+   "https://immobilien.derstandard.at/detail/15263691"
+  ],
+  "anbieter": "3SI Makler GmbH",
+  "adresse_im_inserat": "Leibenfrostgasse 8",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.189985,
+   16.363823
+  ],
+  "versatz_m": 0,
+  "preis": 998000.0,
+  "flaeche": 112.55,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-627682092011/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-629454889",
+  "ids": [
+   "wh-629454889",
+   "is-273794550245",
+   "bt-721358670866"
+  ],
+  "titel": "Ruheoase mit Balkon: Moderne 3-Zimmer-Wohnung zum Wohlfühlen",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/ruheoase-mit-balkon-moderne-3-zimmer-wohnung-zum-wohlfuehlen-629454889/",
+   "https://www.ehl.at/objekt/90879",
+   "https://www.immobilienscout24.at/expose/638f1c6627e3811830d0f981"
+  ],
+  "anbieter": "WI-RE Immobilienmakler GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.18782,
+   16.375164
+  ],
+  "versatz_m": 0,
+  "preis": 925000.0,
+  "flaeche": 82.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-629454889/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-615965043",
+  "ids": [
+   "wh-615965043",
+   "fm-5041021"
+  ],
+  "titel": "* IN TOPLAGE * NEUBAUPROJEKT * KEINE PROVISION * EIGENTUMSWOHNUNGEN",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/-in-toplage-neubauprojekt-keine-provision-eigentumswohnungen-615965043/",
+   "https://www.findmyhome.at/5041021"
+  ],
+  "anbieter": "DECUS Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.191884,
+   16.371063
+  ],
+  "versatz_m": 0,
+  "preis": 930000.0,
+  "flaeche": 80.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-615965043/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1339439600",
+  "ids": [
+   "wh-1339439600",
+   "wh-1382541862",
+   "is-403739427838",
+   "ds-15311444",
+   "ds-15298638",
+   "is-869436556578",
+   "fm-5773376",
+   "fm-5770286",
+   "bt-388327331304"
+  ],
+  "titel": "Wohnen beim Schloss Belvedere: 3-Zimmer Erstbezug im Stilaltbau mit Balkon",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohnen-beim-schloss-belvedere-3-zimmer-erstbezug-im-stilaltbau-mit-balkon-1339439600/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/raritaet-mega-balkon-ueber-4-fenster-und-mehr-als-14-qm-hochwertig-generalsanierter-altbau-beim-belvedere-1382541862/",
+   "https://www.3si.at/de/immobilien/1040-wien-theresianumgasse-3-zimmer-eigentumswohnung-22922/",
+   "https://www.findmyhome.at/5773376",
+   "https://www.findmyhome.at/5770286",
+   "https://www.immobilienscout24.at/expose/6ae3066edeeb38dddae9f6de",
+   "https://www.immobilienscout24.at/expose/6af1f307a03a4252f640b201",
+   "https://immobilien.derstandard.at/detail/15311444",
+   "https://immobilien.derstandard.at/detail/15298638"
+  ],
+  "anbieter": "3SI Makler GmbH",
+  "adresse_im_inserat": "Theresianumgasse 10",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192796,
+   16.376795
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 88.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1339439600/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1804181441",
+  "ids": [
+   "wh-1804181441",
+   "is-706101917118"
+  ],
+  "titel": "ZEITLOSE ELEGANZ IN INNENSTADTNÄHE | Großzügiger Altbau mit Charakter",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/zeitlose-eleganz-in-innenstadtnaehe-grosszuegiger-altbau-mit-charakter-1804181441/",
+   "https://www.immobilienscout24.at/expose/6ada07a501ba79afa4720ab4"
+  ],
+  "anbieter": "Boom Living GmbH & Co KG",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.195441,
+   16.365055
+  ],
+  "versatz_m": 0,
+  "preis": 729000.0,
+  "flaeche": 106.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1804181441/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1274304827",
+  "ids": [
+   "wh-1274304827",
+   "is-933510989434"
+  ],
+  "titel": "Design-Penthouse mit Panorama-Dachterrasse nahe Belvedere",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/design-penthouse-mit-panorama-dachterrasse-nahe-belvedere-1274304827/",
+   "https://www.immobilienscout24.at/expose/6a3c276e23efdfa5dcce160a"
+  ],
+  "anbieter": "Katja Cruz Immobilien",
+  "adresse_im_inserat": "Mommsengasse",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.189954,
+   16.377952
+  ],
+  "versatz_m": 0,
+  "preis": 1100000.0,
+  "flaeche": 135.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1274304827/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1118704207",
+  "ids": [
+   "wh-1118704207",
+   "ds-15193382",
+   "is-178371394418"
+  ],
+  "titel": "Zauberhafte Altbauwohnung mit großzügigem BALKON und GARAGE - ruhige Toplage direkt beim Karlsplatz",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/zauberhafte-altbauwohnung-mit-grosszuegigem-balkon-und-garage-ruhige-toplage-direkt-beim-karlsplatz-1118704207/",
+   "https://www.immobilienscout24.at/expose/6a4ebd27a741c57a9b97722e",
+   "https://immobilien.derstandard.at/detail/15193382"
+  ],
+  "anbieter": "Spiegelfeld Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.199481,
+   16.369987
+  ],
+  "versatz_m": 0,
+  "preis": 1150000.0,
+  "flaeche": 108.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1118704207/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1267370323",
+  "ids": [
+   "wh-1267370323",
+   "ds-14951160",
+   "fm-5565918",
+   "fm-5785420"
+  ],
+  "titel": "Neuer Preis! Diese Wieden werden Sie lieben! 3-Zimmer Wohnung im Neubau + Hofseitiger West-Balkon + Geschmackvolle Ausstattung + Beste Infrastruktur in 1040 Wien!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/neuer-preis-diese-wieden-werden-sie-lieben-3-zimmer-wohnung-im-neubau-hofseitiger-west-balkon-geschmackvolle-ausstattung-beste-infrastruktur-in-1040-wien-1267370323/",
+   "https://www.findmyhome.at/5565918",
+   "https://www.findmyhome.at/5785420",
+   "https://immobilien.derstandard.at/detail/14951160"
+  ],
+  "anbieter": "Schantl ITH Immobilientreuhand GmbH",
+  "adresse_im_inserat": "Wiedner Hauptstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190456,
+   16.366458
+  ],
+  "versatz_m": 0,
+  "preis": 849000.0,
+  "flaeche": 76.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1267370323/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-862899004",
+  "ids": [
+   "wh-862899004",
+   "ds-14951159",
+   "fm-5565917"
+  ],
+  "titel": "Absolute Traumwohnung - Neuer Preis! Ihre beste Entscheidung! 2 riesige Terrassen + Traumwohnung in 1040 Wien + Beste Infrastruktur und Anbindung! Jetzt zugreifen!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/absolute-traumwohnung-neuer-preis-ihre-beste-entscheidung-2-riesige-terrassen-traumwohnung-in-1040-wien-beste-infrastruktur-und-anbindung-jetzt-zugreifen-862899004/",
+   "https://www.findmyhome.at/5565917",
+   "https://immobilien.derstandard.at/detail/14951159"
+  ],
+  "anbieter": "Schantl ITH Immobilientreuhand GmbH",
+  "adresse_im_inserat": "Wiedner Hauptstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190456,
+   16.366458
+  ],
+  "versatz_m": 0,
+  "preis": 1119000.0,
+  "flaeche": 85.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-862899004/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1945581627",
+  "ids": [
+   "wh-1945581627",
+   "ds-14951190",
+   "fm-5565913"
+  ],
+  "titel": "MUST HAVE! Traumhafte Eck-Wohnung im Dachgeschoss - Neuer Preis! TOP-Erstbezug in 1040 Wien + Ideale Raumaufteilung + Beste Infrastruktur! Jetzt zugreifen!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/must-have-traumhafte-eck-wohnung-im-dachgeschoss-neuer-preis-top-erstbezug-in-1040-wien-ideale-raumaufteilung-beste-infrastruktur-jetzt-zugreifen-1945581627/",
+   "https://www.findmyhome.at/5565913",
+   "https://immobilien.derstandard.at/detail/14951190"
+  ],
+  "anbieter": "Schantl ITH Immobilientreuhand GmbH",
+  "adresse_im_inserat": "Wiedner Hauptstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190456,
+   16.366458
+  ],
+  "versatz_m": 0,
+  "preis": 979000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1945581627/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1160293219",
+  "ids": [
+   "wh-1160293219",
+   "ds-14951189"
+  ],
+  "titel": "Neuer Preis - Ab ins Dachgeschoss! Kompakte Traumwohnung in 1040 Wien mit großer Terrasse und toller Raumaufteilung! Beste Infrastrukur + Geschmackvolle Verarbeitung!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/neuer-preis-ab-ins-dachgeschoss-kompakte-traumwohnung-in-1040-wien-mit-grosser-terrasse-und-toller-raumaufteilung-beste-infrastrukur-geschmackvolle-verarbeitung-1160293219/",
+   "https://immobilien.derstandard.at/detail/14951189"
+  ],
+  "anbieter": "Schantl ITH Immobilientreuhand GmbH",
+  "adresse_im_inserat": "Wiedner Hauptstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190456,
+   16.366458
+  ],
+  "versatz_m": 0,
+  "preis": 859000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1160293219/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-798838335",
+  "ids": [
+   "wh-798838335",
+   "ds-15303923",
+   "is-939729553207"
+  ],
+  "titel": "Charmante Altbau-Wohnung mit moderner Ausstattung",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/charmante-altbau-wohnung-mit-moderner-ausstattung-798838335/",
+   "https://www.immobilienscout24.at/expose/6ae9bfe59e03d58b5bd6d8cb",
+   "https://immobilien.derstandard.at/detail/15303923"
+  ],
+  "anbieter": "EHL Immobilien GmbH",
+  "adresse_im_inserat": "Rienößlgasse",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.193489,
+   16.365025
+  ],
+  "versatz_m": 0,
+  "preis": 995000.0,
+  "flaeche": 99.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-798838335/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-071474026638",
+  "ids": [
+   "is-071474026638",
+   "wh-1145828968"
+  ],
+  "titel": "Stilvoll wohnen im 4. Bezirk – ca. 125 m² Altbau mit 47 m² Wohnsalon, Nähe Belvedere / Hauptbahnhof / U1!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/stilvoll-wohnen-im-4-bezirk-ca-125-m-altbau-mit-47-m-wohnsalon-naehe-belvedere-hauptbahnhof-u1-1145828968/",
+   "https://www.immobilienscout24.at/expose/6aa829d39625c033fb980d5c"
+  ],
+  "anbieter": "AKTUELL Immobilien GmbH",
+  "adresse_im_inserat": "Weyringergasse 31",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.188282,
+   16.375108
+  ],
+  "versatz_m": 0,
+  "preis": 740000.0,
+  "flaeche": 124.9,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-071474026638/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1297211285",
+  "ids": [
+   "wh-1297211285",
+   "ds-15302429",
+   "fm-5774020",
+   "is-152128919488"
+  ],
+  "titel": "RARITÄT in TRAUMLAGE: in dieser klimatisierten DG-Wohnung mit 15m² Terrasse wohnt die Kreativität!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/raritaet-in-traumlage-in-dieser-klimatisierten-dg-wohnung-mit-15m-terrasse-wohnt-die-kreativitaet-1297211285/",
+   "https://www.findmyhome.at/5774020",
+   "https://www.immobilienscout24.at/expose/6ae8606f7b07540524e3e84c",
+   "https://immobilien.derstandard.at/detail/15302429"
+  ],
+  "anbieter": "Hubner Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192009,
+   16.369627
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 140.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1297211285/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1598181954",
+  "ids": [
+   "wh-1598181954",
+   "ds-15276937",
+   "fm-5755331",
+   "is-377125443175"
+  ],
+  "titel": "\"PURE ROOFTOP GLAMOUR!\"",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/-pure-rooftop-glamour-1598181954/",
+   "https://www.findmyhome.at/5755331",
+   "https://www.immobilienscout24.at/expose/6ac6c3b51a8aa825f07d1aaa",
+   "https://immobilien.derstandard.at/detail/15276937"
+  ],
+  "anbieter": "REMAX Donau-City-Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.19463,
+   16.359016
+  ],
+  "versatz_m": 0,
+  "preis": 875000.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1598181954/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1514454661",
+  "ids": [
+   "wh-1514454661",
+   "ds-15174800",
+   "fm-5692507",
+   "is-088508746309"
+  ],
+  "titel": "Luxuriöse 3-Zimmer-Wohnung mit Balkon und unvergleichlichem Blick auf Schloss Belvedere und Stephansdom",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/luxurioese-3-zimmer-wohnung-mit-balkon-und-unvergleichlichem-blick-auf-schloss-belvedere-und-stephansdom-1514454661/",
+   "https://www.findmyhome.at/5692507",
+   "https://www.immobilienscout24.at/expose/6a324a135a89a5f0aa8e2aa7",
+   "https://immobilien.derstandard.at/detail/15174800"
+  ],
+  "anbieter": "Rudi Dräxler Immobilientreuhand GesmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192844,
+   16.377474
+  ],
+  "versatz_m": 0,
+  "preis": 849000.0,
+  "flaeche": 95.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1514454661/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1910824776",
+  "ids": [
+   "wh-1910824776",
+   "ds-15220909",
+   "is-414807347327"
+  ],
+  "titel": "Provisionsfrei! Argentinierstrasse/ Karlsplatz! Renovierte 107qm sonnige ruhige barrierefreie Eigentumswohnung mit 8200qm privatem Park und Garage",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/provisionsfrei-argentinierstrasse-karlsplatz-renovierte-107qm-sonnige-ruhige-barrierefreie-eigentumswohnung-mit-8200qm-privatem-park-und-garage-1910824776/",
+   "https://www.immobilienscout24.at/expose/6af56c352c3fb3f70fb59a68",
+   "https://immobilien.derstandard.at/detail/15220909"
+  ],
+  "anbieter": "privat",
+  "adresse_im_inserat": "Argentinierstrasse 29",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.19476,
+   16.37344
+  ],
+  "versatz_m": 0,
+  "preis": 905000.0,
+  "flaeche": 107.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1910824776/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "ds-15305623",
+  "ids": [
+   "ds-15305623",
+   "wh-2134889776",
+   "is-396141999953"
+  ],
+  "titel": "3 Zimmer Wohnung Apfelgasse",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/3-zimmer-wohnung-apfelgasse-2134889776/",
+   "https://www.immobilienscout24.at/expose/6aea6977c9c2b3561fff706a",
+   "https://immobilien.derstandard.at/detail/15305623"
+  ],
+  "anbieter": "REMAX Donau City Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.198041,
+   16.368135
+  ],
+  "versatz_m": 0,
+  "preis": 948000.0,
+  "flaeche": 85.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15305623/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1017783742",
+  "ids": [
+   "wh-1017783742",
+   "is-969721748840"
+  ],
+  "titel": "Wohntraum (Top 19), 3 Zimmer, Erstbezug, Erstklassige Ausstattung, in zentraler Lage, Wiedner Hauptstraße 70",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohntraum-top-19-3-zimmer-erstbezug-erstklassige-ausstattung-in-zentraler-lage-wiedner-hauptstrasse-70-1017783742/",
+   "https://www.immobilienscout24.at/expose/64d7b595ee9b03360ab1013d"
+  ],
+  "anbieter": "Immocity Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190811,
+   16.364926
+  ],
+  "versatz_m": 0,
+  "preis": 892000.0,
+  "flaeche": 76.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1017783742/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1328981309",
+  "ids": [
+   "wh-1328981309",
+   "is-269097614406"
+  ],
+  "titel": "Dachtraum (Top 28), 3 Zimmer, Erstbezug, Erstklassige Ausstattung, in zentraler Lage, Wiedner Hauptstraße 70",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/dachtraum-top-28-3-zimmer-erstbezug-erstklassige-ausstattung-in-zentraler-lage-wiedner-hauptstrasse-70-1328981309/",
+   "https://www.immobilienscout24.at/expose/64d7bcd0f3db0bd6a5483539"
+  ],
+  "anbieter": "Immocity Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190811,
+   16.364926
+  ],
+  "versatz_m": 0,
+  "preis": 1175000.0,
+  "flaeche": 85.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1328981309/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1441426609",
+  "ids": [
+   "wh-1441426609",
+   "is-683489053697"
+  ],
+  "titel": "Wohntraum (Top 21), 3 Zimmer, Erstbezug, Erstklassige Ausstattung, in zentraler Lage, Wiedner Hauptstraße 70",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohntraum-top-21-3-zimmer-erstbezug-erstklassige-ausstattung-in-zentraler-lage-wiedner-hauptstrasse-70-1441426609/",
+   "https://www.immobilienscout24.at/expose/64d7b595f3db0bd6a54830a4"
+  ],
+  "anbieter": "Immocity Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190811,
+   16.364926
+  ],
+  "versatz_m": 0,
+  "preis": 1028000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1441426609/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1715817160",
+  "ids": [
+   "wh-1715817160"
+  ],
+  "titel": "Wohntraum (Top 22), 3 Zimmer, Erstbezug, Erstklassige Ausstattung, in zentraler Lage, Wiedner Hauptstraße 70",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/wohntraum-top-22-3-zimmer-erstbezug-erstklassige-ausstattung-in-zentraler-lage-wiedner-hauptstrasse-70-1715817160/"
+  ],
+  "anbieter": "Immocity Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.190811,
+   16.364926
+  ],
+  "versatz_m": 0,
+  "preis": 944000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1715817160/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2013491167",
+  "ids": [
+   "wh-2013491167",
+   "ds-15255229",
+   "is-446721545771"
+  ],
+  "titel": "Moderne 3-Zi-Wohnung 107m² mit Loggia, Garage & Klimaanlage im Herzen von 1040 Wien!",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/moderne-3-zi-wohnung-107m-mit-loggia-garage-klimaanlage-im-herzen-von-1040-wien-2013491167/",
+   "https://www.immobilienscout24.at/expose/6aad17449c3b63bfc2548302",
+   "https://immobilien.derstandard.at/detail/15255229"
+  ],
+  "anbieter": "Immo-Company Haas & Urban Immobilien GmbH",
+  "adresse_im_inserat": "Argentinierstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192749,
+   16.374361
+  ],
+  "versatz_m": 0,
+  "preis": 900000.0,
+  "flaeche": 107.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2013491167/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1837893373",
+  "ids": [
+   "wh-1837893373",
+   "ds-15261145",
+   "fm-5744549",
+   "is-302197735292"
+  ],
+  "titel": "\"3 ODER 4 ZIMMER - UND LOGGIA DAZU\"",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/-3-oder-4-zimmer-und-loggia-dazu-1837893373/",
+   "https://www.findmyhome.at/5744549",
+   "https://www.immobilienscout24.at/expose/6ab14e18b1208e468bd12e76",
+   "https://immobilien.derstandard.at/detail/15261145"
+  ],
+  "anbieter": "REMAX Donau-City-Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.191523,
+   16.363969
+  ],
+  "versatz_m": 0,
+  "preis": 798000.0,
+  "flaeche": 110.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1837893373/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15184044",
+  "ids": [
+   "ds-15184044",
+   "is-853964677531"
+  ],
+  "titel": "1040 Wien/Schönburgstraße: Klassischer Altbauflair - gepflegtes Gründerzeithaus - großzügige, hohe Räume - Flügeltüren - offener Kamin",
+  "plz": 1040,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ab262381aa1942925a5784d",
+   "https://immobilien.derstandard.at/detail/15184044"
+  ],
+  "anbieter": "AR-IMMOBILIEN - Arthur Reitmeyer",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.191982,
+   16.375321
+  ],
+  "versatz_m": 0,
+  "preis": 795000.0,
+  "flaeche": 107.39,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15184044/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2114117059",
+  "ids": [
+   "wh-2114117059",
+   "is-159481937836"
+  ],
+  "titel": "AM BELVEDERE - ERSTBEZUG - 15m² BALKON - - GRÜNBLICK - HISTORISCHES JUWEL - HIGH END RENOVIERT",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/am-belvedere-erstbezug-15m-balkon-gruenblick-historisches-juwel-high-end-renoviert-2114117059/",
+   "https://www.immobilienscout24.at/expose/6af82dda451a761e9fad0a34"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.19144,
+   16.375089
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2114117059/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-14949939",
+  "ids": [
+   "ds-14949939",
+   "is-917246288910"
+  ],
+  "titel": "FUNKHAUS - 3 Zimmerwohnung im Botschaftsviertel!",
+  "plz": 1040,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ae888d81defe6192465d9ab",
+   "https://immobilien.derstandard.at/detail/14949939"
+  ],
+  "anbieter": "Elisabeth Rohr Real Estate e.U.",
+  "adresse_im_inserat": "Karlsplatz, Theresianum, Taubstummengasse",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.200391,
+   16.369598
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 102.79,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-14949939/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
   "id": "ds-15250539",
   "ids": [
    "ds-15250539"
@@ -268,10 +1463,10 @@
   ],
   "anbieter": "Novel Real Immobilien GmbH",
   "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Kettenbrückengasse)",
   "punkt": [
-   48.192146,
-   16.371063
+   48.196627,
+   16.358061
   ],
   "versatz_m": 0,
   "preis": 699000.0,
@@ -285,6 +1480,35 @@
    "fgee_class": "C"
   },
   "grundrisse": "data/grundrisse/ds-15250539/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15111772",
+  "ids": [
+   "ds-15111772"
+  ],
+  "titel": "Wien 4. Bezirk: Penthouse der Extraklasse - 40 m² Dachterrasse, spektakulärer Weitblick, exklusive Ausstattung & Klimaanlage!",
+  "plz": 1040,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15111772"
+  ],
+  "anbieter": "TOP LIVING VERMARKTUNG GMBH & CO KG",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.195345,
+   16.375047
+  ],
+  "versatz_m": 0,
+  "preis": 1168000.0,
+  "flaeche": 124.23,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15111772/",
   "im_nest": false,
   "dokumente": [],
   "erstmals": "2026-11-15",
@@ -323,5 +1547,2313 @@
   "dokumente": [],
   "erstmals": "2026-11-15",
   "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1872457053",
+  "ids": [
+   "wh-1872457053",
+   "ds-15032856",
+   "wh-2031389162"
+  ],
+  "titel": "Exklusive 3-Zimmer-Eigentumswohnung mit Balkon in ruhiger, zentraler Lage in Wien",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/exklusive-3-zimmer-eigentumswohnung-mit-balkon-in-ruhiger-zentraler-lage-in-wien-1872457053/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/lage-lage-lage-hochwertig-sanierte-3-zimmer-eigentumswohnung-mit-balkion-2031389162/",
+   "https://immobilien.derstandard.at/detail/15032856"
+  ],
+  "anbieter": "LIFESTYLE PROPERTIES",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192331,
+   16.362535
+  ],
+  "versatz_m": 0,
+  "preis": 749000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1872457053/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-14939353",
+  "ids": [
+   "ds-14939353",
+   "is-683560291484",
+   "wh-1879873542",
+   "fm-5589820"
+  ],
+  "titel": "Ein Zuhause mit Geschichte, Stil und Garten - ein Juwel im Herzen der Stadt",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/ein-zuhause-mit-geschichte-stil-und-garten-ein-juwel-im-herzen-der-stadt-1879873542/",
+   "https://www.findmyhome.at/5589820",
+   "https://www.immobilienscout24.at/expose/68f60da8065ebd7fa2b6399f",
+   "https://immobilien.derstandard.at/detail/14939353"
+  ],
+  "anbieter": "3SI Makler GmbH",
+  "adresse_im_inserat": "Krongasse 6",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192106,
+   16.363123
+  ],
+  "versatz_m": 0,
+  "preis": 845000.0,
+  "flaeche": 96.83,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-14939353/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1167074129",
+  "ids": [
+   "wh-1167074129",
+   "wh-1142102525",
+   "wh-1116401634",
+   "wh-1641597688",
+   "fm-5747493",
+   "is-724058519848"
+  ],
+  "titel": "NEUER TOPPREIS - MEDITERANES WOHNEN IM \"VIERTEN\" - GARTENWOHNUNG für 2 PERSONEN - ERSTBEZUG 2026 - 100WFL - 16m² Terrasse + 80m² EIGENGARTEN",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/neuer-toppreis-mediteranes-wohnen-im-vierten-gartenwohnung-fuer-2-personen-erstbezug-2026-100wfl-16m-terrasse-80m-eigengarten-1167074129/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/gartenwohnung-in-der-krongasse-erstbezug-in-liebevoll-saniertem-altbauhaus-top04-1142102525/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/best-lage-garten-wohung-erstbezug-3-zimmer-wohnung-mit-terrasse-eigengarten-und-ca-62m2-kellerflaeche-1116401634/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/urbaner-gartentraum-naechst-schlossquadrat-hofseitiger-drei-zimmer-erstbezug-mit-terrasse-und-eigengarten-1641597688/",
+   "https://www.findmyhome.at/5747493",
+   "https://www.immobilienscout24.at/expose/68a0b8350feb3945462ef1a7"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.193161,
+   16.361698
+  ],
+  "versatz_m": 0,
+  "preis": 795000.0,
+  "flaeche": 97.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1167074129/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15314806",
+  "ids": [
+   "ds-15314806",
+   "wh-901527004",
+   "is-973783657457"
+  ],
+  "titel": "​​​​​​​PROVISIONSFREI VOM EIGENTÜMER! AUSSERGEWÖHNLICHE GROSSE WOHNUNG NÄHE NASCHMARKT!",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/provisionsfrei-vom-eigentuemer-aussergewoehnliche-grosse-wohnung-naehe-naschmarkt-901527004/",
+   "https://www.immobilienscout24.at/expose/6af578ea2c3fb3f70fb5a7e3",
+   "https://immobilien.derstandard.at/detail/15314806"
+  ],
+  "anbieter": "BUWOG Group Abt. Einzelwohnungsverkauf",
+  "adresse_im_inserat": "Kettenbrückengasse 23",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.196448,
+   16.359429
+  ],
+  "versatz_m": 0,
+  "preis": 1199900.0,
+  "flaeche": 164.24,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15314806/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1560011709",
+  "ids": [
+   "wh-1560011709",
+   "ds-15314722",
+   "fm-5782386",
+   "is-834747763918"
+  ],
+  "titel": "\"PURE ROOFTOP GLAMOUR!\"",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/-pure-rooftop-glamour-1560011709/",
+   "https://www.findmyhome.at/5782386",
+   "https://www.immobilienscout24.at/expose/6af4f508428a4602f07b403c",
+   "https://immobilien.derstandard.at/detail/15314722"
+  ],
+  "anbieter": "REMAX Donau-City-Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.195587,
+   16.357045
+  ],
+  "versatz_m": 0,
+  "preis": 875000.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1560011709/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-473087947633",
+  "ids": [
+   "is-473087947633",
+   "wh-1119858644"
+  ],
+  "titel": "*Blick über die Dächer Wiens* helle, ruhig gelegene Dachterrassenmaisonette mit westseitiger Terrasse nächst Naschmarkt!",
+  "plz": 1050,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1050-margareten/-blick-ueber-die-daecher-wiens-helle-ruhig-gelegene-dachterrassenmaisonette-mit-westseitiger-terrasse-naechst-naschmarkt-1119858644/",
+   "https://www.immobilienscout24.at/expose/6ac8edf40fef2ebeab6ca1a0"
+  ],
+  "anbieter": "RES Immobilienverwaltung GmbH",
+  "adresse_im_inserat": "Grüngasse 22",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.194274,
+   16.356219
+  ],
+  "versatz_m": 0,
+  "preis": 829000.0,
+  "flaeche": 116.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-473087947633/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "ds-15265034",
+  "ids": [
+   "ds-15265034",
+   "is-647363659961",
+   "ds-15266074",
+   "ds-15089823",
+   "is-214035616662",
+   "is-604918300187"
+  ],
+  "titel": "URBANER GARTENTRAUM nächst Schlossquadrat! Hofseitiger Drei-Zimmer-Erstbezug mit Terrasse und Eigengarten",
+  "plz": 1050,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6ab83d7c7b29114c088ac650",
+   "https://www.immobilienscout24.at/expose/6ad9fe2401ba79afa471e28e",
+   "https://www.immobilienscout24.at/expose/6aba06b097626f0bba1560ef",
+   "https://immobilien.derstandard.at/detail/15265034",
+   "https://immobilien.derstandard.at/detail/15266074",
+   "https://immobilien.derstandard.at/detail/15089823"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": "Krongasse 6",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.192106,
+   16.363123
+  ],
+  "versatz_m": 0,
+  "preis": 795000.0,
+  "flaeche": 96.83,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15265034/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": true
+ },
+ {
+  "id": "wh-1550591637",
+  "ids": [
+   "wh-1550591637",
+   "fm-5785278",
+   "fm-5785533",
+   "wh-1215423631"
+  ],
+  "titel": "3 ZIMMER DACHGESCHOSSWOHNUNG | MIT RUHIGE TERRASSE | IM HERZEN VON LEOPOLDSTADT",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/3-zimmer-dachgeschosswohnung-mit-ruhige-terrasse-im-herzen-von-leopoldstadt-1550591637/",
+   "https://www.findmyhome.at/5785278",
+   "https://www.findmyhome.at/5785533"
+  ],
+  "anbieter": "DECUS Immobilien GmbH",
+  "adresse_im_inserat": "Czerninplatz",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.214503,
+   16.387071
+  ],
+  "versatz_m": 0,
+  "preis": 945000.0,
+  "flaeche": 99.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1550591637/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1415570496",
+  "ids": [
+   "wh-1415570496",
+   "is-693512810882"
+  ],
+  "titel": "LUXURY LIVING AM KUTSCHKERMARKT 1180 Bz.// Exklusive Dachgeschossresidenzen mit spektakulären Dachterrassen, 360°-Panoramablick",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/luxury-living-am-kutschkermarkt-1180-bz-exklusive-dachgeschossresidenzen-mit-spektakulaeren-dachterrassen-360-panoramablick-1415570496/",
+   "https://www.immobilienscout24.at/expose/6af790ec5afe3f1fd40bea63"
+  ],
+  "anbieter": "Boom Living GmbH & Co KG",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.228085,
+   16.345838
+  ],
+  "versatz_m": 0,
+  "preis": 1029000.0,
+  "flaeche": 115.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1415570496/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-14",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1887615829",
+  "ids": [
+   "wh-1887615829",
+   "is-252705734192"
+  ],
+  "titel": "LUXURY LIVING AM KUTSCHKERMARKT 1180 Bz.// Exklusive Dachgeschossresidenzen mit spektakulären Dachterrassen, 360°-Panoramablick",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/luxury-living-am-kutschkermarkt-1180-bz-exklusive-dachgeschossresidenzen-mit-spektakulaeren-dachterrassen-360-panoramablick-1887615829/",
+   "https://www.immobilienscout24.at/expose/6af790ee5afe3f1fd40bea6d"
+  ],
+  "anbieter": "Boom Living GmbH & Co KG",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.228085,
+   16.345838
+  ],
+  "versatz_m": 0,
+  "preis": 854000.0,
+  "flaeche": 87.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1887615829/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-14",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2057495176",
+  "ids": [
+   "wh-2057495176",
+   "fm-5784240",
+   "is-564617283344"
+  ],
+  "titel": "GLANZZEIT - Ein Altbaujuwel erstrahlt neu.",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/glanzzeit-ein-altbaujuwel-erstrahlt-neu-2057495176/",
+   "https://www.findmyhome.at/5784240",
+   "https://www.immobilienscout24.at/expose/6af728d3527e8ad0f9ba489a"
+  ],
+  "anbieter": "POTERE Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.197839,
+   16.393184
+  ],
+  "versatz_m": 0,
+  "preis": 906000.0,
+  "flaeche": 85.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2057495176/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-14",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1518456917",
+  "ids": [
+   "wh-1518456917",
+   "is-233081230661"
+  ],
+  "titel": "GLANZZEIT - Ein Altbaujuwel erstrahlt neu.",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/glanzzeit-ein-altbaujuwel-erstrahlt-neu-1518456917/",
+   "https://www.immobilienscout24.at/expose/6af728d49bb877f18474f4c9"
+  ],
+  "anbieter": "POTERE Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.200252,
+   16.395447
+  ],
+  "versatz_m": 0,
+  "preis": 756000.0,
+  "flaeche": 80.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1518456917/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-14",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1589217609",
+  "ids": [
+   "wh-1589217609",
+   "fm-5784237",
+   "is-542298693982"
+  ],
+  "titel": "GLANZZEIT - Ein Altbaujuwel erstrahlt neu.",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/glanzzeit-ein-altbaujuwel-erstrahlt-neu-1589217609/",
+   "https://www.findmyhome.at/5784237",
+   "https://www.immobilienscout24.at/expose/6af728d3527e8ad0f9ba4894"
+  ],
+  "anbieter": "POTERE Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.1973,
+   16.392071
+  ],
+  "versatz_m": 0,
+  "preis": 860000.0,
+  "flaeche": 90.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1589217609/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-14",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1997869709",
+  "ids": [
+   "wh-1997869709",
+   "ds-15315119",
+   "is-052257362552"
+  ],
+  "titel": "Exklusive Maisonette-Wohnung mit Dachterrasse, Balkon und Rundumblick über Wien",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/exklusive-maisonette-wohnung-mit-dachterrasse-balkon-und-rundumblick-ueber-wien-1997869709/",
+   "https://www.immobilienscout24.at/expose/6af5bf91d47390206bd58b21",
+   "https://immobilien.derstandard.at/detail/15315119"
+  ],
+  "anbieter": "Marschall Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.224208,
+   16.351478
+  ],
+  "versatz_m": 0,
+  "preis": 1100000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1997869709/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-13",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1471621088",
+  "ids": [
+   "wh-1471621088",
+   "ds-15209168",
+   "is-629094419009"
+  ],
+  "titel": "Attraktive 3-Zimmer-Wohnung im 8. Bezirk Wiens - Komplett saniert und sofort bezugsfertig",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/attraktive-3-zimmer-wohnung-im-8-bezirk-wiens-komplett-saniert-und-sofort-bezugsfertig-1471621088/",
+   "https://www.immobilienscout24.at/expose/6ab646b657f7bc9068227a77",
+   "https://immobilien.derstandard.at/detail/15209168"
+  ],
+  "anbieter": "ImmoTrading GmbH",
+  "adresse_im_inserat": null,
+  "lage": "8. Bezirk",
+  "punkt": [
+   48.21004,
+   16.347007
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 113.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1471621088/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1725838879",
+  "ids": [
+   "wh-1725838879",
+   "wh-1274647261",
+   "wh-2127892084",
+   "ds-15289869",
+   "is-299479822217",
+   "is-483911668748",
+   "fm-5778655",
+   "fm-5782961",
+   "is-464112884609"
+  ],
+  "titel": "Erstbezug: Luxuriöse Dachgeschoss - Maisonette Wohnung mit Terrasse in Währinger Toplage! Klimatisiert, Smart-Home!",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/erstbezug-luxurioese-dachgeschoss-maisonette-wohnung-mit-terrasse-in-waehringer-toplage-klimatisiert-smart-home-1725838879/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/erstbezug-mit-hofseitigem-balkon-vollsanierte-jahrhundertwendeliegenschaft-mit-luftwaermepumpe-1274647261/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/erstbezug-mit-hofseitigem-balkon-vollsanierte-jahrhundertwendeliegenschaft-mit-luftwaermepumpe-2127892084/",
+   "https://www.findmyhome.at/5778655",
+   "https://www.findmyhome.at/5782961",
+   "https://www.immobilienscout24.at/expose/6af0b5b02c638b50c9ee493e",
+   "https://www.immobilienscout24.at/expose/6af60a05d47390206bd5ef53",
+   "https://www.immobilienscout24.at/expose/6ad773bca8ed9e41d6036615",
+   "https://immobilien.derstandard.at/detail/15289869"
+  ],
+  "anbieter": "REAS Realitäten Asmus GmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.230935,
+   16.348841
+  ],
+  "versatz_m": 0,
+  "preis": 1198000.0,
+  "flaeche": 120.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1725838879/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2124522289",
+  "ids": [
+   "wh-2124522289",
+   "ds-15313131",
+   "is-993212656406"
+  ],
+  "titel": "Exklusive 3-Zimmer Wohnung mit Balkon bei Wiener Staatsoper",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/exklusive-3-zimmer-wohnung-mit-balkon-bei-wiener-staatsoper-2124522289/",
+   "https://www.immobilienscout24.at/expose/6af3726b5f55748f8be26bdf",
+   "https://immobilien.derstandard.at/detail/15313131"
+  ],
+  "anbieter": "ESTINA Immobilien GmbH",
+  "adresse_im_inserat": "Elisabethstraße",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.20239,
+   16.365787
+  ],
+  "versatz_m": 0,
+  "preis": 1200000.0,
+  "flaeche": 96.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2124522289/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1794179391",
+  "ids": [
+   "wh-1794179391"
+  ],
+  "titel": "Passauer Lumière - Ein Symbol für Eleganz und architektonische Vollendung",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/passauer-lumiere-ein-symbol-fuer-eleganz-und-architektonische-vollendung-1794179391/"
+  ],
+  "anbieter": "Great Properties",
+  "adresse_im_inserat": null,
+  "lage": "Zone Börse / Schottenviertel",
+  "punkt": [
+   48.212258,
+   16.36705
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1794179391/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1808771896",
+  "ids": [
+   "wh-1808771896",
+   "is-809873459000"
+  ],
+  "titel": "TUCHLAUBENNAHE - SONNIGES ALTBAUAPARTMENT",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/tuchlaubennahe-sonniges-altbauapartment-1808771896/",
+   "https://www.immobilienscout24.at/expose/6ae1ff0b3a43ea90da80ab18"
+  ],
+  "anbieter": "Stanzel & Co Wohnungs- u Geschäftsvermittlung GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Börse / Schottenviertel",
+  "punkt": [
+   48.210781,
+   16.366945
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 93.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1808771896/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1343548927",
+  "ids": [
+   "wh-1343548927"
+  ],
+  "titel": "(reserviert) Nähe Stephansplatz - Stilvoller Altbau mit Entwicklungspotenzial",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/naehe-stephansplatz-stilvoller-altbau-mit-entwicklungspotenzial-1343548927/"
+  ],
+  "anbieter": null,
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 1. Bezirk bekannt",
+  "punkt": [
+   48.216533,
+   16.370428
+  ],
+  "versatz_m": 0,
+  "preis": 1190000.0,
+  "flaeche": 108.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1343548927/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1401509932",
+  "ids": [
+   "wh-1401509932",
+   "fm-5727257"
+  ],
+  "titel": "Apostelhof | 3 Zimmer | Terrasse & Garten | Eigentumswohnung mit großzügiger Außenfläche",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-terrasse-garten-eigentumswohnung-mit-grosszuegiger-aussenflaeche-1401509932/",
+   "https://www.findmyhome.at/5727257"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 1175930.0,
+  "flaeche": 112.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1401509932/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1238985285",
+  "ids": [
+   "wh-1238985285",
+   "fm-5725119"
+  ],
+  "titel": "APOSTELHOF | 3 Zimmer | Dachgeschoss | 2 Terrassen | Stilvolles Wohnen",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-dachgeschoss-2-terrassen-stilvolles-wohnen-1238985285/",
+   "https://www.findmyhome.at/5725119"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 1174860.0,
+  "flaeche": 122.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1238985285/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1333157496",
+  "ids": [
+   "wh-1333157496",
+   "wh-1959569714",
+   "ds-14695550",
+   "fm-5438906",
+   "fm-5708575"
+  ],
+  "titel": "Zeitlose Altbauarchitektur in bester Lage | ANDEA Parkside Residences",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/zeitlose-altbauarchitektur-in-bester-lage-andea-parkside-residences-1333157496/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/luxurioeses-3-zimmer-apartment-bei-wien-mitte-andea-parkside-residences-1959569714/",
+   "https://www.findmyhome.at/5438906",
+   "https://www.findmyhome.at/5708575",
+   "https://immobilien.derstandard.at/detail/14695550"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Stelzhamergasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.207825,
+   16.383838
+  ],
+  "versatz_m": 0,
+  "preis": 1199000.0,
+  "flaeche": 100.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1333157496/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1201967038",
+  "ids": [
+   "wh-1201967038"
+  ],
+  "titel": "Helle, möblierte 3-Zimmer-Eckwohnung in \"The Ambassy\"",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/helle-moeblierte-3-zimmer-eckwohnung-in-the-ambassy-1201967038/"
+  ],
+  "anbieter": "Luxury Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.201172,
+   16.383477
+  ],
+  "versatz_m": 0,
+  "preis": 1200000.0,
+  "flaeche": 83.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1201967038/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1820354915",
+  "ids": [
+   "wh-1820354915",
+   "ds-15180270",
+   "is-583244333845",
+   "fm-5695500"
+  ],
+  "titel": "Exklusives Penthouse mit großzügiger Dachterrasse und traumhaftem Ausblick auf Wien - A\\\\",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/exklusives-penthouse-mit-grosszuegiger-dachterrasse-und-traumhaftem-ausblick-auf-wien-a-1820354915/",
+   "https://www.findmyhome.at/5695500",
+   "https://www.immobilienscout24.at/expose/6a3acc6f1f04fb493ea1293c",
+   "https://immobilien.derstandard.at/detail/15180270"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.21696,
+   16.345293
+  ],
+  "versatz_m": 0,
+  "preis": 1200000.0,
+  "flaeche": 103.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1820354915/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-123354391442",
+  "ids": [
+   "is-123354391442",
+   "wh-1611857504"
+  ],
+  "titel": "MORE VIENNA – RUHIG WOHNEN MIT GRÜNBLICK",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/more-vienna-ruhig-wohnen-mit-gruenblick-1611857504/",
+   "https://www.immobilienscout24.at/expose/6af445ef428a4602f07a3c2a"
+  ],
+  "anbieter": "Tom Krauss Immo GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 2. Bezirk bekannt",
+  "punkt": [
+   48.211885,
+   16.385379
+  ],
+  "versatz_m": 0,
+  "preis": 850600.0,
+  "flaeche": 76.46,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-123354391442/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1622888577",
+  "ids": [
+   "wh-1622888577",
+   "ds-15224740",
+   "fm-5723075",
+   "is-764323960616"
+  ],
+  "titel": "94 m² und Loggia | 3 Zimmer City-Apartment in Bestlage - Am Hof - ERSTBEZUG",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/94-m-und-loggia-3-zimmer-city-apartment-in-bestlage-am-hof-erstbezug-1622888577/",
+   "https://www.findmyhome.at/5723075",
+   "https://www.immobilienscout24.at/expose/6a830b0bde7e9b0090a089fd",
+   "https://immobilien.derstandard.at/detail/15224740"
+  ],
+  "anbieter": "Sangreal Living & Estates GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Börse / Schottenviertel",
+  "punkt": [
+   48.21352,
+   16.366553
+  ],
+  "versatz_m": 0,
+  "preis": 1099000.0,
+  "flaeche": 94.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1622888577/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-10",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1330238316",
+  "ids": [
+   "wh-1330238316"
+  ],
+  "titel": "Ihr Meisterwerk im Herzen der Stadt - 1010 Wien",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/ihr-meisterwerk-im-herzen-der-stadt-1010-wien-1330238316/"
+  ],
+  "anbieter": "MOO Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Börse / Schottenviertel",
+  "punkt": [
+   48.211128,
+   16.368744
+  ],
+  "versatz_m": 0,
+  "preis": 1099900.0,
+  "flaeche": 107.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1330238316/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-07",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1714274242",
+  "ids": [
+   "wh-1714274242"
+  ],
+  "titel": "Wohnen in bester Lage - provisionsfrei: Sanierte Split-Level-Wohnung mit Loggia zwischen Stadtpark, Prater & Rochusmarkt",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/wohnen-in-bester-lage-provisionsfrei-sanierte-split-level-wohnung-mit-loggia-zwischen-stadtpark-prater-rochusmarkt-1714274242/"
+  ],
+  "anbieter": "privat",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.19712,
+   16.402347
+  ],
+  "versatz_m": 0,
+  "preis": 789000.0,
+  "flaeche": 92.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1714274242/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-03",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1964900996",
+  "ids": [
+   "wh-1964900996",
+   "wh-1094729798",
+   "ds-15313935",
+   "fm-5772796",
+   "fm-5781425"
+  ],
+  "titel": "Wohnen über den Dächern Wiens - Exklusives Penthouse mit traumhafter Aussicht & Dachterrasse, nächst Stadtpark, Wien Mitte und Rochusmarkt",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/wohnen-ueber-den-daechern-wiens-exklusives-penthouse-mit-traumhafter-aussicht-dachterrasse-naechst-stadtpark-wien-mitte-und-rochusmarkt-1964900996/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/morgens-rochusmarkt-abends-dachterrasse-penthouse-maisonette-mit-wien-blick-nahe-stadtpark-1094729798/",
+   "https://www.findmyhome.at/5772796",
+   "https://www.findmyhome.at/5781425",
+   "https://immobilien.derstandard.at/detail/15313935"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": "Bechardgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.208013,
+   16.389325
+  ],
+  "versatz_m": 0,
+  "preis": 969000.0,
+  "flaeche": 92.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1964900996/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-02",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1557490714",
+  "ids": [
+   "wh-1557490714",
+   "wh-1658034587",
+   "wh-1730917427",
+   "wh-1879511789",
+   "wh-952322032"
+  ],
+  "titel": "SERVITENVIERTEL - ERSTBEZUG - HIGH END STILWOHNUNG - RUHELAGE - RENOVIERTES STILJUWEL - OST/WEST AUSRICHTUNG - 3.WOHNETAGE",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-high-end-stilwohnung-ruhelage-renoviertes-stiljuwel-ost-west-ausrichtung-3-wohnetage-1557490714/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-high-end-stilwohnung-ruhelage-renoviertes-stiljuwel-ost-west-ausrichtung-3-wohnetage-1658034587/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-high-end-stilwohnung-ruhelage-renoviertes-stiljuwel-ost-west-ausrichtung-3-wohnetage-1730917427/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-high-end-stilwohnung-ruhelage-renoviertes-stiljuwel-ost-west-ausrichtung-3-wohnetage-1879511789/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/servitenviertel-erstbezug-high-end-stilwohnung-ruhelage-renoviertes-stiljuwel-ost-west-ausrichtung-3-wohnetage-952322032/"
+  ],
+  "anbieter": "H.S. Immomakler",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.223704,
+   16.367336
+  ],
+  "versatz_m": 0,
+  "preis": 925000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1557490714/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1931252124",
+  "ids": [
+   "wh-1931252124",
+   "ds-15300946",
+   "fm-5772434"
+  ],
+  "titel": "TRAUMLAGE - Großzügiges Wohnen im Herzen des 3. Bezirks - neu saniert, bezugsfertig und mit Terrasse",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/traumlage-grosszuegiges-wohnen-im-herzen-des-3-bezirks-neu-saniert-bezugsfertig-und-mit-terrasse-1931252124/",
+   "https://www.findmyhome.at/5772434",
+   "https://immobilien.derstandard.at/detail/15300946"
+  ],
+  "anbieter": "TICON Immobilienservice",
+  "adresse_im_inserat": "Marxergasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206743,
+   16.390476
+  ],
+  "versatz_m": 0,
+  "preis": 895500.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1931252124/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1274688384",
+  "ids": [
+   "wh-1274688384",
+   "is-151790000895"
+  ],
+  "titel": "The Ambassy: Exklusive 3-Zimmer-Wohnung mit Freifläche in Toplage, 1030 Wien!",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/the-ambassy-exklusive-3-zimmer-wohnung-mit-freiflaeche-in-toplage-1030-wien-1274688384/",
+   "https://www.immobilienscout24.at/expose/6ae48d2c305a4c8d31e4c9fb"
+  ],
+  "anbieter": "Kuhn Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.202393,
+   16.380507
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 78.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1274688384/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-14534966",
+  "ids": [
+   "ds-14534966",
+   "wh-2022794074",
+   "is-502245464547"
+  ],
+  "titel": "VILLAGE IM DRITTEN - VIEW HOMES - Bezugsfertig",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/village-im-dritten-view-homes-bezugsfertig-2022794074/",
+   "https://www.immobilienscout24.at/expose/6901ef4b1d4b834a81aadc8a",
+   "https://immobilien.derstandard.at/detail/14534966"
+  ],
+  "anbieter": "OTTO Immobilien Wohnen",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.197776,
+   16.399183
+  ],
+  "versatz_m": 0,
+  "preis": 717000.0,
+  "flaeche": 77.11,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-14534966/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1109768697",
+  "ids": [
+   "wh-1109768697",
+   "ds-14920024"
+  ],
+  "titel": "Terrassenmaisonette im Dritten, ein Juwel zum sofortigen Einzug // Terrace maisonette in the 3rd (district), a gem ready to move into immediately //",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/terrassenmaisonette-im-dritten-ein-juwel-zum-sofortigen-einzug-terrace-maisonette-in-the-3rd-district-a-gem-ready-to-move-into-immediately-1109768697/",
+   "https://immobilien.derstandard.at/detail/14920024"
+  ],
+  "anbieter": "Valmacor Immobilientreuhand GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198269,
+   16.395317
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 136.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1109768697/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1448014572",
+  "ids": [
+   "wh-1448014572",
+   "ds-15307645",
+   "bt-427248005921"
+  ],
+  "titel": "Klassischer Altbaucharme und Backstein treffen auf Moderne",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/klassischer-altbaucharme-und-backstein-treffen-auf-moderne-1448014572/",
+   "https://www.apostelhof.at/objekt/12087576",
+   "https://immobilien.derstandard.at/detail/15307645"
+  ],
+  "anbieter": "EHL Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 904685.0,
+  "flaeche": 126.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1448014572/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2114850140",
+  "ids": [
+   "wh-2114850140",
+   "ds-15062674",
+   "fm-5624070"
+  ],
+  "titel": "\"Urban Oasis\" - Rarität | Neubauwohnung in Jahrhundertwendehaus | 2 Balkone",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-urban-oasis-raritaet-neubauwohnung-in-jahrhundertwendehaus-2-balkone-2114850140/",
+   "https://www.findmyhome.at/5624070",
+   "https://immobilien.derstandard.at/detail/15062674"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 997000.0,
+  "flaeche": 84.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2114850140/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1125956296",
+  "ids": [
+   "wh-1125956296",
+   "ds-15062676",
+   "is-021052935531",
+   "fm-5624072"
+  ],
+  "titel": "\"Urban Oasis\" - Charmante Altbaustil-Wohnung mit Balkon und Erker",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-urban-oasis-charmante-altbaustil-wohnung-mit-balkon-und-erker-1125956296/",
+   "https://www.findmyhome.at/5624072",
+   "https://www.immobilienscout24.at/expose/69a06a9d4aa892bc513d0090",
+   "https://immobilien.derstandard.at/detail/15062676"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 915000.0,
+  "flaeche": 88.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1125956296/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1963843096",
+  "ids": [
+   "wh-1963843096",
+   "ds-15062677",
+   "fm-5624073"
+  ],
+  "titel": "Urban Oasis - Stilvoller Erstbezug mit 3 Zimmern",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/urban-oasis-stilvoller-erstbezug-mit-3-zimmern-1963843096/",
+   "https://www.findmyhome.at/5624073",
+   "https://immobilien.derstandard.at/detail/15062677"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 998000.0,
+  "flaeche": 102.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1963843096/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-943901176",
+  "ids": [
+   "wh-943901176",
+   "ds-15062648",
+   "fm-5624074",
+   "is-717862058260"
+  ],
+  "titel": "\"Urban Oasis\" - Erstbezug | 3-Zimmer Altbau | Balkon",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-urban-oasis-erstbezug-3-zimmer-altbau-balkon-943901176/",
+   "https://www.findmyhome.at/5624074",
+   "https://www.immobilienscout24.at/expose/69a06735bff8370cebd50058",
+   "https://immobilien.derstandard.at/detail/15062648"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 921000.0,
+  "flaeche": 101.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-943901176/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1099727273",
+  "ids": [
+   "wh-1099727273",
+   "ds-15062649",
+   "fm-5624075",
+   "is-842609907371"
+  ],
+  "titel": "\"Urban Oasis\" - Charmante Altbauwohnung mit Wohlfühlfaktor",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-urban-oasis-charmante-altbauwohnung-mit-wohlfuehlfaktor-1099727273/",
+   "https://www.findmyhome.at/5624075",
+   "https://www.immobilienscout24.at/expose/69a067359a307ab43086e212",
+   "https://immobilien.derstandard.at/detail/15062649"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 830000.0,
+  "flaeche": 83.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1099727273/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1611053176",
+  "ids": [
+   "wh-1611053176",
+   "ds-15062650",
+   "fm-5624076",
+   "is-353126224628"
+  ],
+  "titel": "\"Urban Oasis\" - Moderne Altbauwohnung mit einzigartiger Raumhöhe und Terrasse",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-urban-oasis-moderne-altbauwohnung-mit-einzigartiger-raumhoehe-und-terrasse-1611053176/",
+   "https://www.findmyhome.at/5624076",
+   "https://www.immobilienscout24.at/expose/69a06735bff8370cebd5005b",
+   "https://immobilien.derstandard.at/detail/15062650"
+  ],
+  "anbieter": "Akkadia Immobilienvermittlungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206479,
+   16.391024
+  ],
+  "versatz_m": 0,
+  "preis": 844000.0,
+  "flaeche": 85.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1611053176/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1753947052",
+  "ids": [
+   "wh-1753947052",
+   "is-365758194762"
+  ],
+  "titel": "Apostelhof | 3 Zimmer | Großzügiger Wohn-Essbereich | Balkon | klare Raumaufteilung",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-grosszuegiger-wohn-essbereich-balkon-klare-raumaufteilung-1753947052/",
+   "https://www.immobilienscout24.at/expose/69ccd27b79d6b1649cc72158"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 983330.0,
+  "flaeche": 112.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1753947052/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1051923368",
+  "ids": [
+   "wh-1051923368",
+   "fm-5727256"
+  ],
+  "titel": "Apostelhof | 3 Zimmer | Obergeschoss | Balkon | Eigentumswohnung mit klarer Raumaufteilung",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-obergeschoss-balkon-eigentumswohnung-mit-klarer-raumaufteilung-1051923368/",
+   "https://www.findmyhome.at/5727256"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 991890.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1051923368/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-926873202",
+  "ids": [
+   "wh-926873202"
+  ],
+  "titel": "Apostelhof | 3 Zimmer | Obergeschoss | Balkon | Eigentumswohnung mit großzügigem Wohnbereich",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-obergeschoss-balkon-eigentumswohnung-mit-grosszuegigem-wohnbereich-926873202/"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 940530.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-926873202/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1943247089",
+  "ids": [
+   "wh-1943247089",
+   "is-670614662098"
+  ],
+  "titel": "APOSTELHOF | 3 Zimmer | kompakter Grundriss | Erstbezug im Herzen des 3. Bezirks",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/apostelhof-3-zimmer-kompakter-grundriss-erstbezug-im-herzen-des-3-bezirks-1943247089/",
+   "https://www.immobilienscout24.at/expose/69ccd27c79d6b1649cc72166"
+  ],
+  "anbieter": "OPTIN Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 747930.0,
+  "flaeche": 91.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1943247089/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1806078758",
+  "ids": [
+   "wh-1806078758",
+   "ds-15304013",
+   "is-748695608679"
+  ],
+  "titel": "++NEU++ helle 3 Zimmer Traumwohnung mit Balkon beim Stadtpark! TOPLAGE",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/-neu-helle-3-zimmer-traumwohnung-mit-balkon-beim-stadtpark-toplage-1806078758/",
+   "https://www.immobilienscout24.at/expose/694971b5973362cf161ee918",
+   "https://immobilien.derstandard.at/detail/15304013"
+  ],
+  "anbieter": "Landaa Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Botschaftsviertel (Rennweg bis Beatrixgasse, Ungargasse bis Heumarkt)",
+  "punkt": [
+   48.20032,
+   16.379456
+  ],
+  "versatz_m": 0,
+  "preis": 769000.0,
+  "flaeche": 92.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1806078758/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-928956706",
+  "ids": [
+   "wh-928956706",
+   "ds-15202227",
+   "is-972862399687"
+  ],
+  "titel": "93 m² Altbauwohnung mit Loggia - Stadtpark & Belvedere fußläufig",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/93-m-altbauwohnung-mit-loggia-stadtpark-belvedere-fusslaeufig-928956706/",
+   "https://www.immobilienscout24.at/expose/6a59ef01c53965869e4484fa",
+   "https://immobilien.derstandard.at/detail/15202227"
+  ],
+  "anbieter": "Crown Consulting GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.202477,
+   16.382072
+  ],
+  "versatz_m": 0,
+  "preis": 768000.0,
+  "flaeche": 93.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-928956706/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-861623431",
+  "ids": [
+   "wh-861623431",
+   "ds-15123211",
+   "is-740862771217"
+  ],
+  "titel": "Dachgeschoss-Maisonette mit bis zu 5 m Raumhöhe, Terrasse & Garage",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/dachgeschoss-maisonette-mit-bis-zu-5-m-raumhoehe-terrasse-garage-861623431/",
+   "https://www.immobilienscout24.at/expose/6adb5c81432881315c80699a",
+   "https://immobilien.derstandard.at/detail/15123211"
+  ],
+  "anbieter": "Marschall Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Randlage Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse (26 m außerhalb)",
+  "punkt": [
+   48.20787,
+   16.392813
+  ],
+  "versatz_m": 0,
+  "preis": 890000.0,
+  "flaeche": 98.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-861623431/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15256204",
+  "ids": [
+   "ds-15256204"
+  ],
+  "titel": "Erstbezug Dachgeschosswohnung 1030 Wien",
+  "plz": 1030,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15256204"
+  ],
+  "anbieter": "ROSSO Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.192013,
+   16.400935
+  ],
+  "versatz_m": 0,
+  "preis": 990000.0,
+  "flaeche": 102.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15256204/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15244192",
+  "ids": [
+   "ds-15244192",
+   "is-342188594602"
+  ],
+  "titel": "ERSTBEZUG-DACHGESCHOSS-MAISONETTE-WOHNUNG 1030 Wien",
+  "plz": 1030,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6a9ec7b87ca336d581281694",
+   "https://immobilien.derstandard.at/detail/15244192"
+  ],
+  "anbieter": "ROSSO Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.192298,
+   16.381451
+  ],
+  "versatz_m": 0,
+  "preis": 890000.0,
+  "flaeche": 93.73,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15244192/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1575326830",
+  "ids": [
+   "wh-1575326830",
+   "is-591038688642"
+  ],
+  "titel": "Hochwertiges Edelinvestment - Befristet vermietetes Dachappartment - Ruhelage",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/hochwertiges-edelinvestment-befristet-vermietetes-dachappartment-ruhelage-1575326830/",
+   "https://www.immobilienscout24.at/expose/69bade74f32b0b96bd1ebfcc"
+  ],
+  "anbieter": "Paul Ochsenhofer Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "8. Bezirk",
+  "punkt": [
+   48.209719,
+   16.341333
+  ],
+  "versatz_m": 0,
+  "preis": 1100000.0,
+  "flaeche": 104.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1575326830/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1895397099",
+  "ids": [
+   "wh-1895397099",
+   "is-592657705012"
+  ],
+  "titel": "wunderschöne Eigentumswohnung in der Josefstadt***komplett und hochwertig möbliert***quasi Erstbezug",
+  "plz": 1080,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1080-josefstadt/wunderschoene-eigentumswohnung-in-der-josefstadt-komplett-und-hochwertig-moebliert-quasi-erstbezug-1895397099/",
+   "https://www.immobilienscout24.at/expose/68874d161a51e53749e49058"
+  ],
+  "anbieter": "FHI Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "8. Bezirk",
+  "punkt": [
+   48.21004,
+   16.347007
+  ],
+  "versatz_m": 0,
+  "preis": 1150000.0,
+  "flaeche": 113.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1895397099/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1074253549",
+  "ids": [
+   "wh-1074253549",
+   "ds-15279927",
+   "is-662524515753"
+  ],
+  "titel": "PREISREDUZIERT- ÜBER DEN DÄCHERN VON WÄHRING- EXKLUSIVER DACHGESCHOSS-ERSTBEZUG MIT PRIVATER ROOFTOP-TERRASSE",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduziert-ueber-den-daechern-von-waehring-exklusiver-dachgeschoss-erstbezug-mit-privater-rooftop-terrasse-1074253549/",
+   "https://www.immobilienscout24.at/expose/6aca1d01cfb04450ee1f9aeb",
+   "https://immobilien.derstandard.at/detail/15279927"
+  ],
+  "anbieter": "IMMOcontract Immobilien Vermittlung GmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk",
+  "punkt": [
+   48.222448,
+   16.340215
+  ],
+  "versatz_m": 0,
+  "preis": 1134707.0,
+  "flaeche": 118.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1074253549/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-128693114961",
+  "ids": [
+   "is-128693114961",
+   "wh-1924902917"
+  ],
+  "titel": "M86 - Top 11 - Neubau 3-Zimmer-Wohnung mit Balkon &amp; Terrasse",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/m86-top-11-neubau-3-zimmer-wohnung-mit-balkon-terrasse-1924902917/",
+   "https://www.immobilienscout24.at/expose/69bac116f32b0b96bd1ea8cf"
+  ],
+  "anbieter": "IMMO AGENTUR Burchartz & Krenn",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.229285,
+   16.347597
+  ],
+  "versatz_m": 0,
+  "preis": 1099000.0,
+  "flaeche": 90.73,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/is-128693114961/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1902497415",
+  "ids": [
+   "wh-1902497415",
+   "ds-14545583",
+   "is-483687005862",
+   "fm-5336840"
+  ],
+  "titel": "Nur wenige Schritte von der Oper entfernt | 5. Stock (letztes Regelgeschoss) mit Lift | Unbefristet vermietete Altbauwohnung | Geb. Jahr Mieter 1939",
+  "plz": 1010,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1010-innere-stadt/nur-wenige-schritte-von-der-oper-entfernt-5-stock-letztes-regelgeschoss-mit-lift-unbefristet-vermietete-altbauwohnung-geb-jahr-mieter-1939-1902497415/",
+   "https://www.findmyhome.at/5336840",
+   "https://www.immobilienscout24.at/expose/674fc17d5bb43e01d8873fc7",
+   "https://immobilien.derstandard.at/detail/14545583"
+  ],
+  "anbieter": "RIWOG Real Estate Management GmbH",
+  "adresse_im_inserat": "Operngasse",
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße)",
+  "punkt": [
+   48.201332,
+   16.367309
+  ],
+  "versatz_m": 0,
+  "preis": 1100000.0,
+  "flaeche": 109.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1902497415/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1675069748",
+  "ids": [
+   "wh-1675069748"
+  ],
+  "titel": "Ausblick in den Botanischen Schlossgarten: Altbau-Traum mit Wintergarten und Balkon",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/ausblick-in-den-botanischen-schlossgarten-altbau-traum-mit-wintergarten-und-balkon-1675069748/"
+  ],
+  "anbieter": "Engel & Völkers Wien, EuV Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.197147,
+   16.393753
+  ],
+  "versatz_m": 0,
+  "preis": 1090000.0,
+  "flaeche": 116.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1675069748/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1360787013",
+  "ids": [
+   "wh-1360787013",
+   "wh-1553519949",
+   "ds-14695549",
+   "fm-5438905",
+   "fm-5708574"
+  ],
+  "titel": "Atemberaubender 3-Zimmer Altbau in der Innenstadt - ANDEA Parkside Residences",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/atemberaubender-3-zimmer-altbau-in-der-innenstadt-andea-parkside-residences-1360787013/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/lichtdurchflutete-3-zimmer-wohnung-mit-grosszuegiger-loggia-andea-parkside-residences-1553519949/",
+   "https://www.findmyhome.at/5438905",
+   "https://www.findmyhome.at/5708574",
+   "https://immobilien.derstandard.at/detail/14695549"
+  ],
+  "anbieter": "Sangreal Living & Estates GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.206426,
+   16.384805
+  ],
+  "versatz_m": 0,
+  "preis": 1049000.0,
+  "flaeche": 81.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1360787013/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1824029871",
+  "ids": [
+   "wh-1824029871",
+   "wh-920693893",
+   "ds-14695546",
+   "fm-5708571",
+   "fm-5438902"
+  ],
+  "titel": "Luxuriöse Stadtresidenz mit 3 Zimmern und Loggia - ANDEA Parkside Residences",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/luxurioese-stadtresidenz-mit-3-zimmern-und-loggia-andea-parkside-residences-1824029871/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/andea-parkside-residences-wohnen-mit-charakter-3-zimmer-loggia-im-gruenderzeithaus-920693893/",
+   "https://www.findmyhome.at/5708571",
+   "https://www.findmyhome.at/5438902",
+   "https://immobilien.derstandard.at/detail/14695546"
+  ],
+  "anbieter": "Sangreal Living & Estates GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.208755,
+   16.384344
+  ],
+  "versatz_m": 0,
+  "preis": 1085000.0,
+  "flaeche": 81.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1824029871/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1584869194",
+  "ids": [
+   "wh-1584869194",
+   "wh-1975992151",
+   "ds-14695520",
+   "fm-5438891",
+   "fm-5708577",
+   "is-985189269447"
+  ],
+  "titel": "Stilvolle 3-Zimmer-Wohnung im klassischem Wiener Flair - ANDEA Parkside Residences",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/stilvolle-3-zimmer-wohnung-im-klassischem-wiener-flair-andea-parkside-residences-1584869194/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/andea-parkside-residences-historische-eleganz-trifft-modernes-wohnen-3-zimmer-altbauwohnung-1975992151/",
+   "https://www.findmyhome.at/5438891",
+   "https://www.findmyhome.at/5708577",
+   "https://www.immobilienscout24.at/expose/67922e633880ac313bc382f3",
+   "https://immobilien.derstandard.at/detail/14695520"
+  ],
+  "anbieter": "Sangreal Living & Estates GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.208468,
+   16.384619
+  ],
+  "versatz_m": 0,
+  "preis": 1149000.0,
+  "flaeche": 99.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1584869194/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2007974757",
+  "ids": [
+   "wh-2007974757",
+   "bt-004948562421"
+  ],
+  "titel": "Perfekte Symbiose aus Eleganz und Komfort: Wohnung mit hochwertiger Ausstattung in Wien!",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/perfekte-symbiose-aus-eleganz-und-komfort-wohnung-mit-hochwertiger-ausstattung-in-wien-2007974757/",
+   "https://www.ehl.at/objekt/75527"
+  ],
+  "anbieter": "EHL Immobilien GmbH",
+  "adresse_im_inserat": "Hetzgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.208433,
+   16.391033
+  ],
+  "versatz_m": 0,
+  "preis": 1085000.0,
+  "flaeche": 89.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-2007974757/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1141357604",
+  "ids": [
+   "wh-1141357604"
+  ],
+  "titel": "Altbaujuwel Nähe Rochusmarkt",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/altbaujuwel-naehe-rochusmarkt-1141357604/"
+  ],
+  "anbieter": "privat",
+  "adresse_im_inserat": "Marxergasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.20827,
+   16.38408
+  ],
+  "versatz_m": 0,
+  "preis": 1050000.0,
+  "flaeche": 119.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1141357604/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1264597813",
+  "ids": [
+   "wh-1264597813",
+   "ds-15307655",
+   "bt-217364090975"
+  ],
+  "titel": "Exklusives Wohnen im Apostelhof! Altbau trifft auf modernen Neubau",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/exklusives-wohnen-im-apostelhof-altbau-trifft-auf-modernen-neubau-1264597813/",
+   "https://www.apostelhof.at/objekt/12087510",
+   "https://immobilien.derstandard.at/detail/15307655"
+  ],
+  "anbieter": "EHL Immobilien GmbH",
+  "adresse_im_inserat": "Apostelgasse",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.198472,
+   16.396901
+  ],
+  "versatz_m": 0,
+  "preis": 1006335.0,
+  "flaeche": 97.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1264597813/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-880604716",
+  "ids": [
+   "wh-880604716",
+   "fm-5695289"
+  ],
+  "titel": "Exklusives Altbaujuwel mit 170 m² im dritten Liftstock - historischer Charme trifft auf individuelles Gestaltungspotenzial",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/exklusives-altbaujuwel-mit-170-m-im-dritten-liftstock-historischer-charme-trifft-auf-individuelles-gestaltungspotenzial-880604716/",
+   "https://www.findmyhome.at/5695289"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": "Landstraßer Hauptstraße",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.19736,
+   16.3955
+  ],
+  "versatz_m": 0,
+  "preis": 1090000.0,
+  "flaeche": 169.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-880604716/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1019310999",
+  "ids": [
+   "wh-1019310999",
+   "wh-1064684382",
+   "wh-998305443",
+   "is-421456597336",
+   "is-546310502678",
+   "is-929220129652"
+  ],
+  "titel": "Zimmermannplatz 6 : Eckwohnung im 1. Dachgeschoß mit Terrasse, 2 Schlafzimmern und zwei Bädern",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-eckwohnung-im-1-dachgeschoss-mit-terrasse-2-schlafzimmern-und-zwei-baedern-1019310999/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-eckwohnung-im-1-dachgeschoss-mit-terrasse-2-schlafzimmern-und-zwei-baedern-1064684382/",
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/zimmermannplatz-6-eckwohnung-im-1-dachgeschoss-mit-terrasse-2-schlafzimmern-und-zwei-baedern-998305443/",
+   "https://www.immobilienscout24.at/expose/6af4469b84127d334933f5e2",
+   "https://www.immobilienscout24.at/expose/6aeb3cb2d31a39739952cf36",
+   "https://www.immobilienscout24.at/expose/6ae30426deeb38dddae9f045"
+  ],
+  "anbieter": "Pia Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.215891,
+   16.343094
+  ],
+  "versatz_m": 0,
+  "preis": 1050000.0,
+  "flaeche": 87.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1019310999/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1741991177",
+  "ids": [
+   "wh-1741991177",
+   "is-459975761206"
+  ],
+  "titel": "3,5 Zimmer DG-Wohnung mit Terrassen, in Bestlage des 9. Bezirk.",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/3-5-zimmer-dg-wohnung-mit-terrassen-in-bestlage-des-9-bezirk-1741991177/",
+   "https://www.immobilienscout24.at/expose/6a7ad719e5af237dde9a2c91"
+  ],
+  "anbieter": "REMAX First",
+  "adresse_im_inserat": "Glasergasse",
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.224695,
+   16.364073
+  ],
+  "versatz_m": 0,
+  "preis": 1099000.0,
+  "flaeche": 144.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-1741991177/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15276429",
+  "ids": [
+   "ds-15276429",
+   "is-064783525767",
+   "wh-1145266982"
+  ],
+  "titel": "Stilvolle Altbauwohnung im Herzen des 9. Bezirks",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/stilvolle-altbauwohnung-im-herzen-des-9-bezirks-1145266982/",
+   "https://www.immobilienscout24.at/expose/6ac6237d82645fa72d66c363",
+   "https://immobilien.derstandard.at/detail/15276429"
+  ],
+  "anbieter": "VON POLL IMMOBILIEN Wien ",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 9. Bezirk bekannt",
+  "punkt": [
+   48.221682,
+   16.353687
+  ],
+  "versatz_m": 0,
+  "preis": 1090000.0,
+  "flaeche": 123.5,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15276429/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15062675",
+  "ids": [
+   "ds-15062675",
+   "fm-5624071"
+  ],
+  "titel": "\"Urban Oasis - Moderne Neubauwohnung mit Balkon in Bestlage",
+  "plz": 1030,
+  "links": [
+   "https://www.findmyhome.at/5624071",
+   "https://immobilien.derstandard.at/detail/15062675"
+  ],
+  "anbieter": "AKKADIA Immobilienvermittlung GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.197153,
+   16.39531
+  ],
+  "versatz_m": 0,
+  "preis": 1098000.0,
+  "flaeche": 102.2,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15062675/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15196055",
+  "ids": [
+   "ds-15196055",
+   "is-776207427327",
+   "fm-5705687"
+  ],
+  "titel": "Altbaujuwel im Herzen Wien- Wohnung- Praxis-Büro",
+  "plz": 1010,
+  "links": [
+   "https://www.findmyhome.at/5705687",
+   "https://www.immobilienscout24.at/expose/6a4fa5e87b265edf41421001",
+   "https://immobilien.derstandard.at/detail/15196055"
+  ],
+  "anbieter": "Novel Real Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 1. Bezirk bekannt",
+  "punkt": [
+   48.207288,
+   16.380422
+  ],
+  "versatz_m": 0,
+  "preis": 1087500.0,
+  "flaeche": 78.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/ds-15196055/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-01",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15149302",
+  "ids": [
+   "ds-15149302"
+  ],
+  "titel": "Wohnen auf höchstem Niveau - moderne Apartments in 1090 Wien",
+  "plz": 1090,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15149302"
+  ],
+  "anbieter": "EHL Wohnen GmbH",
+  "adresse_im_inserat": "Nordbergstraße",
+  "lage": "rote Zone: Lichtental-Nord / Friedensbrücke",
+  "punkt": [
+   48.231545,
+   16.361782
+  ],
+  "versatz_m": 0,
+  "preis": 713900.0,
+  "flaeche": 83.49,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 24.7,
+   "hwb_class": "B",
+   "fgee": 0.79,
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/ds-15149302/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-25",
+  "portaladresse_pruefen": false
  }
 ]

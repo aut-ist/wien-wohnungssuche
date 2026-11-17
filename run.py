@@ -80,7 +80,8 @@ def filter_grund(r, bestand=False):
         return f"nur {r['flaeche']:g} m²"
     if r.get("zimmer") and r["zimmer"] < F["zimmer_min"]:
         return f"nur {r['zimmer']} Zimmer"
-    if r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]:  # nur genau 3 Zimmer
+    # 3 Zimmer nur bis 700.000 € galt 2026-10-28 bis 2026-11-17 (Saad: „diese Regel soll komplett weg“); null = aus
+    if F.get("preis_max_3_zimmer") and r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]:
         return f"3 Zimmer über {F['preis_max_3_zimmer']:,.0f} €".replace(",", ".")
     return None
 
@@ -835,11 +836,13 @@ def _grundriss_nach_vorne(bilder):
     höchsten Grundriss-Wert aus tools/bild_hashes.py (ab 0,6, wie tools/grundrisse.py) oder "grundriss" im Namen."""
     hashes = _bild_hashes()
     wert = {u: (hashes.get(u) or {}).get("g") or (1.0 if "grundriss" in u.lower() else 0) for u in bilder}
-    bester = max(bilder[1:], key=lambda u: wert[u], default=None)
-    if len(bilder) < 3 or bester is None or wert[bester] < 0.6 or wert[bilder[0]] >= wert[bester]:
+    # Seit 2026-11-17 (Saad): ALLE Grundrisse direkt nach dem ersten Foto, der beste zuerst, dann die übrigen Fotos
+    if len(bilder) < 3:
         return bilder
-    rest = [u for u in bilder[1:] if u != bester]
-    return [bilder[0], bester] + rest
+    plaene = sorted((u for u in bilder[1:] if wert[u] >= 0.6), key=lambda u: -wert[u])
+    if not plaene or wert[bilder[0]] >= wert[plaene[0]]:
+        return bilder
+    return [bilder[0]] + plaene + [u for u in bilder[1:] if u not in plaene]
 
 
 GR_PLAENE = DATA / "grundriss_plaene"
@@ -1354,7 +1357,12 @@ def build():
         except Exception as e:  # Netz weg: dann eben ohne
             log(f"Street-View-Punkt {w['id']}: {e}")
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
-    quellen = sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
+    # Ausgeschlossene nur mit 5 Fotos (2026-11-17: ohne die 3-Zimmer-Preisgrenze wuchs listings.json auf 7,5 MB, Seitencheck-
+    # Grenze 6 MB; 2/3 davon waren Fotolisten von "raus"-Wohnungen, die man nur über den Filter "raus" sieht). Nest bleibt ganz.
+    for w in karte:
+        if w["status"] == "raus" and not set(w["ids"]) & nest:
+            w["bilder"] = w["bilder"][:5]
+    quellen =sorted({l["quelle"] for w in karte for l in w["links"]}, key=lambda q: (q != "willhaben", q))
     save_json(MAP_DATA, {"stand": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "anzahl": zaehler,
                          "quellen": quellen, "wohnungen": karte}, indent=None)
     save_json(PENDING, pending)

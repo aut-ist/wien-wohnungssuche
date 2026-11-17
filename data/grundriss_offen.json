@@ -82,22 +82,5 @@
    "https://cache.willhaben.at/mmo/8/162/225/2988_-319503285.jpg"
   ],
   "ordner": "data/grundrisse_zeichnen/wh-1622252988/"
- },
- {
-  "id": "wh-2043631003",
-  "ids": [
-   "wh-2043631003"
-  ],
-  "titel": "Guter Preis - gute Lage - beim Draschepark",
-  "adresse": null,
-  "flaeche": 91.0,
-  "zimmer": 3,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/3/204/363/1003_370646030.jpg",
-   "https://cache.willhaben.at/mmo/3/204/363/1003_-74393696.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-2043631003/"
  }
 ]
