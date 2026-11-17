@@ -9539,9 +9539,12 @@
   "ids": [
    "ds-15013270",
    "ds-15037697",
+   "ds-15279927",
    "is-093007488389",
+   "is-662524515753",
    "is-820319923947",
    "is-825900338260",
+   "wh-1074253549",
    "wh-1439969788",
    "wh-1614606325",
    "wh-1723263888",
@@ -9580,13 +9583,16 @@
    "ids": [
     "wh-1723263888",
     "wh-1614606325",
+    "wh-1074253549",
     "ds-15037697",
     "is-825900338260",
     "wh-936114536",
     "is-820319923947",
     "wh-1439969788",
     "is-093007488389",
-    "ds-15013270"
+    "ds-15013270",
+    "ds-15279927",
+    "is-662524515753"
    ],
    "links": [
     {
@@ -9601,6 +9607,13 @@
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/luxurioeses-4-zimmer-penthouse-mit-2-terrassen-und-dachterrasse-nahe-akh-1614606325/",
      "preis": 1134707.0,
      "id": "wh-1614606325",
+     "zuletzt": "2026-11-17"
+    },
+    {
+     "quelle": "willhaben",
+     "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/preisreduziert-ueber-den-daechern-von-waehring-exklusiver-dachgeschoss-erstbezug-mit-privater-rooftop-terrasse-1074253549/",
+     "preis": 1134707.0,
+     "id": "wh-1074253549",
      "zuletzt": "2026-11-17"
     },
     {
@@ -9639,6 +9652,13 @@
      "zuletzt": "2026-11-17"
     },
     {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6aca1d01cfb04450ee1f9aeb",
+     "preis": 1134707.0,
+     "id": "is-662524515753",
+     "zuletzt": "2026-11-17"
+    },
+    {
      "quelle": "derStandard",
      "url": "https://immobilien.derstandard.at/detail/15037697",
      "preis": 1134707.0,
@@ -9651,6 +9671,13 @@
      "preis": 1134707.0,
      "id": "ds-15013270",
      "zuletzt": "2026-11-17"
+    },
+    {
+     "quelle": "derStandard",
+     "url": "https://immobilien.derstandard.at/detail/15279927",
+     "preis": 1134707.0,
+     "id": "ds-15279927",
+     "zuletzt": "2026-11-17"
     }
    ],
    "quelle": "willhaben",
@@ -9659,8 +9686,8 @@
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.2236223,
-   "lon": 16.3399665,
+   "lat": 48.22359059,
+   "lon": 16.33997805,
    "ungefaehr": false,
    "radius": null,
    "preis": 1134707.0,
@@ -9669,8 +9696,8 @@
    "flaeche": 121.1,
    "zimmer": 4,
    "plz": 1180,
-   "adresse": "Staudgasse 40",
-   "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40)",
+   "adresse": "Staudgasse 40/18",
+   "lage": "18. Bezirk (aus Beschreibung: Staudgasse 40/18)",
    "heizung": {
     "ergebnis": "kein_gas",
     "von": "automatisch",
@@ -9709,11 +9736,12 @@
    "online_seit": "2026-10-11",
    "baujahr": "2024",
    "bauart": "Neubau",
-   "stockwerk": "4",
+   "stockwerk": "2. DG (4. Stock) + Dachterrasse",
    "monatlich": 402.15,
    "bilder": [
     "https://cache.willhaben.at/mmo/8/143/996/9788_-768383396.jpg",
-    "https://cache.willhaben.at/mmo/8/172/326/3888_882345854_n.jpg",
+    "https://cache.willhaben.at/mmo/9/107/425/3549_972070334.jpg",
+    "https://cache.willhaben.at/mmo/9/107/425/3549_-1763490158.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_1589220043.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_2090926869.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_-8750478.jpg",
@@ -9770,13 +9798,13 @@
     "https://cache.willhaben.at/mmo/6/936/114/536_2110830660.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_1440198419.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_-1971909976.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_-494745767.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_-364868914.jpg"
+    "https://cache.willhaben.at/mmo/6/936/114/536_-494745767.jpg"
    ],
    "freiflaeche": [
     "Terrasse",
     "Loggia",
     "Dachterrasse",
+    "Balkon",
     "Garten"
    ],
    "zustand": "Erstbezug",

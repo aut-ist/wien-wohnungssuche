@@ -1098,9 +1098,9 @@
    "wh-1727246955",
    "is-170543857577"
   ],
-  "titel": "Stilvoller Wohntraum in begehrter Lage nahe AKH",
-  "ergebnis": "korrigiert: Leo-Slezak-Gasse 10 (Adresse steht im Inseratstext, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/stilvoller-wohntraum-in-begehrter-lage-nahe-akh-1727246955/)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Leo-Slezak-Gasse 10"
  },
  "wh-2112347036": {
   "ids": [
@@ -1744,9 +1744,9 @@
   "ids": [
    "wh-2142854368"
   ],
-  "titel": "ZWEITBEZUG / MÖBLIERT / TOP-LAGE!!!",
-  "ergebnis": "nichts gesichert: Top 10, 4. OG, nahe U6 Währinger Straße/Volksoper; Hinweis auf Währinger Gürtel nicht belegt",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1075764150": {
   "ids": [
@@ -1862,12 +1862,23 @@
  "wh-823252424": {
   "ids": [
    "wh-823252424",
+   "wh-2014900893",
+   "wh-2076424293",
+   "wh-1192975669",
+   "ds-15037696",
    "is-649675384946",
-   "ds-15168404"
+   "is-438884833654",
+   "ds-15168404",
+   "ds-15167554",
+   "wh-1268400331",
+   "is-863929428341",
+   "is-960986681582",
+   "ds-15013269",
+   "wh-2089433472"
   ],
-  "titel": "PREISREDUZIERT- 3 Zimmer Rooftop - Dachgeschoßwohnung nahe AKH - exklusives Wohnen über den Dächern Wiens",
-  "ergebnis": "korrigiert: Staudgasse 40, DG (4. OG), 78,86 m² + 38,79 m² Terrasse (MAISON WÄHRING, Top unbekannt)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Staudgasse 40/17"
  },
  "wh-2098267387": {
   "ids": [
@@ -2145,9 +2156,9 @@
    "ds-15286445",
    "fm-5761899"
   ],
-  "titel": "Exklusive 3-Zimmer-Wohnung, vollrenoviert, 113m², 5. Etage, Top-Lage 1080 Wien!",
-  "ergebnis": "nicht gefunden: Stiege 2, W 57, 5. OG, Bj. 1955, im 266-m-Kreis um den Kartenpunkt (Josefstadt Richtung Rathaus)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1023026100": {
   "ids": [
@@ -2892,15 +2903,19 @@
  "wh-858468629": {
   "ids": [
    "wh-858468629",
+   "wh-995387538",
    "wh-947501227",
+   "is-363780397368",
+   "ds-15293211",
    "is-338814995610",
-   "fm-5768646",
+   "fm-5766104",
    "is-751162069378",
-   "fm-5766451"
+   "fm-5766451",
+   "bt-084322121121"
   ],
-  "titel": "SERVITENVIERTEL: helle Altbau mit Flügeltüren & Fischgrätparkettboden",
-  "ergebnis": "ungefähr: Müllnergasse (ohne Nr.), 3. Stock Top 15 laut Grundriss https://www.willhaben.at/iad/object?adId=858468629",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Müllnergasse 23-25"
  },
  "wh-1710941582": {
   "ids": [
@@ -3091,9 +3106,9 @@
    "wh-923111036",
    "is-581935871760"
   ],
-  "titel": "Erstbezug · U6 in Gehweite · hochwertige 3-Zimmer-Wohnung · Lift · Küche mit Essbereich · Fußbodenheizung",
-  "ergebnis": "präzisiert: Michelbeuern, Raum Gilgegasse/Lazarettgasse nahe Brünnlbadgasse",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: -"
  },
  "wh-1186375351": {
   "ids": [
@@ -3109,9 +3124,9 @@
    "wh-1637949481",
    "is-120107087125"
   ],
-  "titel": "3-Zimmer-Wohnung in 1090: Seltenes Angebot an der Grenze zum 1. Bezirk",
-  "ergebnis": "präzisiert: Roßau bei der Rossauer Kaserne, innerhalb ca. 260 m um Berggasse 20",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1301369721": {
   "ids": [
@@ -3137,24 +3152,33 @@
  "wh-1499850805": {
   "ids": [
    "wh-1499850805",
+   "wh-875680291",
+   "wh-1710941582",
    "is-161099109072",
    "ds-15117487",
-   "fm-5656216"
+   "fm-5656216",
+   "ds-15197582",
+   "is-655864052594",
+   "is-604609738623",
+   "ds-15197579"
   ],
-  "titel": "ERSTBEZUG II MAISONETTE MIT 3 ZIMMER UND 2 BÄDERN II PERFEKT FÜR WG II LUFTWÄRMEPUMPE UND KLIMA II NÄHE AKH UND U6 ALSER STRASSE II ANLEGERPREIS",
-  "ergebnis": "bestätigt/präzisiert: Borschkegasse 15, Top 30 (1.+2. DG)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Borschkegasse 15/30"
  },
  "wh-1189007050": {
   "ids": [
    "wh-1189007050",
+   "wh-916254089",
    "is-950837581395",
    "ds-15117486",
-   "fm-5656215"
+   "fm-5656215",
+   "ds-15197583",
+   "is-093195719971"
   ],
-  "titel": "ERSTBEZUG II MAISONETTE MIT BALKON UND TERRASSE II LUFTWÄRMEPUMPE UND KLIMA II NÄHE AKH UND U6 ALSER STRASSE II ANLEGERPREIS",
-  "ergebnis": "bestätigt/präzisiert: Borschkegasse 15, Top 31 (1.+2. DG)",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Borschkegasse 15/31"
  },
  "wh-1291011907": {
   "ids": [
@@ -3355,9 +3379,9 @@
    "is-172132494350",
    "ds-15121627"
   ],
-  "titel": "Exquisite Altbauwohnung Nähe Helene-Deutsch-Park",
-  "ergebnis": "ungefähr: zwischen Helene-Deutsch-Park und U6 Nußdorfer Straße, Top 21+22 (Grundriss willhaben), Hausnummer nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Lustkandlgasse 48/21+22"
  },
  "wh-1848912139": {
   "ids": [
@@ -3375,9 +3399,9 @@
    "wh-932051088",
    "ds-14664156"
   ],
-  "titel": "Traumhafte Dachgeschosswohnung im Herzen des 9. Bezirks!",
-  "ergebnis": "ungefähr: Gründerzeithaus im Umfeld Sanatorium Hera / Löblichgasse, Hausnummer nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-810937458": {
   "ids": [
@@ -3423,17 +3447,17 @@
    "is-289456517689",
    "ds-15129823"
   ],
-  "titel": "Exklusive Dachgeschosswohnung im 9. Bezirk mit Balkon und Terrasse",
-  "ergebnis": "unklar: nur 9. Bezirk, Eck-Altbau mit neuem DG (31 Einheiten), Adresse nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Borschkegasse 15/31"
  },
  "is-800520876763": {
   "ids": [
    "is-800520876763"
   ],
-  "titel": "8. Josefstadt: Sonnige Wohnung im 4.Liftstock",
-  "ergebnis": "ungefähr: Josefstädter Straße, Nordseite zwischen Bennoplatz und Hamerlingpark (ca. Nr. 62-72), 4. Liftstock",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: -"
  },
  "is-617994891171": {
   "ids": [
@@ -3448,11 +3472,12 @@
  },
  "is-606065249660": {
   "ids": [
-   "is-606065249660"
+   "is-606065249660",
+   "wh-2118891403"
   ],
-  "titel": "Ruhige Altbauwohnung in Zentrumsnähe",
-  "ergebnis": "ungefähr (schwach): 8. Bezirk nahe Alser Straße/Skodagasse (13A + 43/44), Adresse nicht gefunden",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "is-495966843988": {
   "ids": [
@@ -3523,9 +3548,9 @@
   "ids": [
    "is-242100106097"
   ],
-  "titel": "stilvolle 3-Zimmer Altbauwohnung",
-  "ergebnis": "unklar: keine verwertbaren Hinweise",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
  },
  "wh-1900776278": {
   "ids": [
@@ -3886,9 +3911,9 @@
    "wh-773562369",
    "is-448752418830"
   ],
-  "titel": "Servitenviertel: Renovierte Altbauwohnung mit doppeltem Setup - Eigennutzung und/oder Vermietung",
-  "ergebnis": "korrigiert (vorher Lage unklar): Raum Berggasse zwischen Währinger Straße und Porzellangasse, ±150–300 m",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Türkenstraße 17/26 + 27 (laut Grundriss)"
  },
  "is-224175742359": {
   "ids": [
@@ -8068,5 +8093,452 @@
   "titel": "",
   "datum": "2026-11-17",
   "ergebnis": "genau: Große Pfarrgasse 7/Top 22"
+ },
+ "wh-1940426067": {
+  "ids": [
+   "wh-1940426067",
+   "wh-1038301634",
+   "wh-1854901907",
+   "wh-2002381164",
+   "wh-1066942552",
+   "wh-1175661604",
+   "wh-1275083622",
+   "wh-1335198472",
+   "wh-1625588665",
+   "wh-1685033697",
+   "wh-1876505953",
+   "wh-790414023",
+   "wh-798501042",
+   "wh-825457595",
+   "wh-971441478",
+   "is-655347200137",
+   "wh-940635671",
+   "wh-1194268790",
+   "wh-1124146029"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Lustkandlgasse 46"
+ },
+ "ds-15149302": {
+  "ids": [
+   "ds-15149302"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Nordbergstraße 13 (raus: außerhalb Suchgebiet (rote Zone Lichtental-Nord / Friedensbrücke); zudem befristet vermietet (\"die meisten Einheiten befristet vermietet\"))"
+ },
+ "ds-15293653": {
+  "ids": [
+   "ds-15293653",
+   "wh-2012531431",
+   "is-171098405586",
+   "fm-5766325"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 1, Top 39"
+ },
+ "ds-15298828": {
+  "ids": [
+   "ds-15298828",
+   "ds-15316659",
+   "is-452450513488",
+   "is-635669878227",
+   "wh-1608787348",
+   "wh-828535355",
+   "fm-5770561",
+   "fm-5784204",
+   "bt-756619858610"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 48"
+ },
+ "wh-1479803281": {
+  "ids": [
+   "wh-1479803281",
+   "ds-15106801",
+   "is-149696842899",
+   "fm-5650325",
+   "bt-786054592212"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 1, Top 39"
+ },
+ "wh-1165983267": {
+  "ids": [
+   "wh-1165983267",
+   "ds-15106800",
+   "is-596389979521",
+   "fm-5650324",
+   "bt-850335586808"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 41"
+ },
+ "ds-15301340": {
+  "ids": [
+   "ds-15301340",
+   "ds-15315437",
+   "ds-15318031",
+   "is-185930992823",
+   "is-465188924599",
+   "is-956077071360",
+   "wh-1229052860",
+   "wh-1038244322",
+   "wh-2093361173",
+   "fm-5772785",
+   "fm-5776479",
+   "fm-5782988",
+   "fm-5785357",
+   "fm-5786651",
+   "is-750261329168",
+   "is-283145902899",
+   "wh-1197384357",
+   "wh-1672901411"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 41"
+ },
+ "is-906772855014": {
+  "ids": [
+   "is-906772855014"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 1, Top 39"
+ },
+ "is-374936183151": {
+  "ids": [
+   "is-374936183151"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 41"
+ },
+ "is-274932184476": {
+  "ids": [
+   "is-274932184476"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 48"
+ },
+ "ds-15301670": {
+  "ids": [
+   "ds-15301670",
+   "wh-1885998932",
+   "is-946891008898",
+   "ds-15318032",
+   "is-630768123672",
+   "fm-5772786",
+   "fm-5785358",
+   "wh-1511305869"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schumanngasse 35, Stiege 2, Top 48"
+ },
+ "wh-1074253549": {
+  "ids": [
+   "wh-1074253549",
+   "ds-15279927",
+   "is-662524515753"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Staudgasse 40/18"
+ },
+ "wh-2101399564": {
+  "ids": [
+   "wh-2101399564",
+   "ds-15290005"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Schulgasse 51/21"
+ },
+ "wh-1704023790": {
+  "ids": [
+   "wh-1704023790",
+   "ds-15316505",
+   "is-830606566368"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Laimgrubengasse 9/10"
+ },
+ "wh-1635030385": {
+  "ids": [
+   "wh-1635030385"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Gumpendorfer Straße 8"
+ },
+ "wh-1393147467": {
+  "ids": [
+   "wh-1393147467",
+   "is-698743904201"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Lerchenfelder Straße 144, Stiege 1, Top 23"
+ },
+ "is-238121543295": {
+  "ids": [
+   "is-238121543295",
+   "wh-1115408198"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Lerchenfelder Straße 144, Stiege 2, Top 2"
+ },
+ "wh-1575326830": {
+  "ids": [
+   "wh-1575326830",
+   "is-591038688642"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: - (raus: befristet vermietet bis 2029 (Bruttomiete 2.254 €), Bezug laut Inserat erst 2029)"
+ },
+ "wh-1895397099": {
+  "ids": [
+   "wh-1895397099",
+   "is-592657705012"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1471621088": {
+  "ids": [
+   "wh-1471621088",
+   "ds-15209168",
+   "is-629094419009"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "wh-1019310999": {
+  "ids": [
+   "wh-1019310999",
+   "wh-1064684382",
+   "wh-998305443",
+   "is-421456597336",
+   "is-546310502678",
+   "is-929220129652"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Zimmermannplatz 6 (raus: Bezug erst nach Q3 2027: Fertigstellung Dachgeschoß laut Inserat 1. Quartal 2028 ('Verfügbar ab: Q1 2028'))"
+ },
+ "wh-1820354915": {
+  "ids": [
+   "wh-1820354915",
+   "ds-15180270",
+   "is-583244333845",
+   "fm-5695500"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: -"
+ },
+ "wh-1598181954": {
+  "ids": [
+   "wh-1598181954",
+   "ds-15276937",
+   "fm-5755331",
+   "is-377125443175"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Rüdigergasse"
+ },
+ "wh-1910824776": {
+  "ids": [
+   "wh-1910824776",
+   "ds-15220909",
+   "is-414807347327"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Argentinierstraße 29/16"
+ },
+ "ds-15111772": {
+  "ids": [
+   "ds-15111772"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Argentinierstraße 57/7"
+ },
+ "wh-1804181441": {
+  "ids": [
+   "wh-1804181441",
+   "is-706101917118"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "ds-15305623": {
+  "ids": [
+   "ds-15305623",
+   "wh-2134889776",
+   "is-396141999953"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Apfelgasse 3"
+ },
+ "wh-1118704207": {
+  "ids": [
+   "wh-1118704207",
+   "ds-15193382",
+   "is-178371394418"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "unklar: -"
+ },
+ "ds-14949939": {
+  "ids": [
+   "ds-14949939",
+   "is-917246288910"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Argentinierstraße 28B/19 (raus: Bezug erst nach Q3 2027: Bauteil SOLO wird gerade gebaut ('JETZT zu Baubeginn vor Ort informieren'); Rhomberg-Inserate desselben Bauteils nennen 'Verfügbar ab Dezember 2027' (https://www.laendleimmo.at/ad/generate_pdf/289452))"
+ },
+ "ds-14939353": {
+  "ids": [
+   "ds-14939353",
+   "is-683560291484",
+   "wh-1879873542",
+   "fm-5589820"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Krongasse 6/4"
+ },
+ "ds-15265034": {
+  "ids": [
+   "ds-15265034",
+   "is-647363659961",
+   "ds-15266074",
+   "ds-15089823",
+   "is-214035616662",
+   "is-604918300187"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Krongasse 6/4"
+ },
+ "wh-1872457053": {
+  "ids": [
+   "wh-1872457053",
+   "ds-15032856",
+   "wh-2031389162"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Margaretenstraße 56/11"
+ },
+ "wh-1167074129": {
+  "ids": [
+   "wh-1167074129",
+   "wh-1142102525",
+   "wh-1116401634",
+   "wh-1641597688",
+   "fm-5747493",
+   "is-724058519848"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Krongasse 6/4"
+ },
+ "is-473087947633": {
+  "ids": [
+   "is-473087947633",
+   "wh-1119858644"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Grüngasse 22"
+ },
+ "wh-1560011709": {
+  "ids": [
+   "wh-1560011709",
+   "ds-15314722",
+   "fm-5782386",
+   "is-834747763918"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Rüdigergasse"
+ },
+ "ds-15314806": {
+  "ids": [
+   "ds-15314806",
+   "wh-901527004",
+   "is-973783657457"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "genau: Kettenbrückengasse 23/412 (raus: unsaniert: 'Die Wohnung war bislang vermietet und wird unsaniert verkauft' / 'wie besichtigt (\"unsaniert\") ohne Gewährleistung')"
+ },
+ "ds-15129681": {
+  "ids": [
+   "ds-15129681",
+   "is-291215668829",
+   "wh-1879070680"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: -"
+ },
+ "is-786884640999": {
+  "ids": [
+   "is-786884640999"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Millergasse 40 (raus: Lage außerhalb des Suchgebiets: Millergasse liegt komplett außerhalb der Zone (alle Hausnummern geprüft))"
+ },
+ "is-152074148112": {
+  "ids": [
+   "is-152074148112",
+   "wh-1543075604"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Millergasse 40 (raus: Lage außerhalb des Suchgebiets: Stadthaus Miller, Millergasse (gesamte Gasse außerhalb der Zone))"
+ },
+ "ds-15012545": {
+  "ids": [
+   "ds-15012545",
+   "wh-823247318",
+   "is-185239230351"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Millergasse 40 (raus: Lage außerhalb des Suchgebiets: Stadthaus Miller, Millergasse (gesamte Gasse außerhalb der Zone))"
+ },
+ "wh-1255849915": {
+  "ids": [
+   "wh-1255849915",
+   "ds-14970057",
+   "is-358099341650"
+  ],
+  "titel": "",
+  "datum": "2026-11-17",
+  "ergebnis": "ungefaehr: Girardigasse 1"
  }
 }

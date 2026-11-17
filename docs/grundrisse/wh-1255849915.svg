@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="976" height="1050" viewBox="0 0 976 1050" font-family="Helvetica, Arial, sans-serif">
+<rect width="976" height="1050" fill="#ffffff"/>
+<polygon points="128.0,88.0 368.0,88.0 368.0,428.0 128.0,428.0" fill="#dcecf3" stroke="none"/>
+<polygon points="128.0,88.0 368.0,88.0 368.0,428.0 128.0,428.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="383.0,88.0 588.0,88.0 588.0,283.0 383.0,283.0" fill="#e6e6e2" stroke="none"/>
+<polygon points="383.0,88.0 588.0,88.0 588.0,283.0 383.0,283.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="383.0,298.0 748.0,298.0 748.0,433.0 383.0,433.0" fill="#efefec" stroke="none"/>
+<polygon points="383.0,298.0 748.0,298.0 748.0,433.0 383.0,433.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="603.0,88.0 748.0,88.0 748.0,283.0 603.0,283.0" fill="#efefec" stroke="none"/>
+<polygon points="603.0,88.0 748.0,88.0 748.0,283.0 603.0,283.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="88.0,448.0 518.0,448.0 518.0,788.0 88.0,788.0" fill="#f4e9d6" stroke="none"/>
+<polygon points="88.0,448.0 518.0,448.0 518.0,788.0 88.0,788.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="533.0,448.0 888.0,448.0 888.0,788.0 533.0,788.0" fill="#f4e9d6" stroke="none"/>
+<polygon points="533.0,448.0 888.0,448.0 888.0,788.0 533.0,788.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<line x1="188.0" y1="788.0" x2="308.0" y2="788.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="188.0" y1="788.0" x2="308.0" y2="788.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="648.0" y1="788.0" x2="768.0" y2="788.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="648.0" y1="788.0" x2="768.0" y2="788.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="278.0" y1="448.0" x2="358.0" y2="448.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="278.0" y1="448.0" x2="278.0" y2="368.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 278.0 368.0 A 80.0 80.0 0 0 1 358.0 448.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="548.0" y1="448.0" x2="628.0" y2="448.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="548.0" y1="448.0" x2="548.0" y2="368.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 548.0 368.0 A 80.0 80.0 0 0 1 628.0 448.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="383.0" y1="328.0" x2="383.0" y2="408.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="383.0" y1="328.0" x2="303.0" y2="328.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 303.0 328.0 A 80.0 80.0 0 0 0 383.0 408.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="448.0" y1="283.0" x2="528.0" y2="283.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="448.0" y1="283.0" x2="448.0" y2="203.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 448.0 203.0 A 80.0 80.0 0 0 1 528.0 283.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="248.0" y="254.3" font-size="24.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="248.0" y="281.6" font-size="20.3" fill="#555" text-anchor="middle">6,10 m²</text>
+<text x="485.5" y="181.8" font-size="24.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Abstellraum</text>
+<text x="485.5" y="209.1" font-size="20.3" fill="#555" text-anchor="middle">3,30 m²</text>
+<text x="565.5" y="361.8" font-size="24.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Halle</text>
+<text x="565.5" y="389.1" font-size="20.3" fill="#555" text-anchor="middle">4,75 m²</text>
+<text x="675.5" y="182.8" font-size="17.9" font-weight="700" fill="#2b2b2b" text-anchor="middle">Treppe</text>
+<text x="303.0" y="614.3" font-size="24.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="303.0" y="641.6" font-size="20.3" fill="#555" text-anchor="middle">10,00 m²</text>
+<text x="710.5" y="614.3" font-size="24.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="710.5" y="641.6" font-size="20.3" fill="#555" text-anchor="middle">9,40 m²</text>
+<text x="88.0" y="896.0" font-size="28.5" font-weight="700" fill="#2b2b2b">Grundriss obere Ebene (Dachgeschoß), Girardigasse</text>
+<text x="88.0" y="960.5" font-size="17.4" fill="#888">Nach altem Scan neu gezeichnet; der Plan zeigt nur die obere Ebene.</text>
+<rect x="88.0" y="977.3" width="100.0" height="10" fill="#2f2f2f"/><rect x="188.0" y="977.3" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="88.0" y="1007.6" font-size="16.1" fill="#666">0</text><text x="288.0" y="1007.6" font-size="16.1" fill="#666" text-anchor="end">2 m</text>
+</svg>
