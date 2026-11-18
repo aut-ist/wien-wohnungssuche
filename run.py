@@ -842,7 +842,8 @@ def _grundriss_nach_vorne(bilder):
     # nach vorne, hässliche Pläne (es gibt einen schöneren) ans Ende; ohne Bestätigung wie bisher nur der beste Kandidat.
     if len(bilder) < 3:
         return bilder
-    klasse = {u: _grundriss_klassen().get((hashes.get(u) or {}).get("h")) for u in bilder}
+    klasse = {u: _grundriss_klassen().get((hashes.get(u) or {}).get("h")) or ("plan" if u in _PORTAL_PLAENE else None)
+              for u in bilder}
     plaene = sorted((u for u in bilder[1:] if klasse[u] == "plan"), key=lambda u: -wert[u])
     if not plaene:
         offen = [u for u in bilder[1:] if klasse[u] is None and wert[u] >= 0.6]
@@ -854,6 +855,7 @@ def _grundriss_nach_vorne(bilder):
 
 
 _GR_KLASSEN = None
+_PORTAL_PLAENE = set()
 
 
 def _grundriss_klassen():
@@ -936,7 +938,7 @@ def _grundriss_offen(karte, nest, korb, plaene):
         if not kand:
             # Saad 2026-11-18: gibt es gar keinen Grundriss, schätzt Claude einen aus allen Fotos und dem Text
             # (data/grundriss_plaene/ID.json mit "schaetzung": true, rotes Band SCHÄTZUNG ganz oben; Ablauf in REVIEW.md)
-            hat_plan = (any(p["ids"] & set(w["ids"]) for p in plaene)
+            hat_plan = (any(p["ids"] & set(w["ids"]) for p in plaene) or any(u in _PORTAL_PLAENE for u in w["bilder"])
                         or any(klasse.get((hashes.get(u) or {}).get("h")) in ("plan", "haesslich") for u in w["bilder"]))
             erledigt = any(set(e.get("ids") or []) & set(w["ids"]) and e.get("ergebnis") in ("geschaetzt", "keine_fotos")
                            for e in geprueft.values())
@@ -1178,6 +1180,8 @@ def lage_genau(r, rev, b):
 
 def build():
     listings = load_json(LISTINGS, {})
+    global _PORTAL_PLAENE  # vom Portal als Grundriss geführte Bilder (willhaben floorPlans) zählen als bestätigte Pläne
+    _PORTAL_PLAENE = {u for r in listings.values() for u in r.get("grundrisse") or []}
     reviews = load_json(REVIEWS, {})
     geprueft = load_json(GEPRUEFT, {})
     erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)

@@ -135,8 +135,11 @@ def detail(listing_id):
     if _first(a, "HEATING"):
         heiz.insert(0, f"Heizung: {_first(a, 'HEATING')}")
     lat, lon = _coords(_first(a, "COORDINATES"))
-    bilder = [img.get("referenceImageUrl") or img.get("mainImageUrl")
-              for img in (ad.get("advertImageList") or {}).get("advertImage", [])][:30]
+    il = ad.get("advertImageList") or {}
+    bilder = [img.get("referenceImageUrl") or img.get("mainImageUrl") for img in il.get("advertImage", [])][:30]
+    # Grundrisse führt willhaben in einer eigenen Liste neben den Fotos (bis 2026-11-18 nie gelesen, dadurch fehlten sie)
+    grundrisse = [u for img in il.get("floorPlans") or [] if (u := img.get("referenceImageUrl") or img.get("mainImageUrl"))]
+    bilder += [u for u in grundrisse if u not in bilder]
     zimmer = _num(_first(a, "NO_OF_ROOMS"))
     return {
         "text": text,
@@ -162,4 +165,5 @@ def detail(listing_id):
         "dokumente": [{"name": n, "url": u} for n, u in zip(a.get("INFOLINK/NAME", []), a.get("INFOLINK/URL", []))]
                      + [{"name": x.get("description") or x.get("name"), "url": x.get("url") or x.get("uri")}
                         for x in (ad.get("advertAttachmentList") or {}).get("advertAttachment", []) if x.get("url") or x.get("uri")],
+        "grundrisse": grundrisse,
     }
