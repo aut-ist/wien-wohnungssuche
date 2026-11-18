@@ -1,1 +1,70 @@
-[]
+[
+ {
+  "id": "wh-2142854368",
+  "ids": [
+   "wh-2142854368"
+  ],
+  "titel": "ZWEITBEZUG / MÖBLIERT / TOP-LAGE!!!",
+  "adresse": null,
+  "flaeche": 78.66,
+  "zimmer": 3,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/214/285/4368_-88682207.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2142854368/"
+ },
+ {
+  "id": "wh-1612280692",
+  "ids": [
+   "wh-1612280692",
+   "wh-801272997",
+   "is-047422146128"
+  ],
+  "titel": "Stilvolle 3-Zimmer-Wohnung mit 2 Schlafzimmern im 9. Bezirk",
+  "adresse": "Glasergasse 6",
+  "flaeche": 100.0,
+  "zimmer": 3,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/2/161/228/0692_1897712382.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1612280692/"
+ },
+ {
+  "id": "is-162438705604",
+  "ids": [
+   "is-162438705604",
+   "wh-1138247539"
+  ],
+  "titel": "Klassische Wiener Altbau Wohnung inkl. Balkon!",
+  "adresse": "Schönburgstraße 40",
+  "flaeche": 109.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000p10yK-4d2c9df5a3224ad89432886b59ca935d"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-162438705604/"
+ },
+ {
+  "id": "wh-1081743471",
+  "ids": [
+   "wh-1081743471",
+   "is-203529028683"
+  ],
+  "titel": "Exklusive Gartenwohnung in Sieveringer Bestlage | 3 Zimmer | ca. 102 m² private Freiflächen & hochwertige Ausstattung",
+  "adresse": null,
+  "flaeche": 88.12,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/1/108/174/3471_745078362.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1081743471/"
+ }
+]

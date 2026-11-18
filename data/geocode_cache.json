@@ -2719,5 +2719,22 @@
  "krongasse 6/4, 1050 wien": [
   48.192458,
   16.362408
+ ],
+ "hardtgasse 34, 1190 wien": [
+  48.236475,
+  16.353002
+ ],
+ "handelskai, 1020 wien": [
+  48.241847,
+  16.385664
+ ],
+ "schelleingasse 23, 1040 wien": [
+  48.186493,
+  16.372331
+ ],
+ "fernbahnhof 0, 1060 wien": null,
+ "liniengasse 47, 1060 wien": [
+  48.191107,
+  16.340083
  ]
 }
