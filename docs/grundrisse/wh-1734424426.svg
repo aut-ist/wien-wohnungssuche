@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1984" height="1278" viewBox="0 0 1984 1278" font-family="Helvetica, Arial, sans-serif">
+<rect width="1984" height="1278" fill="#ffffff"/>
+<polygon points="142.0,332.0 482.0,332.0 482.0,662.0 142.0,662.0" fill="#f4e9d6" stroke="none"/>
+<polygon points="142.0,332.0 482.0,332.0 482.0,662.0 142.0,662.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="497.0,332.0 837.0,332.0 837.0,662.0 497.0,662.0" fill="#f4e9d6" stroke="none"/>
+<polygon points="497.0,332.0 837.0,332.0 837.0,662.0 497.0,662.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="142.0,677.0 402.0,677.0 402.0,892.0 142.0,892.0" fill="#dcecf3" stroke="none"/>
+<polygon points="142.0,677.0 402.0,677.0 402.0,892.0 142.0,892.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="417.0,677.0 492.0,677.0 492.0,892.0 417.0,892.0" fill="#dcecf3" stroke="none"/>
+<polygon points="417.0,677.0 492.0,677.0 492.0,892.0 417.0,892.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="507.0,677.0 702.0,677.0 702.0,892.0 507.0,892.0" fill="#efefec" stroke="none"/>
+<polygon points="507.0,677.0 702.0,677.0 702.0,892.0 507.0,892.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="717.0,677.0 837.0,677.0 837.0,892.0 717.0,892.0" fill="#efefec" stroke="none"/>
+<polygon points="717.0,677.0 837.0,677.0 837.0,892.0 717.0,892.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="852.0,677.0 992.0,677.0 992.0,892.0 852.0,892.0" fill="#e6e6e2" stroke="none"/>
+<polygon points="852.0,677.0 992.0,677.0 992.0,892.0 852.0,892.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1142.0,332.0 1842.0,332.0 1842.0,872.0 1142.0,872.0" fill="#f3e2c3" stroke="none"/>
+<polygon points="1142.0,332.0 1842.0,332.0 1842.0,872.0 1142.0,872.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1697.0,662.0 1842.0,662.0 1842.0,872.0 1697.0,872.0" fill="#efefec" stroke="none"/>
+<polygon points="1697.0,662.0 1842.0,662.0 1842.0,872.0 1697.0,872.0" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1142.0,142.0 1542.0,142.0 1542.0,327.0 1142.0,327.0" fill="#e3f0da" stroke="none"/>
+<polygon points="1142.0,142.0 1542.0,142.0 1542.0,327.0 1142.0,327.0" fill="none" stroke="#7a8f6e" stroke-width="6.0" stroke-linejoin="miter" stroke-dasharray="18 10"/>
+<line x1="232.0" y1="332.0" x2="392.0" y2="332.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="232.0" y1="332.0" x2="392.0" y2="332.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="582.0" y1="332.0" x2="742.0" y2="332.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="582.0" y1="332.0" x2="742.0" y2="332.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1172.0" y1="332.0" x2="1312.0" y2="332.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1172.0" y1="332.0" x2="1312.0" y2="332.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1382.0" y1="332.0" x2="1522.0" y2="332.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1382.0" y1="332.0" x2="1522.0" y2="332.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1142.0" y1="372.0" x2="1142.0" y2="592.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1142.0" y1="372.0" x2="1142.0" y2="592.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1842.0" y1="392.0" x2="1842.0" y2="592.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1842.0" y1="392.0" x2="1842.0" y2="592.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1602.0" y1="872.0" x2="1682.0" y2="872.0" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1602.0" y1="872.0" x2="1682.0" y2="872.0" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="392.0" y1="662.0" x2="472.0" y2="662.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="392.0" y1="662.0" x2="392.0" y2="742.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 392.0 742.0 A 80.0 80.0 0 0 0 472.0 662.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="517.0" y1="662.0" x2="597.0" y2="662.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="517.0" y1="662.0" x2="517.0" y2="582.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 517.0 582.0 A 80.0 80.0 0 0 1 597.0 662.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="312.0" y1="677.0" x2="392.0" y2="677.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="312.0" y1="677.0" x2="312.0" y2="597.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 312.0 597.0 A 80.0 80.0 0 0 1 392.0 677.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="422.0" y1="677.0" x2="487.0" y2="677.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="422.0" y1="677.0" x2="422.0" y2="612.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 422.0 612.0 A 65.0 65.0 0 0 1 487.0 677.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="852.0" y1="742.0" x2="852.0" y2="822.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="852.0" y1="742.0" x2="932.0" y2="742.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 932.0 742.0 A 80.0 80.0 0 0 1 852.0 822.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="507.0" y1="892.0" x2="597.0" y2="892.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="507.0" y1="892.0" x2="507.0" y2="802.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 507.0 802.0 A 90.0 90.0 0 0 1 597.0 892.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="1302.0" y1="327.0" x2="1402.0" y2="327.0" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="1302.0" y1="327.0" x2="1302.0" y2="227.0" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 1302.0 227.0 A 100.0 100.0 0 0 1 1402.0 327.0" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="312.0" y="491.0" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="312.0" y="535.0" font-size="32.8" fill="#555" text-anchor="middle">11,20 m²</text>
+<text x="667.0" y="491.0" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="667.0" y="535.0" font-size="32.8" fill="#555" text-anchor="middle">11,20 m²</text>
+<text x="272.0" y="778.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="272.0" y="822.5" font-size="32.8" fill="#555" text-anchor="middle">5,60 m²</text>
+<text x="454.5" y="780.2" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">WC</text>
+<text x="454.5" y="811.9" font-size="23.6" fill="#555" text-anchor="middle">1,50 m²</text>
+<text x="604.5" y="778.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorraum</text>
+<text x="604.5" y="822.5" font-size="32.8" fill="#555" text-anchor="middle">4,20 m²</text>
+<text x="777.0" y="780.2" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Treppe</text>
+<text x="777.0" y="811.9" font-size="23.6" fill="#555" text-anchor="middle">2,90 m²</text>
+<text x="922.0" y="780.2" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">AR</text>
+<text x="922.0" y="811.9" font-size="23.6" fill="#555" text-anchor="middle">3,00 m²</text>
+<text x="1492.0" y="596.0" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Wohnküche</text>
+<text x="1492.0" y="640.0" font-size="32.8" fill="#555" text-anchor="middle">37,50 m²</text>
+<text x="1769.5" y="762.7" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">Treppe</text>
+<text x="1342.0" y="228.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Terrasse</text>
+<text x="1342.0" y="272.5" font-size="32.8" fill="#555" text-anchor="middle">7,40 m²</text>
+<text x="142.0" y="272.0" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">1. DG (Eingang)</text>
+<text x="1142.0" y="92.0" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">2. DG</text>
+<text x="142.0" y="1054.0" font-size="46.0" font-weight="700" fill="#2b2b2b">SCHÄTZUNG (Claude) – Top 11, Dachgeschoß-Maisonette</text>
+<text x="142.0" y="1108.0" font-size="36.0" fill="#444">Wohnfläche ca. 78,54 m² · Freifläche ca. 7,40 m²</text>
+<text x="142.0" y="1158.0" font-size="28.0" fill="#888">Kein Plan im Inserat: aus 30 Fotos und dem Text geschätzt. Raumanordnung und m² sind nicht verbindlich.</text>
+<rect x="142.0" y="1190.0" width="100.0" height="10" fill="#2f2f2f"/><rect x="242.0" y="1190.0" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="142.0" y="1234.0" font-size="26.0" fill="#666">0</text><text x="342.0" y="1234.0" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+</svg>
