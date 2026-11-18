@@ -18,6 +18,7 @@ Plan (data/grundriss_plaene/ID.json), alle Maße in Metern, x nach rechts, y nac
       "texte": [{"text": "Galerie", "pos": [12, -0.5]}],   optional, Überschriften (Ebenen nebeneinander legen)
       "wohnflaeche": 91.01,                optional: Gesamtfläche laut Plan (sonst Summe, nur wenn jeder Raum m² hat)
       "hinweis": "…"                       optional, sonst Standardhinweis
+      "schaetzung": true                    optional: kein Original im Inserat, aus Fotos/Text geschätzt -> rotes Band "SCHÄTZUNG" ganz oben
     }
 Die Texte zählen nicht zum Rahmen: Überschriften innerhalb der Raumfläche oder knapp darüber setzen.
 art: wohnen, schlafen, zimmer, kueche, bad, wc, flur, abstell, freiflaeche (Balkon/Loggia/Terrasse/Garten).
@@ -66,12 +67,21 @@ def zeichnen(plan):
     # schmale Pläne: Seite so breit, dass der Hinweis passt, Zeichnung in der Mitte
     dx = max(0.0, (34 * schrift - W) / 2)
     W += 2 * dx
+    # geschätzte Pläne (kein Original im Inserat, aus Fotos/Text, Saad 2026-11-18): großes Band ganz oben
+    kopf = schrift * 2.8 if plan.get("schaetzung") else 0.0
+    H += kopf
 
     def P(q):
-        return (q[0] - x0) * s + rand + dx, (q[1] - y0) * s + rand
+        return (q[0] - x0) * s + rand + dx, (q[1] - y0) * s + rand + kopf
 
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" viewBox="0 0 {W:.0f} {H:.0f}" '
          f'font-family="Helvetica, Arial, sans-serif">', f'<rect width="{W:.0f}" height="{H:.0f}" fill="#ffffff"/>']
+    if kopf:
+        o.append(f'<rect x="0" y="0" width="{W:.0f}" height="{kopf:.0f}" fill="#c0392b"/>'
+                 f'<text x="{W / 2:.1f}" y="{kopf * 0.47:.1f}" font-size="{schrift * 1.25:.1f}" font-weight="800" fill="#ffffff" '
+                 f'text-anchor="middle">SCHÄTZUNG</text>'
+                 f'<text x="{W / 2:.1f}" y="{kopf * 0.82:.1f}" font-size="{schrift * 0.7:.1f}" fill="#ffffff" text-anchor="middle">'
+                 f'kein Original-Grundriss · von Claude aus Fotos und Beschreibung geschätzt</text>')
     # Räume: Fläche, dann Wände darüber (gemeinsame Wände decken sich)
     for r in raeume:
         pts = " ".join(f"{a:.1f},{b:.1f}" for a, b in map(P, r["punkte"]))
@@ -116,7 +126,7 @@ def zeichnen(plan):
         o.append(f'<text x="{tx:.1f}" y="{ty:.1f}" font-size="{schrift * 1.05:.1f}" font-weight="700" fill="#666" '
                  f'text-anchor="{t.get("ausrichtung", "start")}">{html.escape(t["text"])}</text>')
     # Fuß: Titel, Fläche, Hinweis, Maßstab
-    fy = hoehe * s + 2 * rand
+    fy = hoehe * s + 2 * rand + kopf
     # Summe nur, wenn jeder Raum eine Fläche hat (sonst wäre sie zu klein); "wohnflaeche" aus dem Plan geht vor
     innen_r = [r for r in raeume if r.get("art") != "freiflaeche"]
     innen = plan.get("wohnflaeche") or (sum(r["m2"] for r in innen_r) if all(r.get("m2") for r in innen_r) else 0)

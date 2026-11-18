@@ -930,8 +930,20 @@ def _grundriss_offen(karte, nest, korb, plaene):
             continue
         if set(w["ids"]) & korb and not w.get("korb_frei") and not set(w["ids"]) & nest:  # Papierkorb: nicht ansehen
             continue
-        kand = [u for u in w["bilder"] if u.startswith("http") and ((hashes.get(u) or {}).get("g") or 0) >= 0.6]
+        klasse = _grundriss_klassen()
+        kand = [u for u in w["bilder"] if u.startswith("http") and ((hashes.get(u) or {}).get("g") or 0) >= 0.6
+                and klasse.get((hashes.get(u) or {}).get("h")) != "kein"]
         if not kand:
+            # Saad 2026-11-18: gibt es gar keinen Grundriss, schätzt Claude einen aus allen Fotos und dem Text
+            # (data/grundriss_plaene/ID.json mit "schaetzung": true, rotes Band SCHÄTZUNG ganz oben; Ablauf in REVIEW.md)
+            hat_plan = (any(p["ids"] & set(w["ids"]) for p in plaene)
+                        or any(klasse.get((hashes.get(u) or {}).get("h")) in ("plan", "haesslich") for u in w["bilder"]))
+            erledigt = any(set(e.get("ids") or []) & set(w["ids"]) and e.get("ergebnis") in ("geschaetzt", "keine_fotos")
+                           for e in geprueft.values())
+            if not hat_plan and not erledigt:
+                offen.append({"id": w["id"], "ids": w["ids"], "titel": w["titel"], "adresse": w.get("adresse"),
+                              "flaeche": w.get("flaeche"), "zimmer": w.get("zimmer"), "im_nest": bool(set(w["ids"]) & nest),
+                              "schaetzen": True, "fotos": [u for u in w["bilder"] if u.startswith("http")]})
             continue
         gesehen = [int(h, 16) for e in geprueft.values() if set(e.get("ids") or []) & set(w["ids"])
                    for h in e.get("plaene") or []]

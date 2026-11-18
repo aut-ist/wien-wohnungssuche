@@ -127,6 +127,15 @@ Zusätzlich jedes angesehene Bild in `data/grundriss_klassen.json` eintragen (Fi
 verwechselt Lagepläne, Finanzierungs-Logos und Badfotos mit Plänen, deshalb zählt die Klasse.
 Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
 
+### Kein Grundriss vorhanden: schätzen (seit 2026-11-18, Saad)
+Steht in `data/grundriss_offen.json` ein Eintrag mit `"schaetzen": true`, hat die Wohnung keinen einzigen Plan. Zuerst die
+angehängten Dokumente (Exposé/Grundriss-PDF) und die Makler-/Bauträgerseite nach einem echten Plan durchsuchen (gefunden: Bild nach
+`docs/grundrisse/`, Eintrag in `data/grundriss_bilder.json`). Sonst ALLE Fotos (`fotos`) und die Beschreibung ansehen und einen Plan
+schätzen: Räume (Zimmerzahl, Bad/WC getrennt, Küche offen?, Dachschrägen, Treppe bei Maisonette, Terrasse/Balkon mit m² aus dem Text),
+Gesamtfläche laut Inserat, Lage der Räume aus Blickachsen und Türen; `data/grundriss_plaene/ID.json` mit `"schaetzung": true`
+(rotes Band „SCHÄTZUNG“ ganz oben), `ersetzt: []`, Hinweis „aus N Fotos und dem Text geschätzt, nicht verbindlich“. Danach in
+`data/grundriss_geprueft.json` `"ergebnis": "geschaetzt"` eintragen (ohne brauchbare Fotos: `"keine_fotos"`).
+
 ## Neubauprojekte suchen (jeden Montag, nach den Grundrissen; seit 2026-11-09)
 Zusätzlich zu den Portalen liest `wohnungen/bautraeger.py` täglich die Einheitenlisten der Projekte in
 `data/bautraeger_projekte.json`. Jeden Montag (`TZ=Europe/Vienna date +%u` ist 1) neue Projekte in 1180, 1190, 1080, 1090, 1010,
