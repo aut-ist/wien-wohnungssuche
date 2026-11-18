@@ -246,6 +246,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben. Eine Wohnung ist entweder im Nest oder im Brutkasten (Wunsch 2026-11-08):
   im Brutkasten steht sie nicht in der Nest-Liste, 🐣 oder 🥚 legt sie zurück ins Nest; für Scrape und Recherche zählt sie weiter wie eine Nest-Wohnung.
   Die Gast-Ansicht (`?nest`, nichts änderbar) zeigt seit 2026-11-08 nur den Brutkasten, keine Nest-Wohnungen.
+  Teilen (2026-11-18): Knopf "↗ Teilen" in jeder Wohnung -> Link `?nest&w=ID` (Gast sieht nur diese eine Wohnung,
+  geöffnet, nichts änderbar); im Brutkasten-Tab "↗ Brutkasten teilen" -> `?nest`. iPhone: Teilen-Menü, sonst Link kopieren.
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
   Database, Adresse in `docs/einstellungen.json`, Regeln in `tools/firebase-regeln.json`.
   Der tägliche Workflow sichert den Stand nach `data/markierungen.json`. Wiederherstellen:

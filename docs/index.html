@@ -137,6 +137,10 @@
   .korb-link { display: block; margin: 14px auto 6px; border: 0; background: none; color: var(--muted); font-size: 12.5px; cursor: pointer; text-decoration: underline; }
   .korb-kopf { display: flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 13px; font-weight: 600; background: var(--soft); }
   .korb-kopf .spacer { flex: 1; }
+  .teil-kopf { display: flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 13px; background: var(--soft); }
+  .teil-kopf .spacer { flex: 1; }
+  .teil-ok { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 3000; background: #1d1f23; color: #fff;
+    padding: 10px 16px; border-radius: 10px; font-size: 14px; box-shadow: 0 4px 16px rgba(0,0,0,.25); }
   .ei-icon.kueken { line-height: 1; text-align: center; }
   .ei-icon.kueken::before { content: ''; position: absolute; left: 50%; top: 50%; width: 46px; height: 46px; margin: -23px 0 0 -23px;
     border-radius: 50%; background: radial-gradient(circle, rgba(255,214,64,.75) 0%, rgba(255,214,64,.25) 55%, rgba(255,214,64,0) 72%);
@@ -416,6 +420,8 @@
 <script>
 // Gast-Ansicht (?nest): zeigt seit 2026-11-08 nur den Brutkasten (Nest-Wohnungen nicht), nichts ist änderbar
 const NUR_NEST = new URLSearchParams(location.search).has('nest');
+// Geteilte Wohnung (?nest&w=ID, Wunsch 2026-11-18): Gäste sehen nur diese eine Wohnung, nur ansehen, nichts änderbar
+const GETEILT = NUR_NEST ? new URLSearchParams(location.search).get('w') : null;
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#f5b27a' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
@@ -710,7 +716,8 @@ const istBrut = w => idsVon(w).some(id => String(mein.gemerkt[id] || '').startsW
 const imNest = w => istGemerkt(w) && !istBrut(w);
 function sichtbar() {
   if (NUR_NEST) {  // Gäste sehen nur den Brutkasten, ohne Filter (Wunsch 2026-11-08)
-    const brut = state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
+    // geteilte einzelne Wohnung: nur die, nicht der ganze Brutkasten
+    const brut = GETEILT ? state.daten.filter(w => idsVon(w).includes(GETEILT)) : state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
     return { karte: brut, alle: brut, gemerkt: brut, brut, papierkorb: [] };
   }
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
@@ -970,7 +977,9 @@ function listeRendern() {
   // der Papierkorb hat keinen eigenen Tab mehr (dort ist jetzt der Brutkasten): kleiner Link unter der Liste
   if (state.tab === 'papierkorb')
     el.insertAdjacentHTML('afterbegin', `<div class="korb-kopf">🗑 Aus'm Nest ghaut · ${state.nKorb}<span class="spacer"></span><button class="btn" data-akt="korb-zu">← zurück</button></div>`);
-  else if (!NUR_NEST && n >= liste.length)
+  else if (state.tab === 'brut' && !NUR_NEST && liste.length)
+    el.insertAdjacentHTML('afterbegin', `<div class="teil-kopf">Link für andere: sehen den Brutkasten, können nichts ändern<span class="spacer"></span><button class="btn" data-akt="teilen-brut">↗ Brutkasten teilen</button></div>`);
+  if (!NUR_NEST && state.tab !== 'papierkorb' && n >= liste.length)
     el.insertAdjacentHTML('beforeend', `<button class="korb-link" data-akt="korb">🗑 Aus'm Nest ghaut (${state.nKorb}) anzeigen</button>`);
   const mehr = el.querySelector('.mehr-laden');
   if (mehr) mehrBeobachter.observe(mehr);
@@ -1017,6 +1026,7 @@ async function zeigeDetail(id, neuLaden = true) {
       <button class="btn" data-akt="schliessen">← Zurück</button>
       <button class="btn nur-handy" data-akt="aufkarte">📍 Karte</button>
       <span class="spacer"></span>
+      <button class="btn" data-akt="teilen" data-id="${esc(w.id)}" title="Link zum Ansehen schicken (ohne Ändern)">↗ Teilen</button>
       ${NUR_NEST ? '' : papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
         : `<button class="btn" data-akt="brut" data-id="${esc(w.id)}" style="${istBrut(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🐣 ${istBrut(w) ? 'Im Brutkasten' : 'Ausbrüten'}</button>
            <button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${imNest(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${imNest(w) ? 'Im Nest' : 'Ins Nest'}</button>
@@ -1338,6 +1348,8 @@ document.getElementById('app').addEventListener('click', e => {
   const id = t.dataset.id || t.closest('[data-id]')?.dataset.id;
   const akt = t.dataset.akt;
   if (akt === 'link') return;  // externer Link (Google Maps): normal öffnen, Wohnung nicht aufklappen
+  if (akt === 'teilen') return teilen(id);
+  if (akt === 'teilen-brut') return teilen(null);
   if (akt === 'merken') return merken(id);
   if (akt === 'brut') return brueten(id);
   if (akt === 'korb' || akt === 'korb-zu') return tabWechseln(akt === 'korb' ? 'papierkorb' : 'alle');
@@ -1521,13 +1533,36 @@ document.getElementById('btnFilter').addEventListener('click', e => {
   setTimeout(() => map.invalidateSize(), 50);
 });
 
+/* ---------- Teilen ----------
+   Link auf die Nur-Ansehen-Ansicht (?nest): Gäste sehen den Brutkasten bzw. die geteilte Wohnung, können aber
+   nichts merken, rauswerfen oder als gesehen markieren (markiere/gemeinsam.schreiben tun dort nichts). */
+async function teilen(id) {
+  const w = id && state.daten.find(x => x.id === id);
+  const url = location.origin + location.pathname + '?nest' + (w ? '&w=' + encodeURIComponent(w.id) : '');
+  const titel = w ? [w.titel, eur(w.preis), w.flaeche ? w.flaeche + ' m²' : '', w.zimmer ? w.zimmer + ' Zimmer' : ''].filter(Boolean).join(' · ')
+    : 'Gigibirds Brutkasten';
+  if (navigator.share) {
+    try { await navigator.share({ title: titel, text: titel, url }); return; }
+    catch (e) { if (e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(url); teilOk('Link kopiert – zum Einfügen in WhatsApp & Co.'); }
+  catch { window.prompt('Link zum Teilen:', url); }
+}
+function teilOk(text) {
+  const d = document.createElement('div');
+  d.className = 'teil-ok'; d.textContent = text;
+  document.body.appendChild(d);
+  setTimeout(() => d.remove(), 2500);
+}
+
 /* ---------- Start ---------- */
 (async () => {
   if (NUR_NEST) {
     document.title = 'Gigibirds Brutkasten';
     document.querySelector('h1').textContent = 'Gigibirds Brutkasten';
     document.querySelector('.motto').textContent = 'Die Nestle, die wir uns anschauen';
-    document.querySelector('[data-tab="alle"]').innerHTML = '🐣 Brutkasten <span id="nAlle"></span>';
+    document.querySelector('[data-tab="alle"]').innerHTML = GETEILT ? '🏠 Wohnung <span id="nAlle" hidden></span>' : '🐣 Brutkasten <span id="nAlle"></span>';
+    if (GETEILT) { document.querySelector('h1').textContent = 'Gigibirds Nestle'; document.querySelector('.motto').textContent = 'Eine Wohnung zum Anschauen'; }
   }
   filterUi();
   ladeGebiete().catch(console.error);
@@ -1538,6 +1573,10 @@ document.getElementById('btnFilter').addEventListener('click', e => {
   document.getElementById('stand').title = (d.quellen || ['willhaben']).join(', ');
   zeichne();
   gemeinsam.start(zeichne);
+  if (GETEILT) {  // geteilte Wohnung gleich öffnen (Nummer kann auch die eines zusammengeführten Inserats sein)
+    const w = state.daten.find(x => idsVon(x).includes(GETEILT));
+    if (w) { document.title = w.titel; oeffne(w.id); }
+  }
 })();
 </script>
 </body>
