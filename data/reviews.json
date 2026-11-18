@@ -27975,7 +27975,11 @@
    "betrag": 420.12,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-18",
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", Etagenheizung, Energieträger Gas (ImmoScout24)"
+  }
  },
  "ds-15261145": {
   "lage": {
@@ -29357,7 +29361,12 @@
    "betrag": 184.0,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-18",
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"9. Wiener Gemeindebezirk (Alsergrund)\", keine Straße"
+  }
  },
  "wh-1940426067": {
   "lage": {
@@ -32461,5 +32470,34 @@
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
   "datum": "2026-11-17"
+ },
+ "ds-15300832": {
+  "lage": {
+   "adresse": "Am Hameau",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Maisonette am Hameau\", Neustift am Walde in der Nähe (Hameau-Anlage, 19.)"
+  },
+  "eckdaten": {},
+  "datum": "2026-11-18"
+ },
+ "is-162438705604": {
+  "lage": {
+   "adresse": "Schönburgstraße 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat nennt Schönburgstraße 40; Grundriss (Hochparterre, Top 2, NF 108,76 m²) passt zu 109 m²"
+  },
+  "datum": "2026-11-18"
+ },
+ "wh-1138247539": {
+  "lage": {
+   "adresse": "Schönburgstraße 40",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Inserat nennt Schönburgstraße 40; Grundriss Top 2, 108,76 m²"
+  },
+  "datum": "2026-11-18"
  }
 }
