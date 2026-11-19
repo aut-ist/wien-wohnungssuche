@@ -92,59 +92,6 @@
   ]
  },
  {
-  "id": "ds-15279211",
-  "ids": [
-   "ds-15279211"
-  ],
-  "titel": "MITTEN IM HERZEN WIENS! 4 Zimmer, 132 m² und eine Adresse, die begeistert!",
-  "adresse": null,
-  "flaeche": 132.27,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://ic.ds.at/TzNujw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/3fe15290ced750e0b56161bf91dc36ba/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/LKX7NffW6BEYD56AiXzRiC20261009.jpg",
-   "https://ic.ds.at/ztWKzA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/3b90d1ba6275aea34c77274637f0955c/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/PHidpVD5NUE2AJQStE2h4K20261009.jpg",
-   "https://ic.ds.at/-v5iiw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/0d981b831f387b2ff42c308426f70df2/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/NSyKExSqwrTqdPiTKzU4HA20261009.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/ds-15279211/"
- },
- {
-  "id": "wh-1259865064",
-  "ids": [
-   "wh-1259865064",
-   "wh-1008182878"
-  ],
-  "titel": "4 Zimmer möglich I Zentral begehbar I Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz!",
-  "adresse": null,
-  "flaeche": 86.0,
-  "zimmer": 3,
-  "im_nest": false,
-  "schaetzen": true,
-  "fotos": [
-   "https://cache.willhaben.at/mmo/4/125/986/5064_1164892237.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_752365814.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_1426220730.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-94896389.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-656061377.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_61813906.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_351292105.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_684641253.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_80491254.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-1196955035.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-513321379.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_1929277847.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-547578027.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_1737331646.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-867619877.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-2108605036.jpg",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_-458633965.png",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_400810058.png",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_863652399.png",
-   "https://cache.willhaben.at/mmo/4/125/986/5064_504711558.jpg"
-  ]
- },
- {
   "id": "wh-1918453621",
   "ids": [
    "wh-1918453621",

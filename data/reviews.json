@@ -32554,13 +32554,14 @@
  },
  "is-593512042594": {
   "lage": {
-   "adresse": "Beheimgasse 49",
-   "lat": null,
-   "lon": null,
+   "adresse": "Beheimgasse 49/28",
+   "lat": 48.220208,
+   "lon": 16.333521,
    "sicherheit": "genau",
-   "begruendung": "Grundriss-Schriftfeld: DAS BEHEIM, Beheimgasse 49 in 1170 Wien, TOP 28 (Wohnsalon)"
+   "begruendung": "Grundriss-Schriftfeld: DAS BEHEIM, Beheimgasse 49 in 1170 Wien, TOP 28 (Wohnsalon); ImmoScout nennt fälschlich 1180 (Saad 2026-11-19: Adresse steht auf den Fotos)"
   },
-  "datum": "2026-11-19"
+  "datum": "2026-11-19",
+  "gleich_wie": "wh-1677852229"
  },
  "is-071271662101": {
   "zustand": {
@@ -32605,6 +32606,26 @@
    "lon": 16.396112,
    "sicherheit": "genau",
    "begruendung": "Baufeld 14A, Otto-Preminger-Straße 16 / Hilde-Güden-Promenade 7; 6. Etage 86,79 m²; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  },
+  "datum": "2026-11-19"
+ },
+ "wh-1677852229": {
+  "lage": {
+   "adresse": "Beheimgasse 49/28",
+   "lat": 48.220208,
+   "lon": 16.333521,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie is-593512042594 (Penthouse 136 m², 1.150.000 €, 5. Stock, gleicher Titel); Grundriss-Schriftfeld DAS BEHEIM, Beheimgasse 49, 1170, Top 28"
+  },
+  "datum": "2026-11-19"
+ },
+ "is-154445903757": {
+  "lage": {
+   "adresse": "Beheimgasse 49/28",
+   "lat": 48.220208,
+   "lon": 16.333521,
+   "sicherheit": "genau",
+   "begruendung": "gleiche Wohnung wie is-593512042594; Grundriss-Schriftfeld DAS BEHEIM, Beheimgasse 49, 1170, Top 28"
   },
   "datum": "2026-11-19"
  }

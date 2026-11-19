@@ -53,6 +53,10 @@ Platz oder eindeutige Landmarke ("direkt am Karmeliterplatz", "Blick auf den Aug
 - `sicherheit: unklar` heißt, es gibt keinen brauchbaren Hinweis. Die Wohnung bleibt
   dann grau auf der Karte.
 `adresse` immer ohne PLZ, etwa "Leopoldsgasse 12" oder "Karmeliterplatz".
+Bei `genau`/`ungefaehr` immer auch `lat`/`lon` eintragen (z. B. aus ADRESSENOGD von data.wien.gv.at): ohne Koordinaten verortet
+`build` die Adresse mit der PLZ des Inserats, und klappt das in der Cloud nicht, wird die Recherche stillschweigend
+verworfen (2026-11-19: Beheimgasse 49, 1170 stand auf dem Grundriss, ImmoScout nannte 1180, die Karte zeigte weiter den 18.).
+Nennt die Quelle einen anderen Bezirk als das Inserat, gilt die Quelle.
 
 ## Frage `heizung`
 Seit 2026-10-28 schließt Gas nichts mehr aus: auf der Karte gibt es den Schalter "ohne Gasheizung".
