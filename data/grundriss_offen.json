@@ -1,27 +1,5 @@
 [
  {
-  "id": "wh-1141789751",
-  "ids": [
-   "wh-1141789751",
-   "is-001482286681",
-   "ds-15299293",
-   "fm-5772347",
-   "wh-1805070625",
-   "is-366364130003"
-  ],
-  "titel": "Absolute Ruhelage beim Aumannplatz! Großzügige Wohnung mit zwei Eingängen!",
-  "adresse": "Währinger Straße 168",
-  "flaeche": 119.96,
-  "zimmer": 4,
-  "im_nest": true,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://ic.ds.at/u943Tg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/57bf419f399fa2c6cdcaa78b0c50a127/fm_h1080_w1920/5davTvfpKf06oHsAwjBigM20261029.jpg",
-   "https://cache.willhaben.at/mmo/1/114/178/9751_-1075691810.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1141789751/"
- },
- {
   "id": "wh-1861112195",
   "ids": [
    "wh-1861112195",
@@ -114,21 +92,6 @@
   ]
  },
  {
-  "id": "is-111082022527",
-  "ids": [
-   "is-111082022527"
-  ],
-  "titel": "NATÜRLICH DRAUSSEN - VILLAGE IM DRITTEN",
-  "adresse": null,
-  "flaeche": 84.25,
-  "zimmer": 4,
-  "im_nest": false,
-  "schaetzen": true,
-  "fotos": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1757958409-7c1298178ebe4340a01c203d66b24e95"
-  ]
- },
- {
   "id": "ds-15279211",
   "ids": [
    "ds-15279211"
@@ -192,76 +155,16 @@
   "flaeche": 95.04,
   "zimmer": 3,
   "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1795003819-7637c6765f03475297b20e865b56858a"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1918453621/"
- },
- {
-  "id": "wh-1900507163",
-  "ids": [
-   "wh-1900507163",
-   "is-870171566745"
-  ],
-  "titel": "VILLAGE IM DRITTEN | AMILIENHIT: 4-ZIMMER WOHNUNG MIT BALKON | ANLEGER",
-  "adresse": null,
-  "flaeche": 86.79,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84gh-1767793450-ee712f40d24b457697cfb8d45a962127"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-1900507163/"
- },
- {
-  "id": "is-593512042594",
-  "ids": [
-   "is-593512042594"
-  ],
-  "titel": "TRAUMHAFTES LICHTDURCHFLUTETES PENTHOUSE MIT HERRLICHER DACHTERRASSE",
-  "adresse": null,
-  "flaeche": 136.31,
-  "zimmer": 5,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83gt-1748602882-a5f312bdf5f94510a99d96c70381d63d",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83gt-1784805267-965b6a692a1049268f9eb16d0ec628f3"
-  ],
-  "ordner": "data/grundrisse_zeichnen/is-593512042594/"
- },
- {
-  "id": "is-071271662101",
-  "ids": [
-   "is-071271662101"
-  ],
-  "titel": "Zum Anlegerpreis: UNIKAT FÜR FREIGEISTER – VILLAGE IM DRITTEN",
-  "adresse": "Hilde-Güden-Promenade 11",
-  "flaeche": 101.6,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1777989075-dd68f3316f624d169d6bc43174543004"
-  ],
-  "ordner": "data/grundrisse_zeichnen/is-071271662101/"
- },
- {
-  "id": "is-530428004558",
-  "ids": [
-   "is-530428004558"
-  ],
-  "titel": "Zum Anlegerpreis: UNIKAT FÜR FREIGEISTER – VILLAGE IM DRITTEN",
-  "adresse": "Hilde-Güden-Promenade 9",
-  "flaeche": 99.39,
-  "zimmer": 4,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1777990090-617a8a935d6b4f7cb82db2bcc2c1a7e7"
-  ],
-  "ordner": "data/grundrisse_zeichnen/is-530428004558/"
+  "schaetzen": true,
+  "fotos": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-afdf14763e8742f7af3a2df6c7777c8d",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-ee6ae716a5d240279fcea3e9e60d6cd1",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-0ea32e1681fe48eabb50685cf08d9ae8",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-967ac1ace5d64d1da6a1c7d4030ec794",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-710248c4468842689ee475bae91679b6",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-2187ed9cdb454194bfd601cdbc764841",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1795003819-7637c6765f03475297b20e865b56858a",
+   "https://cache.willhaben.at/mmo/1/191/845/3621_-1516342541.jpg"
+  ]
  }
 ]
