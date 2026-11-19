@@ -1,19 +1,267 @@
 [
  {
-  "id": "wh-1714274242",
+  "id": "wh-1141789751",
   "ids": [
-   "wh-1714274242"
+   "wh-1141789751",
+   "is-001482286681",
+   "ds-15299293",
+   "fm-5772347",
+   "wh-1805070625",
+   "is-366364130003"
   ],
-  "titel": "Wohnen in bester Lage - provisionsfrei: Sanierte Split-Level-Wohnung mit Loggia zwischen Stadtpark, Prater & Rochusmarkt",
-  "adresse": "Marxergasse 24",
-  "flaeche": 92.0,
+  "titel": "Absolute Ruhelage beim Aumannplatz! Großzügige Wohnung mit zwei Eingängen!",
+  "adresse": "Währinger Straße 168",
+  "flaeche": 119.96,
+  "zimmer": 4,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/u943Tg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/57bf419f399fa2c6cdcaa78b0c50a127/fm_h1080_w1920/5davTvfpKf06oHsAwjBigM20261029.jpg",
+   "https://cache.willhaben.at/mmo/1/114/178/9751_-1075691810.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1141789751/"
+ },
+ {
+  "id": "wh-1861112195",
+  "ids": [
+   "wh-1861112195",
+   "is-426009345030"
+  ],
+  "titel": "Ankommen, Wohlfühlen und Bleiben: Separate Küche, 3 Zimmer, Loggia!",
+  "adresse": "Paulinengasse",
+  "flaeche": 75.0,
   "zimmer": 3,
   "im_nest": false,
-  "neu_gezeichnet": true,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/2/171/427/4242_-1893699274.png",
-   "https://cache.willhaben.at/mmo/2/171/427/4242_1821315392.png"
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/5/186/111/2195_708044816.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_982540594.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_712865433.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_1930242624.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_1446353460.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_1525120818.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_-105464729.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_-1966178564.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_1993216494.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_-1138444222.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_-927605308.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_2070798829.jpg",
+   "https://cache.willhaben.at/mmo/5/186/111/2195_-1284574848.jpg"
+  ]
+ },
+ {
+  "id": "wh-1943080169",
+  "ids": [
+   "wh-1943080169",
+   "is-394279007961"
   ],
-  "ordner": "data/grundrisse_zeichnen/wh-1714274242/"
+  "titel": "DB IMMOBILIEN | City-Wohnung mit Parkplatz",
+  "adresse": null,
+  "flaeche": 90.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/9/194/308/0169_-1680031672.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_476906376.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_1977452217.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_-591995592.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_1058739064.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_-1683989280.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_1190783954.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_2029029083.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_-1181246285.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_-920251604.jpg",
+   "https://cache.willhaben.at/mmo/9/194/308/0169_1202295756.jpg"
+  ]
+ },
+ {
+  "id": "wh-1675748606",
+  "ids": [
+   "wh-1675748606"
+  ],
+  "titel": "Entzückende 4-Zimmer-Wohnung mit Balkon nahe Nußdorfer Straße",
+  "adresse": "Bindergasse",
+  "flaeche": 127.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/6/167/574/8606_578474537.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-1981694491.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-1283046676.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1466208801.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-944916679.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-624223762.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-757451681.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1691797915.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-25519081.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1968895393.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-699773222.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1078947236.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_448187295.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_289596031.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_2021691121.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1726896507.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1411628027.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1990574325.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_2099055389.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_201543301.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1686815203.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_1528093635.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-1122421178.jpg",
+   "https://cache.willhaben.at/mmo/6/167/574/8606_-1077967818.jpg"
+  ]
+ },
+ {
+  "id": "is-111082022527",
+  "ids": [
+   "is-111082022527"
+  ],
+  "titel": "NATÜRLICH DRAUSSEN - VILLAGE IM DRITTEN",
+  "adresse": null,
+  "flaeche": 84.25,
+  "zimmer": 4,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1757958409-7c1298178ebe4340a01c203d66b24e95"
+  ]
+ },
+ {
+  "id": "ds-15279211",
+  "ids": [
+   "ds-15279211"
+  ],
+  "titel": "MITTEN IM HERZEN WIENS! 4 Zimmer, 132 m² und eine Adresse, die begeistert!",
+  "adresse": null,
+  "flaeche": 132.27,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/TzNujw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/3fe15290ced750e0b56161bf91dc36ba/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/LKX7NffW6BEYD56AiXzRiC20261009.jpg",
+   "https://ic.ds.at/ztWKzA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/3b90d1ba6275aea34c77274637f0955c/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/PHidpVD5NUE2AJQStE2h4K20261009.jpg",
+   "https://ic.ds.at/-v5iiw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/0d981b831f387b2ff42c308426f70df2/Fc_Ltr_MAvZa9y-ZXO.jpg_fm_h1080_w1920/NSyKExSqwrTqdPiTKzU4HA20261009.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15279211/"
+ },
+ {
+  "id": "wh-1259865064",
+  "ids": [
+   "wh-1259865064",
+   "wh-1008182878"
+  ],
+  "titel": "4 Zimmer möglich I Zentral begehbar I Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz!",
+  "adresse": null,
+  "flaeche": 86.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/4/125/986/5064_1164892237.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_752365814.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_1426220730.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-94896389.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-656061377.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_61813906.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_351292105.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_684641253.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_80491254.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-1196955035.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-513321379.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_1929277847.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-547578027.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_1737331646.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-867619877.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-2108605036.jpg",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_-458633965.png",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_400810058.png",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_863652399.png",
+   "https://cache.willhaben.at/mmo/4/125/986/5064_504711558.jpg"
+  ]
+ },
+ {
+  "id": "wh-1918453621",
+  "ids": [
+   "wh-1918453621",
+   "is-710371500668"
+  ],
+  "titel": "Stilvolle Altbau-Eleganz trifft auf modernen Wohnkomfort! Exklusive 3-Zimmer Wohnung im 2. Bezirk",
+  "adresse": null,
+  "flaeche": 95.04,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1795003819-7637c6765f03475297b20e865b56858a"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1918453621/"
+ },
+ {
+  "id": "wh-1900507163",
+  "ids": [
+   "wh-1900507163",
+   "is-870171566745"
+  ],
+  "titel": "VILLAGE IM DRITTEN | AMILIENHIT: 4-ZIMMER WOHNUNG MIT BALKON | ANLEGER",
+  "adresse": null,
+  "flaeche": 86.79,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84gh-1767793450-ee712f40d24b457697cfb8d45a962127"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1900507163/"
+ },
+ {
+  "id": "is-593512042594",
+  "ids": [
+   "is-593512042594"
+  ],
+  "titel": "TRAUMHAFTES LICHTDURCHFLUTETES PENTHOUSE MIT HERRLICHER DACHTERRASSE",
+  "adresse": null,
+  "flaeche": 136.31,
+  "zimmer": 5,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83gt-1748602882-a5f312bdf5f94510a99d96c70381d63d",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83gt-1784805267-965b6a692a1049268f9eb16d0ec628f3"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-593512042594/"
+ },
+ {
+  "id": "is-071271662101",
+  "ids": [
+   "is-071271662101"
+  ],
+  "titel": "Zum Anlegerpreis: UNIKAT FÜR FREIGEISTER – VILLAGE IM DRITTEN",
+  "adresse": "Hilde-Güden-Promenade 11",
+  "flaeche": 101.6,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1777989075-dd68f3316f624d169d6bc43174543004"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-071271662101/"
+ },
+ {
+  "id": "is-530428004558",
+  "ids": [
+   "is-530428004558"
+  ],
+  "titel": "Zum Anlegerpreis: UNIKAT FÜR FREIGEISTER – VILLAGE IM DRITTEN",
+  "adresse": "Hilde-Güden-Promenade 9",
+  "flaeche": 99.39,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83tC-1777990090-617a8a935d6b4f7cb82db2bcc2c1a7e7"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-530428004558/"
  }
 ]

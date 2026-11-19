@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18",
+ "stand": "2026-11-19",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -883,6 +883,17 @@
     {
      "top": "",
      "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "2",
+     "flaeche": "39,89 m2",
+     "eigennutzer": "€ 330.000,-",
+     "href": "https://www.ehl.at/objekt/91488",
+     "garten": "14,24 m²",
+     "terrasse": "9,17 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
      "geschoss": "2. Etage",
      "zimmer": "3",
      "flaeche": "64,68 m2",
@@ -890,6 +901,50 @@
      "href": "https://www.ehl.at/objekt/91494",
      "loggia": "1,92 m²",
      "balkon": "6,4 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "3. Etage",
+     "zimmer": "2",
+     "flaeche": "48,78 m2",
+     "eigennutzer": "€ 390.000,-",
+     "href": "https://www.ehl.at/objekt/91500",
+     "loggia": "0,85 m²",
+     "balkon": "1,6 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "3",
+     "flaeche": "63,09 m2",
+     "eigennutzer": "€ 515.000,-",
+     "href": "https://www.ehl.at/objekt/91506",
+     "loggia": "5,31 m²",
+     "terrasse": "5,87 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "3.5",
+     "flaeche": "62,06 m2",
+     "eigennutzer": "€ 555.000,-",
+     "href": "https://www.ehl.at/objekt/91508",
+     "loggia": "5,37 m²",
+     "terrasse": "3,28 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "4",
+     "flaeche": "95,62 m2",
+     "eigennutzer": "€ 780.000,-",
+     "href": "https://www.ehl.at/objekt/100972",
+     "garten": "30,28 m²",
+     "terrasse": "21,54 m²"
     }
    ],
    "lat": 48.244605,
@@ -3196,16 +3251,6 @@
      "flaeche": "56,41 m2",
      "eigennutzer": "€ 474.000,-",
      "href": "https://www.ehl.at/objekt/72851",
-     "balkon": "4,71 m²"
-    },
-    {
-     "top": "36",
-     "stiege": "",
-     "geschoss": "8. Etage",
-     "zimmer": "2",
-     "flaeche": "43,7 m2",
-     "eigennutzer": "€ 388.000,-",
-     "href": "https://www.ehl.at/objekt/72852",
      "balkon": "4,71 m²"
     },
     {
