@@ -8577,5 +8577,82 @@
   "titel": "Exklusive Gartenwohnung in Sieveringer Bestlage",
   "ergebnis": "unklar: Sievering nahe Sieveringer Straße/Bus 39A, Punkt bis 765 m versetzt. Geprüft: Schwester-Inserate (Wolke 7, HWB 49,8): nur is-203529028683, keine Nr.; Grundriss-Ordner nur Foto (Schlafzimmer), kein Plan; Websuchen: 'Wolke 7 Sievering Gartenwohnung 78 m² Eigengarten', 'Gartenwohnung Sievering HWB 49,8 Wolke 7 Projekt Adresse' ohne Treffer; Makler-Website nicht erreichbar.",
   "datum": "2026-11-18"
+ },
+ "wh-1900507163": {
+  "ids": [
+   "wh-1900507163",
+   "is-870171566745"
+  ],
+  "titel": "wh-1900507163",
+  "ergebnis": "Otto-Preminger-Straße 16 (Baufeld 14A, Village im Dritten), genau; 6. Etage 86,79 m², Eigennutzerpreis 788.000 € (ehl.at Projektliste: Einheit über Etage/m²/Preis; Top nicht genannt). Liegt bei St. Marx, nicht beim Portalpunkt.",
+  "datum": "2026-11-19"
+ },
+ "is-071271662101": {
+  "ids": [
+   "is-071271662101"
+  ],
+  "titel": "is-071271662101",
+  "ergebnis": "Hilde-Güden-Promenade 11 (Baufeld 14B), genau laut Inserat; 1. Etage 101,6 m², Eigennutzer 790.000 € (ehl.at Projektliste: Einheit über Etage/m²/Preis; Top nicht genannt)",
+  "datum": "2026-11-19"
+ },
+ "is-530428004558": {
+  "ids": [
+   "is-530428004558"
+  ],
+  "titel": "is-530428004558",
+  "ergebnis": "Hilde-Güden-Promenade 9 (Baufeld 14B), genau laut Inserat; 9. Etage 99,39 m², Eigennutzer 880.000 € (ehl.at Projektliste: Einheit über Etage/m²/Preis; Top nicht genannt)",
+  "datum": "2026-11-19"
+ },
+ "is-593512042594": {
+  "ids": [
+   "is-593512042594"
+  ],
+  "titel": "is-593512042594",
+  "ergebnis": "Beheimgasse 49, Top 28 (DAS BEHEIM, 1170 Wien): Grundriss-Schriftfeld, Wohnsalon; weekend.at-Inserat nennt ebenfalls 1170",
+  "datum": "2026-11-19"
+ },
+ "wh-1861112195": {
+  "ids": [
+   "wh-1861112195",
+   "is-426009345030"
+  ],
+  "titel": "Ankommen, Wohlfühlen und Bleiben: Separate Küche, 3 Zimmer, Loggia!",
+  "ergebnis": "unklar: nur Paulinengasse (1180). Geprüft: Schwester-Inserate Lind mit gleichem HWB 27: keine; Grundriss-Ordner fehlt; Websuche 'Ankommen, Wohlfühlen und Bleiben Separate Küche 3 Zimmer Loggia Paulinengasse' ohne Treffer; Lind-Website nicht abgerufen.",
+  "datum": "2026-11-19"
+ },
+ "wh-1918453621": {
+  "ids": [
+   "wh-1918453621",
+   "is-710371500668"
+  ],
+  "titel": "Stilvolle Altbau-Eleganz trifft auf modernen Wohnkomfort! Exklusive 3-Zimmer Wohnung im 2. Bezirk",
+  "ergebnis": "unklar: nur 2. Bezirk. Geprüft: Schwester-Inserate (Muhr, HWB 87,3): nur is-710371500668 ohne Adresse; Grundriss-Ordner enthält nur einen QR-Code; Websuche nach Titel fand nichts.",
+  "datum": "2026-11-19"
+ },
+ "wh-1943080169": {
+  "ids": [
+   "wh-1943080169",
+   "is-394279007961"
+  ],
+  "titel": "DB IMMOBILIEN | City-Wohnung mit Parkplatz",
+  "ergebnis": "unklar: kein Straßenhinweis, Portalpunkt ist Platzhalter. Geprüft: Schwester-Inserate (DB Immobilien, HWB 86,8): nur is-394279007961; Grundriss-Ordner fehlt; Websuche 'DB IMMOBILIEN City-Wohnung mit Parkplatz 1030' ohne Treffer.",
+  "datum": "2026-11-19"
+ },
+ "wh-1675748606": {
+  "ids": [
+   "wh-1675748606"
+  ],
+  "titel": "Entzückende 4-Zimmer-Wohnung mit Balkon nahe Nußdorfer Straße",
+  "ergebnis": "unklar: nur Bindergasse (1090) laut Inserat, keine Nummer. Geprüft: keine Schwester-Inserate (kein Makler genannt), Grundriss-Ordner fehlt; Websuche nach Titel ohne Treffer (Bindergasse hat nur wenige Häuser, Nr. 5-9).",
+  "datum": "2026-11-19"
+ },
+ "wh-1259865064": {
+  "ids": [
+   "wh-1259865064",
+   "wh-1008182878"
+  ],
+  "titel": "4 Zimmer möglich I Zentral begehbar I Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz!",
+  "ergebnis": "unklar: Kardinal-Nagl-Platz (2 min U3, Billa im Haus). Geprüft: Schwester-Inserate Etera (HWB 132, gleiche Fotos): wh-1463069914, wh-1985535235, fm-5766969, fm-5774024/5, alle ohne Adresse; Grundriss-Ordner fehlt; Websuche ohne Treffer.",
+  "datum": "2026-11-19"
  }
 }

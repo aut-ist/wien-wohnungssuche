@@ -32499,5 +32499,113 @@
    "begruendung": "Inserat nennt Schönburgstraße 40; Grundriss Top 2, 108,76 m²"
   },
   "datum": "2026-11-18"
+ },
+ "is-111082022527": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "lat": 48.188799,
+   "lon": 16.396112,
+   "sicherheit": "genau",
+   "begruendung": "Baufeld 14A, 6. Etage 84,25 m² 769.000 € = EHL-Einheit; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  },
+  "datum": "2026-11-19"
+ },
+ "ds-15279211": {
+  "lage": {
+   "adresse": "Stubenbastei",
+   "sicherheit": "genau",
+   "begruendung": "\"direkt an der Stubenbastei, Blick auf Plachutta\" – 1. Bezirk Zentrum"
+  },
+  "datum": "2026-11-19"
+ },
+ "wh-1259865064": {
+  "lage": {
+   "adresse": "Kardinal-Nagl-Platz",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"direkt beim Kardinal Nagl Platz\", \"2min zu U3 Kardinal Nagl Platz\", Hausnummer unbekannt"
+  },
+  "datum": "2026-11-19"
+ },
+ "wh-1918453621": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"2. Bezirk / Leopoldstadt\", keine Straße im Text"
+  },
+  "datum": "2026-11-19"
+ },
+ "wh-1900507163": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Village im Dritten, Baufeld 14A: Fertigstellung laut Schwesterinserat 2. Quartal 2027, Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 788000,
+   "begruendung": "EHL-Projektliste Baufeld 14A: 6. Etage, 4 Zi, 86,79 m² = Eigennutzerpreis 788.000 € (Portal zeigt Anlegerpreis 709.200 € netto)"
+  },
+  "datum": "2026-11-19",
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "lat": 48.188799,
+   "lon": 16.396112,
+   "sicherheit": "genau",
+   "begruendung": "Baufeld 14A, Otto-Preminger-Straße 16 / Hilde-Güden-Promenade 7; 6. Etage 86,79 m²; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  }
+ },
+ "is-593512042594": {
+  "lage": {
+   "adresse": "Beheimgasse 49",
+   "lat": null,
+   "lon": null,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss-Schriftfeld: DAS BEHEIM, Beheimgasse 49 in 1170 Wien, TOP 28 (Wohnsalon)"
+  },
+  "datum": "2026-11-19"
+ },
+ "is-071271662101": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Village im Dritten, Baufeld 14B: \"Fertigstellung: 2. Quartal 2027\" – Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 790000,
+   "begruendung": "EHL-Projektliste Baufeld 14B: 1. Etage, 4 Zi, 101,6 m² = Eigennutzerpreis 790.000 € (Portal: Anlegerpreis 711.000 € netto)"
+  },
+  "datum": "2026-11-19",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "lat": 48.18868,
+   "lon": 16.396773,
+   "sicherheit": "genau",
+   "begruendung": "Baufeld 14B (EHL: Otto-Preminger-Straße 18), Inserat nennt Hilde-Güden-Promenade 11; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  }
+ },
+ "is-530428004558": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Village im Dritten, Baufeld 14B: \"Fertigstellung: 2. Quartal 2027\" – Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 880000,
+   "begruendung": "EHL-Projektliste Baufeld 14B: 9. Etage, 4 Zi, 99,39 m² = Eigennutzerpreis 880.000 € (Portal: Anlegerpreis 792.000 € netto)"
+  },
+  "datum": "2026-11-19",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "lat": 48.18868,
+   "lon": 16.396773,
+   "sicherheit": "genau",
+   "begruendung": "Baufeld 14B (EHL: Otto-Preminger-Straße 18), Inserat nennt Hilde-Güden-Promenade 9; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  }
+ },
+ "is-870171566745": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "lat": 48.188799,
+   "lon": 16.396112,
+   "sicherheit": "genau",
+   "begruendung": "Baufeld 14A, Otto-Preminger-Straße 16 / Hilde-Güden-Promenade 7; 6. Etage 86,79 m²; Village im Dritten (EHL-Projektliste ehl.at, Einheit nach Etage/m²/Preis zugeordnet); Portal-Kartenpunkt war Platzhalter"
+  },
+  "datum": "2026-11-19"
  }
 }
