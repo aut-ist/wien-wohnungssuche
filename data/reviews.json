@@ -19406,7 +19406,14 @@
  },
  "wh-1770891658": {
   "gleich_wie": "wh-1680347027",
-  "datum": "2026-11-15"
+  "datum": "2026-11-20",
+  "lage": {
+   "adresse": "Rainergasse",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188763,
+   "lon": 16.364882,
+   "begruendung": "Bus 13A Rainergasse ca. 97 m, Johann-Strauß-Gasse ca. 250 m, Alois-Drasche-Park in der Nähe (4. Bezirk)"
+  }
  },
  "wh-899489261": {
   "lage": {
@@ -21357,7 +21364,11 @@
    "betrag": 364.66,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-20",
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Revitalisierung des Altbaus läuft (\"entsteht ein hochwertig revitalisiertes Wohnprojekt\", \"wird ... saniert\"), Verfügbar ab \"ab sofort\"; Fertigstellung/Bezugstermin nicht genannt, erfragen"
+  }
  },
  "fm-5736373": {
   "lage": {
@@ -24827,7 +24838,12 @@
    "betrag": 697.18,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-20",
+  "lage": {
+   "adresse": "Rennweg",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"nähe Rennweg\"/\"Rennwegnähe\", der Rennweg ist lang; keine Hausnummer, kein Grätzl"
+  }
  },
  "wh-1714274242": {
   "lage": {
@@ -32628,5 +32644,96 @@
    "begruendung": "gleiche Wohnung wie is-593512042594; Grundriss-Schriftfeld DAS BEHEIM, Beheimgasse 49, 1170, Top 28"
   },
   "datum": "2026-11-19"
+ },
+ "is-495571212468": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau Village im Dritten, Baufeld 14B: Fertigstellung laut anderen Inseraten 2. Quartal 2027, im Inserat selbst kein Termin; erfragen"
+  },
+  "preis": {
+   "eigennutzer": 1032000,
+   "begruendung": "\"Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung), Eigennutzerpreis nicht genannt: 860.000 + 20 % = 1.032.000"
+  },
+  "datum": "2026-11-20"
+ },
+ "wh-819593749": {
+  "lage": {
+   "adresse": "Obkirchergasse",
+   "sicherheit": "ungefaehr",
+   "lat": 48.24994,
+   "lon": 16.326155,
+   "begruendung": "\"Sieveringer Spitz und der Obkirchergasse\", 39A/S45: Sievering (1190), Portalpunkt dort"
+  },
+  "datum": "2026-11-20"
+ },
+ "ds-15323085": {
+  "lage": {
+   "adresse": "Gersthofer Straße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.2335,
+   "lon": 16.33,
+   "begruendung": "\"Willkommen in Gersthof\", ca. 10 Gehminuten zur Schnellbahnstation Gersthof; Neubauprojekt, keine Adresse im Inserat"
+  },
+  "datum": "2026-11-20"
+ },
+ "wh-2024777183": {
+  "lage": {
+   "adresse": "Otto-Bauer-Gasse",
+   "sicherheit": "ungefaehr",
+   "lat": 48.19497,
+   "lon": 16.350754,
+   "begruendung": "\"Blick auf das Arik-Brauer-Haus\" (Otto-Bauer-Gasse, 6. Bezirk), nahe Mariahilfer Straße, U-Bahn 130 m; Portalpunkt dort"
+  },
+  "datum": "2026-11-20"
+ },
+ "ds-15316461": {
+  "lage": {
+   "adresse": "Döblerhofstraße 10",
+   "sicherheit": "ungefaehr",
+   "lat": 48.1866,
+   "lon": 16.416,
+   "begruendung": "HELIO TOWER = Döblerhofstraße 10, 1030 (laut Webquellen BUWOG/Infina), beim Gasometer, Erdberg"
+  },
+  "datum": "2026-11-20"
+ },
+ "wh-1445338059": {
+  "lage": {
+   "adresse": "Kraftgasse",
+   "lat": 48.220364,
+   "lon": 16.37437,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Donaukanal 5 min; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-20"
+ },
+ "is-470891261152": {
+  "lage": {
+   "adresse": "Kraftgasse",
+   "lat": 48.220364,
+   "lon": 16.37437,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Donaukanal 5 min; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-20"
+ },
+ "fm-5789485": {
+  "lage": {
+   "adresse": "Kraftgasse",
+   "lat": 48.220364,
+   "lon": 16.37437,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Donaukanal 5 min; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-20"
+ },
+ "ds-15323726": {
+  "lage": {
+   "adresse": "Kraftgasse",
+   "lat": 48.220364,
+   "lon": 16.37437,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Donaukanal 5 min; Hausnummer nicht gefunden"
+  },
+  "datum": "2026-11-20"
  }
 }

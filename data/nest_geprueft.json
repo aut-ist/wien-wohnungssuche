@@ -8654,5 +8654,40 @@
   "titel": "4 Zimmer möglich I Zentral begehbar I Tolle Dachgeschosswohnung bei U3 Kardinal Nagl Platz!",
   "ergebnis": "unklar: Kardinal-Nagl-Platz (2 min U3, Billa im Haus). Geprüft: Schwester-Inserate Etera (HWB 132, gleiche Fotos): wh-1463069914, wh-1985535235, fm-5766969, fm-5774024/5, alle ohne Adresse; Grundriss-Ordner fehlt; Websuche ohne Treffer.",
   "datum": "2026-11-19"
+ },
+ "wh-1445338059": {
+  "ids": [
+   "wh-1445338059",
+   "is-470891261152",
+   "fm-5789485",
+   "ds-15323726"
+  ],
+  "titel": "LEBENSQUALITÄT ZWISCHEN AUGARTEN & DONAUKANAL: 3-Zimmer mit Loggia",
+  "ergebnis": "ungefaehr: Kraftgasse (Text: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Straßenbahn 1/31 2 min), Hausnummer unbekannt. Geprüft: Schwester-Inserate (nur dieselbe Wohnung auf 4 Portalen, alle ohne Nummer), Grundriss-Ordner fehlt, Makler IMMO AGENCY Anhang nur YouTube-Video, Websuche (Kraftgasse 1020 + Ausstattung/Heizung) ohne Treffer, Wien-WFS von hier gesperrt.",
+  "datum": "2026-11-20"
+ },
+ "wh-821015160": {
+  "ids": [
+   "wh-821015160"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung mit ca. 82 m² in Währing",
+  "ergebnis": "unklar: nur Währing/Kutschkermarkt, Tram 40/41 (Portalpunkt 258 m versetzt). Geprüft: Schwester-Inserate (keine mit gleichem Makler ARQON + Energieausweis, kein HWB angegeben), Grundriss-Ordner fehlt, Maklerseite/Websuche (ARQON, Titel, Fernwärme, Kutschkermarkt) ohne Treffer.",
+  "datum": "2026-11-20"
+ },
+ "ds-15323085": {
+  "ids": [
+   "ds-15323085"
+  ],
+  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F1)",
+  "ergebnis": "unklar: Neubauprojekt PlanetHome in Gersthof (Top 01 EG, 86 m² laut Grundriss, Planstand 19.08.2026), Straße nicht genannt; Schwesterinserate Gersthof-Dachgeschoss-Geothermie (B5) auf immmo.at gleiche Beschreibung, ebenfalls ohne Adresse. Grundriss-Titelblock ohne Adresse, Websuche (Tout l'etage, Gersthof, Erdwärme) ohne Adresse. Ungefährer Punkt Gersthof; Gürtelzeit klar zu weit.",
+  "datum": "2026-11-20"
+ },
+ "wh-1770891658": {
+  "ids": [
+   "wh-1770891658"
+  ],
+  "titel": "Helle 3-Zimmer-Wohnung im 4. Liftstock mit ca. 111m²",
+  "ergebnis": "ungefaehr: Rainergasse/Johann-Strauß-Gasse (Bus 13A Rainergasse 97 m, Tram 1 Johann-Strauß-Gasse 250 m, Alois-Drasche-Park), Portalpunkt 255 m versetzt. Grundriss (von Alten) ohne Adresse; Websuche (von Alten, 111 m², Baujahr 1958, 1040) ohne Treffer; Schwester-Inserate keine.",
+  "datum": "2026-11-20"
  }
 }
