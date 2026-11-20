@@ -1,1 +1,260 @@
-[]
+[
+ {
+  "id": "wh-821015160",
+  "ids": [
+   "wh-821015160"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung mit ca. 82 m² und offenem Wohn-Koch-Bereich - in Währing",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/grosszuegige-3-zimmer-wohnung-mit-ca-82-m-und-offenem-wohn-koch-bereich-in-waehring-821015160/"
+  ],
+  "anbieter": "ARQON Real Estate GmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (Kartenpunkt bis zu 258 m versetzt)",
+  "punkt": [
+   48.221104,
+   16.340906
+  ],
+  "versatz_m": 258,
+  "preis": 450000.0,
+  "flaeche": 81.92,
+  "zimmer": 3,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-821015160/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-20",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1445338059",
+  "ids": [
+   "wh-1445338059",
+   "is-470891261152",
+   "fm-5789485",
+   "ds-15323726"
+  ],
+  "titel": "LEBENSQUALITÄT ZWISCHEN AUGARTEN & DONAUKANAL: Lichtdurchflutete 3-Zimmer-Wohnung mit Loggia & separater Küche",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/lebensqualitaet-zwischen-augarten-donaukanal-lichtdurchflutete-3-zimmer-wohnung-mit-loggia-separater-kueche-1445338059/",
+   "https://www.findmyhome.at/5789485",
+   "https://www.immobilienscout24.at/expose/6aff7b02642406214075bf68",
+   "https://immobilien.derstandard.at/detail/15323726"
+  ],
+  "anbieter": "IMMO AGENCY GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Karmeliterviertel / Augarten-Süd (Kartenpunkt bis zu 251 m versetzt)",
+  "punkt": [
+   48.220364,
+   16.37437
+  ],
+  "versatz_m": 251,
+  "preis": 635000.0,
+  "flaeche": 95.85,
+  "zimmer": 3,
+  "stockwerk": "3",
+  "energie": {
+   "hwb": "19,9",
+   "hwb_class": "A",
+   "fgee": "2,02",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1445338059/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "LEBENSQUALITÄT ZWISCHEN AUGARTEN & DONAUKANAL",
+    "url": "https://youtu.be/Oj_gVnSd7wk"
+   }
+  ],
+  "erstmals": "2026-11-20",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15323085",
+  "ids": [
+   "ds-15323085"
+  ],
+  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F1)",
+  "plz": 1180,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15323085"
+  ],
+  "anbieter": "PlanetHome Immobilien Austria GmbH",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.238455,
+   16.308894
+  ],
+  "versatz_m": 0,
+  "preis": 1089000.0,
+  "flaeche": 139.28,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": 36,
+   "hwb_class": null,
+   "fgee": 0.55,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15323085/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-20",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-2024777183",
+  "ids": [
+   "wh-2024777183",
+   "ds-15323309"
+  ],
+  "titel": "Erstbezug: Fantastische 3-Zimmer-Dachgeschosswohnung mit Balkon und Panorama-Blick Richtung Süden",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/erstbezug-fantastische-3-zimmer-dachgeschosswohnung-mit-balkon-und-panorama-blick-richtung-sueden-2024777183/",
+   "https://immobilien.derstandard.at/detail/15323309"
+  ],
+  "anbieter": "Birnleitner Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.192372,
+   16.352356
+  ],
+  "versatz_m": 0,
+  "preis": 719000.0,
+  "flaeche": 78.73,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "44,3",
+   "hwb_class": "B",
+   "fgee": "0,91",
+   "fgee_class": "B"
+  },
+  "grundrisse": "data/grundrisse/wh-2024777183/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Plan_bunt_T9",
+    "url": "https://cache.willhaben.at/adpdf/3/202/477/7183_1098152480.pdf"
+   }
+  ],
+  "erstmals": "2026-11-20",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15316461",
+  "ids": [
+   "ds-15316461",
+   "is-871972602410"
+  ],
+  "titel": "HELIO TOWER | Exklusive 3-Zimmer-Wohnung mit Südbalkon, Premium-Ausstattung, Smart Home & Tiefgarage",
+  "plz": 1030,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6af6ee48527e8ad0f9b9db6c",
+   "https://immobilien.derstandard.at/detail/15316461"
+  ],
+  "anbieter": "RealGoodLiving Real Estate Services GmbH",
+  "adresse_im_inserat": "U3 Gasometer , landstrasse",
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.183451,
+   16.412974
+  ],
+  "versatz_m": 0,
+  "preis": 749000.0,
+  "flaeche": 79.14,
+  "zimmer": 3,
+  "stockwerk": "26",
+  "energie": {
+   "hwb": 23.24,
+   "hwb_class": "A",
+   "fgee": 0.66,
+   "fgee_class": "A+"
+  },
+  "grundrisse": "data/grundrisse/ds-15316461/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-20",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-819593749",
+  "ids": [
+   "wh-819593749"
+  ],
+  "titel": "Einziehen und wohlfühlen in Sievering",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/einziehen-und-wohlfuehlen-in-sievering-819593749/"
+  ],
+  "anbieter": null,
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.248026,
+   16.330608
+  ],
+  "versatz_m": 0,
+  "preis": 399000.0,
+  "flaeche": 99.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "134,2",
+   "hwb_class": "E",
+   "fgee": "2,81",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-819593749/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1770891658",
+  "ids": [
+   "wh-1770891658"
+  ],
+  "titel": "Helle 3-Zimmer-Wohnung im 4. Liftstock mit ca. 111m² Wohnfläche",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/helle-3-zimmer-wohnung-im-4-liftstock-mit-ca-111m-wohnflaeche-1770891658/"
+  ],
+  "anbieter": "von Alten Immobilientreuhand GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (Kartenpunkt bis zu 255 m versetzt)",
+  "punkt": [
+   48.188763,
+   16.364882
+  ],
+  "versatz_m": 255,
+  "preis": 698000.0,
+  "flaeche": 111.0,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": "83,41",
+   "hwb_class": "C",
+   "fgee": "1,93",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1770891658/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-15",
+  "portaladresse_pruefen": false
+ }
+]

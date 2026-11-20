@@ -1,117 +1,225 @@
 [
  {
-  "id": "wh-1861112195",
+  "id": "wh-1537603478",
   "ids": [
-   "wh-1861112195",
-   "is-426009345030"
+   "wh-1537603478",
+   "is-212868927322",
+   "ds-15211358"
   ],
-  "titel": "Ankommen, Wohlfühlen und Bleiben: Separate Küche, 3 Zimmer, Loggia!",
-  "adresse": "Paulinengasse",
-  "flaeche": 75.0,
-  "zimmer": 3,
-  "im_nest": false,
-  "schaetzen": true,
-  "fotos": [
-   "https://cache.willhaben.at/mmo/5/186/111/2195_708044816.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_982540594.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_712865433.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_1930242624.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_1446353460.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_1525120818.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_-105464729.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_-1966178564.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_1993216494.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_-1138444222.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_-927605308.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_2070798829.jpg",
-   "https://cache.willhaben.at/mmo/5/186/111/2195_-1284574848.jpg"
-  ]
+  "titel": "moderne Dachgeschoss Wohnung mit Klimaanlage und Terrasse beim Belvedere",
+  "adresse": "Goldeggasse",
+  "flaeche": 131.13,
+  "zimmer": 4,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/153/760/3478_-191534291.jpg",
+   "https://cache.willhaben.at/mmo/8/153/760/3478_-2109236779.jpg",
+   "https://cache.willhaben.at/mmo/8/153/760/3478_602630319.jpg",
+   "https://cache.willhaben.at/mmo/8/153/760/3478_1975360699.png"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1537603478/"
  },
  {
-  "id": "wh-1943080169",
+  "id": "wh-2076974606",
   "ids": [
-   "wh-1943080169",
-   "is-394279007961"
+   "wh-2076974606",
+   "is-684418751442",
+   "wh-1233793494",
+   "is-923365937332",
+   "wh-1332548958",
+   "is-504591489852",
+   "ds-15246078",
+   "wh-934966706",
+   "wh-1905525308",
+   "is-044909040496",
+   "wh-1375473177",
+   "ds-15322643",
+   "wh-1266558549",
+   "ds-15312469",
+   "fm-5736373",
+   "fm-5788887",
+   "is-505092214614",
+   "ds-15033176",
+   "fm-5560963",
+   "fm-5780056",
+   "bt-439186850316",
+   "is-136538212853",
+   "wh-1852609195"
   ],
-  "titel": "DB IMMOBILIEN | City-Wohnung mit Parkplatz",
+  "titel": "Hochwertige Dachgeschoss-Wohnung mit Terrasse nahe U6 und Währinger Park!",
+  "adresse": "Sternwartestraße 18/7",
+  "flaeche": 95.96,
+  "zimmer": 3,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/6/207/697/4606_401704245.jpg",
+   "https://cache.willhaben.at/mmo/8/190/552/5308_-1903978580.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2076974606/"
+ },
+ {
+  "id": "wh-821015160",
+  "ids": [
+   "wh-821015160"
+  ],
+  "titel": "Großzügige 3-Zimmer-Wohnung mit ca. 82 m² und offenem Wohn-Koch-Bereich - in Währing",
   "adresse": null,
-  "flaeche": 90.0,
+  "flaeche": 81.92,
   "zimmer": 3,
   "im_nest": false,
   "schaetzen": true,
   "fotos": [
-   "https://cache.willhaben.at/mmo/9/194/308/0169_-1680031672.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_476906376.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_1977452217.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_-591995592.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_1058739064.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_-1683989280.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_1190783954.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_2029029083.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_-1181246285.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_-920251604.jpg",
-   "https://cache.willhaben.at/mmo/9/194/308/0169_1202295756.jpg"
+   "https://cache.willhaben.at/mmo/0/821/015/160_-523125812.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_346945860.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_1036093824.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_-1546526541.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_-694872587.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_206017362.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_-2027763984.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_-395397096.jpg",
+   "https://cache.willhaben.at/mmo/0/821/015/160_-625532329.jpg"
   ]
  },
  {
-  "id": "wh-1675748606",
+  "id": "wh-1445338059",
   "ids": [
-   "wh-1675748606"
+   "wh-1445338059",
+   "is-470891261152",
+   "fm-5789485",
+   "ds-15323726"
   ],
-  "titel": "Entzückende 4-Zimmer-Wohnung mit Balkon nahe Nußdorfer Straße",
-  "adresse": "Bindergasse",
-  "flaeche": 127.0,
+  "titel": "LEBENSQUALITÄT ZWISCHEN AUGARTEN & DONAUKANAL: Lichtdurchflutete 3-Zimmer-Wohnung mit Loggia & separater Küche",
+  "adresse": null,
+  "flaeche": 95.85,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1757103545.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_41695368.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-961919926.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_1593694145.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-2042895053.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1629089691.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_390689444.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_1551538868.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1941110747.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1409385253.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-706249262.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1702465669.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1893891028.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-260848753.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_1267801144.jpg",
+   "https://cache.willhaben.at/mmo/9/144/533/8059_-1440582017.jpg"
+  ]
+ },
+ {
+  "id": "is-495571212468",
+  "ids": [
+   "is-495571212468",
+   "ds-15319936",
+   "wh-2027169479",
+   "wh-799894424",
+   "bt-825893892927",
+   "ds-15289972",
+   "wh-1958817533"
+  ],
+  "titel": "VILLAGE IM DRITTEN | BAUFELD 14B | UNIKAT FÜR FREIGEISTER",
+  "adresse": "Hilde-Güden-Promenade 11",
+  "flaeche": 107.72,
   "zimmer": 4,
   "im_nest": false,
-  "schaetzen": true,
-  "fotos": [
-   "https://cache.willhaben.at/mmo/6/167/574/8606_578474537.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-1981694491.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-1283046676.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1466208801.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-944916679.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-624223762.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-757451681.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1691797915.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-25519081.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1968895393.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-699773222.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1078947236.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_448187295.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_289596031.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_2021691121.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1726896507.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1411628027.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1990574325.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_2099055389.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_201543301.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1686815203.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_1528093635.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-1122421178.jpg",
-   "https://cache.willhaben.at/mmo/6/167/574/8606_-1077967818.jpg"
-  ]
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84gh-1777911461-f35a15344bbe48cdacd1ea911b615645",
+   "https://cache.willhaben.at/mmo/9/202/716/9479_-620449068.jpg",
+   "https://cache.willhaben.at/mmo/9/202/716/9479_336841367.jpg",
+   "https://cache.willhaben.at/mmo/9/202/716/9479_1298242613.jpg",
+   "https://cache.willhaben.at/mmo/9/202/716/9479_589808078.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-495571212468/"
  },
  {
-  "id": "wh-1918453621",
+  "id": "ds-15323085",
   "ids": [
-   "wh-1918453621",
-   "is-710371500668"
+   "ds-15323085"
   ],
-  "titel": "Stilvolle Altbau-Eleganz trifft auf modernen Wohnkomfort! Exklusive 3-Zimmer Wohnung im 2. Bezirk",
+  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F1)",
   "adresse": null,
-  "flaeche": 95.04,
+  "flaeche": 139.28,
+  "zimmer": 5,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/Qircog/plain/immoimporte/planethome/ITPGHvKVcO8N7PyZoaGo7dHQZgI763776_Grundriss.jpg",
+   "https://ic.ds.at/soLjjQ/plain/immoimporte/planethome/1R_QVHP_bx_MGxUtzB99e0doN7I763776_Finanzierung.jpg",
+   "https://ic.ds.at/hUC7gA/plain/immoimporte/planethome/d6cjak_e3aflby8JZy5FoDMnJD8763776_Visitenkarte.jpg",
+   "https://ic.ds.at/uUZC4g/plain/immoimporte/planethome/oFq59J2WR3oYl3wrGEiobRyzagE763776_Immobiliencard.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15323085/"
+ },
+ {
+  "id": "wh-2024777183",
+  "ids": [
+   "wh-2024777183",
+   "ds-15323309"
+  ],
+  "titel": "Erstbezug: Fantastische 3-Zimmer-Dachgeschosswohnung mit Balkon und Panorama-Blick Richtung Süden",
+  "adresse": null,
+  "flaeche": 78.73,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/202/477/7183_-2022091754.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-2024777183/"
+ },
+ {
+  "id": "ds-15316461",
+  "ids": [
+   "ds-15316461",
+   "is-871972602410"
+  ],
+  "titel": "HELIO TOWER | Exklusive 3-Zimmer-Wohnung mit Südbalkon, Premium-Ausstattung, Smart Home & Tiefgarage",
+  "adresse": "U3 Gasometer , landstrasse",
+  "flaeche": 79.14,
   "zimmer": 3,
   "im_nest": false,
   "schaetzen": true,
   "fotos": [
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-afdf14763e8742f7af3a2df6c7777c8d",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-ee6ae716a5d240279fcea3e9e60d6cd1",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-0ea32e1681fe48eabb50685cf08d9ae8",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-967ac1ace5d64d1da6a1c7d4030ec794",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-710248c4468842689ee475bae91679b6",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1794993159-2187ed9cdb454194bfd601cdbc764841",
-   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qxT-1795003819-7637c6765f03475297b20e865b56858a",
-   "https://cache.willhaben.at/mmo/1/191/845/3621_-1516342541.jpg"
+   "https://ic.ds.at/fEgM_g/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/4bb9e8cb9494e16d15d630222efdcd02/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/zPGaJGYqRu1uV5qGki3UP520261113.jpeg",
+   "https://ic.ds.at/GMSlDA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/8249c43d9c2033ea7fffaf90fd4723c9/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/og6pRfucndh5kXnFFaw5cF20261112.jpeg",
+   "https://ic.ds.at/olFEgg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/4314e95732b073b2c646008675cb4f50/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/G4K9CwFqx4wfvn5V9U8PF920261113.jpeg",
+   "https://ic.ds.at/UqCtCg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/87ea44a73806dc0fad320c0a1ac6da54/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/We7GhRugaTiAXxVpmujuqW20261113.jpeg",
+   "https://ic.ds.at/L2QhvA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/2a1b44e0082d96e88e38a9d36c2324c9/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/qHmJFGgHEa84BpWXaap5gW20261113.jpeg",
+   "https://ic.ds.at/93WiVg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/2b731c6a890af96498d08f3eb00f2728/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/8MftCEbP74K3VWdKyQ54RP20261113.jpeg",
+   "https://ic.ds.at/2KUsxw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/c555bd51309229eb771e57b8cb4ed9ec/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/UUZKd8BSGZLqCombhnSEgB20261113.jpeg",
+   "https://ic.ds.at/B2U_aQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/127cc07a2e90cf763b10240b133f3fe2/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/YhKEYPNahdEZYyGVfAEQaY20261113.jpeg",
+   "https://ic.ds.at/nXZdZg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/2d7dd270c301bb3e0475e767f057b1bc/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/XqXk1tJNYPNxYYzDodGo6D20261113.jpeg",
+   "https://ic.ds.at/QLMQNw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/7dbf9906bb9615a3834d503289fe32e5/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/twrb3JDo4H4fDCQGmeqcKN20261113.jpeg",
+   "https://ic.ds.at/upI0VA/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/083fb74025ee4cf5e9cf17e0df3ecd5b/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/MjcnkAcb7QbrWQ74GdV99K20261113.jpeg",
+   "https://ic.ds.at/a95yOg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/609f95eb7f81d51e14e9cb7a750f7a95/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/BkPq36xWqGunLCL6uJyqzH20261113.jpeg",
+   "https://ic.ds.at/o9M1-Q/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/23d60a307dc4d76a36acba36d195a6e0/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/bHdenhZKpBHaguof7f4X5J20261113.jpeg",
+   "https://ic.ds.at/cWeKqg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/2de28606be74a7047c2087c38e1d2619/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/HF3ASyiZg4E9BRAaBYr4uX20261113.jpeg",
+   "https://ic.ds.at/bCV7lg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/fdee785fb3d621e602caf1e6c23e88e1/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/Xoy6PT93qvegd5PwdZbVK220261113.jpeg",
+   "https://ic.ds.at/ThWv6A/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/e23e985812c13946b47319df2495de7a/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/2XscJVf8MFnEtbV5QLYdoE20261113.jpeg",
+   "https://ic.ds.at/ZVvuGg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/82b879e753e43143d146227765577153/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/tfkpbS4ZWhrbdafJ8uvEUJ20261113.jpeg",
+   "https://ic.ds.at/NOVLjg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/b1e83a163140e520cf225a05f4919ac9/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/1KNUA7AEHNbvgoLbJboi9N20261113.jpeg",
+   "https://ic.ds.at/pWk89A/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/557c645cda92c4cf61f521a333cc325e/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/CfabZHWd3UjsiGc5nNRgv620261113.jpeg",
+   "https://ic.ds.at/Sy3cqQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/fffb661e87a202ff6a4b5456c0238d6b/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/6mvcK7KVYBoz6LXrV5ev5V20261113.jpeg",
+   "https://ic.ds.at/LFGbiw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/4ddde85c507ccdfdb57161741b3aef44/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/NJKn86Fy1H79tDqrrN3KfK20261113.jpeg",
+   "https://ic.ds.at/K9SoUg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/e1c8e3cb7d4071480eaeff1031807025/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/c2wk54Jy5FiYJFD1C7p9L820261113.jpeg",
+   "https://ic.ds.at/BdCZdQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/f9494d03f477ef198cc62c2eb1c75183/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/41q1YezEnG8CX6pDetmiDP20261113.jpeg",
+   "https://ic.ds.at/y2vD-w/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/75267194039e851286c9e7e80e578dff/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/NZWJzuU9W3N9sacw1UBqC120261113.jpeg",
+   "https://ic.ds.at/imhKqQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/f157e8d57f0e750d70f312740bf17071/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/xmNKgZEfxHmco5Cg1QQRzP20261113.jpeg",
+   "https://ic.ds.at/RRg6iQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/ed93dd56244e8fb58400994c75b69bcf/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/bHZ7gHjuDjX9DVdD6kQqgU20261113.jpeg",
+   "https://ic.ds.at/ztLnsg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/105aa3fda3dcc7ff634422d44a8d1632/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/d5HcqYVyEPLYPorX3eeftR20261113.jpeg",
+   "https://ic.ds.at/82uDqw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/584b5f8b5d4a7f0f06a9fbfd77a45e52/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/QMVF3YyMu52Chs4jfgm47K20261113.jpeg",
+   "https://ic.ds.at/0DrYKg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/1a8988e73f357714d99e6754959ebd3f/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/hUwtzuW7AR4bidw3SNK3b920261113.jpeg",
+   "https://ic.ds.at/LIq7gw/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/b139600783120c9271423de0cd10940d/Fc_Ltl_M16PX1sYyCWjnrwcDeOkEmg.jpg_fm_h1080_w1920/cTrgEwFzGZSnw13i8EJUD220261113.jpeg"
   ]
  }
 ]
