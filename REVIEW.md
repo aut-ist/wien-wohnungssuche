@@ -139,6 +139,8 @@ schätzen: Räume (Zimmerzahl, Bad/WC getrennt, Küche offen?, Dachschrägen, Tr
 Gesamtfläche laut Inserat, Lage der Räume aus Blickachsen und Türen; `data/grundriss_plaene/ID.json` mit `"schaetzung": true`
 (rotes Band „SCHÄTZUNG“ ganz oben), `ersetzt: []`, Hinweis „aus N Fotos und dem Text geschätzt, nicht verbindlich“. Danach in
 `data/grundriss_geprueft.json` `"ergebnis": "geschaetzt"` eintragen (ohne brauchbare Fotos: `"keine_fotos"`).
+`"keine_fotos"` NUR, wenn das Inserat wirklich keine brauchbaren Fotos hat (z. B. nur ein Makler-Logo). Lassen sich die Fotos in der
+Cloud nicht laden (Proxy), Eintrag offen lassen, nicht `keine_fotos` (2026-11-21: Laimgrubengasse mit 16 Fotos war so als erledigt markiert).
 
 ## Neubauprojekte suchen (jeden Montag, nach den Grundrissen; seit 2026-11-09)
 Zusätzlich zu den Portalen liest `wohnungen/bautraeger.py` täglich die Einheitenlisten der Projekte in

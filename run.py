@@ -828,7 +828,8 @@ def _bilder_der_gruppe(gruppe):
             makler = re.sub(r"[^a-z0-9]", "", ((r.get("anbieter") or "").split() or [""])[0].lower()) or r["id"]
             je_makler.setdefault(makler, r.get("bilder") or [])
         gezeigt = list(dict.fromkeys(b for bilder in je_makler.values() for b in bilder))
-    return _grundriss_nach_vorne(gezeigt)[:60]
+    # bis 2026-11-21 höchstens 60 Fotos; Saad will alle Fotos sehen, die Seite lädt sie ohnehin erst beim Blättern
+    return _grundriss_nach_vorne(gezeigt)[:150]
 
 
 def _grundriss_nach_vorne(bilder):
@@ -1256,6 +1257,19 @@ def build():
         for c in markiert_weg:
             if any(_gleiche_kopie(c, x) for x in gruppe) and c["id"] not in r["ids"]:
                 r["ids"] = r["ids"] + [c["id"]]
+        # Fotos der angehängten alten Inserate auch zeigen (Saad 2026-11-21: alle Fotos; z. B. die 15 Fotos des
+        # verschwundenen Landaa-Inserats einer Nest-Wohnung), doppelte nach Fingerabdruck weg
+        dazu = [listings[i] for i in r["ids"] if i not in {x["id"] for x in gruppe} and i in listings]
+        if dazu and any(x.get("bilder") for x in dazu):
+            hashes, bilder = _bild_hashes(), list(r.get("bilder") or [])
+            fps = [int(hashes[u]["h"], 16) for u in bilder if (hashes.get(u) or {}).get("h")]
+            for u in dict.fromkeys(u for x in dazu for u in x.get("bilder") or []):
+                h = (hashes.get(u) or {}).get("h")
+                if u in bilder or h is None or any(bin(int(h, 16) ^ y).count("1") <= 6 for y in fps):
+                    continue  # ohne Fingerabdruck nicht: alte Inserate haben oft tote Bild-Adressen
+                fps.append(int(h, 16))
+                bilder.append(u)
+            r["bilder"] = _grundriss_nach_vorne(bilder)[:150]
         if ((rev.get("lage") or {}).get("sicherheit") != "genau" and not re.search(r"\d", r.get("adresse") or "")
                 and (haus := gleiches_haus(r, gruppe, haeuser))):
             rev = {**rev, "lage": haus}

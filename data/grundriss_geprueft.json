@@ -3903,11 +3903,13 @@
    "wh-1852609195"
   ],
   "ergebnis": "schoen",
-  "am": "2026-11-20",
+  "am": "2026-11-21",
   "plaene": [
    "b232d0aaac5d0c00",
-   "485898b8b0b47464"
-  ]
+   "485898b8b0b47464",
+   "303232f0aaa8c486"
+  ],
+  "notiz": "zwei saubere Pläne (team neunzehn, Top 7 DG Sternwartestraße 18) reichen"
  },
  "ds-15323085": {
   "ids": [
@@ -3954,14 +3956,6 @@
    "3970969a92b69191"
   ]
  },
- "wh-1830443909": {
-  "ids": [
-   "wh-1830443909"
-  ],
-  "ergebnis": "keine_fotos",
-  "am": "2026-11-21",
-  "plaene": []
- },
  "fm-5777604": {
   "ids": [
    "fm-5777604"
@@ -3986,5 +3980,14 @@
   "ergebnis": "keine_fotos",
   "am": "2026-11-21",
   "plaene": []
+ },
+ "wh-1403606580": {
+  "ids": [
+   "wh-1403606580"
+  ],
+  "ergebnis": "keine_fotos",
+  "am": "2026-11-21",
+  "plaene": [],
+  "notiz": "einziges Foto ist ein Logo; Schätzung nur aus Text wäre erfunden"
  }
 }
