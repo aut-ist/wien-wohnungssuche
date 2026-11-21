@@ -10253,15 +10253,19 @@
    "sicherheit": "ungefaehr",
    "begruendung": "Inserat (auch weekend.at OBGC20250128171042821a6ca69e110): 'direkt neben der Wiener Volksoper' (Währinger Straße 78), U6 Währinger Straße-Volksoper; keine Hausnummer, Grundriss-Bilder nur Logo"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
-   "stockwerk": "1. Stock (willhaben-Feld FLOOR 2)",
-   "baujahr": "ca. 1900",
-   "zustand": "saniert (Haus modernisiert, DG ausgebaut, Lift)"
+   "stockwerk": "1. Stock (ruhige Innenhoflage)",
+   "baujahr": "ca. 1900, saniert, DG ausgebaut, Lift neu",
+   "zustand": "saniert"
   },
   "kosten": {
    "betrag": 338.28,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Beheizt wird sie über eine Gasetagenheizung\" (Makler-Website helion-immobilien.at, Objekt 5871/967)"
   }
  },
  "fm-5766453": {
