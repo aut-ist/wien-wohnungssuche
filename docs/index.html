@@ -758,7 +758,8 @@ function guertelLang(w) {
 function mapsLinks(w, gross) {
   const genau = !w.ungefaehr && w.lat;
   // geprüfte Adresse, sonst der Punkt (auch wenn nur ungefähr, das ist genauer als der ganze Bezirk)
-  const ziel = w.adresse && /[a-zäöüß]{4}/i.test(w.adresse) ? `${w.adresse}, ${w.plz} Wien`
+  // Top/Stiege ("Kreuzgasse 30/11", "…, Stiege 2") nicht an Google geben, sonst findet Maps das Haus nicht sicher
+  const ziel = w.adresse && /[a-zäöüß]{4}/i.test(w.adresse) ? `${w.adresse.split('/')[0].split(',')[0].trim()}, ${w.plz} Wien`
     : w.lat ? `${w.lat},${w.lon}` : `${w.plz} Wien`;
   const suche = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ziel)}`;
   // Street View vom Straßenpunkt vor dem Haus mit Blick aufs Haus (am Hauspunkt zeigt Google oft Nutzerfotos)

@@ -647,9 +647,9 @@
    "is-317247139346",
    "fm-5645066"
   ],
-  "titel": "ELEGANTE ALTBAUWOHNUNG MIT BLICK AUF DEN AUMANNPLATZ",
-  "ergebnis": "korrigiert/eingegrenzt: Währinger Straße 139-149 (Südseite gegenüber Aumannplatz), Top 19, 2. Stock; Hausnummer offen",
-  "datum": "2026-10-28"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "ungefaehr: Währinger Straße 145/19"
  },
  "wh-1476454107": {
   "ids": [
@@ -2546,8 +2546,8 @@
    "is-760672620149"
   ],
   "titel": "",
-  "datum": "2026-11-17",
-  "ergebnis": "ungefaehr: Große Pfarrgasse 14"
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Große Pfarrgasse 14/05+06"
  },
  "wh-1400087847": {
   "ids": [
@@ -2719,8 +2719,8 @@
    "ds-15275359"
   ],
   "titel": "",
-  "datum": "2026-11-17",
-  "ergebnis": "unklar: -"
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Tandelmarktgasse 20/17+18"
  },
  "wh-1076948279": {
   "ids": [
@@ -5446,9 +5446,9 @@
    "wh-1178476723",
    "is-232031823710"
   ],
-  "titel": "Exklusive Dachgeschoßwohnung in 1190 Wien: 153 m², 3 Terrassen, 4 Zi",
-  "ergebnis": "Rudolfinergasse 22 Top 6 (ungefaehr): Kein Dokument mit Hausnummer (weekend.at nur 'nahe dem Rudolfinerhaus'). Grundriss 1. DG Top 6 153,32 m², Front 16,82 m / Tiefe 12,80 m passt zum FMZK-Umriss Rudolfinergasse 22 (16,78 / 12,84 m); im 330-m-Umkreis gibt es aber rund ein Dutzend ähnliche Umrisse.",
-  "datum": "2026-11-12"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Rudolfinergasse 22/6"
  },
  "wh-1253010671": {
   "ids": [
@@ -5641,9 +5641,9 @@
    "wh-2145505668",
    "is-306756723890"
   ],
-  "titel": "Altbauwohnung mit jungem Spirit in Bestlage nahe dem Wiener Rathaus",
-  "ergebnis": "Lammgasse 10 Top Hochparterre (ungefaehr): Sehr wahrscheinlich, ohne Dokument: Nordpfeil ergibt Straßenachse 351° wie die Lammgasse, Straßenfenster auf der Ostseite (gerade Nummern); FMZK-Umriss Nr. 10 maßgenau (Haupttrakt 13,3 m tief, Plan 13,2; Seitenflügel 5,8 x 16,9 m, Plan 5,7 x 16,5; Stiegenhaus 12,3 m vom Südende), Baujahr 1911 (Sandig/Appermann). Gegenproben Wickenburggasse 10/14, Lange Gasse 46/50/70-76, Lederergasse 4/16 passen nicht. Top unbekannt.",
-  "datum": "2026-11-12"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Lammgasse 10"
  },
  "wh-1804703607": {
   "ids": [
@@ -6244,8 +6244,8 @@
    "is-634595963612"
   ],
   "titel": "",
-  "datum": "2026-11-15",
-  "ergebnis": "Belvederegasse 18 (ungefaehr)"
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Belvederegasse 18"
  },
  "wh-1810331986": {
   "ids": [
@@ -8565,9 +8565,9 @@
    "is-212868927322",
    "ds-15211358"
   ],
-  "titel": "moderne Dachgeschoss Wohnung mit Klimaanlage und Terrasse beim Belvedere",
-  "ergebnis": "unklar: nur Goldeggasse (Hausnummer unbekannt). Geprüft: Schwester-Inserate nur is-212868927322/ds-15211358 (gleiche Wohnung, ohne Nr.), Grundrisse-Ordner enthält nur Fotos (Flur, Küche), kein Plan; Accenta/Makler-Website nicht auffindbar; Websuchen: 'Accenta Goldeggasse Dachgeschoss 131 m²', 'Goldeggasse Dachgeschoss Maisonette Wärmepumpe Photovoltaik Gründerzeit Lift' (nur Portalspiegel immmo/findheim ohne Nr.; Auktion Mommsengasse 19/Goldeggasse 13 ist eine andere Wohnung, 122 m²). Lift + Stilaltbau + Wärmepumpe/PV; Goldeggasse 18 ist Gemeindebau 1986, scheidet aus.",
-  "datum": "2026-11-18"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Goldeggasse 22/15"
  },
  "wh-1081743471": {
   "ids": [
@@ -8733,5 +8733,34 @@
   "titel": "Wohnungen für jeden Lebensstil",
   "ergebnis": "unklar: FindMyHome-Inserat ohne Makler, Adresse, 1 Foto, kein Grundriss-Ordner; Websuche liefert nur vagen Treffer (ImmoScout 'Obere Donaustraße'-Projekt, EG, 81 m², 790.000 €, Terrasse statt Garten), Bezirkspunkt liegt aber nicht dort, daher nicht übernommen.",
   "datum": "2026-11-21"
+ },
+ "wh-1734424426": {
+  "ids": [
+   "wh-1734424426",
+   "fm-5778406",
+   "fm-5787397",
+   "is-605571985402",
+   "ds-15314381",
+   "ds-15320728",
+   "wh-836743046",
+   "wh-1930844849",
+   "wh-1564852448",
+   "wh-1976681473",
+   "wh-1067490371",
+   "fm-5762142",
+   "fm-5773352",
+   "fm-5776468",
+   "fm-5781798",
+   "is-594301583629",
+   "is-609770693520",
+   "is-176099570527",
+   "is-443038564847",
+   "is-196150955123",
+   "ds-15287153",
+   "ds-15309946"
+  ],
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Kreuzgasse 30/11"
  }
 }

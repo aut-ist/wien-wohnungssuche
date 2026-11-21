@@ -2601,43 +2601,55 @@
  },
  "wh-1834137525": {
   "lage": {
-   "adresse": null,
-   "lat": 48.22805,
-   "lon": 16.336,
+   "adresse": "Währinger Straße 145/19",
+   "lat": 48.22805936,
+   "lon": 16.33590921,
    "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss (Dr. Gabriel) zeigt Top 19, 127,71 m², Straßenfront 'WÄHRINGER STRASSE'; Inserat: 'Blick auf den Aumannplatz'. Aumannplatz liegt zwischen Gentzgasse und Währinger Straße, gegenüber liegt die Südseite der Währinger Straße Nr. 139-149 (Nominatim). Punkt = Mitte dieser Häuserzeile (ca. Nr. 143/145); Hausnummer offen."
+   "begruendung": "KORREKTUR der Vermutung 147 -> 145. Kein Dokument mit Hausnummer: Gabriel-Seite https://www.gabriel.at/objekt/13667569 (Objektnr. 29330), Exposé-PDF https://www.gabriel.at/expose/13667569/820441 und IR https://www.ir.at/de/immobilien/1650946-elegante-altbauwohnung-mit-blick-auf-den-aumannplatz (+ /expose/id/1650946) nennen nur '1180 Wien, Währing'. Kartenpunkt Gabriel/justimmo 48.22655,16.33705 = Schulgasse 70, also bewusst versetzt (IR-Karte 48.2359,16.3192 = Bezirkspunkt). Beleg ist Geometrie: Grundriss (Gabriel Bild 22) zeigt TOP 19, 127,87 m², Straßenfront WÄHRINGER STRASSE, Wohnung am lin"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. Stock, Top 19"
+  }
  },
  "ds-15097977": {
   "lage": {
-   "adresse": "Währinger Straße 147",
-   "lat": 48.22813,
-   "lon": 16.33557,
+   "adresse": "Währinger Straße 145/19",
+   "lat": 48.22805936,
+   "lon": 16.33590921,
    "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss mit Straßenseite 'Währinger Straße' und Blick über Straßenbahn und Aumannplatz auf die Gentzgasse: nur die Zeile Währinger Straße 143-147 gegenüber dem Platz. 147 wegen Baujahr 1900 im IR-Exposé (= Stadt Wien; 145: 1902, 143: 1899); 145 bleibt möglich. Top 19 (2. Stock)."
+   "begruendung": "KORREKTUR der Vermutung 147 -> 145. Kein Dokument mit Hausnummer: Gabriel-Seite https://www.gabriel.at/objekt/13667569 (Objektnr. 29330), Exposé-PDF https://www.gabriel.at/expose/13667569/820441 und IR https://www.ir.at/de/immobilien/1650946-elegante-altbauwohnung-mit-blick-auf-den-aumannplatz (+ /expose/id/1650946) nennen nur '1180 Wien, Währing'. Kartenpunkt Gabriel/justimmo 48.22655,16.33705 = Schulgasse 70, also bewusst versetzt (IR-Karte 48.2359,16.3192 = Bezirkspunkt). Beleg ist Geometrie: Grundriss (Gabriel Bild 22) zeigt TOP 19, 127,87 m², Straßenfront WÄHRINGER STRASSE, Wohnung am lin"
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. Stock, Top 19"
+  }
  },
  "is-317247139346": {
   "lage": {
-   "adresse": null,
-   "lat": 48.22805,
-   "lon": 16.336,
+   "adresse": "Währinger Straße 145/19",
+   "lat": 48.22805936,
+   "lon": 16.33590921,
    "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss (Dr. Gabriel) zeigt Top 19, 127,71 m², Straßenfront 'WÄHRINGER STRASSE'; Inserat: 'Blick auf den Aumannplatz'. Aumannplatz liegt zwischen Gentzgasse und Währinger Straße, gegenüber liegt die Südseite der Währinger Straße Nr. 139-149 (Nominatim). Punkt = Mitte dieser Häuserzeile (ca. Nr. 143/145); Hausnummer offen."
+   "begruendung": "KORREKTUR der Vermutung 147 -> 145. Kein Dokument mit Hausnummer: Gabriel-Seite https://www.gabriel.at/objekt/13667569 (Objektnr. 29330), Exposé-PDF https://www.gabriel.at/expose/13667569/820441 und IR https://www.ir.at/de/immobilien/1650946-elegante-altbauwohnung-mit-blick-auf-den-aumannplatz (+ /expose/id/1650946) nennen nur '1180 Wien, Währing'. Kartenpunkt Gabriel/justimmo 48.22655,16.33705 = Schulgasse 70, also bewusst versetzt (IR-Karte 48.2359,16.3192 = Bezirkspunkt). Beleg ist Geometrie: Grundriss (Gabriel Bild 22) zeigt TOP 19, 127,87 m², Straßenfront WÄHRINGER STRASSE, Wohnung am lin"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. Stock, Top 19"
+  }
  },
  "fm-5645066": {
   "lage": {
-   "adresse": null,
-   "lat": 48.22805,
-   "lon": 16.336,
+   "adresse": "Währinger Straße 145/19",
+   "lat": 48.22805936,
+   "lon": 16.33590921,
    "sicherheit": "ungefaehr",
-   "begruendung": "Grundriss (Dr. Gabriel) zeigt Top 19, 127,71 m², Straßenfront 'WÄHRINGER STRASSE'; Inserat: 'Blick auf den Aumannplatz'. Aumannplatz liegt zwischen Gentzgasse und Währinger Straße, gegenüber liegt die Südseite der Währinger Straße Nr. 139-149 (Nominatim). Punkt = Mitte dieser Häuserzeile (ca. Nr. 143/145); Hausnummer offen."
+   "begruendung": "KORREKTUR der Vermutung 147 -> 145. Kein Dokument mit Hausnummer: Gabriel-Seite https://www.gabriel.at/objekt/13667569 (Objektnr. 29330), Exposé-PDF https://www.gabriel.at/expose/13667569/820441 und IR https://www.ir.at/de/immobilien/1650946-elegante-altbauwohnung-mit-blick-auf-den-aumannplatz (+ /expose/id/1650946) nennen nur '1180 Wien, Währing'. Kartenpunkt Gabriel/justimmo 48.22655,16.33705 = Schulgasse 70, also bewusst versetzt (IR-Karte 48.2359,16.3192 = Bezirkspunkt). Beleg ist Geometrie: Grundriss (Gabriel Bild 22) zeigt TOP 19, 127,87 m², Straßenfront WÄHRINGER STRASSE, Wohnung am lin"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. Stock, Top 19"
+  }
  },
  "is-623085407398": {
   "lage": {
@@ -6709,12 +6721,17 @@
  },
  "wh-836743046": {
   "lage": {
-   "lat": 48.224,
-   "lon": 16.3412,
-   "sicherheit": "ungefaehr",
-   "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  }
  },
  "wh-805443931": {
   "lage": {
@@ -6728,12 +6745,17 @@
  },
  "fm-5762142": {
   "lage": {
-   "lat": 48.224,
-   "lon": 16.3412,
-   "sicherheit": "ungefaehr",
-   "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  }
  },
  "fm-5762143": {
   "lage": {
@@ -6747,12 +6769,17 @@
  },
  "is-594301583629": {
   "lage": {
-   "lat": 48.224,
-   "lon": 16.3412,
-   "sicherheit": "ungefaehr",
-   "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  }
  },
  "is-863616823266": {
   "lage": {
@@ -6776,13 +6803,18 @@
  },
  "ds-15287153": {
   "lage": {
-   "lat": 48.224,
-   "lon": 16.3412,
-   "sicherheit": "ungefaehr",
-   "begruendung": "willhaben: Etage 6/Top 11, 78,54 m², Punkt 48.223976,16.338598 (±264 m); Text: Kutschkermarkt 'nur wenige Schritte entfernt', U6 Währinger Straße, DG-Ausbau (4 Tops 11-14) in Altbau mit neuem Lift, Wienblick. Schnitt Kreis + Nähe Kutschkergasse -> Raum Schulgasse/Gentzgasse westlich der Kutschkergasse. Keine Adresse auf weekend.at, tristar.at, IS, findmyhome."
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
   },
-  "datum": "2026-11-12",
-  "gleich_wie": "wh-1067490371"
+  "datum": "2026-11-21",
+  "gleich_wie": "wh-1067490371",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  }
  },
  "wh-980261752": {
   "lage": {
@@ -7947,32 +7979,30 @@
  },
  "wh-924938628": {
   "lage": {
-   "adresse": "Große Pfarrgasse 14",
-   "lat": 48.218606,
-   "lon": 16.378921,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Tom Krauss, Projekt 'GOLDENER PFAU' (willhaben-Projekt 1277960882, 8 Einheiten, fertig 01.11.2026), Neubau 2025, 2. OG, zweites Schlafzimmer 'blickt auf die gegenueberliegende Kirche und den kleinen Park'. Gegenproben: ADRESSENOGD fuehrt 'Grosse Pfarrgasse 14' und neu 'Grosse Pfarrgasse 14 Haus 1' (Neubau-Adresse), gegenueber Kirche St. Leopold mit Park am Alexander-Poch-Platz; ein ir.at-Mietinserat 'Grosse Pfarrgasse' (Fertigstellung 2025, Waermepumpe, Deckenkuehlung, Blick auf St. Leopold) beschreibt offenbar dasselbe Haus. Kein Dokument mit Hausnummer gesehen; Kartenadresse plausibel."
+   "adresse": "Große Pfarrgasse 14/05+06",
+   "lat": 48.21860551,
+   "lon": 16.37892066,
+   "sicherheit": "genau",
+   "begruendung": "Projektseite des Bauträgers https://www.goldener-pfau.at/ (Steiner Immobilien, Verkauf Tom Krauss): 'In der Großen Pfarrgasse 14 entsteht das exklusive Wohnprojekt Der Goldene Pfau'; ebenso Projektfolder https://www.steiner-immobilien.at/media/230308_grossepfarrgasse14_folder_2.pdf. Einheitenliste im ImmoExplorer-Widget auf goldener-pfau.at (Wohnungsliste): 'TOP 05+06 | 2.OG | 3 Zimmer | 83,88 m² | Balkon/Loggia 6,69 m² | € 850.000 | verfügbar'; Detail: Loggia 1,96 + Balkon 4,73 m², Ausrichtung N/S, Exposé-Datei 'DerGoldenePfauGrossePfarrgasse14_Top-0506_Exposee.pdf'. Plan dort (https://assets"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
    "stockwerk": "2. OG",
-   "baujahr": "2025",
-   "zustand": "Erstbezug"
+   "baujahr": "2025"
   }
  },
  "is-760672620149": {
   "lage": {
-   "adresse": "Große Pfarrgasse 14",
-   "lat": 48.218606,
-   "lon": 16.378921,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Tom Krauss, Projekt 'GOLDENER PFAU' (willhaben-Projekt 1277960882, 8 Einheiten, fertig 01.11.2026), Neubau 2025, 2. OG, zweites Schlafzimmer 'blickt auf die gegenueberliegende Kirche und den kleinen Park'. Gegenproben: ADRESSENOGD fuehrt 'Grosse Pfarrgasse 14' und neu 'Grosse Pfarrgasse 14 Haus 1' (Neubau-Adresse), gegenueber Kirche St. Leopold mit Park am Alexander-Poch-Platz; ein ir.at-Mietinserat 'Grosse Pfarrgasse' (Fertigstellung 2025, Waermepumpe, Deckenkuehlung, Blick auf St. Leopold) beschreibt offenbar dasselbe Haus. Kein Dokument mit Hausnummer gesehen; Kartenadresse plausibel."
+   "adresse": "Große Pfarrgasse 14/05+06",
+   "lat": 48.21860551,
+   "lon": 16.37892066,
+   "sicherheit": "genau",
+   "begruendung": "Projektseite des Bauträgers https://www.goldener-pfau.at/ (Steiner Immobilien, Verkauf Tom Krauss): 'In der Großen Pfarrgasse 14 entsteht das exklusive Wohnprojekt Der Goldene Pfau'; ebenso Projektfolder https://www.steiner-immobilien.at/media/230308_grossepfarrgasse14_folder_2.pdf. Einheitenliste im ImmoExplorer-Widget auf goldener-pfau.at (Wohnungsliste): 'TOP 05+06 | 2.OG | 3 Zimmer | 83,88 m² | Balkon/Loggia 6,69 m² | € 850.000 | verfügbar'; Detail: Loggia 1,96 + Balkon 4,73 m², Ausrichtung N/S, Exposé-Datei 'DerGoldenePfauGrossePfarrgasse14_Top-0506_Exposee.pdf'. Plan dort (https://assets"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
    "stockwerk": "2. OG",
-   "baujahr": "2025",
-   "zustand": "Erstbezug"
+   "baujahr": "2025"
   }
  },
  "wh-1400087847": {
@@ -8441,16 +8471,16 @@
  },
  "wh-893901130": {
   "lage": {
-   "lat": 48.216,
-   "lon": 16.3796,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Nur 'Nähe Karmeliterplatz', 'wenige Gehminuten vom Karmelitermarkt'; Bj. 1969, DG mit Lift, HWB 181,6. Grundriss ohne Adresse, Fotos zeigen Dachblick mit Kirchturm (vermutlich Karmeliterkirche). Makler-Website nicht erreichbar. Punkt = Karmeliterplatz"
+   "adresse": "Tandelmarktgasse 20/17+18",
+   "lat": 48.21708078,
+   "lon": 16.38009804,
+   "sicherheit": "genau",
+   "begruendung": "Makler-Website https://birnleitner-immobilien.at/properties/lichtdurchflutete-dachgeschosswohnung-nhe-karmeliterplatz (jetzt erreichbar): in den Seitendaten des Objekts (article 4661, openimmoId 82881_7927_4661, 785.000 €, 112 m², 3 Zimmer, HWB 181,6/E, fGEE 2,23/D, Baujahr 1969, Betriebskosten 131,49, monatlich 244,96) stehen 'street: Tandelmarktgasse', 'streetNumber: 20/DG/Top 17+18' sowie lat 48.21718 / lng 16.37971 (ca. 30 m vom Haus). Auf der Seite selbst wird die Adresse nicht angezeigt ('Die genaue Adresse wird Ihnen vom Makler zur Verfügung gestellt'). Gegenprobe GEBAEUDEINFOOGD: Tande"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
-   "stockwerk": "Dachgeschoss, Lift",
-   "baujahr": "1969",
-   "zustand": "gepflegt, aelterer Ausbau (Dachflaechenfenster, Eckbadewanne)"
+   "stockwerk": "Dachgeschoss (Lift)",
+   "baujahr": "1969"
   },
   "kosten": {
    "betrag": 244.96,
@@ -8459,16 +8489,16 @@
  },
  "is-534922911464": {
   "lage": {
-   "lat": 48.216,
-   "lon": 16.3796,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Nur 'Nähe Karmeliterplatz', 'wenige Gehminuten vom Karmelitermarkt'; Bj. 1969, DG mit Lift, HWB 181,6. Grundriss ohne Adresse, Fotos zeigen Dachblick mit Kirchturm (vermutlich Karmeliterkirche). Makler-Website nicht erreichbar. Punkt = Karmeliterplatz"
+   "adresse": "Tandelmarktgasse 20/17+18",
+   "lat": 48.21708078,
+   "lon": 16.38009804,
+   "sicherheit": "genau",
+   "begruendung": "Makler-Website https://birnleitner-immobilien.at/properties/lichtdurchflutete-dachgeschosswohnung-nhe-karmeliterplatz (jetzt erreichbar): in den Seitendaten des Objekts (article 4661, openimmoId 82881_7927_4661, 785.000 €, 112 m², 3 Zimmer, HWB 181,6/E, fGEE 2,23/D, Baujahr 1969, Betriebskosten 131,49, monatlich 244,96) stehen 'street: Tandelmarktgasse', 'streetNumber: 20/DG/Top 17+18' sowie lat 48.21718 / lng 16.37971 (ca. 30 m vom Haus). Auf der Seite selbst wird die Adresse nicht angezeigt ('Die genaue Adresse wird Ihnen vom Makler zur Verfügung gestellt'). Gegenprobe GEBAEUDEINFOOGD: Tande"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
-   "stockwerk": "Dachgeschoss, Lift",
-   "baujahr": "1969",
-   "zustand": "gepflegt, aelterer Ausbau (Dachflaechenfenster, Eckbadewanne)"
+   "stockwerk": "Dachgeschoss (Lift)",
+   "baujahr": "1969"
   },
   "kosten": {
    "betrag": 244.96,
@@ -8477,16 +8507,16 @@
  },
  "ds-15275359": {
   "lage": {
-   "lat": 48.216,
-   "lon": 16.3796,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Nur 'Nähe Karmeliterplatz', 'wenige Gehminuten vom Karmelitermarkt'; Bj. 1969, DG mit Lift, HWB 181,6. Grundriss ohne Adresse, Fotos zeigen Dachblick mit Kirchturm (vermutlich Karmeliterkirche). Makler-Website nicht erreichbar. Punkt = Karmeliterplatz"
+   "adresse": "Tandelmarktgasse 20/17+18",
+   "lat": 48.21708078,
+   "lon": 16.38009804,
+   "sicherheit": "genau",
+   "begruendung": "Makler-Website https://birnleitner-immobilien.at/properties/lichtdurchflutete-dachgeschosswohnung-nhe-karmeliterplatz (jetzt erreichbar): in den Seitendaten des Objekts (article 4661, openimmoId 82881_7927_4661, 785.000 €, 112 m², 3 Zimmer, HWB 181,6/E, fGEE 2,23/D, Baujahr 1969, Betriebskosten 131,49, monatlich 244,96) stehen 'street: Tandelmarktgasse', 'streetNumber: 20/DG/Top 17+18' sowie lat 48.21718 / lng 16.37971 (ca. 30 m vom Haus). Auf der Seite selbst wird die Adresse nicht angezeigt ('Die genaue Adresse wird Ihnen vom Makler zur Verfügung gestellt'). Gegenprobe GEBAEUDEINFOOGD: Tande"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-21",
   "eckdaten": {
-   "stockwerk": "Dachgeschoss, Lift",
-   "baujahr": "1969",
-   "zustand": "gepflegt, aelterer Ausbau (Dachflaechenfenster, Eckbadewanne)"
+   "stockwerk": "Dachgeschoss (Lift)",
+   "baujahr": "1969"
   },
   "kosten": {
    "betrag": 244.96,
@@ -15954,23 +15984,29 @@
  },
  "wh-1178476723": {
   "lage": {
-   "adresse": "Rudolfinergasse 22",
-   "lat": 48.244195,
-   "lon": 16.345647,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Dokument mit Hausnummer (weekend.at nur 'nahe dem Rudolfinerhaus'). Grundriss 1. DG Top 6 153,32 m², Front 16,82 m / Tiefe 12,80 m passt zum FMZK-Umriss Rudolfinergasse 22 (16,78 / 12,84 m); im 330-m-Umkreis gibt es aber rund ein Dutzend ähnliche Umrisse. Top 6."
+   "adresse": "Rudolfinergasse 22/6",
+   "lat": 48.24419479,
+   "lon": 16.34564743,
+   "sicherheit": "genau",
+   "begruendung": "Beleg 1: Booking.com-Inserat derselben Wohnung (Ferienvermietung durch den Eigentümer 'Adam': 'luxury roof apt 153 sqr meter 2 floors 3 balconies with 57 sqr meter, 2 bathrooms plus extra guests toilet ... next to the Rudolfinerhaus') nennt als Adresse '22 Rudolfinergasse, 19. Döbling, 1190 Vienna' (https://www.booking.com/hotel/at/luxury-4-bedroom-roof-apt-with-3-balconies-amp-view.html). Dieselbe Wohnung per Fotovergleich: identische Küche (weiße Hochschränke, Holzleisten, Vitrine mit roten Laden, Bild mit rosa Kugel), rote Ledersessel, gleiche Dachterrassen-Liegen und Glasgeländer, gleiches"
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette) + Dachterrasse"
+  }
  },
  "is-232031823710": {
   "lage": {
-   "adresse": "Rudolfinergasse 22",
-   "lat": 48.244195,
-   "lon": 16.345647,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Dokument mit Hausnummer (weekend.at nur 'nahe dem Rudolfinerhaus'). Grundriss 1. DG Top 6 153,32 m², Front 16,82 m / Tiefe 12,80 m passt zum FMZK-Umriss Rudolfinergasse 22 (16,78 / 12,84 m); im 330-m-Umkreis gibt es aber rund ein Dutzend ähnliche Umrisse. Top 6."
+   "adresse": "Rudolfinergasse 22/6",
+   "lat": 48.24419479,
+   "lon": 16.34564743,
+   "sicherheit": "genau",
+   "begruendung": "Beleg 1: Booking.com-Inserat derselben Wohnung (Ferienvermietung durch den Eigentümer 'Adam': 'luxury roof apt 153 sqr meter 2 floors 3 balconies with 57 sqr meter, 2 bathrooms plus extra guests toilet ... next to the Rudolfinerhaus') nennt als Adresse '22 Rudolfinergasse, 19. Döbling, 1190 Vienna' (https://www.booking.com/hotel/at/luxury-4-bedroom-roof-apt-with-3-balconies-amp-view.html). Dieselbe Wohnung per Fotovergleich: identische Küche (weiße Hochschränke, Holzleisten, Vitrine mit roten Laden, Bild mit rosa Kugel), rote Ledersessel, gleiche Dachterrassen-Liegen und Glasgeländer, gleiches"
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette) + Dachterrasse"
+  }
  },
  "wh-1253010671": {
   "lage": {
@@ -16558,22 +16594,30 @@
  "wh-2145505668": {
   "lage": {
    "adresse": "Lammgasse 10",
-   "lat": 48.212839,
-   "lon": 16.352054,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Sehr wahrscheinlich, ohne Dokument: Nordpfeil ergibt Straßenachse 351° wie die Lammgasse, Straßenfenster auf der Ostseite (gerade Nummern); FMZK-Umriss Nr. 10 maßgenau (Haupttrakt 13,3 m tief, Plan 13,2; Seitenflügel 5,8 x 16,9 m, Plan 5,7 x 16,5; Stiegenhaus 12,3 m vom Südende), Baujahr 1911 (Sandig/Appermann). Gegenproben Wickenburggasse 10/14, Lange Gasse 46/50/70-76, Lederergasse 4/16 passen nicht. Top unbekannt. Top Hochparterre."
+   "lat": 48.21283942,
+   "lon": 16.35205377,
+   "sicherheit": "genau",
+   "begruendung": "BESTÄTIGT, jetzt mit Beleg aus Dokumenten statt nur Geometrie: (1) Foyer-Foto des Inserats (willhaben-Bild 9 / E&V 'Foyer') zeigt am Anschlagbrett die Hausverwaltung 'ECO Immobilientreuhand GmbH, 1180 Wien, Martinstrasse 81'. (2) Firmenbuch: 'CD-Immobilienvermietung GmbH & Co Lammgasse 10 KG', FN 271828y, Sitz Martinstraße 81, 1180 Wien (https://www.evi.gv.at/f/271828y, https://firmenakte.at/business/271828y-cd-immobilienvermietung-gmbh-co-lammgasse-10-kg) = Hauseigentümer-Gesellschaft derselben Gruppe (Kralik/ECO). Von deren Haus-KGs (Bäckenbrünnlgasse 9, Innstraße 1, Grinzinger Straße 93, St"
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "Hochparterre",
+   "baujahr": "1911"
+  }
  },
  "is-306756723890": {
   "lage": {
    "adresse": "Lammgasse 10",
-   "lat": 48.212839,
-   "lon": 16.352054,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Sehr wahrscheinlich, ohne Dokument: Nordpfeil ergibt Straßenachse 351° wie die Lammgasse, Straßenfenster auf der Ostseite (gerade Nummern); FMZK-Umriss Nr. 10 maßgenau (Haupttrakt 13,3 m tief, Plan 13,2; Seitenflügel 5,8 x 16,9 m, Plan 5,7 x 16,5; Stiegenhaus 12,3 m vom Südende), Baujahr 1911 (Sandig/Appermann). Gegenproben Wickenburggasse 10/14, Lange Gasse 46/50/70-76, Lederergasse 4/16 passen nicht. Top unbekannt. Top Hochparterre."
+   "lat": 48.21283942,
+   "lon": 16.35205377,
+   "sicherheit": "genau",
+   "begruendung": "BESTÄTIGT, jetzt mit Beleg aus Dokumenten statt nur Geometrie: (1) Foyer-Foto des Inserats (willhaben-Bild 9 / E&V 'Foyer') zeigt am Anschlagbrett die Hausverwaltung 'ECO Immobilientreuhand GmbH, 1180 Wien, Martinstrasse 81'. (2) Firmenbuch: 'CD-Immobilienvermietung GmbH & Co Lammgasse 10 KG', FN 271828y, Sitz Martinstraße 81, 1180 Wien (https://www.evi.gv.at/f/271828y, https://firmenakte.at/business/271828y-cd-immobilienvermietung-gmbh-co-lammgasse-10-kg) = Hauseigentümer-Gesellschaft derselben Gruppe (Kralik/ECO). Von deren Haus-KGs (Bäckenbrünnlgasse 9, Innstraße 1, Grinzinger Straße 93, St"
   },
-  "datum": "2026-11-12"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "Hochparterre",
+   "baujahr": "1911"
+  }
  },
  "wh-1804703607": {
   "lage": {
@@ -19028,20 +19072,28 @@
    "adresse": "Belvederegasse 18",
    "lat": 48.19115872,
    "lon": 16.37585041,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Dokument mit Hausnummer, aber mehrere unabhängige Gegenproben: (1) Text: Zugang vom St.-Elisabeth-Platz, modernes Wohnhaus Baujahr 1991, Tiefgarage mit Duplex-Stellplatz, 2. OG mit ca. 83 m² Dachgarten. (2) Garagen-Inserate von WI-RE (ir.at https://ir.at/de/immobilien/expose/id/790580 und /790581, laut Suchindex, Seiten inzwischen offline): Tiefgarage 'in einem Wohnhaus in der Belvederegasse 18 (4.), die Einfahrt liegt direkt am Sankt-Elisabeth Platz', Stapelparker, Baujahr 1991. (3) GEBAEUDEINFOOGD: Belvederegasse 18 = Bau nach 1945, 6 Geschoße, Front zum Nordende des St.-Elisabeth-Platzes (Karolinenmarkt); die anderen Häuser am Platz sind Gründerzeit. (4) FMZK-Baukörper und Orthofoto: hinter dem 18 m hohen Haus ein schmaler, 6 m hoher Gebäudeteil Richtung NNW = Dachterrasse auf Höhe 2. OG; an seinem Ende die gegiebelte Feuermauer des 16 m hohen Nachbarhauses, wie im Terrassenfoto; der Erker des Zimmers links neben der Terrasse passt zum Grundriss; Nordpfeil im Grundriss (leicht nach Osten gedreht) und Fenster nach drei Seiten passen zur freien Nordostecke. willhaben-Punkt 48.19262/16.369448 ist der Standardpunkt von Engel & Völkers (gleich wie bei wh-1810331986), ImmoScout-Punkt 48.192/16.37604 liegt rund 95 m nördlich. Engel & Völkers-Exposé ohne Adresse: https://www.engelvoelkers.com/hu/en/exposes/e534d727-5f17-522c-94f8-2b90d3d273ae"
+   "sicherheit": "genau",
+   "begruendung": "Die Vermutung ist bestätigt. Es gibt kein Dokument zur Wohnung selbst, aber zwei Fotovergleiche mit einem Inserat, das die Adresse nennt. (1) Das RE/MAX-Garageninserat (https://findheim.at/de/immobilie/tiefgaragenstellplatz-fuer-klein-bis-mittelklassefahrzeuge-4de5da8a, Objekt 1626/28610) nennt \"Adresse: 1040 Belvederegasse 18\", eine Tiefgarage mit Hebebühnen-Stapelparkern, Baujahr 1993. Eines seiner Garagenfotos zeigt dieselbe Ansicht wie das Garagenfoto von Engel & Völkers (willhaben-Bild 10): rotes Fallrohr links, Box mit zwei Autos auf der Hebebühne, Feuerlöscher, gelbe Schilder. (2) Das F"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. OG",
+   "baujahr": "1991"
+  }
  },
  "is-634595963612": {
   "lage": {
    "adresse": "Belvederegasse 18",
    "lat": 48.19115872,
    "lon": 16.37585041,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Kein Dokument mit Hausnummer, aber mehrere unabhängige Gegenproben: (1) Text: Zugang vom St.-Elisabeth-Platz, modernes Wohnhaus Baujahr 1991, Tiefgarage mit Duplex-Stellplatz, 2. OG mit ca. 83 m² Dachgarten. (2) Garagen-Inserate von WI-RE (ir.at https://ir.at/de/immobilien/expose/id/790580 und /790581, laut Suchindex, Seiten inzwischen offline): Tiefgarage 'in einem Wohnhaus in der Belvederegasse 18 (4.), die Einfahrt liegt direkt am Sankt-Elisabeth Platz', Stapelparker, Baujahr 1991. (3) GEBAEUDEINFOOGD: Belvederegasse 18 = Bau nach 1945, 6 Geschoße, Front zum Nordende des St.-Elisabeth-Platzes (Karolinenmarkt); die anderen Häuser am Platz sind Gründerzeit. (4) FMZK-Baukörper und Orthofoto: hinter dem 18 m hohen Haus ein schmaler, 6 m hoher Gebäudeteil Richtung NNW = Dachterrasse auf Höhe 2. OG; an seinem Ende die gegiebelte Feuermauer des 16 m hohen Nachbarhauses, wie im Terrassenfoto; der Erker des Zimmers links neben der Terrasse passt zum Grundriss; Nordpfeil im Grundriss (leicht nach Osten gedreht) und Fenster nach drei Seiten passen zur freien Nordostecke. willhaben-Punkt 48.19262/16.369448 ist der Standardpunkt von Engel & Völkers (gleich wie bei wh-1810331986), ImmoScout-Punkt 48.192/16.37604 liegt rund 95 m nördlich. Engel & Völkers-Exposé ohne Adresse: https://www.engelvoelkers.com/hu/en/exposes/e534d727-5f17-522c-94f8-2b90d3d273ae"
+   "sicherheit": "genau",
+   "begruendung": "Die Vermutung ist bestätigt. Es gibt kein Dokument zur Wohnung selbst, aber zwei Fotovergleiche mit einem Inserat, das die Adresse nennt. (1) Das RE/MAX-Garageninserat (https://findheim.at/de/immobilie/tiefgaragenstellplatz-fuer-klein-bis-mittelklassefahrzeuge-4de5da8a, Objekt 1626/28610) nennt \"Adresse: 1040 Belvederegasse 18\", eine Tiefgarage mit Hebebühnen-Stapelparkern, Baujahr 1993. Eines seiner Garagenfotos zeigt dieselbe Ansicht wie das Garagenfoto von Engel & Völkers (willhaben-Bild 10): rotes Fallrohr links, Box mit zwei Autos auf der Hebebühne, Feuerlöscher, gelbe Schilder. (2) Das F"
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "2. OG",
+   "baujahr": "1991"
+  }
  },
  "wh-1810331986": {
   "lage": {
@@ -32831,6 +32883,300 @@
    "lon": 16.354021,
    "sicherheit": "ungefaehr",
    "begruendung": "weekend.at-Kopie derselben Wohnung (3 Zi, 75,53 m², Haus von 1886, Zimmer 21,55/22,89 m², EG) nennt Liechtensteinstraße 118; Koordinaten = Portalpunkt (Umkreis 269 m), Stadt-Wien-Adressdaten von hier nicht erreichbar"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1734424426": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "fm-5778406": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "fm-5787397": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-605571985402": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "ds-15314381": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "ds-15320728": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1930844849": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1564852448": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1976681473": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1067490371": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "fm-5773352": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "fm-5776468": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "fm-5781798": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-609770693520": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-176099570527": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-443038564847": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-196150955123": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "ds-15309946": {
+  "lage": {
+   "adresse": "Kreuzgasse 30/11",
+   "lat": 48.22298418,
+   "lon": 16.33935591,
+   "sicherheit": "genau",
+   "begruendung": "Alle 22 ids sind dieselbe Wohnung (TRISTAR, DG Top 11, 78,54 m2, Terrasse 7,4 m2, HWB 40/fGEE 0,77, Energieausweis gueltig bis 03.11.2030); es sind keine Schwester-Tops in der Gruppe. Hauptbeleg: Die Schwesterwohnung Top 12 aus demselben DG-Ausbau wird auf willhaben zur Miete angeboten, mit 'Objektstandort Kreuzgasse 30/12, 1180 Wien' und Koordinaten 48.22298,16.33935 (https://www.willhaben.at/iad/immobilien/d/mietwohnungen/wien/wien-1180-waehring/erstbezug-moderne-2-zimmer-luxus-dachgeschosswohnung-mit-grosser-terrasse-mit-fernblick-zu-mieten-in-1180-wien-naehe-kutschkermarkt-1764388094/). Do"
+  },
+  "eckdaten": {
+   "stockwerk": "1. + 2. DG (Maisonette)",
+   "baujahr": "Gründerzeit, DG-Ausbau 2024/25"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1537603478": {
+  "lage": {
+   "adresse": "Goldeggasse 22/15",
+   "lat": 48.18967038,
+   "lon": 16.3762276,
+   "sicherheit": "genau",
+   "begruendung": "Der Makler-Rundgang nennt die Adresse: Accentas virtuelle Tour (im Inserat verlinkt, https://floorfy.com/tour/2648716) hat in den Metadaten property_address/og:title \"Goldeggasse 22\", agentName \"Accenta Immobilien\", Fläche 135. Das Vorschaubild der Tour (Vorraum mit Holzpaneel, Blick in den Wohnraum mit Dachfenster) passt zu den Inseratsfotos. Top 15 steht auf den beiden Grundrissen im Inserat und im Exposé (\"app. 15\", Türschild 15; willhaben-Bilder 2 und 3, Exposé-PDF https://www.accenta-immo.at/expose/13360720/1180743, Objekt 10729). Exposé und Makler-Seite (https://www.accenta-immo.at/objek"
+  },
+  "eckdaten": {
+   "stockwerk": "1. DG (Maisonette)",
+   "baujahr": "1875, DG-Ausbau 2012"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-212868927322": {
+  "lage": {
+   "adresse": "Goldeggasse 22/15",
+   "lat": 48.18967038,
+   "lon": 16.3762276,
+   "sicherheit": "genau",
+   "begruendung": "Der Makler-Rundgang nennt die Adresse: Accentas virtuelle Tour (im Inserat verlinkt, https://floorfy.com/tour/2648716) hat in den Metadaten property_address/og:title \"Goldeggasse 22\", agentName \"Accenta Immobilien\", Fläche 135. Das Vorschaubild der Tour (Vorraum mit Holzpaneel, Blick in den Wohnraum mit Dachfenster) passt zu den Inseratsfotos. Top 15 steht auf den beiden Grundrissen im Inserat und im Exposé (\"app. 15\", Türschild 15; willhaben-Bilder 2 und 3, Exposé-PDF https://www.accenta-immo.at/expose/13360720/1180743, Objekt 10729). Exposé und Makler-Seite (https://www.accenta-immo.at/objek"
+  },
+  "eckdaten": {
+   "stockwerk": "1. DG (Maisonette)",
+   "baujahr": "1875, DG-Ausbau 2012"
+  },
+  "datum": "2026-11-21"
+ },
+ "ds-15211358": {
+  "lage": {
+   "adresse": "Goldeggasse 22/15",
+   "lat": 48.18967038,
+   "lon": 16.3762276,
+   "sicherheit": "genau",
+   "begruendung": "Der Makler-Rundgang nennt die Adresse: Accentas virtuelle Tour (im Inserat verlinkt, https://floorfy.com/tour/2648716) hat in den Metadaten property_address/og:title \"Goldeggasse 22\", agentName \"Accenta Immobilien\", Fläche 135. Das Vorschaubild der Tour (Vorraum mit Holzpaneel, Blick in den Wohnraum mit Dachfenster) passt zu den Inseratsfotos. Top 15 steht auf den beiden Grundrissen im Inserat und im Exposé (\"app. 15\", Türschild 15; willhaben-Bilder 2 und 3, Exposé-PDF https://www.accenta-immo.at/expose/13360720/1180743, Objekt 10729). Exposé und Makler-Seite (https://www.accenta-immo.at/objek"
+  },
+  "eckdaten": {
+   "stockwerk": "1. DG (Maisonette)",
+   "baujahr": "1875, DG-Ausbau 2012"
   },
   "datum": "2026-11-21"
  }
