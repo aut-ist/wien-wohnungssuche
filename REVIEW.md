@@ -57,6 +57,11 @@ Bei `genau`/`ungefaehr` immer auch `lat`/`lon` eintragen (z. B. aus ADRESSENOGD 
 `build` die Adresse mit der PLZ des Inserats, und klappt das in der Cloud nicht, wird die Recherche stillschweigend
 verworfen (2026-11-19: Beheimgasse 49, 1170 stand auf dem Grundriss, ImmoScout nannte 1180, die Karte zeigte weiter den 18.).
 Nennt die Quelle einen anderen Bezirk als das Inserat, gilt die Quelle.
+Auch bei `ungefaehr` immer das wahrscheinlichste HAUS eintragen (Straße + Hausnummer + dessen Koordinaten), nicht nur die Straße
+(Saad 2026-11-21): dann zeigen Google Maps und Street View auf dieses Haus (beschriftet „ungefähr“). Nur die Straße ohne Hausnummer
+lässt die Karte bei der Straße und ohne Street View. Jede neue oder korrigierte Adresse (auch aus Grundriss, Tour, Exposé) gleich so
+eintragen und danach `run.py build` laufen lassen, damit Maps- und Street-View-Links neu berechnet werden; 360°-Touren (Giraffe360,
+Ogulo, Matterport) im Inserat ansehen: ihr Titel nennt oft die Adresse (2026-11-21: „Gumpendorferstrasse 8“ statt „Laimgrubengasse“).
 
 ## Frage `heizung`
 Seit 2026-10-28 schließt Gas nichts mehr aus: auf der Karte gibt es den Schalter "ohne Gasheizung".

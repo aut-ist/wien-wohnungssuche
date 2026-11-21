@@ -32826,13 +32826,16 @@
  },
  "wh-1830443909": {
   "lage": {
-   "adresse": "Laimgrubengasse",
+   "adresse": "Gumpendorfer Straße 8",
+   "lat": 48.200609,
+   "lon": 16.361496,
    "sicherheit": "ungefaehr",
-   "lat": 48.2,
-   "lon": 16.3615,
-   "begruendung": "6. Bezirk nahe Ring, U3 Neubaugasse und U4 Kettenbrückengasse beide in Fußnähe, Naschmarkt; Portalpunkt (Umkreis ca. 260 m), keine Straße genannt"
+   "begruendung": "Titel der 360°-Tour des Maklers MOO (Giraffe360, tour.giraffe360.com/c8654814e1dd4aa08123e8eda1f990e6): 'Gumpendorferstrasse 8, 1060 Wien'; MOO sitzt in der Gumpendorfer Straße 151, also nicht die Büroadresse. willhaben-Punkt 48.20024/16.36269 (±259 m) liegt 100 m davon. Das Inserat nennt 'Laimgrubengasse' (die endet ca. 260 m westlich an der Gumpendorfer Straße 16-18). Kein Dokument mit Hausnummer, daher ungefähr."
   },
-  "datum": "2026-11-21"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "1. Stock"
+  }
  },
  "is-868373495525": {
   "lage": {

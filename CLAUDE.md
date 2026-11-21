@@ -195,7 +195,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Wer noch dran ist: `data/grundriss_offen.json` (build), Bilder groß in `data/grundrisse_zeichnen/ID/`
   (`tools/grundrisse.py --zeichnen` im Workflow), erledigt in `data/grundriss_geprueft.json`; Ablauf für die
   Routine in REVIEW.md. Vorschau als PNG: `python tools/grundriss_zeichnen.py ID --png datei.png`.
-- Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Street View
+- Google-Maps-Link: geprüfte Adresse, sonst der Punkt ("ungefähr"), nie nur der Bezirk. Seit 2026-11-21 gibt es Street View auch bei ungefährer Lage, wenn
+  ein bestimmtes Haus (Hausnummer) geschätzt ist (Link „Street View (ungefähr)“); die Maps-Suche bekommt die Adresse ohne Top. Street View
   startet am nächsten Straßenpunkt vor dem Haus mit Blick aufs Haus (`strassenblick` in
   wohnungen/geocode.py, Cache `data/strassenblick_cache.json`); am Hauspunkt selbst zeigt Google
   oft Nutzerfotos aus Höfen statt der Straßenansicht.

@@ -1389,10 +1389,12 @@ def build():
     save_json(PREISARCHIV, archiv)
     save_json(SICHTBAR, sichtbar)
     save_json(KORB_STATUS, korb_status)
-    # Street View vom Gehsteig aus mit Blick aufs Haus (nur bei genauer Lage; neue Punkte max. 150 pro Lauf)
+    # Street View vom Gehsteig aus mit Blick aufs Haus (neue Punkte max. 150 pro Lauf). Seit 2026-11-21 auch bei ungefährer
+    # Lage, wenn die Recherche ein bestimmtes Haus (Hausnummer) geschätzt hat (Saad: auch bei Schätzungen Maps + Street View)
     neu_abgefragt = 0
     for w in karte:
-        if w.get("ungefaehr") or not w.get("lat") or w["status"] == "raus":
+        haus = bool(re.search(r"\d", w.get("adresse") or ""))
+        if (w.get("ungefaehr") and not haus) or not w.get("lat") or w["status"] == "raus":
             continue
         try:
             from wohnungen import geocode as _g
