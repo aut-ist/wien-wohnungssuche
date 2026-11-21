@@ -2811,5 +2811,49 @@
   16.299118
  ],
  "u3 gasometer , landstrasse, 1030 wien": null,
- "u3 gasometer, 1030 wien": null
+ "u3 gasometer, 1030 wien": null,
+ "hohlweggasse 24, 1030 wien": [
+  48.190767,
+  16.387316
+ ],
+ "gunoldstraße, 1190 wien": [
+  48.244884,
+  16.366902
+ ],
+ "himmelpfortgasse, 1010 wien": [
+  48.205888,
+  16.371833
+ ],
+ "nibelungengasse, 1010 wien": [
+  48.201464,
+  16.366681
+ ],
+ "simon denk gasse, 1090 wien": [
+  48.225803,
+  16.359446
+ ],
+ "zimmermannplatz, 1090 wien": [
+  48.216945,
+  16.343855
+ ],
+ "hilde-güden-promenade 9/16, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "hilde-güden-promenade 9/10, 1030 wien": [
+  48.188192,
+  16.39652
+ ],
+ "mexikoplatz 20, 1020 wien": [
+  48.223874,
+  16.403631
+ ],
+ "garbergasse, 1060 wien": [
+  48.193193,
+  16.344013
+ ],
+ "garbergasse 4, 1060 wien": [
+  48.192701,
+  16.344663
+ ]
 }
