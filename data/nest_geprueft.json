@@ -5631,10 +5631,12 @@
  "is-918216007315": {
   "ids": [
    "is-918216007315",
-   "wh-865769198"
+   "wh-865769198",
+   "ds-15244185"
   ],
-  "ergebnis": "Ferrogasse 72 (ungefähr), Stiege F Top 2, erschlossen aus Lageplan; Projekt noch nicht gebaut",
-  "datum": "2026-11-11"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Ferrogasse 62/2 (raus: Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027)"
  },
  "wh-2145505668": {
   "ids": [
@@ -8678,9 +8680,9 @@
   "ids": [
    "ds-15323085"
   ],
-  "titel": "Gersthof-Garten-Geothermie-Ganze Etage (F1)",
-  "ergebnis": "unklar: Neubauprojekt PlanetHome in Gersthof (Top 01 EG, 86 m² laut Grundriss, Planstand 19.08.2026), Straße nicht genannt; Schwesterinserate Gersthof-Dachgeschoss-Geothermie (B5) auf immmo.at gleiche Beschreibung, ebenfalls ohne Adresse. Grundriss-Titelblock ohne Adresse, Websuche (Tout l'etage, Gersthof, Erdwärme) ohne Adresse. Ungefährer Punkt Gersthof; Gürtelzeit klar zu weit.",
-  "datum": "2026-11-20"
+  "titel": "",
+  "datum": "2026-11-21",
+  "ergebnis": "genau: Ferrogasse 62/1 (raus: Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027)"
  },
  "wh-1770891658": {
   "ids": [

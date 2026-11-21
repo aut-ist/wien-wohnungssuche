@@ -16423,29 +16423,37 @@
  "is-918216007315": {
   "zustand": {
    "ergebnis": "raus",
-   "begruendung": "Noch nicht gebaut: \"Verfügbar ab 19 Monate ab Baustart\", Baubewilligung liegt erst vor, Baujahr 2027 – Bezug frühestens 2028"
+   "begruendung": "Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027"
   },
-  "datum": "2026-11-11",
+  "datum": "2026-11-21",
   "lage": {
-   "adresse": "Ferrogasse 72",
-   "lat": 48.234015,
-   "lon": 16.319183,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+   "adresse": "Ferrogasse 62/2",
+   "lat": 48.234045,
+   "lon": 16.320039,
+   "sicherheit": "genau",
+   "begruendung": "MEMA-Projektseite https://www.mema-immobilien.at/ferro-bastien/: Einheitenliste 'Ferrogasse 62' Top 2, 4 Zimmer, 1. OG, 102,7 m² innen / 106,7 m² außen, 'reserviert' (= F2, 102,7 m²; Inseratstext: Garten hofseitig über dem darunterliegenden Geschoß). Plankopf der Ferrogasse-PDFs: 'Ferrogasse 62, 1180 Wien'. Frühere Vermutung Ferrogasse 72 falsch. Koordinaten ADRESSENOGD Ferrogasse 62."
+  },
+  "eckdaten": {
+   "stockwerk": "1. OG (Garten hofseitig)",
+   "baujahr": "Neubau, Bauende voraussichtlich 2028"
   }
  },
  "wh-865769198": {
   "zustand": {
    "ergebnis": "raus",
-   "begruendung": "Noch nicht gebaut: \"Verfügbar ab 19 Monate ab Baustart\", Baubewilligung liegt erst vor, Baujahr 2027 – Bezug frühestens 2028"
+   "begruendung": "Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027"
   },
-  "datum": "2026-11-11",
+  "datum": "2026-11-21",
   "lage": {
-   "adresse": "Ferrogasse 72",
-   "lat": 48.234015,
-   "lon": 16.319183,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Erschlossen: Einheiten B1-B5/F1-F5 (Bastiengasse/Ferrogasse), Lageplan im Grundriss zeigt Durchgangsgrundstück Bastiengasse 63 – Ferrogasse 72 (Stadtkarte, Orthofoto 2025, Ferrogasse 72 unbebaut); Top F2. Keine Quelle nennt die Adresse."
+   "adresse": "Ferrogasse 62/2",
+   "lat": 48.234045,
+   "lon": 16.320039,
+   "sicherheit": "genau",
+   "begruendung": "MEMA-Projektseite https://www.mema-immobilien.at/ferro-bastien/: Einheitenliste 'Ferrogasse 62' Top 2, 4 Zimmer, 1. OG, 102,7 m² innen / 106,7 m² außen, 'reserviert' (= F2, 102,7 m²; Inseratstext: Garten hofseitig über dem darunterliegenden Geschoß). Plankopf der Ferrogasse-PDFs: 'Ferrogasse 62, 1180 Wien'. Frühere Vermutung Ferrogasse 72 falsch. Koordinaten ADRESSENOGD Ferrogasse 62."
+  },
+  "eckdaten": {
+   "stockwerk": "1. OG (Garten hofseitig)",
+   "baujahr": "Neubau, Bauende voraussichtlich 2028"
   }
  },
  "is-126884792434": {
@@ -32720,13 +32728,21 @@
  },
  "ds-15323085": {
   "lage": {
-   "adresse": "Gersthofer Straße",
-   "sicherheit": "ungefaehr",
-   "lat": 48.2335,
-   "lon": 16.33,
-   "begruendung": "\"Willkommen in Gersthof\", ca. 10 Gehminuten zur Schnellbahnstation Gersthof; Neubauprojekt, keine Adresse im Inserat"
+   "adresse": "Ferrogasse 62/1",
+   "lat": 48.234045,
+   "lon": 16.320039,
+   "sicherheit": "genau",
+   "begruendung": "Bauträger-Projektseite MEMA Immobilien 'Ferro – Bastien' (https://www.mema-immobilien.at/ferro-bastien/, Verkaufspartner PlanetHome/Georg Tauzher): 'Von der Ferrogasse 62 bis zur Bastiengasse 53'; Einheitenliste Ferrogasse 62 Top 1, EG, 139,5 m² innen / 137,5 m² außen, 1.089.000 EUR = dieses Inserat. Plan-PDF https://www.mema-immobilien.at/wp-content/uploads/2026/10/20260819_Variante-FERRO-T1-inkl.-Nebengebaeude.pdf mit Plankopf 'Ferrogasse 62, 1180 Wien', Top 01 Erdgeschoss, Planstand 19.08.2026 – identisch mit dem Grundriss im derStandard-Inserat (Wohnfläche 86,0 + Keller 32,1 + Hofgebäude 2"
   },
-  "datum": "2026-11-20"
+  "datum": "2026-11-21",
+  "eckdaten": {
+   "stockwerk": "EG (Gartenwohnung; dazu Keller und Hofgebäude)",
+   "baujahr": "Neubau, Bauende voraussichtlich 2028"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027"
+  }
  },
  "wh-2024777183": {
   "lage": {
@@ -33177,6 +33193,24 @@
   "eckdaten": {
    "stockwerk": "1. DG (Maisonette)",
    "baujahr": "1875, DG-Ausbau 2012"
+  },
+  "datum": "2026-11-21"
+ },
+ "ds-15244185": {
+  "lage": {
+   "adresse": "Ferrogasse 62/2",
+   "lat": 48.234045,
+   "lon": 16.320039,
+   "sicherheit": "genau",
+   "begruendung": "MEMA-Projektseite https://www.mema-immobilien.at/ferro-bastien/: Einheitenliste 'Ferrogasse 62' Top 2, 4 Zimmer, 1. OG, 102,7 m² innen / 106,7 m² außen, 'reserviert' (= F2, 102,7 m²; Inseratstext: Garten hofseitig über dem darunterliegenden Geschoß). Plankopf der Ferrogasse-PDFs: 'Ferrogasse 62, 1180 Wien'. Frühere Vermutung Ferrogasse 72 falsch. Koordinaten ADRESSENOGD Ferrogasse 62."
+  },
+  "eckdaten": {
+   "stockwerk": "1. OG (Garten hofseitig)",
+   "baujahr": "Neubau, Bauende voraussichtlich 2028"
+  },
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027"
   },
   "datum": "2026-11-21"
  }
