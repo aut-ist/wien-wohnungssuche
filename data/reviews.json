@@ -32735,5 +32735,103 @@
    "begruendung": "Inserat: \"verkehrsberuhigte Kraftgasse\", Augarten 3 min, Donaukanal 5 min; Hausnummer nicht gefunden"
   },
   "datum": "2026-11-20"
+ },
+ "wh-1263748858": {
+  "lage": {
+   "adresse": "Taborstraße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.22631,
+   "lon": 16.383219,
+   "begruendung": "\"Augarten, Taborstraße\", Straßenbahn 2 und 5 vor der Haustür, U2 Taborstraße 5 min; Portalpunkt (Umkreis ca. 260 m)"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-797850690": {
+  "lage": {
+   "adresse": "Gumpendorfer Straße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.1919,
+   "lon": 16.347689,
+   "begruendung": "Region \"Pfarre Gumpendorf\", 5 min zu U Pilgramgasse und Margaretengürtel, 8-10 min Mariahilfer Straße; Portalpunkt (Umkreis ca. 250 m), Hausnummer nicht genannt"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1830443909": {
+  "lage": {
+   "adresse": "Laimgrubengasse",
+   "sicherheit": "ungefaehr",
+   "lat": 48.2,
+   "lon": 16.3615,
+   "begruendung": "6. Bezirk nahe Ring, U3 Neubaugasse und U4 Kettenbrückengasse beide in Fußnähe, Naschmarkt; Portalpunkt (Umkreis ca. 260 m), keine Straße genannt"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-868373495525": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "CITY-DG, Top 29/31, nur \"9. Bezirk Alsergrund\", keine Straße; Websuche ergab keine Adresse"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-970666137": {
+  "lage": {
+   "adresse": "Liechtensteinstraße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.23286,
+   "lon": 16.357393,
+   "begruendung": "\"das Haus liegt in der Liechtensteinstraße auf Höhe der ehemaligen WU\", 5 min zu Spittelau/Nußdorfer Straße; Portalpunkt (Umkreis ca. 264 m)"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1907274053": {
+  "lage": {
+   "adresse": "Liechtensteinstraße 118",
+   "lat": 48.231144,
+   "lon": 16.354021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "weekend.at-Kopie derselben Wohnung (3 Zi, 75,53 m², Haus von 1886, Zimmer 21,55/22,89 m², EG) nennt Liechtensteinstraße 118; Koordinaten = Portalpunkt (Umkreis 269 m), Stadt-Wien-Adressdaten von hier nicht erreichbar"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-2055317450": {
+  "lage": {
+   "adresse": "Neuwaldegger Straße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.23495,
+   "lon": 16.285936,
+   "begruendung": "Neuwaldegg (Region Wienerwald), Bus 43A vor dem Haus; Portalpunkt (Umkreis ca. 310 m), Straße nicht genannt"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-375725614805": {
+  "lage": {
+   "adresse": "Liechtensteinstraße 118",
+   "lat": 48.231144,
+   "lon": 16.354021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "weekend.at-Kopie derselben Wohnung (3 Zi, 75,53 m², Haus von 1886, Zimmer 21,55/22,89 m², EG) nennt Liechtensteinstraße 118; Koordinaten = Portalpunkt (Umkreis 269 m), Stadt-Wien-Adressdaten von hier nicht erreichbar"
+  },
+  "datum": "2026-11-21"
+ },
+ "wh-1585865258": {
+  "lage": {
+   "adresse": "Liechtensteinstraße 118",
+   "lat": 48.231144,
+   "lon": 16.354021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "weekend.at-Kopie derselben Wohnung (3 Zi, 75,53 m², Haus von 1886, Zimmer 21,55/22,89 m², EG) nennt Liechtensteinstraße 118; Koordinaten = Portalpunkt (Umkreis 269 m), Stadt-Wien-Adressdaten von hier nicht erreichbar"
+  },
+  "datum": "2026-11-21"
+ },
+ "is-204819640684": {
+  "lage": {
+   "adresse": "Liechtensteinstraße 118",
+   "lat": 48.231144,
+   "lon": 16.354021,
+   "sicherheit": "ungefaehr",
+   "begruendung": "weekend.at-Kopie derselben Wohnung (3 Zi, 75,53 m², Haus von 1886, Zimmer 21,55/22,89 m², EG) nennt Liechtensteinstraße 118; Koordinaten = Portalpunkt (Umkreis 269 m), Stadt-Wien-Adressdaten von hier nicht erreichbar"
+  },
+  "datum": "2026-11-21"
  }
 }

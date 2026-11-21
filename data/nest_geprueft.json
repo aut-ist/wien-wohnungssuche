@@ -8689,5 +8689,49 @@
   "titel": "Helle 3-Zimmer-Wohnung im 4. Liftstock mit ca. 111m²",
   "ergebnis": "ungefaehr: Rainergasse/Johann-Strauß-Gasse (Bus 13A Rainergasse 97 m, Tram 1 Johann-Strauß-Gasse 250 m, Alois-Drasche-Park), Portalpunkt 255 m versetzt. Grundriss (von Alten) ohne Adresse; Websuche (von Alten, 111 m², Baujahr 1958, 1040) ohne Treffer; Schwester-Inserate keine.",
   "datum": "2026-11-20"
+ },
+ "wh-1907274053": {
+  "ids": [
+   "wh-1907274053",
+   "is-375725614805",
+   "wh-1585865258",
+   "is-204819640684"
+  ],
+  "titel": "Altbauwohnung - 3 Zimmer zwischen Spittelau und Nußdorfer Straße",
+  "ergebnis": "ungefaehr: Liechtensteinstraße 118 (Websuche: weekend.at-Inserat 'Wiener Altbau mit großzügigen Räumen, 3-Zimmer-Wohnung im 9. Bezirk', 75,53 m², Baujahr 1886, Zimmer 21,55/22,89 m², EG, https://www.weekend.at/de/immobilie/wiener-altbau-mit-grosszuegigen-raeumen-3-zimmer-wohnung-im-9-bezirk/OBGC2026100814172144918d75a31d6). Grundriss RG3 (Top 5, 'Liechtensteinsteinstraße') bestätigt Straße, Top 5+6. Koordinaten nur Portalpunkt, da data.wien.gv.at hier gesperrt; Hausnummer 118 nicht aus Portaltext belegt, nur aus Suchtreffer.",
+  "datum": "2026-11-21"
+ },
+ "wh-970666137": {
+  "ids": [
+   "wh-970666137"
+  ],
+  "titel": "4-5 Zimmer Altbau zum selber gestalten",
+  "ergebnis": "ungefaehr: Liechtensteinstraße auf Höhe der alten WU (Inserat), Hausnummer unklar; Sister-Inserate: gleicher Makler ZEBEH, kein gleicher Energieausweis (nur Klasse F/E); Grundriss-Ordner fehlt; Websuche 'ZEBEH Liechtensteinstraße Dachgeschoßausbau 106,31 m²' nur Inserat ohne Hausnummer, Objekt 8200/261 (135 m², 3. Stock) evtl. selbes Haus; ir.at, weekend.at nicht abrufbar. Portalpunkt liegt in roter Zone Lichtental-Nord (Umkreis).",
+  "datum": "2026-11-21"
+ },
+ "wh-1830443909": {
+  "ids": [
+   "wh-1830443909"
+  ],
+  "titel": "STILVOLLES ALTBAU-JUWEL AM RANDE ZUM 1. BEZIRK IM HERZEN WIENS",
+  "ergebnis": "unklar: Hausnummer nicht gefunden. Sister: wh-1635030385 (gleicher Titel, offline, ebenfalls ohne Adresse); Grundriss-Ordner enthält nur ein Foto (Wohnzimmer), kein Plan; 5 Dokument-PDFs auf storage.justimmo.at nicht abrufbar (Proxy 000); Websuche nach Titel/89,58 m²/MOO Immobilien ohne Treffer; Text: U3 Neubaugasse + U4 Kettenbrückengasse, Region 'Ring', also Laimgrubengasse-Gegend (ungefaehr).",
+  "datum": "2026-11-21"
+ },
+ "is-868373495525": {
+  "ids": [
+   "is-868373495525",
+   "wh-1437232857"
+  ],
+  "titel": "CITY-DG Zwei Dachgeschosswohnungen Alsergrund (Top 29/31)",
+  "ergebnis": "unklar: keine Straße in den Texten; Sister-Inserate keine (IMMO METER, HWB 28,6 / fGEE 0,74); Grundriss-Ordner fehlt; Websuche 'CITY-DG Top 31 Top 29 IMMO METER' fand weekend.at/immmo-Kopien ohne lesbare Adresse (weekend.at von hier gesperrt); Bauträgerseite nicht gefunden.",
+  "datum": "2026-11-21"
+ },
+ "fm-5777604": {
+  "ids": [
+   "fm-5777604"
+  ],
+  "titel": "Wohnungen für jeden Lebensstil",
+  "ergebnis": "unklar: FindMyHome-Inserat ohne Makler, Adresse, 1 Foto, kein Grundriss-Ordner; Websuche liefert nur vagen Treffer (ImmoScout 'Obere Donaustraße'-Projekt, EG, 81 m², 790.000 €, Terrasse statt Garten), Bezirkspunkt liegt aber nicht dort, daher nicht übernommen.",
+  "datum": "2026-11-21"
  }
 }
