@@ -173,6 +173,7 @@
   #detail.offen { transform: translateX(0); }
   .detail-kopf { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); }
   .detail-kopf .spacer { flex: 1; }
+  .detail-kopf .ico-handy { display: none; }
   .galerie { position: relative; background: #111; }
   .galerie .gross { width: 100%; height: 400px; object-fit: contain; display: block; background: #111; cursor: zoom-in; }
   .galerie .voll-hinweis { position: absolute; right: 10px; bottom: 10px; background: rgba(0,0,0,.55); color: #fff;
@@ -297,7 +298,15 @@
     #seite { grid-row: -2; border-right: 0; border-top: 1px solid var(--line); }
     #detail { position: fixed; z-index: 2000; transform: translateY(102%); }
     .detail-kopf { gap: 5px; padding: 8px 6px; }
-    .detail-kopf .btn { padding: 6px 8px; font-size: 12.5px; white-space: nowrap; }
+    .detail-kopf .btn { padding: 6px 8px; font-size: 12.5px; white-space: nowrap; flex-shrink: 0; }
+    /* seit "Teilen" passte die Zeile nicht mehr aufs Handy (2026-11-21): Zurück/Karte/Teilen/Rauswerfen nur als Symbol,
+       und falls es trotzdem zu eng wird, lässt sich die Zeile seitlich wischen */
+    .detail-kopf { overflow-x: auto; scrollbar-width: none; }
+    .detail-kopf::-webkit-scrollbar { display: none; }
+    .detail-kopf .txt, .detail-kopf .ico-pc { display: none; }
+    .detail-kopf .ico-handy { display: inline; }  /* Mistkübel statt ✕, damit es niemand für "Schließen" hält */
+    .detail-kopf .btn[data-akt="schliessen"], .detail-kopf .btn[data-akt="aufkarte"], .detail-kopf .btn[data-akt="teilen"],
+    .detail-kopf .btn[data-akt="weg"] { min-width: 36px; justify-content: center; font-size: 15px; }
     #detail.offen { transform: translateY(0); }
     .galerie .gross { height: 320px; }
     .fotos, .fotos img { height: 240px; }
@@ -1026,14 +1035,14 @@ async function zeigeDetail(id, neuLaden = true) {
   const papierkorb = imPapierkorb(w);
   el.innerHTML = `
     <div class="detail-kopf">
-      <button class="btn" data-akt="schliessen">← Zurück</button>
-      <button class="btn nur-handy" data-akt="aufkarte">📍 Karte</button>
+      <button class="btn" data-akt="schliessen" aria-label="Zurück">←<span class="txt"> Zurück</span></button>
+      <button class="btn nur-handy" data-akt="aufkarte" aria-label="Karte">📍<span class="txt"> Karte</span></button>
       <span class="spacer"></span>
-      <button class="btn" data-akt="teilen" data-id="${esc(w.id)}" title="Link zum Ansehen schicken (ohne Ändern)">↗ Teilen</button>
+      <button class="btn" data-akt="teilen" data-id="${esc(w.id)}" title="Link zum Ansehen schicken (ohne Ändern)" aria-label="Teilen">↗<span class="txt"> Teilen</span></button>
       ${NUR_NEST ? '' : papierkorb ? `<button class="btn" data-akt="zurueck" data-id="${esc(w.id)}">↺ Zurückholen</button>`
         : `<button class="btn" data-akt="brut" data-id="${esc(w.id)}" style="${istBrut(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🐣 ${istBrut(w) ? 'Im Brutkasten' : 'Ausbrüten'}</button>
            <button class="btn" data-akt="merken" data-id="${esc(w.id)}" style="${imNest(w) ? 'color:#7a5a00;background:#fff3cc;border-color:#e3a400' : ''}">🥚 ${imNest(w) ? 'Im Nest' : 'Ins Nest'}</button>
-           <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e">✕ Aus'm Nest</button>`}
+           <button class="btn" data-akt="weg" data-id="${esc(w.id)}" style="color:#d24b3e" aria-label="Aus'm Nest"><span class="ico-pc">✕</span><span class="ico-handy">🗑</span><span class="txt"> Aus'm Nest</span></button>`}
     </div>
     ${bilder.length ? `<div class="galerie">
       ${img(bilder[state.bildIdx], 'class="gross" data-akt="vollbild-detail"')}
