@@ -1,0 +1,353 @@
+{
+ "ids": [
+  "wh-2003496153",
+  "wh-1210566220",
+  "wh-1186375351",
+  "wh-1291011907",
+  "is-415491492025",
+  "is-229633807348",
+  "fm-5510073",
+  "is-957875196171",
+  "is-619388781112",
+  "is-413399296965",
+  "fm-5611544"
+ ],
+ "ersetzt": [
+  "https://cache.willhaben.at/mmo/3/200/349/6153_843317101.jpg",
+  "https://cache.willhaben.at/mmo/0/121/056/6220_-421050882.jpg",
+  "https://cache.willhaben.at/mmo/1/118/637/5351_367121299_n.jpg",
+  "https://cache.willhaben.at/mmo/7/129/101/1907_172042676.jpg",
+  "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0015I00000OgQaI-1763292533-73e64b81ddf34a2e97098ee167ca43f2",
+  "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001kvuIq-1753692881-74b64ae87a6e41df80d659ed3007025d",
+  "https://media.findmyhome.at/md1/3/5510073/s1/6hne4UncXHNeGsrDnnKZ0h.jpeg",
+  "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E849u-1770202062-4d6d7e8309f142b1b10c8f713b0f953e",
+  "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000TTKIy-1755531012-9883a2f2a0924f12b2e106692246d2a7",
+  "https://media.findmyhome.at/md1/3/5611544/s1/1oPYFgN3nGXaoKe4KylrEU.jpg"
+ ],
+ "titel": "Top 3/4, 1. Obergeschoß",
+ "raeume": [
+  {
+   "name": "Kabinett",
+   "m2": 12.91,
+   "art": "schlafen",
+   "punkte": [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     3.18,
+     0.0
+    ],
+    [
+     3.18,
+     4.45
+    ],
+    [
+     0.0,
+     4.45
+    ]
+   ]
+  },
+  {
+   "name": "Küchennische",
+   "art": "kueche",
+   "punkte": [
+    [
+     0.0,
+     4.45
+    ],
+    [
+     3.18,
+     4.45
+    ],
+    [
+     3.18,
+     7.31
+    ],
+    [
+     0.0,
+     7.31
+    ]
+   ]
+  },
+  {
+   "name": "Wohnküche",
+   "m2": 39.64,
+   "art": "wohnen",
+   "punkte": [
+    [
+     3.18,
+     0.0
+    ],
+    [
+     7.55,
+     0.0
+    ],
+    [
+     7.55,
+     7.31
+    ],
+    [
+     3.18,
+     7.31
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "m2": 13.55,
+   "art": "schlafen",
+   "punkte": [
+    [
+     7.55,
+     0.0
+    ],
+    [
+     10.25,
+     0.0
+    ],
+    [
+     10.25,
+     5.35
+    ],
+    [
+     7.55,
+     5.35
+    ]
+   ]
+  },
+  {
+   "name": "Flur",
+   "m2": 2.61,
+   "art": "flur",
+   "punkte": [
+    [
+     7.55,
+     5.35
+    ],
+    [
+     9.08,
+     5.35
+    ],
+    [
+     9.08,
+     7.31
+    ],
+    [
+     7.55,
+     7.31
+    ]
+   ],
+   "beschriftung": [
+    8.31,
+    6.8
+   ]
+  },
+  {
+   "name": "WC",
+   "m2": 1.71,
+   "art": "wc",
+   "punkte": [
+    [
+     9.08,
+     5.35
+    ],
+    [
+     10.25,
+     5.35
+    ],
+    [
+     10.25,
+     7.31
+    ],
+    [
+     9.08,
+     7.31
+    ]
+   ]
+  },
+  {
+   "name": "Vorraum",
+   "m2": 4.35,
+   "art": "flur",
+   "punkte": [
+    [
+     8.08,
+     7.31
+    ],
+    [
+     9.08,
+     7.31
+    ],
+    [
+     9.08,
+     7.86
+    ],
+    [
+     9.99,
+     7.86
+    ],
+    [
+     9.99,
+     10.52
+    ],
+    [
+     8.08,
+     10.52
+    ]
+   ],
+   "beschriftung": [
+    9.2,
+    8.38
+   ]
+  },
+  {
+   "name": "Bad",
+   "m2": 4.32,
+   "art": "bad",
+   "punkte": [
+    [
+     6.29,
+     7.86
+    ],
+    [
+     8.08,
+     7.86
+    ],
+    [
+     8.08,
+     10.52
+    ],
+    [
+     6.29,
+     10.52
+    ]
+   ]
+  }
+ ],
+ "fenster": [
+  [
+   [
+    0.76,
+    0.0
+   ],
+   [
+    2.37,
+    0.0
+   ]
+  ],
+  [
+   [
+    4.3,
+    0.0
+   ],
+   [
+    5.9,
+    0.0
+   ]
+  ],
+  [
+   [
+    7.86,
+    0.0
+   ],
+   [
+    9.44,
+    0.0
+   ]
+  ]
+ ],
+ "tueren": [
+  {
+   "von": [
+    3.18,
+    3.63
+   ],
+   "bis": [
+    3.18,
+    2.84
+   ],
+   "seite": -1
+  },
+  {
+   "von": [
+    3.18,
+    4.61
+   ],
+   "bis": [
+    3.18,
+    6.19
+   ],
+   "offen": true
+  },
+  {
+   "von": [
+    7.55,
+    6.43
+   ],
+   "bis": [
+    7.55,
+    5.64
+   ],
+   "seite": -1
+  },
+  {
+   "von": [
+    9.08,
+    6.43
+   ],
+   "bis": [
+    9.08,
+    5.64
+   ],
+   "seite": -1
+  },
+  {
+   "von": [
+    8.03,
+    5.35
+   ],
+   "bis": [
+    8.8,
+    5.35
+   ],
+   "seite": -1
+  },
+  {
+   "von": [
+    8.08,
+    7.31
+   ],
+   "bis": [
+    9.08,
+    7.31
+   ],
+   "offen": true
+  },
+  {
+   "von": [
+    8.08,
+    9.54
+   ],
+   "bis": [
+    8.08,
+    8.77
+   ],
+   "seite": 1
+  },
+  {
+   "von": [
+    9.2,
+    10.52
+   ],
+   "bis": [
+    8.34,
+    10.52
+   ],
+   "seite": 1
+  }
+ ],
+ "wohnflaeche": 79.09,
+ "hinweis": "Nach dem Verkaufsplan neu gezeichnet, Maße ungefähr. Küchennische gehört zur Wohnküche."
+}

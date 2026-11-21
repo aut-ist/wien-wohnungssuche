@@ -7291,9 +7291,7 @@
    "monatlich": 366.47,
    "bilder": [
     "https://cache.willhaben.at/mmo/4/988/212/014_1226476750.jpg",
-    "https://cache.willhaben.at/mmo/4/988/212/014_-1227379265.jpg",
-    "https://cache.willhaben.at/mmo/4/988/212/014_-1189937437.jpg",
-    "https://cache.willhaben.at/mmo/4/988/212/014_1486355608.jpg",
+    "grundrisse/wh-988212014.svg?v=83d74d9d",
     "https://cache.willhaben.at/mmo/4/988/212/014_1819662458.jpg",
     "https://cache.willhaben.at/mmo/4/988/212/014_-737353540.jpg",
     "https://cache.willhaben.at/mmo/4/988/212/014_-874838887.jpg",
@@ -7302,7 +7300,10 @@
     "https://cache.willhaben.at/mmo/4/988/212/014_-195483097.jpg",
     "https://cache.willhaben.at/mmo/4/988/212/014_-1153713763.jpg",
     "https://cache.willhaben.at/mmo/4/988/212/014_936616560.jpg",
-    "https://cache.willhaben.at/mmo/4/988/212/014_1227223054.jpg"
+    "https://cache.willhaben.at/mmo/4/988/212/014_1227223054.jpg",
+    "https://cache.willhaben.at/mmo/4/988/212/014_-1227379265.jpg",
+    "https://cache.willhaben.at/mmo/4/988/212/014_-1189937437.jpg",
+    "https://cache.willhaben.at/mmo/4/988/212/014_1486355608.jpg"
    ],
    "freiflaeche": [
     "Terrasse"
@@ -8455,8 +8456,7 @@
    "monatlich": 386.89,
    "bilder": [
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001snH6K-1783432414-c34045651c684ac8b488ac1d2a9591d7",
-    "https://cache.willhaben.at/mmo/7/129/101/1907_172042676.jpg",
-    "https://cache.willhaben.at/mmo/3/200/349/6153_843317101.jpg",
+    "grundrisse/wh-2003496153.svg?v=2b182d07",
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001snH6K-1783432882-ac5190497c304ac7a07c8ec3c9a650da",
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001snH6K-1783433041-67313c3501184d7d8a10a36ce378bfc5",
     "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001snH6K-1783433424-1eda974d7e6c458c937b1749284d557a",
@@ -8521,7 +8521,9 @@
     "https://cache.willhaben.at/mmo/0/121/056/6220_-254241541.jpg",
     "https://cache.willhaben.at/mmo/0/121/056/6220_-69307694.jpg",
     "https://cache.willhaben.at/mmo/0/121/056/6220_-714623033.jpg",
-    "https://cache.willhaben.at/mmo/0/121/056/6220_256504723.jpg"
+    "https://cache.willhaben.at/mmo/0/121/056/6220_256504723.jpg",
+    "https://cache.willhaben.at/mmo/7/129/101/1907_172042676.jpg",
+    "https://cache.willhaben.at/mmo/3/200/349/6153_843317101.jpg"
    ],
    "freiflaeche": [],
    "zustand": "Renoviert",
@@ -9767,8 +9769,7 @@
    "monatlich": 402.15,
    "bilder": [
     "https://cache.willhaben.at/mmo/8/143/996/9788_-768383396.jpg",
-    "https://cache.willhaben.at/mmo/9/107/425/3549_972070334.jpg",
-    "https://cache.willhaben.at/mmo/9/107/425/3549_-1763490158.jpg",
+    "grundrisse/wh-1723263888.svg?v=09d0ea60",
     "https://cache.willhaben.at/mmo/8/143/996/9788_1589220043.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_2090926869.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_-8750478.jpg",
@@ -9793,7 +9794,6 @@
     "https://cache.willhaben.at/mmo/8/143/996/9788_1509997695.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_-1246164749.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_1150772293.jpg",
-    "https://cache.willhaben.at/mmo/8/143/996/9788_1839865651.jpg",
     "https://cache.willhaben.at/mmo/8/143/996/9788_609344843.jpg",
     "https://cache.willhaben.at/mmo/5/161/460/6325_1559950500.jpg",
     "https://cache.willhaben.at/mmo/5/161/460/6325_-136487557.jpg",
@@ -9815,8 +9815,6 @@
     "https://cache.willhaben.at/mmo/5/161/460/6325_91937019.jpg",
     "https://cache.willhaben.at/mmo/5/161/460/6325_1068652623.jpg",
     "https://cache.willhaben.at/mmo/5/161/460/6325_-877588210.jpg",
-    "https://cache.willhaben.at/mmo/5/161/460/6325_835550232.jpg",
-    "https://cache.willhaben.at/mmo/5/161/460/6325_1290505173.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_-292311864.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_-669382493.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_44092885.jpg",
@@ -9833,10 +9831,6 @@
     "https://cache.willhaben.at/mmo/6/936/114/536_960784160.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_-2021978361.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_982268232.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_823308638.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_-1153331612.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_-1940547625.jpg",
-    "https://cache.willhaben.at/mmo/6/936/114/536_-1718542688.jpg",
     "https://cache.willhaben.at/mmo/6/936/114/536_-371382758.jpg",
     "https://cache.willhaben.at/mmo/8/172/326/3888_1324607880_n.jpg",
     "https://cache.willhaben.at/mmo/8/172/326/3888_-269226469_n.jpg",
@@ -9855,15 +9849,24 @@
     "https://cache.willhaben.at/mmo/8/172/326/3888_-572988910_n.jpg",
     "https://cache.willhaben.at/mmo/8/172/326/3888_1878451053_n.jpg",
     "https://cache.willhaben.at/mmo/8/172/326/3888_-1318854278_n.jpg",
-    "https://cache.willhaben.at/mmo/8/172/326/3888_538739964_n.jpg",
-    "https://cache.willhaben.at/mmo/8/172/326/3888_882345854_n.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_-967430474.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_-661787763.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_1371638019.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_-341889251.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_-1324308202.jpg",
     "https://cache.willhaben.at/mmo/9/107/425/3549_296204238.jpg",
-    "https://cache.willhaben.at/mmo/9/107/425/3549_-1699532021.jpg"
+    "https://cache.willhaben.at/mmo/9/107/425/3549_-1699532021.jpg",
+    "https://cache.willhaben.at/mmo/9/107/425/3549_972070334.jpg",
+    "https://cache.willhaben.at/mmo/9/107/425/3549_-1763490158.jpg",
+    "https://cache.willhaben.at/mmo/8/143/996/9788_1839865651.jpg",
+    "https://cache.willhaben.at/mmo/5/161/460/6325_835550232.jpg",
+    "https://cache.willhaben.at/mmo/5/161/460/6325_1290505173.jpg",
+    "https://cache.willhaben.at/mmo/6/936/114/536_823308638.jpg",
+    "https://cache.willhaben.at/mmo/6/936/114/536_-1153331612.jpg",
+    "https://cache.willhaben.at/mmo/6/936/114/536_-1940547625.jpg",
+    "https://cache.willhaben.at/mmo/6/936/114/536_-1718542688.jpg",
+    "https://cache.willhaben.at/mmo/8/172/326/3888_538739964_n.jpg",
+    "https://cache.willhaben.at/mmo/8/172/326/3888_882345854_n.jpg"
    ],
    "freiflaeche": [
     "Terrasse",
@@ -13560,8 +13563,7 @@
    "monatlich": 666.67,
    "bilder": [
     "https://cache.willhaben.at/mmo/8/153/760/3478_2023008023.jpg",
-    "https://cache.willhaben.at/mmo/8/153/760/3478_-191534291.jpg",
-    "https://cache.willhaben.at/mmo/8/153/760/3478_-2109236779.jpg",
+    "grundrisse/wh-1537603478.svg?v=96b20118",
     "https://cache.willhaben.at/mmo/8/153/760/3478_718594183.jpg",
     "https://cache.willhaben.at/mmo/8/153/760/3478_404721034.jpg",
     "https://cache.willhaben.at/mmo/8/153/760/3478_-803334229.jpg",
@@ -13581,7 +13583,9 @@
     "https://cache.willhaben.at/mmo/8/153/760/3478_-705889900.jpg",
     "https://cache.willhaben.at/mmo/8/153/760/3478_602630319.jpg",
     "https://cache.willhaben.at/mmo/8/153/760/3478_1975360699.png",
-    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qyB-1777304238-68f32afeeead43138db431b7aab0e4d9"
+    "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3qyB-1777304238-68f32afeeead43138db431b7aab0e4d9",
+    "https://cache.willhaben.at/mmo/8/153/760/3478_-191534291.jpg",
+    "https://cache.willhaben.at/mmo/8/153/760/3478_-2109236779.jpg"
    ],
    "freiflaeche": [
     "Terrasse"
