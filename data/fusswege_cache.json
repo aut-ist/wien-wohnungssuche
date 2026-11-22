@@ -21966,5 +21966,355 @@
    757,
    946
   ]
+ },
+ "48.25401,16.29140": {
+  "Salmannsdorf": [
+   306,
+   383
+  ],
+  "Promenadeweg": [
+   873,
+   1091
+  ],
+  "Celtesgasse": [
+   519,
+   648
+  ],
+  "Keylwerthgasse": [
+   420,
+   539
+  ],
+  "Neustift am Walde": [
+   799,
+   999
+  ]
+ },
+ "48.24884,16.30851": {
+  "Neustift, Agnesgasse": [
+   145,
+   182
+  ],
+  "Pötzleinsdorf": [
+   886,
+   1107
+  ],
+  "Pötzleinsdorfer Friedhof": [
+   404,
+   505
+  ],
+  "Sievering": [
+   932,
+   1166
+  ],
+  "Strehlgasse": [
+   662,
+   828
+  ],
+  "Ährengrubenweg": [
+   598,
+   748
+  ],
+  "Celtesgasse": [
+   785,
+   981
+  ],
+  "Kammerergasse": [
+   918,
+   1148
+  ],
+  "Khevenhüllerstraße": [
+   594,
+   743
+  ],
+  "Kleingartenverein Hackenberg": [
+   437,
+   546
+  ],
+  "Neustift am Walde": [
+   514,
+   643
+  ],
+  "Neustifter Friedhof 1.Tor": [
+   498,
+   622
+  ],
+  "Neustifter Friedhof 2.Tor": [
+   664,
+   830
+  ],
+  "Neustifter Friedhof 3.Tor": [
+   867,
+   1084
+  ]
+ },
+ "48.20662,16.39048": {
+  "Rasumofskygasse": [
+   222,
+   278
+  ],
+  "Radetzkyplatz": [
+   406,
+   508
+  ],
+  "Löwengasse": [
+   318,
+   398
+  ],
+  "Rochusgasse": [
+   491,
+   614
+  ],
+  "Sechskrügelgasse": [
+   558,
+   697
+  ],
+  "Hintzerstraße": [
+   691,
+   864
+  ],
+  "Weyrgasse": [
+   319,
+   398
+  ],
+  "Wittelsbachstraße": [
+   500,
+   625
+  ],
+  "Ziehrerplatz": [
+   890,
+   1113
+  ],
+  "Stubenbastei": [
+   868,
+   1079
+  ],
+  "Stubentor": [
+   761,
+   945
+  ],
+  "Stubentor U": [
+   698,
+   868
+  ],
+  "Franzensbrücke": [
+   732,
+   914
+  ],
+  "Geusaugasse": [
+   423,
+   529
+  ],
+  "Hetzgasse": [
+   300,
+   375
+  ],
+  "Hintere Zollamtsstraße": [
+   590,
+   738
+  ],
+  "Josef-Gall-Gasse": [
+   775,
+   969
+  ],
+  "Julius-Raab-Platz": [
+   688,
+   859
+  ],
+  "Kurzbauergasse": [
+   1029,
+   1286
+  ],
+  "Mitte-Landstraße": [
+   397,
+   496
+  ],
+  "Marxergasse": [
+   258,
+   322
+  ],
+  "Ungargasse/Neulinggasse": [
+   829,
+   1036
+  ]
+ },
+ "48.22803,16.33840": {
+  "Aumannplatz": [
+   144,
+   180
+  ],
+  "Sommarugagasse": [
+   561,
+   702
+  ],
+  "Sternwartestraße": [
+   880,
+   1100
+  ],
+  "Vinzenzgasse": [
+   455,
+   568
+  ],
+  "Weinhauser Gasse": [
+   464,
+   580
+  ],
+  "Weitlofgasse": [
+   857,
+   1071
+  ],
+  "Blumengasse": [
+   791,
+   989
+  ],
+  "Währinger Park": [
+   861,
+   1074
+  ],
+  "Währinger Straße-Volksoper": [
+   837,
+   1046
+  ],
+  "Simonygasse": [
+   740,
+   926
+  ],
+  "Eduardgasse": [
+   642,
+   802
+  ],
+  "Johann-Nepomuk-Vogl-Platz": [
+   440,
+   550
+  ],
+  "Cottagegasse": [
+   671,
+   839
+  ],
+  "Czartoryskigasse": [
+   842,
+   1050
+  ],
+  "Anastasius-Grün-Gasse": [
+   955,
+   1194
+  ],
+  "Gersthof": [
+   623,
+   779
+  ],
+  "Gregor-Mendel-Straße": [
+   633,
+   791
+  ],
+  "Gymnasiumstraße": [
+   628,
+   783
+  ],
+  "Antonigasse": [
+   720,
+   900
+  ],
+  "Kutschkergasse": [
+   443,
+   554
+  ],
+  "Martinstraße": [
+   297,
+   371
+  ],
+  "Michelbeuern-AKH": [
+   852,
+   1062
+  ]
+ },
+ "48.19234,16.38467": {
+  "Plößlgasse": [
+   701,
+   876
+  ],
+  "Rennweg": [
+   266,
+   332
+  ],
+  "Schloss Belvedere": [
+   435,
+   544
+  ],
+  "Quartier Belvedere": [
+   591,
+   738
+  ],
+  "Gertrude-Fröhlich-Sandner-Straße": [
+   906,
+   1133
+  ],
+  "Unteres Belvedere": [
+   537,
+   672
+  ],
+  "Klimschgasse": [
+   907,
+   1131
+  ],
+  "Am Heumarkt": [
+   889,
+   1112
+  ],
+  "Fasangasse": [
+   521,
+   651
+  ],
+  "Klinik Landstraße": [
+   699,
+   874
+  ],
+  "Heinrich-Drimmel-Platz": [
+   897,
+   1121
+  ],
+  "Am Modenapark": [
+   751,
+   939
+  ],
+  "Gußhausstraße": [
+   978,
+   1222
+  ],
+  "Oberzellergasse": [
+   794,
+   992
+  ],
+  "Kleistgasse": [
+   538,
+   672
+  ],
+  "Kölblgasse": [
+   283,
+   354
+  ],
+  "Argentinierstraße": [
+   807,
+   1009
+  ],
+  "Lisztstraße": [
+   897,
+   1121
+  ],
+  "Mommsengasse": [
+   710,
+   888
+  ],
+  "Hauptbahnhof Ost S": [
+   907,
+   1134
+  ],
+  "Ungargasse/Neulinggasse": [
+   678,
+   848
+  ],
+  "Karl-Popper-Straße": [
+   705,
+   882
+  ]
  }
 }

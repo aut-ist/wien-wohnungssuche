@@ -15,7 +15,8 @@ Plan (data/grundriss_plaene/ID.json), alle Maße in Metern, x nach rechts, y nac
       "fenster": [[[0.8, 0], [2.0, 0]]],   Strecke auf einer Wand
       "tueren": [{"von": [5.2, 1.0], "bis": [5.2, 1.9], "seite": 1}],   seite: 1/-1 = Aufschlagrichtung,
                                            "offen": true = Durchgang ohne Türblatt
-      "texte": [{"text": "Galerie", "pos": [12, -0.5]}],   optional, Überschriften (Ebenen nebeneinander legen)
+      "texte": [{"text": "Galerie", "pos": [12, -0.5]}],   optional, Überschriften (Ebenen nebeneinander legen);
+                                           "rahmen": true = Text zählt zum Zeichnungsrahmen (weit außerhalb liegende Titel)
       "wohnflaeche": 91.01,                optional: Gesamtfläche laut Plan (sonst Summe, nur wenn jeder Raum m² hat)
       "hinweis": "…"                       optional, sonst Standardhinweis
       "schaetzung": true                    optional: kein Original im Inserat, aus Fotos/Text geschätzt -> rotes Band "SCHÄTZUNG" ganz oben
@@ -58,6 +59,8 @@ def zeichnen(plan):
     """Plan -> SVG-Text."""
     raeume = plan["raeume"]
     pkt = [q for r in raeume for q in r["punkte"]]
+    # Überschriften weiter oben/unten (z. B. zwei Wohnungen untereinander) sollen nicht abgeschnitten werden
+    pkt += [t["pos"] for t in plan.get("texte") or [] if t.get("rahmen")]
     x0, y0 = min(x for x, _ in pkt), min(y for _, y in pkt)
     x1, y1 = max(x for x, _ in pkt), max(y for _, y in pkt)
     breite, hoehe = x1 - x0, y1 - y0
