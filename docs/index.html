@@ -115,6 +115,7 @@
 
   .karte { flex: none; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: #fff; transition: box-shadow .15s, border-color .15s; }
   .karte:hover, .karte.aktiv { box-shadow: var(--shadow); border-color: #d5d2ca; }
+  .karte.aktiv { border-color: #e3a400 !important; box-shadow: 0 0 0 3px rgba(227,164,0,.35), var(--shadow); }
   .karte.gemerkt { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
   .fotos { position: relative; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 280px; background: var(--soft); scrollbar-width: none; }
   .fotos::-webkit-scrollbar { display: none; }
@@ -217,6 +218,8 @@
     box-shadow: none; color: #1d1f23; }
   .leaflet-tooltip.fussweg-tip::before { display: none; }
   .fussweg-tip .fw-l { color: #1a56c4; font-weight: 700; }
+  .leaflet-tooltip.fussweg-tip.klein { padding: 0 4px; font-size: 10.5px; line-height: 15px; }
+  .zoomt .leaflet-fusswege-pane, .zoomt .leaflet-tooltip.fussweg-tip, .zoomt .leaflet-tooltip.station { visibility: hidden; }
   .ei-icon .ei-ungef { position: absolute; top: -5px; right: -7px; width: 14px; height: 14px; border-radius: 50%; background: #fff;
     color: #333; font: 800 10px/14px system-ui, sans-serif; text-align: center; box-shadow: 0 0 0 1.2px #555; pointer-events: none; }
   .leg-ei { position: relative; display: inline-block; }
@@ -980,11 +983,15 @@ function zeichneMarker(liste) {
     const m = L.marker([w.lat, w.lon], { icon: eiIcon(w),
       zIndexOffset: state.aktiv === w.id || state.vor === w.id ? 10000 : istGemerkt(w) ? 1000 : rang[w.status] * 100 });
     // Vorschau beim Drüberfahren nur mit Maus; auf Touch-Geräten öffnet der Tipp direkt die Wohnung
-    if (MAUS) m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
+    // erstes Foto der Wohnung (das "bild"-Feld von willhaben war 2026-11 teils doppelt zusammengesetzt und lud nicht)
+    const vorschauBild = (w.bilder || []).find(u => /^https?:/.test(u)) || w.bild;
+    if (MAUS) m.bindTooltip(`<div class="vorschau">${vorschauBild ? img(vorschauBild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
     // Saad 2026-11-22: erster Tipp aufs Ei zentriert die Wohnung und zeigt die Fußwege zu den Öffis, zweiter öffnet sie
-    m.on('click', () => state.vor === w.id || (state.aktiv === w.id && document.getElementById('detail').classList.contains('offen'))
-      ? oeffne(w.id, true) : vorwaehlen(w.id));
+    // Sind die Details schon offen (Computer), öffnet ein Ei gleich seine Wohnung, sonst stünden Details der alten Wohnung
+    // neben einem anderen markierten Ei (2026-11-22: "das Ei ist ganz falsch platziert")
+    m.on('click', () => state.vor === w.id || document.getElementById('detail').classList.contains('offen')
+      ? oeffne(w.id, true) : vorwaehlen(w.id, true));
     m.addTo(markerEbene);
     state.marker[w.id] = m;
   });
@@ -1193,7 +1200,11 @@ const VOR_ZOOM = 15;
 /* Fußwege zu den Öffis bis 10 min (Saad 2026-11-22): beim Antippen in der Liste und beim Öffnen einer Wohnung zeichnet die
    Karte von der Wohnung zu jeder Haltestelle aus "Öffis zu Fuß" den Fußweg (OSM-Fußwegnetz, routing.openstreetmap.de),
    dazu Punkt und Beschriftung "3 min · Name · Linien". Die Wege werden erst dann geladen und je Wohnung gemerkt. */
+map.createPane('fusswege').style.zIndex = 390;
 const fusswegEbene = L.layerGroup().addTo(map);
+// während des Zoomens Fußwege, Haltestellen-Punkte und deren Beschriftungen ausblenden (am Handy sprangen die Punkte herum)
+map.on('zoomstart', () => map.getContainer().classList.add('zoomt'));
+map.on('zoomend', () => map.getContainer().classList.remove('zoomt'));
 const fusswegCache = {};
 // nacheinander statt gleichzeitig: der freie Dienst antwortet bei vielen parallelen Anfragen mit 429 (2026-11-22)
 let fusswegKette = Promise.resolve();
@@ -1217,14 +1228,17 @@ function fusswegeAuf(karte, ebene, w, gross) {
   ebene.clearLayers();
   const nah = w?.lat ? (w.oeffis_nah || []) : [];
   if (!nah.length) return;
-  nah.forEach(e => L.circleMarker(e.p, { radius: gross ? 5 : 4, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1, interactive: false })
-    .bindTooltip(`<b>${e.min} min</b> ${esc(e.n)} <span class="fw-l">${esc(e.l.join(' '))}</span>`,
-      { permanent: true, direction: 'right', offset: [6, 0], className: 'fussweg-tip' }).addTo(ebene));
+  const pane = karte === map ? 'fusswege' : undefined;
+  // am Handy kurz: "3′ 40 41", der Haltestellenname steht in der Liste unter "Lage"
+  nah.forEach(e => L.circleMarker(e.p, { radius: gross ? 5 : 4, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1, interactive: false, pane })
+    .bindTooltip(HANDY ? `<b>${e.min}′</b> <span class="fw-l">${esc(e.l.join(' '))}</span>`
+      : `<b>${e.min} min</b> ${esc(e.n)} <span class="fw-l">${esc(e.l.join(' '))}</span>`,
+      { permanent: true, direction: 'right', offset: [5, 0], className: 'fussweg-tip' + (HANDY ? ' klein' : '') }).addTo(ebene));
   const id = w.id;
   ebene._fuerId = id;
   nah.forEach(e => fusswegHolen(w, e).then(c => {  // jeden Weg zeichnen, sobald er da ist
     if (c && ebene._fuerId === id) L.polyline(c, { color: '#1a56c4', weight: gross ? 4 : 3, opacity: .85, dashArray: '1 7',
-      lineCap: 'round', interactive: false }).addTo(ebene);
+      lineCap: 'round', interactive: false, pane }).addTo(ebene);
   }));
 }
 function fusswegeZeigen(id) {
@@ -1233,7 +1247,7 @@ function fusswegeZeigen(id) {
   if (!w) { fusswegEbene.clearLayers(); return; }
   fusswegeAuf(map, fusswegEbene, w, true);
 }
-function vorwaehlen(id) {
+function vorwaehlen(id, vonKarte) {
   const m = state.marker[id];
   if (!m) return oeffne(id);  // ohne Punkt auf der Karte gibt es nichts zu zeigen
   const vorher = state.vor;
@@ -1243,10 +1257,21 @@ function vorwaehlen(id) {
   eiAktualisieren(id);
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
   document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
-  const ll = m.getLatLng(), z = map.getZoom();
-  if (z >= VOR_ZOOM - .5 && map.getBounds().contains(ll)) map.flyTo(ll, z, { duration: .7 });  // Nachbar im Blick: zentrieren
-  else map.flyTo(ll, VOR_ZOOM, { duration: 1.4, easeLinearity: .2 });
+  // nie herauszoomen (2026-11-22: "beim ersten Klick zoomt es raus, beim zweiten rein"); Nachbar im Blick: nur zentrieren
+  const ll = m.getLatLng(), z = Math.max(map.getZoom(), VOR_ZOOM);
+  if (map.getZoom() >= VOR_ZOOM - .5 && map.getBounds().contains(ll)) map.flyTo(ll, map.getZoom(), { duration: .7 });
+  else map.flyTo(ll, z, { duration: 1.4, easeLinearity: .2 });
   fusswegeZeigen(id);
+  if (vonKarte) karteInListeZeigen(id);
+}
+// angetipptes Ei: sein Kärtchen in der Liste markieren und hinscrollen, damit man weiß, welches Ei welche Wohnung ist
+function karteInListeZeigen(id) {
+  karteSichtbarMachen(id);
+  const k = document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`), liste = document.getElementById('liste');
+  if (!k || !liste) return;
+  k.classList.add('aktiv');
+  const kr = k.getBoundingClientRect(), lr = liste.getBoundingClientRect();
+  if (liste.scrollHeight > liste.clientHeight + 5) liste.scrollTo({ top: liste.scrollTop + kr.top - lr.top - 8, behavior: 'smooth' });
 }
 function vorwahlWeg() {
   const vorher = state.vor;
@@ -1279,7 +1304,7 @@ function oeffne(id, vonKarte) {
   zeigeDetail(id);
   fusswegeZeigen(id);
   const m = state.marker[id];
-  if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: .6 });
+  if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), VOR_ZOOM), { duration: .6 });
 }
 // Schließen über den Verlauf, damit Zurück-Taste und Zurück-Knopf dasselbe tun
 function schliesse() {

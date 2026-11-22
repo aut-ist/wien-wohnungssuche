@@ -13,6 +13,7 @@ import datetime as dt
 import hashlib
 import html as htmllib
 import math
+import os
 import re
 import shutil
 import sys
@@ -622,7 +623,13 @@ def oeffis_zu_fuss(karte, prio=frozenset(), korb=frozenset(), max_anfragen=80):
             if minuten <= 10:
                 liste.append({"n": n, "min": max(1, math.ceil(minuten - 0.05)), "l": sorted(linien, key=_linien_sort),
                               "p": [round(lat, 6), round(lon, 6)], **({} if n in bekannt else {"ca": True})})
-        w["oeffis_nah"] = sorted(liste, key=lambda e: (e["min"], e["n"]))
+        # weiter weg nur, wenn dort eine Linie fährt, die näher noch nicht vorkam (Saad 2026-11-22: Johann-Nepomuk-Vogl-Platz
+        # 3 min und Eduardgasse 7 min, beide nur 42 -> nur der nähere)
+        gesehen, w["oeffis_nah"] = set(), []
+        for e in sorted(liste, key=lambda e: (e["min"], e["n"])):
+            if set(e["l"]) - gesehen:
+                w["oeffis_nah"].append(e)
+                gesehen |= set(e["l"])
     if geaendert:
         save_json(FUSSWEG_CACHE, cache)
     if anfragen:
@@ -1424,7 +1431,9 @@ def build():
             # (2026-11-12: Wohnkader "ca. 150 m²", laut Grundriss 141 m²)
             "flaeche": (eck.get("vorrang") and eck.get("flaeche")) or r.get("flaeche") or eck.get("flaeche"),
             "zimmer": (eck.get("vorrang") and eck.get("zimmer")) or r.get("zimmer") or eck.get("zimmer"), "plz": r["plz"], "adresse": b.get("adresse") or r.get("adresse"),
-            "lage": b.get("lage"), "heizung": b.get("heizung"), "bild": r.get("bild"),
+            "lage": b.get("lage"), "heizung": b.get("heizung"),
+            # willhaben-Vorschaubild war 2026-11 doppelt zusammengesetzt ("…/mmo/https://…/mmo/…"), dann lädt es nicht
+            "bild": (r.get("bild") or "").replace("https://cache.willhaben.at/mmo/https://", "https://") or None,
             "erstmals": r["erstmals"], "neu": neu, "preisverlauf": r["preisverlauf"], "online_seit": r["online_seit"],
             **({"korb_frei": frei, "neu_seit": seit} if frei else {}),
             # Eckdaten aus der Recherche ergänzen Stockwerk/Baujahr/Zustand; Stockwerk sonst aus dem Text (2026-11-15:
@@ -1479,7 +1488,7 @@ def build():
     # Gehzeit echt über das OSM-Fußwegnetz (routing.openstreetmap.de, FOSSGIS-OSRM "foot", eine Tabellen-Anfrage je Wohnung,
     # Zwischenspeicher data/fusswege_cache.json); ohne Antwort Schätzung wie bei der Gürtelzeit (Luftlinie, 25 % Umweg).
     # Je Haltestellenname zählt der nächste Steig (dorthin zeichnet die Karte den Fußweg). Daten: tools/haltestellen.py
-    oeffis_zu_fuss(karte, prio=nest, korb=korb)
+    oeffis_zu_fuss(karte, prio=nest, korb=korb, max_anfragen=int(os.environ.get("FUSSWEGE_MAX", "80")))
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     # Ausgeschlossene nur mit 5 Fotos (2026-11-17: ohne die 3-Zimmer-Preisgrenze wuchs listings.json auf 7,5 MB, Seitencheck-
     # Grenze 6 MB; 2/3 davon waren Fotolisten von "raus"-Wohnungen, die man nur über den Filter "raus" sieht). Nest bleibt ganz.

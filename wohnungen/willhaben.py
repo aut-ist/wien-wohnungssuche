@@ -8,6 +8,10 @@ QUELLE = "willhaben"
 PREFIX = "wh"
 BASE = "https://www.willhaben.at/iad/"
 BILD_BASE = "https://cache.willhaben.at/mmo/"
+
+
+def _bild_url(b):
+    return b if b.startswith("http") else BILD_BASE + b
 SLUGS = {
     1010: "wien-1010-innere-stadt",
     1020: "wien-1020-leopoldstadt",
@@ -88,8 +92,9 @@ def _summary(ad, plz):
         "lat": lat,
         "lon": lon,
         "lage_genauigkeit": _lage_genauigkeit(_first(a, "LOCATION_QUALITY")),
-        "bild": BILD_BASE + mmo if mmo else None,
-        "bilder": [BILD_BASE + b for b in (_first(a, "ALL_IMAGE_URLS") or "").split(";") if b][:30],
+        # willhaben liefert MMO/Bilder teils schon als ganze Adresse (2026-11: "https://cache.willhaben.at/mmo/https://…")
+        "bild": _bild_url(mmo) if mmo else None,
+        "bilder": [_bild_url(b) for b in (_first(a, "ALL_IMAGE_URLS") or "").split(";") if b][:30],
         "freiflaeche": a.get("FREE_AREA_TYPE_NAME") or [],
         "veroeffentlicht": _first(a, "PUBLISHED_String"),
         "anbieter": _first(a, "ORGNAME") or ("privat" if _first(a, "ISPRIVATE") == "1" else None),

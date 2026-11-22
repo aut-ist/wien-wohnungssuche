@@ -242,7 +242,12 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   (`vorwaehlen`, Zoom 15, nicht zu nah, damit man beim Hinzoomen sieht, wo sie liegt), Ei und Kärtchen leuchten; zweiter Tipp aufs
   Kärtchen oder aufs Ei öffnet die Ansicht. Ein Tipp aufs Foto zählt genauso (Saad), Wischen durch die Fotos nicht. Seit 2026-11-22 auch
   auf der Karte: erster Tipp aufs Ei zentriert die Wohnung und zeigt die Fußwege zu den Öffis (liegt sie schon im Blick, nur sanft
-  zentrieren, sonst hinfliegen), zweiter Tipp aufs Ei oder aufs Kärtchen öffnet sie.
+  zentrieren, sonst hinfliegen), zweiter Tipp aufs Ei oder aufs Kärtchen öffnet sie. Nie herauszoomen (vorwaehlen/oeffne halten mindestens die
+  aktuelle Zoomstufe). Das angetippte Ei markiert sein Kärtchen in der Liste (oranger Rahmen) und scrollt die Liste dorthin. Sind die
+  Details schon offen (Computer), öffnet ein Ei direkt seine Wohnung. Öffis zu Fuß: eine weiter entfernte Haltestelle nur, wenn dort
+  eine Linie fährt, die näher noch nicht vorkam; während des Zoomens sind Fußwege und Haltestellen-Beschriftungen ausgeblendet, am
+  Handy ist die Beschriftung kurz („3′ 40 41“). Vorschaubild beim Drüberfahren: erstes Foto der Wohnung (willhaben-„bild“ war
+  2026-11 doppelt zusammengesetzt, `_bild_url` in wohnungen/willhaben.py).
 - Brutkasten (Wunsch 2026-11-07): Nestle, die das Paar besichtigen will. Tab "🐣 Brutkasten" statt des
   Papierkorb-Tabs (Papierkorb jetzt als Link unter der Liste), 🐣-Knopf auf Karten und in den Details, auf der
   Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
