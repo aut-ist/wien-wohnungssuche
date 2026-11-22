@@ -82,7 +82,8 @@ def filter_grund(r, bestand=False):
     if r.get("zimmer") and r["zimmer"] < F["zimmer_min"]:
         return f"nur {r['zimmer']} Zimmer"
     # genau 3 Zimmer: 700.000 € ab 2026-10-28, am 2026-11-17 kurz aus, seit dem Abend 850.000 € (Saad); null = aus
-    if F.get("preis_max_3_zimmer") and r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]:
+    # Ausnahme nur auf Saads Wort: review {"preisregel": {"ok": true}} (2026-11-22: Staudgasse 40 Top 17, 853.884 €)
+    if F.get("preis_max_3_zimmer") and r.get("zimmer") == 3 and r.get("preis") and r["preis"] > F["preis_max_3_zimmer"]             and not r.get("_preisregel_ok"):
         return f"3 Zimmer über {F['preis_max_3_zimmer']:,.0f} €".replace(",", ".")
     return None
 
@@ -397,7 +398,7 @@ def bewerten(r, rev):
     if ep and ep["preis"] != r.get("preis"):
         out["preis"], out["preis_hinweis"] = ep["preis"], ep["text"]
         r = {**r, "preis": ep["preis"]}
-    grund = filter_grund(r) or (None if r.get("preis") else "kein Preis angegeben")
+    grund = filter_grund({**r, "_preisregel_ok": True} if (rev.get("preisregel") or {}).get("ok") else r)         or (None if r.get("preis") else "kein Preis angegeben")
     if grund:
         return {**out, "status": "raus", "art": "filter", "gruende": [grund]}
     if (fund := versteigerung(r)) and not (rev.get("versteigerung") or {}).get("ok"):
@@ -1156,7 +1157,7 @@ def zusammenfuehren(gruppe, reviews):
         p = [x["preis"] for x in revs if x.get("preis")]
         if p:
             rev["preis"] = p[0]
-        for k in ("kosten", "versteigerung", "gemeindebau", "guertel", "zone"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11, guertel 11-12)
+        for k in ("kosten", "versteigerung", "gemeindebau", "guertel", "zone", "preisregel"):  # von Hand geprüft (2026-11-04, gemeindebau 11-11, guertel 11-12)
             v = [x[k] for x in revs if x.get(k)]
             if v:
                 rev[k] = v[0]
@@ -1544,7 +1545,7 @@ def review_file(path):
     items = load_json(__import__("pathlib").Path(path), [])
     for it in items:
         rv = reviews.setdefault(it["id"], {})
-        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel", "zone"):
+        for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel", "zone", "preisregel"):
             if k in it:
                 rv[k] = it[k]
         rv["datum"] = TODAY

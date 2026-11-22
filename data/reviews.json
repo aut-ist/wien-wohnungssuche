@@ -3511,7 +3511,7 @@
    "ergebnis": "ok",
    "begruendung": "Erstbezug im fertiggestellten Neubau (Staudgasse 40), \"sofort verfügbar\"; Anleger nur allgemein beworben"
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "gleich_wie": "wh-2089433472",
   "lage": {
    "adresse": "Staudgasse 40/17",
@@ -3528,6 +3528,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "wh-1154614862": {
@@ -4572,7 +4580,7 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING; Texte der Gruppe nennen \"Wohnanlage in der Staudgasse 40, 1180 Wien\" (IMMOcontract/Wohn3); schon am 2026-10-28 als Staudgasse 40 bestätigt. Top: Grundriss-Bilder bei Tom Krauss wh-2089433472 (\"Top 17\", \"Top 17 DG\") beschriftet \"78,86 m² TOP 17\", Terrassen 5,87 + 9,70 m² + Dachterrasse 23,22 m² - gleiche Flächen (78,86 m², 15,57 + 23,22 m²) in allen 14 Inseraten. ADRESSENOGD Staudgasse 40; GEBAEUDEINFOOGD: Gründerzeit-Eckhaus, Neubau/Aufstockung 2024."
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "eckdaten": {
    "stockwerk": "4. Etage / 2. DG + Dachterrasse",
    "baujahr": "2024",
@@ -4581,6 +4589,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "wh-1452290864": {
@@ -6357,7 +6373,7 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING; Texte der Gruppe nennen \"Wohnanlage in der Staudgasse 40, 1180 Wien\" (IMMOcontract/Wohn3); schon am 2026-10-28 als Staudgasse 40 bestätigt. Top: Grundriss-Bilder bei Tom Krauss wh-2089433472 (\"Top 17\", \"Top 17 DG\") beschriftet \"78,86 m² TOP 17\", Terrassen 5,87 + 9,70 m² + Dachterrasse 23,22 m² - gleiche Flächen (78,86 m², 15,57 + 23,22 m²) in allen 14 Inseraten. ADRESSENOGD Staudgasse 40; GEBAEUDEINFOOGD: Gründerzeit-Eckhaus, Neubau/Aufstockung 2024."
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "gleich_wie": "wh-2089433472",
   "eckdaten": {
    "stockwerk": "4. Etage / 2. DG + Dachterrasse",
@@ -6367,6 +6383,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "is-649675384946": {
@@ -6377,7 +6401,7 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING; Texte der Gruppe nennen \"Wohnanlage in der Staudgasse 40, 1180 Wien\" (IMMOcontract/Wohn3); schon am 2026-10-28 als Staudgasse 40 bestätigt. Top: Grundriss-Bilder bei Tom Krauss wh-2089433472 (\"Top 17\", \"Top 17 DG\") beschriftet \"78,86 m² TOP 17\", Terrassen 5,87 + 9,70 m² + Dachterrasse 23,22 m² - gleiche Flächen (78,86 m², 15,57 + 23,22 m²) in allen 14 Inseraten. ADRESSENOGD Staudgasse 40; GEBAEUDEINFOOGD: Gründerzeit-Eckhaus, Neubau/Aufstockung 2024."
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "gleich_wie": "wh-2089433472",
   "eckdaten": {
    "stockwerk": "4. Etage / 2. DG + Dachterrasse",
@@ -6387,6 +6411,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "ds-15168404": {
@@ -6397,7 +6429,7 @@
    "sicherheit": "genau",
    "begruendung": "Projekt MAISON WÄHRING; Texte der Gruppe nennen \"Wohnanlage in der Staudgasse 40, 1180 Wien\" (IMMOcontract/Wohn3); schon am 2026-10-28 als Staudgasse 40 bestätigt. Top: Grundriss-Bilder bei Tom Krauss wh-2089433472 (\"Top 17\", \"Top 17 DG\") beschriftet \"78,86 m² TOP 17\", Terrassen 5,87 + 9,70 m² + Dachterrasse 23,22 m² - gleiche Flächen (78,86 m², 15,57 + 23,22 m²) in allen 14 Inseraten. ADRESSENOGD Staudgasse 40; GEBAEUDEINFOOGD: Gründerzeit-Eckhaus, Neubau/Aufstockung 2024."
   },
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "gleich_wie": "wh-2089433472",
   "eckdaten": {
    "stockwerk": "4. Etage / 2. DG + Dachterrasse",
@@ -6407,6 +6439,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "wh-2098267387": {
@@ -11208,7 +11248,7 @@
  },
  "wh-1192975669": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11224,11 +11264,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "is-438884833654": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11244,11 +11292,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "ds-15167554": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11264,11 +11320,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "wh-1268400331": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11284,11 +11348,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "is-863929428341": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11304,11 +11376,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "is-960986681582": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11324,11 +11404,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "ds-15013269": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11344,11 +11432,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "wh-2076424293": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11364,11 +11460,19 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "ds-15037696": {
   "gleich_wie": "wh-2089433472",
-  "datum": "2026-11-17",
+  "datum": "2026-11-22",
   "lage": {
    "adresse": "Staudgasse 40/17",
    "lat": 48.22359059,
@@ -11384,6 +11488,14 @@
   "kosten": {
    "betrag": 237.58,
    "begruendung": "Recherche: Betriebskosten + Rücklage laut Inserat"
+  },
+  "preisregel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme von der 3-Zimmer-Grenze (850.000 €)"
+  },
+  "preis": {
+   "eigennutzer": 853884,
+   "begruendung": "Preis für Eigennutzer laut den meisten Inseraten (853.884 €; IMMOcontract nennt 783.380 € netto als Anlegerpreis)"
   }
  },
  "ds-15075687": {

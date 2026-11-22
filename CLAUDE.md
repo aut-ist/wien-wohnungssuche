@@ -18,6 +18,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   review `{"guertel": {"ok": true}}` (2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min, Nest).
   Genauso für die Zonen: review `{"zone": {"ok": true}}` lässt eine Wohnung außerhalb der Zonen drin (2026-11-15: 3SI-Neubau
   Obere Donaustraße 23 zwischen Augarten und Donaukanal, beide 107,81-m²-Wohnungen; Saad wollte das Projekt zurück, als NEU).
+  Und für die 3-Zimmer-Preisgrenze (`preis_max_3_zimmer`): review `{"preisregel": {"ok": true}}` (2026-11-22: Maison Währing,
+  Staudgasse 40 Top 17, 3 Zi, 78,86 m², DG, 853.884 €; dazu `preis.eigennutzer` 853.884, weil IMMOcontract den Anlegerpreis nennt).
   Einzug spätestens Q3 2027 (`config.json` `einzug_spaetestens`): `zustand.bezug_einschaetzen`
   liest Fertigstellung/Bezug/"Verfügbar ab" aus allen Inseraten der Gruppe (der späteste Termin
   zählt; Lift, Balkone, Energieausweis, Miete zählen nicht) und sonst das Baujahr-Feld (2027 ohne
