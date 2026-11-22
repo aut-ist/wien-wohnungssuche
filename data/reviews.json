@@ -815,23 +815,29 @@
  },
  "is-913919867359": {
   "lage": {
-   "adresse": "Martinstraße 86",
-   "lat": 48.22541,
-   "lon": 16.34225,
+   "adresse": "Martinstraße 86/8",
+   "lat": 48.22319,
+   "lon": 16.341797,
    "sicherheit": "genau",
-   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+   "begruendung": "Projekt M86 Martinstraße 86 (Titel/Text), Text: \"Top 8 im 3. Obergeschoss\""
   },
-  "datum": "2026-10-25"
+  "datum": "2026-11-22",
+  "eckdaten": {
+   "stockwerk": "3. OG, Top 8"
+  }
  },
  "wh-1959877344": {
   "lage": {
-   "adresse": "Martinstraße 86",
-   "lat": 48.22541,
-   "lon": 16.34225,
+   "adresse": "Martinstraße 86/8",
+   "lat": 48.22319,
+   "lon": 16.341797,
    "sicherheit": "genau",
-   "begruendung": "Projekt M86 = Martinstraße 86 (Text und Grundriss); Position zwischen Martinstraße 84 und 88"
+   "begruendung": "Projekt M86 Martinstraße 86 (Titel/Text), Text: \"Top 8 im 3. Obergeschoss\""
   },
-  "datum": "2026-10-25"
+  "datum": "2026-11-22",
+  "eckdaten": {
+   "stockwerk": "3. OG, Top 8"
+  }
  },
  "is-139220585181": {
   "lage": {

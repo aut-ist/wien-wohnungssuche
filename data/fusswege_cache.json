@@ -20908,5 +20908,323 @@
    1313,
    1638
   ]
+ },
+ "48.24846,16.32820": {
+  "Sauerburggasse": [
+   693,
+   866
+  ],
+  "Bellevuestraße": [
+   48,
+   61
+  ],
+  "Börnergasse": [
+   202,
+   252
+  ],
+  "Daringergasse": [
+   423,
+   529
+  ],
+  "Fröschelgasse": [
+   583,
+   729
+  ],
+  "Glanzing": [
+   756,
+   1034
+  ],
+  "Gustav-Pick-Gasse": [
+   767,
+   959
+  ],
+  "Kammerergasse": [
+   834,
+   1134
+  ],
+  "Karthäuserstraße": [
+   385,
+   482
+  ],
+  "Kratzlgasse": [
+   824,
+   1031
+  ]
+ },
+ "48.24362,16.33529": {
+  "Peter-Jordan-Straße": [
+   1034,
+   1293
+  ],
+  "Rodlergasse": [
+   297,
+   371
+  ],
+  "Sauerburggasse": [
+   484,
+   605
+  ],
+  "Bellevuestraße": [
+   741,
+   926
+  ],
+  "Sieveringer Straße": [
+   670,
+   838
+  ],
+  "Blaasstraße": [
+   935,
+   1168
+  ],
+  "Borkowskigasse": [
+   869,
+   1086
+  ],
+  "Börnergasse": [
+   548,
+   685
+  ],
+  "Chimanistraße": [
+   797,
+   996
+  ],
+  "Daringergasse": [
+   354,
+   442
+  ],
+  "Dänenstraße": [
+   624,
+   779
+  ],
+  "Döblinger Friedhof": [
+   816,
+   1012
+  ],
+  "Döblinger Friedhof/Felix-Dahn-Straße": [
+   940,
+   1175
+  ],
+  "Flotowgasse": [
+   388,
+   485
+  ],
+  "Obkirchergasse": [
+   578,
+   723
+  ],
+  "Gustav-Pick-Gasse": [
+   753,
+   940
+  ],
+  "Hugo-Wolf-Park": [
+   584,
+   730
+  ],
+  "Kratzlgasse": [
+   532,
+   665
+  ],
+  "Krottenbachstraße": [
+   576,
+   720
+  ],
+  "Linnéplatz": [
+   757,
+   946
+  ],
+  "Oberdöbling": [
+   740,
+   925
+  ],
+  "Obersteinergasse": [
+   750,
+   937
+  ],
+  "Paradisgasse": [
+   862,
+   1077
+  ]
+ },
+ "48.25361,16.35373": {
+  "Perntergasse": [
+   487,
+   609
+  ],
+  "Bretschneidergasse": [
+   298,
+   373
+  ],
+  "Döblinger Bad": [
+   438,
+   548
+  ],
+  "Heiligenstadt/12.-Februar-Platz": [
+   1042,
+   1302
+  ],
+  "Fernsprechamt Heiligenstadt": [
+   360,
+   451
+  ],
+  "Grinzing": [
+   734,
+   918
+  ],
+  "Grinzinger Straße": [
+   682,
+   853
+  ],
+  "Halteraugasse": [
+   782,
+   978
+  ],
+  "Hohe Warte": [
+   307,
+   384
+  ],
+  "An den langen Lüssen": [
+   691,
+   1016
+  ],
+  "Armbrustergasse": [
+   113,
+   141
+  ],
+  "Neugebauerweg": [
+   91,
+   114
+  ]
+ },
+ "48.25055,16.30248": {
+  "Neustift, Agnesgasse": [
+   333,
+   416
+  ],
+  "Pötzleinsdorfer Friedhof": [
+   583,
+   728
+  ],
+  "Salmannsdorf": [
+   579,
+   724
+  ],
+  "Ährengrubenweg": [
+   855,
+   1068
+  ],
+  "Celtesgasse": [
+   335,
+   419
+  ],
+  "Khevenhüllerstraße": [
+   765,
+   956
+  ],
+  "Kleingartenverein Hackenberg": [
+   715,
+   893
+  ],
+  "Neustift am Walde": [
+   78,
+   97
+  ],
+  "Neustifter Friedhof 1.Tor": [
+   476,
+   595
+  ],
+  "Neustifter Friedhof 2.Tor": [
+   672,
+   841
+  ],
+  "Neustifter Friedhof 3.Tor": [
+   852,
+   1065
+  ]
+ },
+ "48.22297,16.37072": {
+  "Bauernfeldplatz": [
+   892,
+   1115
+  ],
+  "Roßauer Lände": [
+   364,
+   525
+  ],
+  "Schlickgasse": [
+   689,
+   861
+  ],
+  "Schottenring": [
+   623,
+   877
+  ],
+  "Berggasse": [
+   864,
+   1080
+  ],
+  "Tandelmarktgasse": [
+   766,
+   957
+  ],
+  "Malzgasse": [
+   607,
+   751
+  ],
+  "Wallensteinplatz": [
+   699,
+   874
+  ],
+  "Klosterneuburger Straße/Wallensteinstraße": [
+   584,
+   730
+  ],
+  "Wasnergasse": [
+   895,
+   1119
+  ],
+  "Taborstraße": [
+   838,
+   1038
+  ],
+  "Börse": [
+   904,
+   1130
+  ],
+  "Franz-Josefs-Bahnhof": [
+   814,
+   1018
+  ],
+  "Friedensbrücke": [
+   686,
+   857
+  ],
+  "Seegasse": [
+   697,
+   872
+  ],
+  "Gaußplatz": [
+   383,
+   478
+  ],
+  "Heinestraße": [
+   1045,
+   1307
+  ],
+  "Karl-Meißl-Straße": [
+   680,
+   850
+  ],
+  "Leopoldsgasse": [
+   455,
+   568
+  ],
+  "Obere Augartenstraße": [
+   342,
+   427
+  ],
+  "Obere Donaustraße": [
+   405,
+   506
+  ]
  }
 }
