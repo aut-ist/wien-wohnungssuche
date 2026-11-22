@@ -209,6 +209,10 @@
 
   /* aktuell geöffnete Wohnung auf der Karte */
   .ei-icon.aktiv { z-index: 9000 !important; }
+  /* 2026-11-22: seit ein Tipp aufs Ei auf der Karte bleibt, sah man am Handy ein dunkles Viereck (Tipp-Hervorhebung bzw.
+     Fokusrahmen des Eis) */
+  .leaflet-container, .leaflet-marker-icon, .leaflet-interactive { -webkit-tap-highlight-color: transparent; }
+  .leaflet-marker-icon:focus, .leaflet-marker-icon:focus-visible, .leaflet-container:focus, .leaflet-interactive:focus { outline: none; }
   .leaflet-tooltip.fussweg-tip { padding: 1px 5px; font-size: 11px; background: rgba(255,255,255,.92); border: 1px solid #c8d4ea;
     box-shadow: none; color: #1d1f23; }
   .leaflet-tooltip.fussweg-tip::before { display: none; }
