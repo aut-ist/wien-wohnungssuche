@@ -263,7 +263,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
 - Seit 2026-11-22 (Saad) zeichnet tools/fetch_oeffis.py jede Linie, die durch unsere Gebiete fährt oder von einer Wohnung in 10 min
   zu Fuß erreichbar ist (oeffis_nah), ganz bis zur Endstation (nur an der Stadtgrenze abgeschnitten).
 - Öffis auf der Karte (Saad 2026-11-15, am Handy sonst „scheußlich unübersichtlich“): in der Übersicht nur U-Bahn und S-Bahn,
-  Straßenbahn ab Zoom 14, Bus ab Zoom 15 (dünner, blasser), Stationen ab 14. 
+  Straßenbahn ab Zoom 14, Bus seit 2026-11-22 auch ab 14 und gleich kräftig wie die Straßenbahn, nur gestrichelt (Saad), Stationen ab 14. 
 - Seit 2026-11-15 (Saad, „großzügige Grenzen“) zwei weitere blaue Zonen: Botschaftsviertel im 3. (Rennweg bis Beatrixgasse,
   Ungargasse bis Heumarkt, ergänzt die Fußweg-Zone um den Rochusmarkt nach Westen) und Freihausviertel/Wieden-Nord im 4. (alles
   nördlich ca. 48,192°, Höhe Mühlgasse/Rainergasse/Südrand Theresianum, inkl. Belvedere-Westseite). Dafür wird 1040 auf allen Portalen

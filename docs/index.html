@@ -462,7 +462,7 @@ const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4
 const STATUS_TXT = { gruen: 'passt', grau: 'noch offen', raus: 'passt nicht' };
 const HEIZ_TXT = { gas: 'Gasheizung', kein_gas: 'kein Gas', unklar: 'Heizung unklar' };
 const BEZIRKE = { 1010: '1.', 1020: '2.', 1030: '3.', 1040: '4.', 1050: '5.', 1060: '6.', 1080: '8.', 1090: '9.', 1170: '17.', 1180: '18.', 1190: '19.' };
-const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e8710a', w: 2, d: '5 4', n: 'Bus' },
+const OEFFI = { tram: { c: '#c2185b', w: 3, n: 'Straßenbahn' }, bus: { c: '#e8710a', w: 3, d: '7 5', n: 'Bus' },  // Saad 2026-11-22: so sichtbar wie die Straßenbahn, gestrichelt
   // U-Bahn in der Linienfarbe (properties.farbe aus dem Wiener-Linien-Fahrplan), Legende als Farbstreifen
   ubahn: { c: '#6d4c41', w: 4, n: 'U-Bahn', g: 'linear-gradient(90deg,#E3000F 20%,#A862A4 20% 40%,#319F49 40% 60%,#0097A0 60% 80%,#9D6830 80%)' }, sbahn: { c: '#0277bd', w: 3, d: '8 4', n: 'S-Bahn' } };
 const eur = n => n == null ? '–' : '€ ' + Math.round(n).toLocaleString('de-AT');
@@ -683,7 +683,7 @@ async function ladeGebiete() {
   // nur die roten Zonen zeichnen; die blauen Zonen (1./2./3. Bezirk) und die roten im 3. wirken nur im Filter
   // Rote Zonen werden seit 2026-11-11 nicht mehr gezeichnet (Wunsch); sie gelten aber weiter (run.py filtert).
   if (oeffis) {
-    // Übersicht nur U-Bahn und S-Bahn; Straßenbahn ab Zoom 14, Bus ab 15 (Saad 2026-11-15: sonst liegen die Linien
+    // Übersicht nur U-Bahn und S-Bahn; Straßenbahn und Bus ab Zoom 14 (Bus bis 2026-11-22 erst ab 15, dünner; Saad 2026-11-15: sonst liegen die Linien
     // am Handy dicht über den Bezirken und man sieht die Eier nicht)
     const linien = typen => L.geoJSON(oeffis, { pane: 'oeffis', filter: f => typen.includes(f.properties.typ),
       style: f => { const o = OEFFI[f.properties.typ], fein = f.properties.typ === 'tram' || f.properties.typ === 'bus';
@@ -692,7 +692,7 @@ async function ladeGebiete() {
     linien(['ubahn', 'sbahn']).addTo(oeffiEbene);
     const bim = linien(['tram']), bus = linien(['bus']);
     const naheLinien = () => { map.getZoom() >= 14 ? oeffiEbene.addLayer(bim) : oeffiEbene.removeLayer(bim);
-      map.getZoom() >= 15 ? oeffiEbene.addLayer(bus) : oeffiEbene.removeLayer(bus); };
+      map.getZoom() >= 14 ? oeffiEbene.addLayer(bus) : oeffiEbene.removeLayer(bus); };
     map.on('zoomend', naheLinien);
     naheLinien();
     // Stationen nur nah herangezoomt zeigen, sonst überdecken die Namen in der Übersicht alles
