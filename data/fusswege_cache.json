@@ -13586,5 +13586,123 @@
    485,
    607
   ]
+ },
+ "48.21100,16.34400": {
+  "Piaristengasse": [
+   722,
+   903
+  ],
+  "Rathaus": [
+   658,
+   824
+  ],
+  "Schottenfeldgasse": [
+   357,
+   446
+  ],
+  "Yppengasse": [
+   875,
+   1095
+  ],
+  "Skodagasse": [
+   473,
+   592
+  ],
+  "Strozzigasse": [
+   638,
+   797
+  ],
+  "Thaliastraße": [
+   527,
+   658
+  ],
+  "Theater in der Josefstadt": [
+   481,
+   602
+  ],
+  "Blindengasse": [
+   217,
+   272
+  ],
+  "Burggasse/Zieglergasse": [
+   690,
+   863
+  ],
+  "Neustiftgasse/Zieglergasse": [
+   553,
+   692
+  ],
+  "Lerchenfelder Straße": [
+   455,
+   569
+  ],
+  "Lederergasse": [
+   330,
+   412
+  ],
+  "Brunnengasse": [
+   692,
+   865
+  ],
+  "Brunnenmarkt": [
+   516,
+   645
+  ],
+  "Brünnlbadgasse": [
+   446,
+   557
+  ],
+  "Albertgasse": [
+   19,
+   24
+  ],
+  "Alser Straße": [
+   623,
+   776
+  ],
+  "Florianigasse": [
+   156,
+   196
+  ],
+  "Hernalser Gürtel": [
+   543,
+   679
+  ],
+  "Josefstädter Straße": [
+   354,
+   442
+  ],
+  "Kaiserstraße/Burggasse": [
+   818,
+   1023
+  ],
+  "Kaiserstraße/Neustiftgasse": [
+   681,
+   851
+  ],
+  "Kellermanngasse": [
+   859,
+   1074
+  ],
+  "Thaliastraße/Koppstraße": [
+   755,
+   944
+  ],
+  "Lange Gasse": [
+   630,
+   788
+  ],
+  "Laudongasse": [
+   373,
+   466
+  ],
+  "Burggasse/Neubaugasse": [
+   840,
+   1051
+  ],
+  "Neustiftgasse/Neubaugasse": [
+   714,
+   894
+  ]
  }
 }

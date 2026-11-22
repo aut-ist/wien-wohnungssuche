@@ -444,7 +444,9 @@
 <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
 <script>
 // Gast-Ansicht (?nest): zeigt seit 2026-11-08 nur den Brutkasten (Nest-Wohnungen nicht), nichts ist änderbar
-const NUR_NEST = new URLSearchParams(location.search).has('nest');
+// ?tante (Saad 2026-11-22): wie ?nest nur ansehen, aber alle Wohnungen aus Nest UND Brutkasten
+const TANTE = new URLSearchParams(location.search).has('tante');
+const NUR_NEST = TANTE || new URLSearchParams(location.search).has('nest');
 // Geteilte Wohnung (?nest&w=ID, Wunsch 2026-11-18): Gäste sehen nur diese eine Wohnung, nur ansehen, nichts änderbar
 const GETEILT = NUR_NEST ? new URLSearchParams(location.search).get('w') : null;
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
@@ -643,6 +645,7 @@ legende.onAdd = () => {
   const oeffiLeg = Object.values(OEFFI).map(o => `<div class="oeffi-leg"><i style="${o.g ? `border-top:0;height:3px;background:${o.g}` : `border-color:${o.c};${o.d ? 'border-top-style:dashed' : ''}`}"></i>${o.n}</div>`).join('');
   if (NUR_NEST) {  // Familie: nur das Nötige
     d.innerHTML = '<div><span class="leg-ei">🐣</span> <b>Küken</b> = schauen wir uns an</div>' +
+      (TANTE ? `<div><span class="leg-ei">${goldEi(16)}</span> <b>goldenes Ei</b> = im Nest (gemerkt)</div>` : '') +
       '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' + oeffiLeg;
     d.addEventListener('click', () => d.classList.toggle('offen'));
     L.DomEvent.disableClickPropagation(d);
@@ -745,7 +748,8 @@ const imNest = w => istGemerkt(w) && !istBrut(w);
 function sichtbar() {
   if (NUR_NEST) {  // Gäste sehen nur den Brutkasten, ohne Filter (Wunsch 2026-11-08)
     // geteilte einzelne Wohnung: nur die, nicht der ganze Brutkasten
-    const brut = GETEILT ? state.daten.filter(w => idsVon(w).includes(GETEILT)) : state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
+    const brut = GETEILT ? state.daten.filter(w => idsVon(w).includes(GETEILT))
+      : state.daten.filter(w => (TANTE ? istGemerkt(w) : istBrut(w)) && !imPapierkorb(w));
     return { karte: brut, alle: brut, gemerkt: brut, brut, papierkorb: [] };
   }
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
@@ -860,7 +864,7 @@ function tagsHtml(w) {
   return `<div class="tags">
     ${w.offline ? `<span class="tag offline">${esc(w.gruende?.[0] || 'Nicht mehr online')}</span>` : ''}
     ${w.neu && !w.offline ? '<span class="tag neu">NEU</span>' : ''}
-    ${istBrut(w) && !NUR_NEST ? '<span class="tag brut">🐣 Brutkasten</span>' : ''}
+    ${istBrut(w) && (!NUR_NEST || TANTE) ? '<span class="tag brut">🐣 Brutkasten</span>' : ''}
     ${w.status !== 'gruen' ? `<span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>` : ''}
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
@@ -967,7 +971,9 @@ function zeichneMarker(liste) {
     // Vorschau beim Drüberfahren nur mit Maus; auf Touch-Geräten öffnet der Tipp direkt die Wohnung
     if (MAUS) m.bindTooltip(`<div class="vorschau">${w.bild ? img(w.bild) : ''}<div><b>${eur(w.preis)}</b> · ${w.flaeche ?? '?'} m² · ${w.zimmer ?? '?'} Zi<br>${esc((w.titel || '').slice(0, 60))}</div></div>`,
       { className: 'vorschau', direction: 'top', offset: [0, -8], opacity: 1 });
-    m.on('click', () => oeffne(w.id, true));  // auch das vorgewählte Ei: zweiter Tipp öffnet die Ansicht
+    // Saad 2026-11-22: erster Tipp aufs Ei zentriert die Wohnung und zeigt die Fußwege zu den Öffis, zweiter öffnet sie
+    m.on('click', () => state.vor === w.id || (state.aktiv === w.id && document.getElementById('detail').classList.contains('offen'))
+      ? oeffne(w.id, true) : vorwaehlen(w.id));
     m.addTo(markerEbene);
     state.marker[w.id] = m;
   });
@@ -1178,13 +1184,23 @@ const VOR_ZOOM = 15;
    dazu Punkt und Beschriftung "3 min · Name · Linien". Die Wege werden erst dann geladen und je Wohnung gemerkt. */
 const fusswegEbene = L.layerGroup().addTo(map);
 const fusswegCache = {};
-function fusswegeLaden(w) {
-  return Promise.all((w.oeffis_nah || []).map(e => {
-    const k = `${w.lat},${w.lon}|${e.p}`;
-    return fusswegCache[k] ??= fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${w.lon},${w.lat};${e.p[1]},${e.p[0]}?overview=full&geometries=geojson`)
-      .then(r => r.ok ? r.json() : null).then(d => d?.routes?.[0]?.geometry?.coordinates?.map(([x, y]) => [y, x]) || null)
-      .catch(() => { delete fusswegCache[k]; return null; });
-  }));
+// nacheinander statt gleichzeitig: der freie Dienst antwortet bei vielen parallelen Anfragen mit 429 (2026-11-22)
+let fusswegKette = Promise.resolve();
+const warte = ms => new Promise(r => setTimeout(r, ms));
+function fusswegHolen(w, e) {
+  const k = `${w.lat},${w.lon}|${e.p}`;
+  if (fusswegCache[k]) return fusswegCache[k];
+  const url = `https://routing.openstreetmap.de/routed-foot/route/v1/driving/${w.lon},${w.lat};${e.p[1]},${e.p[0]}?overview=full&geometries=geojson`;
+  const versuch = async n => {
+    const r = await fetch(url);
+    if (r.status === 429 && n < 3) { await warte(1500 * (n + 1)); return versuch(n + 1); }
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    return d?.routes?.[0]?.geometry?.coordinates?.map(([x, y]) => [y, x]) || null;
+  };
+  const pr = fusswegKette.then(() => versuch(0)).catch(() => { delete fusswegCache[k]; return null; });
+  fusswegKette = pr.then(() => warte(150));
+  return fusswegCache[k] = pr;
 }
 function fusswegeAuf(karte, ebene, w, gross) {
   ebene.clearLayers();
@@ -1194,12 +1210,11 @@ function fusswegeAuf(karte, ebene, w, gross) {
     .bindTooltip(`<b>${e.min} min</b> ${esc(e.n)} <span class="fw-l">${esc(e.l.join(' '))}</span>`,
       { permanent: true, direction: 'right', offset: [6, 0], className: 'fussweg-tip' }).addTo(ebene));
   const id = w.id;
-  fusswegeLaden(w).then(wege => {
-    if (ebene._fuerId !== id) return;
-    wege.forEach(c => c && L.polyline(c, { color: '#1a56c4', weight: gross ? 4 : 3, opacity: .85, dashArray: '1 7', lineCap: 'round',
-      interactive: false }).addTo(ebene));
-  });
   ebene._fuerId = id;
+  nah.forEach(e => fusswegHolen(w, e).then(c => {  // jeden Weg zeichnen, sobald er da ist
+    if (c && ebene._fuerId === id) L.polyline(c, { color: '#1a56c4', weight: gross ? 4 : 3, opacity: .85, dashArray: '1 7',
+      lineCap: 'round', interactive: false }).addTo(ebene);
+  }));
 }
 function fusswegeZeigen(id) {
   const w = id && state.daten.find(x => x.id === id);
@@ -1217,7 +1232,9 @@ function vorwaehlen(id) {
   eiAktualisieren(id);
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
   document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
-  map.flyTo(m.getLatLng(), VOR_ZOOM, { duration: 1.4, easeLinearity: .2 });
+  const ll = m.getLatLng(), z = map.getZoom();
+  if (z >= VOR_ZOOM - .5 && map.getBounds().contains(ll)) map.flyTo(ll, z, { duration: .7 });  // Nachbar im Blick: zentrieren
+  else map.flyTo(ll, VOR_ZOOM, { duration: 1.4, easeLinearity: .2 });
   fusswegeZeigen(id);
 }
 function vorwahlWeg() {
@@ -1645,6 +1662,11 @@ function teilOk(text) {
     document.querySelector('.motto').textContent = 'Die Nestle, die wir uns anschauen';
     document.querySelector('[data-tab="alle"]').innerHTML = GETEILT ? '🏠 Wohnung <span id="nAlle" hidden></span>' : '🐣 Brutkasten <span id="nAlle"></span>';
     if (GETEILT) { document.querySelector('h1').textContent = 'Gigibirds Nestle'; document.querySelector('.motto').textContent = 'Eine Wohnung zum Anschauen'; }
+    else if (TANTE) {
+      document.title = document.querySelector('h1').textContent = 'Gigibirds Nest & Brutkasten';
+      document.querySelector('.motto').textContent = 'Alle Nestle, die wir uns gemerkt haben';
+      document.querySelector('[data-tab="alle"]').innerHTML = '🥚 Nest & 🐣 Brutkasten <span id="nAlle"></span>';
+    }
   }
   filterUi();
   ladeGebiete().catch(console.error);

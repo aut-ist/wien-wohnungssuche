@@ -149,11 +149,11 @@ def _gtfs_linien(box):
     for s in sorted(punkte, key=lambda s: -fahrten[shape_linie[s]][s]):
         line = [(x, y) for _, x, y in sorted(punkte[s])]
         stuecke, drin_m = _im_gebiet(line, box)
-        if not stuecke:
-            continue
         e = linien.setdefault(shape_linie[s], {"farbe": farbe[shape_linie[s]], "stuecke": [], "drin_m": 0.0,
-                                               "roh": line})  # häufigster Weg ganz, für die U5
-        e["stuecke"].append(stuecke)
+                                               "roh": line, "voll": []})  # häufigster Weg ganz, für die U5
+        e["voll"].append(line)  # ganzer Linienweg bis zur Endstation (Saad 2026-11-22)
+        if stuecke:
+            e["stuecke"].append(stuecke)
         e["drin_m"] = max(e["drin_m"], drin_m)
     return linien
 
@@ -294,12 +294,23 @@ def main():
 
     feats = []
     gtfs = _gtfs_linien(box)
-    relevant = sorted((k for k, e in gtfs.items() if e["drin_m"] >= MIN_IM_GEBIET_M),
+    # Saad 2026-11-22: jede Linie, die durch unsere Gebiete fährt oder von einer Wohnung in 10 min zu Fuß erreichbar ist
+    # ("Öffis zu Fuß" in docs/listings.json), ganz bis zur Endstation zeichnen, nicht nur das Stück im Gebiet
+    karte = json.loads((ROOT / "docs" / "listings.json").read_text(encoding="utf-8"))["wohnungen"]
+    nah = {l for w in karte if w["status"] != "raus" for e in w.get("oeffis_nah") or [] for l in e["l"]}
+    relevant = sorted((k for k, e in gtfs.items() if e["drin_m"] >= MIN_IM_GEBIET_M or k[1] in nah),
                       key=lambda k: (REIHENFOLGE[k[0]], len(k[1]), k[1]))
+    from shapely.geometry import LineString as _LS, shape as _shape
+    from shapely.ops import unary_union as _union
+    wien_grenze = _union([_shape(f["geometry"]) for f in _laden("BEZIRKSGRENZEOGD")]).buffer(0.0003)
     for typ, linie in relevant:
         e = gtfs[(typ, linie)]
-        teile = _ohne_doppelte(e["stuecke"], GLEICH_M_UBAHN if typ == "ubahn" else GLEICH_M)
-        if typ == "ubahn":  # Stücke, die nur am Gebietsrand kurz unterbrochen sind, wieder verbinden
+        voll = []
+        for line in e["voll"]:  # Badner Bahn & Regionalbusse nur bis zur Stadtgrenze
+            t = _LS(line).intersection(wien_grenze)
+            voll.append([list(g.coords) for g in getattr(t, "geoms", [t]) if g.geom_type == "LineString" and g.length > 0])
+        teile = _ohne_doppelte(voll, GLEICH_M_UBAHN if typ == "ubahn" else GLEICH_M)
+        if typ == "ubahn":  # Stücke, die nur kurz unterbrochen sind, wieder verbinden
             teile = _luecken_schliessen(teile, 250)
         for teil in teile:
             props = {"typ": typ, "linien": linie}

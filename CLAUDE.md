@@ -240,13 +240,17 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Neu-Markierung auf der Karte (Wunsch).
 - Kärtchen in der Liste (Wunsch 2026-11-13): erster Tipp aufs Kärtchen fliegt die Karte sanft zur Wohnung
   (`vorwaehlen`, Zoom 15, nicht zu nah, damit man beim Hinzoomen sieht, wo sie liegt), Ei und Kärtchen leuchten; zweiter Tipp aufs
-  Kärtchen oder aufs Ei öffnet die Ansicht. Ein Tipp aufs Foto zählt genauso (Saad), Wischen durch die Fotos nicht; Eier auf der Karte öffnen sofort.
+  Kärtchen oder aufs Ei öffnet die Ansicht. Ein Tipp aufs Foto zählt genauso (Saad), Wischen durch die Fotos nicht. Seit 2026-11-22 auch
+  auf der Karte: erster Tipp aufs Ei zentriert die Wohnung und zeigt die Fußwege zu den Öffis (liegt sie schon im Blick, nur sanft
+  zentrieren, sonst hinfliegen), zweiter Tipp aufs Ei oder aufs Kärtchen öffnet sie.
 - Brutkasten (Wunsch 2026-11-07): Nestle, die das Paar besichtigen will. Tab "🐣 Brutkasten" statt des
   Papierkorb-Tabs (Papierkorb jetzt als Link unter der Liste), 🐣-Knopf auf Karten und in den Details, auf der
   Karte ein leuchtendes Küken. Gespeichert im Nest-Eintrag (`gemerkt[id] = "fav <Zeitstempel>"`), weil die
   Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben. Eine Wohnung ist entweder im Nest oder im Brutkasten (Wunsch 2026-11-08):
   im Brutkasten steht sie nicht in der Nest-Liste, 🐣 oder 🥚 legt sie zurück ins Nest; für Scrape und Recherche zählt sie weiter wie eine Nest-Wohnung.
   Die Gast-Ansicht (`?nest`, nichts änderbar) zeigt seit 2026-11-08 nur den Brutkasten, keine Nest-Wohnungen.
+  `?tante` (2026-11-22, für die Tante): gleiche Nur-Ansehen-Ansicht, aber alle Wohnungen aus Nest UND Brutkasten (Küken = Brutkasten,
+  goldenes Ei = Nest).
   Teilen (2026-11-18): Knopf "↗ Teilen" in jeder Wohnung -> Link `?nest&w=ID` (Gast sieht nur diese eine Wohnung,
   geöffnet, nichts änderbar); im Brutkasten-Tab "↗ Brutkasten teilen" -> `?nest`. iPhone: Teilen-Menü, sonst Link kopieren.
 - Merken, Papierkorb und "angesehen" sind gemeinsam für alle Besucher: Firebase Realtime
@@ -256,6 +260,8 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   `.write` auf `markierungen` erlauben).
 - Ideen-Grätzl (2026-11-15): kurz gab es auf der Karte einen Knopf „💡 Ideen“ mit 13 Vorschlägen außerhalb der Suchgebiete; Saad hat
   daraus Botschaftsviertel und Freihausviertel als Zonen übernommen und die Ideen-Ansicht danach verworfen (Code, Daten und Tool entfernt).
+- Seit 2026-11-22 (Saad) zeichnet tools/fetch_oeffis.py jede Linie, die durch unsere Gebiete fährt oder von einer Wohnung in 10 min
+  zu Fuß erreichbar ist (oeffis_nah), ganz bis zur Endstation (nur an der Stadtgrenze abgeschnitten).
 - Öffis auf der Karte (Saad 2026-11-15, am Handy sonst „scheußlich unübersichtlich“): in der Übersicht nur U-Bahn und S-Bahn,
   Straßenbahn ab Zoom 14, Bus ab Zoom 15 (dünner, blasser), Stationen ab 14. 
 - Seit 2026-11-15 (Saad, „großzügige Grenzen“) zwei weitere blaue Zonen: Botschaftsviertel im 3. (Rennweg bis Beatrixgasse,
