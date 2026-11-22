@@ -427,5 +427,20 @@
   "heizung": "Fernwärme und Luftwärmepumpe",
   "lat": 48.20896,
   "lon": 16.388847
+ },
+ {
+  "schluessel": "stilwerk-theresiengasse-1180",
+  "name": "Stil-Werk",
+  "bautraeger": "Grossmann + Kaswurm Immobilien",
+  "vermarkter": "Grossmann + Kaswurm Immobilien",
+  "plz": 1180,
+  "adresse": "Theresiengasse 10",
+  "lat": 48.218336,
+  "lon": 16.340963,
+  "url_projekt": "https://www.stilwerk.wien/",
+  "url_einheiten": "https://www.stilwerk.wien/",
+  "parser": "tabelle",
+  "fertigstellung": "Regelgeschosse (totalsaniert) Bezug nach Vereinbarung, Dachgeschoss Ende 2027",
+  "heizung": "Luftwärmepumpe, Fußbodenheizung (Saad 2026-11-22: von Saad gefunden, Top 11)"
  }
 ]

@@ -6478,11 +6478,21 @@
  },
  "wh-1892741389": {
   "lage": {
-   "adresse": "Theresiengasse 10",
+   "adresse": "Theresiengasse 10/11",
+   "lat": 48.218336,
+   "lon": 16.340963,
    "sicherheit": "genau",
-   "begruendung": "Inseratstext (marina eiffe): 'In der Theresienstraße 10 im 18. Wiener Gemeindebezirk ... Wohnung Top 11', Kutschkerviertel, 2. OG, BTVG, Fertigstellung 2027/28. Im 18. Bezirk gibt es keine Theresienstraße, gemeint ist die Theresiengasse (OSM: Theresiengasse 10 bei 48.21834, 16.34096). willhaben-Punkt war nur Bezirks-Default."
+   "begruendung": "Projektseite stilwerk.wien: Theresiengasse 10, Top 11, 2. OG, 76,15 m², 660.000 €"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-22",
+  "eckdaten": {
+   "stockwerk": "2. OG, Top 11"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "bezug_ok": true,
+   "begruendung": "Saad 2026-11-22: \"gib diese Wohnung rein\" (Stil-Werk Top 11). Gesamtprojekt laut Inserat Herbst 2028, laut stilwerk.wien sind die totalsanierten Regelgeschosse auf Anfrage früher beziehbar, das Dachgeschoss Ende 2027 – Bezugstermin für Top 11 (2. OG) beim Makler erfragen."
+  }
  },
  "wh-1149277549": {
   "lage": {
@@ -33251,6 +33261,24 @@
    "lat": 48.223026,
    "lon": 16.317995,
    "begruendung": "Lagetext: \"Der Stöberplatz in Hernals\"; Hausnummer unbekannt, Portalpunkt versetzt"
+  },
+  "datum": "2026-11-22"
+ },
+ "bt-820948516115": {
+  "lage": {
+   "adresse": "Theresiengasse 10/11",
+   "lat": 48.218336,
+   "lon": 16.340963,
+   "sicherheit": "genau",
+   "begruendung": "Projektseite stilwerk.wien"
+  },
+  "eckdaten": {
+   "stockwerk": "2. OG, Top 11"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "bezug_ok": true,
+   "begruendung": "Saad 2026-11-22: Ausnahme, siehe wh-1892741389"
   },
   "datum": "2026-11-22"
  }
