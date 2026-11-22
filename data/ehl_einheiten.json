@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-20",
+ "stand": "2026-11-22",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -914,11 +914,53 @@
      "stiege": "",
      "geschoss": "EG",
      "zimmer": "2",
+     "flaeche": "56,52 m2",
+     "eigennutzer": "€ 450.000,-",
+     "href": "https://www.ehl.at/objekt/91486",
+     "garten": "17,08 m²",
+     "terrasse": "11,47 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "2",
      "flaeche": "39,89 m2",
      "eigennutzer": "€ 330.000,-",
      "href": "https://www.ehl.at/objekt/91488",
      "garten": "14,24 m²",
      "terrasse": "9,17 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "46,82 m2",
+     "eigennutzer": "€ 340.000,-",
+     "href": "https://www.ehl.at/objekt/91489",
+     "loggia": "2,42 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "3",
+     "flaeche": "64,57 m2",
+     "eigennutzer": "€ 530.000,-",
+     "href": "https://www.ehl.at/objekt/91490",
+     "loggia": "1,92 m²",
+     "balkon": "6,4 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "2",
+     "flaeche": "48,78 m2",
+     "eigennutzer": "€ 350.000,-",
+     "href": "https://www.ehl.at/objekt/91492",
+     "loggia": "2,31 m²"
     },
     {
      "top": "",
@@ -930,6 +972,17 @@
      "href": "https://www.ehl.at/objekt/91494",
      "loggia": "1,92 m²",
      "balkon": "6,4 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "2. Etage",
+     "zimmer": "3",
+     "flaeche": "68,44 m2",
+     "eigennutzer": "€ 585.000,-",
+     "href": "https://www.ehl.at/objekt/91495",
+     "loggia": "1,91 m²",
+     "balkon": "6,41 m²"
     },
     {
      "top": "",
@@ -963,6 +1016,16 @@
      "href": "https://www.ehl.at/objekt/91508",
      "loggia": "5,37 m²",
      "terrasse": "3,28 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "3",
+     "flaeche": "66,86 m2",
+     "eigennutzer": "€ 599.000,-",
+     "href": "https://www.ehl.at/objekt/91511",
+     "terrasse": "11,01 m²"
     },
     {
      "top": "",

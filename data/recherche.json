@@ -1,1 +1,45 @@
-[]
+[
+ {
+  "id": "is-555441519441",
+  "ids": [
+   "is-555441519441",
+   "wh-1844153862",
+   "is-146661004362",
+   "is-505265927619"
+  ],
+  "titel": "Urbane Gartenwohnung mit großer Terrasse, Garagenplatz in zentraler Lage!",
+  "plz": 1170,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1170-hernals/urbane-gartenwohnung-mit-grosser-terrasse-garagenplatz-in-zentraler-lage-1844153862/",
+   "https://www.immobilienscout24.at/expose/6b01681b67233a2b4a88e21f"
+  ],
+  "anbieter": "HM KAISER & PARTNER Immobilien KG",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 17. Bezirk bekannt",
+  "punkt": [
+   48.220786,
+   16.315808
+  ],
+  "versatz_m": 263,
+  "preis": 479000,
+  "flaeche": 77.64,
+  "zimmer": 3,
+  "stockwerk": "Erdgeschoss",
+  "energie": {
+   "hwb": 51.7,
+   "hwb_class": "C",
+   "fgee": 1.2,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/is-555441519441/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Virtueller 360°Rundgang",
+    "url": "https://my.matterport.com/show/?m=ZczDznSVJZq"
+   }
+  ],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false
+ }
+]

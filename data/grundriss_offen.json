@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "id": "is-555441519441",
+  "ids": [
+   "is-555441519441",
+   "wh-1844153862",
+   "is-146661004362",
+   "is-505265927619"
+  ],
+  "titel": "Urbane Gartenwohnung mit großer Terrasse, Garagenplatz in zentraler Lage!",
+  "adresse": null,
+  "flaeche": 77.64,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E3r0Y-1786982409-ffdd025a9a5f417f8144397929957c17"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-555441519441/"
+ }
+]
