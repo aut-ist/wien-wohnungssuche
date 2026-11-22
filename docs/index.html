@@ -282,7 +282,9 @@
   .nur-handy { display: none; }
   @media (max-width: 800px) { .nur-handy { display: inline-flex; } }
   /* Nur-Ansicht für Familie */
-  .nur-nest #btnFilter, .nur-nest #btnGas, .nur-nest #filter, .nur-nest .tab:not([data-tab="alle"]) { display: none !important; }
+  .nur-nest #btnFilter, .nur-nest #btnGas, .nur-nest #filter, .nur-nest:not(.tante) .tab:not([data-tab="alle"]) { display: none !important; }
+  /* ?tante (2026-11-22): zwei Tabs, Nest und Brutkasten getrennt */
+  .tante .tab[data-tab="alle"] { display: none !important; }
   .nur-nest .tab[data-tab="alle"] { cursor: default; }
   .nur-nest #sync, .nur-nest .trenner { display: none !important; }
   .karte-groesse { display: none; box-shadow: var(--shadow); }
@@ -454,6 +456,7 @@ const NUR_NEST = TANTE || new URLSearchParams(location.search).has('nest');
 // Geteilte Wohnung (?nest&w=ID, Wunsch 2026-11-18): Gäste sehen nur diese eine Wohnung, nur ansehen, nichts änderbar
 const GETEILT = NUR_NEST ? new URLSearchParams(location.search).get('w') : null;
 if (NUR_NEST) document.documentElement.classList.add('nur-nest');
+if (TANTE) document.documentElement.classList.add('tante');
 const FARBE = { gruen: '#1f9d61', grau: '#8b9099', raus: '#d24b3e', gold: '#e8b21e', gas: '#f5b27a' };
 const EI = 'M10 1C4.6 1 1 9.6 1 15.6 1 21.6 4.9 25 10 25s9-3.4 9-9.4C19 9.6 15.4 1 10 1Z';  // Eiform für Marker
 const STATUS_TXT = { gruen: 'passt', grau: 'noch offen', raus: 'passt nicht' };
@@ -752,8 +755,12 @@ const imNest = w => istGemerkt(w) && !istBrut(w);
 function sichtbar() {
   if (NUR_NEST) {  // Gäste sehen nur den Brutkasten, ohne Filter (Wunsch 2026-11-08)
     // geteilte einzelne Wohnung: nur die, nicht der ganze Brutkasten
+    if (TANTE) {  // Tante: Nest und Brutkasten in zwei Tabs, auf der Karte beide
+      const nestL = state.daten.filter(w => imNest(w) && !imPapierkorb(w)), brutL = state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
+      return { karte: [...nestL, ...brutL], alle: [], gemerkt: nestL, brut: brutL, papierkorb: [] };
+    }
     const brut = GETEILT ? state.daten.filter(w => idsVon(w).includes(GETEILT))
-      : state.daten.filter(w => (TANTE ? istGemerkt(w) : istBrut(w)) && !imPapierkorb(w));
+      : state.daten.filter(w => istBrut(w) && !imPapierkorb(w));
     return { karte: brut, alle: brut, gemerkt: brut, brut, papierkorb: [] };
   }
   const basis = state.daten.filter(w => !imPapierkorb(w) && passtFilter(w));
@@ -1669,7 +1676,10 @@ function teilOk(text) {
     else if (TANTE) {
       document.title = document.querySelector('h1').textContent = 'Gigibirds Nest & Brutkasten';
       document.querySelector('.motto').textContent = 'Alle Nestle, die wir uns gemerkt haben';
-      document.querySelector('[data-tab="alle"]').innerHTML = '🥚 Nest & 🐣 Brutkasten <span id="nAlle"></span>';
+      document.querySelector('[data-tab="alle"]').innerHTML = 'Alle <span id="nAlle"></span>';
+      document.querySelector('[data-tab="gemerkt"]').innerHTML = '🥚 Nest <span id="nGemerkt"></span>';
+      state.tab = 'gemerkt';
+      document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x.dataset.tab === 'gemerkt'));
     }
   }
   filterUi();

@@ -249,7 +249,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Firebase-Regeln nur gemerkt/papierkorb/gesehen erlauben. Eine Wohnung ist entweder im Nest oder im Brutkasten (Wunsch 2026-11-08):
   im Brutkasten steht sie nicht in der Nest-Liste, 🐣 oder 🥚 legt sie zurück ins Nest; für Scrape und Recherche zählt sie weiter wie eine Nest-Wohnung.
   Die Gast-Ansicht (`?nest`, nichts änderbar) zeigt seit 2026-11-08 nur den Brutkasten, keine Nest-Wohnungen.
-  `?tante` (2026-11-22, für die Tante): gleiche Nur-Ansehen-Ansicht, aber alle Wohnungen aus Nest UND Brutkasten (Küken = Brutkasten,
+  `?tante` (2026-11-22, für die Tante): gleiche Nur-Ansehen-Ansicht, aber Nest UND Brutkasten in zwei Tabs (Küken = Brutkasten,
   goldenes Ei = Nest).
   Teilen (2026-11-18): Knopf "↗ Teilen" in jeder Wohnung -> Link `?nest&w=ID` (Gast sieht nur diese eine Wohnung,
   geöffnet, nichts änderbar); im Brutkasten-Tab "↗ Brutkasten teilen" -> `?nest`. iPhone: Teilen-Menü, sonst Link kopieren.
