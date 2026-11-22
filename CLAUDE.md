@@ -285,8 +285,19 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Bauträger-/Makler-Seiten (3SI, WINEGG, EHL, justimmo, bis 15 MP) laufen verkleinert über images.weserv.nl (`bu()`, Fallback aufs Original);
   (4) raus-Wohnungen nur mit 1 Foto, ohne Preisverlauf in listings.json.
 - Öffis zu Fuß (Saad 2026-11-22): unter „Lage“ steht für jede Wohnung auf der Karte die Liste aller Haltestellen (U-Bahn, S-Bahn,
-  Straßenbahn, Bus) bis 10 min Fußweg, nächste zuerst, mit Linien (`oeffis_nah`, berechnet in `run.py build` wie der Fußweg der
-  Gürtelzeit: Luftlinie, 64 m/min). Daten: `geo/haltestellen.json` aus `tools/haltestellen.py` (GTFS der Wiener Linien, nur Linien,
-  die an einem normalen Werktag mind. 12-mal halten, ohne Nachtbusse; S-Bahn-Stationen aus docs/geo/oeffis.geojson). Zum
-  Fahrplanwechsel neu laufen lassen. Bei ungefährer Lage steht „Minuten ± ein paar“ dabei; eine recherchierte Adresse (auch geschätztes
-  Haus) rechnet die Liste beim nächsten build automatisch neu.
+  Straßenbahn, Bus) bis 10 min Fußweg, nächste zuerst, mit Linien (`oeffis_nah`, `oeffis_zu_fuss()` in run.py). Gehzeit echt über
+  das OSM-Fußwegnetz (routing.openstreetmap.de, FOSSGIS-OSRM „foot“: eine Tabellen-Anfrage je Wohnung, Zwischenspeicher
+  `data/fusswege_cache.json` je Koordinate); ohne Antwort Schätzung wie bei der Gürtelzeit (Luftlinie, 64 m/min), dann „~“ vor der Zeit.
+  Je Haltestellenname zählt der nächste Steig. Daten: `geo/haltestellen.json` aus `tools/haltestellen.py` (GTFS der Wiener Linien, nur
+  Linien, die an einem normalen Werktag mind. 12-mal halten, ohne Nachtbusse; S-Bahn-Stationen aus docs/geo/oeffis.geojson). Zum
+  Fahrplanwechsel neu laufen lassen. Eine recherchierte Adresse (auch geschätztes Haus) rechnet die Liste beim nächsten build neu.
+  Karte: beim Antippen in der Liste und beim Öffnen zeichnet die Seite die Fußwege zu diesen Haltestellen (gepunktet blau, Route
+  vom selben Dienst, im Browser geladen und gemerkt) mit Beschriftung „3 min Name Linien“, auch in der kleinen Lage-Karte.
+- S-Bahn-Lücken (2026-11-22): OEFFLINIENOGD hat die Stammstrecke Quartier Belvedere – Rennweg – Wien Mitte – Praterstern (Tunnel) und
+  S40-Stücke bei Spittelau/vor Nußdorf nicht; `OSM_STRECKEN` in tools/fetch_oeffis.py holt sie aus OpenStreetMap (kürzester Weg über
+  die Gleise). Die Stammstrecke ist 7.9.2026 bis Ende Okt. 2027 gesperrt (in OSM railway=construction); Saad will die Sperre nicht
+  angezeigt haben („wir wohnen dort sehr lange“). fetch_oeffis behält S-Strecken und Stationen der bisherigen Datei (die OGD-Daten
+  lieferten am 2026-11-22 plötzlich weniger, u. a. ohne Station Meidling).
+- Eier (2026-11-22, Saad): kein Unterschied mehr zwischen angeschaut/nicht angeschaut (Filter, Legende, blasse Eier, Tag „scho gschaut“
+  weg; Firebase merkt „gesehen“ weiter); „Lage ungefähr“ ist eine kleine weiße Fragezeichen-Plakette oben rechts am Ei (auch Gold/Küken)
+  statt gestricheltem Rand. Filter ohne Status, „nur neue“, „no ned gschaut“.

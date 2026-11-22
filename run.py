@@ -561,6 +561,74 @@ _GUERTEL = None
 GEHEN_M_PRO_MIN = 80 / 1.25  # wie in tools/oeffi_zeiten.py
 
 
+FUSSWEG_CACHE = DATA / "fusswege_cache.json"
+FUSSWEG_URL = "https://routing.openstreetmap.de/routed-foot/table/v1/driving/"
+
+
+def _linien_sort(l):
+    return (0 if l.startswith("U") else 1 if l.startswith("S") else 3 if l[-1:].isalpha() and l[:-1].isdigit() else 2,
+            int("".join(c for c in l if c.isdigit()) or 0), l)
+
+
+def oeffis_zu_fuss(karte, prio=frozenset(), korb=frozenset(), max_anfragen=80):
+    """Setzt w["oeffis_nah"] = [{"n": Haltestelle, "min": Gehminuten, "l": [Linien], "p": [lat, lon] des Steigs}, ...]."""
+    import json as _json
+    import urllib.request as _ur
+    halte = load_json(ROOT / "geo" / "haltestellen.json", [])
+    cache = load_json(FUSSWEG_CACHE, {})
+    # schonend für den freien Dienst (2026-11-22: 400 Anfragen am Stück -> HTTP 429 und lange Timeouts): höchstens
+    # max_anfragen pro build, 1,5 s Abstand, nach 3 Fehlern in Folge Schluss; der Rest kommt an den nächsten Tagen dran
+    anfragen, geaendert, fehler = 0, False, 0
+    # Nest/Brutkasten zuerst, dann was auf der Karte sichtbar ist, Papierkorb zuletzt
+    for w in sorted(karte, key=lambda w: (not set(w["ids"]) & prio, bool(set(w["ids"]) & korb))):
+        if not w.get("lat") or w["status"] == "raus":
+            continue
+        kand = {}  # Name -> [Luftlinie m, lat, lon, Linien]
+        for name, lat, lon, linien in halte:
+            if abs(lat - w["lat"]) > 0.009 or abs(lon - w["lon"]) > 0.013:
+                continue
+            m = math.hypot((lon - w["lon"]) * 74200, (lat - w["lat"]) * 111320)
+            if m > 900:
+                continue
+            k = kand.setdefault(name, [1e9, lat, lon, []])
+            k[3] += [l for l in linien.split() if l not in k[3]]
+            if m < k[0]:
+                k[:3] = [m, lat, lon]
+        if not kand:
+            w["oeffis_nah"] = []
+            continue
+        schl = f"{w['lat']:.5f},{w['lon']:.5f}"
+        bekannt = cache.get(schl, {})
+        fehlt = [n for n in kand if n not in bekannt]
+        if fehlt and anfragen < max_anfragen and fehler < 3:
+            anfragen += 1
+            ziele = ";".join(f"{kand[n][2]:.6f},{kand[n][1]:.6f}" for n in fehlt)
+            url = (f"{FUSSWEG_URL}{w['lon']:.6f},{w['lat']:.6f};{ziele}?sources=0&annotations=duration,distance")
+            try:
+                req = _ur.Request(url, headers={"User-Agent": "wien-wohnungssuche (privat)"})
+                d = _json.loads(_ur.urlopen(req, timeout=10).read())
+                for n, sek, meter in zip(fehlt, d["durations"][0][1:], d["distances"][0][1:]):
+                    if sek is not None:
+                        bekannt[n] = [round(sek), round(meter)]
+                cache[schl] = bekannt
+                geaendert, fehler = True, 0
+                time.sleep(1.5)
+            except Exception as e:  # Dienst weg/überlastet: dann Schätzung
+                fehler += 1
+                log(f"Fußwege {w['id']}: {e}")
+        liste = []
+        for n, (m, lat, lon, linien) in kand.items():
+            minuten = bekannt[n][0] / 60 if n in bekannt else m / GEHEN_M_PRO_MIN
+            if minuten <= 10:
+                liste.append({"n": n, "min": max(1, math.ceil(minuten - 0.05)), "l": sorted(linien, key=_linien_sort),
+                              "p": [round(lat, 6), round(lon, 6)], **({} if n in bekannt else {"ca": True})})
+        w["oeffis_nah"] = sorted(liste, key=lambda e: (e["min"], e["n"]))
+    if geaendert:
+        save_json(FUSSWEG_CACHE, cache)
+    if anfragen:
+        log(f"Fußwege zu Haltestellen: {anfragen} neue Abfragen")
+
+
 def guertel_zeit(lat, lon):
     """Geschätzte Öffi-Zeit (Minuten) bis zur U6 am Gürtel: Fußweg zur besten Haltestelle +
     mittlere Fahrzeit ab dort (aus geo/guertel_zeiten.json). -> dict oder None."""
@@ -1408,25 +1476,10 @@ def build():
         except Exception as e:  # Netz weg: dann eben ohne
             log(f"Street-View-Punkt {w['id']}: {e}")
     # Öffis zu Fuß (Saad 2026-11-22): alle Haltestellen (U, S, Straßenbahn, Bus) bis 10 min Fußweg, nächste zuerst.
-    # Fußweg wie bei der Gürtelzeit: Luftlinie / GEHEN_M_PRO_MIN (80 m/min mit 25 % Umweg). Daten: tools/haltestellen.py
-    halte = load_json(ROOT / "geo" / "haltestellen.json", [])
-    for w in karte:
-        if not w.get("lat") or w["status"] == "raus":
-            continue
-        je = {}
-        for name, lat, lon, linien in halte:
-            if abs(lat - w["lat"]) > 0.007 or abs(lon - w["lon"]) > 0.01:
-                continue
-            m = math.hypot((lon - w["lon"]) * 74200, (lat - w["lat"]) * 111320) / GEHEN_M_PRO_MIN
-            if m > 10:
-                continue
-            e = je.setdefault(name, {"n": name, "min": m, "l": []})
-            e["min"] = min(e["min"], m)
-            e["l"] += [l for l in linien.split() if l not in e["l"]]
-        art = lambda l: (0 if l.startswith("U") else 1 if l.startswith("S") else 3 if l[-1:].isalpha() and l[:-1].isdigit() else 2,
-                         int("".join(c for c in l if c.isdigit()) or 0), l)
-        w["oeffis_nah"] = [{**e, "min": max(1, math.ceil(e["min"])), "l": sorted(e["l"], key=art)}
-                           for e in sorted(je.values(), key=lambda e: e["min"])]
+    # Gehzeit echt über das OSM-Fußwegnetz (routing.openstreetmap.de, FOSSGIS-OSRM "foot", eine Tabellen-Anfrage je Wohnung,
+    # Zwischenspeicher data/fusswege_cache.json); ohne Antwort Schätzung wie bei der Gürtelzeit (Luftlinie, 25 % Umweg).
+    # Je Haltestellenname zählt der nächste Steig (dorthin zeichnet die Karte den Fußweg). Daten: tools/haltestellen.py
+    oeffis_zu_fuss(karte, prio=nest, korb=korb)
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     # Ausgeschlossene nur mit 5 Fotos (2026-11-17: ohne die 3-Zimmer-Preisgrenze wuchs listings.json auf 7,5 MB, Seitencheck-
     # Grenze 6 MB; 2/3 davon waren Fotolisten von "raus"-Wohnungen, die man nur über den Filter "raus" sieht). Nest bleibt ganz.

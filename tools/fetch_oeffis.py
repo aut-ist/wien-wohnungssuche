@@ -196,6 +196,81 @@ def _ohne_doppelte(stuecke_je_weg, gleich_m=GLEICH_M):
     return raus
 
 
+# S-Bahn-Abschnitte, die in OEFFLINIENOGD fehlen (Tunnel, Brücken), aus OpenStreetMap; Saad 2026-11-22
+OSM_STRECKEN = [
+    # Stammstrecke Matzleinsdorfer Platz - Quartier Belvedere - Rennweg - Wien Mitte - Praterstern (großteils Tunnel;
+    # in OSM wegen der Sperre 9/2026-10/2027 als railway=construction, die Sperre zeigen wir nicht an)
+    ("48.176,16.350,48.224,16.400", ["S1", "S2", "S3", "S4", "S7"], None,
+     [(16.35882, 48.18045), (16.3808, 48.1877), (16.38628, 48.19479), (16.38459, 48.20606), (16.39215, 48.21894)]),
+    # S40 Franz-Josefs-Bahnhof - Spittelau - Heiligenstadt - Nußdorf (Lücken bei Spittelau und vor Nußdorf)
+    # (hier auch über Nebengleise suchen: die Streckengleise sind in OSM nur über Weichen verbunden)
+    ("48.222,16.335,48.292,16.375", ["S40"], "*",
+     [(16.35885, 48.23287), (16.3588, 48.2355), (16.36571, 48.24908), (16.36768, 48.26023), (16.36633, 48.26455)]),
+]
+
+
+def _stammstrecke_osm():
+    return [x for bbox, namen, strecke, halte in OSM_STRECKEN for x in _osm_strecke(bbox, namen, halte, strecke)]
+
+
+def _osm_strecke(bbox, namen, halte, strecke=None):
+    """Kürzester Weg über die Gleise (OSM railway=rail/construction, ohne Nebengleise) von Station zu Station.
+    Liefert [(namen, koordinaten)] je Abschnitt; Umwege über andere Strecken werden verworfen."""
+    import heapq
+    import json as _j
+    import urllib.parse
+    nur = "" if strecke == "*" else f'[!"service"]["name"="{strecke}"]' if strecke else '[!"service"]'
+    q = ('[out:json][timeout:90];way["railway"~"^(rail|construction)$"]' + nur +
+         f'({bbox});out geom;')
+    d = None
+    for url in ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
+                "https://overpass-api.de/api/interpreter"):
+        try:
+            req = urllib.request.Request(url, data=urllib.parse.urlencode({"data": q}).encode(),
+                                         headers={"User-Agent": "wohnungssuche-karte/1.0"})
+            d = _j.loads(urllib.request.urlopen(req, timeout=150).read())
+            break
+        except Exception as e:  # Overpass ist oft kurz überlastet (502/504)
+            print("Overpass:", url, e)
+    if not d:
+        return []
+    nb = {}
+    for e in d["elements"]:
+        pts = [(round(p["lon"], 7), round(p["lat"], 7)) for p in e.get("geometry", [])]
+        for a_, b_ in zip(pts, pts[1:]):
+            w = _laenge_m(a_, b_)
+            nb.setdefault(a_, []).append((b_, w))
+            nb.setdefault(b_, []).append((a_, w))
+    if not nb:
+        return []
+    naechst = lambda p: min(nb, key=lambda k: _laenge_m(k, p))
+    weg = []
+    for von, bis in zip(halte, halte[1:]):
+        s0, z = naechst(von), naechst(bis)
+        dist, vor, todo = {s0: 0}, {}, [(0, s0)]
+        while todo:
+            dd, k = heapq.heappop(todo)
+            if k == z:
+                break
+            if dd > dist.get(k, 1e18):
+                continue
+            for n, w in nb[k]:
+                if dd + w < dist.get(n, 1e18):
+                    dist[n], vor[n] = dd + w, k
+                    heapq.heappush(todo, (dd + w, n))
+        if z not in vor and z != s0:
+            continue
+        teil, k = [z], z
+        while k != s0:
+            k = vor[k]
+            teil.append(k)
+        teil = teil[::-1]
+        # Umwege über andere Gleise verwerfen (Matzleinsdorf - Quartier Belvedere fand nur einen 8-km-Umweg)
+        if sum(_laenge_m(x, y) for x, y in zip(teil, teil[1:])) <= 2.5 * _laenge_m(von, bis):
+            weg.append(teil)
+    return [(namen, t) for t in weg]
+
+
 def _u5(u2):
     """U5: Karlsplatz–Rathaus im U2-Tunnel, dann gerade von Station zu Station."""
     def naechster(p):
@@ -254,6 +329,9 @@ def main():
             for t in getattr(schnitt, "geoms", [schnitt]):
                 if t.geom_type == "LineString" and t.length > 0:
                     sbahn.append((namen, list(t.coords)))
+    # Stammstrecke im Tunnel (Quartier Belvedere - Rennweg - Wien Mitte - Praterstern) fehlt in OEFFLINIENOGD
+    # (Saad 2026-11-22: "die Stadtlinien vom Hauptbahnhof über Wien Mitte nach Handelskai"): Gleis aus OpenStreetMap
+    sbahn += _stammstrecke_osm()
     for namen, teil in sbahn:
         feats.insert(0, {"type": "Feature", "properties": {"typ": "sbahn", "linien": ", ".join(namen)},
                          "geometry": {"type": "LineString", "coordinates":
@@ -320,6 +398,22 @@ def main():
                           "geometry": {"type": "Point", "coordinates": [x, y]}})
 
     path = ROOT / "geo" / "oeffis.geojson"
+    # S-Bahn nie verlieren (2026-11-22: OEFFLINIENOGD/OEFFHALTESTOGD lieferten plötzlich weniger, u. a. ohne Station
+    # Meidling, vermutlich wegen der Stammstrecken-Sperre): S-Strecken und Stationen der bisherigen Datei bleiben
+    if path.exists():
+        alt = json.loads(path.read_text(encoding="utf-8"))["features"]
+        da = {json.dumps(f["geometry"]["coordinates"]) for f in feats if f["properties"]["typ"] == "sbahn"}
+        st = {f["properties"]["name"]: f for f in feats if f["properties"]["typ"] == "station"}
+        for f in alt:
+            p = f["properties"]
+            if p["typ"] == "sbahn" and json.dumps(f["geometry"]["coordinates"]) not in da:
+                feats.insert(0, f)
+            elif p["typ"] == "station":
+                if p["name"] in st:
+                    q = st[p["name"]]["properties"]
+                    q["linien"] = sortiert(q["linien"].split(", ") + p["linien"].split(", "))
+                else:
+                    feats.append(f)
     path.write_text(json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False),
                     encoding="utf-8")
     print("Linien:", ", ".join(l for _, l in relevant))

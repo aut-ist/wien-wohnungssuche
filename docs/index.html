@@ -170,7 +170,6 @@
   .tag.raus { background: #fbe5e2; color: #9c2f24; }
   .tag.gold { background: #fff3cc; color: #7a5a00; }
   .tag.gesehen { background: #e8edff; color: #22337a; }
-  .karte.gesehen .preis, .karte.gesehen .titel { color: #555a62; }
   .karte.offline { opacity: .55; filter: grayscale(1); }
   .karte.offline:hover { opacity: .8; }
   .tag.offline { background: #3a3d42; color: #fff; }
@@ -210,6 +209,15 @@
 
   /* aktuell geöffnete Wohnung auf der Karte */
   .ei-icon.aktiv { z-index: 9000 !important; }
+  .leaflet-tooltip.fussweg-tip { padding: 1px 5px; font-size: 11px; background: rgba(255,255,255,.92); border: 1px solid #c8d4ea;
+    box-shadow: none; color: #1d1f23; }
+  .leaflet-tooltip.fussweg-tip::before { display: none; }
+  .fussweg-tip .fw-l { color: #1a56c4; font-weight: 700; }
+  .ei-icon .ei-ungef { position: absolute; top: -5px; right: -7px; width: 14px; height: 14px; border-radius: 50%; background: #fff;
+    color: #333; font: 800 10px/14px system-ui, sans-serif; text-align: center; box-shadow: 0 0 0 1.2px #555; pointer-events: none; }
+  .leg-ei { position: relative; display: inline-block; }
+  .leg-ei .ei-ungef { position: absolute; top: -4px; right: -6px; width: 11px; height: 11px; border-radius: 50%; background: #fff;
+    color: #333; font: 800 8px/11px system-ui, sans-serif; text-align: center; box-shadow: 0 0 0 1px #555; }
   .ei-icon.aktiv svg { animation: ei-hops 1.6s ease-in-out infinite; }
   .ei-icon.aktiv::before { content: ''; position: absolute; left: 50%; top: 55%; width: 54px; height: 54px; margin: -27px 0 0 -27px;
     border-radius: 50%; border: 3px solid #e3a400; background: rgba(227,164,0,.18); animation: ei-puls 1.6s ease-out infinite; }
@@ -643,7 +651,7 @@ legende.onAdd = () => {
   d.innerHTML =
     '<div><i style="border-color:#8a7fb8;border-top-style:dotted"></i>Bezirksgrenze</div>' +
     oeffiLeg +
-    `<div>${legEi('gruen')} no ned gschaut ${legEi('gruen', { gesehen: true })} scho gschaut ${legEi('gruen', { ungefaehr: true })} Lage ungefähr</div>` +
+    `<div>${legEi('gruen')} passt <span class="leg-ei">${eiSvg({ status: 'gruen', ids: ['_leg'] }, 16)}<b class="ei-ungef">?</b></span> Lage ungefähr</div>` +
     `<div>${legEi('gruen', { gas: true })} Gasheizung <span class="leg-ei">${goldEi(16)}</span> im Nest <span class="leg-ei">${goldEi(16, true)}</span> im Nest, Gas</div>` +
     `<div><span class="leg-ei" style="font-size:15px">🐣</span> Brutkasten (zum Anschaun)</div>`;
   d.addEventListener('click', () => d.classList.toggle('offen'));
@@ -776,8 +784,8 @@ function oeffisNahHtml(w) {
     const art = /^S\d/.test(x) ? 's' : /^\d+[A-Z]$/.test(x) ? 'bus' : '';
     return `<span class="ln ${art}">${esc(x)}</span>`;
   };
-  return `<div class="oeffi-nah"><div class="kopf">🚶 Öffis zu Fuß (bis 10 min)${w.ungefaehr ? ' <span class="meta">· Lage ungefähr, Minuten ± ein paar</span>' : ''}</div><ul>` +
-    l.map(e => `<li><span class="min">${e.min} min</span><span class="halt">${esc(e.n)}<br>${e.l.map(chip).join('')}</span></li>`).join('') +
+  return `<div class="oeffi-nah"><div class="kopf">🚶 Öffis zu Fuß (bis 10 min, Fußwege auf der Karte)${w.ungefaehr ? ' <span class="meta">· Lage ungefähr, Minuten ± ein paar</span>' : ''}</div><ul>` +
+    l.map(e => `<li><span class="min">${e.ca ? '~' : ''}${e.min} min</span><span class="halt">${esc(e.n)}<br>${e.l.map(chip).join('')}</span></li>`).join('') +
     '</ul></div>';
 }
 function guertelLang(w) {
@@ -853,7 +861,6 @@ function tagsHtml(w) {
     ${w.offline ? `<span class="tag offline">${esc(w.gruende?.[0] || 'Nicht mehr online')}</span>` : ''}
     ${w.neu && !w.offline ? '<span class="tag neu">NEU</span>' : ''}
     ${istBrut(w) && !NUR_NEST ? '<span class="tag brut">🐣 Brutkasten</span>' : ''}
-    ${istGesehen(w) && !NUR_NEST ? '<span class="tag gesehen">✓ scho gschaut</span>' : ''}
     ${w.status !== 'gruen' ? `<span class="tag ${w.status}">${STATUS_TXT[w.status]}</span>` : ''}
     ${h.ergebnis ? `<span class="tag ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}">${HEIZ_TXT[h.ergebnis]}</span>` : ''}
     ${w.ungefaehr ? '<span class="tag">Lage ungefähr</span>' : ''}
@@ -871,7 +878,7 @@ function aktionenHtml(w, papierkorb) {
 function karteHtml(w, papierkorb) {
   const f = fakten(w);
   const bilder = (w.bilder || []).slice(0, 12);
-  return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${istGesehen(w) ? 'gesehen' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id || state.vor === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
+  return `<article class="karte ${imNest(w) ? 'gemerkt' : ''} ${istBrut(w) ? 'brut' : ''} ${w.offline ? 'offline' : ''} ${state.aktiv === w.id || state.vor === w.id ? 'aktiv' : ''}" data-id="${esc(w.id)}">
     <div class="foto-wrap am-anfang">
       <div class="fotos" data-id="${esc(w.id)}">${bilder.length ? bilder.map((b, k) => k === 0 ? img(b, 'data-akt="vollbild" decoding="async"')
         : `<img data-src="${esc(bu(b))}"${ORIG(b)} alt="" referrerpolicy="no-referrer" decoding="async" data-akt="vollbild">`).join('') : '<div style="flex:1"></div>'}</div>
@@ -892,17 +899,16 @@ function karteHtml(w, papierkorb) {
   </article>`;
 }
 
-/* Marker als Eier: Farbe = Status, gestrichelt = Lage ungefähr, weiß = scho gschaut,
+/* Marker als Eier: Farbe = Status, Fragezeichen-Plakette = Lage ungefähr,
    goldener Rand = neu, im Nest = gemerkt */
 function eiSvg(w, groesse) {
   // ein grünes Ei für alle Wohnungen, die in Frage kommen, orange mit Gasheizung; nur Ausgeschlossene rot
   const gas = w.heizung?.ergebnis === 'gas';
-  const c = w.status === 'raus' ? FARBE.raus : gas ? FARBE.gas : FARBE.gruen, g = w._gesehen ?? istGesehen(w), n = false;
-  const rand = g ? c : '#ffffff';
+  // Saad 2026-11-22: kein Unterschied mehr zwischen angeschaut/nicht angeschaut; "Lage ungefähr" = Fragezeichen-Plakette (eiIcon)
+  const c = w.status === 'raus' ? FARBE.raus : gas ? FARBE.gas : FARBE.gruen;
   return `<svg viewBox="-2 -2 24 30" width="${groesse * .8}" height="${groesse}">
-    <path d="${EI}" fill="${g ? '#fff' : c}" fill-opacity="${!g && w.ungefaehr ? .5 : 1}"
-      stroke="${rand}" stroke-width="${n || g ? 2.6 : 1.8}" ${w.ungefaehr ? 'stroke-dasharray="3 2.2"' : ''}/>
-    ${g ? '' : '<ellipse cx="6.6" cy="9" rx="2" ry="3.4" fill="#fff" opacity=".45" transform="rotate(-18 6.6 9)"/>'}</svg>`;
+    <path d="${EI}" fill="${c}" stroke="#ffffff" stroke-width="1.8"/>
+    <ellipse cx="6.6" cy="9" rx="2" ry="3.4" fill="#fff" opacity=".45" transform="rotate(-18 6.6 9)"/></svg>`;
 }
 // metallisch goldenes Ei (Verlauf, dunkler Goldrand, Glanzlicht) – Nest; mit Gasheizung goldorange
 function goldEi(groesse, gas = false) {
@@ -922,6 +928,8 @@ function goldEi(groesse, gas = false) {
     <path d="${EI}" fill="url(#${id}-glanz)"/>
   </svg>`;
 }
+// "Lage ungefähr": kleine weiße Plakette mit Fragezeichen oben rechts am Ei (Saad 2026-11-22, statt gestricheltem Rand)
+const ungefPlakette = w => w.ungefaehr ? '<b class="ei-ungef" title="Lage ungefähr">?</b>' : '';
 function eiIcon(w) {
   // gerade geöffnete oder in der Liste angetippte Wohnung: großes Ei mit Puls
   const aktiv = state.aktiv === w.id || state.vor === w.id, k = aktiv ? 1.6 : 1;
@@ -929,16 +937,16 @@ function eiIcon(w) {
   if (istBrut(w)) {  // Brutkasten: Küken mit Leuchten, damit es auf der Karte auffällt
     const s = 34 * k;
     return L.divIcon({ className: cls + ' kueken', iconSize: [s, s], iconAnchor: [s / 2, s / 2],
-      html: `<span style="font-size:${s * .9}px">🐣</span>` });
+      html: `<span style="font-size:${s * .9}px">🐣</span>` + ungefPlakette(w) });
   }
   if (istGemerkt(w)) {  // im Nest: goldenes Ei (goldorange mit Gasheizung)
     const s = 30 * k;
     return L.divIcon({ className: cls + ' gold', iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
-      html: goldEi(s, w.heizung?.ergebnis === 'gas') });
+      html: goldEi(s, w.heizung?.ergebnis === 'gas') + ungefPlakette(w) });
   }
-  const s = (w.status === 'raus' ? 17 : istGesehen(w) ? 22 : 28) * (aktiv ? 1.7 : 1);
+  const s = (w.status === 'raus' ? 17 : 26) * (aktiv ? 1.7 : 1);
   return L.divIcon({ className: cls, iconSize: [s * .8, s], iconAnchor: [s * .4, s * .55],
-    html: eiSvg(aktiv ? { ...w, _gesehen: false, neu: false } : w, s) });
+    html: eiSvg(w, s) + ungefPlakette(w) });
 }
 // Ei einer Wohnung neu zeichnen (z. B. wenn sie geöffnet/geschlossen wird)
 function eiAktualisieren(id) {
@@ -1144,6 +1152,7 @@ function miniKarte(w) {
   if (state.oeffis) L.geoJSON(state.oeffis, { filter: f => f.properties.typ === 'ubahn',
     style: f => ({ color: f.properties.farbe || '#555', weight: 4, opacity: .85 }), interactive: false }).addTo(m);
   if (w.ungefaehr) L.circle([w.lat, w.lon], { radius: w.radius || 250, color: '#c9a227', weight: 2, dashArray: '5 5', fillOpacity: .12, interactive: false }).addTo(m);
+  fusswegeAuf(m, L.layerGroup().addTo(m), w, false);
   L.circleMarker([w.lat, w.lon], { radius: 9, color: '#fff', weight: 3, fillColor: istGemerkt(w) ? '#e3a400' : '#2f9e5b', fillOpacity: 1, interactive: false }).addTo(m);
   state.mini = m; state.miniMitte = [w.lat, w.lon]; state.miniId = w.id;
 }
@@ -1164,6 +1173,40 @@ function textHtml(t) {
    damit man beim Hinzoomen sieht, wo sie liegt; nochmal aufs Kärtchen oder aufs Ei tippen öffnet die Ansicht.
    Ein Tipp aufs Foto zählt genauso (seit 2026-11-13 abends), Wischen durch die Fotos nicht. */
 const VOR_ZOOM = 15;
+/* Fußwege zu den Öffis bis 10 min (Saad 2026-11-22): beim Antippen in der Liste und beim Öffnen einer Wohnung zeichnet die
+   Karte von der Wohnung zu jeder Haltestelle aus "Öffis zu Fuß" den Fußweg (OSM-Fußwegnetz, routing.openstreetmap.de),
+   dazu Punkt und Beschriftung "3 min · Name · Linien". Die Wege werden erst dann geladen und je Wohnung gemerkt. */
+const fusswegEbene = L.layerGroup().addTo(map);
+const fusswegCache = {};
+function fusswegeLaden(w) {
+  return Promise.all((w.oeffis_nah || []).map(e => {
+    const k = `${w.lat},${w.lon}|${e.p}`;
+    return fusswegCache[k] ??= fetch(`https://routing.openstreetmap.de/routed-foot/route/v1/driving/${w.lon},${w.lat};${e.p[1]},${e.p[0]}?overview=full&geometries=geojson`)
+      .then(r => r.ok ? r.json() : null).then(d => d?.routes?.[0]?.geometry?.coordinates?.map(([x, y]) => [y, x]) || null)
+      .catch(() => { delete fusswegCache[k]; return null; });
+  }));
+}
+function fusswegeAuf(karte, ebene, w, gross) {
+  ebene.clearLayers();
+  const nah = w?.lat ? (w.oeffis_nah || []) : [];
+  if (!nah.length) return;
+  nah.forEach(e => L.circleMarker(e.p, { radius: gross ? 5 : 4, color: '#1d1f23', weight: 2, fillColor: '#fff', fillOpacity: 1, interactive: false })
+    .bindTooltip(`<b>${e.min} min</b> ${esc(e.n)} <span class="fw-l">${esc(e.l.join(' '))}</span>`,
+      { permanent: true, direction: 'right', offset: [6, 0], className: 'fussweg-tip' }).addTo(ebene));
+  const id = w.id;
+  fusswegeLaden(w).then(wege => {
+    if (ebene._fuerId !== id) return;
+    wege.forEach(c => c && L.polyline(c, { color: '#1a56c4', weight: gross ? 4 : 3, opacity: .85, dashArray: '1 7', lineCap: 'round',
+      interactive: false }).addTo(ebene));
+  });
+  ebene._fuerId = id;
+}
+function fusswegeZeigen(id) {
+  const w = id && state.daten.find(x => x.id === id);
+  fusswegEbene._fuerId = null;
+  if (!w) { fusswegEbene.clearLayers(); return; }
+  fusswegeAuf(map, fusswegEbene, w, true);
+}
 function vorwaehlen(id) {
   const m = state.marker[id];
   if (!m) return oeffne(id);  // ohne Punkt auf der Karte gibt es nichts zu zeigen
@@ -1175,11 +1218,13 @@ function vorwaehlen(id) {
   document.querySelectorAll('.karte.aktiv').forEach(x => x.classList.remove('aktiv'));
   document.querySelector(`.karte[data-id="${CSS.escape(id)}"]`)?.classList.add('aktiv');
   map.flyTo(m.getLatLng(), VOR_ZOOM, { duration: 1.4, easeLinearity: .2 });
+  fusswegeZeigen(id);
 }
 function vorwahlWeg() {
   const vorher = state.vor;
   state.vor = null;
   if (vorher) eiAktualisieren(vorher);
+  if (!state.aktiv) fusswegeZeigen(null);
 }
 function oeffne(id, vonKarte) {
   const vorher = state.aktiv;
@@ -1204,6 +1249,7 @@ function oeffne(id, vonKarte) {
   karte?.classList.add('aktiv');
   if (vonKarte) karte?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   zeigeDetail(id);
+  fusswegeZeigen(id);
   const m = state.marker[id];
   if (m && !vonKarte) map.flyTo(m.getLatLng(), Math.max(map.getZoom(), 16), { duration: .6 });
 }
@@ -1217,6 +1263,7 @@ function schliesseJetzt() {
   state.aktiv = null;
   document.getElementById('detail').classList.remove('offen');
   if (vorher) eiAktualisieren(vorher);
+  if (!state.vor) fusswegeZeigen(null);
 }
 
 /* ---------- Fotos im Vollbild ---------- */
