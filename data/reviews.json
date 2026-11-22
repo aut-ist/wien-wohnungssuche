@@ -33220,5 +33220,32 @@
    "begruendung": "Bauende laut Bauträger MEMA voraussichtlich 2028 (mema-immobilien.at/ferro-bastien, Stand 18.11.2026), Einzug also nach Q3 2027"
   },
   "datum": "2026-11-21"
+ },
+ "fm-5757057": {
+  "heizung": {
+   "ergebnis": "kein_gas",
+   "begruendung": "\"Beheizt wird die Wohnung über eine Öl-Zentralheizung\" (Energieträger Öl, Warmwasser Elektroboiler)"
+  },
+  "datum": "2026-11-22"
+ },
+ "wh-906466386": {
+  "lage": {
+   "adresse": "Nußdorfer Platz",
+   "sicherheit": "ungefaehr",
+   "lat": 48.258892,
+   "lon": 16.358105,
+   "begruendung": "Nußdorf (19.), Bahnhof Nußdorf/Straßenbahn D & 38; Portalpunkt mit ca. 269 m Versatz"
+  },
+  "datum": "2026-11-22"
+ },
+ "is-555441519441": {
+  "lage": {
+   "adresse": "Stöberplatz",
+   "sicherheit": "ungefaehr",
+   "lat": 48.223026,
+   "lon": 16.317995,
+   "begruendung": "Lagetext: \"Der Stöberplatz in Hernals\"; Hausnummer unbekannt, Portalpunkt versetzt"
+  },
+  "datum": "2026-11-22"
  }
 }

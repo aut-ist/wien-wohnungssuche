@@ -8764,5 +8764,16 @@
   "titel": "",
   "datum": "2026-11-21",
   "ergebnis": "genau: Kreuzgasse 30/11"
+ },
+ "is-555441519441": {
+  "ids": [
+   "is-555441519441",
+   "wh-1844153862",
+   "is-146661004362",
+   "is-505265927619"
+  ],
+  "titel": "Urbane Gartenwohnung mit großer Terrasse, Garagenplatz",
+  "ergebnis": "unklar: nur Stöberplatz (1170) im Lagetext, ohne Hausnummer; Schwester-Inserate keine, Grundriss = Einreichplan Top 1 ohne Adresse, Websuche 'Stöberplatz Gartenwohnung Top 1 Baujahr 2003' ohne Treffer. Lage liegt ca. 1,4 km westlich der Hernals-Zone, also ohnehin außerhalb.",
+  "datum": "2026-11-22"
  }
 }
