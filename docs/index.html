@@ -98,6 +98,15 @@
     background: #fbeaf1; border: 1px solid #f3c9da; border-radius: 999px; padding: 5px 12px; max-width: 100%; }
   .guertel-oben.ungenau { font-weight: 500; color: #6b7079; background: var(--soft); border-color: var(--line); }
   .gmaps { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .oeffi-nah { margin-top: 10px; font-size: 13px; }
+  .oeffi-nah .kopf { font-weight: 700; margin-bottom: 4px; }
+  .oeffi-nah ul { list-style: none; margin: 0; padding: 0; }
+  .oeffi-nah li { display: flex; gap: 8px; align-items: baseline; padding: 3px 0; border-bottom: 1px solid var(--line); }
+  .oeffi-nah .min { flex: none; width: 44px; font-weight: 700; color: #444; }
+  .oeffi-nah .halt { flex: 1; }
+  .oeffi-nah .ln { display: inline-block; font-size: 11px; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 4px;
+    margin: 1px 2px 1px 0; color: #fff; background: #c2185b; }
+  .oeffi-nah .ln.bus { background: #e8710a; } .oeffi-nah .ln.s { background: #0277bd; }
   .gmaps a { font-size: 12px; font-weight: 600; text-decoration: none; color: #1a56c4; background: #eef3fd;
     border: 1px solid #d6e2fb; border-radius: 999px; padding: 3px 10px; }
   .gmaps a:hover { background: #e0eafc; }
@@ -757,6 +766,20 @@ function guertelOben(w) {
   if (!w.guertel) return '<span class="guertel-oben ungenau" title="Ohne genaue Adresse lässt sich die Öffi-Zeit nicht schätzen">🚋 Gürtelzeit: Lage zu ungenau</span>';
   return `<span class="guertel-oben" title="geschätzt, Werktag 7–8 Uhr, inkl. Fußweg und Wartezeit">🚋 ~${w.guertel.min} min zum Gürtel${w.guertel.ziel ? ` · ${esc(w.guertel.ziel)}` : ''}${w.guertel.ungefaehr ? ' (Lage ungefähr)' : ''}</span>`;
 }
+// Öffis zu Fuß bis 10 min (Saad 2026-11-22), aus run.py build (oeffis_nah), nächste zuerst
+const U_FARBEN = { U1: '#E3000F', U2: '#A862A4', U3: '#E87E0D', U4: '#319F49', U5: '#0097A0', U6: '#9D6830' };
+function oeffisNahHtml(w) {
+  const l = w.oeffis_nah || [];
+  if (!l.length) return '';
+  const chip = x => {
+    if (U_FARBEN[x]) return `<span class="ln" style="background:${U_FARBEN[x]}">${esc(x)}</span>`;
+    const art = /^S\d/.test(x) ? 's' : /^\d+[A-Z]$/.test(x) ? 'bus' : '';
+    return `<span class="ln ${art}">${esc(x)}</span>`;
+  };
+  return `<div class="oeffi-nah"><div class="kopf">🚶 Öffis zu Fuß (bis 10 min)${w.ungefaehr ? ' <span class="meta">· Lage ungefähr, Minuten ± ein paar</span>' : ''}</div><ul>` +
+    l.map(e => `<li><span class="min">${e.min} min</span><span class="halt">${esc(e.n)}<br>${e.l.map(chip).join('')}</span></li>`).join('') +
+    '</ul></div>';
+}
 function guertelLang(w) {
   const g = w.guertel;
   if (!g) return w.plz === 1180 || w.plz === 1190 ? '<div class="meta">Öffi-Zeit zum Gürtel: Lage zu ungenau für eine Schätzung</div>' : '';
@@ -1075,6 +1098,7 @@ async function zeigeDetail(id, neuLaden = true) {
         <button class="btn mini-zu" data-akt="mini-klein">✕ kleiner</button></div>` : ''}
       <div class="info ${w.ungefaehr ? 'grau' : 'gruen'}">${esc(w.adresse ? w.adresse + ' · ' : '')}${esc(w.lage || '')}</div>
       ${guertelLang(w)}
+      ${oeffisNahHtml(w)}
       ${mapsLinks(w, true)}
       <h3>Heizung</h3>
       <div class="info ${h.ergebnis === 'kein_gas' ? 'gruen' : h.ergebnis === 'gas' ? 'raus' : 'grau'}"><b>${HEIZ_TXT[h.ergebnis] || '–'}</b>${h.von ? ` <span class="meta">(${esc(h.von)})</span>` : ''}<br>${esc(h.text || '')}</div>

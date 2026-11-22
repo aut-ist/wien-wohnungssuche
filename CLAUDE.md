@@ -284,3 +284,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   „gesehen“) baute alle Eier, Liste, Detail und Minikarte neu, jetzt nur bei echten Änderungen, „gesehen“ nur am Ei; (3) Fotos von
   Bauträger-/Makler-Seiten (3SI, WINEGG, EHL, justimmo, bis 15 MP) laufen verkleinert über images.weserv.nl (`bu()`, Fallback aufs Original);
   (4) raus-Wohnungen nur mit 1 Foto, ohne Preisverlauf in listings.json.
+- Öffis zu Fuß (Saad 2026-11-22): unter „Lage“ steht für jede Wohnung auf der Karte die Liste aller Haltestellen (U-Bahn, S-Bahn,
+  Straßenbahn, Bus) bis 10 min Fußweg, nächste zuerst, mit Linien (`oeffis_nah`, berechnet in `run.py build` wie der Fußweg der
+  Gürtelzeit: Luftlinie, 64 m/min). Daten: `geo/haltestellen.json` aus `tools/haltestellen.py` (GTFS der Wiener Linien, nur Linien,
+  die an einem normalen Werktag mind. 12-mal halten, ohne Nachtbusse; S-Bahn-Stationen aus docs/geo/oeffis.geojson). Zum
+  Fahrplanwechsel neu laufen lassen. Bei ungefährer Lage steht „Minuten ± ein paar“ dabei; eine recherchierte Adresse (auch geschätztes
+  Haus) rechnet die Liste beim nächsten build automatisch neu.

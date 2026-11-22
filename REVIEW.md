@@ -62,6 +62,7 @@ Auch bei `ungefaehr` immer das wahrscheinlichste HAUS eintragen (Straße + Hausn
 lässt die Karte bei der Straße und ohne Street View. Jede neue oder korrigierte Adresse (auch aus Grundriss, Tour, Exposé) gleich so
 eintragen und danach `run.py build` laufen lassen, damit Maps- und Street-View-Links neu berechnet werden; 360°-Touren (Giraffe360,
 Ogulo, Matterport) im Inserat ansehen: ihr Titel nennt oft die Adresse (2026-11-21: „Gumpendorferstrasse 8“ statt „Laimgrubengasse“).
+Nach dem build stehen unter „Lage“ automatisch alle Öffis bis 10 min Fußweg (`oeffis_nah`), passend zur eingetragenen Adresse.
 
 ## Frage `heizung`
 Seit 2026-10-28 schließt Gas nichts mehr aus: auf der Karte gibt es den Schalter "ohne Gasheizung".

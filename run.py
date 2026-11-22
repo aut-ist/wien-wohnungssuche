@@ -1407,6 +1407,26 @@ def build():
             w["sv"] = strassenblick(w["lat"], w["lon"])
         except Exception as e:  # Netz weg: dann eben ohne
             log(f"Street-View-Punkt {w['id']}: {e}")
+    # Öffis zu Fuß (Saad 2026-11-22): alle Haltestellen (U, S, Straßenbahn, Bus) bis 10 min Fußweg, nächste zuerst.
+    # Fußweg wie bei der Gürtelzeit: Luftlinie / GEHEN_M_PRO_MIN (80 m/min mit 25 % Umweg). Daten: tools/haltestellen.py
+    halte = load_json(ROOT / "geo" / "haltestellen.json", [])
+    for w in karte:
+        if not w.get("lat") or w["status"] == "raus":
+            continue
+        je = {}
+        for name, lat, lon, linien in halte:
+            if abs(lat - w["lat"]) > 0.007 or abs(lon - w["lon"]) > 0.01:
+                continue
+            m = math.hypot((lon - w["lon"]) * 74200, (lat - w["lat"]) * 111320) / GEHEN_M_PRO_MIN
+            if m > 10:
+                continue
+            e = je.setdefault(name, {"n": name, "min": m, "l": []})
+            e["min"] = min(e["min"], m)
+            e["l"] += [l for l in linien.split() if l not in e["l"]]
+        art = lambda l: (0 if l.startswith("U") else 1 if l.startswith("S") else 3 if l[-1:].isalpha() and l[:-1].isdigit() else 2,
+                         int("".join(c for c in l if c.isdigit()) or 0), l)
+        w["oeffis_nah"] = [{**e, "min": max(1, math.ceil(e["min"])), "l": sorted(e["l"], key=art)}
+                           for e in sorted(je.values(), key=lambda e: e["min"])]
     karte.sort(key=lambda x: (x["status"] != "gruen", x["erstmals"]), reverse=False)
     # Ausgeschlossene nur mit 5 Fotos (2026-11-17: ohne die 3-Zimmer-Preisgrenze wuchs listings.json auf 7,5 MB, Seitencheck-
     # Grenze 6 MB; 2/3 davon waren Fotolisten von "raus"-Wohnungen, die man nur über den Filter "raus" sieht). Nest bleibt ganz.
