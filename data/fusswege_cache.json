@@ -24064,5 +24064,543 @@
    324,
    405
   ]
+ },
+ "48.19861,16.39789": {
+  "Rasumofskygasse": [
+   772,
+   965
+  ],
+  "Rabengasse": [
+   417,
+   522
+  ],
+  "Löwengasse": [
+   792,
+   990
+  ],
+  "Barichgasse": [
+   296,
+   370
+  ],
+  "Rochusgasse": [
+   490,
+   612
+  ],
+  "Baumgasse": [
+   752,
+   940
+  ],
+  "Schlachthausgasse": [
+   746,
+   932
+  ],
+  "Sechskrügelgasse": [
+   863,
+   1079
+  ],
+  "Barthgasse": [
+   882,
+   1103
+  ],
+  "Hintzerstraße": [
+   450,
+   559
+  ],
+  "Wittelsbachstraße": [
+   944,
+   1178
+  ],
+  "Ziehrerplatz": [
+   516,
+   642
+  ],
+  "Klimschgasse": [
+   644,
+   802
+  ],
+  "Hainburger Straße": [
+   87,
+   108
+  ],
+  "Wällischgasse": [
+   668,
+   835
+  ],
+  "Eslarngasse": [
+   334,
+   415
+  ],
+  "Klinik Landstraße": [
+   613,
+   765
+  ],
+  "Friedensgasse": [
+   596,
+   740
+  ],
+  "Geusaugasse": [
+   645,
+   806
+  ],
+  "Oberzellergasse": [
+   756,
+   940
+  ],
+  "Kardinal-Nagl-Platz": [
+   164,
+   206
+  ],
+  "Kleistgasse": [
+   786,
+   980
+  ],
+  "Apostelgasse": [
+   216,
+   270
+  ],
+  "Lechnerstraße": [
+   488,
+   610
+  ],
+  "Lukschgasse": [
+   755,
+   939
+  ],
+  "Ungargasse/Neulinggasse": [
+   752,
+   938
+  ]
+ },
+ "48.21770,16.35669": {
+  "Rathaus": [
+   726,
+   907
+  ],
+  "Bauernfeldplatz": [
+   611,
+   764
+  ],
+  "Schlickgasse": [
+   658,
+   822
+  ],
+  "Schottentor": [
+   618,
+   772
+  ],
+  "Schwarzspanierstraße": [
+   288,
+   360
+  ],
+  "Berggasse": [
+   479,
+   598
+  ],
+  "Sensengasse": [
+   390,
+   487
+  ],
+  "Skodagasse": [
+   640,
+   800
+  ],
+  "Spitalgasse": [
+   534,
+   668
+  ],
+  "Teinfaltstraße": [
+   853,
+   1067
+  ],
+  "Liechtensteinstraße/Schottentor": [
+   692,
+   866
+  ],
+  "Brünnlbadgasse": [
+   785,
+   981
+  ],
+  "Rathausplatz/Burgtheater": [
+   881,
+   1101
+  ],
+  "Börse": [
+   781,
+   976
+  ],
+  "Alserbachstraße": [
+   837,
+   1046
+  ],
+  "Seegasse": [
+   845,
+   1056
+  ],
+  "Helferstorferstraße": [
+   850,
+   1064
+  ],
+  "Landesgerichtsstraße": [
+   370,
+   462
+  ],
+  "Lange Gasse": [
+   517,
+   646
+  ],
+  "Laudongasse": [
+   743,
+   928
+  ],
+  "Lazarettgasse": [
+   494,
+   618
+  ]
+ },
+ "48.21184,16.34071": {
+  "Schottenfeldgasse": [
+   526,
+   657
+  ],
+  "Yppengasse": [
+   587,
+   729
+  ],
+  "Skodagasse": [
+   609,
+   762
+  ],
+  "Strozzigasse": [
+   871,
+   1089
+  ],
+  "Thaliastraße": [
+   378,
+   472
+  ],
+  "Theater in der Josefstadt": [
+   716,
+   895
+  ],
+  "Blindengasse": [
+   91,
+   114
+  ],
+  "Neustiftgasse/Zieglergasse": [
+   786,
+   983
+  ],
+  "Lerchenfelder Straße": [
+   303,
+   378
+  ],
+  "Lederergasse": [
+   564,
+   705
+  ],
+  "Brunnengasse": [
+   540,
+   674
+  ],
+  "Brunnenmarkt": [
+   352,
+   437
+  ],
+  "Brünnlbadgasse": [
+   516,
+   645
+  ],
+  "Burggasse-Stadthalle": [
+   823,
+   1028
+  ],
+  "Albertgasse": [
+   258,
+   323
+  ],
+  "Alser Straße": [
+   490,
+   612
+  ],
+  "Florianigasse": [
+   310,
+   388
+  ],
+  "Haberlgasse": [
+   646,
+   806
+  ],
+  "Hernalser Gürtel": [
+   418,
+   523
+  ],
+  "Josefstädter Straße": [
+   141,
+   173
+  ],
+  "Kaiserstraße/Burggasse": [
+   681,
+   852
+  ],
+  "Kaiserstraße/Neustiftgasse": [
+   529,
+   661
+  ],
+  "Kirchstetterngasse": [
+   975,
+   1211
+  ],
+  "Thaliastraße/Koppstraße": [
+   603,
+   754
+  ],
+  "Lange Gasse": [
+   768,
+   960
+  ],
+  "Laudongasse": [
+   511,
+   638
+  ],
+  "Thaliastraße/Haberlgasse": [
+   877,
+   1094
+  ],
+  "Frauengasse": [
+   872,
+   1086
+  ],
+  "Palffygasse": [
+   806,
+   1008
+  ]
+ },
+ "48.20878,16.33963": {
+  "Piaristengasse": [
+   820,
+   1025
+  ],
+  "Schottenfeldgasse": [
+   267,
+   333
+  ],
+  "Yppengasse": [
+   803,
+   1004
+  ],
+  "Strozzigasse": [
+   631,
+   789
+  ],
+  "Thaliastraße": [
+   89,
+   112
+  ],
+  "Theater in der Josefstadt": [
+   831,
+   1039
+  ],
+  "Urban-Loritz-Platz": [
+   782,
+   978
+  ],
+  "Vogelweidplatz/Stadthalle": [
+   792,
+   991
+  ],
+  "Blindengasse": [
+   182,
+   227
+  ],
+  "Burggasse/Zieglergasse": [
+   674,
+   842
+  ],
+  "Neustiftgasse/Zieglergasse": [
+   537,
+   671
+  ],
+  "Westbahnstraße/Zieglergasse": [
+   875,
+   1094
+  ],
+  "Lerchenfelder Straße": [
+   60,
+   75
+  ],
+  "Lederergasse": [
+   680,
+   849
+  ],
+  "Brunnengasse": [
+   254,
+   318
+  ],
+  "Brunnenmarkt": [
+   370,
+   463
+  ],
+  "Brünnlbadgasse": [
+   804,
+   1005
+  ],
+  "Burggasse-Stadthalle": [
+   538,
+   672
+  ],
+  "Albertgasse": [
+   373,
+   466
+  ],
+  "Florianigasse": [
+   594,
+   742
+  ],
+  "Haberlgasse": [
+   665,
+   831
+  ],
+  "Hernalser Gürtel": [
+   681,
+   851
+  ],
+  "Josefstädter Straße": [
+   244,
+   305
+  ],
+  "Kaiserstraße/Burggasse": [
+   393,
+   492
+  ],
+  "Kaiserstraße/Neustiftgasse": [
+   241,
+   301
+  ],
+  "Kaiserstraße": [
+   618,
+   772
+  ],
+  "Kirchstetterngasse": [
+   684,
+   853
+  ],
+  "Thaliastraße/Koppstraße": [
+   318,
+   398
+  ],
+  "Laudongasse": [
+   804,
+   1004
+  ],
+  "Thaliastraße/Haberlgasse": [
+   590,
+   738
+  ],
+  "Moeringgasse": [
+   681,
+   851
+  ],
+  "Burggasse/Neubaugasse": [
+   834,
+   1043
+  ],
+  "Neustiftgasse/Neubaugasse": [
+   708,
+   886
+  ]
+ },
+ "48.22866,16.34734": {
+  "Aumannplatz": [
+   823,
+   1029
+  ],
+  "Spittelau": [
+   806,
+   1008
+  ],
+  "Spitalgasse": [
+   835,
+   1044
+  ],
+  "Sternwartestraße": [
+   184,
+   229
+  ],
+  "Weitlofgasse": [
+   160,
+   200
+  ],
+  "Währinger Park": [
+   440,
+   550
+  ],
+  "Währinger Straße-Volksoper": [
+   339,
+   423
+  ],
+  "Marsanogasse": [
+   432,
+   535
+  ],
+  "Eduardgasse": [
+   990,
+   1234
+  ],
+  "Canisiusgasse": [
+   461,
+   576
+  ],
+  "Cottagegasse": [
+   761,
+   951
+  ],
+  "Anastasius-Grün-Gasse": [
+   258,
+   323
+  ],
+  "Alserbachstraße": [
+   686,
+   858
+  ],
+  "Althanstraße": [
+   835,
+   1044
+  ],
+  "Glatzgasse": [
+   628,
+   785
+  ],
+  "Gymnasiumstraße": [
+   188,
+   234
+  ],
+  "Hardtgasse": [
+   839,
+   1054
+  ],
+  "Kutschkergasse": [
+   423,
+   526
+  ],
+  "Liechtenwerder Platz": [
+   782,
+   977
+  ],
+  "Martinstraße": [
+   491,
+   614
+  ],
+  "Michelbeuern-AKH": [
+   813,
+   1008
+  ],
+  "Nußdorfer Straße": [
+   536,
+   670
+  ],
+  "Augasse": [
+   726,
+   908
+  ]
  }
 }
