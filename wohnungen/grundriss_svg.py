@@ -19,6 +19,9 @@ Plan (data/grundriss_plaene/ID.json), alle Maße in Metern, x nach rechts, y nac
       "wohnflaeche": 91.01,                optional: Gesamtfläche laut Plan (sonst Summe, nur wenn jeder Raum m² hat)
       "hinweis": "…"                       optional, sonst Standardhinweis
       "schaetzung": true                    optional: kein Original im Inserat, aus Fotos/Text geschätzt -> rotes Band "SCHÄTZUNG" ganz oben
+      "seiten": {"oben": "Straße", "unten": "Innenhof"}   optional (Saad 2026-11-22: immer eintragen, wenn bekannt):
+                                           Beschriftung außen an der Seite der Zeichnung; Schlüssel oben/unten/links/rechts,
+                                           Werte z. B. "Straße (Kreuzgasse)", "Innenhof", "Garten", "Lichthof"
     }
 Die Texte zählen nicht zum Rahmen: Überschriften innerhalb der Raumfläche oder knapp darüber setzen.
 art: wohnen, schlafen, zimmer, kueche, bad, wc, flur, abstell, freiflaeche (Balkon/Loggia/Terrasse/Garten).
@@ -70,9 +73,17 @@ def zeichnen(plan):
     # geschätzte Pläne (kein Original im Inserat, aus Fotos/Text, Saad 2026-11-18): großes Band ganz oben
     kopf = schrift * 2.8 if plan.get("schaetzung") else 0.0
     H += kopf
+    # Straße/Innenhof außen an den Seiten (eigener Platz, damit nichts mit Überschriften kollidiert)
+    seiten = plan.get("seiten") or {}
+    so = schrift * 1.7 if seiten.get("oben") else 0.0
+    su = schrift * 1.7 if seiten.get("unten") else 0.0
+    sl = schrift * 1.7 if seiten.get("links") else 0.0
+    sr = schrift * 1.7 if seiten.get("rechts") else 0.0
+    H += so + su
+    W += sl + sr
 
     def P(q):
-        return (q[0] - x0) * s + rand + dx, (q[1] - y0) * s + rand + kopf
+        return (q[0] - x0) * s + rand + dx + sl, (q[1] - y0) * s + rand + kopf + so
 
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" viewBox="0 0 {W:.0f} {H:.0f}" '
          f'font-family="Helvetica, Arial, sans-serif">', f'<rect width="{W:.0f}" height="{H:.0f}" fill="#ffffff"/>']
@@ -125,8 +136,23 @@ def zeichnen(plan):
         tx, ty = P(t["pos"])
         o.append(f'<text x="{tx:.1f}" y="{ty:.1f}" font-size="{schrift * 1.05:.1f}" font-weight="700" fill="#666" '
                  f'text-anchor="{t.get("ausrichtung", "start")}">{html.escape(t["text"])}</text>')
+    # Seiten-Beschriftung (Straße / Innenhof …): mittig an der jeweiligen Außenkante, mit Strich entlang der Kante
+    (ax, ay), (bx, by) = P((x0, y0)), P((x1, y1))
+    mx_, my_ = (ax + bx) / 2, (ay + by) / 2
+    fs_s = schrift * 0.95
+    stil = f'font-size="{fs_s:.1f}" font-weight="700" fill="#5b6b82" letter-spacing="1"'
+    if seiten.get("oben"):
+        o.append(f'<text x="{mx_:.1f}" y="{ay - rand * .35 - fs_s * .2:.1f}" {stil} text-anchor="middle">▲ {html.escape(seiten["oben"])}</text>')
+    if seiten.get("unten"):
+        o.append(f'<text x="{mx_:.1f}" y="{by + rand * .35 + fs_s:.1f}" {stil} text-anchor="middle">▼ {html.escape(seiten["unten"])}</text>')
+    if seiten.get("links"):
+        lx_ = ax - rand * .35 - fs_s * .3
+        o.append(f'<text x="{lx_:.1f}" y="{my_:.1f}" {stil} text-anchor="middle" transform="rotate(-90 {lx_:.1f} {my_:.1f})">▲ {html.escape(seiten["links"])}</text>')
+    if seiten.get("rechts"):
+        rx_ = bx + rand * .35 + fs_s * .3
+        o.append(f'<text x="{rx_:.1f}" y="{my_:.1f}" {stil} text-anchor="middle" transform="rotate(90 {rx_:.1f} {my_:.1f})">▲ {html.escape(seiten["rechts"])}</text>')
     # Fuß: Titel, Fläche, Hinweis, Maßstab
-    fy = hoehe * s + 2 * rand + kopf
+    fy = hoehe * s + 2 * rand + kopf + so + su
     # Summe nur, wenn jeder Raum eine Fläche hat (sonst wäre sie zu klein); "wohnflaeche" aus dem Plan geht vor
     innen_r = [r for r in raeume if r.get("art") != "freiflaeche"]
     innen = plan.get("wohnflaeche") or (sum(r["m2"] for r in innen_r) if all(r.get("m2") for r in innen_r) else 0)
@@ -135,7 +161,7 @@ def zeichnen(plan):
     werte = " · ".join(x for x in [f"Wohnfläche ca. {_m2(innen)}" if innen else "",
                                    f"Freifläche ca. {_m2(frei)}" if frei else ""] if x)
     hinweis = plan.get("hinweis") or "Neu gezeichnet nach den Plänen im Inserat, Maße ungefähr. Originale am Ende der Fotos."
-    lx = rand + dx
+    lx = rand + dx + sl
     o.append(f'<text x="{lx:.1f}" y="{fy + 20:.1f}" font-size="{schrift * 1.15:.1f}" font-weight="700" fill="{TEXT}">'
              f'{html.escape(zeile)}</text>')
     if werte:

@@ -349,5 +349,8 @@
   }
  ],
  "wohnflaeche": 79.09,
- "hinweis": "Nach dem Verkaufsplan neu gezeichnet, Maße ungefähr. Küchennische gehört zur Wohnküche."
+ "hinweis": "Nach dem Verkaufsplan neu gezeichnet, Maße ungefähr. Küchennische gehört zur Wohnküche.",
+ "seiten": {
+  "oben": "Innenhof"
+ }
 }

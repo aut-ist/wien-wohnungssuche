@@ -301,5 +301,9 @@
   ]
  ],
  "wohnflaeche": 127.87,
- "hinweis": "Nach dem Plan der Maklerin nachgezeichnet; nur ein Ausschnitt, nicht alle Räume lesbar. Maße ca."
+ "hinweis": "Nach dem Plan der Maklerin nachgezeichnet; nur ein Ausschnitt, nicht alle Räume lesbar. Maße ca.",
+ "seiten": {
+  "oben": "Innenhof",
+  "unten": "Straße (Währinger Straße)"
+ }
 }

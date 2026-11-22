@@ -88,6 +88,10 @@
      6.46,
      4.44
     ]
+   ],
+   "beschriftung": [
+    4.6,
+    5.0
    ]
   },
   {
@@ -305,5 +309,9 @@
   ]
  ],
  "wohnflaeche": 120.51,
- "hinweis": "Neu gezeichnet nach dem Einreichplan (Top 6, 120,51 m² + 1,79 m² Balkon); Raumgrößen laut Plan, Proportionen ungefähr."
+ "hinweis": "Neu gezeichnet nach dem Einreichplan (Top 6, 120,51 m² + 1,79 m² Balkon); Raumgrößen laut Plan, Proportionen ungefähr.",
+ "seiten": {
+  "oben": "Innenhof",
+  "unten": "Straße (Schlüsselgasse)"
+ }
 }

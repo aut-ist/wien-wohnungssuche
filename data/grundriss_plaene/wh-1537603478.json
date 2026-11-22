@@ -729,5 +729,9 @@
   }
  ],
  "wohnflaeche": 131.13,
- "hinweis": "Nach den Einreichplänen im Exposé neu gezeichnet, Maße ungefähr. Flächen oben im Plan unleserlich. Originale am Ende der Fotos."
+ "hinweis": "Nach den Einreichplänen im Exposé neu gezeichnet, Maße ungefähr. Flächen oben im Plan unleserlich. Originale am Ende der Fotos.",
+ "seiten": {
+  "oben": "Innenhof",
+  "unten": "Straße (Goldeggasse)"
+ }
 }

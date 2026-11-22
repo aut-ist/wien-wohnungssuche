@@ -424,5 +424,8 @@
  ],
  "wohnflaeche": 78.54,
  "hinweis": "Kein Plan im Inserat: aus 30 Fotos und dem Text geschätzt. Raumanordnung und m² sind nicht verbindlich.",
- "schaetzung": true
+ "schaetzung": true,
+ "seiten": {
+  "oben": "Innenhof"
+ }
 }

@@ -574,5 +574,8 @@
    "offen": true
   }
  ],
- "hinweis": "Neu gezeichnet nach dem Umbauplan im Inserat (neuer Zustand), Maße ungefähr. Original am Ende der Fotos."
+ "hinweis": "Neu gezeichnet nach dem Umbauplan im Inserat (neuer Zustand), Maße ungefähr. Original am Ende der Fotos.",
+ "seiten": {
+  "unten": "Garten"
+ }
 }

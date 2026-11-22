@@ -561,5 +561,9 @@
   }
  ],
  "hinweis": "Neu gezeichnet nach den Plänen im Inserat, Maße ungefähr. Originale am Ende der Fotos.",
- "wohnflaeche": 143.21
+ "wohnflaeche": 143.21,
+ "seiten": {
+  "links": "Straße (Mitterberggasse)",
+  "unten": "Straße (Staudgasse)"
+ }
 }

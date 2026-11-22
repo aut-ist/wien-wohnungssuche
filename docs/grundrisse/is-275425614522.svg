@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="2585" viewBox="0 0 1584 2585" font-family="Helvetica, Arial, sans-serif">
-<rect width="1584" height="2585" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="2653" viewBox="0 0 1584 2653" font-family="Helvetica, Arial, sans-serif">
+<rect width="1584" height="2653" fill="#ffffff"/>
 <polygon points="641.1,161.1 797.1,161.1 920.1,284.1 975.1,284.1 975.1,705.1 641.1,705.1" fill="#f4e9d6" stroke="none"/>
 <polygon points="641.1,161.1 797.1,161.1 920.1,284.1 975.1,284.1 975.1,705.1 641.1,705.1" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
 <polygon points="975.1,284.1 1423.1,284.1 1423.1,705.1 975.1,705.1" fill="#f4e9d6" stroke="none"/>
@@ -98,8 +98,9 @@
 <text x="775.1" y="1656.6" font-size="32.8" fill="#555" text-anchor="middle">12,47 m²</text>
 <text x="1113.1" y="1989.1" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Terrasse</text>
 <text x="1113.1" y="2033.1" font-size="32.8" fill="#555" text-anchor="middle">28,17 m²</text>
-<text x="161.1" y="2361.3" font-size="46.0" font-weight="700" fill="#2b2b2b">Grundriss</text>
-<text x="161.1" y="2415.3" font-size="36.0" fill="#444">Wohnfläche ca. 121,10 m² · Freifläche ca. 28,17 m²</text>
-<text x="161.1" y="2465.3" font-size="28.0" fill="#888">Neu gezeichnet nach dem Umbauplan im Inserat (neuer Zustand), Maße ungefähr. Original am Ende der Fotos.</text>
-<rect x="161.1" y="2497.3" width="100.0" height="10" fill="#2f2f2f"/><rect x="261.1" y="2497.3" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="161.1" y="2541.3" font-size="26.0" fill="#666">0</text><text x="361.1" y="2541.3" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+<text x="792.1" y="2274.5" font-size="38.0" font-weight="700" fill="#5b6b82" letter-spacing="1" text-anchor="middle">▼ Garten</text>
+<text x="161.1" y="2429.3" font-size="46.0" font-weight="700" fill="#2b2b2b">Grundriss</text>
+<text x="161.1" y="2483.3" font-size="36.0" fill="#444">Wohnfläche ca. 121,10 m² · Freifläche ca. 28,17 m²</text>
+<text x="161.1" y="2533.3" font-size="28.0" fill="#888">Neu gezeichnet nach dem Umbauplan im Inserat (neuer Zustand), Maße ungefähr. Original am Ende der Fotos.</text>
+<rect x="161.1" y="2565.3" width="100.0" height="10" fill="#2f2f2f"/><rect x="261.1" y="2565.3" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="161.1" y="2609.3" font-size="26.0" fill="#666">0</text><text x="361.1" y="2609.3" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
 </svg>

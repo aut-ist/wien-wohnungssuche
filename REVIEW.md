@@ -128,7 +128,11 @@ Gibt es für die Wohnung mindestens einen schönen Plan, nichts zeichnen. Sonst,
 erkennen lässt: `data/grundriss_plaene/ID.json` schreiben (Format im Docstring von `wohnungen/grundriss_svg.py`:
 Räume als Polygone in Metern, geradegerückt, Namen und m² wie im Plan, Fenster, Türen; mehrere Ebenen
 nebeneinander mit Überschrift; `ersetzt` = URLs der hässlichen Pläne, die kommen ans Ende der Fotos; nichts
-erfinden), mit `python tools/grundriss_zeichnen.py` prüfen. In jedem Fall in `data/grundriss_geprueft.json`
+erfinden), mit `python tools/grundriss_zeichnen.py` prüfen. Immer (Saad 2026-11-22) `"seiten"` eintragen, wo Straße und
+Innenhof/Garten/Lichthof liegen (`{"oben": "Straße (Kreuzgasse)", "unten": "Innenhof"}`, bezogen auf die gezeichnete Ausrichtung),
+belegt aus dem Original-Plan, Text oder Fotos; unklar -> weglassen. Werden mehrere Wohnungen zusammen angeboten (z. B. zwei
+spiegelverkehrte Nachbarwohnungen), beide nebeneinander zeichnen, wie sie im Haus liegen, mit Überschrift je Wohnung.
+In jedem Fall in `data/grundriss_geprueft.json`
 eintragen: `"ID": {"ids": [...], "ergebnis": "schoen" | "neu_gezeichnet" | "kein_grundriss" | "unlesbar",
 "am": "JJJJ-MM-TT", "plaene": [Fingerabdrücke "h" der angesehenen URLs aus data/bild_hashes.json]}`.
 Zusätzlich jedes angesehene Bild in `data/grundriss_klassen.json` eintragen (Fingerabdruck "h" -> "plan" | "kein" | "haesslich";

@@ -674,5 +674,10 @@
   }
  ],
  "wohnflaeche": 121.1,
- "hinweis": "Neu gezeichnet nach den Plänen im Inserat, Maße ungefähr. Dachterrasse in älteren Plänen 23,61 m². Originale am Ende der Fotos."
+ "hinweis": "Neu gezeichnet nach den Plänen im Inserat, Maße ungefähr. Dachterrasse in älteren Plänen 23,61 m². Originale am Ende der Fotos.",
+ "seiten": {
+  "links": "Straße (Abt-Karl-Gasse)",
+  "unten": "Straße (Staudgasse)",
+  "oben": "Innenhof"
+ }
 }

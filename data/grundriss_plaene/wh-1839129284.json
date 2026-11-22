@@ -403,5 +403,9 @@
   }
  ],
  "hinweis": "Neu gezeichnet nach dem Plan im Inserat, Maße ungefähr. Original am Ende der Fotos.",
- "wohnflaeche": 91.01
+ "wohnflaeche": 91.01,
+ "seiten": {
+  "oben": "Innenhof",
+  "unten": "Straße (Riglergasse)"
+ }
 }
