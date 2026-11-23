@@ -8775,5 +8775,22 @@
   "titel": "Urbane Gartenwohnung mit großer Terrasse, Garagenplatz",
   "ergebnis": "unklar: nur Stöberplatz (1170) im Lagetext, ohne Hausnummer; Schwester-Inserate keine, Grundriss = Einreichplan Top 1 ohne Adresse, Websuche 'Stöberplatz Gartenwohnung Top 1 Baujahr 2003' ohne Treffer. Lage liegt ca. 1,4 km westlich der Hernals-Zone, also ohnehin außerhalb.",
   "datum": "2026-11-22"
+ },
+ "wh-1531372506": {
+  "ids": [
+   "wh-1531372506",
+   "is-114623567220"
+  ],
+  "titel": "Exklusive 5-Zi Dachgeschosswohnung mit 2 Balkonen, Terrasse & Erstbezug in 1180 Wien",
+  "ergebnis": "unklar: nur \"nahe Währinger Straße-Volksoper U6\", Portalpunkt 259 m versetzt. Schwester-Inserate: gleicher Makler RKM, aber anderer Energieausweis (wh-1749807365, HWB 31,1) = anderes Haus; kein Treffer mit HWB 36/fGEE 0,72. Grundriss (2 Bilder, RKM-Wasserzeichen): Top 12 (145,79 m², neu; alt 128,86) neben spiegelbildlicher Top 13, Regelgeschoss + DG-Ebene, ohne Adresse. Makler-Website nicht erreichbar (ir.at gesperrt), Websuche nach Titel/m²/Preis ohne belastbaren Treffer.",
+  "datum": "2026-11-23"
+ },
+ "wh-1958713605": {
+  "ids": [
+   "wh-1958713605"
+  ],
+  "titel": "PRIVAT 5Zimmer+ Loggia+2Garagen",
+  "ergebnis": "unklar: privat, nur \"16. Bezirk / Grenze 17. Bezirk\", U-Bahn 3 Min, 8. Bezirk 5 Min Gehweg, Bim 44/43/2/12/5; keine Straße. Schwester-Inserate keine, Grundrisse-Ordner fehlt, kein Makler/Bauträger, Websuche (HWB 26,17, 127 m², 2 Garagenboxen) ohne Treffer.",
+  "datum": "2026-11-23"
  }
 }

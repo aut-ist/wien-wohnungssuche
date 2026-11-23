@@ -6524,7 +6524,7 @@
    "sicherheit": "genau",
    "begruendung": "Projektseite stilwerk.wien: Theresiengasse 10, Top 11, 2. OG, 76,15 m², 660.000 €"
   },
-  "datum": "2026-11-22",
+  "datum": "2026-11-23",
   "eckdaten": {
    "stockwerk": "2. OG, Top 11"
   },
@@ -6532,6 +6532,10 @@
    "ergebnis": "hinweis",
    "bezug_ok": true,
    "begruendung": "Bezug Dezember 2027 (Inserat: \"Verfügbar ab Dezember 2027\", \"die Geschosswohnungen können bereits Ende 2027 bezogen werden\"; Herbst 2028 gilt nur für das Gesamtprojekt/Dachgeschoss) – später als Q3 2027, auf Saads Wunsch trotzdem drin (2026-11-22)."
+  },
+  "heizung": {
+   "ergebnis": "kein_gas",
+   "begruendung": "Bauträger-Einheitenliste (von Saad am 2026-11-22 gefunden): Luftwärmepumpe, Fußbodenheizung; die Portalangabe \"Gasheizung\" ist offenbar ein Standardwert des Maklers"
   }
  },
  "wh-1149277549": {
@@ -33393,5 +33397,21 @@
    "begruendung": "Bezug Dezember 2027 (Geschosswohnung), auf Saads Wunsch trotzdem drin"
   },
   "datum": "2026-11-22"
+ },
+ "wh-1531372506": {
+  "lage": {
+   "adresse": "Währinger Straße",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"18. Bezirk, nahe Währinger Straße-Volksoper U6\", keine Straße/Hausnummer; Portalpunkt ist um 259 m versetzt"
+  },
+  "datum": "2026-11-23"
+ },
+ "wh-1958713605": {
+  "lage": {
+   "adresse": "Hernals",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"16. Bezirk / Grenze 17. Bezirk\", U-Bahn 3 Min, Bim 43/44; keine Straße genannt"
+  },
+  "datum": "2026-11-23"
  }
 }
