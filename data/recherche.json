@@ -1,994 +1,5 @@
 [
  {
-  "id": "wh-1296514431",
-  "ids": [
-   "wh-1296514431",
-   "is-856731268967"
-  ],
-  "titel": "Haus im Haus südseitiger Eigengarten!",
-  "plz": 1190,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/haus-im-haus-suedseitiger-eigengarten-1296514431/",
-   "https://www.immobilienscout24.at/expose/6b041b01ece4d01edcb75523"
-  ],
-  "anbieter": "Katrin Erhart - Real Estate & Property e.U.",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (aus Beschreibung: Grinzinger Straße 36-38)",
-  "punkt": [
-   48.25348,
-   16.349486
-  ],
-  "versatz_m": 256,
-  "portalpunkt": [
-   48.25304,
-   16.349726
-  ],
-  "preis": 1150000.0,
-  "flaeche": 157.52,
-  "zimmer": 5,
-  "stockwerk": null,
-  "energie": {
-   "hwb": "102,9",
-   "hwb_class": "D",
-   "fgee": "1,7",
-   "fgee_class": "C"
-  },
-  "grundrisse": "data/grundrisse/wh-1296514431/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-24",
-  "portaladresse_pruefen": false,
-  "kandidaten": [
-   {
-    "adresse": "Grinzinger Straße 36-38",
-    "m": 52,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25348,
-    "lon": 16.349486
-   },
-   {
-    "adresse": "Grinzinger Straße 40",
-    "m": 60,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253553,
-    "lon": 16.349979
-   },
-   {
-    "adresse": "Grinzinger Straße 34",
-    "m": 65,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253439,
-    "lon": 16.349079
-   },
-   {
-    "adresse": "Grinzinger Straße 42",
-    "m": 66,
-    "bezirk": 19,
-    "bauzeit": 1883,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Höllerl Carl",
-    "lat": 48.253544,
-    "lon": 16.350195
-   },
-   {
-    "adresse": "Grinzinger Straße 44",
-    "m": 77,
-    "bezirk": 19,
-    "bauzeit": 1887,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253594,
-    "lon": 16.350343
-   },
-   {
-    "adresse": "Grinzinger Straße 46",
-    "m": 78,
-    "bezirk": 19,
-    "bauzeit": 1910,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Micheroli Adolf",
-    "lat": 48.253534,
-    "lon": 16.350476
-   },
-   {
-    "adresse": "Grinzinger Straße 32",
-    "m": 84,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Sonstige",
-    "lat": 48.253526,
-    "lon": 16.348854
-   },
-   {
-    "adresse": "Huleschgasse 13",
-    "m": 90,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252804,
-    "lon": 16.350887
-   },
-   {
-    "adresse": "Grinzinger Straße 49",
-    "m": 96,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253889,
-    "lon": 16.349976
-   },
-   {
-    "adresse": "Grinzinger Straße 30",
-    "m": 97,
-    "bezirk": 19,
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25358,
-    "lon": 16.348694
-   },
-   {
-    "adresse": "Grinzinger Straße 45",
-    "m": 101,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253824,
-    "lon": 16.349036
-   },
-   {
-    "adresse": "Grinzinger Straße 28",
-    "m": 106,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253587,
-    "lon": 16.34856
-   },
-   {
-    "adresse": "Grinzinger Straße 48",
-    "m": 106,
-    "bezirk": 19,
-    "bauzeit": 1872,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Modern Jakob",
-    "lat": 48.253652,
-    "lon": 16.350814
-   },
-   {
-    "adresse": "Waldaugasse 3",
-    "m": 108,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254001,
-    "lon": 16.349569
-   },
-   {
-    "adresse": "Sandgasse 52",
-    "m": 111,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253986,
-    "lon": 16.350213
-   },
-   {
-    "adresse": "Grinzinger Straße 43",
-    "m": 112,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25383,
-    "lon": 16.348798
-   },
-   {
-    "adresse": "Grinzinger Straße 26",
-    "m": 114,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25357,
-    "lon": 16.34841
-   },
-   {
-    "adresse": "Neugebauerweg 1",
-    "m": 121,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252514,
-    "lon": 16.351154
-   },
-   {
-    "adresse": "Fürfanggasse 10",
-    "m": 121,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25199,
-    "lon": 16.350127
-   },
-   {
-    "adresse": "Neugebauerweg 3",
-    "m": 124,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252831,
-    "lon": 16.351364
-   },
-   {
-    "adresse": "Grinzinger Straße 41",
-    "m": 124,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253873,
-    "lon": 16.348606
-   },
-   {
-    "adresse": "Grinzinger Straße 50",
-    "m": 125,
-    "bezirk": 19,
-    "bauzeit": 1882,
-    "geschosse": 1,
-    "nutzung": "betriebliche Nutzung",
-    "lat": 48.253696,
-    "lon": 16.351092
-   },
-   {
-    "adresse": "Neugebauerweg 5",
-    "m": 130,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253132,
-    "lon": 16.351472
-   },
-   {
-    "adresse": "Sandgasse 48",
-    "m": 133,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254232,
-    "lon": 16.34954
-   },
-   {
-    "adresse": "Fürfanggasse 8",
-    "m": 133,
-    "bezirk": 19,
-    "bauzeit": 1911,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Micheroli Adolf",
-    "lat": 48.251914,
-    "lon": 16.350326
-   },
-   {
-    "adresse": "Grinzinger Straße 24",
-    "m": 136,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253606,
-    "lon": 16.348094
-   },
-   {
-    "adresse": "Grinzinger Straße 50-52",
-    "m": 137,
-    "bezirk": 19,
-    "bauzeit": 1867,
-    "lat": 48.253765,
-    "lon": 16.351211
-   },
-   {
-    "adresse": "Fürfanggasse 6",
-    "m": 144,
-    "bezirk": 19,
-    "bauzeit": 1909,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Micheroli Adolf",
-    "lat": 48.251866,
-    "lon": 16.350545
-   },
-   {
-    "adresse": "Grinzinger Straße 22",
-    "m": 146,
-    "bezirk": 19,
-    "bauzeit": 1871,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253624,
-    "lon": 16.347957
-   },
-   {
-    "adresse": "Grinzinger Straße 52",
-    "m": 147,
-    "bezirk": 19,
-    "bauzeit": "1884-1918",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253724,
-    "lon": 16.351417
-   },
-   {
-    "adresse": "Sandgasse 46",
-    "m": 148,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254325,
-    "lon": 16.349238
-   },
-   {
-    "adresse": "Fürfanggasse 7",
-    "m": 149,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "lat": 48.251708,
-    "lon": 16.349955
-   },
-   {
-    "adresse": "Grinzinger Straße 39",
-    "m": 151,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253965,
-    "lon": 16.348235
-   },
-   {
-    "adresse": "Neugebauerweg 9",
-    "m": 158,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253694,
-    "lon": 16.351622
-   },
-   {
-    "adresse": "Sandgasse 44",
-    "m": 160,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254396,
-    "lon": 16.34901
-   },
-   {
-    "adresse": "Fürfanggasse 4",
-    "m": 161,
-    "bezirk": 19,
-    "bauzeit": 1909,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Beer Josef",
-    "lat": 48.251806,
-    "lon": 16.35086
-   },
-   {
-    "adresse": "Grinzinger Straße 20",
-    "m": 162,
-    "bezirk": 19,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253639,
-    "lon": 16.34774
-   },
-   {
-    "adresse": "Fürfanggasse 5",
-    "m": 163,
-    "bezirk": 19,
-    "bauzeit": 1928,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Karplus Arnold",
-    "name": "Haus Kràsny",
-    "lat": 48.251626,
-    "lon": 16.3503
-   },
-   {
-    "adresse": "Sandgasse 43",
-    "m": 164,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254403,
-    "lon": 16.350563
-   },
-   {
-    "adresse": "Neugebauerweg 7",
-    "m": 167,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253437,
-    "lon": 16.351893
-   },
-   {
-    "adresse": "Grinzinger Straße 51",
-    "m": 168,
-    "bezirk": 19,
-    "bauzeit": 1910,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Tranquillini und Ferge",
-    "lat": 48.254262,
-    "lon": 16.351047
-   },
-   {
-    "adresse": "Grinzinger Straße 53",
-    "m": 170,
-    "bezirk": 19,
-    "bauzeit": 1906,
-    "geschosse": 2,
-    "nutzung": "betriebliche Nutzung",
-    "architekt": "Micheroli Adolf",
-    "lat": 48.254149,
-    "lon": 16.351312
-   },
-   {
-    "adresse": "Sandgasse 41",
-    "m": 171,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254539,
-    "lon": 16.350198
-   },
-   {
-    "adresse": "Sandgasse 42",
-    "m": 171,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254444,
-    "lon": 16.348778
-   },
-   {
-    "adresse": "Bretschneidergasse 6",
-    "m": 172,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.2543,
-    "lon": 16.348392
-   },
-   {
-    "adresse": "Sandgasse 37-39",
-    "m": 174,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254607,
-    "lon": 16.349758
-   },
-   {
-    "adresse": "Grinzinger Straße 18",
-    "m": 177,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253683,
-    "lon": 16.347538
-   },
-   {
-    "adresse": "Fürfanggasse 3",
-    "m": 178,
-    "bezirk": 19,
-    "bauzeit": 1909,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Sädtler Richard",
-    "lat": 48.251554,
-    "lon": 16.350626
-   },
-   {
-    "adresse": "Grinzinger Straße 55",
-    "m": 178,
-    "bezirk": 19,
-    "bauzeit": 1876,
-    "geschosse": 2,
-    "nutzung": "betriebliche Nutzung",
-    "lat": 48.254108,
-    "lon": 16.351509
-   },
-   {
-    "adresse": "Neugebauerweg 4",
-    "m": 179,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252624,
-    "lon": 16.352052
-   },
-   {
-    "adresse": "Fürfanggasse 2",
-    "m": 181,
-    "bezirk": 19,
-    "bauzeit": 1912,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Micheroli Adolf",
-    "lat": 48.251736,
-    "lon": 16.351196
-   },
-   {
-    "adresse": "Grinzinger Straße 37",
-    "m": 185,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25406,
-    "lon": 16.347748
-   },
-   {
-    "adresse": "Sandgasse 40",
-    "m": 186,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254492,
-    "lon": 16.348491
-   },
-   {
-    "adresse": "Grinzinger Straße 57",
-    "m": 187,
-    "bezirk": 19,
-    "bauzeit": "1860-1883",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254091,
-    "lon": 16.351694
-   },
-   {
-    "adresse": "Bretschneidergasse 3",
-    "m": 187,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254222,
-    "lon": 16.34793
-   },
-   {
-    "adresse": "Sandgasse 35A",
-    "m": 190,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254737,
-    "lon": 16.349425
-   },
-   {
-    "adresse": "Grinzinger Straße 16",
-    "m": 190,
-    "bezirk": 19,
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253731,
-    "lon": 16.347381
-   },
-   {
-    "adresse": "Reimersgasse 1",
-    "m": 194,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252279,
-    "lon": 16.352073
-   },
-   {
-    "adresse": "Grinzinger Straße 56",
-    "m": 195,
-    "bezirk": 19,
-    "bauzeit": "1781-1848",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253646,
-    "lon": 16.352195
-   },
-   {
-    "adresse": "Huleschgasse 10",
-    "m": 198,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.251847,
-    "lon": 16.351715
-   },
-   {
-    "adresse": "Bretschneidergasse 5",
-    "m": 198,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254394,
-    "lon": 16.347991
-   },
-   {
-    "adresse": "Fürfanggasse 1",
-    "m": 198,
-    "bezirk": 19,
-    "bauzeit": 1911,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Union Baugesellschaft",
-    "name": "Villa Anny",
-    "lat": 48.251473,
-    "lon": 16.351003
-   },
-   {
-    "adresse": "Grinzinger Straße 59",
-    "m": 199,
-    "bezirk": 19,
-    "bauzeit": "1860-1883",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254069,
-    "lon": 16.351915
-   },
-   {
-    "adresse": "Grinzinger Straße 14",
-    "m": 200,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253754,
-    "lon": 16.347248
-   },
-   {
-    "adresse": "Sandgasse 35",
-    "m": 201,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254795,
-    "lon": 16.349093
-   },
-   {
-    "adresse": "Reimersgasse 2",
-    "m": 203,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252067,
-    "lon": 16.352036
-   },
-   {
-    "adresse": "Grinzinger Straße 35",
-    "m": 206,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254158,
-    "lon": 16.347513
-   },
-   {
-    "adresse": "Bretschneidergasse 7",
-    "m": 208,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254517,
-    "lon": 16.347998
-   },
-   {
-    "adresse": "Grinzinger Straße 61",
-    "m": 209,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "lat": 48.254008,
-    "lon": 16.35214
-   },
-   {
-    "adresse": "Sandgasse 33",
-    "m": 213,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Sonstige",
-    "lat": 48.254823,
-    "lon": 16.348667
-   },
-   {
-    "adresse": "Reimersgasse 5",
-    "m": 215,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252603,
-    "lon": 16.352546
-   },
-   {
-    "adresse": "Grinzinger Straße 60-62",
-    "m": 217,
-    "bezirk": 19,
-    "bauzeit": 1917,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Krauß Franz und Tölk Josef",
-    "lat": 48.253516,
-    "lon": 16.352559
-   },
-   {
-    "adresse": "Grinzinger Straße 12",
-    "m": 219,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253781,
-    "lon": 16.346984
-   },
-   {
-    "adresse": "Sandgasse 36",
-    "m": 219,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254405,
-    "lon": 16.347591
-   },
-   {
-    "adresse": "Huleschgasse 8",
-    "m": 221,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.251533,
-    "lon": 16.35166
-   },
-   {
-    "adresse": "Reimersgasse 4",
-    "m": 227,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.252009,
-    "lon": 16.352362
-   },
-   {
-    "adresse": "Rudolf-Kassner-Gasse 18",
-    "m": 228,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.255011,
-    "lon": 16.35058
-   },
-   {
-    "adresse": "Grinzinger Straße 63",
-    "m": 228,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253959,
-    "lon": 16.352478
-   },
-   {
-    "adresse": "Rudolf-Kassner-Gasse 18A",
-    "m": 229,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254982,
-    "lon": 16.35076
-   },
-   {
-    "adresse": "Rudolf-Kassner-Gasse 16",
-    "m": 231,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25508,
-    "lon": 16.350295
-   },
-   {
-    "adresse": "Rudolf-Kassner-Gasse 14",
-    "m": 231,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.255106,
-    "lon": 16.349985
-   },
-   {
-    "adresse": "Haubenbiglstraße 14",
-    "m": 232,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.250967,
-    "lon": 16.350041
-   },
-   {
-    "adresse": "Huleschgasse 5-7",
-    "m": 232,
-    "bezirk": 19,
-    "bauzeit": 1912,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Lindner Ernst",
-    "lat": 48.251138,
-    "lon": 16.351003
-   },
-   {
-    "adresse": "Grinzinger Straße 10",
-    "m": 234,
-    "bezirk": 19,
-    "bauzeit": 1910,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Krasny Jakob",
-    "lat": 48.253746,
-    "lon": 16.34675
-   },
-   {
-    "adresse": "Grinzinger Straße 31",
-    "m": 235,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254146,
-    "lon": 16.347026
-   },
-   {
-    "adresse": "Grinzinger Straße 65",
-    "m": 237,
-    "bezirk": 19,
-    "bauzeit": 1902,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Höllerl Carl",
-    "lat": 48.25391,
-    "lon": 16.35265
-   },
-   {
-    "adresse": "Sandgasse 31",
-    "m": 239,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254956,
-    "lon": 16.348261
-   },
-   {
-    "adresse": "Huleschgasse 6",
-    "m": 239,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 3,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.251247,
-    "lon": 16.351507
-   },
-   {
-    "adresse": "Sandgasse 31A",
-    "m": 241,
-    "bezirk": 19,
-    "bauzeit": "1848 -1918",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.25498,
-    "lon": 16.348289
-   },
-   {
-    "adresse": "Grinzinger Straße 64",
-    "m": 248,
-    "bezirk": 19,
-    "bauzeit": "1781-1848",
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253565,
-    "lon": 16.352982
-   },
-   {
-    "adresse": "Grinzinger Straße 8",
-    "m": 251,
-    "bezirk": 19,
-    "bauzeit": 1910,
-    "geschosse": 2,
-    "nutzung": "Wohnnutzung",
-    "architekt": "Krasny Jakob",
-    "lat": 48.253804,
-    "lon": 16.34654
-   },
-   {
-    "adresse": "Grinzinger Straße 29",
-    "m": 255,
-    "bezirk": 19,
-    "bauzeit": "1919 - 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.254144,
-    "lon": 16.34671
-   },
-   {
-    "adresse": "Grinzinger Straße 65A",
-    "m": 255,
-    "bezirk": 19,
-    "bauzeit": "nach 1945",
-    "geschosse": 1,
-    "nutzung": "Wohnnutzung",
-    "lat": 48.253975,
-    "lon": 16.352864
-   },
-   {
-    "adresse": "Grinzinger Straße 66",
-    "m": 255,
-    "bezirk": 19,
-    "bauzeit": "Vor 1683",
-    "geschosse": 2,
-    "nutzung": "betriebliche Nutzung",
-    "lat": 48.253558,
-    "lon": 16.353083
-   }
-  ],
-  "kandidaten_radius_m": 256
- },
- {
   "id": "is-386644379603",
   "ids": [
    "is-386644379603",
@@ -3657,6 +2668,1544 @@
    }
   ],
   "kandidaten_radius_m": 251
+ },
+ {
+  "id": "wh-1531372506",
+  "ids": [
+   "wh-1531372506",
+   "is-114623567220"
+  ],
+  "titel": "Exklusive 5-Zi Dachgeschosswohnung mit 2 Balkonen, Terrasse & Erstbezug in 1180 Wien",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/exklusive-5-zi-dachgeschosswohnung-mit-2-balkonen-terrasse-erstbezug-in-1180-wien-1531372506/",
+   "https://www.immobilienscout24.at/expose/6b02e20d717f3487b6c5377c"
+  ],
+  "anbieter": "RKM Immobilien e.U.",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.226296,
+   16.341212
+  ],
+  "versatz_m": 259,
+  "portalpunkt": [
+   48.223507,
+   16.345587
+  ],
+  "preis": 980000.0,
+  "flaeche": 145.79,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "36",
+   "hwb_class": "B",
+   "fgee": "0,72",
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/wh-1531372506/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-23",
+  "portaladresse_pruefen": false,
+  "kandidaten": [
+   {
+    "adresse": "Staudgasse 2",
+    "m": 13,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223489,
+    "lon": 16.345409
+   },
+   {
+    "adresse": "Staudgasse 7",
+    "m": 23,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223302,
+    "lon": 16.345521
+   },
+   {
+    "adresse": "Schopenhauerstraße 11",
+    "m": 32,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223716,
+    "lon": 16.345294
+   },
+   {
+    "adresse": "Staudgasse 5",
+    "m": 32,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223428,
+    "lon": 16.346005
+   },
+   {
+    "adresse": "Staudgasse 4",
+    "m": 37,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223413,
+    "lon": 16.345112
+   },
+   {
+    "adresse": "Staudgasse 9",
+    "m": 40,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223232,
+    "lon": 16.345249
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 5",
+    "m": 46,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223111,
+    "lon": 16.345766
+   },
+   {
+    "adresse": "Schopenhauerstraße 13",
+    "m": 49,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223737,
+    "lon": 16.345025
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 6",
+    "m": 49,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223174,
+    "lon": 16.346025
+   },
+   {
+    "adresse": "Staudgasse 6",
+    "m": 54,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223358,
+    "lon": 16.344897
+   },
+   {
+    "adresse": "Staudgasse 3",
+    "m": 54,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22351,
+    "lon": 16.346309
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 13",
+    "m": 55,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223982,
+    "lon": 16.345394
+   },
+   {
+    "adresse": "Staudgasse 11",
+    "m": 56,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223172,
+    "lon": 16.345016
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 3",
+    "m": 61,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222983,
+    "lon": 16.345842
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 4",
+    "m": 65,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223038,
+    "lon": 16.346105
+   },
+   {
+    "adresse": "Schopenhauerstraße 15",
+    "m": 66,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223757,
+    "lon": 16.344773
+   },
+   {
+    "adresse": "Schopenhauerstraße 14",
+    "m": 66,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.223849,
+    "lon": 16.346312
+   },
+   {
+    "adresse": "Schopenhauerstraße 22",
+    "m": 68,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223946,
+    "lon": 16.344958
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 12",
+    "m": 70,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Sonstige",
+    "lat": 48.224132,
+    "lon": 16.345714
+   },
+   {
+    "adresse": "Staudgasse 8",
+    "m": 71,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223303,
+    "lon": 16.344682
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 15",
+    "m": 71,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224136,
+    "lon": 16.345433
+   },
+   {
+    "adresse": "Staudgasse 1",
+    "m": 77,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223589,
+    "lon": 16.346615
+   },
+   {
+    "adresse": "Staudgasse 13",
+    "m": 81,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223089,
+    "lon": 16.344698
+   },
+   {
+    "adresse": "Schopenhauerstraße 24",
+    "m": 82,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223965,
+    "lon": 16.344719
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 17",
+    "m": 88,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224294,
+    "lon": 16.345474
+   },
+   {
+    "adresse": "Staudgasse 10",
+    "m": 89,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223245,
+    "lon": 16.34446
+   },
+   {
+    "adresse": "Schopenhauerstraße 17",
+    "m": 89,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223782,
+    "lon": 16.344454
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 14",
+    "m": 90,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224309,
+    "lon": 16.345758
+   },
+   {
+    "adresse": "Canongasse 9",
+    "m": 94,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223882,
+    "lon": 16.346726
+   },
+   {
+    "adresse": "Währinger Gürtel 57",
+    "m": 94,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222681,
+    "lon": 16.34587
+   },
+   {
+    "adresse": "Canongasse 5",
+    "m": 95,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223395,
+    "lon": 16.346851
+   },
+   {
+    "adresse": "Hofmanngasse 6",
+    "m": 96,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222837,
+    "lon": 16.344775
+   },
+   {
+    "adresse": "Währinger Gürtel 59",
+    "m": 96,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222807,
+    "lon": 16.34634
+   },
+   {
+    "adresse": "Währinger Gürtel 55",
+    "m": 99,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222616,
+    "lon": 16.345625
+   },
+   {
+    "adresse": "Kutschkergasse 16",
+    "m": 101,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223569,
+    "lon": 16.344228
+   },
+   {
+    "adresse": "Währinger Gürtel 61",
+    "m": 102,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222871,
+    "lon": 16.346571
+   },
+   {
+    "adresse": "Canongasse 3",
+    "m": 104,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223262,
+    "lon": 16.346936
+   },
+   {
+    "adresse": "Kutschkergasse 14",
+    "m": 105,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223427,
+    "lon": 16.344181
+   },
+   {
+    "adresse": "Hofmanngasse 4",
+    "m": 105,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222697,
+    "lon": 16.344856
+   },
+   {
+    "adresse": "Canongasse 11",
+    "m": 105,
+    "bezirk": 18,
+    "lat": 48.224023,
+    "lon": 16.346774
+   },
+   {
+    "adresse": "Kutschkergasse 20",
+    "m": 108,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224065,
+    "lon": 16.34439
+   },
+   {
+    "adresse": "Währinger Gürtel 53",
+    "m": 108,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222549,
+    "lon": 16.345372
+   },
+   {
+    "adresse": "Hofmanngasse 7",
+    "m": 109,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222956,
+    "lon": 16.344378
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 16",
+    "m": 109,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224479,
+    "lon": 16.345804
+   },
+   {
+    "adresse": "Währinger Gürtel 63",
+    "m": 109,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222919,
+    "lon": 16.346755
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 19",
+    "m": 111,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224499,
+    "lon": 16.345532
+   },
+   {
+    "adresse": "Schopenhauerstraße 10",
+    "m": 112,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.223804,
+    "lon": 16.34703
+   },
+   {
+    "adresse": "Schopenhauerstraße 9",
+    "m": 113,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223603,
+    "lon": 16.347097
+   },
+   {
+    "adresse": "Kutschkergasse 12",
+    "m": 113,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223242,
+    "lon": 16.344121
+   },
+   {
+    "adresse": "Kutschkergasse 22",
+    "m": 116,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224215,
+    "lon": 16.344438
+   },
+   {
+    "adresse": "Hofmanngasse 5",
+    "m": 116,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222762,
+    "lon": 16.344492
+   },
+   {
+    "adresse": "Canongasse 13",
+    "m": 116,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224149,
+    "lon": 16.346815
+   },
+   {
+    "adresse": "Canongasse 1",
+    "m": 117,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223089,
+    "lon": 16.347037
+   },
+   {
+    "adresse": "Canongasse 6",
+    "m": 117,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223397,
+    "lon": 16.34715
+   },
+   {
+    "adresse": "Währinger Gürtel 51",
+    "m": 120,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22248,
+    "lon": 16.345117
+   },
+   {
+    "adresse": "Hofmanngasse 3",
+    "m": 124,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222622,
+    "lon": 16.344576
+   },
+   {
+    "adresse": "Kutschkergasse 13",
+    "m": 125,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22351,
+    "lon": 16.3439
+   },
+   {
+    "adresse": "Canongasse 4",
+    "m": 125,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223267,
+    "lon": 16.347227
+   },
+   {
+    "adresse": "Canongasse 12",
+    "m": 125,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224073,
+    "lon": 16.347049
+   },
+   {
+    "adresse": "Canongasse 15",
+    "m": 126,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224261,
+    "lon": 16.346851
+   },
+   {
+    "adresse": "Kutschkergasse 24",
+    "m": 126,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224371,
+    "lon": 16.34449
+   },
+   {
+    "adresse": "Schopenhauerstraße 8",
+    "m": 128,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223809,
+    "lon": 16.347245
+   },
+   {
+    "adresse": "Schopenhauerstraße 7",
+    "m": 130,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223608,
+    "lon": 16.347337
+   },
+   {
+    "adresse": "Kutschkergasse 11",
+    "m": 130,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223351,
+    "lon": 16.343847
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 18",
+    "m": 130,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22466,
+    "lon": 16.345849
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 21",
+    "m": 131,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22468,
+    "lon": 16.345447
+   },
+   {
+    "adresse": "Staudgasse 17",
+    "m": 131,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222923,
+    "lon": 16.344059
+   },
+   {
+    "adresse": "Kutschkergasse 19",
+    "m": 133,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224201,
+    "lon": 16.344122
+   },
+   {
+    "adresse": "Schulgasse 19",
+    "m": 134,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224695,
+    "lon": 16.345261
+   },
+   {
+    "adresse": "Kutschkergasse 26",
+    "m": 136,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224506,
+    "lon": 16.344535
+   },
+   {
+    "adresse": "Schopenhauerstraße 19",
+    "m": 136,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223834,
+    "lon": 16.343823
+   },
+   {
+    "adresse": "Schopenhauerstraße 28",
+    "m": 136,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224028,
+    "lon": 16.343923
+   },
+   {
+    "adresse": "Kutschkergasse 9",
+    "m": 137,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223206,
+    "lon": 16.343799
+   },
+   {
+    "adresse": "Canongasse 17",
+    "m": 137,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22438,
+    "lon": 16.346889
+   },
+   {
+    "adresse": "Canongasse 14",
+    "m": 139,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22424,
+    "lon": 16.347101
+   },
+   {
+    "adresse": "Kutschkergasse 21",
+    "m": 140,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224341,
+    "lon": 16.344167
+   },
+   {
+    "adresse": "Schulgasse 15",
+    "m": 143,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224704,
+    "lon": 16.346271
+   },
+   {
+    "adresse": "Kutschkergasse 28",
+    "m": 145,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224623,
+    "lon": 16.344573
+   },
+   {
+    "adresse": "Währinger Gürtel 67",
+    "m": 145,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223105,
+    "lon": 16.347451
+   },
+   {
+    "adresse": "Währinger Gürtel 49",
+    "m": 147,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22235,
+    "lon": 16.344625
+   },
+   {
+    "adresse": "Schopenhauerstraße 5",
+    "m": 148,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223613,
+    "lon": 16.347581
+   },
+   {
+    "adresse": "Schulgasse 13",
+    "m": 149,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224684,
+    "lon": 16.346554
+   },
+   {
+    "adresse": "Kutschkergasse 23",
+    "m": 149,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224483,
+    "lon": 16.344213
+   },
+   {
+    "adresse": "Schopenhauerstraße 19A",
+    "m": 151,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223851,
+    "lon": 16.343613
+   },
+   {
+    "adresse": "Kutschkergasse 8",
+    "m": 151,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222707,
+    "lon": 16.343949
+   },
+   {
+    "adresse": "Schulgasse 21",
+    "m": 151,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.2248,
+    "lon": 16.344989
+   },
+   {
+    "adresse": "Schopenhauerstraße 30",
+    "m": 152,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224047,
+    "lon": 16.343707
+   },
+   {
+    "adresse": "Canongasse 19",
+    "m": 154,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224558,
+    "lon": 16.346946
+   },
+   {
+    "adresse": "Canongasse 16",
+    "m": 154,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224407,
+    "lon": 16.347155
+   },
+   {
+    "adresse": "Semperstraße 1",
+    "m": 158,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223889,
+    "lon": 16.34764
+   },
+   {
+    "adresse": "Kutschkergasse 7",
+    "m": 159,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222854,
+    "lon": 16.343685
+   },
+   {
+    "adresse": "Schulgasse 23",
+    "m": 160,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224821,
+    "lon": 16.344706
+   },
+   {
+    "adresse": "Kutschkergasse 25",
+    "m": 160,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224643,
+    "lon": 16.344267
+   },
+   {
+    "adresse": "Schulgasse 18",
+    "m": 161,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224926,
+    "lon": 16.34602
+   },
+   {
+    "adresse": "Kutschkergasse 6",
+    "m": 163,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222563,
+    "lon": 16.343901
+   },
+   {
+    "adresse": "Schulgasse 20",
+    "m": 163,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224968,
+    "lon": 16.345457
+   },
+   {
+    "adresse": "Währinger Gürtel 47",
+    "m": 164,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222282,
+    "lon": 16.344371
+   },
+   {
+    "adresse": "Währinger Gürtel 69",
+    "m": 164,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223183,
+    "lon": 16.347748
+   },
+   {
+    "adresse": "Schopenhauerstraße 3",
+    "m": 164,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223568,
+    "lon": 16.347797
+   },
+   {
+    "adresse": "Schulgasse 16",
+    "m": 165,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224902,
+    "lon": 16.346345
+   },
+   {
+    "adresse": "Semperstraße 3",
+    "m": 166,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224046,
+    "lon": 16.347674
+   },
+   {
+    "adresse": "Schopenhauerstraße 21",
+    "m": 167,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223867,
+    "lon": 16.3434
+   },
+   {
+    "adresse": "Staudgasse 16",
+    "m": 167,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223165,
+    "lon": 16.34339
+   },
+   {
+    "adresse": "Schulgasse 22",
+    "m": 167,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224987,
+    "lon": 16.345199
+   },
+   {
+    "adresse": "Schopenhauerstraße 32",
+    "m": 169,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.224066,
+    "lon": 16.343468
+   },
+   {
+    "adresse": "Schulgasse 14",
+    "m": 171,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224884,
+    "lon": 16.346612
+   },
+   {
+    "adresse": "Theresiengasse 60",
+    "m": 173,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223597,
+    "lon": 16.343263
+   },
+   {
+    "adresse": "Kutschkergasse 5",
+    "m": 173,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222665,
+    "lon": 16.343623
+   },
+   {
+    "adresse": "Schulgasse 24",
+    "m": 174,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225006,
+    "lon": 16.344945
+   },
+   {
+    "adresse": "Theresiengasse 58",
+    "m": 176,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 2,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.223452,
+    "lon": 16.343214
+   },
+   {
+    "adresse": "Semperstraße 5",
+    "m": 176,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224216,
+    "lon": 16.347712
+   },
+   {
+    "adresse": "Kutschkergasse 4",
+    "m": 176,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222421,
+    "lon": 16.343854
+   },
+   {
+    "adresse": "Währinger Gürtel 45",
+    "m": 177,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222225,
+    "lon": 16.344169
+   },
+   {
+    "adresse": "Staudgasse 21",
+    "m": 178,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222966,
+    "lon": 16.343327
+   },
+   {
+    "adresse": "Währinger Gürtel 71",
+    "m": 178,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223349,
+    "lon": 16.347981
+   },
+   {
+    "adresse": "Theresiengasse 66",
+    "m": 179,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.224256,
+    "lon": 16.343452
+   },
+   {
+    "adresse": "Schopenhauerstraße 4",
+    "m": 179,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223731,
+    "lon": 16.347978
+   },
+   {
+    "adresse": "Schulgasse 9",
+    "m": 179,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.224626,
+    "lon": 16.347326
+   },
+   {
+    "adresse": "Schulgasse 12",
+    "m": 180,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224862,
+    "lon": 16.346899
+   },
+   {
+    "adresse": "Schulgasse 26",
+    "m": 180,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225023,
+    "lon": 16.344727
+   },
+   {
+    "adresse": "Semperstraße 4",
+    "m": 181,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223916,
+    "lon": 16.347951
+   },
+   {
+    "adresse": "Schulgasse 25",
+    "m": 183,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224859,
+    "lon": 16.344182
+   },
+   {
+    "adresse": "Staudgasse 18",
+    "m": 184,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22318,
+    "lon": 16.343159
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 22",
+    "m": 184,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225142,
+    "lon": 16.345972
+   },
+   {
+    "adresse": "Theresiengasse 68",
+    "m": 185,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224391,
+    "lon": 16.343474
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 25",
+    "m": 187,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225189,
+    "lon": 16.345702
+   },
+   {
+    "adresse": "Semperstraße 6",
+    "m": 187,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224047,
+    "lon": 16.347979
+   },
+   {
+    "adresse": "Semperstraße 7",
+    "m": 187,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224381,
+    "lon": 16.347747
+   },
+   {
+    "adresse": "Kutschkergasse 3",
+    "m": 190,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222461,
+    "lon": 16.343556
+   },
+   {
+    "adresse": "Theresiengasse 70",
+    "m": 193,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224545,
+    "lon": 16.343501
+   },
+   {
+    "adresse": "Theresiengasse 67",
+    "m": 194,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223532,
+    "lon": 16.34297
+   },
+   {
+    "adresse": "Semperstraße 8",
+    "m": 196,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224198,
+    "lon": 16.348014
+   },
+   {
+    "adresse": "Schulgasse 7",
+    "m": 196,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224602,
+    "lon": 16.347656
+   },
+   {
+    "adresse": "Schulgasse 27",
+    "m": 197,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22488,
+    "lon": 16.343908
+   },
+   {
+    "adresse": "Kutschkergasse 2",
+    "m": 197,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222212,
+    "lon": 16.343784
+   },
+   {
+    "adresse": "Kutschkergasse 29",
+    "m": 197,
+    "bezirk": 18,
+    "bauzeit": 1875,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Baumeister Georg Trallemmer? (unleserlich)",
+    "lat": 48.2251,
+    "lon": 16.344419
+   },
+   {
+    "adresse": "Theresiengasse 65",
+    "m": 198,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223387,
+    "lon": 16.342923
+   },
+   {
+    "adresse": "Schulgasse 10",
+    "m": 198,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224826,
+    "lon": 16.347371
+   },
+   {
+    "adresse": "Theresiengasse 69-71",
+    "m": 199,
+    "bezirk": 18,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223693,
+    "lon": 16.342912
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 24",
+    "m": 199,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225272,
+    "lon": 16.346006
+   },
+   {
+    "adresse": "Theresiengasse 54",
+    "m": 200,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.222899,
+    "lon": 16.343044
+   },
+   {
+    "adresse": "Kutschkergasse 34",
+    "m": 201,
+    "bezirk": 18,
+    "lat": 48.225233,
+    "lon": 16.344773
+   },
+   {
+    "adresse": "Hans-Sachs-Gasse 27",
+    "m": 202,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225323,
+    "lon": 16.345726
+   },
+   {
+    "adresse": "Theresiengasse 72",
+    "m": 203,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224706,
+    "lon": 16.343529
+   },
+   {
+    "adresse": "Währinger Gürtel 73",
+    "m": 203,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.223639,
+    "lon": 16.348323
+   },
+   {
+    "adresse": "Semperstraße 10",
+    "m": 205,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224345,
+    "lon": 16.348044
+   },
+   {
+    "adresse": "Schulgasse 30",
+    "m": 206,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.22507,
+    "lon": 16.344091
+   },
+   {
+    "adresse": "Schopenhauerstraße 34",
+    "m": 207,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224107,
+    "lon": 16.342952
+   },
+   {
+    "adresse": "Canongasse 23",
+    "m": 209,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.225083,
+    "lon": 16.347113
+   },
+   {
+    "adresse": "Theresiengasse 79",
+    "m": 211,
+    "bezirk": 18,
+    "bauzeit": "1848 -1918",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.224578,
+    "lon": 16.343239
+   }
+  ],
+  "kandidaten_radius_m": 259
  },
  {
   "id": "ds-15279028",
