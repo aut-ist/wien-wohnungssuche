@@ -33444,5 +33444,369 @@
    192,
    240
   ]
+ },
+ "48.23294,16.34690": {
+  "Spittelau": [
+   715,
+   889
+  ],
+  "Sternwartestraße": [
+   493,
+   617
+  ],
+  "Döblinger Hauptstraße/Gatterburggasse": [
+   886,
+   1107
+  ],
+  "Blaasstraße": [
+   667,
+   834
+  ],
+  "Weitlofgasse": [
+   344,
+   431
+  ],
+  "Währinger Park": [
+   35,
+   43
+  ],
+  "Währinger Straße-Volksoper": [
+   784,
+   981
+  ],
+  "Marsanogasse": [
+   428,
+   530
+  ],
+  "Canisiusgasse": [
+   802,
+   1002
+  ],
+  "Chimanistraße": [
+   824,
+   1030
+  ],
+  "Cottagegasse": [
+   376,
+   470
+  ],
+  "Anastasius-Grün-Gasse": [
+   436,
+   545
+  ],
+  "Gatterburggasse": [
+   590,
+   738
+  ],
+  "Glatzgasse": [
+   458,
+   573
+  ],
+  "Gregor-Mendel-Straße": [
+   630,
+   787
+  ],
+  "Guneschgasse": [
+   667,
+   834
+  ],
+  "Gymnasiumstraße": [
+   268,
+   335
+  ],
+  "Hardtgasse": [
+   328,
+   411
+  ],
+  "Kutschkergasse": [
+   699,
+   869
+  ],
+  "Liechtenwerder Platz": [
+   690,
+   858
+  ],
+  "Linnéplatz": [
+   745,
+   931
+  ],
+  "Martinstraße": [
+   670,
+   833
+  ],
+  "Nußdorfer Straße": [
+   452,
+   565
+  ],
+  "Obersteinergasse": [
+   917,
+   1147
+  ],
+  "Augasse": [
+   812,
+   1016
+  ]
+ },
+ "48.25348,16.34949": {
+  "Perntergasse": [
+   709,
+   887
+  ],
+  "Bretschneidergasse": [
+   78,
+   97
+  ],
+  "Döblinger Bad": [
+   673,
+   842
+  ],
+  "Fernsprechamt Heiligenstadt": [
+   652,
+   815
+  ],
+  "Grinzing": [
+   536,
+   670
+  ],
+  "Hohe Warte": [
+   599,
+   749
+  ],
+  "An den langen Lüssen": [
+   433,
+   694
+  ],
+  "Armbrustergasse": [
+   404,
+   505
+  ],
+  "Neugebauerweg": [
+   173,
+   217
+  ],
+  "Paradisgasse": [
+   766,
+   1109
+  ]
+ },
+ "48.19900,16.39750": {
+  "Rasumofskygasse": [
+   732,
+   914
+  ],
+  "Rabengasse": [
+   464,
+   578
+  ],
+  "Löwengasse": [
+   751,
+   939
+  ],
+  "Barichgasse": [
+   256,
+   320
+  ],
+  "Rochusgasse": [
+   449,
+   562
+  ],
+  "Baumgasse": [
+   793,
+   991
+  ],
+  "Schlachthausgasse": [
+   786,
+   983
+  ],
+  "Sechskrügelgasse": [
+   822,
+   1028
+  ],
+  "Hintzerstraße": [
+   409,
+   508
+  ],
+  "Weyrgasse": [
+   710,
+   888
+  ],
+  "Wittelsbachstraße": [
+   904,
+   1127
+  ],
+  "Ziehrerplatz": [
+   475,
+   591
+  ],
+  "Klimschgasse": [
+   691,
+   858
+  ],
+  "Hainburger Straße": [
+   46,
+   58
+  ],
+  "Wällischgasse": [
+   708,
+   886
+  ],
+  "Eslarngasse": [
+   293,
+   364
+  ],
+  "Klinik Landstraße": [
+   572,
+   714
+  ],
+  "Friedensgasse": [
+   685,
+   856
+  ],
+  "Geusaugasse": [
+   605,
+   756
+  ],
+  "Oberzellergasse": [
+   803,
+   996
+  ],
+  "Kardinal-Nagl-Platz": [
+   205,
+   256
+  ],
+  "Kleistgasse": [
+   745,
+   929
+  ],
+  "Apostelgasse": [
+   176,
+   220
+  ],
+  "Lechnerstraße": [
+   528,
+   660
+  ],
+  "Lukschgasse": [
+   844,
+   1055
+  ],
+  "Ungargasse/Neulinggasse": [
+   712,
+   887
+  ]
+ },
+ "48.19820,16.36362": {
+  "Pilgramgasse": [
+   888,
+   1110
+  ],
+  "Preßgasse": [
+   130,
+   163
+  ],
+  "Resselgasse": [
+   366,
+   458
+  ],
+  "Schleifmühlgasse": [
+   193,
+   241
+  ],
+  "Schwarzenbergplatz": [
+   729,
+   909
+  ],
+  "Stiftgasse": [
+   844,
+   1052
+  ],
+  "Taubstummengasse": [
+   640,
+   795
+  ],
+  "Volkstheater": [
+   870,
+   1088
+  ],
+  "Ziegelofengasse": [
+   609,
+   762
+  ],
+  "Burgring": [
+   662,
+   825
+  ],
+  "Bärenmühldurchgang": [
+   185,
+   232
+  ],
+  "Schellinggasse": [
+   840,
+   1050
+  ],
+  "Köstlergasse": [
+   441,
+   549
+  ],
+  "Esterházygasse": [
+   816,
+   1020
+  ],
+  "Getreidemarkt": [
+   403,
+   504
+  ],
+  "Gußhausstraße": [
+   813,
+   1015
+  ],
+  "Schönbrunner Straße/Kettenbrückengasse": [
+   379,
+   474
+  ],
+  "Neubaugasse": [
+   877,
+   1094
+  ],
+  "Johann-Strauß-Gasse": [
+   831,
+   1039
+  ],
+  "Karlsplatz": [
+   474,
+   592
+  ],
+  "Haus des Meeres": [
+   736,
+   920
+  ],
+  "Kettenbrückengasse": [
+   392,
+   490
+  ],
+  "Margaretenplatz/Schönbrunner Straße": [
+   742,
+   927
+  ],
+  "Museumsquartier": [
+   592,
+   738
+  ],
+  "Mayerhofgasse": [
+   654,
+   817
+  ],
+  "Oper/Karlsplatz": [
+   550,
+   685
+  ],
+  "Oper": [
+   592,
+   740
+  ],
+  "Paulanergasse": [
+   384,
+   481
+  ]
  }
 }

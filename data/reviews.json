@@ -33434,11 +33434,11 @@
  },
  "wh-1251962869": {
   "lage": {
-   "adresse": "Naschmarkt",
+   "adresse": "Rechte Wienzeile 19",
    "sicherheit": "ungefaehr",
-   "lat": 48.1975,
-   "lon": 16.364,
-   "begruendung": "\"in unmittelbarer Nähe des Naschmarkts\", Region Naschmarkt, 4. Bezirk, Altbau 1898 (Top 12 laut Plan)"
+   "lat": 48.198197,
+   "lon": 16.363625,
+   "begruendung": "Titel \"Blick auf den Naschmarkt\", Eckzimmer mit Fenstern an zwei Außenwänden, Altbau 1898, 1. Stock; Maklerpunkt bis 251 m versetzt (Schikanedergasse 4). Im Kreis an der Rechten Wienzeile im 4. nur ein Gründerzeithaus: Nr. 19 (Stadt Wien: 1888, 6 Geschoße, bei der Ecke Schikanedergasse); Hausnummer nicht belegt"
   },
   "eckdaten": {
    "zimmer": 3,
@@ -33456,21 +33456,21 @@
  },
  "wh-1266689862": {
   "lage": {
-   "adresse": "Gymnasiumstraße",
-   "sicherheit": "ungefaehr",
-   "lat": 48.2323,
-   "lon": 16.3437,
-   "begruendung": "Lage-Feld: \"Gymnasiumstraße/Hasenauerstraße\", Eckhaus gegenüber dem Währinger Park (Koordinaten geschätzt)"
+   "adresse": "Gymnasiumstraße 61",
+   "sicherheit": "genau",
+   "lat": 48.232943,
+   "lon": 16.346905,
+   "begruendung": "Inserat: Lage \"Gymnasiumstraße/Hasenauerstraße\", Eckhaus-Villa gegenüber Währinger Park, 1180. Stadt Wien (GEBAEUDEINFOOGD): an dieser Kreuzung ist das einzige Eckhaus im 18. Gymnasiumstraße 61 = Hasenauerstraße 1, Cottage-Villa von 1891 (Carl von Borkowski), 2 Geschoße + Dach; die Nordecke (Hasenauerstraße 2) ist schon 19. Bezirk, die Ostseite Park/Uni"
   },
   "datum": "2026-11-24"
  },
  "wh-1296514431": {
   "lage": {
-   "adresse": "Grinzinger Straße",
+   "adresse": "Grinzinger Straße 36-38",
    "sicherheit": "ungefaehr",
-   "lat": 48.2496,
-   "lon": 16.3503,
-   "begruendung": "Gartenwohnung in Grinzing, Ortskern 7 Gehminuten, Endstelle Grinzing 7 Gehminuten"
+   "lat": 48.25348,
+   "lon": 16.349486,
+   "begruendung": "Hausnummer nirgends genannt (Inserate, heute.at/justimmo, Websuche). Maklerpunkt bis 256 m versetzt; 38A '1 Minute' = Station Bretschneidergasse, Endstelle 38 Grinzing und Ortskern je 7 Gehminuten, Garten südseitig: wahrscheinlichstes Haus Grinzinger Straße 36-38 (Südseite, nächste Adresse zum Maklerpunkt, 52 m)"
   },
   "datum": "2026-11-24"
  },
@@ -33491,6 +33491,36 @@
    "lat": 48.199,
    "lon": 16.3975,
    "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\" (Hausnummer unbekannt, Koordinaten geschätzt)"
+  },
+  "datum": "2026-11-24"
+ },
+ "is-685607786805": {
+  "lage": {
+   "adresse": "Gymnasiumstraße 61",
+   "sicherheit": "genau",
+   "lat": 48.232943,
+   "lon": 16.346905,
+   "begruendung": "Inserat: Lage \"Gymnasiumstraße/Hasenauerstraße\", Eckhaus-Villa gegenüber Währinger Park, 1180. Stadt Wien (GEBAEUDEINFOOGD): an dieser Kreuzung ist das einzige Eckhaus im 18. Gymnasiumstraße 61 = Hasenauerstraße 1, Cottage-Villa von 1891 (Carl von Borkowski), 2 Geschoße + Dach; die Nordecke (Hasenauerstraße 2) ist schon 19. Bezirk, die Ostseite Park/Uni"
+  },
+  "datum": "2026-11-24"
+ },
+ "ds-15327848": {
+  "lage": {
+   "adresse": "Gymnasiumstraße 61",
+   "sicherheit": "genau",
+   "lat": 48.232943,
+   "lon": 16.346905,
+   "begruendung": "Inserat: Lage \"Gymnasiumstraße/Hasenauerstraße\", Eckhaus-Villa gegenüber Währinger Park, 1180. Stadt Wien (GEBAEUDEINFOOGD): an dieser Kreuzung ist das einzige Eckhaus im 18. Gymnasiumstraße 61 = Hasenauerstraße 1, Cottage-Villa von 1891 (Carl von Borkowski), 2 Geschoße + Dach; die Nordecke (Hasenauerstraße 2) ist schon 19. Bezirk, die Ostseite Park/Uni"
+  },
+  "datum": "2026-11-24"
+ },
+ "is-856731268967": {
+  "lage": {
+   "adresse": "Grinzinger Straße 36-38",
+   "sicherheit": "ungefaehr",
+   "lat": 48.25348,
+   "lon": 16.349486,
+   "begruendung": "Hausnummer nirgends genannt (Inserate, heute.at/justimmo, Websuche). Maklerpunkt bis 256 m versetzt; 38A '1 Minute' = Station Bretschneidergasse, Endstelle 38 Grinzing und Ortskern je 7 Gehminuten, Garten südseitig: wahrscheinlichstes Haus Grinzinger Straße 36-38 (Südseite, nächste Adresse zum Maklerpunkt, 52 m)"
   },
   "datum": "2026-11-24"
  }

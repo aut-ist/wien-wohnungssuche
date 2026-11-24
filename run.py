@@ -12,6 +12,7 @@ import argparse
 import datetime as dt
 import hashlib
 import html as htmllib
+import json
 import math
 import os
 import re
@@ -1247,6 +1248,46 @@ def gleiches_haus(r, gruppe, index):
             "begruendung": "; ".join(dict.fromkeys(belege))}
 
 
+HAUS_KANDIDATEN = DATA / "haus_kandidaten.json"
+
+
+def haus_kandidaten(lat, lon, radius, cache):
+    """Häuser im Umkreis aus den offenen Daten der Stadt Wien (GEBAEUDEINFOOGD: Adresse, Bezirk, Bauperiode/Baujahr,
+    Geschoße, Nutzung, Architekt), nächste zuerst. Saad 2026-11-24: jede neue Wohnung bis zur Hausnummer recherchieren;
+    die Cloud-Routine erreicht data.wien.gv.at nicht (403), darum holt der GitHub-Lauf das und legt es in
+    data/haus_kandidaten.json ab (Schlüssel Punkt+Radius); ohne Netz bleibt es beim Zwischenspeicher."""
+    key = f"{lat:.5f},{lon:.5f},{int(radius)}"
+    if key in cache:
+        return cache[key]
+    dla, dlo = radius / 111320, radius / (111320 * math.cos(math.radians(lat)))
+    u = ("https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:GEBAEUDEINFOOGD"
+         f"&srsName=EPSG:4326&outputFormat=json&bbox={lat - dla},{lon - dlo},{lat + dla},{lon + dlo},urn:ogc:def:crs:EPSG::4326")
+    import urllib.request
+    try:
+        with urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "wohnungssuche"}), timeout=60) as f:
+            feats = json.load(f)["features"]
+    except Exception as e:
+        log(f"Haus-Kandidaten {key}: {e}")
+        return None
+    out = {}
+    for f in feats:
+        x, y = f["geometry"]["coordinates"][:2]
+        p = f["properties"]
+        m = round(math.hypot((y - lat) * 111320, (x - lon) * 111320 * math.cos(math.radians(lat))))
+        if m > radius or not p.get("STRNAML"):
+            continue
+        nr = f"{p.get('VONN') or ''}{p.get('VONA') or ''}" + (f"-{p['BISN']}{p.get('BISA') or ''}" if p.get("BISN") else "")
+        adr = f"{p['STRNAML']} {nr}".strip()
+        e = {"adresse": adr, "m": m, "bezirk": int(p["BEZ"]) if (p.get("BEZ") or "").isdigit() else p.get("BEZ"),
+             "bauzeit": p.get("BAUJAHR") or p.get("L_BAUJ"), "geschosse": p.get("GESCH_ANZ") or None,
+             "nutzung": p.get("L_NUTZUNG"), "architekt": p.get("ARCHITEKT"), "name": p.get("HA_NAME"),
+             "lat": round(y, 6), "lon": round(x, 6)}
+        if adr not in out or m < out[adr]["m"]:
+            out[adr] = {k: v for k, v in e.items() if v not in (None, "", "keine Angabe", "Keine Angabe")}
+    cache[key] = sorted(out.values(), key=lambda e: e["m"])[:150]
+    return cache[key]
+
+
 def lage_genau(r, rev, b):
     """Adresse mit Hausnummer bekannt (geprüft oder aus dem Inserat, Punkt nicht versetzt)?"""
     if (rev.get("lage") or {}).get("sicherheit") == "genau":
@@ -1377,6 +1418,7 @@ def build():
                 "links": [l["url"] for l in r["links"]], "anbieter": r.get("anbieter"),
                 "adresse_im_inserat": r.get("adresse"), "lage": b.get("lage"),
                 "punkt": [b["lat"], b["lon"]], "versatz_m": r.get("lage_radius") or 0,
+                "portalpunkt": [r.get("lat"), r.get("lon")] if r.get("lage_radius") else None,
                 "preis": r.get("preis"), "flaeche": r.get("flaeche"), "zimmer": r.get("zimmer"),
                 "stockwerk": r.get("stockwerk"), "energie": r.get("energie"),
                 "grundrisse": f"data/grundrisse/{r['id']}/", "im_nest": bool(set(r["ids"]) & nest),
@@ -1506,6 +1548,21 @@ def build():
     # Reihenfolge = Vorrang für die Routine (sie schafft RECHERCHE_PRO_TAG): Nest, dann neueste
     recherche.sort(key=lambda e: e["erstmals"], reverse=True)
     recherche.sort(key=lambda e: not e["im_nest"])
+    # Kandidaten-Häuser je Eintrag (nur mit sinnvollem Suchkreis: versetzter Portalpunkt oder geschätzte Lage)
+    hk = load_json(HAUS_KANDIDATEN, {})
+    hk_vorher = len(hk)
+    for e in recherche:
+        radius = min(max(e.get("versatz_m") or 0, 120), 400)
+        mitte = e.get("portalpunkt") or e.get("punkt")
+        if mitte and mitte[0] and (e.get("versatz_m") or "Bezirk" not in (e.get("lage") or "")):
+            k = haus_kandidaten(mitte[0], mitte[1], radius, hk)
+            if k is not None:
+                e["kandidaten"] = k
+                e["kandidaten_radius_m"] = radius
+    genutzt = {f"{(e.get('portalpunkt') or e['punkt'])[0]:.5f},{(e.get('portalpunkt') or e['punkt'])[1]:.5f},{e['kandidaten_radius_m']}"
+               for e in recherche if e.get("kandidaten_radius_m")}
+    if len(hk) != hk_vorher or set(hk) - genutzt:
+        save_json(HAUS_KANDIDATEN, {k: v for k, v in hk.items() if k in genutzt}, indent=None)
     save_json(RECHERCHE, recherche)
     gr_offen = _grundriss_offen(karte, nest, korb, plaene)
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt

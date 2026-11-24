@@ -168,6 +168,16 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   STRASSENGRAPHOGD für "Sackgasse"), Orthofoto (mapsneu.wien.gv.at bmaporthofoto30cm) gegen Fensterblick und Dachform,
   Nordpfeil im Grundriss + Straßenachse, Wikimedia-Commons-Fotos der Nachbarhäuser. "genau" nur mit Beleg (Dokument oder
   eindeutiges Foto), sonst "ungefaehr" mit Gegenproben; nie raten.
+- Bis zum Haus, jedes Mal (Saad 2026-11-24, genervt: "warum muss ich das immer wieder schreiben?"): Ergebnis der Recherche ist
+  IMMER ein Haus mit Hausnummer und dessen Koordinaten, "genau" mit Beleg, sonst "ungefaehr" mit dem wahrscheinlichsten Haus; nur
+  Straße oder selbst geschätzte Koordinaten zählen nicht. Ursache am 2026-11-24: die Cloud-Routine (lief auf Sonnet) erreicht
+  data.wien.gv.at/Overpass nicht (403), schrieb Koordinaten "aus eigenem Wissen" (Gymnasiumstraße 2 km daneben) und wartete dann
+  2,5 h auf 09:15. Seitdem: `run.py build` legt je Eintrag in recherche.json `kandidaten` an (alle Häuser im Suchkreis
+  `kandidaten_radius_m` um `portalpunkt` bzw. `punkt`, aus GEBAEUDEINFOOGD: Adresse, Bezirk, Bauzeit, Geschoße, Nutzung,
+  Architekt; Zwischenspeicher `data/haus_kandidaten.json`, den der GitHub-Lauf füllt und committet), die Routine läuft auf Opus,
+  muss die Zeit bis 09:15 für die Recherche nutzen und jedes Ergebnis auf ein Haus bringen. Beispiel: "Gymnasiumstraße/
+  Hasenauerstraße, Eckhaus, 1180" = Gymnasiumstraße 61 (die Nordecke ist schon 1190). GEBAEUDEINFOOGD hat für Häuser nach
+  1945 nur "nach 1945", kein Baujahr.
 - Neubauprojekte direkt bei Bauträgern (Wunsch 2026-11-09): `wohnungen/bautraeger.py` liest täglich die Einheitenlisten aus
   `data/bautraeger_projekte.json` (Tabellen, data-Attribute, RIWOG-JSON) und die 3SI-Übersicht; nur freie Wohnungen mit Preis, kein Büro,
   nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,

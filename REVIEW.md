@@ -63,6 +63,8 @@ lässt die Karte bei der Straße und ohne Street View. Jede neue oder korrigiert
 eintragen und danach `run.py build` laufen lassen, damit Maps- und Street-View-Links neu berechnet werden; 360°-Touren (Giraffe360,
 Ogulo, Matterport) im Inserat ansehen: ihr Titel nennt oft die Adresse (2026-11-21: „Gumpendorferstrasse 8“ statt „Laimgrubengasse“).
 Nach dem build stehen unter „Lage“ automatisch alle Öffis bis 10 min Fußweg (`oeffis_nah`), passend zur eingetragenen Adresse.
+Steht die Wohnung auch in `data/recherche.json`, nimm das Haus aus deren `kandidaten` (Häuser im Suchkreis mit Bezirk, Bauzeit,
+Geschoßen); nie Koordinaten aus dem Gedächtnis, nie nur eine Straße (Saad 2026-11-24).
 
 ## Frage `heizung`
 Seit 2026-10-28 schließt Gas nichts mehr aus: auf der Karte gibt es den Schalter "ohne Gasheizung".
