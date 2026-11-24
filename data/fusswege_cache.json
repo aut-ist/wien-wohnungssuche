@@ -32798,5 +32798,651 @@
    1006,
    1258
   ]
+ },
+ "48.24085,16.33589": {
+  "Peter-Jordan-Straße": [
+   892,
+   1113
+  ],
+  "Rodlergasse": [
+   83,
+   104
+  ],
+  "Sauerburggasse": [
+   776,
+   971
+  ],
+  "Sieveringer Straße": [
+   856,
+   1069
+  ],
+  "Türkenschanzplatz": [
+   909,
+   1136
+  ],
+  "Blaasstraße": [
+   667,
+   833
+  ],
+  "Borkowskigasse": [
+   656,
+   819
+  ],
+  "Börnergasse": [
+   873,
+   1092
+  ],
+  "Chimanistraße": [
+   558,
+   697
+  ],
+  "Cottagegasse": [
+   937,
+   1170
+  ],
+  "Daringergasse": [
+   646,
+   808
+  ],
+  "Dänenstraße": [
+   410,
+   512
+  ],
+  "Döblinger Friedhof": [
+   602,
+   745
+  ],
+  "Döblinger Friedhof/Felix-Dahn-Straße": [
+   764,
+   947
+  ],
+  "Flotowgasse": [
+   108,
+   135
+  ],
+  "Obkirchergasse": [
+   763,
+   954
+  ],
+  "Gregor-Mendel-Straße": [
+   708,
+   885
+  ],
+  "Gustav-Pick-Gasse": [
+   594,
+   738
+  ],
+  "Hugo-Wolf-Park": [
+   371,
+   463
+  ],
+  "Kratzlgasse": [
+   336,
+   415
+  ],
+  "Krottenbachstraße": [
+   308,
+   385
+  ],
+  "Linnéplatz": [
+   477,
+   596
+  ],
+  "Oberdöbling": [
+   855,
+   1069
+  ],
+  "Obersteinergasse": [
+   559,
+   699
+  ]
+ },
+ "48.18892,16.34119": {
+  "Reinprechtsdorfer Brücke": [
+   824,
+   1020
+  ],
+  "Sonnenuhrgasse": [
+   304,
+   379
+  ],
+  "Staglgasse": [
+   814,
+   1017
+  ],
+  "Stiegergasse": [
+   598,
+   744
+  ],
+  "Westbahnhof": [
+   842,
+   1054
+  ],
+  "Wolfganggasse": [
+   887,
+   1109
+  ],
+  "Westbahnhof/Gerstnerstraße": [
+   836,
+   1044
+  ],
+  "Kurt-Pint-Platz": [
+   524,
+   655
+  ],
+  "Steinhagegasse": [
+   661,
+   814
+  ],
+  "Gfrornergasse": [
+   172,
+   215
+  ],
+  "Einsiedlerplatz": [
+   789,
+   991
+  ],
+  "Gaudenzdorfer Gürtel": [
+   381,
+   476
+  ],
+  "Am Hundsturm": [
+   551,
+   689
+  ],
+  "Gumpendorfer Straße": [
+   353,
+   441
+  ],
+  "Hans-Mandl-Berufsschule": [
+   1099,
+   1366
+  ],
+  "Henriettenplatz": [
+   786,
+   983
+  ],
+  "Fünfhausgasse": [
+   531,
+   661
+  ],
+  "Hirschengasse": [
+   719,
+   899
+  ],
+  "Mariahilfer Straße/Kaiserstraße": [
+   866,
+   1082
+  ],
+  "Kohlgasse": [
+   865,
+   1073
+  ],
+  "Korbergasse": [
+   589,
+   735
+  ],
+  "Geibelgasse": [
+   823,
+   1026
+  ],
+  "Arbeitergasse/Gürtel": [
+   650,
+   813
+  ],
+  "Arndtstraße": [
+   816,
+   1017
+  ],
+  "Längenfeldgasse": [
+   682,
+   852
+  ],
+  "Margaretengürtel": [
+   255,
+   318
+  ],
+  "Mariahilfer Gürtel": [
+   546,
+   682
+  ],
+  "Mauthausgasse": [
+   437,
+   546
+  ]
+ },
+ "48.23353,16.31108": {
+  "Pötzleinsdorf": [
+   1094,
+   1368
+  ],
+  "Schafbergbad": [
+   870,
+   1087
+  ],
+  "Scheibenbergstraße": [
+   827,
+   1033
+  ],
+  "Schöberweg": [
+   639,
+   799
+  ],
+  "Twarochgasse": [
+   608,
+   760
+  ],
+  "Schafberg/Werfelstraße": [
+   767,
+   958
+  ],
+  "Dornbacher Straße": [
+   1868,
+   2334
+  ],
+  "Gersthofer Friedhof": [
+   693,
+   867
+  ],
+  "Dornbach": [
+   1522,
+   1903
+  ],
+  "Eckpergasse": [
+   347,
+   434
+  ],
+  "Gersthof, Herbeckstraße": [
+   473,
+   592
+  ],
+  "Kleingartenverein Alsrückenweg": [
+   737,
+   922
+  ],
+  "Krenngasse": [
+   894,
+   1117
+  ]
+ },
+ "48.24957,16.35027": {
+  "Perntergasse": [
+   315,
+   394
+  ],
+  "Barawitzkagasse": [
+   623,
+   778
+  ],
+  "Saarplatz": [
+   515,
+   644
+  ],
+  "Sieveringer Straße": [
+   964,
+   1205
+  ],
+  "Silbergasse": [
+   672,
+   841
+  ],
+  "Bretschneidergasse": [
+   875,
+   1094
+  ],
+  "Döblinger Bad": [
+   601,
+   751
+  ],
+  "Fernsprechamt Heiligenstadt": [
+   972,
+   1215
+  ],
+  "Obkirchergasse": [
+   988,
+   1232
+  ],
+  "Grinzing": [
+   1341,
+   1678
+  ],
+  "Hohe Warte": [
+   515,
+   644
+  ],
+  "An den langen Lüssen": [
+   1100,
+   1375
+  ],
+  "Armbrustergasse": [
+   774,
+   968
+  ],
+  "Neugebauerweg": [
+   641,
+   802
+  ],
+  "Oberdöbling": [
+   820,
+   1025
+  ],
+  "Paradisgasse": [
+   767,
+   958
+  ]
+ },
+ "48.22010,16.39549": {
+  "Praterstern": [
+   249,
+   311
+  ],
+  "Nestroyplatz U/Praterstr.": [
+   751,
+   929
+  ],
+  "Rueppgasse": [
+   715,
+   873
+  ],
+  "Vivariumstraße": [
+   662,
+   827
+  ],
+  "Vorgartenstraße": [
+   484,
+   605
+  ],
+  "Vorgartenstraße U": [
+   568,
+   705
+  ],
+  "Walcherstraße": [
+   787,
+   978
+  ],
+  "Joseph-Roth-Gasse": [
+   213,
+   259
+  ],
+  "Kleine Stadtgutgasse": [
+   475,
+   583
+  ],
+  "Volkertplatz": [
+   859,
+   1064
+  ],
+  "Welthandelsplatz": [
+   887,
+   1106
+  ],
+  "Messe-Prater": [
+   688,
+   857
+  ],
+  "Leopold-Moses-Gasse": [
+   334,
+   412
+  ],
+  "Harkortstraße": [
+   294,
+   366
+  ],
+  "Erlafstraße": [
+   581,
+   727
+  ],
+  "Molkereistraße": [
+   539,
+   669
+  ],
+  "Max-Winter-Platz": [
+   427,
+   531
+  ],
+  "Krakauer Straße": [
+   448,
+   552
+  ],
+  "Haussteinstraße": [
+   879,
+   1092
+  ],
+  "Franzensbrücke": [
+   795,
+   979
+  ],
+  "Hillerstraße": [
+   988,
+   1236
+  ],
+  "Jungstraße": [
+   822,
+   1028
+  ],
+  "Jakov-Lind-Straße": [
+   488,
+   603
+  ],
+  "Kurzbauergasse": [
+   932,
+   1154
+  ],
+  "Mühlfeldgasse": [
+   474,
+   575
+  ],
+  "Nordbahnstraße": [
+   660,
+   815
+  ]
+ },
+ "48.19167,16.40257": {
+  "Rabengasse": [
+   501,
+   621
+  ],
+  "Viehmarktgasse": [
+   173,
+   216
+  ],
+  "Baumgasse": [
+   180,
+   225
+  ],
+  "Schlachthausgasse": [
+   357,
+   446
+  ],
+  "Stadionbrücke": [
+   754,
+   940
+  ],
+  "Barthgasse": [
+   377,
+   472
+  ],
+  "Hermine-Jursa-Gasse": [
+   729,
+   912
+  ],
+  "Maria-Jacobi-Gasse": [
+   683,
+   854
+  ],
+  "Neu Marx": [
+   633,
+   791
+  ],
+  "St. Marx": [
+   347,
+   439
+  ],
+  "Wildgansplatz": [
+   673,
+   840
+  ],
+  "Klimschgasse": [
+   565,
+   700
+  ],
+  "Wällischgasse": [
+   506,
+   633
+  ],
+  "Erdberg": [
+   963,
+   1204
+  ],
+  "Eslarngasse": [
+   706,
+   880
+  ],
+  "Grasbergergasse": [
+   634,
+   786
+  ],
+  "Oberzellergasse": [
+   655,
+   814
+  ],
+  "Hofmannsthalgasse": [
+   776,
+   964
+  ],
+  "Kardinal-Nagl-Platz": [
+   694,
+   868
+  ],
+  "Kleistgasse": [
+   912,
+   1134
+  ],
+  "St. Marx S/Leberstr.": [
+   468,
+   578
+  ],
+  "Lechnerstraße": [
+   664,
+   830
+  ],
+  "Litfaßstraße": [
+   827,
+   1028
+  ],
+  "Ludwig-Koeßler-Platz": [
+   561,
+   702
+  ]
+ },
+ "48.19384,16.36495": {
+  "Pilgramgasse": [
+   983,
+   1226
+  ],
+  "Kolschitzkygasse": [
+   769,
+   961
+  ],
+  "Plößlgasse": [
+   951,
+   1189
+  ],
+  "Bacherplatz": [
+   822,
+   1026
+  ],
+  "Preßgasse": [
+   255,
+   319
+  ],
+  "Rainergasse": [
+   559,
+   698
+  ],
+  "Resselgasse": [
+   594,
+   742
+  ],
+  "Schleifmühlgasse": [
+   428,
+   536
+  ],
+  "Belvederegasse": [
+   623,
+   778
+  ],
+  "Siebenbrunnengasse": [
+   813,
+   1016
+  ],
+  "Taubstummengasse": [
+   461,
+   576
+  ],
+  "Bezirksamt Margareten": [
+   919,
+   1149
+  ],
+  "Ziegelofengasse": [
+   448,
+   560
+  ],
+  "Bärenmühldurchgang": [
+   672,
+   840
+  ],
+  "Köstlergasse": [
+   747,
+   932
+  ],
+  "Getreidemarkt": [
+   917,
+   1147
+  ],
+  "Gußhausstraße": [
+   823,
+   1028
+  ],
+  "Schönbrunner Straße/Kettenbrückengasse": [
+   399,
+   499
+  ],
+  "Johann-Strauß-Gasse": [
+   338,
+   423
+  ],
+  "Karlsplatz": [
+   726,
+   908
+  ],
+  "Kettenbrückengasse": [
+   657,
+   822
+  ],
+  "Laurenzgasse": [
+   846,
+   1057
+  ],
+  "Leibenfrostgasse": [
+   416,
+   520
+  ],
+  "Margaretenplatz/Schönbrunner Straße": [
+   761,
+   952
+  ],
+  "Margaretenplatz": [
+   698,
+   873
+  ],
+  "Mayerhofgasse": [
+   159,
+   199
+  ],
+  "Paulanergasse": [
+   192,
+   240
+  ]
  }
 }

@@ -1,1 +1,290 @@
-[]
+[
+ {
+  "id": "wh-1266689862",
+  "ids": [
+   "wh-1266689862",
+   "is-685607786805",
+   "ds-15327848"
+  ],
+  "titel": "Unglaublich charmant! Belle Etage in einer pittoresken Cottage-Villa mit Erker, Terrasse und Gartennutzung",
+  "plz": 1180,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/unglaublich-charmant-belle-etage-in-einer-pittoresken-cottage-villa-mit-erker-terrasse-und-gartennutzung-1266689862/",
+   "https://www.immobilienscout24.at/expose/6b0446b624a9ec393adbce85",
+   "https://immobilien.derstandard.at/detail/15327848"
+  ],
+  "anbieter": "Dr. Vospernik Immobilien",
+  "adresse_im_inserat": null,
+  "lage": "18. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.233533,
+   16.311082
+  ],
+  "versatz_m": 0,
+  "preis": 695000.0,
+  "flaeche": 103.0,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "184,7",
+   "hwb_class": null,
+   "fgee": "2,73",
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-1266689862/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Nebenkosten bei Kaufabwicklung",
+    "url": "http://www.immovosmanager.at/uploadPdf6/id29671/1-29671.pdf"
+   }
+  ],
+  "erstmals": "2026-11-24",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1296514431",
+  "ids": [
+   "wh-1296514431",
+   "is-856731268967"
+  ],
+  "titel": "Haus im Haus südseitiger Eigengarten!",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/haus-im-haus-suedseitiger-eigengarten-1296514431/",
+   "https://www.immobilienscout24.at/expose/6b041b01ece4d01edcb75523"
+  ],
+  "anbieter": "Katrin Erhart - Real Estate & Property e.U.",
+  "adresse_im_inserat": null,
+  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
+  "punkt": [
+   48.249567,
+   16.350273
+  ],
+  "versatz_m": 256,
+  "preis": 1150000.0,
+  "flaeche": 157.52,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "102,9",
+   "hwb_class": "D",
+   "fgee": "1,7",
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/wh-1296514431/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-24",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1786388094",
+  "ids": [
+   "wh-1786388094",
+   "is-839551577836",
+   "ds-15328158"
+  ],
+  "titel": "ERSTBEZUG NACH SANIERUNG | HELLE 3 ZIMMER | ZWISCHEN DONAU & PRATER | TOPLAGE IN U-BAHN-NÄHE",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/erstbezug-nach-sanierung-helle-3-zimmer-zwischen-donau-prater-toplage-in-u-bahn-naehe-1786388094/",
+   "https://www.immobilienscout24.at/expose/6b049db3cb158ced513792c1",
+   "https://immobilien.derstandard.at/detail/15328158"
+  ],
+  "anbieter": "Immosan Immobilienvermittlung- u. Verwertungs GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 2. Bezirk bekannt",
+  "punkt": [
+   48.220097,
+   16.395491
+  ],
+  "versatz_m": 0,
+  "preis": 529000.0,
+  "flaeche": 80.0,
+  "zimmer": 3,
+  "stockwerk": "Mezzanin",
+  "energie": {
+   "hwb": "110",
+   "hwb_class": "D",
+   "fgee": "2,1",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1786388094/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-24",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "is-386644379603",
+  "ids": [
+   "is-386644379603",
+   "wh-1188724989",
+   "ds-15327945"
+  ],
+  "titel": "Landstraßer Hauptstraße - hofseitiger 3 Zimmer Neubau mit Garagenplatz",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/landstrasser-hauptstrasse-hofseitiger-3-zimmer-neubau-mit-garagenplatz-1188724989/",
+   "https://www.immobilienscout24.at/expose/6b0451ecece4d01edcb7cc25",
+   "https://immobilien.derstandard.at/detail/15327945"
+  ],
+  "anbieter": "BRI Immobilienmakler GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.191674,
+   16.402566
+  ],
+  "versatz_m": 269,
+  "preis": 365000,
+  "flaeche": 79.59,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 56.2,
+   "hwb_class": "C",
+   "fgee": 1.11,
+   "fgee_class": "C"
+  },
+  "grundrisse": "data/grundrisse/is-386644379603/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-24",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "wh-1251962869",
+  "ids": [
+   "wh-1251962869"
+  ],
+  "titel": "Großzügige Altbauwohnung mit Blick auf den Naschmarkt",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/grosszuegige-altbauwohnung-mit-blick-auf-den-naschmarkt-1251962869/"
+  ],
+  "anbieter": "Börner & Partner GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.19384,
+   16.364953
+  ],
+  "versatz_m": 251,
+  "preis": 630000.0,
+  "flaeche": 131.0,
+  "zimmer": null,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": "113,3",
+   "hwb_class": "D",
+   "fgee": "2,16",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1251962869/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-24",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15279028",
+  "ids": [
+   "ds-15279028",
+   "is-512263482632",
+   "wh-978423518",
+   "is-379802859343"
+  ],
+  "titel": "VOLLSANIERTE 3-Zimmer Wohnung - ca 82 m², Top Lage",
+  "plz": 1060,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1060-mariahilf/erstbezug-3-zimmern-saniert-schlafzimmer-zum-garten-stellplatz-verfuegbar-978423518/",
+   "https://www.immobilienscout24.at/expose/6abbe30792bbe02cf52e3493",
+   "https://www.immobilienscout24.at/expose/6b0419a2ece4d01edcb752b3",
+   "https://immobilien.derstandard.at/detail/15279028"
+  ],
+  "anbieter": "SIRA Real Estate GmbH",
+  "adresse_im_inserat": "Mariahilferstraße, Gumpendorferstraße, Westbahnhof",
+  "lage": "Lage unklar, nur 6. Bezirk bekannt",
+  "punkt": [
+   48.188921,
+   16.341193
+  ],
+  "versatz_m": 0,
+  "preis": 449000.0,
+  "flaeche": 81.64,
+  "zimmer": 3,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 38.8,
+   "hwb_class": "B",
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15279028/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "360 Grad Tour",
+    "url": "https://tour.giraffe360.com/8fc8c471d2854911b510ef53dcf43170"
+   }
+  ],
+  "erstmals": "2026-11-16",
+  "portaladresse_pruefen": false
+ },
+ {
+  "id": "ds-15099408",
+  "ids": [
+   "ds-15099408",
+   "is-647784398810",
+   "fm-5644954",
+   "is-835884469898",
+   "ds-15235518",
+   "wh-957678370",
+   "is-560391384976",
+   "is-492910365269",
+   "is-740576428366",
+   "is-357956849311",
+   "is-925178864778",
+   "is-584439756038"
+  ],
+  "titel": "GENERALSANIERTE ALTBAUWOHNUNG (ca.95m²) mit BALKON (ca. 4m²) - 3 Zimmer",
+  "plz": 1020,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1020-leopoldstadt/1020-traumhafte-altbauwohnung-mit-sonnigem-balkon-wohnen-zwischen-augarten-und-prater-957678370/",
+   "https://www.findmyhome.at/5644954",
+   "https://www.immobilienscout24.at/expose/69ce97aa201296531cce186e",
+   "https://www.immobilienscout24.at/expose/69dba84ae0e5a4ae8cd4d99f",
+   "https://www.immobilienscout24.at/expose/6b0472d5cb158ced51377100",
+   "https://www.immobilienscout24.at/expose/69d184e5216d7e463c8bccb9",
+   "https://www.immobilienscout24.at/expose/6a1617bbc882ce7c0fde47fa",
+   "https://www.immobilienscout24.at/expose/6ae9ea4cc9c2b3561ffececa",
+   "https://immobilien.derstandard.at/detail/15099408",
+   "https://immobilien.derstandard.at/detail/15235518"
+  ],
+  "anbieter": "FSR Immobilienvermarktungs- u. -beteiligungs GmbH",
+  "adresse_im_inserat": "Nestroyplatz",
+  "lage": "Zone Karmeliterviertel / Augarten-Süd",
+  "punkt": [
+   48.215255,
+   16.385455
+  ],
+  "versatz_m": 0,
+  "preis": 779000.0,
+  "flaeche": 95.42,
+  "zimmer": 3,
+  "stockwerk": "4",
+  "energie": {
+   "hwb": 107.42,
+   "hwb_class": "D",
+   "fgee": 2.49,
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/ds-15099408/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-10-25",
+  "portaladresse_pruefen": false
+ }
+]

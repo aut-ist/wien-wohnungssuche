@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-23",
+ "stand": "2026-11-24",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -988,6 +988,17 @@
      "top": "",
      "stiege": "",
      "geschoss": "3. Etage",
+     "zimmer": "3",
+     "flaeche": "64,68 m2",
+     "eigennutzer": "€ 580.000,-",
+     "href": "https://www.ehl.at/objekt/91498",
+     "loggia": "1,92 m²",
+     "balkon": "6,4 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "3. Etage",
      "zimmer": "2",
      "flaeche": "48,78 m2",
      "eigennutzer": "€ 390.000,-",
@@ -1016,6 +1027,17 @@
      "href": "https://www.ehl.at/objekt/91508",
      "loggia": "5,37 m²",
      "terrasse": "3,28 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
+     "zimmer": "3",
+     "flaeche": "68,05 m2",
+     "eigennutzer": "€ 599.000,-",
+     "href": "https://www.ehl.at/objekt/91509",
+     "loggia": "8,88 m²",
+     "terrasse": "2,13 m²"
     },
     {
      "top": "",
