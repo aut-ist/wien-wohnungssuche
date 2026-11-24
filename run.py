@@ -1565,6 +1565,28 @@ def build():
         save_json(HAUS_KANDIDATEN, {k: v for k, v in hk.items() if k in genutzt}, indent=None)
     save_json(RECHERCHE, recherche)
     gr_offen = _grundriss_offen(karte, nest, korb, plaene)
+    # Regelcheck (Saad 2026-11-24: "Es ist immer wieder dasselbe Feedback"): jede Wohnung, die seit RECHERCHE_ALLE_AB neu
+    # auf der Karte ist (grün/grau, nicht im Papierkorb, online), braucht ein Haus mit Hausnummer, Koordinaten und einen
+    # Street-View-Punkt (damit Google Maps und Street View aufs Haus zeigen). Fehlt etwas, steht es in data/regelcheck.json,
+    # und die Routine muss es zuerst melden ("⚠️ Adressen:").
+    fehlt = []
+    for w in karte:
+        if (w["status"] == "raus" or w.get("offline") or (set(w["ids"]) & korb and not w.get("korb_frei"))
+                or (w.get("erstmals") or "") < RECHERCHE_ALLE_AB):
+            continue
+        probleme = []
+        if not re.search(r"\d", w.get("adresse") or ""):
+            probleme.append("keine Hausnummer")
+        elif not w.get("sv"):
+            probleme.append("kein Street-View-Punkt")
+        if probleme:
+            fehlt.append({"id": w["id"], "titel": w["titel"][:80], "adresse": w.get("adresse"),
+                          "erstmals": w.get("erstmals"), "probleme": probleme, "im_nest": bool(set(w["ids"]) & nest)})
+    fehlt.sort(key=lambda e: (not e["im_nest"], e["erstmals"]), reverse=False)
+    save_json(DATA / "regelcheck.json", {"datum": dt.date.today().isoformat(), "ohne_haus": fehlt})
+    if fehlt:
+        log(f"⚠️ Adressen: {len(fehlt)} neue Wohnungen ohne Haus/Street View: "
+            + ", ".join(f"{e['id']} ({e['adresse'] or 'ohne Adresse'})" for e in fehlt[:10]))
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
     ddir.mkdir(exist_ok=True)

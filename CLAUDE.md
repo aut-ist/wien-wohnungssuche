@@ -178,6 +178,9 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   muss die Zeit bis 09:15 für die Recherche nutzen und jedes Ergebnis auf ein Haus bringen. Beispiel: "Gymnasiumstraße/
   Hasenauerstraße, Eckhaus, 1180" = Gymnasiumstraße 61 (die Nordecke ist schon 1190). GEBAEUDEINFOOGD hat für Häuser nach
   1945 nur "nach 1945", kein Baujahr.
+  Regelcheck im Code: `run.py build` schreibt `data/regelcheck.json` (`ohne_haus`: neue sichtbare Wohnungen ohne Hausnummer oder
+  ohne Street-View-Punkt) und loggt "⚠️ Adressen: ..."; die Routine (Schritt 8b) recherchiert diese zuerst und meldet Reste ganz oben.
+  In jeder Claude-Sitzung nach dem build dieselbe Datei prüfen und abarbeiten, bevor etwas als fertig gilt.
 - Neubauprojekte direkt bei Bauträgern (Wunsch 2026-11-09): `wohnungen/bautraeger.py` liest täglich die Einheitenlisten aus
   `data/bautraeger_projekte.json` (Tabellen, data-Attribute, RIWOG-JSON) und die 3SI-Übersicht; nur freie Wohnungen mit Preis, kein Büro,
   nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,

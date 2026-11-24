@@ -1,0 +1,35 @@
+{
+ "datum": "2026-11-24",
+ "ohne_haus": [
+  {
+   "id": "ds-15279028",
+   "titel": "VOLLSANIERTE 3-Zimmer Wohnung - ca 82 m², Top Lage",
+   "adresse": "Mariahilferstraße, Gumpendorferstraße, Westbahnhof",
+   "erstmals": "2026-11-16",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-1531372506",
+   "titel": "Exklusive 5-Zi Dachgeschosswohnung mit 2 Balkonen, Terrasse & Erstbezug in 1180 ",
+   "adresse": null,
+   "erstmals": "2026-11-23",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "is-386644379603",
+   "titel": "Landstraßer Hauptstraße - hofseitiger 3 Zimmer Neubau mit Garagenplatz",
+   "adresse": "Landstraßer Hauptstraße",
+   "erstmals": "2026-11-24",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  }
+ ]
+}
