@@ -83,8 +83,8 @@
 <text x="1684.9" y="1198.4" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer (Galerie)</text>
 <text x="547.4" y="259.4" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Eingangsebene</text>
 <text x="1537.4" y="259.4" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Dachgeschoß</text>
-<text x="147.4" y="1896.8" font-size="46.0" font-weight="700" fill="#2b2b2b">Grundriss Top 12 (Maisonette)</text>
+<text x="147.4" y="1896.8" font-size="46.0" font-weight="700" fill="#2b2b2b">Grundriss Top 12, Währinger Gürtel 79 (Maisonette)</text>
 <text x="147.4" y="1950.8" font-size="36.0" fill="#444">Wohnfläche ca. 145,79 m² · Freifläche ca. 13,30 m²</text>
-<text x="147.4" y="2000.8" font-size="28.0" fill="#888">Schematisch nach dem Umbauplan, Lage der Räume ungefähr, m² nur wo lesbar.</text>
+<text x="147.4" y="2000.8" font-size="28.0" fill="#888">Schematisch nach dem Umbauplan; Top 12 ist die spiegelverkehrte Nachbarwohnung von Top 13 (Brutkasten).</text>
 <rect x="147.4" y="2032.8" width="100.0" height="10" fill="#2f2f2f"/><rect x="247.4" y="2032.8" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="147.4" y="2076.8" font-size="26.0" fill="#666">0</text><text x="347.4" y="2076.8" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
 </svg>

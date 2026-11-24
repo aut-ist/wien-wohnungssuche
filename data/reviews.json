@@ -33404,11 +33404,17 @@
  },
  "wh-1531372506": {
   "lage": {
-   "adresse": "Währinger Straße",
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"18. Bezirk, nahe Währinger Straße-Volksoper U6\", keine Straße/Hausnummer; Portalpunkt ist um 259 m versetzt"
+   "adresse": "Währinger Gürtel 79",
+   "sicherheit": "genau",
+   "lat": 48.224156,
+   "lon": 16.348594,
+   "begruendung": "RKM-Grundriss ist derselbe Umbauplan wie bei Währinger Gürtel 79 Top 13 (Immolöwin-Energieausweis): Top 12 'neu 145,79 m²' = dieses Inserat, Top 13 = Nachbarwohnung im Brutkasten; gleicher Preis 980.000, Baujahr 1900, fGEE 0,72, 'nahe U6 Währinger Straße-Volksoper', Portalpunkt 234 m entfernt (Versatz 259 m)"
   },
-  "datum": "2026-11-23"
+  "datum": "2026-11-24",
+  "eckdaten": {
+   "stockwerk": "DG-Maisonette, Top 12",
+   "begruendung": "RKM-Plan: TOP 12 neu 145,79 m² (alt 128,86)"
+  }
  },
  "wh-1958713605": {
   "lage": {
@@ -33531,5 +33537,19 @@
    "ok": true,
    "begruendung": "Saad 2026-11-24: Ausnahme, Grinzinger Straße 34 (Haus im Haus) trotz 22 min zum Gürtel wieder auf die Karte"
   }
+ },
+ "is-114623567220": {
+  "lage": {
+   "adresse": "Währinger Gürtel 79",
+   "sicherheit": "genau",
+   "lat": 48.224156,
+   "lon": 16.348594,
+   "begruendung": "RKM-Grundriss ist derselbe Umbauplan wie bei Währinger Gürtel 79 Top 13 (Immolöwin-Energieausweis): Top 12 'neu 145,79 m²' = dieses Inserat, Top 13 = Nachbarwohnung im Brutkasten; gleicher Preis 980.000, Baujahr 1900, fGEE 0,72, 'nahe U6 Währinger Straße-Volksoper', Portalpunkt 234 m entfernt (Versatz 259 m)"
+  },
+  "eckdaten": {
+   "stockwerk": "DG-Maisonette, Top 12",
+   "begruendung": "RKM-Plan: TOP 12 neu 145,79 m² (alt 128,86)"
+  },
+  "datum": "2026-11-24"
  }
 }
