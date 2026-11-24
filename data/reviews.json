@@ -7399,8 +7399,12 @@
    "sicherheit": "genau",
    "begruendung": "Grundriss im willhaben-Inserat trägt den Titel 'Krottenbachstraße 58 / Top 3, 1190 Wien', 1. Stock, 81,92 m², Balkon 7,09 m² (Bild https://cache.willhaben.at/mmo/6/124/293/2756_-806913880.jpg); passt zu Wohnungsnummer 3, 1. Stock, gegenüber Hugo-Wolf-Park. Bisheriger Kartenpunkt lag bei Krottenbachstraße 105 (Straßen-Geocode)."
   },
-  "datum": "2026-10-28",
-  "gleich_wie": "wh-1075050455"
+  "datum": "2026-11-24",
+  "gleich_wie": "wh-1075050455",
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 82
+  }
  },
  "wh-1392006020": {
   "lage": {
@@ -33413,5 +33417,81 @@
    "begruendung": "Nur \"16. Bezirk / Grenze 17. Bezirk\", U-Bahn 3 Min, Bim 43/44; keine Straße genannt"
   },
   "datum": "2026-11-23"
+ },
+ "ds-15099408": {
+  "lage": {
+   "adresse": "Novaragasse 36A",
+   "sicherheit": "genau",
+   "lat": 48.2178,
+   "lon": 16.3845,
+   "begruendung": "ImmoScout24-Text: \"Die Novaragasse 36A besticht durch ihre zentrale Lage im 2. Bezirk\" (Koordinaten geschätzt)"
+  },
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Energieträger: Gas\" (ImmoScout24, derStandard), Gas-Etagenheizung"
+  },
+  "datum": "2026-11-24"
+ },
+ "wh-1251962869": {
+  "lage": {
+   "adresse": "Naschmarkt",
+   "sicherheit": "ungefaehr",
+   "lat": 48.1975,
+   "lon": 16.364,
+   "begruendung": "\"in unmittelbarer Nähe des Naschmarkts\", Region Naschmarkt, 4. Bezirk, Altbau 1898 (Top 12 laut Plan)"
+  },
+  "eckdaten": {
+   "zimmer": 3,
+   "flaeche": 131
+  },
+  "datum": "2026-11-24"
+ },
+ "ds-15279028": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur 6. Bezirk, \"Mariahilferstraße, Gumpendorferstraße, Westbahnhof\" – keine Adresse"
+  },
+  "datum": "2026-11-24"
+ },
+ "wh-1266689862": {
+  "lage": {
+   "adresse": "Gymnasiumstraße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.2323,
+   "lon": 16.3437,
+   "begruendung": "Lage-Feld: \"Gymnasiumstraße/Hasenauerstraße\", Eckhaus gegenüber dem Währinger Park (Koordinaten geschätzt)"
+  },
+  "datum": "2026-11-24"
+ },
+ "wh-1296514431": {
+  "lage": {
+   "adresse": "Grinzinger Straße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.2496,
+   "lon": 16.3503,
+   "begruendung": "Gartenwohnung in Grinzing, Ortskern 7 Gehminuten, Endstelle Grinzing 7 Gehminuten"
+  },
+  "datum": "2026-11-24"
+ },
+ "wh-1786388094": {
+  "lage": {
+   "adresse": "Wolfgang-Schmälzl-Gasse 12",
+   "sicherheit": "genau",
+   "lat": 48.2201,
+   "lon": 16.3955,
+   "begruendung": "willhaben Lage-Feld: \"Gebiet: U1/U2 - Praterstern | U1 - Vorgartenstraße | Wolfgang-Schmälzl-Gasse 12\""
+  },
+  "datum": "2026-11-24"
+ },
+ "is-386644379603": {
+  "lage": {
+   "adresse": "Landstraßer Hauptstraße",
+   "sicherheit": "ungefaehr",
+   "lat": 48.199,
+   "lon": 16.3975,
+   "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\" (Hausnummer unbekannt, Koordinaten geschätzt)"
+  },
+  "datum": "2026-11-24"
  }
 }

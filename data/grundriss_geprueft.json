@@ -3989,5 +3989,108 @@
   "am": "2026-11-21",
   "plaene": [],
   "notiz": "einziges Foto ist ein Logo; Schätzung nur aus Text wäre erfunden"
+ },
+ "wh-1266689862": {
+  "ids": [
+   "wh-1266689862",
+   "is-685607786805",
+   "ds-15327848"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-24",
+  "plaene": [
+   "b0e4a6a5b5c6c484"
+  ],
+  "notiz": "historischer Einreichplan mit Maßketten, Maße nur teils lesbar; nicht gezeichnet"
+ },
+ "wh-1296514431": {
+  "ids": [
+   "wh-1296514431",
+   "is-856731268967"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-24",
+  "plaene": [
+   "30e4ccccdcc4d0d0",
+   "68c4d4ccdcd4d058",
+   "3828eccccc8cd8f0"
+  ],
+  "notiz": "saubere Vermarktungspläne je Ebene"
+ },
+ "is-386644379603": {
+  "ids": [
+   "is-386644379603",
+   "wh-1188724989",
+   "ds-15327945"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-24",
+  "plaene": [
+   "c4a51b151703299a"
+  ],
+  "notiz": "technischer Planausschnitt, Wohnung nur teilweise sichtbar"
+ },
+ "wh-1251962869": {
+  "ids": [
+   "wh-1251962869"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-24",
+  "plaene": [
+   "80b2a2aa64666262"
+  ],
+  "notiz": "gescannter Plan, nur Teil der Wohnung sichtbar (Top 12, 131 m²)"
+ },
+ "ds-15279028": {
+  "ids": [
+   "ds-15279028",
+   "is-512263482632",
+   "wh-978423518",
+   "is-379802859343"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-24",
+  "plaene": [
+   "033171692b294800",
+   "a9290999890d0d19"
+  ],
+  "notiz": "saubere Pläne (BOOM Living)"
+ },
+ "wh-1531372506": {
+  "ids": [
+   "wh-1531372506",
+   "is-114623567220"
+  ],
+  "ergebnis": "unlesbar",
+  "am": "2026-11-24",
+  "plaene": [
+   "cc8e2b2b522bea51",
+   "68aa3370590db2cc"
+  ],
+  "notiz": "Textmarker-Plan zweier Wohnungen (Top 12/13) über mehrere Ebenen, nicht eindeutig lesbar"
+ },
+ "wh-1786388094": {
+  "ids": [
+   "wh-1786388094",
+   "is-839551577836",
+   "ds-15328158"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-24",
+  "plaene": [
+   "4bfb999b9b9999db"
+  ]
+ },
+ "ds-15099408": {
+  "ids": [
+   "ds-15099408",
+   "is-647784398810",
+   "fm-5644954"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-24",
+  "plaene": [
+   "0018b2b2d24a4a60"
+  ]
  }
 }
