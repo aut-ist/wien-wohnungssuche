@@ -1582,11 +1582,31 @@ def build():
         if probleme:
             fehlt.append({"id": w["id"], "titel": w["titel"][:80], "adresse": w.get("adresse"),
                           "erstmals": w.get("erstmals"), "probleme": probleme, "im_nest": bool(set(w["ids"]) & nest)})
+    # Grundriss (Saad 2026-11-24: "die am Währinger Park hat wieder keinen Grundriss, obwohl der schlecht lesbar ist"):
+    # jede Nest- und neue sichtbare Wohnung braucht einen schönen, neu gezeichneten oder geschätzten Plan
+    hashes_rc, klasse_rc = _bild_hashes(), _grundriss_klassen()
+    gepr_rc = load_json(GR_GEPRUEFT, {})
+    for w in karte:
+        ids = set(w["ids"])
+        if (w["status"] == "raus" or w.get("offline") or (ids & korb and not w.get("korb_frei") and not ids & nest)
+                or not (ids & nest or (w.get("erstmals") or "") >= RECHERCHE_ALLE_AB) or (w.get("erstmals") or "") >= TODAY):
+            continue
+        ok = (any(p["ids"] & ids for p in plaene) or any(u in _PORTAL_PLAENE for u in w["bilder"])
+              or any(klasse_rc.get((hashes_rc.get(u) or {}).get("h")) == "plan" for u in w["bilder"])
+              or any(set(e.get("ids") or []) & ids and e.get("ergebnis") in ("schoen", "neu_gezeichnet", "geschaetzt", "keine_fotos", "unlesbar")
+                     for e in gepr_rc.values()))
+        if not ok:
+            e = next((x for x in fehlt if x["id"] == w["id"]), None)
+            if e:
+                e["probleme"].append("kein Grundriss")
+            else:
+                fehlt.append({"id": w["id"], "titel": w["titel"][:80], "adresse": w.get("adresse"), "erstmals": w.get("erstmals"),
+                              "probleme": ["kein Grundriss"], "im_nest": bool(ids & nest)})
     fehlt.sort(key=lambda e: (not e["im_nest"], e["erstmals"]), reverse=False)
     save_json(DATA / "regelcheck.json", {"datum": dt.date.today().isoformat(), "ohne_haus": fehlt})
     if fehlt:
-        log(f"⚠️ Adressen: {len(fehlt)} neue Wohnungen ohne Haus/Street View: "
-            + ", ".join(f"{e['id']} ({e['adresse'] or 'ohne Adresse'})" for e in fehlt[:10]))
+        log(f"⚠️ Regelcheck: {len(fehlt)} Wohnungen ohne Haus/Street View/Grundriss: "
+            + ", ".join(f"{e['id']} ({', '.join(e['probleme'])})" for e in fehlt[:12]))
     # Volltexte einzeln, damit die Karte schnell lädt und Details erst beim Öffnen holt
     ddir = DOCS / "d"
     ddir.mkdir(exist_ok=True)

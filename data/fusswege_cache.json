@@ -33808,5 +33808,47 @@
    384,
    481
   ]
+ },
+ "48.25344,16.34908": {
+  "Perntergasse": [
+   732,
+   916
+  ],
+  "Bretschneidergasse": [
+   55,
+   68
+  ],
+  "Döblinger Bad": [
+   696,
+   870
+  ],
+  "Fernsprechamt Heiligenstadt": [
+   675,
+   844
+  ],
+  "Grinzing": [
+   513,
+   641
+  ],
+  "Hohe Warte": [
+   622,
+   778
+  ],
+  "An den langen Lüssen": [
+   410,
+   665
+  ],
+  "Armbrustergasse": [
+   427,
+   534
+  ],
+  "Neugebauerweg": [
+   196,
+   246
+  ],
+  "Paradisgasse": [
+   743,
+   1080
+  ]
  }
 }

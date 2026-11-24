@@ -15,7 +15,7 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   der Karte angezeigt). Die schon bekannten bleiben, wie sie sind (Saad: "Lass alle, die wir jetzt haben, drinnen,
   der Cut-off ist für die Zukunft"). Ist bei einer neuen nur der Bezirk bekannt, ist sie grau, bis die Adresse
   recherchiert ist (der Bezirkspunkt sagt nichts über die Gürtelzeit). Ausnahmen nur auf Saads Wort:
-  review `{"guertel": {"ok": true}}` (2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min, Nest).
+  review `{"guertel": {"ok": true}}` (2026-11-12: Seleskowitschgasse 2, 3 Zimmer, 14 min, Nest); 2026-11-24: Grinzinger Straße 34 „Haus im Haus“, 5 Zi, 22 min).
   Genauso für die Zonen: review `{"zone": {"ok": true}}` lässt eine Wohnung außerhalb der Zonen drin (2026-11-15: 3SI-Neubau
   Obere Donaustraße 23 zwischen Augarten und Donaukanal, beide 107,81-m²-Wohnungen; Saad wollte das Projekt zurück, als NEU).
   Und für die 3-Zimmer-Preisgrenze (`preis_max_3_zimmer`): review `{"preisregel": {"ok": true}}` (2026-11-22: Maison Währing,

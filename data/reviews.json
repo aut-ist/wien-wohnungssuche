@@ -33472,7 +33472,11 @@
    "lon": 16.349079,
    "begruendung": "Inseratsfotos gegen Orthofoto Stadt Wien (bmaporthofoto30cm) und Gebäudedaten: graues Dach mit Oberlichtern, Terrasse + Rasen im Süden = Grinzinger Straße 34; Foto vom Ostbalkon zeigt gelbe Villa mit rotem Walmdach = Nachbarhaus 36-38 (östlich), Gartenfoto zeigt links das Giebelhaus 32 (westlich); 38A Bretschneidergasse ca. 90 m, Maklerpunkt (bis 256 m versetzt) 65 m"
   },
-  "datum": "2026-11-24"
+  "datum": "2026-11-24",
+  "guertel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-24: Ausnahme, Grinzinger Straße 34 (Haus im Haus) trotz 22 min zum Gürtel wieder auf die Karte"
+  }
  },
  "wh-1786388094": {
   "lage": {
@@ -33522,6 +33526,10 @@
    "lon": 16.349079,
    "begruendung": "Inseratsfotos gegen Orthofoto Stadt Wien (bmaporthofoto30cm) und Gebäudedaten: graues Dach mit Oberlichtern, Terrasse + Rasen im Süden = Grinzinger Straße 34; Foto vom Ostbalkon zeigt gelbe Villa mit rotem Walmdach = Nachbarhaus 36-38 (östlich), Gartenfoto zeigt links das Giebelhaus 32 (westlich); 38A Bretschneidergasse ca. 90 m, Maklerpunkt (bis 256 m versetzt) 65 m"
   },
-  "datum": "2026-11-24"
+  "datum": "2026-11-24",
+  "guertel": {
+   "ok": true,
+   "begruendung": "Saad 2026-11-24: Ausnahme, Grinzinger Straße 34 (Haus im Haus) trotz 22 min zum Gürtel wieder auf die Karte"
+  }
  }
 }

@@ -142,6 +142,9 @@ Zusätzlich jedes angesehene Bild in `data/grundriss_klassen.json` eintragen (Fi
 (Saad 2026-11-17), "haesslich" ganz hinten; Lagepläne/Logos/Fotos ("kein") bleiben, wo sie sind. Der automatische Grundriss-Wert
 verwechselt Lagepläne, Finanzierungs-Logos und Badfotos mit Plänen, deshalb zählt die Klasse.
 Danach `python run.py build`: der neue Grundriss ist das zweite Foto.
+"unlesbar" nur, wenn man wirklich keine Räume erkennt (Saad 2026-11-24: „wenn unlesbar ist, kann man nix machen“). Sind Raumnamen,
+m² oder Maßketten lesbar, auch auf einem alten Einreichplan, gedreht oder mit Textmarker, wird gezeichnet (2026-11-24: die
+Cottage-Villa Gymnasiumstraße 61 und Rechte Wienzeile 19 waren als „unlesbar“ abgehakt, hatten aber alle Maße bzw. alle m²).
 
 ### Kein Grundriss vorhanden: schätzen (seit 2026-11-18, Saad)
 Steht in `data/grundriss_offen.json` ein Eintrag mit `"schaetzen": true`, hat die Wohnung keinen einzigen Plan. Zuerst die
