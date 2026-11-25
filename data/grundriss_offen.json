@@ -1,1 +1,272 @@
-[]
+[
+ {
+  "id": "wh-823252424",
+  "ids": [
+   "wh-823252424",
+   "wh-2014900893",
+   "wh-2076424293",
+   "wh-1192975669",
+   "ds-15037696",
+   "is-649675384946",
+   "is-438884833654",
+   "ds-15168404",
+   "ds-15167554",
+   "wh-1268400331",
+   "is-863929428341",
+   "is-960986681582",
+   "ds-15013269",
+   "wh-2089433472"
+  ],
+  "titel": "PREISREDUZIERT- 3 Zimmer Rooftop - Dachgeschoßwohnung nahe AKH - exklusives Wohnen über den Dächern Wiens",
+  "adresse": "Staudgasse 40/17",
+  "flaeche": 78.86,
+  "zimmer": 3,
+  "im_nest": true,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/207/642/4293_-1703011060.jpg",
+   "https://cache.willhaben.at/mmo/3/207/642/4293_1693402039.jpg",
+   "https://cache.willhaben.at/mmo/1/126/840/0331_-1869766647.jpg",
+   "https://cache.willhaben.at/mmo/1/126/840/0331_-803149071.jpg",
+   "https://cache.willhaben.at/mmo/1/126/840/0331_1462388284.jpg",
+   "https://cache.willhaben.at/mmo/1/126/840/0331_367687917.jpg",
+   "https://cache.willhaben.at/mmo/2/208/943/3472_123804140.jpg",
+   "https://cache.willhaben.at/mmo/2/208/943/3472_942019467.jpg",
+   "https://cache.willhaben.at/mmo/9/119/297/5669_-539934132.jpg",
+   "https://cache.willhaben.at/mmo/9/119/297/5669_1059441085.jpg",
+   "https://cache.willhaben.at/mmo/4/823/252/424_-181697573.jpg",
+   "https://cache.willhaben.at/mmo/4/823/252/424_-899982325.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-823252424/"
+ },
+ {
+  "id": "ds-15233251",
+  "ids": [
+   "ds-15233251",
+   "fm-5728197"
+  ],
+  "titel": "MAHÜ127: Residieren wie ein König - Lichtdurchflutete Dachgeschoßwohnung in Top-Lage des 6. Bezirks",
+  "adresse": "Mariahilfer Straße 127/32",
+  "flaeche": 82.38,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/tGt1nQ/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/a65b2e83dd8dd3f96d0a98c13ff1bf47/Fc_Lbl_M3hCz1kjFLPSnQfrVDHwvi7.jpg_fm_h1080_w1920/71vSdM525nVO5swf4ekeRb20250703.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15233251/"
+ },
+ {
+  "id": "fm-5589725",
+  "ids": [
+   "fm-5589725"
+  ],
+  "titel": "Helle Dachgeschoßwohnung mit 3 Zimmern - stilvoll & ...",
+  "adresse": "Mariahilfer Straße 127/36",
+  "flaeche": 89.78,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://media.findmyhome.at/md1/3/5589725/s1/5gLalalES40yGGrrlqxkVv.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/fm-5589725/"
+ },
+ {
+  "id": "bt-124240696477",
+  "ids": [
+   "bt-124240696477"
+  ],
+  "titel": "Stil-Werk – Top 14, 5 Zimmer",
+  "adresse": "Theresiengasse 10",
+  "flaeche": 134.36,
+  "zimmer": 5,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_01_strasse_fotomontage.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_02_hof_gesamt.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_03_hof_feeling.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_04_strasse_dg_mood.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_05_hof_lage.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_07_penthouse_DG.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/07/theresiengasse_06_penthouse_wohnen.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/2026/11/Makler_Marina-Eiffe_600px.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/parkside-simmering_hero_3840-scaled-rvkmz4ktiffl4fj9uvj6f8t67oqn373iru6tpt09d8.webp",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/16_neusiedl_ausblick-panorama_web-rvkmt85alvcs8k3ubbphrqezyltorlo6mmr399r8fg.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/06_hutweidengasse_Fassade-Strassenansicht_web_1-rvil1isxcvw9ydnxrdrt1w3bbjg99epli48itbe8a4.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/Fassade-Radfahrer_GK-Look_web-rv3ax9off5d72kg4ovv0tfbvdw3gmx7405wg4rcxnw.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/1453-ruxpj25y6adl5ds3tfxevhnzx9g9trddiynknbbdkc.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/20250716_TH123_5_grau-ruwlu7q18me8kl9b9tdmm1z7vc1t1eybqu0651vo18.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/mengergasse_05_fotomontage_persp-ruxrcszk74dl7ia5wv009wenphei7mdhwdc721u2cs.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/rueckertgasse_01_strasse_fotomontage-ruwlv6i29hpui5usmqetob79ulady7se7m54wag3n0.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/Eckhaus-Fassade-2_GK-Look_web-rv37yj47cf90onhnyqw5ocziyq6yk9genuzi9lmc8c.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/haydnstrasse_01_strasse_72dpi-ruqs2cu4qsgyser4thf5zqn1i67312lmslup9v3er0.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/1474-ruqjux6aoe1jolw0ya3issifzccwpuqsic7o3z50fg.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/GK_10_Gebaeude_Ecke_web-ruqyfwz5u6py81b0cpn2xt7o9uq6vxxp0tjommq358.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/theresiengasse_01_strasse_fotomontage-rq0ikdu2mmv6y2kvr4rln0q17gyyo9v798xk1ostik.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/dr_skala_strasse_01_fotomontage_72dpi-rm21ip7hvcuf3mqkv0perpr18k1mynastyq6dwsorw.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/untere_viaduktgasse_01_strasse_DG-rq0b1dz695w5pa7t6hqr9wkvpaochr14bxx02slxf0.jpg",
+   "https://www.grossmann-kaswurm.at/wp-content/uploads/elementor/thumbs/kendlerstrasse_01_fotomontage_front_var2_72dpi-rmc1nuidmp5jum4zi9xi3076tchgac1aphheqp8rxo.jpg"
+  ]
+ },
+ {
+  "id": "wh-1558715918",
+  "ids": [
+   "wh-1558715918",
+   "is-257828476930",
+   "is-603977945985"
+  ],
+  "titel": "Altbauwohnung mit großzügigem Wohn- und Essbereich und separater Küche",
+  "adresse": "Hörnesgasse 22",
+  "flaeche": 75.09,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0010J00001kvuIq-1795549496-a2f39f5f812245e796162616c4cce2f5"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1558715918/"
+ },
+ {
+  "id": "ds-15260722",
+  "ids": [
+   "ds-15260722",
+   "fm-5744106"
+  ],
+  "titel": "\"An der schönen blauen Donau!\"",
+  "adresse": "Neue Donau, Donau Marina, Messe Prater!",
+  "flaeche": 102.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/NpBgDg/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/56dd4e85beb8a4a7d572e3d7673d24e5/Fc_Lb_MRKYa2NRtuVZzeEL7YX9EiB.jpg_fm_h1080_w1920/pnymQ7fqbM1rLQ97y32hk720260904.jpg",
+   "https://ic.ds.at/CCdHog/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/cae365a125adb258e91ef1c99ff53d64/Fc_Lb_MRKYa2NRtuVZzeEL7YX9EiB.jpg_fm_h1080_w1920/GMJUPtu53KCmiLu6kx3Jq820260904.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15260722/"
+ },
+ {
+  "id": "is-493379733532",
+  "ids": [
+   "is-493379733532",
+   "wh-1420590447",
+   "is-015922900307"
+  ],
+  "titel": "Hochwertige Dachgeschosswohnung Erstbezug // Maisonette mit Südwest-Terrasse – Klima &amp; Luftwärmepumpe in Wien 1170",
+  "adresse": null,
+  "flaeche": 86.8,
+  "zimmer": null,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0015I000004BTWu-1779399681-850a9e67400148ec8bdde656ce94bd28"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-493379733532/"
+ },
+ {
+  "id": "is-967594572259",
+  "ids": [
+   "is-967594572259",
+   "wh-1005569409"
+  ],
+  "titel": "Eigentumswohnung mit ca. 99,7 m² nahe Praterstern | 1020 Wien",
+  "adresse": null,
+  "flaeche": 99.7,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000A762x-1795519293-b0e01d3c93e140bdbbf4cdef547a0dec"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-967594572259/"
+ },
+ {
+  "id": "wh-1862297998",
+  "ids": [
+   "wh-1862297998"
+  ],
+  "titel": "NEU: toller Altbau ++ 1030 Wien ++",
+  "adresse": null,
+  "flaeche": 222.0,
+  "zimmer": null,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/186/229/7998_659488465.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1862297998/"
+ },
+ {
+  "id": "is-894671346083",
+  "ids": [
+   "is-894671346083",
+   "wh-1435333277"
+  ],
+  "titel": "VILLAGE IM DRITTEN | BAUFELD 14A | NATÜRLICH DRAUSSEN",
+  "adresse": null,
+  "flaeche": 101.02,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84gh-1767793409-b89766e07f834e08be8594ffd69b08af"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-894671346083/"
+ },
+ {
+  "id": "is-532447280744",
+  "ids": [
+   "is-532447280744",
+   "wh-1823745709"
+  ],
+  "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Wohnung mit großzügiger Freifläche | ANLEGER",
+  "adresse": null,
+  "flaeche": 102.89,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84gh-1767794014-13d328f0129044898c2308ea7d11a261"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-532447280744/"
+ },
+ {
+  "id": "wh-1495937778",
+  "ids": [
+   "wh-1495937778",
+   "is-859870507703"
+  ],
+  "titel": "Sehr coole DG-Wohnung mit 2 schönen Terrassen, Nähe Botanischer Garten",
+  "adresse": null,
+  "flaeche": 97.11,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/8/149/593/7778_167036583.jpg",
+   "https://cache.willhaben.at/mmo/8/149/593/7778_807948200.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1495937778/"
+ },
+ {
+  "id": "wh-1662267813",
+  "ids": [
+   "wh-1662267813",
+   "is-503773980514"
+  ],
+  "titel": "Koffer packen und einziehen! Sonnige, sanierte 4-Zimmer-Wohnung in attraktiver Wieden-Lage",
+  "adresse": null,
+  "flaeche": 124.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://cache.willhaben.at/mmo/3/166/226/7813_-1281915755.jpg",
+   "https://cache.willhaben.at/mmo/3/166/226/7813_-1748734636.jpg",
+   "https://cache.willhaben.at/mmo/3/166/226/7813_-783609043.jpg",
+   "https://cache.willhaben.at/mmo/3/166/226/7813_1632871674.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/wh-1662267813/"
+ }
+]
