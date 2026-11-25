@@ -6148,7 +6148,11 @@
    "sicherheit": "genau",
    "begruendung": "Der Wohnungsspiegel auf https://www.semper47.at führt Top 11, 2. OG, 75,81 m², 3 Zimmer (dort 'verkauft'). JP Immobilien inseriert dieselbe Einheit mit 75,81 m² und 640.000 EUR als 'Semperstrasse 47/11' (ds-15261510, is-617533700971). Dieses LIFESTYLE-Inserat hat dieselbe Fläche, denselben Preis, ist ebenfalls 'nahe Währinger Park' und hat denselben Energieausweis wie das Schwester-Inserat Top 3 (HWB 35,9). 'Stock -2' im Datensatz ist offenbar ein Lesefehler, laut Wohnungsspiegel ist es das 2. OG."
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-25",
+  "heizung": {
+   "ergebnis": "unklar",
+   "begruendung": "Widerspruch: willhaben/ImmoScout/derStandard \"Gasheizung\"/\"Energieträger: Gas\", FindMyHome \"Flüssiggas\", Bauträgerliste Stil-Werk (Theresiengasse 10) \"Luftwärmepumpe, Fußbodenheizung\"; die Gruppe enthält auch Semper47-Inserate (Semperstraße 47, Top 11) – welche Angabe zu welchem Haus gehört, ist offen"
+  }
  },
  "ds-15240345": {
   "lage": {
@@ -19339,7 +19343,11 @@
    "sicherheit": "genau",
    "begruendung": "Inseratstext beider Portale nennt wörtlich 'Die Kettenbrückengasse 8 befindet sich ...' (https://www.immobilienscout24.at/expose/6ab63d634b0779efd2e476b7, https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/urbaner-wohntraum-im-herzen-wiens-grosszuegige-3-zimmer-wohnung-nahe-naschmarkt-883905576/); willhaben-Feld 'Wohnungsnummer: 7', 2. OG. Gegenprobe Stadt Wien: Kettenbrückengasse 8 (1040) ist laut GEBAEUDEINFOOGD der einzige Nachkriegsbau im Abschnitt (nach 1945, 7 Geschoße, Wohnbau) zwischen Biedermeierhäusern (Nr. 4, 6 Schubert-Sterbehaus, 10, 12) - passt zu Baujahr 1962. Adresspunkt ADRESSENOGD = Portalpunkt. Top 7."
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-25",
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "Kein Hinweis auf Vermietung oder Sanierungsbedarf (\"vermietende Partei\" nur in der Doppelmakler-Klausel); Bilder \"teilweise mit KI gestaged\""
+  }
  },
  "wh-883905576": {
   "lage": {
@@ -33441,24 +33449,26 @@
  "wh-1251962869": {
   "lage": {
    "adresse": "Rechte Wienzeile 19",
-   "sicherheit": "ungefaehr",
    "lat": 48.198197,
    "lon": 16.363625,
-   "begruendung": "Titel \"Blick auf den Naschmarkt\", Eckzimmer mit Fenstern an zwei Außenwänden, Altbau 1898, 1. Stock; Maklerpunkt bis 251 m versetzt (Schikanedergasse 4). Im Kreis an der Rechten Wienzeile im 4. nur ein Gründerzeithaus: Nr. 19 (Stadt Wien: 1888, 6 Geschoße, bei der Ecke Schikanedergasse); Hausnummer nicht belegt"
+   "sicherheit": "ungefaehr",
+   "begruendung": "Titel \"Blick auf den Naschmarkt\", Altbau (Inserat 1898), 1. Stock, Eckzimmer mit 4 Fenstern an zwei Außenwänden; Grundriss nennt \"TOP 12 131,00 m²\", keine Adresse. Im Suchkreis (251 m) mit Blick auf den Naschmarkt nur Altbauten an der Rechten Wienzeile 15-23; wahrscheinlichstes Haus Nr. 19 (1888, 6 Geschoße, große Altbauwohnungen, dort wurde 2026 auch eine 134-m²-Wohnung inseriert). Kein Haus im Kreis mit Baujahr 1898 am Naschmarkt; Hausnummer nicht belegt."
   },
   "eckdaten": {
    "zimmer": 3,
    "flaeche": 131
   },
-  "datum": "2026-11-24"
+  "datum": "2026-11-25"
  },
  "ds-15279028": {
   "lage": {
-   "adresse": "",
-   "sicherheit": "unklar",
-   "begruendung": "Nur 6. Bezirk, \"Mariahilferstraße, Gumpendorferstraße, Westbahnhof\" – keine Adresse"
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Liniengasse, Baujahr 1993, 81,64 m², 1. Liftstock, 2 Schlafzimmer in den Gartenhof, sep. WC, AR, TG-Platz 30.000 (Boom/SIRA-Text). Dieselbe Wohnung inseriert Michael Leber (wh-1425161632: 81,64 m², 1993, 29 Einheiten, fGEE 1,01, TG 30.000), dort belegt Liniengasse 48 (Hausnummernschild am Fassadenfoto); CROWND (wh-1385444240) nennt ebenfalls Liniengasse 48."
   },
-  "datum": "2026-11-24"
+  "datum": "2026-11-25"
  },
  "wh-1266689862": {
   "lage": {
@@ -33496,13 +33506,13 @@
  },
  "is-386644379603": {
   "lage": {
-   "adresse": "Landstraßer Hauptstraße",
+   "adresse": "Landstraßer Hauptstraße 151",
+   "lat": 48.192635,
+   "lon": 16.39917,
    "sicherheit": "ungefaehr",
-   "lat": 48.199,
-   "lon": 16.3975,
-   "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\" (Hausnummer unbekannt, Koordinaten geschätzt)"
+   "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\", Baujahr 1996, 1. Liftstock, hofseitig, Garage (Stapelparker). Im Suchkreis (269 m um den versetzten Portalpunkt) liegt an der Einmündung der Petrusgasse nur Landstraßer Hauptstraße 151 (Stadt Wien: nach 1945, 6 Geschoße, Wohnnutzung); 147 ist von 1910, Petrusgasse 15 Gemeindebau 1919-45. Grundriss (Einreichplan) ohne Adresse. Hausnummer nicht belegt."
   },
-  "datum": "2026-11-24"
+  "datum": "2026-11-25"
  },
  "is-685607786805": {
   "lage": {
@@ -33551,5 +33561,334 @@
    "begruendung": "RKM-Plan: TOP 12 neu 145,79 m² (alt 128,86)"
   },
   "datum": "2026-11-24"
+ },
+ "is-512263482632": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Liniengasse, Baujahr 1993, 81,64 m², 1. Liftstock, 2 Schlafzimmer in den Gartenhof, sep. WC, AR, TG-Platz 30.000 (Boom/SIRA-Text). Dieselbe Wohnung inseriert Michael Leber (wh-1425161632: 81,64 m², 1993, 29 Einheiten, fGEE 1,01, TG 30.000), dort belegt Liniengasse 48 (Hausnummernschild am Fassadenfoto); CROWND (wh-1385444240) nennt ebenfalls Liniengasse 48."
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-978423518": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Liniengasse, Baujahr 1993, 81,64 m², 1. Liftstock, 2 Schlafzimmer in den Gartenhof, sep. WC, AR, TG-Platz 30.000 (Boom/SIRA-Text). Dieselbe Wohnung inseriert Michael Leber (wh-1425161632: 81,64 m², 1993, 29 Einheiten, fGEE 1,01, TG 30.000), dort belegt Liniengasse 48 (Hausnummernschild am Fassadenfoto); CROWND (wh-1385444240) nennt ebenfalls Liniengasse 48."
+  },
+  "datum": "2026-11-25"
+ },
+ "is-379802859343": {
+  "lage": {
+   "adresse": "Liniengasse 48",
+   "lat": 48.19141812,
+   "lon": 16.34030727,
+   "sicherheit": "genau",
+   "begruendung": "Liniengasse, Baujahr 1993, 81,64 m², 1. Liftstock, 2 Schlafzimmer in den Gartenhof, sep. WC, AR, TG-Platz 30.000 (Boom/SIRA-Text). Dieselbe Wohnung inseriert Michael Leber (wh-1425161632: 81,64 m², 1993, 29 Einheiten, fGEE 1,01, TG 30.000), dort belegt Liniengasse 48 (Hausnummernschild am Fassadenfoto); CROWND (wh-1385444240) nennt ebenfalls Liniengasse 48."
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1188724989": {
+  "lage": {
+   "adresse": "Landstraßer Hauptstraße 151",
+   "lat": 48.192635,
+   "lon": 16.39917,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\", Baujahr 1996, 1. Liftstock, hofseitig, Garage (Stapelparker). Im Suchkreis (269 m um den versetzten Portalpunkt) liegt an der Einmündung der Petrusgasse nur Landstraßer Hauptstraße 151 (Stadt Wien: nach 1945, 6 Geschoße, Wohnnutzung); 147 ist von 1910, Petrusgasse 15 Gemeindebau 1919-45. Grundriss (Einreichplan) ohne Adresse. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-25"
+ },
+ "ds-15327945": {
+  "lage": {
+   "adresse": "Landstraßer Hauptstraße 151",
+   "lat": 48.192635,
+   "lon": 16.39917,
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Landstraßer Hauptstraße Höhe Petrusgasse\", Baujahr 1996, 1. Liftstock, hofseitig, Garage (Stapelparker). Im Suchkreis (269 m um den versetzten Portalpunkt) liegt an der Einmündung der Petrusgasse nur Landstraßer Hauptstraße 151 (Stadt Wien: nach 1945, 6 Geschoße, Wohnnutzung); 147 ist von 1910, Petrusgasse 15 Gemeindebau 1919-45. Grundriss (Einreichplan) ohne Adresse. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-25"
+ },
+ "ds-15260722": {
+  "lage": {
+   "adresse": "Messe-Prater (U2)",
+   "sicherheit": "ungefaehr",
+   "lat": 48.217759,
+   "lon": 16.405034,
+   "begruendung": "\"Neue Donau, Donau Marina, Messe Prater\", \"U2 Messe Prater/Krieau, Bus 11A\", \"Blick Richtung Donau\", Stadion Center, WU in der Nähe – Gegend Messe/Donau Marina, klar außerhalb des Suchgebiets im 2.; kein Suchkreis, Haus nicht bestimmbar (Punkt = U2 Messe-Prater)"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-967594572259": {
+  "lage": {
+   "adresse": "Heinestraße 32",
+   "sicherheit": "ungefaehr",
+   "lat": 48.219045,
+   "lon": 16.387939,
+   "begruendung": "\"nahe Praterstern\", Altbau 1900, 1. Etage, Lift. Gleicher Makler (Adamant) und gleicher Energieausweis (HWB 22,1 / fGEE 0,67) wie die DG-Wohnungen wh-1117626107/wh-897305797 \"in der Novaragasse nahe dem Praterstern\". Schnitt der drei willhaben-Umkreise (260/265/270 m) enthält keine Novaragasse-Hausnummer, nur Häuser bis zur Ecke Heinestraße/Novaragasse; wahrscheinlichstes Haus Heinestraße 32 (Gründerzeit, 5 Geschoße, an der Novaragasse). Hausnummer nicht belegt; Alternativen Heinestraße 30/35/37, Fugbachgasse"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1862297998": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"1030 Wien\"; Grundriss (Top 8, 220,26 m²: 6 Zimmer, Empfang/Küche, Vorzimmer, Serverraum) ohne Adresse, kein versetzter Punkt"
+  },
+  "eckdaten": {
+   "zimmer": 6,
+   "flaeche": 220
+  },
+  "datum": "2026-11-25"
+ },
+ "is-894671346083": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.1888943,
+   "lon": 16.3961677,
+   "begruendung": "Grundriss-Schriftfeld: \"Top 07, Otto-Preminger-Straße 16, EG, 1030 Wien\", Baufeld 14A, 101,02 m² (Village im Dritten)"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau-Erstbezug, als Vorsorgewohnung beworben, nicht vermietet; \"Fertigstellung: voraussichtlich 2027\" (Baufeld 14A laut EHL-Inserat 2. Quartal 2027), Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 769000,
+   "begruendung": "ARE-Einheitenliste OPS16 Top 07: 769.000 € brutto (netto 692.100 €); Inserat zeigt 769.000 €"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-532447280744": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.1888943,
+   "lon": 16.3961677,
+   "begruendung": "Grundriss-Schriftfeld: \"Top 15, Otto-Preminger-Straße 16, 1.OG, 1030 Wien\", Baufeld 14A, 102,89 m² (Village im Dritten)"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau-Erstbezug, als Anlegerwohnung beworben, nicht vermietet; \"Fertigstellung: voraussichtlich 2027\" (Baufeld 14A laut EHL-Inserat 2. Quartal 2027), Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 815000,
+   "begruendung": "Inserat 733.500 € \"zuzüglich 20 % Umsatzsteuer\" (Anleger); ARE-Wohnungsfinder OPS16 Top 15: 815.000 € (frühere Recherche ds-15013772/ds-15233165)"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-553031297309": {
+  "lage": {
+   "adresse": "Beatrixgasse",
+   "sicherheit": "genau",
+   "lat": 48.20289,
+   "lon": 16.3846,
+   "begruendung": "\"In der Unteren Beatrixgasse nahe Landstraßer Hauptstraße und Bahnhof Wien Mitte\"; DG 1993/94 in Altbau (4. OG von 5), Parkplatz im Innenhof. Hausnummer offen (kein Suchkreis vorhanden)"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1558715918": {
+  "lage": {
+   "adresse": "Hörnesgasse 22",
+   "sicherheit": "genau",
+   "lat": 48.20332,
+   "lon": 16.396447,
+   "begruendung": "Inseratstext: \"In der Hörnesgasse 22 im 3. Wiener Gemeindebezirk bietet Top 7 rund 75 m²\" (willhaben und ImmoScout); Haus laut Stadt Wien Gründerzeit, 6 Geschoße"
+  },
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Heizungsart: Gasheizung\", ImmoScout \"Energieträger: Gas\", Etagenheizung (Fußbodenheizung)"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1495937778": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "\"ruhige Seitenstraße im beliebten Fasanviertel\", \"Nähe Botanischer Garten\" – Gegend, aber kein Haus; die Portalpunkte (willhaben-Schwester wh-1720204682 bei Keinergasse, ImmoScout bei Kölblgasse) liegen fast 1 km auseinander, die Zonengrenze (Belvedere-Ostseite) liegt dazwischen"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1662267813": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"4. Bezirk\", Haus von 1970, 3. Liftstock, Öl-Zentralheizung; Naschmarkt, Schleifmühlviertel, Belvedere, Badner Bahn \"in angenehmer Distanz\" – zu vage; ImmoScout-Punkt ist der Bezirkspunkt (Leibenfrostgasse 8, Altbau 1900)"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-493379733532": {
+  "lage": {
+   "adresse": "Mayssengasse 25",
+   "sicherheit": "ungefaehr",
+   "lat": 48.215925,
+   "lon": 16.323981,
+   "begruendung": "\"In der Mayssengasse, 1170 Wien ... revitalisiertes Wohnhaus\", 10 Einheiten (6 Altbau, Zubau 3. OG + DG), Freiflächen im Innenhof Südwest, \"Linie 2 und 9 mit Haltestellen in der Mayssengasse (ca. 80-130 m)\"; Grundriss Top 10 (79,51 m², DG1+DG2, Terrasse 7,18 m² wie DECUS-Inserat desselben Projekts). Passend: dreigeschoßiges Gründerzeithaus auf der Südseite (Hof nach Süden) mit 80-130 m zu beiden Haltestellen: Nr. 25 (Alternative 27, 22, 24). Hausnummer nicht belegt"
+  },
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-11-25"
+ },
+ "ds-15233251": {
+  "lage": {
+   "adresse": "Mariahilfer Straße 127/32",
+   "sicherheit": "genau",
+   "lat": 48.195297,
+   "lon": 16.340315,
+   "begruendung": "Projekt MAHÜ127 (3SI), Inserat nennt Mariahilfer Straße 127/32; 3SI-Einheitenliste Top 32. FindMyHome hatte den Punkt falsch beim Museumsquartier (Mariahilfer Straße Anfang) gesetzt – das Haus liegt beim Westbahnhof"
+  },
+  "datum": "2026-11-25"
+ },
+ "fm-5728197": {
+  "lage": {
+   "adresse": "Mariahilfer Straße 127/32",
+   "sicherheit": "genau",
+   "lat": 48.195297,
+   "lon": 16.340315,
+   "begruendung": "Projekt MAHÜ127 (3SI), Mariahilfer Straße 127 Top 32; FindMyHome-Punkt war falsch (Museumsquartier)"
+  },
+  "datum": "2026-11-25"
+ },
+ "fm-5589725": {
+  "lage": {
+   "adresse": "Mariahilfer Straße 127/36",
+   "sicherheit": "genau",
+   "lat": 48.195297,
+   "lon": 16.340315,
+   "begruendung": "Inserat nennt Mariahilfer Straße 127/36 (3SI, Projekt MAHÜ127, Einheitenliste Top 36). FindMyHome hatte den Punkt falsch beim Museumsquartier gesetzt – das Haus liegt beim Westbahnhof"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1435333277": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.1888943,
+   "lon": 16.3961677,
+   "begruendung": "Grundriss-Schriftfeld: \"Top 07, Otto-Preminger-Straße 16, EG, 1030 Wien\", Baufeld 14A, 101,02 m² (Village im Dritten)"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau-Erstbezug, als Vorsorgewohnung beworben, nicht vermietet; \"Fertigstellung: voraussichtlich 2027\" (Baufeld 14A laut EHL-Inserat 2. Quartal 2027), Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 769000,
+   "begruendung": "ARE-Einheitenliste OPS16 Top 07: 769.000 € brutto (netto 692.100 €); Inserat zeigt 769.000 €"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1823745709": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.1888943,
+   "lon": 16.3961677,
+   "begruendung": "Grundriss-Schriftfeld: \"Top 15, Otto-Preminger-Straße 16, 1.OG, 1030 Wien\", Baufeld 14A, 102,89 m² (Village im Dritten)"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Neubau-Erstbezug, als Anlegerwohnung beworben, nicht vermietet; \"Fertigstellung: voraussichtlich 2027\" (Baufeld 14A laut EHL-Inserat 2. Quartal 2027), Termin erfragen"
+  },
+  "preis": {
+   "eigennutzer": 815000,
+   "begruendung": "Inserat 733.500 € \"zuzüglich 20 % Umsatzsteuer\" (Anleger); ARE-Wohnungsfinder OPS16 Top 15: 815.000 € (frühere Recherche ds-15013772/ds-15233165)"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1005569409": {
+  "lage": {
+   "adresse": "Heinestraße 32",
+   "sicherheit": "ungefaehr",
+   "lat": 48.219045,
+   "lon": 16.387939,
+   "begruendung": "\"nahe Praterstern\", Altbau 1900, 1. Etage, Lift. Gleicher Makler (Adamant) und gleicher Energieausweis (HWB 22,1 / fGEE 0,67) wie die DG-Wohnungen wh-1117626107/wh-897305797 \"in der Novaragasse nahe dem Praterstern\". Schnitt der drei willhaben-Umkreise (260/265/270 m) enthält keine Novaragasse-Hausnummer, nur Häuser bis zur Ecke Heinestraße/Novaragasse; wahrscheinlichstes Haus Heinestraße 32 (Gründerzeit, 5 Geschoße, an der Novaragasse). Hausnummer nicht belegt; Alternativen Heinestraße 30/35/37, Fugbachgasse"
+  },
+  "datum": "2026-11-25"
+ },
+ "wh-1420590447": {
+  "lage": {
+   "adresse": "Mayssengasse 25",
+   "sicherheit": "ungefaehr",
+   "lat": 48.215925,
+   "lon": 16.323981,
+   "begruendung": "\"In der Mayssengasse, 1170 Wien ... revitalisiertes Wohnhaus\", 10 Einheiten (6 Altbau, Zubau 3. OG + DG), Freiflächen im Innenhof Südwest, \"Linie 2 und 9 mit Haltestellen in der Mayssengasse (ca. 80-130 m)\"; Grundriss Top 10 (79,51 m², DG1+DG2, Terrasse 7,18 m² wie DECUS-Inserat desselben Projekts). Passend: dreigeschoßiges Gründerzeithaus auf der Südseite (Hof nach Süden) mit 80-130 m zu beiden Haltestellen: Nr. 25 (Alternative 27, 22, 24). Hausnummer nicht belegt"
+  },
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-11-25"
+ },
+ "is-015922900307": {
+  "lage": {
+   "adresse": "Mayssengasse 25",
+   "sicherheit": "ungefaehr",
+   "lat": 48.215925,
+   "lon": 16.323981,
+   "begruendung": "\"In der Mayssengasse, 1170 Wien ... revitalisiertes Wohnhaus\", 10 Einheiten (6 Altbau, Zubau 3. OG + DG), Freiflächen im Innenhof Südwest, \"Linie 2 und 9 mit Haltestellen in der Mayssengasse (ca. 80-130 m)\"; Grundriss Top 10 (79,51 m², DG1+DG2, Terrasse 7,18 m² wie DECUS-Inserat desselben Projekts). Passend: dreigeschoßiges Gründerzeithaus auf der Südseite (Hof nach Süden) mit 80-130 m zu beiden Haltestellen: Nr. 25 (Alternative 27, 22, 24). Hausnummer nicht belegt"
+  },
+  "eckdaten": {
+   "zimmer": 3
+  },
+  "datum": "2026-11-25"
+ },
+ "fm-5744106": {
+  "lage": {
+   "adresse": "Messe-Prater (U2)",
+   "sicherheit": "ungefaehr",
+   "lat": 48.217759,
+   "lon": 16.405034,
+   "begruendung": "\"Neue Donau, Donau Marina, Messe Prater\", \"U2 Messe Prater/Krieau, Bus 11A\", \"Blick Richtung Donau\", Stadion Center, WU in der Nähe – Gegend Messe/Donau Marina, klar außerhalb des Suchgebiets im 2.; kein Suchkreis, Haus nicht bestimmbar (Punkt = U2 Messe-Prater)"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-859870507703": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "\"ruhige Seitenstraße im beliebten Fasanviertel\", \"Nähe Botanischer Garten\" – Gegend, aber kein Haus; die Portalpunkte (willhaben-Schwester wh-1720204682 bei Keinergasse, ImmoScout bei Kölblgasse) liegen fast 1 km auseinander, die Zonengrenze (Belvedere-Ostseite) liegt dazwischen"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-503773980514": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"4. Bezirk\", Haus von 1970, 3. Liftstock, Öl-Zentralheizung; Naschmarkt, Schleifmühlviertel, Belvedere, Badner Bahn \"in angenehmer Distanz\" – zu vage; ImmoScout-Punkt ist der Bezirkspunkt (Leibenfrostgasse 8, Altbau 1900)"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-257828476930": {
+  "lage": {
+   "adresse": "Hörnesgasse 22",
+   "sicherheit": "genau",
+   "lat": 48.20332,
+   "lon": 16.396447,
+   "begruendung": "Inseratstext: \"In der Hörnesgasse 22 im 3. Wiener Gemeindebezirk bietet Top 7 rund 75 m²\" (willhaben und ImmoScout); Haus laut Stadt Wien Gründerzeit, 6 Geschoße"
+  },
+  "datum": "2026-11-25"
+ },
+ "is-603977945985": {
+  "lage": {
+   "adresse": "Hörnesgasse 22",
+   "sicherheit": "genau",
+   "lat": 48.20332,
+   "lon": 16.396447,
+   "begruendung": "Inseratstext: \"In der Hörnesgasse 22 im 3. Wiener Gemeindebezirk bietet Top 7 rund 75 m²\" (willhaben und ImmoScout); Haus laut Stadt Wien Gründerzeit, 6 Geschoße"
+  },
+  "datum": "2026-11-25"
+ },
+ "bt-124240696477": {
+  "lage": {
+   "adresse": "Theresiengasse 10/14",
+   "sicherheit": "genau",
+   "lat": 48.218336,
+   "lon": 16.340963,
+   "begruendung": "Verkaufsliste Grossmann + Kaswurm (THE10_VK_gesamt.pdf): Stil-Werk, Theresiengasse 10, Top 14, 3. OG, 5 Zimmer, 134,36 m²; Koordinaten wie Top 11 desselben Hauses"
+  },
+  "datum": "2026-11-25"
  }
 }

@@ -8827,5 +8827,141 @@
   "titel": "Exklusive 5-Zi Dachgeschosswohnung mit 2 Balkonen, Terrasse & Erstbezug in 1180 Wien",
   "ergebnis": "Währinger Gürtel 79 Top 12 (genau): gleicher Umbauplan wie Top 13 (Brutkasten), Nachbarwohnung",
   "datum": "2026-11-24"
+ },
+ "ds-15279028": {
+  "ids": [
+   "ds-15279028",
+   "is-512263482632",
+   "wh-978423518",
+   "is-379802859343"
+  ],
+  "titel": "VOLLSANIERTE 3-Zimmer Wohnung - ca 82 m², Top Lage",
+  "ergebnis": "genau: Liniengasse 48 (1. Stock, 81,64 m²) – Boom-Text nennt Liniengasse, Bj. 1993; dieselbe Wohnung bei Michael Leber (wh-1425161632, 81,64 m², 29 Einheiten, fGEE 1,01, TG-Platz 30.000) mit Hausnummernschild 48 am Fassadenfoto, CROWND (wh-1385444240) nennt Liniengasse 48. Raus (westlicher 6.).",
+  "datum": "2026-11-25"
+ },
+ "is-386644379603": {
+  "ids": [
+   "is-386644379603",
+   "wh-1188724989",
+   "ds-15327945"
+  ],
+  "titel": "Landstraßer Hauptstraße - hofseitiger 3 Zimmer Neubau mit Garagenplatz",
+  "ergebnis": "ungefaehr: Landstraßer Hauptstraße 151 – Text \"Höhe Petrusgasse\", Bj. 1996, 1. Liftstock; im Suchkreis (269 m) an der Petrusgasse-Einmündung einziges Nachkriegs-Wohnhaus (6 Geschoße). Grundriss (Einreichplan, FOK +3,40) ohne Adresse; keine Schwester-Inserate (BRI, HWB 56,2); Websuche (BRI + Titel) ohne Treffer; Makler-Seite aus der Cloud nicht erreichbar. Raus (südlich der Zone).",
+  "datum": "2026-11-25"
+ },
+ "wh-1251962869": {
+  "ids": [
+   "wh-1251962869"
+  ],
+  "titel": "Großzügige Altbauwohnung mit Blick auf den Naschmarkt",
+  "ergebnis": "ungefaehr: Rechte Wienzeile 19 – Grundriss nennt \"TOP 12 131,00 m²\", 1. Stock, Eckzimmer mit 4 Fenstern; Blick auf den Naschmarkt => Häuserzeile Rechte Wienzeile 15-23 im Suchkreis, Nr. 19 (1888, 6 Geschoße, große Altbauwohnungen). Schwester-Inserate: keine (Börner, HWB 113,3/fGEE 2,16 sonst nur andere Makler); Websuchen (Titel, Börner Naschmarkt 131 m²) ohne Treffer; Makler-Seite nicht gefunden.",
+  "datum": "2026-11-25"
+ },
+ "is-967594572259": {
+  "ids": [
+   "is-967594572259",
+   "wh-1005569409"
+  ],
+  "titel": "Eigentumswohnung mit ca. 99,7 m² nahe Praterstern",
+  "ergebnis": "ungefaehr: Heinestraße 32 – gleicher Energieausweis (HWB 22,1/fGEE 0,67) wie Adamant-DG-Wohnungen \"in der Novaragasse nahe dem Praterstern\" (wh-1117626107, wh-897305797); Schnittmenge der drei willhaben-Umkreise enthält nur Häuser bis zur Ecke Heinestraße/Novaragasse; Grundriss ohne Adresse. Raus (2. außerhalb Zone).",
+  "datum": "2026-11-25"
+ },
+ "is-894671346083": {
+  "ids": [
+   "is-894671346083",
+   "wh-1435333277"
+  ],
+  "titel": "VILLAGE IM DRITTEN | BAUFELD 14A | NATÜRLICH DRAUSSEN",
+  "ergebnis": "genau: Otto-Preminger-Straße 16, Top 07, EG – Grundriss-Schriftfeld (Village im Dritten, Baufeld 14A, 101,02 m²). Raus (Zone).",
+  "datum": "2026-11-25"
+ },
+ "is-532447280744": {
+  "ids": [
+   "is-532447280744",
+   "wh-1823745709"
+  ],
+  "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Wohnung",
+  "ergebnis": "genau: Otto-Preminger-Straße 16, Top 15, 1. OG – Grundriss-Schriftfeld (Baufeld 14A, 102,89 m²). Raus (Zone).",
+  "datum": "2026-11-25"
+ },
+ "is-493379733532": {
+  "ids": [
+   "is-493379733532",
+   "wh-1420590447",
+   "is-015922900307"
+  ],
+  "titel": "Hochwertige Dachgeschosswohnung Erstbezug // Maisonette (Mayssengasse)",
+  "ergebnis": "ungefaehr: Mayssengasse 25 – Grundriss Top 10 (79,51 m², DG1/DG2, Terrasse 7,18 m² wie DECUS-Inserat desselben Projekts); Text: Haltestellen Linie 2 und 9 \"in der Mayssengasse (ca. 80-130 m)\", Hof Südwest => Südseite, Nr. 22-27; gewählt 25. Raus (17. außerhalb).",
+  "datum": "2026-11-25"
+ },
+ "ds-15260722": {
+  "ids": [
+   "ds-15260722",
+   "fm-5744106"
+  ],
+  "titel": "\"An der schönen blauen Donau!\"",
+  "ergebnis": "ungefaehr: Gegend Messe-Prater/Donau Marina (Punkt U2 Messe-Prater), kein Suchkreis, kein Grundriss-Schriftfeld (2 Pläne ohne Adresse). Raus (2. außerhalb Zone).",
+  "datum": "2026-11-25"
+ },
+ "ds-15233251": {
+  "ids": [
+   "ds-15233251",
+   "fm-5728197"
+  ],
+  "titel": "MAHÜ127: Residieren wie ein König",
+  "ergebnis": "genau: Mariahilfer Straße 127/32 (Projekt MAHÜ127, 3SI-Einheitenliste); FindMyHome-Punkt lag falsch beim Museumsquartier, dadurch war die Wohnung grün. Jetzt raus (westlicher 6.).",
+  "datum": "2026-11-25"
+ },
+ "fm-5589725": {
+  "ids": [
+   "fm-5589725"
+  ],
+  "titel": "Helle Dachgeschoßwohnung mit 3 Zimmern (MAHÜ127)",
+  "ergebnis": "genau: Mariahilfer Straße 127/36 (3SI, Top 36); FindMyHome-Punkt lag falsch beim Museumsquartier. Jetzt raus.",
+  "datum": "2026-11-25"
+ },
+ "bt-124240696477": {
+  "ids": [
+   "bt-124240696477"
+  ],
+  "titel": "Stil-Werk – Top 14, 5 Zimmer",
+  "ergebnis": "genau: Theresiengasse 10, Top 14, 3. OG (Verkaufsliste Grossmann + Kaswurm, THE10_VK_gesamt.pdf).",
+  "datum": "2026-11-25"
+ },
+ "wh-1558715918": {
+  "ids": [
+   "wh-1558715918",
+   "is-257828476930",
+   "is-603977945985"
+  ],
+  "titel": "Altbauwohnung mit großzügigem Wohn- und Essbereich und separater Küche",
+  "ergebnis": "genau: Hörnesgasse 22, Top 7 (Inseratstext willhaben/ImmoScout: \"In der Hörnesgasse 22 ... bietet Top 7 rund 75 m²\"); Haus im Suchkreis bestätigt (Gründerzeit, 6 Geschoße).",
+  "datum": "2026-11-25"
+ },
+ "wh-1862297998": {
+  "ids": [
+   "wh-1862297998"
+  ],
+  "titel": "NEU: toller Altbau ++ 1030 Wien ++",
+  "ergebnis": "unklar: Text nur \"1030 Wien\", ca. 222 m²; Schwester-Inserate: keine (AUSTREAL, HWB 112,9/fGEE 3,55, keine gemeinsamen Fotos); Grundriss: Top 8, 220,26 m², 6 Zimmer + Empfang/Küche + Serverraum, ohne Adresse/Schriftfeld; Makler-Seite www.austreal.at aus der Cloud nicht erreichbar; Websuche \"austreal toller Altbau 1030 222 m² 975.000\" ohne Treffer; kein versetzter Punkt, keine Hauskandidaten.",
+  "datum": "2026-11-25"
+ },
+ "wh-1495937778": {
+  "ids": [
+   "wh-1495937778",
+   "is-859870507703"
+  ],
+  "titel": "Sehr coole DG-Wohnung mit 2 schönen Terrassen, Nähe Botanischer Garten",
+  "ergebnis": "unklar: \"ruhige Seitenstraße im Fasanviertel, Nähe Botanischer Garten\"; Schwester wh-1720204682 (gleiche 9 Fotos, Volpini) ohne Adresse; Grundriss: Top 33, 97,35 m², ohne Adresse; Websuche \"Volpini DG Fasanviertel 2 Terrassen 97 m²\" ohne Treffer; Volpini-Seite aus der Cloud nicht erreichbar; Portalpunkte (Keinergasse bzw. Kölblgasse) widersprechen sich, kein Suchkreis.",
+  "datum": "2026-11-25"
+ },
+ "wh-1662267813": {
+  "ids": [
+   "wh-1662267813",
+   "is-503773980514"
+  ],
+  "titel": "Koffer packen und einziehen! Sonnige, sanierte 4-Zimmer-Wohnung",
+  "ergebnis": "unklar: nur 4. Bezirk, Haus 1970, 3. Liftstock, Öl-Zentralheizung; Schwester-Inserate: keine mit gleichem Energieausweis (HWB 204), gemeinsame Fotos nur PlanetHome-Visitenkarte; Grundrisse (4 Bilder: Visitenkarte, Ausweis, 2 Pläne grundriss.de) ohne Adresse; Websuche \"PlanetHome Koffer packen Wieden 124 m² 1970\" ohne Treffer; planethome.at nicht erreichbar; ImmoScout-Punkt = Bezirkspunkt.",
+  "datum": "2026-11-25"
  }
 }
