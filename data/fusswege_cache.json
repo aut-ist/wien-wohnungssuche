@@ -34916,5 +34916,225 @@
    375,
    468
   ]
+ },
+ "48.20332,16.39645": {
+  "Rasumofskygasse": [
+   264,
+   329
+  ],
+  "Radetzkyplatz": [
+   797,
+   995
+  ],
+  "Löwengasse": [
+   283,
+   354
+  ],
+  "Barichgasse": [
+   545,
+   679
+  ],
+  "Rochusgasse": [
+   318,
+   398
+  ],
+  "Sechskrügelgasse": [
+   682,
+   853
+  ],
+  "Hintzerstraße": [
+   452,
+   565
+  ],
+  "Weyrgasse": [
+   569,
+   712
+  ],
+  "Wittelsbachstraße": [
+   390,
+   486
+  ],
+  "Ziehrerplatz": [
+   570,
+   710
+  ],
+  "Hainburger Straße": [
+   488,
+   610
+  ],
+  "Eslarngasse": [
+   687,
+   856
+  ],
+  "Klinik Landstraße": [
+   911,
+   1136
+  ],
+  "Friedensgasse": [
+   572,
+   715
+  ],
+  "Geusaugasse": [
+   143,
+   179
+  ],
+  "Hetzgasse": [
+   554,
+   692
+  ],
+  "Josef-Gall-Gasse": [
+   665,
+   829
+  ],
+  "Kardinal-Nagl-Platz": [
+   704,
+   878
+  ],
+  "Mitte-Landstraße": [
+   830,
+   1038
+  ],
+  "Apostelgasse": [
+   368,
+   460
+  ],
+  "Lukschgasse": [
+   679,
+   849
+  ],
+  "Marxergasse": [
+   797,
+   996
+  ],
+  "Ungargasse/Neulinggasse": [
+   840,
+   1048
+  ]
+ },
+ "48.20289,16.38460": {
+  "Rasumofskygasse": [
+   763,
+   953
+  ],
+  "Löwengasse": [
+   865,
+   1081
+  ],
+  "Rennweg": [
+   742,
+   928
+  ],
+  "Riemergasse": [
+   770,
+   963
+  ],
+  "Rochusgasse": [
+   494,
+   617
+  ],
+  "Schwarzenbergplatz": [
+   754,
+   942
+  ],
+  "Sechskrügelgasse": [
+   278,
+   348
+  ],
+  "Stadtpark": [
+   445,
+   556
+  ],
+  "Unteres Belvedere": [
+   707,
+   884
+  ],
+  "Hintzerstraße": [
+   679,
+   848
+  ],
+  "Weihburggasse": [
+   579,
+   724
+  ],
+  "Weyrgasse": [
+   352,
+   440
+  ],
+  "Ziehrerplatz": [
+   733,
+   916
+  ],
+  "Am Heumarkt": [
+   695,
+   869
+  ],
+  "Akademietheater": [
+   586,
+   732
+  ],
+  "Stubenbastei": [
+   614,
+   768
+  ],
+  "Liebenberggasse": [
+   661,
+   826
+  ],
+  "Himmelpfortgasse": [
+   804,
+   1006
+  ],
+  "Schellinggasse": [
+   782,
+   977
+  ],
+  "Stubentor": [
+   585,
+   731
+  ],
+  "Stubentor U": [
+   550,
+   688
+  ],
+  "Klinik Landstraße": [
+   916,
+   1145
+  ],
+  "Geusaugasse": [
+   796,
+   995
+  ],
+  "Am Modenapark": [
+   455,
+   569
+  ],
+  "Gußhausstraße": [
+   776,
+   969
+  ],
+  "Hetzgasse": [
+   812,
+   1016
+  ],
+  "Julius-Raab-Platz": [
+   900,
+   1124
+  ],
+  "Mitte-Landstraße": [
+   308,
+   385
+  ],
+  "Lisztstraße": [
+   562,
+   702
+  ],
+  "Marxergasse": [
+   465,
+   581
+  ],
+  "Ungargasse/Neulinggasse": [
+   482,
+   602
+  ]
  }
 }

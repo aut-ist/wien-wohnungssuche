@@ -71,14 +71,17 @@ def zum_zeichnen():
     if basis.exists():
         for d in basis.iterdir():
             if d.name not in ids:
-                shutil.rmtree(d)
+                shutil.rmtree(d, ignore_errors=True)
     for e in offen:
         ziel = basis / e["id"]
         if ziel.exists():
             continue
         ziel.mkdir(parents=True)
         liste = []
-        for k, url in enumerate(e["plaene"][:6]):
+        # ohne Plan ("schaetzen": true, Saad 2026-11-18) die Fotos laden, damit die Routine schätzen kann; bis 2026-11-25
+        # stürzte die Schleife hier ab (KeyError "plaene") und alle späteren Wohnungen bekamen keinen Ordner
+        urls = e.get("plaene") or [u for u in e.get("fotos") or [] if u.startswith("http")][:12]
+        for k, url in enumerate(urls[:12] if e.get("schaetzen") else urls[:6]):
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
                     img = Image.open(io.BytesIO(r.read()))
@@ -104,7 +107,7 @@ def main():
         if basis.exists():
             for d in basis.iterdir():
                 if d.name not in ids:
-                    shutil.rmtree(d)
+                    shutil.rmtree(d, ignore_errors=True)
         for e in offen:
             if not (basis / e["id"]).exists():
                 speichern(next(x for x in daten if x["id"] == e["id"]), basis / e["id"])
