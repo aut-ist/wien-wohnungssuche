@@ -2,39 +2,9 @@
  "datum": "2026-11-25",
  "ohne_haus": [
   {
-   "id": "wh-823252424",
-   "titel": "PREISREDUZIERT- 3 Zimmer Rooftop - Dachgeschoßwohnung nahe AKH - exklusives Wohn",
-   "adresse": "Staudgasse 40/17",
-   "erstmals": "2026-10-25",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": true
-  },
-  {
-   "id": "ds-15233251",
-   "titel": "MAHÜ127: Residieren wie ein König - Lichtdurchflutete Dachgeschoßwohnung in Top-",
-   "adresse": "Mariahilfer Straße 127/32",
-   "erstmals": "2026-11-16",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "fm-5589725",
-   "titel": "Helle Dachgeschoßwohnung mit 3 Zimmern - stilvoll & ...",
-   "adresse": "Mariahilfer Straße 127/36",
-   "erstmals": "2026-11-16",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
    "id": "bt-124240696477",
    "titel": "Stil-Werk – Top 14, 5 Zimmer",
-   "adresse": "Theresiengasse 10",
+   "adresse": "Theresiengasse 10/14",
    "erstmals": "2026-11-22",
    "probleme": [
     "kein Grundriss"
@@ -42,38 +12,18 @@
    "im_nest": false
   },
   {
-   "id": "is-967594572259",
-   "titel": "Eigentumswohnung mit ca. 99,7 m² nahe Praterstern | 1020 Wien",
-   "adresse": null,
+   "id": "wh-1558715918",
+   "titel": "Altbauwohnung mit großzügigem Wohn- und Essbereich und separater Küche",
+   "adresse": "Hörnesgasse 22",
    "erstmals": "2026-11-25",
    "probleme": [
-    "keine Hausnummer"
+    "kein Street-View-Punkt"
    ],
    "im_nest": false
   },
   {
    "id": "wh-1862297998",
    "titel": "NEU: toller Altbau ++ 1030 Wien ++",
-   "adresse": null,
-   "erstmals": "2026-11-25",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-894671346083",
-   "titel": "VILLAGE IM DRITTEN | BAUFELD 14A | NATÜRLICH DRAUSSEN",
-   "adresse": null,
-   "erstmals": "2026-11-25",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-532447280744",
-   "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Wohnung mit großzügiger Freifläche | AN",
    "adresse": null,
    "erstmals": "2026-11-25",
    "probleme": [
