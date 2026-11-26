@@ -34112,7 +34112,8 @@
    "lon": 16.335675,
    "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
   },
-  "datum": "2026-11-26"
+  "datum": "2026-11-26",
+  "gleich_wie": "wh-853170041"
  },
  "wh-1241774133": {
   "lage": {
@@ -34122,7 +34123,8 @@
    "lon": 16.335675,
    "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
   },
-  "datum": "2026-11-26"
+  "datum": "2026-11-26",
+  "gleich_wie": "wh-853170041"
  },
  "wh-1424925157": {
   "lage": {
@@ -34132,7 +34134,8 @@
    "lon": 16.335675,
    "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
   },
-  "datum": "2026-11-26"
+  "datum": "2026-11-26",
+  "gleich_wie": "wh-853170041"
  },
  "wh-1505801815": {
   "lage": {
@@ -34142,12 +34145,493 @@
    "lon": 16.335675,
    "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
   },
-  "datum": "2026-11-26"
+  "datum": "2026-11-26",
+  "gleich_wie": "wh-853170041"
  },
  "wh-2110579465": {
   "zustand": {
    "ergebnis": "raus",
    "begruendung": "Titel: \"Sanierungsbedürftige 3-Zimmer-Altbauwohnung\"; Neu-Inserat von wh-897487003 (gleiche Fotos, Zustand \"Sanierungsbedürftig\")"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5793307": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-229681110987": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-903605119167": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-853170041": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15328121": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5777081": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5785157": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5789096": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5790715": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5791004": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-578056877532": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-268131521261": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-273331939146": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-391358659630": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-681332738068": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-864670720966": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-093712320104": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-318337317615": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-2041854957": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1242236941": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1498801468": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-993157282": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1440318730": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15307858": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15323425": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 6 (1.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/6\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5793490": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-678548825483": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-828015567939": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1459040690": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15326896": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5773361": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5785198": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5789374": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5790746": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5791182": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-088752796210": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-718406803024": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-767840061958": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-738634339508": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-267277844115": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-920541531143": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-524175217322": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1635723331": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1127153428": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1608120789": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15302972": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15323022": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
+  },
+  "datum": "2026-11-26"
+ },
+ "ds-15324643": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
   },
   "datum": "2026-11-26"
  }
