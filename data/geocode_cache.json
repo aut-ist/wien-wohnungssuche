@@ -2940,5 +2940,46 @@
  "pilgramgasse 1, 1050 wien": [
   48.191442,
   16.357136
+ ],
+ "seisgasse 18/17, 1040 wien": [
+  48.187564,
+  16.368359
+ ],
+ "mollardgasse 46/28, 1060 wien": [
+  48.191405,
+  16.351599
+ ],
+ "heiligenstädter straße 175/17, 1190 wien": [
+  48.26622,
+  16.364701
+ ],
+ "bergstraße 129, 1190 wien": null,
+ "antonigasse 79/28, 1180 wien": [
+  48.226342,
+  16.328927
+ ],
+ "lederergasse, 1080 wien": [
+  48.211045,
+  16.348732
+ ],
+ "lederergasse , 1080 wien": [
+  48.213635,
+  16.348353
+ ],
+ "sollingergasse 1, 1190 wien": [
+  48.240901,
+  16.335081
+ ],
+ "pazmanitengasse 14, 1020 wien": [
+  48.221716,
+  16.385223
+ ],
+ "friedrichstr., 1010 wien": [
+  48.200172,
+  16.365875
+ ],
+ "bergsteiggasse 50, 1170 wien": [
+  48.21959,
+  16.336122
  ]
 }

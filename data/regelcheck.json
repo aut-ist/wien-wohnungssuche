@@ -1,6 +1,39 @@
 {
- "datum": "2026-11-25",
+ "datum": "2026-11-26",
  "ohne_haus": [
+  {
+   "id": "wh-1283942818",
+   "titel": "++NEU++ 3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals - in E",
+   "adresse": null,
+   "erstmals": "2026-11-15",
+   "probleme": [
+    "keine Hausnummer",
+    "kein Grundriss"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-1393658732",
+   "titel": "LAGE, LAGE, LAGE: Helle 3-4 Zimmer-Wohnung mit großzügigem Grundriss",
+   "adresse": null,
+   "erstmals": "2026-11-16",
+   "probleme": [
+    "keine Hausnummer",
+    "kein Grundriss"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "ds-15033297",
+   "titel": "Schöne 3-Zimmer Wohnung, Nähe Westbahnhof",
+   "adresse": null,
+   "erstmals": "2026-11-16",
+   "probleme": [
+    "keine Hausnummer",
+    "kein Grundriss"
+   ],
+   "im_nest": false
+  },
   {
    "id": "bt-124240696477",
    "titel": "Stil-Werk – Top 14, 5 Zimmer",
@@ -12,12 +45,24 @@
    "im_nest": false
   },
   {
-   "id": "wh-1862297998",
-   "titel": "NEU: toller Altbau ++ 1030 Wien ++",
+   "id": "is-151788458790",
+   "titel": "Moderne Neubau-Dachgeschosswohnung mit Balkon und Fernblick im 2. Bezirk",
    "adresse": null,
    "erstmals": "2026-11-25",
    "probleme": [
-    "keine Hausnummer"
+    "keine Hausnummer",
+    "kein Grundriss"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "is-418595549989",
+   "titel": "Moderne Dachgeschosswohnung mit Balkon und Fernblick in 1020 Wien",
+   "adresse": null,
+   "erstmals": "2026-11-25",
+   "probleme": [
+    "keine Hausnummer",
+    "kein Grundriss"
    ],
    "im_nest": false
   },
@@ -27,7 +72,8 @@
    "adresse": null,
    "erstmals": "2026-11-25",
    "probleme": [
-    "keine Hausnummer"
+    "keine Hausnummer",
+    "kein Grundriss"
    ],
    "im_nest": false
   },
@@ -36,6 +82,56 @@
    "titel": "Koffer packen und einziehen! Sonnige, sanierte 4-Zimmer-Wohnung in attraktiver W",
    "adresse": null,
    "erstmals": "2026-11-25",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-947370262",
+   "titel": "++ TOP WOHNUNG ++ fünf Zimmer, zwei Bäder, extra Küchenraum und drei Balkone",
+   "adresse": null,
+   "erstmals": "2026-11-26",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "is-013397689123",
+   "titel": "Leben wie im Urlaub in Gersthof!",
+   "adresse": null,
+   "erstmals": "2026-11-26",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-1236816001",
+   "titel": "Perfekter Grundriss - Perfekte Größe - Perfektes, neues Zuhause",
+   "adresse": null,
+   "erstmals": "2026-11-26",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-2110579465",
+   "titel": "++NEU++ Sanierungsbedürftige 3-Zimmer-Altbauwohnung mit 95 m² und Lift am Währin",
+   "adresse": null,
+   "erstmals": "2026-11-26",
+   "probleme": [
+    "keine Hausnummer"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-1590735756",
+   "titel": "Ruhige 4-Zimmer-Wohnung mit Grünblick am Wienerwald - ca. 100 m² in Dornbach",
+   "adresse": null,
+   "erstmals": "2026-11-26",
    "probleme": [
     "keine Hausnummer"
    ],

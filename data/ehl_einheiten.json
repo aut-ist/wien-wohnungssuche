@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-25",
+ "stand": "2026-11-26",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -49,26 +49,6 @@
     "https://www.ehl.at/fileadmin/content/Immobiliensuche/Wohnen/Arsenal_1030_Wien/Blick_auf_8_und_8c.jpg"
    ],
    "einheiten": [
-    {
-     "top": "14",
-     "stiege": "",
-     "geschoss": "2. Etage",
-     "zimmer": "2",
-     "flaeche": "83,9 m2",
-     "eigennutzer": "€ 1.429,02",
-     "href": "https://www.ehl.at/objekt/68128"
-    },
-    {
-     "top": "12",
-     "stiege": "",
-     "geschoss": "5. Etage",
-     "zimmer": "3",
-     "flaeche": "72,34 m2",
-     "eigennutzer": "€ 1.419,14",
-     "href": "https://www.ehl.at/objekt/68514",
-     "loggia": "1,55 m²",
-     "balkon": "3,52 m²"
-    },
     {
      "top": "2",
      "stiege": "",
@@ -956,6 +936,17 @@
      "top": "",
      "stiege": "",
      "geschoss": "1. Etage",
+     "zimmer": "3",
+     "flaeche": "68,44 m2",
+     "eigennutzer": "€ 555.000,-",
+     "href": "https://www.ehl.at/objekt/91491",
+     "loggia": "1,91 m²",
+     "balkon": "6,41 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. Etage",
      "zimmer": "2",
      "flaeche": "48,78 m2",
      "eigennutzer": "€ 350.000,-",
@@ -987,6 +978,28 @@
     {
      "top": "",
      "stiege": "",
+     "geschoss": "2. Etage",
+     "zimmer": "2",
+     "flaeche": "48,78 m2",
+     "eigennutzer": "€ 375.000,-",
+     "href": "https://www.ehl.at/objekt/91496",
+     "loggia": "0,85 m²",
+     "balkon": "1,6 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "3. Etage",
+     "zimmer": "2",
+     "flaeche": "46,87 m2",
+     "eigennutzer": "€ 380.000,-",
+     "href": "https://www.ehl.at/objekt/91497",
+     "loggia": "0,84 m²",
+     "balkon": "1,58 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
      "geschoss": "3. Etage",
      "zimmer": "3",
      "flaeche": "64,68 m2",
@@ -999,12 +1012,34 @@
      "top": "",
      "stiege": "",
      "geschoss": "3. Etage",
+     "zimmer": "3",
+     "flaeche": "68,44 m2",
+     "eigennutzer": "€ 610.000,-",
+     "href": "https://www.ehl.at/objekt/91499",
+     "loggia": "1,91 m²",
+     "balkon": "6,41 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "3. Etage",
      "zimmer": "2",
      "flaeche": "48,78 m2",
      "eigennutzer": "€ 390.000,-",
      "href": "https://www.ehl.at/objekt/91500",
      "loggia": "0,85 m²",
      "balkon": "1,6 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "2",
+     "flaeche": "44,19 m2",
+     "eigennutzer": "€ 380.000,-",
+     "href": "https://www.ehl.at/objekt/91501",
+     "balkon": "1,58 m²",
+     "terrasse": "3,62 m²"
     },
     {
      "top": "",
@@ -5999,7 +6034,7 @@
      "geschoss": "2. Etage",
      "zimmer": "1",
      "flaeche": "27,4 m2",
-     "eigennutzer": "€ 269.000,-",
+     "eigennutzer": "€ 248.000,-",
      "href": "https://www.ehl.at/objekt/93155",
      "loggia": "5,04 m²"
     },
@@ -6009,7 +6044,7 @@
      "geschoss": "2. Etage",
      "zimmer": "1",
      "flaeche": "26,82 m2",
-     "eigennutzer": "€ 269.000,-",
+     "eigennutzer": "€ 245.000,-",
      "href": "https://www.ehl.at/objekt/93157",
      "loggia": "5,04 m²"
     },
@@ -6039,7 +6074,7 @@
      "geschoss": "5. Etage",
      "zimmer": "1",
      "flaeche": "29,04 m2",
-     "eigennutzer": "€ 279.000,-",
+     "eigennutzer": "€ 275.000,-",
      "href": "https://www.ehl.at/objekt/93173",
      "loggia": "1,6 m²"
     },
@@ -6049,7 +6084,7 @@
      "geschoss": "5. Etage",
      "zimmer": "1",
      "flaeche": "28,94 m2",
-     "eigennutzer": "€ 279.000,-",
+     "eigennutzer": "€ 275.000,-",
      "href": "https://www.ehl.at/objekt/93175",
      "loggia": "1,6 m²"
     },
@@ -6059,7 +6094,7 @@
      "geschoss": "6. Etage",
      "zimmer": "1",
      "flaeche": "29,04 m2",
-     "eigennutzer": "€ 289.000,-",
+     "eigennutzer": "€ 275.000,-",
      "href": "https://www.ehl.at/objekt/93179",
      "loggia": "1,6 m²"
     },
@@ -6069,7 +6104,7 @@
      "geschoss": "6. Etage",
      "zimmer": "1",
      "flaeche": "28,94 m2",
-     "eigennutzer": "€ 289.000,-",
+     "eigennutzer": "€ 275.000,-",
      "href": "https://www.ehl.at/objekt/93181",
      "loggia": "1,6 m²"
     },
@@ -6079,7 +6114,7 @@
      "geschoss": "1. DG",
      "zimmer": "3",
      "flaeche": "72,36 m2",
-     "eigennutzer": "€ 675.000,-",
+     "eigennutzer": "€ 624.000,-",
      "href": "https://www.ehl.at/objekt/93185",
      "terrasse": "2,13 m²"
     }

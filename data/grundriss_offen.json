@@ -78,20 +78,158 @@
   ]
  },
  {
-  "id": "wh-1862297998",
+  "id": "wh-941576487",
   "ids": [
-   "wh-1862297998"
+   "wh-941576487",
+   "is-437476315632",
+   "fm-5793535",
+   "is-169754719006",
+   "is-971178784601",
+   "is-980276423435",
+   "fm-5773380",
+   "fm-5777098",
+   "fm-5788279"
   ],
-  "titel": "NEU: toller Altbau ++ 1030 Wien ++",
+  "titel": "NEU! ++ 3 ZIMMER / LOGGIA / KÜCHE / SÜDOST / 4. LIFTSTOCK /1030 WIEN ++",
   "adresse": null,
-  "flaeche": 222.0,
-  "zimmer": 6,
+  "flaeche": 78.0,
+  "zimmer": 3,
   "im_nest": false,
   "neu_gezeichnet": false,
   "plaene": [
-   "https://cache.willhaben.at/mmo/8/186/229/7998_659488465.jpg"
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83lg-1689860636-138e0563db7644a0a505bbd048414def",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83lg-1793907735-c687cc43358e4542b81387501d5624a8",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83lg-1793474885-9a23b2f5a35941a8bc8c424005d81a42",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E83lg-1689860653-12dcc2644bd54480b3281b8a2d47da5e"
   ],
-  "ordner": "data/grundrisse_zeichnen/wh-1862297998/"
+  "ordner": "data/grundrisse_zeichnen/wh-941576487/"
+ },
+ {
+  "id": "wh-1283942818",
+  "ids": [
+   "wh-1283942818",
+   "wh-1241774133",
+   "wh-1424925157",
+   "wh-1505801815"
+  ],
+  "titel": "++NEU++ 3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals - in Errichtung",
+  "adresse": null,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-1907589615.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_745399631.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-126055690.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-565247203.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_861316014.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_370144736.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-1517742641.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_460294064.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_1787292164.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_1802106067.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-1556778208.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-1788289029.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-1408997750.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_1139934200.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_567676747.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-481658609.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_434593827.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-807153822.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-297180024.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_1449324655.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-143139394.jpg",
+   "https://cache.willhaben.at/mmo/8/128/394/2818_-2141052502.jpg"
+  ]
+ },
+ {
+  "id": "wh-1393658732",
+  "ids": [
+   "wh-1393658732"
+  ],
+  "titel": "LAGE, LAGE, LAGE: Helle 3-4 Zimmer-Wohnung mit großzügigem Grundriss",
+  "adresse": null,
+  "flaeche": 100.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/2/139/365/8732_2021147196.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_1257169704.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1161720569.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1203346717.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1707423719.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1638109018.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1992026131.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_178885204.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_197072203.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_239133443.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_1144475196.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_1697382131.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-228750563.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1294220966.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1693164913.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_1822728443.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_121715851.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-823372689.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-539097573.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_770364833.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_-1750447798.jpg",
+   "https://cache.willhaben.at/mmo/2/139/365/8732_1121644227.jpg"
+  ]
+ },
+ {
+  "id": "ds-15033297",
+  "ids": [
+   "ds-15033297"
+  ],
+  "titel": "Schöne 3-Zimmer Wohnung, Nähe Westbahnhof",
+  "adresse": null,
+  "flaeche": 102.92,
+  "zimmer": 3,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://ic.ds.at/kjK7Ag/plain/immoimporte/justimmo2/storage.justimmo.at/thumb/45ba25b0cb2ecdd2a18ebe106e233b71/fm_h1080_w1920/pP7hTS1y7nSJwSNDZG09q20250813.jpg"
+  ],
+  "ordner": "data/grundrisse_zeichnen/ds-15033297/"
+ },
+ {
+  "id": "is-151788458790",
+  "ids": [
+   "is-151788458790",
+   "wh-897305797"
+  ],
+  "titel": "Moderne Neubau-Dachgeschosswohnung mit Balkon und Fernblick im 2. Bezirk",
+  "adresse": null,
+  "flaeche": 102.14,
+  "zimmer": null,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000A762x-1795522627-852f55e0c7374c1f862b7f7567f5a0bc",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000A762x-1795522626-148c2ad477ba46b48621580b3d6e7663"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-151788458790/"
+ },
+ {
+  "id": "is-418595549989",
+  "ids": [
+   "is-418595549989",
+   "wh-1117626107"
+  ],
+  "titel": "Moderne Dachgeschosswohnung mit Balkon und Fernblick in 1020 Wien",
+  "adresse": null,
+  "flaeche": 123.26,
+  "zimmer": 4,
+  "im_nest": false,
+  "neu_gezeichnet": false,
+  "plaene": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000A762x-1795471221-feef4adc4efe463c9cf48730586c9054",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.001P900000A762x-1795471221-50c602270248480abc6604176dffa4b0"
+  ],
+  "ordner": "data/grundrisse_zeichnen/is-418595549989/"
  },
  {
   "id": "wh-1495937778",
@@ -110,5 +248,179 @@
    "https://cache.willhaben.at/mmo/8/149/593/7778_807948200.jpg"
   ],
   "ordner": "data/grundrisse_zeichnen/wh-1495937778/"
+ },
+ {
+  "id": "wh-947370262",
+  "ids": [
+   "wh-947370262"
+  ],
+  "titel": "++ TOP WOHNUNG ++ fünf Zimmer, zwei Bäder, extra Küchenraum und drei Balkone",
+  "adresse": null,
+  "flaeche": 141.9,
+  "zimmer": null,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/2/947/370/262_-413449649.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1333618748.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1477719035.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-2060424937.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_680923979.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1809222193.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1623683289.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1463711651.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-377638297.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1480590218.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_499212772.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1075116312.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-376593009.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1705448827.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1075891225.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1840930168.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-613113085.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-415062930.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1633712343.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1884657340.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1813882096.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1597735079.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1193762244.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1558707793.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-1098973768.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_361268840.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_-592334763.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_646160327.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_946876471.jpg",
+   "https://cache.willhaben.at/mmo/2/947/370/262_1962767807.jpg"
+  ]
+ },
+ {
+  "id": "is-013397689123",
+  "ids": [
+   "is-013397689123",
+   "wh-1650744141"
+  ],
+  "titel": "Leben wie im Urlaub in Gersthof!",
+  "adresse": null,
+  "flaeche": 105.78,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606508-380cffa77bbb4971b4c8c009c2761953",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606509-6a6badb7f92d47eaabec56e03b11742a",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606509-1a02e9fe9dc54dc69c5c3b5f333e28d8",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606509-73160bd3454641a29f23d02a1cb99114",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606510-d9856b27cd3d4294b0e2a84f9de2731e",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606510-76bfb155fd174291a975a53111bb0e12",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606510-707d818e50674cb9ba25ff3f174ef2f6",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606511-97d528f381944496a7e4a3cd156ed44c",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606511-3c6de8eceaf94d7f85e80e3db03a4a21",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606511-39878cbe00674367941f76ff964aa61a",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606511-2b3c1d439f26471583472622b6aa3cb1",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606512-9936ed0728eb438fad49a005771f96ca",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606512-e64cf1d1dd5842c986f57c8917cf8484",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606512-ceee56987e29477a815febd953fe190e",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606513-8dfcd1277e484aab9a4d2c15911fd949",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606513-92f7a70a21db4d738b819e93e3d04ae1",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606513-4ef67469cd7c4ecb98b0ab0d92e30d2a",
+   "https://pictures.immobilienscout24.de/prod.www.immobilienscout24.at/pictureserver/loadPicture?q=70&id=012.0012000001E84IS-1795606539-f70c1d7ddbbf41f3af2e4ed856adec88"
+  ]
+ },
+ {
+  "id": "wh-1236816001",
+  "ids": [
+   "wh-1236816001",
+   "is-966122657194"
+  ],
+  "titel": "Perfekter Grundriss - Perfekte Größe - Perfektes, neues Zuhause",
+  "adresse": null,
+  "flaeche": 84.55,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-2035011594.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-2121651460.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-924550281.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-2144142354.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-1703703163.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-1028491840.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-708690438.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-1756029552.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_1722305609.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-1932467716.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_-2064753000.jpg",
+   "https://cache.willhaben.at/mmo/1/123/681/6001_791903592.jpg"
+  ]
+ },
+ {
+  "id": "wh-2110579465",
+  "ids": [
+   "wh-2110579465"
+  ],
+  "titel": "++NEU++ Sanierungsbedürftige 3-Zimmer-Altbauwohnung mit 95 m² und Lift am Währinger Gürtel",
+  "adresse": null,
+  "flaeche": 95.0,
+  "zimmer": 3,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-549742181.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_642247630.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-1422067613.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-2113997608.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-680620893.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-2027917082.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-784445337.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-2035895663.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-1589467019.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-1565836694.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-1480683203.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_1141247884.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-406800542.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_-2017556250.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_1727985520.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_1656946849.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_1672317949.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_836168697.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_207307693.jpg",
+   "https://cache.willhaben.at/mmo/5/211/057/9465_1955735118.jpg"
+  ]
+ },
+ {
+  "id": "wh-1590735756",
+  "ids": [
+   "wh-1590735756"
+  ],
+  "titel": "Ruhige 4-Zimmer-Wohnung mit Grünblick am Wienerwald - ca. 100 m² in Dornbach",
+  "adresse": null,
+  "flaeche": 100.0,
+  "zimmer": 4,
+  "im_nest": false,
+  "schaetzen": true,
+  "fotos": [
+   "https://cache.willhaben.at/mmo/6/159/073/5756_62588077.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1813025413.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-180798154.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1383183926.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1805312210.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-621797128.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-636022651.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1362822466.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-1037794359.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1793888847.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-139057304.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-1666244004.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-617768074.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-190153903.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-1156097625.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-1799339420.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_310242426.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1372897820.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_1297833460.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-1839228538.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_157824048.jpg",
+   "https://cache.willhaben.at/mmo/6/159/073/5756_-148112154.jpg"
+  ]
  }
 ]
