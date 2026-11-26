@@ -33890,5 +33890,261 @@
    "begruendung": "Verkaufsliste Grossmann + Kaswurm (THE10_VK_gesamt.pdf): Stil-Werk, Theresiengasse 10, Top 14, 3. OG, 5 Zimmer, 134,36 m²; Koordinaten wie Top 11 desselben Hauses"
   },
   "datum": "2026-11-25"
+ },
+ "wh-1189040032": {
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "\"DIE ERSTBEZUGWOHNUNG TOP 11\", \"2025/26 erfolgten Generalsanierung\"; \"Originalzustand renoviert\" betrifft nur das Stiegenhaus"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-750579866976": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA, \"28 moderne Wohnungen\", Nähe Dornerplatz/Kalvarienberggasse, 9er Blumengasse; ÖRAG-Projekt LEONORA = Leopold-Ernst-Gasse 10 (Projektseite, frühere Prüfungen)"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-151788458790": {
+  "lage": {
+   "adresse": "Novaragasse 39",
+   "sicherheit": "ungefaehr",
+   "lat": 48.218471,
+   "lon": 16.387201,
+   "begruendung": "Text: \"in der Novaragasse nahe dem Praterstern\", DG-Ausbau 2022 in Gründerzeithaus. Gleicher Makler und Energieausweis (Adamant, HWB 22,1/fGEE 0,67) wie is-151788458790, is-418595549989, wh-1005569409: Schnitt der drei willhaben-Umkreise (270/265/260 m) enthält nur Novaragasse 37, 38, 39, 41 (Gründerzeit, 5 Geschoße; 36A hat anderen Energieausweis); 39/41 Ecke Aloisgasse passt zum schiefwinkligen Grundriss Top 14. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-26",
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 102.14
+  }
+ },
+ "wh-897305797": {
+  "lage": {
+   "adresse": "Novaragasse 39",
+   "sicherheit": "ungefaehr",
+   "lat": 48.218471,
+   "lon": 16.387201,
+   "begruendung": "Text: \"in der Novaragasse nahe dem Praterstern\", DG-Ausbau 2022 in Gründerzeithaus. Gleicher Makler und Energieausweis (Adamant, HWB 22,1/fGEE 0,67) wie is-151788458790, is-418595549989, wh-1005569409: Schnitt der drei willhaben-Umkreise (270/265/260 m) enthält nur Novaragasse 37, 38, 39, 41 (Gründerzeit, 5 Geschoße; 36A hat anderen Energieausweis); 39/41 Ecke Aloisgasse passt zum schiefwinkligen Grundriss Top 14. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-26"
+ },
+ "is-418595549989": {
+  "lage": {
+   "adresse": "Novaragasse 39",
+   "sicherheit": "ungefaehr",
+   "lat": 48.218471,
+   "lon": 16.387201,
+   "begruendung": "Text: \"in der Novaragasse nahe dem Praterstern\", DG-Ausbau 2022 in Gründerzeithaus. Gleicher Makler und Energieausweis (Adamant, HWB 22,1/fGEE 0,67) wie is-151788458790, is-418595549989, wh-1005569409: Schnitt der drei willhaben-Umkreise (270/265/260 m) enthält nur Novaragasse 37, 38, 39, 41 (Gründerzeit, 5 Geschoße; 36A hat anderen Energieausweis); 39/41 Ecke Aloisgasse passt zum schiefwinkligen Grundriss Top 14. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1117626107": {
+  "lage": {
+   "adresse": "Novaragasse 39",
+   "sicherheit": "ungefaehr",
+   "lat": 48.218471,
+   "lon": 16.387201,
+   "begruendung": "Text: \"in der Novaragasse nahe dem Praterstern\", DG-Ausbau 2022 in Gründerzeithaus. Gleicher Makler und Energieausweis (Adamant, HWB 22,1/fGEE 0,67) wie is-151788458790, is-418595549989, wh-1005569409: Schnitt der drei willhaben-Umkreise (270/265/260 m) enthält nur Novaragasse 37, 38, 39, 41 (Gründerzeit, 5 Geschoße; 36A hat anderen Energieausweis); 39/41 Ecke Aloisgasse passt zum schiefwinkligen Grundriss Top 14. Hausnummer nicht belegt."
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-947370262": {
+  "lage": {
+   "adresse": "Gersthofer Straße 11",
+   "sicherheit": "genau",
+   "lat": 48.226996,
+   "lon": 16.325838,
+   "begruendung": "Dieselbe Wohnung wie wh-977735216/wh-1930119420 (AUSTREAL, 142 m², 1. OG, gleicher Energieausweis HWB 202/fGEE 3,62): deren Grundriss Top 7+8 nennt die Fassaden Gersthofer Straße und Wielemansgasse = Eckhaus Gersthofer Straße 11 (Alternative Nr. 13 gegenüber)"
+  },
+  "datum": "2026-11-26",
+  "eckdaten": {
+   "zimmer": 5,
+   "flaeche": 141.9
+  }
+ },
+ "is-013397689123": {
+  "lage": {
+   "adresse": "Wallrißstraße 45",
+   "sicherheit": "ungefaehr",
+   "lat": 48.232625,
+   "lon": 16.322915,
+   "begruendung": "Gersthof, \"ruhige Sackgasse\", Hanglage, Wohnhausanlage Baujahr 1984 mit Lift und Gemeinschaftsgarten; willhaben \"Region: Wallrißstraße\". Im Umkreis (268 m) passen Nachkriegsbauten an der Wallrißstraße (45, 58, 59, 60); Hausnummer nicht belegt, Alternativen auch Ferrogasse 39-54, Bastiengasse 31-41"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1650744141": {
+  "lage": {
+   "adresse": "Wallrißstraße 45",
+   "sicherheit": "ungefaehr",
+   "lat": 48.232625,
+   "lon": 16.322915,
+   "begruendung": "Gersthof, \"ruhige Sackgasse\", Hanglage, Wohnhausanlage Baujahr 1984 mit Lift und Gemeinschaftsgarten; willhaben \"Region: Wallrißstraße\". Im Umkreis (268 m) passen Nachkriegsbauten an der Wallrißstraße (45, 58, 59, 60); Hausnummer nicht belegt, Alternativen auch Ferrogasse 39-54, Bastiengasse 31-41"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-941576487": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26",
+  "zustand": {
+   "ergebnis": "ok",
+   "begruendung": "\"war bisher vermietet und wird … frisch ausgemalt und unmöbliert übergeben\" = bestandsfrei; \"Fertigstellung bis 2027\" betrifft das Nachbarviertel"
+  }
+ },
+ "is-437476315632": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5793535": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-169754719006": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-971178784601": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-980276423435": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5773380": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5777098": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "fm-5788279": {
+  "lage": {
+   "adresse": "Hofmannsthalgasse 12",
+   "sicherheit": "ungefaehr",
+   "lat": 48.184765,
+   "lon": 16.399231,
+   "begruendung": "\"Straßenbahn 18, Station Wildgansplatz: ca. 100 m\", \"Bus 74A, Station Hofmannsthalgasse: ca. 100 m\", \"St. Marx: ca. 300 m\", Neubau 1963, Stiege 4, 6 Etagen; Wohnhausanlage Hofmannsthalgasse (weekend.at: \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1236816001": {
+  "lage": {
+   "adresse": "Landstraßer Gürtel 25",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188466,
+   "lon": 16.387343,
+   "begruendung": "Fasanviertel, DG-Ausbau 2022, \"tollen Blick in den Schweizergarten und das Quartier Belvedere\": Gründerzeithäuser am Landstraßer Gürtel gegenüber dem Schweizergarten im Umkreis (265 m): Nr. 15-25, 35; Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "is-966122657194": {
+  "lage": {
+   "adresse": "Landstraßer Gürtel 25",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188466,
+   "lon": 16.387343,
+   "begruendung": "Fasanviertel, DG-Ausbau 2022, \"tollen Blick in den Schweizergarten und das Quartier Belvedere\": Gründerzeithäuser am Landstraßer Gürtel gegenüber dem Schweizergarten im Umkreis (265 m): Nr. 15-25, 35; Hausnummer nicht belegt"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1283942818": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1241774133": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1424925157": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-1505801815": {
+  "lage": {
+   "adresse": "Leopold-Ernst-Gasse 10",
+   "sicherheit": "genau",
+   "lat": 48.221237,
+   "lon": 16.335675,
+   "begruendung": "LEONORA (Adonia): gleiches Inserat wie wh-853170041 (\"3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals\", 75,32 m², 549.000 €): \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Top 6 (1.OG)\"; gleiche willhaben-Fotos, Energieausweis HWB 28,4/fGEE 0,71"
+  },
+  "datum": "2026-11-26"
+ },
+ "wh-2110579465": {
+  "zustand": {
+   "ergebnis": "raus",
+   "begruendung": "Titel: \"Sanierungsbedürftige 3-Zimmer-Altbauwohnung\"; Neu-Inserat von wh-897487003 (gleiche Fotos, Zustand \"Sanierungsbedürftig\")"
+  },
+  "datum": "2026-11-26"
  }
 }
