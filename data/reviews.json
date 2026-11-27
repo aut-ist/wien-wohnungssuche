@@ -32862,7 +32862,14 @@
    "eigennutzer": 1032000,
    "begruendung": "\"Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung), Eigennutzerpreis nicht genannt: 860.000 + 20 % = 1.032.000"
   },
-  "datum": "2026-11-20"
+  "datum": "2026-11-27",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  }
  },
  "wh-819593749": {
   "lage": {
@@ -34634,5 +34641,411 @@
    "begruendung": "LEONORA, Text: \"Die Leopold-Ernst-Gasse 10 liegt in Hernals\", \"Raumaufteilung: Top 12 (2.OG)\", Energieausweis HWB 28,4/fGEE 0,71. FindMyHome-Adresse nur \"/12\" (wurde falsch im 17. verortet)"
   },
   "datum": "2026-11-26"
+ },
+ "wh-997096874": {
+  "lage": {
+   "adresse": "Leschetitzkygasse 30",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss \"Grundriss Top 2, Leschetitzkygasse 30/2, 1180 Wien, 1. Stock, 4 Zimmer, 107,81 m²\" (Mueldenberg)",
+   "lat": 48.236747,
+   "lon": 16.311631
+  },
+  "datum": "2026-11-27"
+ },
+ "is-211404882999": {
+  "lage": {
+   "adresse": "Leschetitzkygasse 30",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss \"Grundriss Top 2, Leschetitzkygasse 30/2, 1180 Wien, 1. Stock, 4 Zimmer, 107,81 m²\" (Mueldenberg)",
+   "lat": 48.236747,
+   "lon": 16.311631
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1630975784": {
+  "lage": {
+   "adresse": "Otto-Bauer-Gasse 21",
+   "sicherheit": "genau",
+   "begruendung": "\"In der begehrten Otto-Bauer-Gasse 21\"",
+   "lat": 48.196635,
+   "lon": 16.347887
+  },
+  "eckdaten": {
+   "zimmer": 2,
+   "flaeche": 85
+  },
+  "datum": "2026-11-27"
+ },
+ "is-177851583453": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-2115943699": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "fm-5793887": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "is-969488727423": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1143459995": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "fm-5759316": {
+  "lage": {
+   "adresse": "Wassergasse 34",
+   "sicherheit": "genau",
+   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1369108699": {
+  "lage": {
+   "adresse": "Schelleingasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
+   "lat": 48.186533,
+   "lon": 16.372322
+  },
+  "datum": "2026-11-27"
+ },
+ "is-895622924876": {
+  "lage": {
+   "adresse": "Schelleingasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
+   "lat": 48.186533,
+   "lon": 16.372322
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15316370": {
+  "lage": {
+   "adresse": "Schelleingasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
+   "lat": 48.186533,
+   "lon": 16.372322
+  },
+  "datum": "2026-11-27"
+ },
+ "is-723202085982": {
+  "lage": {
+   "adresse": "Schelleingasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
+   "lat": 48.186533,
+   "lon": 16.372322
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1244336056": {
+  "lage": {
+   "adresse": "Wallensteinstraße 68-72",
+   "sicherheit": "ungefaehr",
+   "begruendung": "20. Bezirk \"nahe Augarten\" (Text: \"des 20. Wiener Gemeindebezirks\"), DG 5. Etage, Lift; willhaben-Punkt eines früheren Inserats (wh-1142594791, ohne Versatz) liegt 17 m neben Wallensteinstraße 68-72 (Alternative Bäuerlegasse 31-35, 19 m)",
+   "lat": 48.231054,
+   "lon": 16.37707
+  },
+  "datum": "2026-11-27"
+ },
+ "is-852342756318": {
+  "lage": {
+   "adresse": "Wallensteinstraße 68-72",
+   "sicherheit": "ungefaehr",
+   "begruendung": "20. Bezirk \"nahe Augarten\" (Text: \"des 20. Wiener Gemeindebezirks\"), DG 5. Etage, Lift; willhaben-Punkt eines früheren Inserats (wh-1142594791, ohne Versatz) liegt 17 m neben Wallensteinstraße 68-72 (Alternative Bäuerlegasse 31-35, 19 m)",
+   "lat": 48.231054,
+   "lon": 16.37707
+  },
+  "datum": "2026-11-27"
+ },
+ "is-466516195496": {
+  "lage": {
+   "adresse": "Wallensteinstraße 68-72",
+   "sicherheit": "ungefaehr",
+   "begruendung": "20. Bezirk \"nahe Augarten\" (Text: \"des 20. Wiener Gemeindebezirks\"), DG 5. Etage, Lift; willhaben-Punkt eines früheren Inserats (wh-1142594791, ohne Versatz) liegt 17 m neben Wallensteinstraße 68-72 (Alternative Bäuerlegasse 31-35, 19 m)",
+   "lat": 48.231054,
+   "lon": 16.37707
+  },
+  "datum": "2026-11-27"
+ },
+ "is-881880616028": {
+  "lage": {
+   "adresse": "Heuberggasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Nur 17. Bezirk; ImmoScout- und frühere willhaben-Inserate (wh-1217116109, ohne Versatz) zeigen 48,22925/16,28985; nächste Häuser Heuberggasse 23/25 (50 m), Alternative Heuberggasse 42-50 (Wohnanlage, 3 Geschoße)",
+   "lat": 48.229533,
+   "lon": 16.290372
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1220306830": {
+  "lage": {
+   "adresse": "Heuberggasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Nur 17. Bezirk; ImmoScout- und frühere willhaben-Inserate (wh-1217116109, ohne Versatz) zeigen 48,22925/16,28985; nächste Häuser Heuberggasse 23/25 (50 m), Alternative Heuberggasse 42-50 (Wohnanlage, 3 Geschoße)",
+   "lat": 48.229533,
+   "lon": 16.290372
+  },
+  "datum": "2026-11-27"
+ },
+ "is-264865037468": {
+  "lage": {
+   "adresse": "Heuberggasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Nur 17. Bezirk; ImmoScout- und frühere willhaben-Inserate (wh-1217116109, ohne Versatz) zeigen 48,22925/16,28985; nächste Häuser Heuberggasse 23/25 (50 m), Alternative Heuberggasse 42-50 (Wohnanlage, 3 Geschoße)",
+   "lat": 48.229533,
+   "lon": 16.290372
+  },
+  "datum": "2026-11-27"
+ },
+ "is-888977304060": {
+  "lage": {
+   "adresse": "Heuberggasse 23",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Nur 17. Bezirk; ImmoScout- und frühere willhaben-Inserate (wh-1217116109, ohne Versatz) zeigen 48,22925/16,28985; nächste Häuser Heuberggasse 23/25 (50 m), Alternative Heuberggasse 42-50 (Wohnanlage, 3 Geschoße)",
+   "lat": 48.229533,
+   "lon": 16.290372
+  },
+  "datum": "2026-11-27"
+ },
+ "is-112646557954": {
+  "lage": {
+   "adresse": "Mohsgasse 16-18",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im beliebten Fasanviertel\", Wohnhausanlage Baujahr 1962, Stiege 3, 5. Liftstock, Innenhoflage; im versetzten Umkreis viele Nachkriegs-Wohnanlagen (Mohsgasse 15-25, Landstraßer Gürtel 27-33, Trubelgasse 10); nächstgelegene: Mohsgasse 16-18 – unsicher",
+   "lat": 48.189512,
+   "lon": 16.387499
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1600318380": {
+  "lage": {
+   "adresse": "Mohsgasse 16-18",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"im beliebten Fasanviertel\", Wohnhausanlage Baujahr 1962, Stiege 3, 5. Liftstock, Innenhoflage; im versetzten Umkreis viele Nachkriegs-Wohnanlagen (Mohsgasse 15-25, Landstraßer Gürtel 27-33, Trubelgasse 10); nächstgelegene: Mohsgasse 16-18 – unsicher",
+   "lat": 48.189512,
+   "lon": 16.387499
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15250254": {
+  "lage": {
+   "adresse": "Klopstockgasse",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"Klopstockgasse, 1170 Wien\", Eckhaus, 1. Stock; Hausnummer nicht genannt, Punkt bei Klopstockgasse 20 (westlich der Kalvarienberggasse)",
+   "lat": 48.219645,
+   "lon": 16.323841
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15033297": {
+  "lage": {
+   "adresse": "Mariahilfer Gürtel",
+   "sicherheit": "ungefaehr",
+   "begruendung": "Stilaltbau 1897 \"Nähe Westbahnhof\", Grundriss Top 12, 1. OG ohne Adresse; die vier ImmoScout-Inserate desselben Hauses (gleicher Energieausweis HWB 195,7) zeigen alle denselben Punkt 48,19313/16,33898 am Mariahilfer Gürtel",
+   "lat": 48.193129,
+   "lon": 16.338983
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1590735756": {
+  "lage": {
+   "adresse": "Promenadegasse 19A",
+   "sicherheit": "ungefaehr",
+   "begruendung": "\"2. Stock einer gepflegten Wohnhausanlage in der Promenadegasse\", Stiege A1, Baujahr 1978; Nachkriegs-Anlage Promenadegasse 19A-C (3 Geschoße), Alternativen Nr. 11-13, 21, 27-31",
+   "lat": 48.230298,
+   "lon": 16.292878
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1770685654": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "\"Prater nur etwa 2 Gehminuten\", U1 Nestroyplatz/Praterstern, \"Straßenbahnlinie O in der Franzensbrückenstraße\": kann diesseits oder jenseits der Praterstraße liegen, kein Haus bestimmbar (keine Kandidaten, kein Grundriss, Privatverkauf)"
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-2104248704": {
+  "lage": {
+   "adresse": "",
+   "sicherheit": "unklar",
+   "begruendung": "Nur \"1190\", Wohnhausanlage Baujahr 1984 mit Sauna, \"zwischen Weinbergen und Villengebieten\", Hackenberg/Neustift am Walde nahe – kein Haus bestimmbar (keine Kandidaten, Maklerseite hier gesperrt)"
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1823634764": {
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "\"Verfügbar ab: voraussichtlich 2027\"; Baufeld 14B laut Exposés Fertigstellung 2. Quartal 2027"
+  },
+  "preis": {
+   "eigennutzer": 1004400,
+   "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer\" (Vorsorgewohnung): 837.000 + 20 %"
+  },
+  "datum": "2026-11-27",
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "VILLAGE IM DRITTEN Baufeld 14B, St. Marx (Grundriss Top 54: \"Hilde-Güden-Promenade 9, Bauteil 02\"); die Geokodierung hatte die Adresse fälschlich auf den Rochusmarkt gelegt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  }
+ },
+ "is-947520661253": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-911701855": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1090498605": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15314007": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "fm-5781451": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15096275": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "fm-5755052": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 9",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 9\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188482,
+   "lon": 16.394945
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15319936": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-2027169479": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-799894424": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
+ },
+ "bt-825893892927": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15289972": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
+ },
+ "wh-1958817533": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "begruendung": "Inserat \"Hilde-Güden-Promenade 11\" (VILLAGE IM DRITTEN Baufeld 14B, St. Marx); Geokodierung lag fälschlich am Rochusmarkt",
+   "lat": 48.188599,
+   "lon": 16.396744
+  },
+  "datum": "2026-11-27"
  }
 }

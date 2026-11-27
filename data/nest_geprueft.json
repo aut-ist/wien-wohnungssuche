@@ -9042,5 +9042,97 @@
   "titel": "NEU! ++ 3 ZIMMER / LOGGIA / KÜCHE / SÜDOST / 4. LIFTSTOCK /1030 WIEN ++",
   "ergebnis": "ungefaehr: Hofmannsthalgasse 12 – \"Straßenbahn 18 Wildgansplatz ca. 100 m, Bus 74A Hofmannsthalgasse ca. 100 m\", Bau 1963, Stiege 4; Wohnhausanlage Hofmannsthalgasse (weekend.at \"Anlage in der Hofmannsthalgasse … nahe St. Marx\"). Geprüft: Schwester-Inserate wh-1418131617, ds-15321473 (TRISTAR, ohne Adresse); Grundriss (Wohnungsfl. 69,41 + Loggia 8,45 m²) ohne Adresse; Websuche TRISTAR Wildgansplatz ohne Hausnummer. Raus (3. außerhalb der Zone).",
   "datum": "2026-11-26"
+ },
+ "wh-997096874": {
+  "ids": [
+   "wh-997096874",
+   "is-211404882999"
+  ],
+  "titel": "Traumhafte 4-Zimmer-Wohnung in 1180 Wien mit Garten, Terrasse und Garage!",
+  "ergebnis": "Leschetitzkygasse 30, Top 2 (genau): Grundriss Mueldenberg \"Leschetitzkygasse 30/2, 1180 Wien, 1. Stock, 107,81 m²\"; passt zu Kandidat (nach 1945, 3 Geschoße). Raus (Gürtelzeit).",
+  "datum": "2026-11-27"
+ },
+ "is-177851583453": {
+  "ids": [
+   "is-177851583453",
+   "wh-2115943699",
+   "fm-5793887",
+   "is-969488727423",
+   "wh-1143459995",
+   "fm-5759316"
+  ],
+  "titel": "Altbaucharme trifft modernen Wohnkomfort – großzügige 99 m², 3,20 m Raumhöhe, elegante Flügeltüren &amp; viel Platz für die Familie -inkl. LIFT!",
+  "ergebnis": "Wassergasse 34, Top 6 (genau): WINEGG-Grundriss \"Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 3 Zimmer, 98,66 m²\". Koordinaten fehlen (Geokodierung in der Cloud gesperrt), der nächste GitHub-Build verortet die Adresse.",
+  "datum": "2026-11-27"
+ },
+ "wh-1630975784": {
+  "ids": [
+   "wh-1630975784"
+  ],
+  "titel": "OTTO BAUER GASSE: Modernisierte Altbau-Wohnung mit 17 m² Innenhofbalkon, Klimaanlage & Potenzial für 3 Zimmer - nur 2 Gehminuten zur Mariahilfer Straße",
+  "ergebnis": "Otto-Bauer-Gasse 21 (genau): Text \"In der begehrten Otto-Bauer-Gasse 21\", 3. OG; derzeit 2 Zimmer, 85 m² -> raus (unter 3 Zimmer).",
+  "datum": "2026-11-27"
+ },
+ "wh-1823634764": {
+  "ids": [
+   "wh-1823634764"
+  ],
+  "titel": "VILLAGE IM DRITTEN | Moderne Anlegerwohnung mit 4 Zimmern und 3 Freiflächen",
+  "ergebnis": "Hilde-Güden-Promenade 9, Top 54 (genau): Grundriss VILLAGE IM DRITTEN Baufeld 14B, Bauteil 02, OG10. Geokodierung hatte die Adresse auf den Rochusmarkt gelegt (auch is-947520661253 und is-495571212468 korrigiert) -> raus (St. Marx).",
+  "datum": "2026-11-27"
+ },
+ "wh-1244336056": {
+  "ids": [
+   "wh-1244336056",
+   "is-852342756318",
+   "is-466516195496"
+  ],
+  "titel": "Dachgeschosswohnung mit 2 Terrassen nahe Augarten - Ruhelage & Fernblick",
+  "ergebnis": "ungefaehr: Wallensteinstraße 68-72 (20. Bezirk, \"nahe Augarten\", DG 5. Etage Top 14, Lift); früheres Inserat wh-1142594791 ohne Versatz 17 m daneben, Alternative Bäuerlegasse 31-35. Raus (20. Bezirk). Maklerseite adamant-immobilien.at in der Cloud gesperrt.",
+  "datum": "2026-11-27"
+ },
+ "is-881880616028": {
+  "ids": [
+   "is-881880616028",
+   "wh-1220306830",
+   "is-264865037468",
+   "is-888977304060"
+  ],
+  "titel": "Exklusive Dachgeschoßwohnung mit Westbalkon, traumhaftem Ausblick und Tiefgaragenplatz in 1170 Wien",
+  "ergebnis": "ungefaehr: Heuberggasse 23 (Punkt der unversetzten willhaben-Inserate wh-1217116109/wh-1367932466, nächste Häuser Heuberggasse 23/25, Alternative 42-50). Raus (17. außerhalb der Zone).",
+  "datum": "2026-11-27"
+ },
+ "is-112646557954": {
+  "ids": [
+   "is-112646557954",
+   "wh-1600318380"
+  ],
+  "titel": "Helle, ruhige 3-Zimmer-Wohnung in Toplage des 3. Wiener Bezirks – Nähe Belvedere",
+  "ergebnis": "ungefaehr: Mohsgasse 16-18 (Fasanviertel, Wohnanlage 1962, Stiege 3, 5. Liftstock; viele Nachkriegs-Wohnanlagen im Umkreis, unsicher). Grundriss Top 16 ohne Adresse. Raus (ganzer Umkreis südöstlich der Zone).",
+  "datum": "2026-11-27"
+ },
+ "ds-15250254": {
+  "ids": [
+   "ds-15250254"
+  ],
+  "titel": "Moderner Wohntraum für Paare mit Platzbedarf und Jungfamilien mit Loggia in 1170 Wien - Top Lage für 380.000 €!",
+  "ergebnis": "Klopstockgasse (Text \"Klopstockgasse, 1170 Wien\", Eckhaus, 1. Stock), Hausnummer nicht gefunden; Klopstockgasse liegt ganz westlich der Kalvarienberggasse -> raus.",
+  "datum": "2026-11-27"
+ },
+ "ds-15033297": {
+  "ids": [
+   "ds-15033297"
+  ],
+  "titel": "Schöne 3-Zimmer Wohnung, Nähe Westbahnhof",
+  "ergebnis": "ungefaehr: Mariahilfer Gürtel (Stilaltbau 1897, Top 12 1. OG; vier ImmoScout-Inserate des Hauses, gleicher Energieausweis HWB 195,7, zeigen denselben Punkt 48,19313/16,33898). Hausnummer offen; raus (6. außerhalb der Zone).",
+  "datum": "2026-11-27"
+ },
+ "wh-1590735756": {
+  "ids": [
+   "wh-1590735756"
+  ],
+  "titel": "Ruhige 4-Zimmer-Wohnung mit Grünblick am Wienerwald - ca. 100 m² in Dornbach",
+  "ergebnis": "ungefaehr: Promenadegasse 19A (Text \"Wohnhausanlage in der Promenadegasse\", Stiege A1, 2. Stock, Bj. 1978). Raus (Dornbach).",
+  "datum": "2026-11-27"
  }
 }
