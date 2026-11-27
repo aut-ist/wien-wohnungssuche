@@ -12,34 +12,12 @@
    "im_nest": true
   },
   {
-   "id": "ds-15250254",
-   "titel": "Moderner Wohntraum für Paare mit Platzbedarf und Jungfamilien mit Loggia in 1170",
-   "adresse": null,
-   "erstmals": "2026-11-13",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
    "id": "wh-1369108699",
    "titel": "Erstbezug nach Sanierung: Moderne 3-Zimmer-Altbau mit Balkon unweit Hauptbahnhof",
-   "adresse": "Schelleingasse",
+   "adresse": "Schelleingasse 23",
    "erstmals": "2026-11-15",
    "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "ds-15033297",
-   "titel": "Schöne 3-Zimmer Wohnung, Nähe Westbahnhof",
-   "adresse": null,
-   "erstmals": "2026-11-16",
-   "probleme": [
-    "keine Hausnummer"
+    "kein Street-View-Punkt"
    ],
    "im_nest": false
   },
@@ -64,38 +42,8 @@
    "im_nest": false
   },
   {
-   "id": "wh-997096874",
-   "titel": "Traumhafte 4-Zimmer-Wohnung in 1180 Wien mit Garten, Terrasse und Garage!",
-   "adresse": null,
-   "erstmals": "2026-11-27",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
    "id": "wh-1770685654",
    "titel": "Traumhafte 90 m² Dachgeschosswohnung nahe Prater - provisionsfrei vom Eigentümer",
-   "adresse": null,
-   "erstmals": "2026-11-27",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-112646557954",
-   "titel": "Helle, ruhige 3-Zimmer-Wohnung in Toplage des 3. Wiener Bezirks – Nähe Belvedere",
-   "adresse": null,
-   "erstmals": "2026-11-27",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1630975784",
-   "titel": "OTTO BAUER GASSE: Modernisierte Altbau-Wohnung mit 17 m² Innenhofbalkon, Klimaan",
    "adresse": null,
    "erstmals": "2026-11-27",
    "probleme": [
