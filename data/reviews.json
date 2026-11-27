@@ -8391,7 +8391,8 @@
    "sicherheit": "genau",
    "begruendung": "Projekt 'The Pearl' (3SI/EHL): Plankopf im willhaben-Grundriss 'Schiffgasse 9, 1020 Große' (https://cache.willhaben.at/mmo/6/110/998/6256_-974317447.jpg); willhaben UNIT_TITLE 'Top 24'; Exposé https://www.infina.at/fileadmin/realestate/83515/46548856/46548856.pdf nennt Große Schiffgasse 9"
   },
-  "datum": "2026-10-28"
+  "datum": "2026-11-27",
+  "gleich_wie": "ds-15275452"
  },
  "fm-5765529": {
   "lage": {
@@ -16290,7 +16291,7 @@
    "sicherheit": "genau",
    "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-12",
+  "datum": "2026-11-27",
   "heizung": {
    "ergebnis": "gas",
    "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
@@ -16300,7 +16301,8 @@
    "flaeche": 141.0,
    "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
    "vorrang": true
-  }
+  },
+  "gleich_wie": "wh-1726346051"
  },
  "fm-5773091": {
   "lage": {
@@ -16310,7 +16312,7 @@
    "sicherheit": "genau",
    "begruendung": "Inserat-Text aller 3 Portale: \"Am Währinger Gürtel 79\" (Wohnkader, Dachgeschoss, 2 spiegelverkehrte Penthäuser)"
   },
-  "datum": "2026-11-12",
+  "datum": "2026-11-27",
   "heizung": {
    "ergebnis": "gas",
    "begruendung": "Energieausweis Top 13 (storage.justimmo.at/file/E8MidYvjJbK2JBA4eZ32AL.pdf): Raumheizung primär Gaskessel. Wohnkaders 'Luftwärmepumpe' ist wohl das Klimagerät."
@@ -16320,7 +16322,8 @@
    "flaeche": 141.0,
    "begruendung": "Dieselbe Wohnung wie Wohnkader (Währinger Gürtel 79, Dachmaisonette, 980.000 €, gleiche Räume auf den Fotos). 141 m² Nutzfläche laut Immolwin (Nachbarwohnung spiegelgleich 141,10 m² laut Vorschreibung, Grundriss mit Raummaßen); Wohnkader nennt nur 'ca. 150 m²'. 5 Zimmer laut Grundriss (Wohn-/Esszimmer, Wohnzimmer, 3 Zimmer, dazu Galerie).",
    "vorrang": true
-  }
+  },
+  "gleich_wie": "wh-1726346051"
  },
  "wh-2073677070": {
   "lage": {
@@ -33723,11 +33726,17 @@
  },
  "wh-1662267813": {
   "lage": {
-   "adresse": "",
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"4. Bezirk\", Haus von 1970, 3. Liftstock, Öl-Zentralheizung; Naschmarkt, Schleifmühlviertel, Belvedere, Badner Bahn \"in angenehmer Distanz\" – zu vage; ImmoScout-Punkt ist der Bezirkspunkt (Leibenfrostgasse 8, Altbau 1900)"
+   "adresse": "Lambrechtgasse 10",
+   "sicherheit": "ungefaehr",
+   "lat": 48.190514,
+   "lon": 16.364823,
+   "begruendung": "Früheres Inserat derselben Wohnung (Lambrechtgasse, ca. 122 m², Loggia 3,25 m² wie im Plan, Nähe WKO/Palais Schönburg); in der Lambrechtgasse passen nur 8A und 10 (Bau nach 1945, 6 Geschoße, Inserat: Baujahr 1970, 6 Etagen); Alternative Nr. 8A"
   },
-  "datum": "2026-11-25"
+  "datum": "2026-11-27",
+  "heizung": {
+   "ergebnis": "kein_gas",
+   "begruendung": "\"Zentralheizung, Ölheizung, Energieträger Öl\" laut Portalfeldern"
+  }
  },
  "is-493379733532": {
   "lage": {
@@ -33866,11 +33875,13 @@
  },
  "is-503773980514": {
   "lage": {
-   "adresse": "",
-   "sicherheit": "unklar",
-   "begruendung": "Nur \"4. Bezirk\", Haus von 1970, 3. Liftstock, Öl-Zentralheizung; Naschmarkt, Schleifmühlviertel, Belvedere, Badner Bahn \"in angenehmer Distanz\" – zu vage; ImmoScout-Punkt ist der Bezirkspunkt (Leibenfrostgasse 8, Altbau 1900)"
+   "adresse": "Lambrechtgasse 10",
+   "sicherheit": "ungefaehr",
+   "lat": 48.190514,
+   "lon": 16.364823,
+   "begruendung": "Früheres Inserat derselben Wohnung (Lambrechtgasse, ca. 122 m², Loggia 3,25 m² wie im Plan, Nähe WKO/Palais Schönburg); in der Lambrechtgasse passen nur 8A und 10 (Bau nach 1945, 6 Geschoße, Inserat: Baujahr 1970, 6 Etagen); Alternative Nr. 8A"
   },
-  "datum": "2026-11-25"
+  "datum": "2026-11-27"
  },
  "is-257828476930": {
   "lage": {
@@ -33971,11 +33982,12 @@
    "lon": 16.325838,
    "begruendung": "Dieselbe Wohnung wie wh-977735216/wh-1930119420 (AUSTREAL, 142 m², 1. OG, gleicher Energieausweis HWB 202/fGEE 3,62): deren Grundriss Top 7+8 nennt die Fassaden Gersthofer Straße und Wielemansgasse = Eckhaus Gersthofer Straße 11 (Alternative Nr. 13 gegenüber)"
   },
-  "datum": "2026-11-26",
+  "datum": "2026-11-27",
   "eckdaten": {
    "zimmer": 5,
    "flaeche": 141.9
-  }
+  },
+  "gleich_wie": "wh-1930119420"
  },
  "is-013397689123": {
   "lage": {
@@ -34680,7 +34692,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34688,7 +34702,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34696,7 +34712,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34704,7 +34722,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34712,7 +34732,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34720,7 +34742,9 @@
   "lage": {
    "adresse": "Wassergasse 34",
    "sicherheit": "genau",
-   "begruendung": "Grundriss WINEGG \"Wassergasse 34, 1030 Wien, TOP 6, 1. Obergeschoss, 3 Zimmer, 98,66 m²\""
+   "lat": 48.200098,
+   "lon": 16.394353,
+   "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
   "datum": "2026-11-27"
  },
@@ -34886,9 +34910,11 @@
  },
  "wh-1770685654": {
   "lage": {
-   "adresse": "",
-   "sicherheit": "unklar",
-   "begruendung": "\"Prater nur etwa 2 Gehminuten\", U1 Nestroyplatz/Praterstern, \"Straßenbahnlinie O in der Franzensbrückenstraße\": kann diesseits oder jenseits der Praterstraße liegen, kein Haus bestimmbar (keine Kandidaten, kein Grundriss, Privatverkauf)"
+   "adresse": "Franzensbrückenstraße 13",
+   "sicherheit": "ungefaehr",
+   "lat": 48.214826,
+   "lon": 16.391632,
+   "begruendung": "\"Prater nur etwa 2 Gehminuten\", Linie O in der Franzensbrückenstraße, U1 Nestroyplatz/Praterstern wenige Minuten: alle Häuser 2-3 min vom Prater liegen außerhalb der Zone (Franzensbrückenstraße 1-28, Praterstraße ab 53, Czerningasse ab 12); repräsentativ Nr. 13 (Gründerzeit)"
   },
   "datum": "2026-11-27"
  },

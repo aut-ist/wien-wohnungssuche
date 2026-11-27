@@ -8960,9 +8960,9 @@
    "wh-1662267813",
    "is-503773980514"
   ],
-  "titel": "Koffer packen und einziehen! Sonnige, sanierte 4-Zimmer-Wohnung",
-  "ergebnis": "unklar: nur 4. Bezirk, Haus 1970, 3. Liftstock, Öl-Zentralheizung; Schwester-Inserate: keine mit gleichem Energieausweis (HWB 204), gemeinsame Fotos nur PlanetHome-Visitenkarte; Grundrisse (4 Bilder: Visitenkarte, Ausweis, 2 Pläne grundriss.de) ohne Adresse; Websuche \"PlanetHome Koffer packen Wieden 124 m² 1970\" ohne Treffer; planethome.at nicht erreichbar; ImmoScout-Punkt = Bezirkspunkt.",
-  "datum": "2026-11-25"
+  "titel": "wh-1662267813",
+  "ergebnis": "Lambrechtgasse 10 (ungefähr, früheres Inserat Loggia 3,25 m²)",
+  "datum": "2026-11-27"
  },
  "wh-947370262": {
   "ids": [
@@ -9054,15 +9054,10 @@
  },
  "is-177851583453": {
   "ids": [
-   "is-177851583453",
-   "wh-2115943699",
-   "fm-5793887",
-   "is-969488727423",
-   "wh-1143459995",
-   "fm-5759316"
+   "is-177851583453"
   ],
-  "titel": "Altbaucharme trifft modernen Wohnkomfort – großzügige 99 m², 3,20 m Raumhöhe, elegante Flügeltüren &amp; viel Platz für die Familie -inkl. LIFT!",
-  "ergebnis": "Wassergasse 34, Top 6 (genau): WINEGG-Grundriss \"Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 3 Zimmer, 98,66 m²\". Koordinaten fehlen (Geokodierung in der Cloud gesperrt), der nächste GitHub-Build verortet die Adresse.",
+  "titel": "is-177851583453",
+  "ergebnis": "Wassergasse 34 Top 6 (genau, WINEGG-Plan)",
   "datum": "2026-11-27"
  },
  "wh-1630975784": {
@@ -9133,6 +9128,14 @@
   ],
   "titel": "Ruhige 4-Zimmer-Wohnung mit Grünblick am Wienerwald - ca. 100 m² in Dornbach",
   "ergebnis": "ungefaehr: Promenadegasse 19A (Text \"Wohnhausanlage in der Promenadegasse\", Stiege A1, 2. Stock, Bj. 1978). Raus (Dornbach).",
+  "datum": "2026-11-27"
+ },
+ "wh-1770685654": {
+  "ids": [
+   "wh-1770685654"
+  ],
+  "titel": "wh-1770685654",
+  "ergebnis": "Franzensbrückenstraße 13 (ungefähr, 2 min zum Prater, außerhalb der Zone)",
   "datum": "2026-11-27"
  }
 }

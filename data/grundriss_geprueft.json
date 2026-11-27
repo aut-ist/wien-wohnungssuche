@@ -4173,9 +4173,10 @@
   "ids": [
    "bt-124240696477"
   ],
-  "ergebnis": "geschaetzt",
-  "am": "2026-11-26",
-  "plaene": []
+  "ergebnis": "schoen",
+  "am": "2026-11-27",
+  "plaene": [],
+  "notiz": "Kontrolle 27.11.: die Routine hatte einen Plan frei erfunden, obwohl das Inserat selbst der Verkaufsplan (PDF) ist; jetzt PDF-Plan als 2. Bild"
  },
  "wh-1369108699": {
   "ids": [
@@ -4204,5 +4205,14 @@
   "plaene": [
    "4666d6c6d6767686"
   ]
+ },
+ "wh-947370262": {
+  "ids": [
+   "wh-947370262"
+  ],
+  "ergebnis": "schoen",
+  "am": "2026-11-27",
+  "plaene": [],
+  "notiz": "AUSTREAL-Plan Top 7+8 auf Foto 2/3"
  }
 }

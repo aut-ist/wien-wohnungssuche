@@ -38,22 +38,5 @@
    "https://cache.willhaben.at/mmo/4/823/252/424_-899982325.jpg"
   ],
   "ordner": "data/grundrisse_zeichnen/wh-823252424/"
- },
- {
-  "id": "wh-947370262",
-  "ids": [
-   "wh-947370262"
-  ],
-  "titel": "++ TOP WOHNUNG ++ fünf Zimmer, zwei Bäder, extra Küchenraum und drei Balkone",
-  "adresse": "Gersthofer Straße 11",
-  "flaeche": 141.9,
-  "zimmer": 5,
-  "im_nest": false,
-  "neu_gezeichnet": false,
-  "plaene": [
-   "https://cache.willhaben.at/mmo/2/947/370/262_1333618748.jpg",
-   "https://cache.willhaben.at/mmo/2/947/370/262_-1477719035.jpg"
-  ],
-  "ordner": "data/grundrisse_zeichnen/wh-947370262/"
  }
 ]

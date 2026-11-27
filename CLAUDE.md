@@ -181,6 +181,16 @@ und auf einer teilbaren Karte (GitHub Pages, `docs/`) zeigen.
   Regelcheck im Code: `run.py build` schreibt `data/regelcheck.json` (`ohne_haus`: neue sichtbare Wohnungen ohne Hausnummer oder
   ohne Street-View-Punkt) und loggt "⚠️ Adressen: ..."; die Routine (Schritt 8b) recherchiert diese zuerst und meldet Reste ganz oben.
   In jeder Claude-Sitzung nach dem build dieselbe Datei prüfen und abarbeiten, bevor etwas als fertig gilt.
+  Kontrolle 2026-11-27 (Saad: „richtig grottig“; ein unabhängiger Kontroll-Agent fand Verstöße bei 7 von 8 neuen Wohnungen):
+  seitdem (1) `review-file`/`review` lehnen eine Lage „genau“/„ungefaehr“ ohne lat/lon oder ohne Hausnummer ab (Wassergasse 34 war
+  gefunden, aber ohne Koordinaten eingetragen und vom build still verworfen); (2) „unklar“ in nest_geprueft schließt den Fall nicht
+  mehr, er bleibt hinten in recherche.json mit `frueher`; (3) der Regelcheck zählt auch Wohnungen, die erst seit RECHERCHE_ALLE_AB
+  sichtbar sind (sichtbar_seit), prüft Grundrisse auch am ersten Tag und meldet „vermutlich weggeworfen: gleich wie <id>“, wenn eine
+  sichtbare neue Wohnung einem online weggeworfenen Inserat gleicht (Makler, PLZ, Zimmer, m² ±1,5, HWB ±5 % bzw. Preis ±3 %;
+  Gersthofer Straße 11 und The Pearl Top 24 kamen so als NEU zurück); (4) die Routine startet am Ende (Schritt 8c) einen frischen
+  Kontroll-Agenten (Agent-Werkzeug), der alle sichtbaren neuen und Nest-Wohnungen gegen alle Regeln prüft, und behebt jeden Fund;
+  (5) `tools/grundrisse.py --zeichnen` stürzte an Wohnungen ohne Plan ab (KeyError), jetzt lädt es dort die Fotos zum Schätzen.
+  Größte Ursache bleibt das Netz der Cloud-Umgebung: Portale, Maklerseiten, data.wien.gv.at, OSM gesperrt.
 - Neubauprojekte direkt bei Bauträgern (Wunsch 2026-11-09): `wohnungen/bautraeger.py` liest täglich die Einheitenlisten aus
   `data/bautraeger_projekte.json` (Tabellen, data-Attribute, RIWOG-JSON) und die 3SI-Übersicht; nur freie Wohnungen mit Preis, kein Büro,
   nichts Vermietetes. Saad will keine Dubletten: `_bautraeger_einsortieren` in run.py ordnet jede Einheit über m² und Preis (dazu Straße,

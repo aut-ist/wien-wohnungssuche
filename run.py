@@ -1302,7 +1302,11 @@ def build():
     _PORTAL_PLAENE = {u for r in listings.values() for u in r.get("grundrisse") or []}
     reviews = load_json(REVIEWS, {})
     geprueft = load_json(GEPRUEFT, {})
-    erledigt = {i for e in geprueft.values() for i in e.get("ids", [])} | set(geprueft)
+    # "unklar" ist kein Abschluss (Kontrolle 2026-11-27: "unklar: -" schloss Nest-Wohnungen für immer); solche bleiben in
+    # recherche.json, hinten einsortiert, mit dem bisherigen Ergebnis ("frueher")
+    erledigt = ({i for e in geprueft.values() if not str(e.get("ergebnis", "")).startswith("unklar") for i in e.get("ids", [])}
+                | {k for k, e in geprueft.items() if not str(e.get("ergebnis", "")).startswith("unklar")})
+    frueher = {i: e.get("ergebnis") for k, e in geprueft.items() for i in (e.get("ids") or []) + [k]}
     markierungen = load_json(DATA / "markierungen.json", {})
     korb_zeit = markierungen.get("papierkorb") or {}
     korb = set(korb_zeit)
@@ -1426,6 +1430,7 @@ def build():
                 "erstmals": r["erstmals"],
                 # Portaladresse mit Hausnummer, aber ungeprüft: bestätigen oder korrigieren
                 "portaladresse_pruefen": lage_genau(r, rev, b),
+                "frueher": next((frueher[i] for i in r["ids"] if i in frueher), None),
             })
         if b["fragen"] and r.get("detail_am") and b["status"] != "raus" and not offline:
             pending.append({
@@ -1548,6 +1553,7 @@ def build():
     # Reihenfolge = Vorrang für die Routine (sie schafft RECHERCHE_PRO_TAG): Nest, dann neueste
     recherche.sort(key=lambda e: e["erstmals"], reverse=True)
     recherche.sort(key=lambda e: not e["im_nest"])
+    recherche.sort(key=lambda e: bool(e.get("frueher")))  # schon einmal ohne Ergebnis recherchiert: nach hinten
     # Kandidaten-Häuser je Eintrag (nur mit sinnvollem Suchkreis: versetzter Portalpunkt oder geschätzte Lage)
     hk = load_json(HAUS_KANDIDATEN, {})
     hk_vorher = len(hk)
@@ -1570,9 +1576,14 @@ def build():
     # Street-View-Punkt (damit Google Maps und Street View aufs Haus zeigen). Fehlt etwas, steht es in data/regelcheck.json,
     # und die Routine muss es zuerst melden ("⚠️ Adressen:").
     fehlt = []
+    # neu = seit RECHERCHE_ALLE_AB gefunden ODER seitdem (wieder) auf der Karte (Kontrolle 2026-11-27: Wassergasse war erstmals
+    # 01.11., aber erst seit heute sichtbar, und fiel durch)
+    def _neu_rc(w):
+        seit = min([sichtbar.get(i) or "9" for i in w["ids"]])
+        return (w.get("erstmals") or "") >= RECHERCHE_ALLE_AB or seit >= RECHERCHE_ALLE_AB
     for w in karte:
         if (w["status"] == "raus" or w.get("offline") or (set(w["ids"]) & korb and not w.get("korb_frei"))
-                or (w.get("erstmals") or "") < RECHERCHE_ALLE_AB):
+                or not _neu_rc(w)):
             continue
         probleme = []
         if not re.search(r"\d", w.get("adresse") or ""):
@@ -1589,7 +1600,7 @@ def build():
     for w in karte:
         ids = set(w["ids"])
         if (w["status"] == "raus" or w.get("offline") or (ids & korb and not w.get("korb_frei") and not ids & nest)
-                or not (ids & nest or (w.get("erstmals") or "") >= RECHERCHE_ALLE_AB) or (w.get("erstmals") or "") >= TODAY):
+                or not (ids & nest or _neu_rc(w))):
             continue
         ok = (any(p["ids"] & ids for p in plaene) or any(u in _PORTAL_PLAENE for u in w["bilder"])
               or any(klasse_rc.get((hashes_rc.get(u) or {}).get("h")) == "plan" for u in w["bilder"])
@@ -1602,6 +1613,44 @@ def build():
             else:
                 fehlt.append({"id": w["id"], "titel": w["titel"][:80], "adresse": w.get("adresse"), "erstmals": w.get("erstmals"),
                               "probleme": ["kein Grundriss"], "im_nest": bool(ids & nest)})
+    # Weggeworfen und als Kopie zurück (Kontrolle 2026-11-27: Gersthofer Straße 11 und The Pearl Top 24 lagen im Papierkorb und
+    # kamen über ein neues Inserat bzw. eine zerfallene Gruppe als NEU zurück): gleicher Makler (erstes Wort), PLZ, Zimmer,
+    # m² ±1,5, Energieausweis (HWB ±5 %; ohne HWB Preis ±3 %) wie ein Inserat, das online in den Papierkorb kam
+    def _hwb(r):
+        try:
+            return float(str((r.get("energie") or {}).get("hwb")).replace(",", "."))
+        except (TypeError, ValueError):
+            return None
+    weg = [dict(listings[i], id=i) for i in korb if i in listings and not korb_status.get(i, {}).get("offline")]
+    for w in karte:
+        ids = set(w["ids"])
+        if w["status"] == "raus" or w.get("offline") or ids & korb or not _neu_rc(w):
+            continue
+        treffer = None
+        for i in w["ids"]:
+            r = listings.get(i) or {}
+            mk = ((r.get("anbieter") or "").split() or [""])[0].lower()
+            if not mk or not r.get("flaeche"):
+                continue
+            for x in weg:
+                hx, hr = _hwb(x), _hwb(r)
+                if (((x.get("anbieter") or "").split() or [""])[0].lower() == mk and x.get("zimmer") == r.get("zimmer")
+                        and x.get("plz") == r.get("plz") and x.get("flaeche") and abs(x["flaeche"] - r["flaeche"]) <= 1.5
+                        and ((hx is not None and hr is not None and abs(hx - hr) <= 0.05 * max(hx, 1))
+                             or ((hx is None or hr is None)
+                                 and abs((x.get("preis") or 0) - (r.get("preis") or 0)) <= 0.03 * (r.get("preis") or 1)))):
+                    treffer = x["id"]
+                    break
+            if treffer:
+                break
+        if treffer:
+            txt = f"vermutlich weggeworfen: gleich wie {treffer} (Papierkorb) -> gleich_wie setzen"
+            e = next((y for y in fehlt if y["id"] == w["id"]), None)
+            if e:
+                e["probleme"].append(txt)
+            else:
+                fehlt.append({"id": w["id"], "titel": w["titel"][:80], "adresse": w.get("adresse"),
+                              "erstmals": w.get("erstmals"), "probleme": [txt], "im_nest": bool(ids & nest)})
     fehlt.sort(key=lambda e: (not e["im_nest"], e["erstmals"]), reverse=False)
     save_json(DATA / "regelcheck.json", {"datum": dt.date.today().isoformat(), "ohne_haus": fehlt})
     if fehlt:
@@ -1629,12 +1678,26 @@ def add_review(rid, adresse=None, lat=None, lon=None, sicherheit=None, heiz=None
     reviews = load_json(REVIEWS, {})
     rv = reviews.setdefault(rid, {})
     if sicherheit or adresse or lat:
-        rv["lage"] = {"adresse": adresse, "lat": lat, "lon": lon,
-                      "sicherheit": sicherheit or "ungefaehr", "begruendung": grund}
+        lage = {"adresse": adresse, "lat": lat, "lon": lon, "sicherheit": sicherheit or "ungefaehr", "begruendung": grund}
+        if (f := _lage_fehler(lage)):
+            sys.exit(f"FEHLER {rid}: Lage {f}")
+        rv["lage"] = lage
     if heiz:
         rv["heizung"] = {"ergebnis": heiz, "begruendung": grund}
     rv["datum"] = TODAY
     save_json(REVIEWS, reviews)
+
+
+def _lage_fehler(lage):
+    """Kontrolle 2026-11-27: "genau"/"ungefaehr" ohne lat/lon verwarf build stillschweigend (Wassergasse 34), und Ergebnisse nur mit
+    Straße widersprechen der Regel "immer bis zum Haus" (Saad 2026-11-24). -> Fehlertext oder None"""
+    if not lage or lage.get("sicherheit") == "unklar":
+        return None
+    if lage.get("lat") in (None, "") or lage.get("lon") in (None, ""):
+        return "lat/lon fehlen (aus recherche.json 'kandidaten' oder ADRESSENOGD nehmen)"
+    if not re.search(r"\d", lage.get("adresse") or ""):
+        return "keine Hausnummer: immer das wahrscheinlichste Haus eintragen, sonst sicherheit 'unklar'"
+    return None
 
 
 def review_file(path):
@@ -1642,6 +1705,11 @@ def review_file(path):
                       "heizung": {"ergebnis":..., "begruendung":...}}, ...]"""
     reviews = load_json(REVIEWS, {})
     items = load_json(__import__("pathlib").Path(path), [])
+    fehler = [(it["id"], f) for it in items if (f := _lage_fehler(it.get("lage")))]
+    if fehler:
+        for i, f in fehler:
+            print(f"FEHLER {i}: Lage {f}")
+        sys.exit("Nichts übernommen: Lage-Ergebnisse korrigieren und erneut aufrufen.")
     for it in items:
         rv = reviews.setdefault(it["id"], {})
         for k in ("lage", "heizung", "eckdaten", "zustand", "gleich_wie", "preis", "kosten", "versteigerung", "gemeindebau", "guertel", "zone", "preisregel"):

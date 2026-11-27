@@ -369,5 +369,9 @@
   }
  ],
  "wohnflaeche": 103.89,
- "hinweis": "Nach dem Umbauplan (EDEX) neu gezeichnet, Maße circa, Flächen nach Umbau"
+ "hinweis": "Nach dem Umbauplan (EDEX) neu gezeichnet, Maße circa, Flächen nach Umbau",
+ "seiten": {
+  "oben": "Straße (Schelleingasse)",
+  "unten": "Innenhof"
+ }
 }
