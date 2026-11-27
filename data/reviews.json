@@ -19156,7 +19156,11 @@
    "sicherheit": "genau",
    "begruendung": "Das Fassadenfoto (Bild 12, 'AI-modified', Werbung verpixelt) im Inserat https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/elegante-altbauwohnung-in-repraesentativem-haus-im-herzen-des-4-bezirks-1055278300/ zeigt dasselbe Haus wie die Wikimedia-Commons-Fotos 'Graf-Starhemberg-Gasse 7, Wien' (https://commons.wikimedia.org/wiki/File:Wien_020_(4531750634).jpg und https://commons.wikimedia.org/wiki/File:Wien_021_(4531117903).jpg): Rundbogenportal mit Konsolen-Köpfen, schmiedeeiserner Balkon darüber, Zwillingsfenster mit Rautenmuster-Feldern, gleiche Achsenzahl. Gegenproben: GEBAEUDEINFOOGD nennt für Graf-Starhemberg-Gasse 7 Baujahr 1889 (wie im Inserat), Seitenflügelhaus mit 5 Geschoßen (passt zu Lift und 'Ausrichtung in ruhige Innenhöfe'). Der Kreis der Lagekarte im Inserat (zwischen Wiedner Hauptstraße und U1) liegt ca. 65 m vom Adresspunkt. Laut Nordpfeil im Grundriss liegt die Wohnung in einem Flügel quer zur Gasse Richtung ONO, Fenster nach SSO und NNW; das passt zum Seitenflügel auf der Ostseite der Gasse. Gegenüber steht die Volksschule (Nr. 8-10), auf der Fahrbahn die Tempo-30-Markierung. E&V-ID W-04BSR2 (https://www.engelvoelkers.com/at/de/exposes/b2fa7b76-5d07-53bc-aa1a-f66ac6083ac0) zeigt nur einen verschobenen Punkt. Der ImmoScout-Punkt 48.19008/16.36589 liegt ca. 280 m daneben. Top 1. Stock (Top-Nummer unbekannt)."
   },
-  "datum": "2026-11-15"
+  "datum": "2026-11-27",
+  "kosten": {
+   "betrag": 386,
+   "begruendung": "Inserat: 'monatliche Vorschreibung … EUR 386,30 inkl. Akonto Betriebskosten, Rücklage und USt'"
+  }
  },
  "is-083044551389": {
   "lage": {
@@ -19230,10 +19234,14 @@
    "sicherheit": "genau",
    "begruendung": "Die Vermutung ist bestätigt. Es gibt kein Dokument zur Wohnung selbst, aber zwei Fotovergleiche mit einem Inserat, das die Adresse nennt. (1) Das RE/MAX-Garageninserat (https://findheim.at/de/immobilie/tiefgaragenstellplatz-fuer-klein-bis-mittelklassefahrzeuge-4de5da8a, Objekt 1626/28610) nennt \"Adresse: 1040 Belvederegasse 18\", eine Tiefgarage mit Hebebühnen-Stapelparkern, Baujahr 1993. Eines seiner Garagenfotos zeigt dieselbe Ansicht wie das Garagenfoto von Engel & Völkers (willhaben-Bild 10): rotes Fallrohr links, Box mit zwei Autos auf der Hebebühne, Feuerlöscher, gelbe Schilder. (2) Das F"
   },
-  "datum": "2026-11-21",
+  "datum": "2026-11-27",
   "eckdaten": {
    "stockwerk": "2. OG",
    "baujahr": "1991"
+  },
+  "kosten": {
+   "betrag": 477,
+   "begruendung": "Inserat: 'Betriebskosten: EUR 477,32 (inklusive Rücklage und USt.)'"
   }
  },
  "is-634595963612": {
@@ -29561,7 +29569,11 @@
    "baujahr": "Gruenderzeit (DG-Ausbau 2023)",
    "zustand": "wird gerade saniert, Uebergabe als Erstbezug"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-27",
+  "heizung": {
+   "ergebnis": "unklar",
+   "begruendung": "Einheitentext nennt keine Heizung; 'Wärmepumpe im Dachgeschoss' ist nur der Projekt-Standardtext, Top 6 liegt im 1. OG des sanierten Altbaus"
+  }
  },
  "bt-412445257491": {
   "lage": {
@@ -33744,6 +33756,10 @@
   "heizung": {
    "ergebnis": "kein_gas",
    "begruendung": "\"Zentralheizung, Ölheizung, Energieträger Öl\" laut Portalfeldern"
+  },
+  "kosten": {
+   "betrag": 523,
+   "begruendung": "Inserat: BK 244,31 + Heizkosten 42,01 + Rücklagen 236,90 = 523,22 €"
   }
  },
  "is-493379733532": {
@@ -34704,7 +34720,8 @@
    "lon": 16.394353,
    "begruendung": "WINEGG-Grundriss: 'Wassergasse 34, 1030 Wien, TOP 6, 1. OG, 98,66 m²'; Koordinaten ADRESSENOGD (Kontrolle 27.11.: Routine hatte lat/lon vergessen, Build verwarf die Adresse)"
   },
-  "datum": "2026-11-27"
+  "datum": "2026-11-27",
+  "gleich_wie": "wh-2103263372"
  },
  "wh-2115943699": {
   "lage": {
@@ -35080,6 +35097,17 @@
    "lat": 48.188599,
    "lon": 16.396744
   },
+  "datum": "2026-11-27"
+ },
+ "wh-894202905": {
+  "lage": {
+   "adresse": "Schelleingasse 23",
+   "lat": 48.186533,
+   "lon": 16.372322,
+   "sicherheit": "ungefaehr",
+   "begruendung": "dasselbe EDEX-Inserat wie wh-1369108699 (Titel, 850.000, 104,5/105 m²); EDEX-Koordinaten liegen im Haus Schelleingasse 23"
+  },
+  "gleich_wie": "wh-1369108699",
   "datum": "2026-11-27"
  }
 }

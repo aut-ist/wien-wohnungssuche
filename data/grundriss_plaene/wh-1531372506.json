@@ -8,7 +8,7 @@
   "https://cache.willhaben.at/mmo/6/153/137/2506_-2019315932.jpg"
  ],
  "titel": "Grundriss Top 12, Währinger Gürtel 79 (Maisonette)",
- "schaetzung": true,
+ "schaetzung": false,
  "raeume": [
   {
    "name": "Küche",
@@ -524,5 +524,9 @@
   }
  ],
  "wohnflaeche": 145.79,
- "hinweis": "Schematisch nach dem Umbauplan; Top 12 ist die spiegelverkehrte Nachbarwohnung von Top 13 (Brutkasten)."
+ "hinweis": "Schematisch nach dem Umbauplan; Top 12 ist die spiegelverkehrte Nachbarwohnung von Top 13 (Brutkasten).",
+ "seiten": {
+  "oben": "Innenhof",
+  "unten": "Straße (Währinger Gürtel)"
+ }
 }
