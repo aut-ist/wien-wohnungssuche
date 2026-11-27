@@ -1744,9 +1744,9 @@
   "ids": [
    "wh-2142854368"
   ],
-  "titel": "",
-  "datum": "2026-11-17",
-  "ergebnis": "unklar: -"
+  "titel": "ZWEITBEZUG / MÖBLIERT / TOP-LAGE!!!",
+  "ergebnis": "genau: Währinger Gürtel 79, Top 10 – Inserats-Grundriss 'Top 10 • 4.OG, 78,66 m², Balkon 10,34 m²' gleich ImmoLöwin wh-1992576637 (Energieausweis 'Waehringer Guertel 79 Top 10', storage.justimmo.at/file/AXADnv5RQM835DKLjodgf4.pdf); gleich_wie wh-1992576637",
+  "datum": "2026-11-27"
  },
  "wh-1075764150": {
   "ids": [
@@ -3965,8 +3965,8 @@
    "ds-15273117"
   ],
   "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
-  "ergebnis": "unklar (2026-11-12): 360°-Tour ohne Ortsdaten; von der Terrasse AKH-Bettenturm Richtung OSO, U-Bahn < 500 m -> eher östlich Schumanngasse 35; Spur: neuerer Mansardbau im Hof hinter Kreuzgasse 29/31, nicht belegt.",
-  "datum": "2026-11-12"
+  "ergebnis": "unklar: Schwester-Inserate (HWB 28,6/fGEE 0,79): nur eigene Kopien. Grundriss: Maisonette TOP 92,69 m², Terrasse 6,95 m², ohne Schriftfeld/Nordpfeil. Ogulo-Tour tour.ogulo.com/Uf0P: tour.json location null, Headline '2699/1899'. Fotos: DG-Ausbau (Baujahr 2013) im Gründerzeit-Dachlandschaft, Fernwärme, Tiefgarage. Overpass gesperrt; 150 Kandidaten im 263-m-Kreis nicht eingrenzbar. RE/MAX-Seite (Cloudflare) nicht versucht.",
+  "datum": "2026-11-27"
  },
  "wh-1725543422": {
   "ids": [
@@ -9136,6 +9136,30 @@
   ],
   "titel": "wh-1770685654",
   "ergebnis": "Franzensbrückenstraße 13 (ungefähr, 2 min zum Prater, außerhalb der Zone)",
+  "datum": "2026-11-27"
+ },
+ "wh-1369108699": {
+  "ids": [
+   "wh-1369108699",
+   "is-895622924876",
+   "ds-15316370",
+   "is-723202085982"
+  ],
+  "titel": "Erstbezug nach Sanierung: Moderne 3-Zimmer-Altbau mit Balkon unweit Hauptbahnhof",
+  "ergebnis": "ungefaehr: Schelleingasse 23 – EDEX-Seite (edeximmo.at/wp-json/wp/v2/realty/727699) gibt 48.1864976/16.3723968, liegt im Haus Nr. 23 (Gründerzeit, 5 Geschoße, Trakttiefe wie Plan Top 12); Hausnummer selbst nirgends genannt (Plan, Energieausweis-Daten, Fotos, willhaben/IS24 geprüft)",
+  "datum": "2026-11-27"
+ },
+ "wh-2104248704": {
+  "ids": [
+   "wh-2104248704",
+   "is-390800941816",
+   "ds-15310072",
+   "wh-1691397623",
+   "is-390483139587",
+   "is-049479998749"
+  ],
+  "titel": "Perfekt geschnittener Rückzugsort im Grünen: 97 m² Wohnkomfort mit Loggia, Balkon & Lift im 19. Bez.",
+  "ergebnis": "unklar: kein Suchkreis (Portalpunkte zufällig). Geprüft: Schwester-Inserate (nur eigene Kopien; RKM-Townhouse Siolygasse Bj. 1984 ist andere Anlage), Grundriss (Scan ohne Schriftfeld), Klebl-Seite klebl-immobilien.at/immobilien/detail-infos/3293-... (onOffice, ImmoNr 2026-976, keine Adresse/Karte), willhaben-Detail (keine Koordinaten), Websuchen ('Rückzugsort im Grünen' Klebl, Bj. 1984 Sauna 1190). Spur: Loggia-Foto zeigt breite Allee mit Nebenfahrbahn und Hang mit neuen Terrassenhäusern + Garageneinfahrt gegenüber; Krottenbachstraße 27-41 und Sieveringer Straße 75 (Bj. 1962) passen nicht. Morgen: Ogulo/Fotos gegen Orthofoto Krottenbachstraße West/Sieveringer Straße, Hausverwaltung.",
   "datum": "2026-11-27"
  }
 }

@@ -31068,11 +31068,19 @@
  },
  "wh-2142854368": {
   "eckdaten": {
-   "stockwerk": "4. OG = 1. DG (Lift)",
-   "baujahr": "2022 (DG-Ausbau/Neubau)",
+   "stockwerk": "4. Stock (Lift)",
+   "baujahr": "um 1900 (Altbau, laut Energieausweis/ImmoLöwin)",
    "zustand": "Zweitbezug, möbliert, neuwertig"
   },
-  "datum": "2026-11-17"
+  "datum": "2026-11-27",
+  "lage": {
+   "adresse": "Währinger Gürtel 79/10",
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "sicherheit": "genau",
+   "begruendung": "Grundriss im Inserat: \"Top 10 • 4.OG, Wohnfläche 78,66 m², Balkon 10,34 m²\" = identisch mit ImmoLöwin wh-1992576637 / RKM wh-1749807365 (Top 10, 4. Stock, 78,66 m², Hofbalkon 10,34 m²), dort per Energieausweis 'Waehringer Guertel 79 Top 10' belegt; Lage-Text 'Volksoper, U6 Währinger Straße, 40/41/42' passt."
+  },
+  "gleich_wie": "wh-1992576637"
  },
  "wh-2101399564": {
   "lage": {
@@ -34751,40 +34759,40 @@
  "wh-1369108699": {
   "lage": {
    "adresse": "Schelleingasse 23",
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
    "lat": 48.186533,
-   "lon": 16.372322
+   "lon": 16.372322,
+   "sicherheit": "ungefaehr",
+   "begruendung": "Maklerseite edeximmo.at (Objekt 29005, wp-json realty 727699) nennt nur 'Schelleingasse', aber Koordinaten 48.1864976/16.3723968 – liegen im Umriss von Schelleingasse 23 (Gründerzeit, 5 Geschoße, Trakttiefe ~13 m wie Plan Top 12). Plan Top 12, 2. Stock mit Aufzug. Nicht belegt, da EDEX-Punkt auch ein Straßen-Geocode sein kann; Alternativen Gründerzeit Nr. 31, 37-43."
   },
   "datum": "2026-11-27"
  },
  "is-895622924876": {
   "lage": {
    "adresse": "Schelleingasse 23",
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
    "lat": 48.186533,
-   "lon": 16.372322
+   "lon": 16.372322,
+   "sicherheit": "ungefaehr",
+   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
   },
   "datum": "2026-11-27"
  },
  "ds-15316370": {
   "lage": {
    "adresse": "Schelleingasse 23",
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
    "lat": 48.186533,
-   "lon": 16.372322
+   "lon": 16.372322,
+   "sicherheit": "ungefaehr",
+   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
   },
   "datum": "2026-11-27"
  },
  "is-723202085982": {
   "lage": {
    "adresse": "Schelleingasse 23",
-   "sicherheit": "ungefaehr",
-   "begruendung": "Inserat nur \"Schelleingasse\", Altbau, 2. Liftstock (Plan Top 12 mit Aufzug), Straßenbahn O/18 und Bahnhof <250 m, U1 Hauptbahnhof wenige Gehminuten -> Südende der Schelleingasse; dort Gründerzeithaus Nr. 23 (Alternative Nr. 31)",
    "lat": 48.186533,
-   "lon": 16.372322
+   "lon": 16.372322,
+   "sicherheit": "ungefaehr",
+   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
   },
   "datum": "2026-11-27"
  },
