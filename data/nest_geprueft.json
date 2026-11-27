@@ -9140,13 +9140,18 @@
  },
  "wh-1369108699": {
   "ids": [
+   "wh-894202905",
+   "wh-1411478261",
+   "is-181769158688",
+   "ds-15274214",
    "wh-1369108699",
    "is-895622924876",
    "ds-15316370",
+   "fm-5752739",
    "is-723202085982"
   ],
   "titel": "Erstbezug nach Sanierung: Moderne 3-Zimmer-Altbau mit Balkon unweit Hauptbahnhof",
-  "ergebnis": "ungefaehr: Schelleingasse 23 – EDEX-Seite (edeximmo.at/wp-json/wp/v2/realty/727699) gibt 48.1864976/16.3723968, liegt im Haus Nr. 23 (Gründerzeit, 5 Geschoße, Trakttiefe wie Plan Top 12); Hausnummer selbst nirgends genannt (Plan, Energieausweis-Daten, Fotos, willhaben/IS24 geprüft)",
+  "ergebnis": "genau: Schelleingasse 23, Top 12 – Schantl-ITH-Inserat is-181769158688 nennt 'Top 12 in der Schelleingasse 23'; EDEX-Plan Top 12, EDEX-Koordinaten im Haus (edeximmo.at realty 727699)",
   "datum": "2026-11-27"
  },
  "wh-2104248704": {

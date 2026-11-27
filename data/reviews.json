@@ -33758,8 +33758,8 @@
    "begruendung": "\"Zentralheizung, Ölheizung, Energieträger Öl\" laut Portalfeldern"
   },
   "kosten": {
-   "betrag": 523,
-   "begruendung": "Inserat: BK 244,31 + Heizkosten 42,01 + Rücklagen 236,90 = 523,22 €"
+   "betrag": 663,
+   "begruendung": "Inserat: 'Netto: EUR 620,52 / USt.: EUR 42,56 / Gesamt: EUR 663,08' (BK, Heizung, Warmwasser, Wasser, Rücklagen)"
   }
  },
  "is-493379733532": {
@@ -34775,41 +34775,41 @@
  },
  "wh-1369108699": {
   "lage": {
-   "adresse": "Schelleingasse 23",
+   "adresse": "Schelleingasse 23/12",
    "lat": 48.186533,
    "lon": 16.372322,
-   "sicherheit": "ungefaehr",
-   "begruendung": "Maklerseite edeximmo.at (Objekt 29005, wp-json realty 727699) nennt nur 'Schelleingasse', aber Koordinaten 48.1864976/16.3723968 – liegen im Umriss von Schelleingasse 23 (Gründerzeit, 5 Geschoße, Trakttiefe ~13 m wie Plan Top 12). Plan Top 12, 2. Stock mit Aufzug. Nicht belegt, da EDEX-Punkt auch ein Straßen-Geocode sein kann; Alternativen Gründerzeit Nr. 31, 37-43."
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "datum": "2026-11-27"
  },
  "is-895622924876": {
   "lage": {
-   "adresse": "Schelleingasse 23",
+   "adresse": "Schelleingasse 23/12",
    "lat": 48.186533,
    "lon": 16.372322,
-   "sicherheit": "ungefaehr",
-   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "datum": "2026-11-27"
  },
  "ds-15316370": {
   "lage": {
-   "adresse": "Schelleingasse 23",
+   "adresse": "Schelleingasse 23/12",
    "lat": 48.186533,
    "lon": 16.372322,
-   "sicherheit": "ungefaehr",
-   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "datum": "2026-11-27"
  },
  "is-723202085982": {
   "lage": {
-   "adresse": "Schelleingasse 23",
+   "adresse": "Schelleingasse 23/12",
    "lat": 48.186533,
    "lon": 16.372322,
-   "sicherheit": "ungefaehr",
-   "begruendung": "wie wh-1369108699 (EDEX-Koordinaten im Haus Schelleingasse 23)"
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "datum": "2026-11-27"
  },
@@ -35101,13 +35101,53 @@
  },
  "wh-894202905": {
   "lage": {
-   "adresse": "Schelleingasse 23",
+   "adresse": "Schelleingasse 23/12",
    "lat": 48.186533,
    "lon": 16.372322,
-   "sicherheit": "ungefaehr",
-   "begruendung": "dasselbe EDEX-Inserat wie wh-1369108699 (Titel, 850.000, 104,5/105 m²); EDEX-Koordinaten liegen im Haus Schelleingasse 23"
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "gleich_wie": "wh-1369108699",
+  "datum": "2026-11-27"
+ },
+ "wh-1411478261": {
+  "lage": {
+   "adresse": "Schelleingasse 23/12",
+   "lat": 48.186533,
+   "lon": 16.372322,
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
+  },
+  "datum": "2026-11-27"
+ },
+ "is-181769158688": {
+  "lage": {
+   "adresse": "Schelleingasse 23/12",
+   "lat": 48.186533,
+   "lon": 16.372322,
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
+  },
+  "datum": "2026-11-27"
+ },
+ "ds-15274214": {
+  "lage": {
+   "adresse": "Schelleingasse 23/12",
+   "lat": 48.186533,
+   "lon": 16.372322,
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
+  },
+  "datum": "2026-11-27"
+ },
+ "fm-5752739": {
+  "lage": {
+   "adresse": "Schelleingasse 23/12",
+   "lat": 48.186533,
+   "lon": 16.372322,
+   "sicherheit": "genau",
+   "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
+  },
   "datum": "2026-11-27"
  }
 }
