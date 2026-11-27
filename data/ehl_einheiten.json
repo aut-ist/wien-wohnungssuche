@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26",
+ "stand": "2026-11-27",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -1044,6 +1044,17 @@
     {
      "top": "",
      "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "2",
+     "flaeche": "46,01 m2",
+     "eigennutzer": "€ 390.000,-",
+     "href": "https://www.ehl.at/objekt/91504",
+     "balkon": "1,6 m²",
+     "terrasse": "3,64 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
      "geschoss": "EG",
      "zimmer": "3",
      "flaeche": "63,09 m2",
@@ -1051,6 +1062,18 @@
      "href": "https://www.ehl.at/objekt/91506",
      "loggia": "5,31 m²",
      "terrasse": "5,87 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "EG",
+     "zimmer": "3",
+     "flaeche": "68,12 m2",
+     "eigennutzer": "€ 565.000,-",
+     "href": "https://www.ehl.at/objekt/91507",
+     "garten": "9 m²",
+     "loggia": "7,29 m²",
+     "terrasse": "5,98 m²"
     },
     {
      "top": "",
@@ -4620,17 +4643,6 @@
      "top": "",
      "stiege": "",
      "geschoss": "1. Etage",
-     "zimmer": "1.5",
-     "flaeche": "46,48 m2",
-     "eigennutzer": "€ 325.500,-",
-     "href": "https://www.ehl.at/objekt/76415",
-     "loggia": "6,63 m²",
-     "balkon": "2,6 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "1. Etage",
      "zimmer": "3",
      "flaeche": "80,23 m2",
      "eigennutzer": "€ 638.300,-",
@@ -4767,16 +4779,6 @@
      "eigennutzer": "€ 626.900,-",
      "href": "https://www.ehl.at/objekt/76435",
      "balkon": "10,08 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "2. Etage",
-     "zimmer": "2",
-     "flaeche": "44,84 m2",
-     "eigennutzer": "€ 445.500,-",
-     "href": "https://www.ehl.at/objekt/76436",
-     "balkon": "7,42 m²"
     },
     {
      "top": "",
@@ -5027,17 +5029,6 @@
      "flaeche": "46,31 m2",
      "eigennutzer": "€ 460.700,-",
      "href": "https://www.ehl.at/objekt/76464",
-     "loggia": "5,8 m²",
-     "balkon": "5,62 m²"
-    },
-    {
-     "top": "",
-     "stiege": "",
-     "geschoss": "4. Etage",
-     "zimmer": "2",
-     "flaeche": "46,22 m2",
-     "eigennutzer": "€ 481.700,-",
-     "href": "https://www.ehl.at/objekt/76465",
      "loggia": "5,8 m²",
      "balkon": "5,62 m²"
     },

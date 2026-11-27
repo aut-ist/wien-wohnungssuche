@@ -1,11 +1,21 @@
 {
- "datum": "2026-11-26",
+ "datum": "2026-11-27",
  "ohne_haus": [
   {
-   "id": "wh-1283942818",
-   "titel": "++NEU++ 3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals - in E",
+   "id": "is-318198593061",
+   "titel": "Exklusive 150-m²-Dachgeschosswohnung auf zwei Ebenen mit Terrassen und spektakul",
+   "adresse": "Währinger Gürtel 79",
+   "erstmals": "2026-11-03",
+   "probleme": [
+    "kein Grundriss"
+   ],
+   "im_nest": true
+  },
+  {
+   "id": "ds-15250254",
+   "titel": "Moderner Wohntraum für Paare mit Platzbedarf und Jungfamilien mit Loggia in 1170",
    "adresse": null,
-   "erstmals": "2026-11-15",
+   "erstmals": "2026-11-13",
    "probleme": [
     "keine Hausnummer",
     "kein Grundriss"
@@ -13,10 +23,10 @@
    "im_nest": false
   },
   {
-   "id": "wh-1393658732",
-   "titel": "LAGE, LAGE, LAGE: Helle 3-4 Zimmer-Wohnung mit großzügigem Grundriss",
-   "adresse": null,
-   "erstmals": "2026-11-16",
+   "id": "wh-1369108699",
+   "titel": "Erstbezug nach Sanierung: Moderne 3-Zimmer-Altbau mit Balkon unweit Hauptbahnhof",
+   "adresse": "Schelleingasse",
+   "erstmals": "2026-11-15",
    "probleme": [
     "keine Hausnummer",
     "kein Grundriss"
@@ -29,51 +39,7 @@
    "adresse": null,
    "erstmals": "2026-11-16",
    "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "bt-124240696477",
-   "titel": "Stil-Werk – Top 14, 5 Zimmer",
-   "adresse": "Theresiengasse 10/14",
-   "erstmals": "2026-11-22",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-151788458790",
-   "titel": "Moderne Neubau-Dachgeschosswohnung mit Balkon und Fernblick im 2. Bezirk",
-   "adresse": null,
-   "erstmals": "2026-11-25",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-418595549989",
-   "titel": "Moderne Dachgeschosswohnung mit Balkon und Fernblick in 1020 Wien",
-   "adresse": null,
-   "erstmals": "2026-11-25",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1495937778",
-   "titel": "Sehr coole DG-Wohnung mit 2 schönen Terrassen, Nähe Botanischer Garten",
-   "adresse": null,
-   "erstmals": "2026-11-25",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
+    "keine Hausnummer"
    ],
    "im_nest": false
   },
@@ -90,48 +56,48 @@
   {
    "id": "wh-947370262",
    "titel": "++ TOP WOHNUNG ++ fünf Zimmer, zwei Bäder, extra Küchenraum und drei Balkone",
-   "adresse": null,
+   "adresse": "Gersthofer Straße 11",
    "erstmals": "2026-11-26",
+   "probleme": [
+    "kein Grundriss"
+   ],
+   "im_nest": false
+  },
+  {
+   "id": "wh-997096874",
+   "titel": "Traumhafte 4-Zimmer-Wohnung in 1180 Wien mit Garten, Terrasse und Garage!",
+   "adresse": null,
+   "erstmals": "2026-11-27",
    "probleme": [
     "keine Hausnummer"
    ],
    "im_nest": false
   },
   {
-   "id": "is-013397689123",
-   "titel": "Leben wie im Urlaub in Gersthof!",
+   "id": "wh-1770685654",
+   "titel": "Traumhafte 90 m² Dachgeschosswohnung nahe Prater - provisionsfrei vom Eigentümer",
    "adresse": null,
-   "erstmals": "2026-11-26",
+   "erstmals": "2026-11-27",
    "probleme": [
     "keine Hausnummer"
    ],
    "im_nest": false
   },
   {
-   "id": "wh-1236816001",
-   "titel": "Perfekter Grundriss - Perfekte Größe - Perfektes, neues Zuhause",
+   "id": "is-112646557954",
+   "titel": "Helle, ruhige 3-Zimmer-Wohnung in Toplage des 3. Wiener Bezirks – Nähe Belvedere",
    "adresse": null,
-   "erstmals": "2026-11-26",
+   "erstmals": "2026-11-27",
    "probleme": [
     "keine Hausnummer"
    ],
    "im_nest": false
   },
   {
-   "id": "wh-2110579465",
-   "titel": "++NEU++ Sanierungsbedürftige 3-Zimmer-Altbauwohnung mit 95 m² und Lift am Währin",
+   "id": "wh-1630975784",
+   "titel": "OTTO BAUER GASSE: Modernisierte Altbau-Wohnung mit 17 m² Innenhofbalkon, Klimaan",
    "adresse": null,
-   "erstmals": "2026-11-26",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1590735756",
-   "titel": "Ruhige 4-Zimmer-Wohnung mit Grünblick am Wienerwald - ca. 100 m² in Dornbach",
-   "adresse": null,
-   "erstmals": "2026-11-26",
+   "erstmals": "2026-11-27",
    "probleme": [
     "keine Hausnummer"
    ],
