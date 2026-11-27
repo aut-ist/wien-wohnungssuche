@@ -1085,6 +1085,14 @@ def zusammenfuehren(gruppe, reviews):
         for k, v in r.items():
             if m.get(k) in (None, "", [], {}) and v not in (None, "", [], {}):
                 m[k] = v
+    # Preis und Link vom neuesten Inserat, das noch online ist (2026-11-27: Vigo-Nestwohnung Währinger Gürtel 79 Top 10
+    # stand mit 649.000 € aus einem seit 22.11. offline Inserat auf der Karte, aktuell verlangt sind 750.000 €)
+    aktive = [r for r in gruppe if r.get("aktiv", True) and r.get("preis")]
+    if not kopf.get("aktiv", True) and aktive:
+        heute = max(r.get("zuletzt") or r["erstmals"] for r in aktive)
+        # mehrere Makler mit derselben Wohnung: das günstigste aktuelle Angebot (z. B. Czerninplatz 5: DECUS 945k, MAXSTA 847k)
+        neu = min((r for r in aktive if (r.get("zuletzt") or r["erstmals"]) == heute), key=lambda r: (r["preis"], r["id"]))
+        m["preis"], m["url"], m["quelle"] = neu["preis"], neu["url"], neu["quelle"]
     # Lage: genaueste Angabe mit Koordinaten; sonst eine Straßenangabe nachschlagen
     beste = max(gruppe, key=lambda r: (bool(r.get("lat")) and GENAU[r.get("lage_genauigkeit")], bool(r.get("lat"))))
     for k in ("lat", "lon", "lage_genauigkeit", "adresse"):

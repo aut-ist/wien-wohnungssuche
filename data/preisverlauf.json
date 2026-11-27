@@ -695,8 +695,8 @@
      "zuletzt": "2026-11-27"
     }
    ],
-   "quelle": "willhaben",
-   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/heller-4-zimmer-erstbezug-mit-terrasse-naehe-kutschkermarkt-2112582298/",
+   "quelle": "derStandard",
+   "url": "https://immobilien.derstandard.at/detail/15036035",
    "titel": "Heller 4-Zimmer Erstbezug mit Terrasse, Nähe Kutschkermarkt",
    "status": "gruen",
    "gruende": [],
@@ -6163,8 +6163,8 @@
      "zuletzt": "2026-11-24"
     }
    ],
-   "quelle": "derStandard",
-   "url": "https://immobilien.derstandard.at/detail/15280487",
+   "quelle": "FindMyHome",
+   "url": "https://www.findmyhome.at/5757967",
    "titel": "++ FANTASTISCHE DG Wohnung ++ in WÄHRING - Erstbezug",
    "status": "gruen",
    "gruende": [
@@ -14351,7 +14351,7 @@
     }
    ],
    "quelle": "willhaben",
-   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/moderne-3-zimmer-wohnung-mit-balkon-und-erstbezug-in-1180-wien-78m-komfort-1749807365/",
+   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/zweitbezug-moebliert-top-lage-2142854368/",
    "titel": "Moderne 3-Zimmer-Wohnung mit Balkon und Erstbezug in 1180 Wien - 78m² Komfort!",
    "status": "gruen",
    "gruende": [],
@@ -14360,7 +14360,7 @@
    "lon": 16.34859,
    "ungefaehr": false,
    "radius": null,
-   "preis": 649000.0,
+   "preis": 750000.0,
    "preis_inserat": null,
    "preis_hinweis": null,
    "flaeche": 78.66,
