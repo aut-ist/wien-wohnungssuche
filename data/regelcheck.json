@@ -1,15 +1,4 @@
 {
  "datum": "2026-11-27",
- "ohne_haus": [
-  {
-   "id": "wh-886856223",
-   "titel": "Schöne 3-Zimmer-DG-Wohnung mit Terrasse unweit vom Hauptbahnhof",
-   "adresse": "Schelleingasse 23",
-   "erstmals": "2026-11-15",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  }
- ]
+ "ohne_haus": []
 }
