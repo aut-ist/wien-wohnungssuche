@@ -14270,6 +14270,10 @@
  },
  "wh-2142854368": {
   "ids": [
+   "is-913235351290",
+   "is-954634900048",
+   "wh-1749807365",
+   "wh-1992576637",
    "wh-2142854368"
   ],
   "verlauf": [
@@ -14277,47 +14281,99 @@
     "2026-10-25",
     750000.0,
     "willhaben"
+   ],
+   [
+    "2026-10-30",
+    490000.0,
+    "ImmoScout24"
+   ],
+   [
+    "2026-10-30",
+    490000.0,
+    "willhaben"
+   ],
+   [
+    "2026-11-11",
+    649000.0,
+    "ImmoScout24"
+   ],
+   [
+    "2026-11-11",
+    649000.0,
+    "willhaben"
    ]
   ],
   "online_seit": "2026-10-25",
   "stand": {
-   "id": "wh-2142854368",
+   "id": "wh-1749807365",
    "ids": [
-    "wh-2142854368"
+    "wh-1749807365",
+    "wh-1992576637",
+    "wh-2142854368",
+    "is-913235351290",
+    "is-954634900048"
    ],
    "links": [
+    {
+     "quelle": "willhaben",
+     "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/moderne-3-zimmer-wohnung-mit-balkon-und-erstbezug-in-1180-wien-78m-komfort-1749807365/",
+     "preis": 649000.0,
+     "id": "wh-1749807365",
+     "zuletzt": "2026-11-22"
+    },
+    {
+     "quelle": "willhaben",
+     "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/3-zimmer-79-m-westbalkon-zum-hof-lift-nahe-u6-eur-490-000-1992576637/",
+     "preis": 490000.0,
+     "id": "wh-1992576637",
+     "zuletzt": "2026-11-21"
+    },
     {
      "quelle": "willhaben",
      "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/zweitbezug-moebliert-top-lage-2142854368/",
      "preis": 750000.0,
      "id": "wh-2142854368",
      "zuletzt": "2026-11-27"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6af2fd693f304726c1bd26c1",
+     "preis": 649000.0,
+     "id": "is-913235351290",
+     "zuletzt": "2026-11-22"
+    },
+    {
+     "quelle": "ImmoScout24",
+     "url": "https://www.immobilienscout24.at/expose/6ae363b16638eafe1af06d3a",
+     "preis": 490000.0,
+     "id": "is-954634900048",
+     "zuletzt": "2026-11-21"
     }
    ],
    "quelle": "willhaben",
-   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/zweitbezug-moebliert-top-lage-2142854368/",
-   "titel": "ZWEITBEZUG / MÖBLIERT / TOP-LAGE!!!",
+   "url": "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1180-waehring/moderne-3-zimmer-wohnung-mit-balkon-und-erstbezug-in-1180-wien-78m-komfort-1749807365/",
+   "titel": "Moderne 3-Zimmer-Wohnung mit Balkon und Erstbezug in 1180 Wien - 78m² Komfort!",
    "status": "gruen",
    "gruende": [],
    "offline": false,
-   "lat": 48.223824,
-   "lon": 16.345388,
-   "ungefaehr": true,
-   "radius": 262,
-   "preis": 750000.0,
+   "lat": 48.22416,
+   "lon": 16.34859,
+   "ungefaehr": false,
+   "radius": null,
+   "preis": 649000.0,
    "preis_inserat": null,
    "preis_hinweis": null,
    "flaeche": 78.66,
    "zimmer": 3,
    "plz": 1180,
-   "adresse": null,
-   "lage": "18. Bezirk (Kartenpunkt bis zu 262 m versetzt)",
+   "adresse": "Währinger Gürtel 79",
+   "lage": "18. Bezirk (aus Beschreibung: Währinger Gürtel 79)",
    "heizung": {
     "ergebnis": "gas",
     "von": "automatisch",
-    "text": "Heizung: Fußbodenheizung; Heizung: Fussbodenheizung; Heizungsart: Gasheizung"
+    "text": "Heizung: Fußbodenheizung (willhaben); Heizung: Fussbodenheizung (willhaben); Heizungsart: Gasheizung (willhaben)"
    },
-   "bild": "https://cache.willhaben.at/mmo/8/214/285/4368_1116725846_hoved.jpg",
+   "bild": "https://cache.willhaben.at/mmo/5/174/980/7365_-641816613_hoved.jpg",
    "erstmals": "2026-10-25",
    "neu": false,
    "preisverlauf": [
@@ -14325,16 +14381,51 @@
      "2026-10-25",
      750000.0,
      "willhaben"
+    ],
+    [
+     "2026-10-30",
+     490000.0,
+     "ImmoScout24"
+    ],
+    [
+     "2026-10-30",
+     490000.0,
+     "willhaben"
+    ],
+    [
+     "2026-11-11",
+     649000.0,
+     "ImmoScout24"
+    ],
+    [
+     "2026-11-11",
+     649000.0,
+     "willhaben"
     ]
    ],
    "online_seit": "2026-10-25",
-   "baujahr": "2022 (DG-Ausbau/Neubau)",
-   "bauart": "Neubau",
-   "stockwerk": "4. OG = 1. DG (Lift)",
-   "monatlich": null,
+   "baujahr": "um 1900 (Altbau, laut Energieausweis/ImmoLöwin)",
+   "bauart": "Altbau",
+   "stockwerk": "4. Stock (Lift)",
+   "monatlich": 257,
    "bilder": [
-    "https://cache.willhaben.at/mmo/8/214/285/4368_1116725846.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-1573186271.jpg",
+    "grundrisse/wh-1749807365.jpg?v=b24956a3",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-88682207.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-1265785434.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_1366691736.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-539523310.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_1790256525.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-1901536500.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_866081494.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_1740231522.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_337970587.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-1222888338.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-1263454723.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-605481108.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_720592049.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_547598650.jpg",
+    "https://cache.willhaben.at/mmo/8/214/285/4368_1116725846.jpg",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-1752964067.jpg",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-1598758041.jpg",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-1501109844.jpg",
@@ -14342,28 +14433,43 @@
     "https://cache.willhaben.at/mmo/8/214/285/4368_-654122288.jpg",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-1347819871.jpg",
     "https://cache.willhaben.at/mmo/8/214/285/4368_-347088832.jpg",
-    "https://cache.willhaben.at/mmo/8/214/285/4368_-157422327.jpg"
+    "https://cache.willhaben.at/mmo/8/214/285/4368_-157422327.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-641816613.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_1458524855.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_111789526.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-373727551.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-1260598815.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-332536346.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-1073055634.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_-2098575012.jpg",
+    "https://cache.willhaben.at/mmo/5/174/980/7365_35663201.jpg",
+    "https://cache.willhaben.at/mmo/7/199/257/6637_-2136181310.jpg"
    ],
    "freiflaeche": [
     "Balkon"
    ],
    "zustand": "Zweitbezug, möbliert, neuwertig",
    "guertel": {
-    "min": 4,
+    "min": 1,
     "ab": null,
-    "gehen": 4,
-    "ziel": "Michelbeuern-AKH",
-    "ungefaehr": true
+    "gehen": 1,
+    "ziel": "Währinger Straße-Volksoper",
+    "ungefaehr": false
    },
    "zuletzt": "2026-11-27"
   },
   "details": {
-   "text": "## Ausstattung\n- Balkonanzahl:1\n- Balkonfläche:10,34 m²\n- Bad mit Wanne\n- Boden: Fliesenboden\n- Boden: Parkettboden\n- Heizung: Fussbodenheizung\n- Heizungsart: Gasheizung\n\n## Lage\nVolksoper\nU6 - Währinger Straße; Strassenbahn 40, 41, 42\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <500m\nPost <500m\nPolizei <1000m\n\n## Beschreibung\nDiese Kombination aus TOP-Lage, modernster Ausstattung und exzellenter Verkehrsanbindung macht diese Wohnung zu einer herausragenden Option für Ihr neues Zuhause.\nHochwertige Ausstattung:\n- Wohnküche mit direktem Zugang auf die Terrasse\n- Zwei Schlafzimmern\n- Parkettböden\n- Klimaanlage in allen Wohnräumen\n- Fußbodenheizung \n- Personenaufzug\n- Schlüsselfertig inkl. Keller\nKaufpreis EUR 750.000, --\nNebenkosten:\n- Grunderwerbssteuer: 3,50 % vom Kaufpreis\n- Eintragungsgebühr: 1,10 % vom Kaufpreis\n- Vertragserrichtungskosten und Treuhändlerhonorar: % des Kaufpreises zzgl. 20% USt und Barauslagen \n- Vermittlungsprovision: 3 % des Kaufpreises zzgl. 20% USt.\nWir würden uns über ein persönliches Gespräch mit Ihnen sehr freuen!\nWeitere verfügbare Wohneinheiten mit zahlreichen aktuellen TOP Projekten! Mehr Details findet Sie auf unsere Homepage!\nwww.vigoimmobilien.at | +43 664 99 877 599\nHinweis gemäß Energieausweisvorlagegesetz: Ein Energieausweis wurde vom Eigentümer bzw. Verkäufer, nach unserer Aufklärung über die generell geltende Vorlagepflicht, sowie Aufforderung zu seiner Erstellung noch nicht vorgelegt. Daher gilt zumindest eine dem Alter und der Art des Gebäudes entsprechende Gesamtenergieeffizienz als vereinbart. Wir übernehmen keinerlei Gewähr oder Haftung für die tatsächliche Energieeffizienz der angebotenen Immobilie.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1%\n\n## Zusatzinformationen\n- Anzahl Etagen: 6\n- Stockwerk: 1. DG\n- Anzahl Badezimmer: 1\n- Klimatisiert\n- Kabel/Sat TV\n- Verfügbar ab: sofort\n- Baujahr: 2022\n- Anzahl WC: 2",
+   "text": "## ===== willhaben =====\n## Ausstattung\n- Balkonanzahl:1\n- Abstellraum Anzahl: 1\n- Balkonfläche:10,34 m²\n- Bad mit Dusche\n- Einbauküche\n- Boden: Fliesenboden\n- Boden: Parkettboden\n- Heizung: Fussbodenheizung\n- Heizungsart: Gasheizung\n- Möblierung: TEIL\n- Barrierefrei\n- Abstellraum\n- Gäste-WC: 1\n\n## Lage\nDiese Wohnung in 1180 Wien besticht durch ihre hervorragende Lage nahe der U6-Station Währinger Straße. Sämtliche Einrichtungen des täglichen Bedarfs wie Arzt, Apotheke, Supermarkt, Bäckerei, Bank und Post sind fußläufig erreichbar. Schulen, Kindergärten, Universität sowie medizinische Einrichtungen und öffentliche Verkehrsmittel wie Bus, Straßenbahn und Bahnhof garantieren optimale Lebensqualität und Mobilität.\nRegion: U6 Währinger Straße\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <500m\nPost <500m\nPolizei <1000m\n\n## Beschreibung\nWillkommen in Ihrem neuen Zuhause im begehrten 18. Wiener Gemeindebezirk! Diese exklusive 3-Zimmer-Wohnung im 4. Obergeschoss besticht durch ihre hochwertige Ausstattung und den atemberaubenden Ausblick auf die umliegenden Berge, die Stadt und das grüne Umfeld. Mit einer großzügigen Wohnfläche von 78,66 m² bietet diese Immobilie ausreichend Platz für Paare, kleine Familien oder alle, die Wert auf komfortables und modernes Wohnen legen.\nDer Erstbezug garantiert Ihnen eine nagelneue und top gepflegte Wohnung, die mit viel Liebe zum Detail gestaltet wurde. Hochwertige Parkett- und Fliesenböden sorgen für ein elegantes Ambiente, während die Fußbodenheizung für wohlige Wärme auch an kalten Tagen sorgt. Die moderne Einbauküche ist perfekt ausgestattet und lädt zum Kochen und Verweilen ein. Das Badezimmer verfügt über eine praktische Dusche, die Ihren Alltag angenehm gestaltet.\nDer Balkon ist ein echtes Highlight und bietet Ihnen einen unvergleichlichen Blick ins Grüne sowie auf die Stadt und die Berge - der ideale Ort, um den Tag entspannt ausklingen zu lassen oder den Morgen mit einem Kaffee zu beginnen. Der Personenaufzug erleichtert Ihnen den Zugang zur Wohnung und sorgt für zusätzlichen Komfort.\nDie Lage überzeugt durch eine ausgezeichnete Verkehrsanbindung: Bus, U-Bahn, Straßenbahn und Bahnhof sind schnell erreichbar, sodass Sie jederzeit flexibel und schnell in ganz Wien unterwegs sind. Auch die Infrastruktur lässt keine Wünsche offen - nahegelegene Ärzte, Apotheken, Kliniken und Krankenhäuser bieten umfassende medizinische Versorgung. Für Familien sind Schulen, Kindergärten, Universitäten und höhere Schulen in unmittelbarer Nähe vorhanden. Einkaufsmöglichkeiten wie Supermärkte und Bäckereien sind bequem zu Fuß erreichbar und machen den Alltag einfach und angenehm.\nDer Kaufpreis von 650.000,00 EUR spiegelt die hochwertige Qualität und die attraktive Lage dieser Wohnung wider. Nutzen Sie die Chance, in einem der beliebtesten Bezirke Wiens zu wohnen und profitieren Sie von einem stilvollen Erstbezug mit allem Komfort, den Sie sich wünschen können.\nZögern Sie nicht und vereinbaren Sie noch heute einen Besichtigungstermin - Ihre Traumwohnung im 18. Bezirk wartet auf Sie!\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 241,43 Eur\n- monatliche Kosten (inkl. MWSt): 257,24 Eur\n- Kaufpreis pro m²: 8250,7 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1% \n- Monatliche Reparaturrücklage (excl. MWSt): 83,38 Eur\n- sonstige Kosten (exkl. MWSt): 113.38 Eur\n\n## Zusatzinformationen\n- Stockwerk: 4. Etage\n- Anzahl Badezimmer: 1\n- Kabel/Sat TV\n- Energiepass gültig bis: 2036-04-12\n- Energiepass HWB: 31.1 kWh/m²/Jahr\n- Verfügbar ab: sofort\n- Baujahr: 1900\n- Anzahl WC: 1\n\n## Flächen\n- Kellerfläche: 4.5 m²\n\n## ===== willhaben =====\n## Ausstattung\n- Balkonanzahl:1\n- Balkonfläche:10,34 m²\n- Einbauküche\n- Boden: Fliesenboden\n- Boden: Parkettboden\n- Heizungsart: Gasheizung\n- Möblierung: TEIL\n- Abstellraum\n- Gäste-WC: 1\n\n## Lage\nDas Haus steht am Währinger Gürtel, rund 200 m von der U6-Station Währinger Straße-Volksoper; dort halten auch die Straßenbahnlinien 40, 41 und 42. Volksoper, Kutschkermarkt und die Geschäfte der Währinger Straße erreichen Sie zu Fuß.\nStraßenseitig liegen der Gürtel und die U6-Trasse; Küche, Balkon und ein Zimmer sind zum Hof ausgerichtet.\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <500m\nPost <500m\nPolizei <1000m\n\n## Beschreibung\n3 Zimmer, 78,66 m², EUR 6.229 pro m². Die Wohnung liegt im 4. Stock eines Hauses aus dem Jahr 1900; der Lift hält im 4. Stock. Laut Eigentümerin wurde sie bisher nicht bewohnt.\nAufteilung. Wohn- und Esszimmer (25,37 m²), zwei Zimmer (13,40 und 11,01 m²), separate Küche (8,98 m²), Vorraum mit Abstellraum, Bad mit WC und ein separates WC. Von der Küche geht es auf den Balkon nach Westen zum Hof (10,34 m²).\nAusrichtung. Wohn- und Esszimmer und das größere Zimmer liegen straßenseitig zum Gürtel; Küche, Balkon und das zweite Zimmer zum Hof.\nZustand. Teilmöbliert: Einbauküche und Bett bleiben in der Wohnung. Parkettböden, geflieste Nassräume, Gasheizung. Zur Wohnung gehört ein Kellerabteil.\nHinweis: EUR 490.000 ist der Endpreis nach Preisreduktion - Verhandlungen sind nicht möglich. Kaufanbote nehmen wir nur mit Finanzierungszusage einer Bank oder Eigenmittelnachweis entgegen.\nAusstattung: Parkett · Fliesen · Personenaufzug · Gasheizung · Einbauküche · separate Küche · Bad mit WC · separates WC · Abstellraum · Westbalkon zum Hof · Kellerabteil\nDer Vermittler ist als Doppelmakler tätig.\nKaufpreis: EUR 490.000 (Endpreis nach Preisreduktion, keine Umsatzsteuer).\nMonatliche Kosten lt. Vorschreibung 2025: Betriebskosten-Akonto EUR 158,05 zzgl. 10 % USt (EUR 173,85 brutto, inkl. Liftbetriebskosten EUR 30,00), Rücklage EUR 83,38; gesamt EUR 257,23 pro Monat.\nKaufnebenkosten: Grunderwerbsteuer 3,5 %, Grundbucheintragung 1,1 %, Kosten der Vertragserrichtung und Treuhandschaft.\nProvision: 3 % des Kaufpreises zzgl. 20 % USt. Der Makler ist als Doppelmakler tätig. Es besteht kein wirtschaftliches oder familiäres Naheverhältnis zwischen Makler und Abgeber.\nBesichtigungen nach Vorlage eines Eigenmittel- oder Finanzierungsnachweises.\nHinweise: Teilmöbliert (Einbauküche, Bett). Zur Wohnung gehört ein Kellerabteil.\nEnergieausweis: HWB 35,6 kWh/m²a (B), fGEE 0,74 (A), gültig bis 12.04.2036.\nAlle Angaben beruhen auf Unterlagen und Auskünften der Eigentümerin und erfolgen ohne Gewähr.\n\n## Preis - Detailinformation\n- monatliche Kosten (exkl. MWSt): 158,05 Eur\n- monatliche Kosten (inkl. MWSt): 173,86 Eur\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1%\n\n## Zusatzinformationen\n- Stockwerk: 4. Etage\n- Anzahl Badezimmer: 1\n- Energiepass gültig bis: 2036-04-12\n- Energiepass HWB: 35.6 kWh/m²/Jahr\n- Baujahr: 1900\n- Anzahl WC: 2\n\n## ===== willhaben =====\n## Ausstattung\n- Balkonanzahl:1\n- Balkonfläche:10,34 m²\n- Bad mit Wanne\n- Boden: Fliesenboden\n- Boden: Parkettboden\n- Heizung: Fussbodenheizung\n- Heizungsart: Gasheizung\n\n## Lage\nVolksoper\nU6 - Währinger Straße; Strassenbahn 40, 41, 42\nInfrastruktur / Entfernungen\nGesundheit\nArzt Kinder / Schulen\nSchule Nahversorgung\nSupermarkt Verkehr\nU-Bahn Sonstige\nBank <500m\nPost <500m\nPolizei <1000m\n\n## Beschreibung\nDiese Kombination aus TOP-Lage, modernster Ausstattung und exzellenter Verkehrsanbindung macht diese Wohnung zu einer herausragenden Option für Ihr neues Zuhause.\nHochwertige Ausstattung:\n- Wohnküche mit direktem Zugang auf die Terrasse\n- Zwei Schlafzimmern\n- Parkettböden\n- Klimaanlage in allen Wohnräumen\n- Fußbodenheizung \n- Personenaufzug\n- Schlüsselfertig inkl. Keller\nKaufpreis EUR 750.000, --\nNebenkosten:\n- Grunderwerbssteuer: 3,50 % vom Kaufpreis\n- Eintragungsgebühr: 1,10 % vom Kaufpreis\n- Vertragserrichtungskosten und Treuhändlerhonorar: % des Kaufpreises zzgl. 20% USt und Barauslagen \n- Vermittlungsprovision: 3 % des Kaufpreises zzgl. 20% USt.\nWir würden uns über ein persönliches Gespräch mit Ihnen sehr freuen!\nWeitere verfügbare Wohneinheiten mit zahlreichen aktuellen TOP Projekten! Mehr Details findet Sie auf unsere Homepage!\nwww.vigoimmobilien.at | +43 664 99 877 599\nHinweis gemäß Energieausweisvorlagegesetz: Ein Energieausweis wurde vom Eigentümer bzw. Verkäufer, nach unserer Aufklärung über die generell geltende Vorlagepflicht, sowie Aufforderung zu seiner Erstellung noch nicht vorgelegt. Daher gilt zumindest eine dem Alter und der Art des Gebäudes entsprechende Gesamtenergieeffizienz als vereinbart. Wir übernehmen keinerlei Gewähr oder Haftung für die tatsächliche Energieeffizienz der angebotenen Immobilie.\nWir weisen darauf hin, dass zwischen dem Vermittler und dem zu vermittelnden Dritten ein familiäres oder wirtschaftliches Naheverhältnis besteht.\nDer Vermittler ist als Doppelmakler tätig.\n\n## Preis - Detailinformation\n- Grunderwerbssteuer: 3.5% \n- Grundbucheintragung Kosten: 1.1%\n\n## Zusatzinformationen\n- Anzahl Etagen: 6\n- Stockwerk: 1. DG\n- Anzahl Badezimmer: 1\n- Klimatisiert\n- Kabel/Sat TV\n- Verfügbar ab: sofort\n- Baujahr: 2022\n- Anzahl WC: 2\n\n## ===== ImmoScout24 =====\n## Beschreibung\nWillkommen in Ihrem neuen Zuhause im begehrten 18. Wiener Gemeindebezirk! Diese exklusive 3-Zimmer-Wohnung im 4. Obergeschoss besticht durch ihre hochwertige Ausstattung und den atemberaubenden Ausblick auf die umliegenden Berge, die Stadt und das grüne Umfeld. Mit einer großzügigen Wohnfläche von 78,66 m² bietet diese Immobilie ausreichend Platz für Paare, kleine Familien oder alle, die Wert auf komfortables und modernes Wohnen legen.\nDer Erstbezug garantiert Ihnen eine nagelneue und top gepflegte Wohnung, die mit viel Liebe zum Detail gestaltet wurde. Hochwertige Parkett- und Fliesenböden sorgen für ein elegantes Ambiente, während die Fußbodenheizung für wohlige Wärme auch an kalten Tagen sorgt. Die moderne Einbauküche ist perfekt ausgestattet und lädt zum Kochen und Verweilen ein. Das Badezimmer verfügt über eine praktische Dusche, die Ihren Alltag angenehm gestaltet.\nDer Balkon ist ein echtes Highlight und bietet Ihnen einen unvergleichlichen Blick ins Grüne sowie auf die Stadt und die Berge – der ideale Ort, um den Tag entspannt ausklingen zu lassen oder den Morgen mit einem Kaffee zu beginnen. Der Personenaufzug erleichtert Ihnen den Zugang zur Wohnung und sorgt für zusätzlichen Komfort.\nDie Lage überzeugt durch eine ausgezeichnete Verkehrsanbindung: Bus, U-Bahn, Straßenbahn und Bahnhof sind schnell erreichbar, sodass Sie jederzeit flexibel und schnell in ganz Wien unterwegs sind. Auch die Infrastruktur lässt keine Wünsche offen – nahegelegene Ärzte, Apotheken, Kliniken und Krankenhäuser bieten umfassende medizinische Versorgung. Für Familien sind Schulen, Kindergärten, Universitäten und höhere Schulen in unmittelbarer Nähe vorhanden. Einkaufsmöglichkeiten wie Supermärkte und Bäckereien sind bequem zu Fuß erreichbar und machen den Alltag einfach und angenehm.\nDer Kaufpreis von 650.000,00 € spiegelt die hochwertige Qualität und die attraktive Lage dieser Wohnung wider. Nutzen Sie die Chance, in einem der beliebtesten Bezirke Wiens zu wohnen und profitieren Sie von einem stilvollen Erstbezug mit allem Komfort, den Sie sich wünschen können.\nZögern Sie nicht und vereinbaren Sie noch heute einen Besichtigungstermin – Ihre Traumwohnung im 18. Bezirk wartet auf Sie!\nDer Vermittler ist als Doppelmakler tätig.\n\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <500m\nKlinik <500m\nKrankenhaus <500m\n\nKinder & Schulen\nSchule <500m\nKindergarten <500m\nUniversität <500m\nHöhere Schule <500m\n\nNahversorgung\nSupermarkt <500m\nBäckerei <500m\nEinkaufszentrum <1.500m\n\nSonstige\nGeldautomat <500m\nBank <500m\nPost <500m\nPolizei <1.000m\n\nVerkehr\nBus <500m\nU-Bahn <500m\nStraßenbahn <500m\nBahnhof <500m\nAutobahnanschluss <2.500m\n\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Lage\nDiese Wohnung in 1180 Wien besticht durch ihre hervorragende Lage nahe der U6-Station Währinger Straße. Sämtliche Einrichtungen des täglichen Bedarfs wie Arzt, Apotheke, Supermarkt, Bäckerei, Bank und Post sind fußläufig erreichbar. Schulen, Kindergärten, Universität sowie medizinische Einrichtungen und öffentliche Verkehrsmittel wie Bus, Straßenbahn und Bahnhof garantieren optimale Lebensqualität und Mobilität.\n\n## Merkmale\n- Verfügbar ab sofort\n- Wohnung\n- Baujahr 1900\n- Altbau\n- Erstbezug\n- Massivbauweise\n- Unterkellert\n- Mansarddach\n- letzte Modernisierung 2019\n- Parkett\n- Fliesen\n- 4. Etage\n- Wohnfläche 78,66 m²\n- 1 Balkon 10,34 m² nordostseitig\n- 3 Zimmer\n- Kellerfläche 4,5 m²\n- 1 Badezimmer\n- 1 Toilette\n- Abstellraum\n- Fahrradabstellraum\n- Einbauküche\n- Teilmöbliert\n- Dusche\n- Rolläden\n- Barrierefrei\n- Personenaufzug\n\n## ===== ImmoScout24 =====\n## Beschreibung\n3 Zimmer, 78,66 m², € 6.229 pro m². Die Wohnung liegt im 4. Stock eines Hauses aus dem Jahr 1900; der Lift hält im 4. Stock. Laut Eigentümerin wurde sie bisher nicht bewohnt.\nAufteilung. Wohn- und Esszimmer (25,37 m²), zwei Zimmer (13,40 und 11,01 m²), separate Küche (8,98 m²), Vorraum mit Abstellraum, Bad mit WC und ein separates WC. Von der Küche geht es auf den Balkon nach Westen zum Hof (10,34 m²).\nAusrichtung. Wohn- und Esszimmer und das größere Zimmer liegen straßenseitig zum Gürtel; Küche, Balkon und das zweite Zimmer zum Hof.\nZustand. Teilmöbliert: Einbauküche und Bett bleiben in der Wohnung. Parkettböden, geflieste Nassräume, Gasheizung. Zur Wohnung gehört ein Kellerabteil.\nHinweis: € 490.000 ist der Endpreis nach Preisreduktion – Verhandlungen sind nicht möglich. Kaufanbote nehmen wir nur mit Finanzierungszusage einer Bank oder Eigenmittelnachweis entgegen.\nAusstattung: Parkett · Fliesen · Personenaufzug · Gasheizung · Einbauküche · separate Küche · Bad mit WC · separates WC · Abstellraum · Westbalkon zum Hof · Kellerabteil\nDer Vermittler ist als Doppelmakler tätig.\n\nInfrastruktur / Entfernungen\nGesundheit\nArzt <500m\nApotheke <500m\nKlinik <500m\nKrankenhaus <500m\n\nKinder & Schulen\nSchule <500m\nKindergarten <500m\nUniversität <500m\nHöhere Schule <500m\n\nNahversorgung\nSupermarkt <500m\nBäckerei <500m\nEinkaufszentrum <1.500m\n\nSonstige\nGeldautomat <500m\nBank <500m\nPost <500m\nPolizei <1.000m\n\nVerkehr\nBus <500m\nU-Bahn <500m\nStraßenbahn <500m\nBahnhof <500m\nAutobahnanschluss <2.500m\n\nAngaben Entfernung Luftlinie / Quelle: OpenStreetMap\n\n## Lage\nDas Haus steht am Währinger Gürtel, rund 200 m von der U6-Station Währinger Straße-Volksoper; dort halten auch die Straßenbahnlinien 40, 41 und 42. Volksoper, Kutschkermarkt und die Geschäfte der Währinger Straße erreichen Sie zu Fuß.\n\nStraßenseitig liegen der Gürtel und die U6-Trasse; Küche, Balkon und ein Zimmer sind zum Hof ausgerichtet.\n\n## Sonstiges\nKaufpreis: € 490.000 (Endpreis nach Preisreduktion, keine Umsatzsteuer).\nMonatliche Kosten lt. Vorschreibung 2025: Betriebskosten-Akonto € 158,05 zzgl. 10 % USt (€ 173,85 brutto, inkl. Liftbetriebskosten € 30,00), Rücklage € 83,38; gesamt € 257,23 pro Monat.\nKaufnebenkosten: Grunderwerbsteuer 3,5 %, Grundbucheintragung 1,1 %, Kosten der Vertragserrichtung und Treuhandschaft.\nProvision: 3 % des Kaufpreises zzgl. 20 % USt. Der Makler ist als Doppelmakler tätig. Es besteht kein wirtschaftliches oder familiäres Naheverhältnis zwischen Makler und Abgeber.\nBesichtigungen nach Vorlage eines Eigenmittel- oder Finanzierungsnachweises.\nHinweise: Teilmöbliert (Einbauküche, Bett). Zur Wohnung gehört ein Kellerabteil.\nEnergieausweis: HWB 35,6 kWh/m²a (B), fGEE 0,74 (A), gültig bis 12.04.2036.\nAlle Angaben beruhen auf Unterlagen und Auskünften der Eigentümerin und erfolgen ohne Gewähr.\n\n## Merkmale\n- Etagenwohnung\n- Baujahr 1900\n- Altbau\n- Erstbezug\n- Unterkellert\n- Parkett\n- Fliesen\n- 4. Etage\n- Wohnfläche 78,66 m²\n- Nutzfläche 78,66 m²\n- 1 Balkon 10,34 m² westseitig\n- 3 Zimmer\n- 1 Badezimmer\n- 2 Toiletten\n- Gäste WC\n- Abstellraum\n- Einbauküche\n- Teilmöbliert\n- Personenaufzug",
    "heizung_felder": [
-    "Heizung: Fußbodenheizung",
-    "Heizung: Fussbodenheizung",
-    "Heizungsart: Gasheizung",
-    "Fußbodenheizung "
+    "Heizung: Fußbodenheizung (willhaben)",
+    "Heizung: Fussbodenheizung (willhaben)",
+    "Heizungsart: Gasheizung (willhaben)",
+    "und Fliesenböden sorgen für ein elegantes Ambiente, während die Fußbodenheizung für wohlige Wärme auch an kalten Tagen sorgt. Die moderne Einbauküche ist perfekt ausgestattet und lädt zum Kochen und Verweilen ein. Das Badezimmer verfügt über eine praktische Dusche, die Ihren Alltag angenehm gestaltet. (willhaben)",
+    "Heizung: Gasheizung (willhaben)",
+    "Fußbodenheizung  (willhaben)",
+    "Heizung: Fußbodenheizung (ImmoScout24)",
+    "Energieträger: Gas (ImmoScout24)",
+    "und Fliesenböden sorgen für ein elegantes Ambiente, während die Fußbodenheizung für wohlige Wärme auch an kalten Tagen sorgt. Die moderne Einbauküche ist perfekt ausgestattet und lädt zum Kochen und Verweilen ein. Das Badezimmer verfügt über eine praktische Dusche, die Ihren Alltag angenehm gestaltet. (ImmoScout24)"
    ]
   }
  },
@@ -15792,8 +15898,11 @@
     "https://cache.willhaben.at/mmo/3/207/642/4293_-1257044842.jpg",
     "https://cache.willhaben.at/mmo/3/207/642/4293_-1703011060.jpg",
     "https://cache.willhaben.at/mmo/1/126/840/0331_367687917.jpg",
+    "https://cache.willhaben.at/mmo/4/823/252/424_-899982325.jpg",
     "https://cache.willhaben.at/mmo/1/126/840/0331_-803149071.jpg",
+    "https://cache.willhaben.at/mmo/2/208/943/3472_123804140.jpg",
     "https://cache.willhaben.at/mmo/1/126/840/0331_1462388284.jpg",
+    "https://cache.willhaben.at/mmo/4/823/252/424_-181697573.jpg",
     "https://cache.willhaben.at/mmo/3/207/642/4293_1693402039.jpg",
     "https://cache.willhaben.at/mmo/1/126/840/0331_-1869766647.jpg",
     "https://cache.willhaben.at/mmo/3/207/642/4293_791809366.jpg",
@@ -15830,7 +15939,6 @@
     "https://cache.willhaben.at/mmo/2/208/943/3472_-1923608298.jpg",
     "https://cache.willhaben.at/mmo/2/208/943/3472_-1685242219.jpg",
     "https://cache.willhaben.at/mmo/2/208/943/3472_1398602693.jpg",
-    "https://cache.willhaben.at/mmo/2/208/943/3472_123804140.jpg",
     "https://cache.willhaben.at/mmo/2/208/943/3472_609344843.jpg",
     "https://cache.willhaben.at/mmo/2/208/943/3472_942019467.jpg",
     "https://cache.willhaben.at/mmo/2/208/943/3472_53532335.jpg",
@@ -15855,8 +15963,6 @@
     "https://cache.willhaben.at/mmo/9/119/297/5669_-371142559.jpg",
     "https://cache.willhaben.at/mmo/9/119/297/5669_1673623065.jpg",
     "https://cache.willhaben.at/mmo/9/119/297/5669_540129656.jpg",
-    "https://cache.willhaben.at/mmo/9/119/297/5669_-539934132.jpg",
-    "https://cache.willhaben.at/mmo/9/119/297/5669_1059441085.jpg",
     "https://cache.willhaben.at/mmo/4/823/252/424_-589647506.jpg",
     "https://cache.willhaben.at/mmo/4/823/252/424_1020452861.jpg",
     "https://cache.willhaben.at/mmo/4/823/252/424_1371638019.jpg",
@@ -15866,12 +15972,12 @@
     "https://cache.willhaben.at/mmo/4/823/252/424_-1586445670.jpg",
     "https://cache.willhaben.at/mmo/4/823/252/424_-894091545.jpg",
     "https://cache.willhaben.at/mmo/4/823/252/424_1969573703.jpg",
-    "https://cache.willhaben.at/mmo/4/823/252/424_-181697573.jpg",
-    "https://cache.willhaben.at/mmo/4/823/252/424_-899982325.jpg",
     "https://cache.willhaben.at/mmo/3/201/490/0893_494170655.jpg",
     "https://cache.willhaben.at/mmo/3/201/490/0893_182058805.jpg",
     "https://cache.willhaben.at/mmo/3/201/490/0893_522182997.jpg",
-    "https://cache.willhaben.at/mmo/3/201/490/0893_1274704666.jpg"
+    "https://cache.willhaben.at/mmo/3/201/490/0893_1274704666.jpg",
+    "https://cache.willhaben.at/mmo/9/119/297/5669_-539934132.jpg",
+    "https://cache.willhaben.at/mmo/9/119/297/5669_1059441085.jpg"
    ],
    "freiflaeche": [
     "Terrasse",
