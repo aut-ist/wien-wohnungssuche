@@ -37718,5 +37718,835 @@
    237,
    294
   ]
+ },
+ "48.19688,16.40140": {
+  "Rabengasse": [
+   359,
+   449
+  ],
+  "Barichgasse": [
+   580,
+   726
+  ],
+  "Rochusgasse": [
+   753,
+   942
+  ],
+  "Viehmarktgasse": [
+   781,
+   976
+  ],
+  "Baumgasse": [
+   498,
+   622
+  ],
+  "Schlachthausgasse": [
+   476,
+   595
+  ],
+  "Stadionbrücke": [
+   721,
+   899
+  ],
+  "Barthgasse": [
+   612,
+   765
+  ],
+  "Hintzerstraße": [
+   713,
+   889
+  ],
+  "Ziehrerplatz": [
+   780,
+   972
+  ],
+  "Rustenschacherallee": [
+   1103,
+   1376
+  ],
+  "Klimschgasse": [
+   545,
+   677
+  ],
+  "Hainburger Straße": [
+   350,
+   438
+  ],
+  "Wällischgasse": [
+   440,
+   551
+  ],
+  "Eslarngasse": [
+   421,
+   526
+  ],
+  "Klinik Landstraße": [
+   746,
+   933
+  ],
+  "Friedensgasse": [
+   695,
+   869
+  ],
+  "Oberzellergasse": [
+   658,
+   815
+  ],
+  "Kardinal-Nagl-Platz": [
+   49,
+   62
+  ],
+  "Kleistgasse": [
+   913,
+   1142
+  ],
+  "Apostelgasse": [
+   414,
+   513
+  ],
+  "Lechnerstraße": [
+   260,
+   325
+  ],
+  "Lukschgasse": [
+   854,
+   1068
+  ],
+  "Ludwig-Koeßler-Platz": [
+   587,
+   735
+  ]
+ },
+ "48.23537,16.27989": {
+  "Veletaweg": [
+   916,
+   1146
+  ],
+  "Siedlung Heuberg": [
+   1001,
+   1252
+  ],
+  "Grabengasse": [
+   945,
+   1174
+  ],
+  "Neuwaldegger Straße": [
+   824,
+   1029
+  ],
+  "Geroldgasse": [
+   512,
+   639
+  ],
+  "Grasgasse": [
+   908,
+   1128
+  ],
+  "Artariastraße": [
+   997,
+   1245
+  ],
+  "Mitterberg": [
+   784,
+   973
+  ],
+  "Moosgasse": [
+   1048,
+   1302
+  ],
+  "Neuwaldegg": [
+   956,
+   1210
+  ],
+  "Marswiese": [
+   772,
+   964
+  ]
+ },
+ "48.24090,16.33508": {
+  "Peter-Jordan-Straße": [
+   865,
+   1079
+  ],
+  "Rodlergasse": [
+   56,
+   70
+  ],
+  "Sauerburggasse": [
+   725,
+   906
+  ],
+  "Sieveringer Straße": [
+   889,
+   1111
+  ],
+  "Türkenschanzplatz": [
+   882,
+   1102
+  ],
+  "Blaasstraße": [
+   719,
+   898
+  ],
+  "Borkowskigasse": [
+   629,
+   785
+  ],
+  "Börnergasse": [
+   821,
+   1027
+  ],
+  "Chimanistraße": [
+   610,
+   762
+  ],
+  "Daringergasse": [
+   594,
+   743
+  ],
+  "Dänenstraße": [
+   383,
+   478
+  ],
+  "Döblinger Friedhof": [
+   575,
+   711
+  ],
+  "Döblinger Friedhof/Felix-Dahn-Straße": [
+   736,
+   913
+  ],
+  "Flotowgasse": [
+   160,
+   200
+  ],
+  "Obkirchergasse": [
+   796,
+   996
+  ],
+  "Gregor-Mendel-Straße": [
+   760,
+   950
+  ],
+  "Gustav-Pick-Gasse": [
+   567,
+   704
+  ],
+  "Hugo-Wolf-Park": [
+   344,
+   429
+  ],
+  "Kratzlgasse": [
+   309,
+   381
+  ],
+  "Krottenbachstraße": [
+   360,
+   450
+  ],
+  "Linnéplatz": [
+   529,
+   661
+  ],
+  "Oberdöbling": [
+   907,
+   1134
+  ],
+  "Obersteinergasse": [
+   611,
+   764
+  ]
+ },
+ "48.20496,16.39099": {
+  "Rasumofskygasse": [
+   308,
+   385
+  ],
+  "Radetzkyplatz": [
+   600,
+   750
+  ],
+  "Löwengasse": [
+   404,
+   505
+  ],
+  "Barichgasse": [
+   747,
+   933
+  ],
+  "Rochusgasse": [
+   285,
+   356
+  ],
+  "Sechskrügelgasse": [
+   436,
+   544
+  ],
+  "Stadtpark": [
+   946,
+   1183
+  ],
+  "Hintzerstraße": [
+   490,
+   613
+  ],
+  "Weyrgasse": [
+   196,
+   245
+  ],
+  "Wittelsbachstraße": [
+   585,
+   732
+  ],
+  "Ziehrerplatz": [
+   689,
+   862
+  ],
+  "Hainburger Straße": [
+   807,
+   1008
+  ],
+  "Stubentor": [
+   793,
+   986
+  ],
+  "Stubentor U": [
+   731,
+   908
+  ],
+  "Friedensgasse": [
+   936,
+   1165
+  ],
+  "Geusaugasse": [
+   442,
+   553
+  ],
+  "Am Modenapark": [
+   990,
+   1237
+  ],
+  "Hetzgasse": [
+   426,
+   532
+  ],
+  "Hintere Zollamtsstraße": [
+   761,
+   951
+  ],
+  "Josef-Gall-Gasse": [
+   860,
+   1076
+  ],
+  "Julius-Raab-Platz": [
+   857,
+   1072
+  ],
+  "Kurzbauergasse": [
+   1079,
+   1348
+  ],
+  "Mitte-Landstraße": [
+   419,
+   524
+  ],
+  "Apostelgasse": [
+   733,
+   916
+  ],
+  "Marxergasse": [
+   427,
+   533
+  ],
+  "Ungargasse/Neulinggasse": [
+   701,
+   877
+  ]
+ },
+ "48.19292,16.36710": {
+  "Kolschitzkygasse": [
+   638,
+   797
+  ],
+  "Plößlgasse": [
+   909,
+   1136
+  ],
+  "Preßgasse": [
+   377,
+   471
+  ],
+  "Rainergasse": [
+   443,
+   553
+  ],
+  "Resselgasse": [
+   634,
+   792
+  ],
+  "Schleifmühlgasse": [
+   468,
+   585
+  ],
+  "Schloss Belvedere": [
+   928,
+   1160
+  ],
+  "Belvederegasse": [
+   491,
+   614
+  ],
+  "Südtiroler Pl. - Hbf.": [
+   721,
+   901
+  ],
+  "Taubstummengasse": [
+   331,
+   412
+  ],
+  "Ziegelofengasse": [
+   600,
+   750
+  ],
+  "Bärenmühldurchgang": [
+   712,
+   890
+  ],
+  "Gußhausstraße": [
+   781,
+   976
+  ],
+  "Schönbrunner Straße/Kettenbrückengasse": [
+   540,
+   676
+  ],
+  "Johann-Strauß-Gasse": [
+   229,
+   286
+  ],
+  "Karlsplatz": [
+   766,
+   958
+  ],
+  "Kettenbrückengasse": [
+   779,
+   974
+  ],
+  "Laurenzgasse": [
+   736,
+   921
+  ],
+  "Leibenfrostgasse": [
+   447,
+   558
+  ],
+  "Argentinierstraße": [
+   906,
+   1132
+  ],
+  "Margaretenplatz/Schönbrunner Straße": [
+   863,
+   1078
+  ],
+  "Margaretenplatz": [
+   818,
+   1023
+  ],
+  "Mayerhofgasse": [
+   29,
+   37
+  ],
+  "Paulanergasse": [
+   232,
+   290
+  ]
+ },
+ "48.19300,16.37085": {
+  "Kolschitzkygasse": [
+   479,
+   598
+  ],
+  "Plößlgasse": [
+   728,
+   910
+  ],
+  "Preßgasse": [
+   630,
+   788
+  ],
+  "Rainergasse": [
+   553,
+   691
+  ],
+  "Resselgasse": [
+   705,
+   882
+  ],
+  "Schleifmühlgasse": [
+   557,
+   692
+  ],
+  "Schloss Belvedere": [
+   689,
+   861
+  ],
+  "Schwarzenbergplatz": [
+   796,
+   994
+  ],
+  "Belvederegasse": [
+   297,
+   371
+  ],
+  "Quartier Belvedere": [
+   930,
+   1163
+  ],
+  "Südtiroler Pl. - Hbf.": [
+   570,
+   712
+  ],
+  "Hauptbahnhof": [
+   716,
+   896
+  ],
+  "Taubstummengasse": [
+   80,
+   101
+  ],
+  "Unteres Belvedere": [
+   1077,
+   1348
+  ],
+  "Ziegelofengasse": [
+   823,
+   1028
+  ],
+  "Am Heumarkt": [
+   848,
+   1061
+  ],
+  "Bärenmühldurchgang": [
+   758,
+   947
+  ],
+  "Gußhausstraße": [
+   609,
+   762
+  ],
+  "Schönbrunner Straße/Kettenbrückengasse": [
+   793,
+   991
+  ],
+  "Johann-Strauß-Gasse": [
+   408,
+   510
+  ],
+  "Karlsplatz": [
+   818,
+   1023
+  ],
+  "Leibenfrostgasse": [
+   626,
+   782
+  ],
+  "Argentinierstraße": [
+   683,
+   854
+  ],
+  "Lisztstraße": [
+   966,
+   1208
+  ],
+  "Mayerhofgasse": [
+   289,
+   362
+  ],
+  "Mommsengasse": [
+   810,
+   1012
+  ],
+  "Karl-Popper-Straße": [
+   915,
+   1144
+  ],
+  "Paulanergasse": [
+   393,
+   491
+  ]
+ },
+ "48.19349,16.36789": {
+  "Kolschitzkygasse": [
+   646,
+   807
+  ],
+  "Plößlgasse": [
+   853,
+   1066
+  ],
+  "Preßgasse": [
+   392,
+   490
+  ],
+  "Rainergasse": [
+   527,
+   659
+  ],
+  "Resselgasse": [
+   592,
+   740
+  ],
+  "Schleifmühlgasse": [
+   427,
+   534
+  ],
+  "Schloss Belvedere": [
+   896,
+   1120
+  ],
+  "Schwarzenbergplatz": [
+   838,
+   1047
+  ],
+  "Belvederegasse": [
+   473,
+   591
+  ],
+  "Südtiroler Pl. - Hbf.": [
+   730,
+   912
+  ],
+  "Taubstummengasse": [
+   291,
+   361
+  ],
+  "Ziegelofengasse": [
+   676,
+   845
+  ],
+  "Am Heumarkt": [
+   945,
+   1181
+  ],
+  "Bärenmühldurchgang": [
+   642,
+   802
+  ],
+  "Gußhausstraße": [
+   725,
+   906
+  ],
+  "Schönbrunner Straße/Kettenbrückengasse": [
+   554,
+   693
+  ],
+  "Johann-Strauß-Gasse": [
+   331,
+   414
+  ],
+  "Karlsplatz": [
+   735,
+   918
+  ],
+  "Kettenbrückengasse": [
+   792,
+   990
+  ],
+  "Leibenfrostgasse": [
+   549,
+   685
+  ],
+  "Argentinierstraße": [
+   883,
+   1104
+  ],
+  "Margaretenplatz/Schönbrunner Straße": [
+   937,
+   1172
+  ],
+  "Margaretenplatz": [
+   894,
+   1118
+  ],
+  "Mayerhofgasse": [
+   127,
+   158
+  ],
+  "Paulanergasse": [
+   191,
+   239
+  ]
+ },
+ "48.22750,16.35139": {
+  "Spittelau": [
+   675,
+   844
+  ],
+  "Sensengasse": [
+   718,
+   898
+  ],
+  "Spitalgasse": [
+   560,
+   700
+  ],
+  "Sternwartestraße": [
+   209,
+   261
+  ],
+  "Weitlofgasse": [
+   423,
+   529
+  ],
+  "Währinger Park": [
+   730,
+   912
+  ],
+  "Währinger Straße-Volksoper": [
+   211,
+   263
+  ],
+  "Marsanogasse": [
+   421,
+   521
+  ],
+  "Canisiusgasse": [
+   261,
+   327
+  ],
+  "Anastasius-Grün-Gasse": [
+   320,
+   400
+  ],
+  "Alserbachstraße": [
+   370,
+   462
+  ],
+  "Althanstraße": [
+   638,
+   798
+  ],
+  "Franz-Josefs-Bahnhof": [
+   768,
+   960
+  ],
+  "Seegasse": [
+   1038,
+   1298
+  ],
+  "Glatzgasse": [
+   543,
+   679
+  ],
+  "Gymnasiumstraße": [
+   503,
+   629
+  ],
+  "Kutschkergasse": [
+   586,
+   733
+  ],
+  "Liechtenwerder Platz": [
+   650,
+   813
+  ],
+  "Martinstraße": [
+   730,
+   912
+  ],
+  "Michelbeuern-AKH": [
+   893,
+   1114
+  ],
+  "Nußdorfer Straße": [
+   386,
+   483
+  ],
+  "Augasse": [
+   532,
+   665
+  ]
+ },
+ "48.21609,16.32997": {
+  "Rosensteingasse": [
+   375,
+   469
+  ],
+  "Yppengasse": [
+   446,
+   557
+  ],
+  "Feßtgasse": [
+   695,
+   868
+  ],
+  "Blumengasse": [
+   528,
+   657
+  ],
+  "Wilhelminenstraße": [
+   711,
+   889
+  ],
+  "Brunnengasse": [
+   908,
+   1134
+  ],
+  "Brunnenmarkt": [
+   731,
+   913
+  ],
+  "Albrechtskreithgasse": [
+   827,
+   1030
+  ],
+  "Alser Straße": [
+   824,
+   1031
+  ],
+  "Elterleinplatz": [
+   257,
+   322
+  ],
+  "Haberlgasse": [
+   437,
+   546
+  ],
+  "Hernalser Gürtel": [
+   749,
+   936
+  ],
+  "Hernals, Wattgasse": [
+   813,
+   1017
+  ],
+  "Johann-Nepomuk-Berger-Platz": [
+   454,
+   567
+  ],
+  "Josefstädter Straße": [
+   847,
+   1059
+  ],
+  "Familienplatz": [
+   827,
+   1034
+  ],
+  "Thaliastraße/Haberlgasse": [
+   597,
+   746
+  ],
+  "Mayssengasse": [
+   332,
+   415
+  ],
+  "Frauengasse": [
+   230,
+   287
+  ],
+  "Palffygasse": [
+   560,
+   701
+  ]
  }
 }

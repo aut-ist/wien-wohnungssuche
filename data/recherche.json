@@ -1,5 +1,2627 @@
 [
  {
+  "id": "wh-1788352998",
+  "ids": [
+   "wh-1788352998"
+  ],
+  "titel": "Raum für Wohnträume - 112 m² mit bis zu 4,5 Zimmern & Gartenmitbenützung",
+  "plz": 1190,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/raum-fuer-wohntraeume-112-m-mit-bis-zu-4-5-zimmern-gartenmitbenuetzung-1788352998/"
+  ],
+  "anbieter": "MEDIAN CAPITAL Real Estate Brokerage GmbH",
+  "adresse_im_inserat": "Sollingergasse 1",
+  "lage": "19. Bezirk",
+  "punkt": [
+   48.240901,
+   16.335081
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 743000.0,
+  "flaeche": 112.69,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": {
+   "hwb": "91,6",
+   "hwb_class": "D",
+   "fgee": "1,83",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1788352998/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": true,
+  "frueher": null
+ },
+ {
+  "id": "is-532412981488",
+  "ids": [
+   "is-532412981488",
+   "wh-1269782882"
+  ],
+  "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Eckwohnung mit Parkblick",
+  "plz": 1030,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1030-landstrasse/village-im-dritten-traumhafte-4-zimmer-eckwohnung-mit-parkblick-1269782882/",
+   "https://www.immobilienscout24.at/expose/6b09476f2faea88abf151164"
+  ],
+  "anbieter": "EDEX Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.204958,
+   16.390986
+  ],
+  "versatz_m": 254,
+  "portalpunkt": [
+   48.203728,
+   16.39165
+  ],
+  "preis": 746000,
+  "flaeche": 84.25,
+  "zimmer": 4,
+  "stockwerk": "5",
+  "energie": {
+   "hwb": 22.5,
+   "hwb_class": "A",
+   "fgee": 0.72,
+   "fgee_class": "A"
+  },
+  "grundrisse": "data/grundrisse/is-532412981488/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Exposé Baufeld 14A",
+    "url": "https://storage.justimmo.at/file/5icyhVUAMcLmXJJ4ZWo5vN.pdf"
+   },
+   {
+    "name": "Preisliste Baufeld 14A",
+    "url": "https://storage.justimmo.at/file/AN5yfHVFnXKubeRMX1uEz9.pdf"
+   }
+  ],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": false,
+  "frueher": null,
+  "kandidaten": [
+   {
+    "adresse": "Siegelgasse 6",
+    "m": 12,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20374,
+    "lon": 16.391494
+   },
+   {
+    "adresse": "Rasumofskygasse 24",
+    "m": 24,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Ehem. Stallungen des Palais Rasumofsky.",
+    "lat": 48.203913,
+    "lon": 16.391809
+   },
+   {
+    "adresse": "Siegelgasse 4",
+    "m": 30,
+    "bezirk": 3,
+    "lat": 48.203845,
+    "lon": 16.391292
+   },
+   {
+    "adresse": "Rasumofskygasse 27",
+    "m": 33,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203746,
+    "lon": 16.392096
+   },
+   {
+    "adresse": "Rasumofskygasse 28",
+    "m": 34,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203467,
+    "lon": 16.391421
+   },
+   {
+    "adresse": "Salmgasse 19",
+    "m": 35,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20384,
+    "lon": 16.391207
+   },
+   {
+    "adresse": "Siegelgasse 1",
+    "m": 37,
+    "bezirk": 3,
+    "bauzeit": 1767,
+    "geschosse": 3,
+    "name": "Spiegelmacherhaus",
+    "lat": 48.204054,
+    "lon": 16.391576
+   },
+   {
+    "adresse": "Rasumofskygasse 30",
+    "m": 41,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203448,
+    "lon": 16.3913
+   },
+   {
+    "adresse": "Rasumofskygasse 22",
+    "m": 46,
+    "bezirk": 3,
+    "bauzeit": 1803,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Ehem. Stallungen des Palais Rasumofsky.",
+    "lat": 48.204126,
+    "lon": 16.391803
+   },
+   {
+    "adresse": "Siegelgasse 2",
+    "m": 50,
+    "bezirk": 3,
+    "lat": 48.203957,
+    "lon": 16.391071
+   },
+   {
+    "adresse": "Rasumofskygasse 29",
+    "m": 55,
+    "bezirk": 3,
+    "bauzeit": "1919 - 1945",
+    "geschosse": 6,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Telephon-Zentrale.",
+    "lat": 48.203236,
+    "lon": 16.391536
+   },
+   {
+    "adresse": "Salmgasse 21",
+    "m": 56,
+    "bezirk": 3,
+    "bauzeit": 1873,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Janovski",
+    "lat": 48.203604,
+    "lon": 16.390913
+   },
+   {
+    "adresse": "Rasumofskygasse 32",
+    "m": 68,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203221,
+    "lon": 16.391137
+   },
+   {
+    "adresse": "Salmgasse 8",
+    "m": 72,
+    "bezirk": 3,
+    "bauzeit": 1822,
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "architekt": "unbekannt",
+    "lat": 48.204224,
+    "lon": 16.391022
+   },
+   {
+    "adresse": "Salmgasse 10",
+    "m": 74,
+    "bezirk": 3,
+    "bauzeit": 1904,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Architekt und Stadtbaumeister Rudolf Jäger",
+    "lat": 48.204003,
+    "lon": 16.390744
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 45",
+    "m": 79,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203378,
+    "lon": 16.390731
+   },
+   {
+    "adresse": "Salmgasse 12",
+    "m": 81,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203843,
+    "lon": 16.390572
+   },
+   {
+    "adresse": "Salmgasse 23",
+    "m": 85,
+    "bezirk": 3,
+    "bauzeit": 1894,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203537,
+    "lon": 16.390545
+   },
+   {
+    "adresse": "Salmgasse 6",
+    "m": 86,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 2,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.204463,
+    "lon": 16.391282
+   },
+   {
+    "adresse": "Rasumofskygasse 31",
+    "m": 89,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.20298,
+    "lon": 16.391244
+   },
+   {
+    "adresse": "Rasumofskygasse 23-25",
+    "m": 91,
+    "bezirk": 3,
+    "bauzeit": 1806,
+    "geschosse": 2,
+    "nutzung": "öffentliche Einrichtung",
+    "architekt": "Louis de Montoyer, Joseph Meissl",
+    "name": "ehem. Palais Rasumofsky",
+    "lat": 48.204351,
+    "lon": 16.392448
+   },
+   {
+    "adresse": "Rasumofskygasse 34",
+    "m": 92,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203051,
+    "lon": 16.390941
+   },
+   {
+    "adresse": "Salmgasse 15",
+    "m": 92,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204555,
+    "lon": 16.391627
+   },
+   {
+    "adresse": "Salmgasse 14",
+    "m": 95,
+    "bezirk": 3,
+    "bauzeit": "1860-1883",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203692,
+    "lon": 16.390375
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 47-49",
+    "m": 96,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203061,
+    "lon": 16.39084
+   },
+   {
+    "adresse": "Salmgasse 25",
+    "m": 100,
+    "bezirk": 3,
+    "bauzeit": 1894,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203407,
+    "lon": 16.390392
+   },
+   {
+    "adresse": "Salmgasse 4A",
+    "m": 103,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 2,
+    "nutzung": "betriebliche Nutzung",
+    "name": "Ehemaliges Sylva-Tarucca-Palais",
+    "lat": 48.204646,
+    "lon": 16.391502
+   },
+   {
+    "adresse": "Salmgasse 13",
+    "m": 104,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204656,
+    "lon": 16.391857
+   },
+   {
+    "adresse": "Rasumofskygasse 20",
+    "m": 108,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "name": "Wohnhaus Musils",
+    "lat": 48.204602,
+    "lon": 16.392287
+   },
+   {
+    "adresse": "Czapkagasse 17",
+    "m": 110,
+    "bezirk": 3,
+    "lat": 48.204441,
+    "lon": 16.390631
+   },
+   {
+    "adresse": "Erdbergstraße 3",
+    "m": 110,
+    "bezirk": 3,
+    "lat": 48.202759,
+    "lon": 16.391909
+   },
+   {
+    "adresse": "Salmgasse 16",
+    "m": 112,
+    "bezirk": 3,
+    "bauzeit": 1910,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Siegfried Kramer",
+    "lat": 48.203521,
+    "lon": 16.390177
+   },
+   {
+    "adresse": "Salmgasse 11",
+    "m": 117,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204745,
+    "lon": 16.392061
+   },
+   {
+    "adresse": "Erdbergstraße 1",
+    "m": 120,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "ehem. Wohnhaus Ziehrers",
+    "lat": 48.202651,
+    "lon": 16.391593
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 33A",
+    "m": 121,
+    "bezirk": 3,
+    "bauzeit": 1879,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Josef Hummelberger",
+    "lat": 48.20435,
+    "lon": 16.390313
+   },
+   {
+    "adresse": "Erdbergstraße 5-7",
+    "m": 124,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202776,
+    "lon": 16.392519
+   },
+   {
+    "adresse": "Erdbergstraße 5-9",
+    "m": 128,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202769,
+    "lon": 16.392596
+   },
+   {
+    "adresse": "Czapkagasse 18",
+    "m": 128,
+    "bezirk": 3,
+    "bauzeit": 1878,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204391,
+    "lon": 16.390246
+   },
+   {
+    "adresse": "Salmgasse 4",
+    "m": 129,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 5,
+    "nutzung": "betriebliche Nutzung",
+    "name": "Ehemaliges Sylva-Tarucca-Palais",
+    "lat": 48.204884,
+    "lon": 16.391778
+   },
+   {
+    "adresse": "Czapkagasse 15",
+    "m": 130,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204555,
+    "lon": 16.390409
+   },
+   {
+    "adresse": "Kundmanngasse 26",
+    "m": 132,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202981,
+    "lon": 16.393036
+   },
+   {
+    "adresse": "Rochusmarkt B",
+    "m": 132,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.202575,
+    "lon": 16.391231
+   },
+   {
+    "adresse": "Rochusmarkt M",
+    "m": 133,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.202587,
+    "lon": 16.391126
+   },
+   {
+    "adresse": "Kundmanngasse 24",
+    "m": 136,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203185,
+    "lon": 16.393288
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 37",
+    "m": 137,
+    "bezirk": 3,
+    "bauzeit": "Vor 1683",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203521,
+    "lon": 16.389826
+   },
+   {
+    "adresse": "Salmgasse 2",
+    "m": 137,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "betriebliche Nutzung",
+    "name": "Salm-Palais",
+    "lat": 48.204932,
+    "lon": 16.391998
+   },
+   {
+    "adresse": "Uchatiusgasse 12",
+    "m": 138,
+    "bezirk": 3,
+    "lat": 48.204835,
+    "lon": 16.390821
+   },
+   {
+    "adresse": "Erdbergstraße 2",
+    "m": 139,
+    "bezirk": 3,
+    "bauzeit": 1787,
+    "lat": 48.20251,
+    "lon": 16.392032
+   },
+   {
+    "adresse": "Kundmanngasse 30-32",
+    "m": 144,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202545,
+    "lon": 16.392429
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 35",
+    "m": 145,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Flecksiederhaus o. Baderisches Haus",
+    "lat": 48.2036,
+    "lon": 16.389701
+   },
+   {
+    "adresse": "Kundmanngasse 22",
+    "m": 146,
+    "bezirk": 3,
+    "bauzeit": 1876,
+    "architekt": "Machitka und Schmoranz",
+    "name": "Schule",
+    "lat": 48.203446,
+    "lon": 16.393567
+   },
+   {
+    "adresse": "Czapkagasse 16",
+    "m": 147,
+    "bezirk": 3,
+    "bauzeit": 1895,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204468,
+    "lon": 16.390001
+   },
+   {
+    "adresse": "Czapkagasse 13",
+    "m": 149,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204669,
+    "lon": 16.390216
+   },
+   {
+    "adresse": "Geusaugasse 31",
+    "m": 150,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20468,
+    "lon": 16.393072
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 33-33A",
+    "m": 151,
+    "bezirk": 3,
+    "bauzeit": "1860-1883",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203801,
+    "lon": 16.389619
+   },
+   {
+    "adresse": "Geusaugasse 33",
+    "m": 152,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204544,
+    "lon": 16.393287
+   },
+   {
+    "adresse": "Uchatiusgasse 10",
+    "m": 154,
+    "bezirk": 3,
+    "lat": 48.204934,
+    "lon": 16.390627
+   },
+   {
+    "adresse": "Kundmanngasse 21-27",
+    "m": 155,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 14,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.20279,
+    "lon": 16.393195
+   },
+   {
+    "adresse": "Kundmanngasse 20-22",
+    "m": 157,
+    "bezirk": 3,
+    "bauzeit": 1876,
+    "geschosse": 3,
+    "nutzung": "öffentliche Einrichtung",
+    "architekt": "Machitka und Schmoranz",
+    "name": "GRG 3 Kundmanngasse",
+    "lat": 48.203616,
+    "lon": 16.393756
+   },
+   {
+    "adresse": "Kundmanngasse 32",
+    "m": 158,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202367,
+    "lon": 16.392279
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 33",
+    "m": 159,
+    "bezirk": 3,
+    "bauzeit": 1879,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Josef Hummelberger",
+    "lat": 48.203831,
+    "lon": 16.38951
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 44",
+    "m": 160,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Am Weinrochberg",
+    "lat": 48.202972,
+    "lon": 16.389822
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 42",
+    "m": 160,
+    "bezirk": 3,
+    "bauzeit": "1741-1780",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Zur Weintraube",
+    "lat": 48.203045,
+    "lon": 16.389757
+   },
+   {
+    "adresse": "Kundmanngasse 23-25",
+    "m": 160,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 6,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.203079,
+    "lon": 16.393573
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 46",
+    "m": 161,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202875,
+    "lon": 16.389903
+   },
+   {
+    "adresse": "Kundmanngasse 29",
+    "m": 162,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Petrus - Apotheke",
+    "lat": 48.202507,
+    "lon": 16.392843
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 48",
+    "m": 162,
+    "bezirk": 3,
+    "bauzeit": 1787,
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zu den drei Löwen",
+    "lat": 48.202777,
+    "lon": 16.389992
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 40",
+    "m": 162,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 4,
+    "nutzung": "betriebliche Nutzung",
+    "name": "Hotel \"Roter Hahn\"",
+    "lat": 48.203195,
+    "lon": 16.389611
+   },
+   {
+    "adresse": "Czapkagasse 14",
+    "m": 163,
+    "bezirk": 3,
+    "bauzeit": 1964,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Angelides Rudolf",
+    "lat": 48.204514,
+    "lon": 16.389789
+   },
+   {
+    "adresse": "Geusaugasse 35",
+    "m": 166,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204255,
+    "lon": 16.393747
+   },
+   {
+    "adresse": "Kundmanngasse 31",
+    "m": 167,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202403,
+    "lon": 16.392714
+   },
+   {
+    "adresse": "Uchatiusgasse 11",
+    "m": 167,
+    "bezirk": 3,
+    "lat": 48.205138,
+    "lon": 16.390861
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 38",
+    "m": 168,
+    "bezirk": 3,
+    "bauzeit": "Vor 1683",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Ehem. Uhrengeschäft",
+    "lat": 48.203339,
+    "lon": 16.389458
+   },
+   {
+    "adresse": "Kundmanngasse 21",
+    "m": 168,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 14,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.203265,
+    "lon": 16.393798
+   },
+   {
+    "adresse": "Rasumofskygasse 16A",
+    "m": 169,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20501,
+    "lon": 16.392864
+   },
+   {
+    "adresse": "Kundmanngasse 20",
+    "m": 170,
+    "bezirk": 3,
+    "bauzeit": "1860-1883",
+    "geschosse": 3,
+    "nutzung": "öffentliche Einrichtung",
+    "architekt": "Machitka und Schmoranz",
+    "name": "Schule",
+    "lat": 48.203715,
+    "lon": 16.393946
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 31",
+    "m": 172,
+    "bezirk": 3,
+    "bauzeit": 1934,
+    "geschosse": 8,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Schmidt Karl Wilhelm",
+    "name": "Haus \"Zur goldenen Birn\"",
+    "lat": 48.203938,
+    "lon": 16.389355
+   },
+   {
+    "adresse": "Geusaugasse 37",
+    "m": 173,
+    "bezirk": 3,
+    "bauzeit": 1881,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204161,
+    "lon": 16.393895
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 55-57",
+    "m": 174,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Zum guten Hirten",
+    "lat": 48.202173,
+    "lon": 16.391458
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 36",
+    "m": 175,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203423,
+    "lon": 16.389343
+   },
+   {
+    "adresse": "Hörnesgasse 2",
+    "m": 175,
+    "bezirk": 3,
+    "bauzeit": "1860-1883",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204842,
+    "lon": 16.393308
+   },
+   {
+    "adresse": "Kundmanngasse 33",
+    "m": 178,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202228,
+    "lon": 16.39249
+   },
+   {
+    "adresse": "Kundmanngasse 34",
+    "m": 180,
+    "bezirk": 3,
+    "bauzeit": 1962,
+    "architekt": "Riedl Ferdinand und Kotas Robert",
+    "lat": 48.202124,
+    "lon": 16.391978
+   },
+   {
+    "adresse": "Salmgasse 7",
+    "m": 180,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205227,
+    "lon": 16.392577
+   },
+   {
+    "adresse": "Hörnesgasse 4",
+    "m": 180,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204721,
+    "lon": 16.393558
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 34",
+    "m": 183,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "\"Zum goldenen Apfel\"",
+    "lat": 48.203514,
+    "lon": 16.389198
+   },
+   {
+    "adresse": "Geusaugasse 39",
+    "m": 183,
+    "bezirk": 3,
+    "bauzeit": 1881,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204051,
+    "lon": 16.394073
+   },
+   {
+    "adresse": "Geologengasse 9",
+    "m": 184,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204464,
+    "lon": 16.393866
+   },
+   {
+    "adresse": "Esteplatz 4",
+    "m": 184,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Reitmann Emil",
+    "lat": 48.204918,
+    "lon": 16.389928
+   },
+   {
+    "adresse": "Rasumofskygasse 16",
+    "m": 185,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205118,
+    "lon": 16.393025
+   },
+   {
+    "adresse": "Erdbergstraße 8",
+    "m": 187,
+    "bezirk": 3,
+    "bauzeit": 1794,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Zur Stadt Tabor",
+    "lat": 48.2025,
+    "lon": 16.393369
+   },
+   {
+    "adresse": "Kundmanngasse 35",
+    "m": 188,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.2021,
+    "lon": 16.39231
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 29",
+    "m": 188,
+    "bezirk": 3,
+    "bauzeit": 1902,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Haybäck Karl",
+    "name": "Wohn- und Geschäftshaus",
+    "lat": 48.204068,
+    "lon": 16.389172
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 58",
+    "m": 189,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "betriebliche Nutzung",
+    "architekt": "Kramer Siegfried",
+    "name": "Filiale der Ersten Österreichischen Spar-Casse",
+    "lat": 48.202145,
+    "lon": 16.390735
+   },
+   {
+    "adresse": "Esteplatz 3",
+    "m": 189,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Reitmann Emil",
+    "lat": 48.205117,
+    "lon": 16.390178
+   },
+   {
+    "adresse": "Weyrgasse 7",
+    "m": 193,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Siegfried Kramer",
+    "lat": 48.204631,
+    "lon": 16.389434
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 32",
+    "m": 195,
+    "bezirk": 3,
+    "bauzeit": 1804,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203634,
+    "lon": 16.38902
+   },
+   {
+    "adresse": "Sechskrügelgasse 2",
+    "m": 196,
+    "bezirk": 3,
+    "bauzeit": 1911,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Kramer Siegfried",
+    "lat": 48.202377,
+    "lon": 16.389964
+   },
+   {
+    "adresse": "Geusaugasse 17",
+    "m": 196,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 3,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.205489,
+    "lon": 16.391638
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 59",
+    "m": 197,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Mondschein",
+    "lat": 48.201955,
+    "lon": 16.391624
+   },
+   {
+    "adresse": "Salmgasse 5",
+    "m": 197,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205345,
+    "lon": 16.392744
+   },
+   {
+    "adresse": "Hörnesgasse 1",
+    "m": 198,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204979,
+    "lon": 16.393543
+   },
+   {
+    "adresse": "Hörnesgasse 3",
+    "m": 202,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204878,
+    "lon": 16.393755
+   },
+   {
+    "adresse": "Weyrgasse 9",
+    "m": 202,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Siegfried Kramer",
+    "lat": 48.204377,
+    "lon": 16.389113
+   },
+   {
+    "adresse": "Rasumofskygasse 14",
+    "m": 203,
+    "bezirk": 3,
+    "bauzeit": 1898,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Architekten und Stadtbaumeister Krombholz & Schalberger",
+    "lat": 48.205235,
+    "lon": 16.393195
+   },
+   {
+    "adresse": "Salmgasse 2B",
+    "m": 204,
+    "bezirk": 3,
+    "lat": 48.205467,
+    "lon": 16.392536
+   },
+   {
+    "adresse": "Esteplatz 2",
+    "m": 204,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 5,
+    "nutzung": "öffentliche Einrichtung",
+    "architekt": "Stöckl Adolf",
+    "name": "Bürogebäude Arbeitsmarktservice (AMS)",
+    "lat": 48.205406,
+    "lon": 16.390554
+   },
+   {
+    "adresse": "Hörnesgasse 8",
+    "m": 205,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204405,
+    "lon": 16.394217
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 27",
+    "m": 207,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Stadtbaumeister Josef Falter",
+    "lat": 48.204235,
+    "lon": 16.388967
+   },
+   {
+    "adresse": "Erdbergstraße 10",
+    "m": 208,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202451,
+    "lon": 16.393697
+   },
+   {
+    "adresse": "Geusaugasse 15",
+    "m": 209,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205601,
+    "lon": 16.39142
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 30",
+    "m": 210,
+    "bezirk": 3,
+    "bauzeit": 1825,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Gerl Peter",
+    "name": "\"Zum grünen Kranz\"",
+    "lat": 48.203771,
+    "lon": 16.388823
+   },
+   {
+    "adresse": "Geusaugasse 41",
+    "m": 211,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203789,
+    "lon": 16.39449
+   },
+   {
+    "adresse": "Geusaugasse 34-38",
+    "m": 212,
+    "bezirk": 3,
+    "bauzeit": 1926,
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Engelmann Paul und Wittgenstein Ludwig",
+    "name": "Wittgenstein-Haus",
+    "lat": 48.203325,
+    "lon": 16.394449
+   },
+   {
+    "adresse": "Kundmanngasse 39",
+    "m": 213,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201829,
+    "lon": 16.391982
+   },
+   {
+    "adresse": "Kundmanngasse 37",
+    "m": 214,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201858,
+    "lon": 16.392329
+   },
+   {
+    "adresse": "Hörnesgasse 10",
+    "m": 214,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204321,
+    "lon": 16.394392
+   },
+   {
+    "adresse": "Weyrgasse 6",
+    "m": 215,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Leopold Fuchs",
+    "lat": 48.204743,
+    "lon": 16.389186
+   },
+   {
+    "adresse": "Hörnesgasse 5",
+    "m": 217,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204649,
+    "lon": 16.394229
+   },
+   {
+    "adresse": "Esteplatz 5",
+    "m": 217,
+    "bezirk": 3,
+    "bauzeit": 1911,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Hackhofer Josef",
+    "lat": 48.2051,
+    "lon": 16.389579
+   },
+   {
+    "adresse": "Kundmanngasse 15",
+    "m": 218,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.203971,
+    "lon": 16.394561
+   },
+   {
+    "adresse": "Erdbergstraße 15",
+    "m": 219,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "name": "Gasthof zum römischen Kaiser",
+    "lat": 48.202718,
+    "lon": 16.394176
+   },
+   {
+    "adresse": "Salmgasse 3",
+    "m": 219,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20549,
+    "lon": 16.392949
+   },
+   {
+    "adresse": "Esteplatz 1",
+    "m": 219,
+    "bezirk": 3,
+    "bauzeit": 1929,
+    "geschosse": 5,
+    "nutzung": "öffentliche Einrichtung",
+    "architekt": "Kastner-Waage",
+    "name": "Umspannwerk Weißgerber",
+    "lat": 48.205616,
+    "lon": 16.390814
+   },
+   {
+    "adresse": "Esteplatz 6",
+    "m": 220,
+    "bezirk": 3,
+    "bauzeit": 1911,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Hackhofer Josef",
+    "lat": 48.205285,
+    "lon": 16.389825
+   },
+   {
+    "adresse": "Rasumofskygasse 12",
+    "m": 220,
+    "bezirk": 3,
+    "bauzeit": 1898,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Adolf Goldenberg",
+    "lat": 48.205345,
+    "lon": 16.393356
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 28",
+    "m": 221,
+    "bezirk": 3,
+    "bauzeit": 1823,
+    "geschosse": 4,
+    "nutzung": "Sonstige",
+    "architekt": "Gerl Peter",
+    "name": "Sünnhof",
+    "lat": 48.203886,
+    "lon": 16.388684
+   },
+   {
+    "adresse": "Geusaugasse 43",
+    "m": 222,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203696,
+    "lon": 16.394638
+   },
+   {
+    "adresse": "Rasumofskygasse 15",
+    "m": 223,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205213,
+    "lon": 16.393675
+   },
+   {
+    "adresse": "Weyrgasse 8",
+    "m": 223,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Leopold Fuchs",
+    "lat": 48.204506,
+    "lon": 16.388887
+   },
+   {
+    "adresse": "Hörnesgasse 7",
+    "m": 224,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204574,
+    "lon": 16.394385
+   },
+   {
+    "adresse": "Parkgasse 17",
+    "m": 227,
+    "bezirk": 3,
+    "bauzeit": "1919 - 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203045,
+    "lon": 16.394533
+   },
+   {
+    "adresse": "Rochusgasse 2",
+    "m": 229,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Kramer Siegfried",
+    "lat": 48.201729,
+    "lon": 16.390942
+   },
+   {
+    "adresse": "Geologengasse 8",
+    "m": 229,
+    "bezirk": 3,
+    "bauzeit": 1906,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204982,
+    "lon": 16.394097
+   },
+   {
+    "adresse": "Hörnesgasse 9",
+    "m": 231,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204496,
+    "lon": 16.394545
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 26",
+    "m": 232,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204005,
+    "lon": 16.388553
+   },
+   {
+    "adresse": "Esteplatz 7",
+    "m": 233,
+    "bezirk": 3,
+    "bauzeit": 1911,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Hackhofer Josef",
+    "lat": 48.205592,
+    "lon": 16.390223
+   },
+   {
+    "adresse": "Erdbergstraße 12-14",
+    "m": 235,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "name": "Zu den zwei weißen Schuhen, Zum blauen Stren",
+    "lat": 48.202311,
+    "lon": 16.394007
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 64",
+    "m": 236,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zur unbefleckten Jungfrau Maria",
+    "lat": 48.20161,
+    "lon": 16.391518
+   },
+   {
+    "adresse": "Pfarrhofgasse 1",
+    "m": 236,
+    "bezirk": 3,
+    "bauzeit": "Vor 1683",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Pfarrkirche hl. Rochus und Sebastian (Rochuskirche)",
+    "lat": 48.201817,
+    "lon": 16.390257
+   },
+   {
+    "adresse": "Parkgasse 15",
+    "m": 237,
+    "bezirk": 3,
+    "bauzeit": "1919 - 1945",
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.203261,
+    "lon": 16.394772
+   },
+   {
+    "adresse": "Geologengasse 5",
+    "m": 238,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.204876,
+    "lon": 16.394356
+   },
+   {
+    "adresse": "Rochusgasse 1",
+    "m": 240,
+    "bezirk": 3,
+    "bauzeit": 1788,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Peregrinus",
+    "lat": 48.201589,
+    "lon": 16.391219
+   },
+   {
+    "adresse": "Salmgasse 2A",
+    "m": 240,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.20572,
+    "lon": 16.392893
+   },
+   {
+    "adresse": "Rasumofskygasse 10",
+    "m": 241,
+    "bezirk": 3,
+    "bauzeit": 1898,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Adolf Goldenberg",
+    "lat": 48.205482,
+    "lon": 16.393558
+   },
+   {
+    "adresse": "Weyrgasse 5",
+    "m": 241,
+    "bezirk": 3,
+    "bauzeit": 1924,
+    "geschosse": 7,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Architekten Z.V. Egli-Raschka",
+    "lat": 48.205869,
+    "lon": 16.391194
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 63",
+    "m": 241,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201575,
+    "lon": 16.392048
+   },
+   {
+    "adresse": "Rasumofskygasse 13",
+    "m": 242,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205331,
+    "lon": 16.393851
+   },
+   {
+    "adresse": "Salmgasse 1",
+    "m": 243,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.205654,
+    "lon": 16.393179
+   },
+   {
+    "adresse": "Esteplatz 8",
+    "m": 243,
+    "bezirk": 3,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Hackhofer Josef",
+    "lat": 48.205755,
+    "lon": 16.390439
+   }
+  ],
+  "kandidaten_radius_m": 254
+ },
+ {
+  "id": "wh-849272944",
+  "ids": [
+   "wh-849272944"
+  ],
+  "titel": "PREISREDUKTION! ABSOLUTE TOPLAGE MIT RUHIGER INNENHOF-TERRASSE",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/preisreduktion-absolute-toplage-mit-ruhiger-innenhof-terrasse-849272944/"
+  ],
+  "anbieter": "Betterhomes Real GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.19292,
+   16.367104
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 582000.0,
+  "flaeche": 78.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-849272944/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "wh-2121790420",
+  "ids": [
+   "wh-2121790420"
+  ],
+  "titel": "GESCHÄFTSLOKAL ODER BÜRO IM SOUTTERRAIN IN TOPLAGE",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/geschaeftslokal-oder-buero-im-soutterrain-in-toplage-2121790420/"
+  ],
+  "anbieter": "Betterhomes Real GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.193002,
+   16.370854
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 250000.0,
+  "flaeche": 75.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2121790420/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "wh-2146523080",
+  "ids": [
+   "wh-2146523080"
+  ],
+  "titel": "PREISREDUKTION! GARTENWOHNUNG MIT GESCHÄFTSLOKAL - 2-STÖCKIG IN TOPLAGE",
+  "plz": 1040,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1040-wieden/preisreduktion-gartenwohnung-mit-geschaeftslokal-2-stoeckig-in-toplage-2146523080/"
+  ],
+  "anbieter": "Betterhomes Real GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 4. Bezirk bekannt",
+  "punkt": [
+   48.193494,
+   16.367885
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 789000.0,
+  "flaeche": 152.0,
+  "zimmer": 6,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/wh-2146523080/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "wh-1363362129",
+  "ids": [
+   "wh-1363362129"
+  ],
+  "titel": "Ihr privater Rückzugsort in Hofruhelage - kernsaniert, Smart Home und Südwestterrasse",
+  "plz": 1090,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1090-alsergrund/ihr-privater-rueckzugsort-in-hofruhelage-kernsaniert-smart-home-und-suedwestterrasse-1363362129/"
+  ],
+  "anbieter": "FEELING HOME IMMOBILIEN",
+  "adresse_im_inserat": "Lustkandlgasse",
+  "lage": "9. Bezirk",
+  "punkt": [
+   48.227497,
+   16.351387
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 840000.0,
+  "flaeche": 120.27,
+  "zimmer": 3,
+  "stockwerk": "0",
+  "energie": {
+   "hwb": "116,8",
+   "hwb_class": "D",
+   "fgee": "2,26",
+   "fgee_class": "D"
+  },
+  "grundrisse": "data/grundrisse/wh-1363362129/",
+  "im_nest": false,
+  "dokumente": [
+   {
+    "name": "Gleich virtuell besichtigen!",
+    "url": "https://my.matterport.com/show/?m=3ojpxFZ4ztA"
+   }
+  ],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "is-065073109810",
+  "ids": [
+   "is-065073109810"
+  ],
+  "titel": "VILLAGE IM DRITTEN |4-ZIMMER FAMILIENHIT MIT ZWEI FREIFLÄCHEN | ANLEGER",
+  "plz": 1030,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6b09400db726e73b696b860b"
+  ],
+  "anbieter": "EDEX Immobilien GmbH",
+  "adresse_im_inserat": "Hilde-Güden-Promenade 11",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.201733,
+   16.39165
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 719000,
+  "flaeche": 101.64,
+  "zimmer": 4,
+  "stockwerk": "2",
+  "energie": {
+   "hwb": 30.3,
+   "hwb_class": "B",
+   "fgee": 0.6,
+   "fgee_class": "A+"
+  },
+  "grundrisse": "data/grundrisse/is-065073109810/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": true,
+  "frueher": null,
+  "kandidaten": [
+   {
+    "adresse": "Landstraßer Hauptstraße 64",
+    "m": 17,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zur unbefleckten Jungfrau Maria",
+    "lat": 48.20161,
+    "lon": 16.391518
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 66",
+    "m": 24,
+    "bezirk": 3,
+    "bauzeit": 1800,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Weinstock",
+    "lat": 48.201519,
+    "lon": 16.391606
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 59",
+    "m": 25,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Mondschein",
+    "lat": 48.201955,
+    "lon": 16.391624
+   },
+   {
+    "adresse": "Kundmanngasse 39",
+    "m": 27,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201829,
+    "lon": 16.391982
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 63",
+    "m": 34,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201575,
+    "lon": 16.392048
+   },
+   {
+    "adresse": "Rochusgasse 1",
+    "m": 36,
+    "bezirk": 3,
+    "bauzeit": 1788,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Peregrinus",
+    "lat": 48.201589,
+    "lon": 16.391219
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 68",
+    "m": 43,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201357,
+    "lon": 16.391772
+   },
+   {
+    "adresse": "Kundmanngasse 34",
+    "m": 50,
+    "bezirk": 3,
+    "bauzeit": 1962,
+    "architekt": "Riedl Ferdinand und Kotas Robert",
+    "lat": 48.202124,
+    "lon": 16.391978
+   },
+   {
+    "adresse": "Kundmanngasse 30-32",
+    "m": 51,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum weißen Kreuz",
+    "lat": 48.202151,
+    "lon": 16.39193
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 55-57",
+    "m": 51,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Zum guten Hirten",
+    "lat": 48.202173,
+    "lon": 16.391458
+   },
+   {
+    "adresse": "Kundmanngasse 37",
+    "m": 52,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201858,
+    "lon": 16.392329
+   },
+   {
+    "adresse": "Rochusgasse 2",
+    "m": 53,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Kramer Siegfried",
+    "lat": 48.201729,
+    "lon": 16.390942
+   },
+   {
+    "adresse": "Kundmanngasse 35",
+    "m": 59,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202063,
+    "lon": 16.392264
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 65",
+    "m": 60,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201376,
+    "lon": 16.392259
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 70",
+    "m": 62,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum roten Apfel",
+    "lat": 48.201211,
+    "lon": 16.391926
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 72",
+    "m": 77,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201096,
+    "lon": 16.392052
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 58",
+    "m": 82,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "betriebliche Nutzung",
+    "architekt": "Kramer Siegfried",
+    "name": "Filiale der Ersten Österreichischen Spar-Casse",
+    "lat": 48.202145,
+    "lon": 16.390735
+   },
+   {
+    "adresse": "Kundmanngasse 33",
+    "m": 83,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202228,
+    "lon": 16.39249
+   },
+   {
+    "adresse": "Kundmanngasse 32",
+    "m": 85,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202367,
+    "lon": 16.392279
+   },
+   {
+    "adresse": "Rochusgasse 3-5",
+    "m": 89,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201425,
+    "lon": 16.390543
+   },
+   {
+    "adresse": "Erdbergstraße 2",
+    "m": 91,
+    "bezirk": 3,
+    "bauzeit": 1787,
+    "lat": 48.20251,
+    "lon": 16.392032
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 74",
+    "m": 96,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Haus Fernolendt",
+    "lat": 48.200957,
+    "lon": 16.39221
+   },
+   {
+    "adresse": "Rochusmarkt B",
+    "m": 99,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.202575,
+    "lon": 16.391231
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 67",
+    "m": 101,
+    "bezirk": 3,
+    "bauzeit": 1935,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201181,
+    "lon": 16.392724
+   },
+   {
+    "adresse": "Erdbergstraße 1",
+    "m": 102,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "ehem. Wohnhaus Ziehrers",
+    "lat": 48.202651,
+    "lon": 16.391593
+   },
+   {
+    "adresse": "Rochusmarkt M",
+    "m": 103,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.202587,
+    "lon": 16.391126
+   },
+   {
+    "adresse": "Pfarrhofgasse 1",
+    "m": 104,
+    "bezirk": 3,
+    "bauzeit": "Vor 1683",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Pfarrkirche hl. Rochus und Sebastian (Rochuskirche)",
+    "lat": 48.201817,
+    "lon": 16.390257
+   },
+   {
+    "adresse": "Kundmanngasse 31",
+    "m": 109,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202403,
+    "lon": 16.392714
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 76",
+    "m": 112,
+    "bezirk": 3,
+    "bauzeit": 1913,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "name": "Zweigstelle der Zentralsparkasse und Kommerzialbank Wien",
+    "lat": 48.200836,
+    "lon": 16.392322
+   },
+   {
+    "adresse": "Rochusgasse 6",
+    "m": 116,
+    "bezirk": 3,
+    "bauzeit": 1815,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Rabel Joseph",
+    "lat": 48.201537,
+    "lon": 16.390115
+   },
+   {
+    "adresse": "Erdbergstraße 3",
+    "m": 116,
+    "bezirk": 3,
+    "lat": 48.202759,
+    "lon": 16.391909
+   },
+   {
+    "adresse": "Rochusgasse 7",
+    "m": 120,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Hainischhaus",
+    "lat": 48.201363,
+    "lon": 16.390132
+   }
+  ],
+  "kandidaten_radius_m": 120
+ },
+ {
+  "id": "is-800225689420",
+  "ids": [
+   "is-800225689420"
+  ],
+  "titel": "VILLAGE IM DRITTEN | BAUFELD 14B | Lokale, erneuerbare &amp; klimafreundliche Energie",
+  "plz": 1030,
+  "links": [
+   "https://www.immobilienscout24.at/expose/6b0944c7b726e73b696b8f5a"
+  ],
+  "anbieter": "EDEX Immobilien GmbH",
+  "adresse_im_inserat": "Hilde-Güden-Promenade 11",
+  "lage": "Zone Landstraße: max. 10 min zu Fuß zu U Landstraße/Rochusgasse",
+  "punkt": [
+   48.201733,
+   16.39165
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 790000,
+  "flaeche": 101.64,
+  "zimmer": 4,
+  "stockwerk": "1",
+  "energie": {
+   "hwb": 30.3,
+   "hwb_class": "B",
+   "fgee": 0.6,
+   "fgee_class": "A+"
+  },
+  "grundrisse": "data/grundrisse/is-800225689420/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-28",
+  "portaladresse_pruefen": true,
+  "frueher": null,
+  "kandidaten": [
+   {
+    "adresse": "Landstraßer Hauptstraße 64",
+    "m": 17,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zur unbefleckten Jungfrau Maria",
+    "lat": 48.20161,
+    "lon": 16.391518
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 66",
+    "m": 24,
+    "bezirk": 3,
+    "bauzeit": 1800,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Weinstock",
+    "lat": 48.201519,
+    "lon": 16.391606
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 59",
+    "m": 25,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Mondschein",
+    "lat": 48.201955,
+    "lon": 16.391624
+   },
+   {
+    "adresse": "Kundmanngasse 39",
+    "m": 27,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201829,
+    "lon": 16.391982
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 63",
+    "m": 34,
+    "bezirk": 3,
+    "bauzeit": "1884-1918",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201575,
+    "lon": 16.392048
+   },
+   {
+    "adresse": "Rochusgasse 1",
+    "m": 36,
+    "bezirk": 3,
+    "bauzeit": 1788,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum Peregrinus",
+    "lat": 48.201589,
+    "lon": 16.391219
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 68",
+    "m": 43,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201357,
+    "lon": 16.391772
+   },
+   {
+    "adresse": "Kundmanngasse 34",
+    "m": 50,
+    "bezirk": 3,
+    "bauzeit": 1962,
+    "architekt": "Riedl Ferdinand und Kotas Robert",
+    "lat": 48.202124,
+    "lon": 16.391978
+   },
+   {
+    "adresse": "Kundmanngasse 30-32",
+    "m": 51,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum weißen Kreuz",
+    "lat": 48.202151,
+    "lon": 16.39193
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 55-57",
+    "m": 51,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Zum guten Hirten",
+    "lat": 48.202173,
+    "lon": 16.391458
+   },
+   {
+    "adresse": "Kundmanngasse 37",
+    "m": 52,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201858,
+    "lon": 16.392329
+   },
+   {
+    "adresse": "Rochusgasse 2",
+    "m": 53,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Kramer Siegfried",
+    "lat": 48.201729,
+    "lon": 16.390942
+   },
+   {
+    "adresse": "Kundmanngasse 35",
+    "m": 59,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202063,
+    "lon": 16.392264
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 65",
+    "m": 60,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201376,
+    "lon": 16.392259
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 70",
+    "m": 62,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Zum roten Apfel",
+    "lat": 48.201211,
+    "lon": 16.391926
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 72",
+    "m": 77,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201096,
+    "lon": 16.392052
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 58",
+    "m": 82,
+    "bezirk": 3,
+    "bauzeit": 1912,
+    "geschosse": 6,
+    "nutzung": "betriebliche Nutzung",
+    "architekt": "Kramer Siegfried",
+    "name": "Filiale der Ersten Österreichischen Spar-Casse",
+    "lat": 48.202145,
+    "lon": 16.390735
+   },
+   {
+    "adresse": "Kundmanngasse 33",
+    "m": 83,
+    "bezirk": 3,
+    "bauzeit": 1870,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202228,
+    "lon": 16.39249
+   },
+   {
+    "adresse": "Kundmanngasse 32",
+    "m": 85,
+    "bezirk": 3,
+    "bauzeit": "1848 -1918",
+    "geschosse": 5,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202367,
+    "lon": 16.392279
+   },
+   {
+    "adresse": "Rochusgasse 3-5",
+    "m": 89,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 8,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201425,
+    "lon": 16.390543
+   },
+   {
+    "adresse": "Erdbergstraße 2",
+    "m": 91,
+    "bezirk": 3,
+    "bauzeit": 1787,
+    "lat": 48.20251,
+    "lon": 16.392032
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 74",
+    "m": 96,
+    "bezirk": 3,
+    "bauzeit": "1781-1848",
+    "geschosse": 3,
+    "nutzung": "Wohnnutzung",
+    "name": "Haus Fernolendt",
+    "lat": 48.200957,
+    "lon": 16.39221
+   },
+   {
+    "adresse": "Rochusmarkt B",
+    "m": 99,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "lat": 48.202575,
+    "lon": 16.391231
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 67",
+    "m": 101,
+    "bezirk": 3,
+    "bauzeit": 1935,
+    "geschosse": 4,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.201181,
+    "lon": 16.392724
+   },
+   {
+    "adresse": "Erdbergstraße 1",
+    "m": 102,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 7,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "ehem. Wohnhaus Ziehrers",
+    "lat": 48.202651,
+    "lon": 16.391593
+   },
+   {
+    "adresse": "Rochusmarkt M",
+    "m": 103,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 1,
+    "nutzung": "betriebliche Nutzung",
+    "lat": 48.202587,
+    "lon": 16.391126
+   },
+   {
+    "adresse": "Pfarrhofgasse 1",
+    "m": 104,
+    "bezirk": 3,
+    "bauzeit": "Vor 1683",
+    "geschosse": 1,
+    "nutzung": "öffentliche Einrichtung",
+    "name": "Pfarrkirche hl. Rochus und Sebastian (Rochuskirche)",
+    "lat": 48.201817,
+    "lon": 16.390257
+   },
+   {
+    "adresse": "Kundmanngasse 31",
+    "m": 109,
+    "bezirk": 3,
+    "bauzeit": "nach 1945",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "lat": 48.202403,
+    "lon": 16.392714
+   },
+   {
+    "adresse": "Landstraßer Hauptstraße 76",
+    "m": 112,
+    "bezirk": 3,
+    "bauzeit": 1913,
+    "geschosse": 6,
+    "nutzung": "Wohnnutzung",
+    "name": "Zweigstelle der Zentralsparkasse und Kommerzialbank Wien",
+    "lat": 48.200836,
+    "lon": 16.392322
+   },
+   {
+    "adresse": "Rochusgasse 6",
+    "m": 116,
+    "bezirk": 3,
+    "bauzeit": 1815,
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "architekt": "Rabel Joseph",
+    "lat": 48.201537,
+    "lon": 16.390115
+   },
+   {
+    "adresse": "Erdbergstraße 3",
+    "m": 116,
+    "bezirk": 3,
+    "lat": 48.202759,
+    "lon": 16.391909
+   },
+   {
+    "adresse": "Rochusgasse 7",
+    "m": 120,
+    "bezirk": 3,
+    "bauzeit": "vor 1848",
+    "geschosse": 2,
+    "nutzung": "Wohnnutzung",
+    "name": "Hainischhaus",
+    "lat": 48.201363,
+    "lon": 16.390132
+   }
+  ],
+  "kandidaten_radius_m": 120
+ },
+ {
+  "id": "ds-15309470",
+  "ids": [
+   "ds-15309470"
+  ],
+  "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! Absolute Ruhe! 3. Bezirk. U3",
+  "plz": 1030,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15309470"
+  ],
+  "anbieter": "Immo-Company Haas & Urban Immobilien GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 3. Bezirk bekannt",
+  "punkt": [
+   48.19688,
+   16.401404
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 950000.0,
+  "flaeche": 115.0,
+  "zimmer": 5,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15309470/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-13",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "ds-15311994",
+  "ids": [
+   "ds-15311994"
+  ],
+  "titel": "SANIERTER ALTBAU MIT FUSSBODENHEIZUNG",
+  "plz": 1170,
+  "links": [
+   "https://immobilien.derstandard.at/detail/15311994"
+  ],
+  "anbieter": "Betterhomes",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 17. Bezirk bekannt",
+  "punkt": [
+   48.235372,
+   16.279888
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 320000.0,
+  "flaeche": 84.0,
+  "zimmer": 3,
+  "stockwerk": null,
+  "energie": {
+   "hwb": null,
+   "hwb_class": null,
+   "fgee": null,
+   "fgee_class": null
+  },
+  "grundrisse": "data/grundrisse/ds-15311994/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-13",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
+  "id": "wh-984365366",
+  "ids": [
+   "wh-984365366",
+   "wh-1273543576",
+   "wh-1966627398"
+  ],
+  "titel": "Großzügige Dachgeschoss-Maisonette ohne Dachschrägen mit 44 m² Terrassenfäche | 4 Zimmer",
+  "plz": 1170,
+  "links": [
+   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1170-hernals/grosszuegige-dachgeschoss-maisonette-ohne-dachschraegen-mit-44-m-terrassenfaeche-4-zimmer-984365366/"
+  ],
+  "anbieter": "WINEGG Makler GmbH",
+  "adresse_im_inserat": null,
+  "lage": "Lage unklar, nur 17. Bezirk bekannt",
+  "punkt": [
+   48.216086,
+   16.32997
+  ],
+  "versatz_m": 0,
+  "portalpunkt": null,
+  "preis": 1089000.0,
+  "flaeche": 122.0,
+  "zimmer": 4,
+  "stockwerk": null,
+  "energie": null,
+  "grundrisse": "data/grundrisse/wh-984365366/",
+  "im_nest": false,
+  "dokumente": [],
+  "erstmals": "2026-11-11",
+  "portaladresse_pruefen": false,
+  "frueher": null
+ },
+ {
   "id": "wh-988212014",
   "ids": [
    "wh-988212014",
@@ -1535,48 +4157,5 @@
    }
   ],
   "kandidaten_radius_m": 263
- },
- {
-  "id": "wh-2104248704",
-  "ids": [
-   "wh-2104248704",
-   "is-390800941816",
-   "ds-15310072",
-   "wh-1691397623",
-   "is-390483139587",
-   "is-049479998749"
-  ],
-  "titel": "Perfekt geschnittener Rückzugsort im Grünen: 97 m² Wohnkomfort mit Loggia, Balkon & Lift im 19. Bez.",
-  "plz": 1190,
-  "links": [
-   "https://www.willhaben.at/iad/immobilien/d/eigentumswohnung/wien/wien-1190-doebling/perfekt-geschnittener-rueckzugsort-im-gruenen-97-m-wohnkomfort-mit-loggia-balkon-lift-im-19-bez-2104248704/",
-   "https://www.immobilienscout24.at/expose/6b08b995bcd78bd211f2f562",
-   "https://immobilien.derstandard.at/detail/15310072"
-  ],
-  "anbieter": "Klebl Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "19. Bezirk (genaue Adresse nicht angegeben)",
-  "punkt": [
-   48.233533,
-   16.351118
-  ],
-  "versatz_m": 0,
-  "portalpunkt": null,
-  "preis": 679000.0,
-  "flaeche": 97.0,
-  "zimmer": 3,
-  "stockwerk": "1",
-  "energie": {
-   "hwb": null,
-   "hwb_class": null,
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/wh-2104248704/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-09",
-  "portaladresse_pruefen": false,
-  "frueher": "unklar: kein Suchkreis (Portalpunkte zufällig). Geprüft: Schwester-Inserate (nur eigene Kopien; RKM-Townhouse Siolygasse Bj. 1984 ist andere Anlage), Grundriss (Scan ohne Schriftfeld), Klebl-Seite klebl-immobilien.at/immobilien/detail-infos/3293-... (onOffice, ImmoNr 2026-976, keine Adresse/Karte), willhaben-Detail (keine Koordinaten), Websuchen ('Rückzugsort im Grünen' Klebl, Bj. 1984 Sauna 1190). Spur: Loggia-Foto zeigt breite Allee mit Nebenfahrbahn und Hang mit neuen Terrassenhäusern + Garageneinfahrt gegenüber; Krottenbachstraße 27-41 und Sieveringer Straße 75 (Bj. 1962) passen nicht. Morgen: Ogulo/Fotos gegen Orthofoto Krottenbachstraße West/Sieveringer Straße, Hausverwaltung."
  }
 ]

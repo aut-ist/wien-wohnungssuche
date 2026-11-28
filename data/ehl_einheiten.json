@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-27",
+ "stand": "2026-11-28",
  "projekte": [
   {
    "schluessel": "ehl-apostelhof-1030-wien",
@@ -1045,12 +1045,44 @@
      "top": "",
      "stiege": "",
      "geschoss": "1. DG",
+     "zimmer": "3",
+     "flaeche": "61,1 m2",
+     "eigennutzer": "€ 580.000,-",
+     "href": "https://www.ehl.at/objekt/91502",
+     "balkon": "6,41 m²",
+     "terrasse": "5,81 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
+     "zimmer": "3",
+     "flaeche": "64,81 m2",
+     "eigennutzer": "€ 620.000,-",
+     "href": "https://www.ehl.at/objekt/91503",
+     "balkon": "6,41 m²",
+     "terrasse": "5,82 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "1. DG",
      "zimmer": "2",
      "flaeche": "46,01 m2",
      "eigennutzer": "€ 390.000,-",
      "href": "https://www.ehl.at/objekt/91504",
      "balkon": "1,6 m²",
      "terrasse": "3,64 m²"
+    },
+    {
+     "top": "",
+     "stiege": "",
+     "geschoss": "2. DG",
+     "zimmer": "3",
+     "flaeche": "61,38 m2",
+     "eigennutzer": "€ 560.000,-",
+     "href": "https://www.ehl.at/objekt/91505",
+     "terrasse": "6,73 m²"
     },
     {
      "top": "",
@@ -6038,16 +6070,6 @@
      "eigennutzer": "€ 245.000,-",
      "href": "https://www.ehl.at/objekt/93157",
      "loggia": "5,04 m²"
-    },
-    {
-     "top": "8",
-     "stiege": "",
-     "geschoss": "3. Etage",
-     "zimmer": "1",
-     "flaeche": "29,04 m2",
-     "eigennutzer": "€ 259.000,-",
-     "href": "https://www.ehl.at/objekt/93161",
-     "loggia": "1,6 m²"
     },
     {
      "top": "12",
