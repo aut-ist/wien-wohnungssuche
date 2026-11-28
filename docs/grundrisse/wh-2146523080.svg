@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2387" height="2194" viewBox="0 0 2387 2194" font-family="Helvetica, Arial, sans-serif">
+<rect width="2387" height="2194" fill="#ffffff"/>
+<rect x="0" y="0" width="2387" height="112" fill="#c0392b"/><text x="1193.6" y="52.6" font-size="50.0" font-weight="800" fill="#ffffff" text-anchor="middle">SCHÄTZUNG</text><text x="1193.6" y="91.8" font-size="28.0" fill="#ffffff" text-anchor="middle">kein Original-Grundriss · von Claude aus Fotos und Beschreibung geschätzt</text>
+<polygon points="163.6,343.6 603.6,343.6 603.6,703.6 163.6,703.6" fill="#e9eef5" stroke="none"/>
+<polygon points="163.6,343.6 603.6,343.6 603.6,703.6 163.6,703.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="603.6,343.6 963.6,343.6 963.6,703.6 603.6,703.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="603.6,343.6 963.6,343.6 963.6,703.6 603.6,703.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="723.6,703.6 963.6,703.6 963.6,923.6 723.6,923.6" fill="#efefec" stroke="none"/>
+<polygon points="723.6,703.6 963.6,703.6 963.6,923.6 723.6,923.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="723.6,923.6 963.6,923.6 963.6,1203.6 723.6,1203.6" fill="#dcecf3" stroke="none"/>
+<polygon points="723.6,923.6 963.6,923.6 963.6,1203.6 723.6,1203.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="163.6,703.6 723.6,703.6 723.6,1243.6 163.6,1243.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="163.6,703.6 723.6,703.6 723.6,1243.6 163.6,1243.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="163.6,1243.6 963.6,1243.6 963.6,1718.6 163.6,1718.6" fill="#e3f0da" stroke="none"/>
+<polygon points="163.6,1243.6 963.6,1243.6 963.6,1718.6 163.6,1718.6" fill="none" stroke="#7a8f6e" stroke-width="6.0" stroke-linejoin="miter" stroke-dasharray="18 10"/>
+<polygon points="1263.6,343.6 1703.6,343.6 1703.6,703.6 1263.6,703.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="1263.6,343.6 1703.6,343.6 1703.6,703.6 1263.6,703.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1703.6,343.6 2063.6,343.6 2063.6,703.6 1703.6,703.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="1703.6,343.6 2063.6,343.6 2063.6,703.6 1703.6,703.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="2063.6,343.6 2223.6,343.6 2223.6,703.6 2063.6,703.6" fill="#efefec" stroke="none"/>
+<polygon points="2063.6,343.6 2223.6,343.6 2223.6,703.6 2063.6,703.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1263.6,703.6 1703.6,703.6 1703.6,1083.6 1263.6,1083.6" fill="#f4e9d6" stroke="none"/>
+<polygon points="1263.6,703.6 1703.6,703.6 1703.6,1083.6 1263.6,1083.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1703.6,703.6 1963.6,703.6 1963.6,1083.6 1703.6,1083.6" fill="#f3e2c3" stroke="none"/>
+<polygon points="1703.6,703.6 1963.6,703.6 1963.6,1083.6 1703.6,1083.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1963.6,703.6 2223.6,703.6 2223.6,923.6 1963.6,923.6" fill="#dcecf3" stroke="none"/>
+<polygon points="1963.6,703.6 2223.6,703.6 2223.6,923.6 1963.6,923.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1963.6,923.6 2083.6,923.6 2083.6,1083.6 1963.6,1083.6" fill="#dcecf3" stroke="none"/>
+<polygon points="1963.6,923.6 2083.6,923.6 2083.6,1083.6 1963.6,1083.6" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<line x1="243.6" y1="343.6" x2="343.6" y2="343.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="243.6" y1="343.6" x2="343.6" y2="343.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="423.6" y1="343.6" x2="523.6" y2="343.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="423.6" y1="343.6" x2="523.6" y2="343.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="723.6" y1="343.6" x2="843.6" y2="343.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="723.6" y1="343.6" x2="843.6" y2="343.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="313.6" y1="1243.6" x2="563.6" y2="1243.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="313.6" y1="1243.6" x2="563.6" y2="1243.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1383.6" y1="343.6" x2="1503.6" y2="343.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1383.6" y1="343.6" x2="1503.6" y2="343.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1823.6" y1="343.6" x2="1943.6" y2="343.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1823.6" y1="343.6" x2="1943.6" y2="343.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1383.6" y1="1083.6" x2="1503.6" y2="1083.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1383.6" y1="1083.6" x2="1503.6" y2="1083.6" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1783.6" y1="1083.6" x2="1883.6" y2="1083.6" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1783.6" y1="1083.6" x2="1883.6" y2="1083.6" stroke="#6fa7cf" stroke-width="4"/>
+<text x="383.6" y="517.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="783.6" y="517.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="843.6" y="807.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorraum</text>
+<text x="843.6" y="1057.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="443.6" y="967.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Wohnküche</text>
+<text x="563.6" y="1475.1" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Terrasse</text>
+<text x="563.6" y="1519.1" font-size="32.8" fill="#555" text-anchor="middle">38,00 m²</text>
+<text x="1483.6" y="517.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="1883.6" y="517.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="2143.6" y="517.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Eingang</text>
+<text x="1483.6" y="887.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="1833.6" y="887.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Küche</text>
+<text x="2093.6" y="807.6" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="2023.6" y="999.3" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">WC</text>
+<text x="563.6" y="283.6" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Hochparterre (ca. 78 m²)</text>
+<text x="1743.6" y="283.6" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Souterrain (ca. 75 m²)</text>
+<text x="1193.6" y="278.7" font-size="38.0" font-weight="700" fill="#5b6b82" letter-spacing="1" text-anchor="middle">▲ Straße</text>
+<text x="1193.6" y="1813.9" font-size="38.0" font-weight="700" fill="#5b6b82" letter-spacing="1" text-anchor="middle">▼ Innenhof</text>
+<text x="163.6" y="1970.2" font-size="46.0" font-weight="700" fill="#2b2b2b">Hochparterre + Souterrain (ca. 152 m²)</text>
+<text x="163.6" y="2024.2" font-size="36.0" fill="#444">Wohnfläche ca. 152,00 m² · Freifläche ca. 38,00 m²</text>
+<text x="163.6" y="2074.2" font-size="28.0" fill="#888">aus 6 Fotos und dem Text geschätzt, nicht verbindlich. Lage der Räume (Zimmer zur Straße, Wohnküche/Terrasse zum Hof) aus Fassadenfoto und Text; Raumgrößen geschätzt. Beide Einheiten werden auch einzeln angeboten (Wendeltreppe im Hof).</text>
+<rect x="163.6" y="2106.2" width="100.0" height="10" fill="#2f2f2f"/><rect x="263.6" y="2106.2" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="163.6" y="2150.2" font-size="26.0" fill="#666">0</text><text x="363.6" y="2150.2" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+</svg>

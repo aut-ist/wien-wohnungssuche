@@ -1,0 +1,225 @@
+{
+ "ids": [
+  "wh-2121790420"
+ ],
+ "ersetzt": [],
+ "schaetzung": true,
+ "titel": "Souterrain, 3 Zimmer (ca. 75 m²)",
+ "raeume": [
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     0,
+     0
+    ],
+    [
+     4.4,
+     0
+    ],
+    [
+     4.4,
+     3.6
+    ],
+    [
+     0,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     4.4,
+     0
+    ],
+    [
+     8.0,
+     0
+    ],
+    [
+     8.0,
+     3.6
+    ],
+    [
+     4.4,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Eingang",
+   "art": "flur",
+   "punkte": [
+    [
+     8.0,
+     0
+    ],
+    [
+     9.6,
+     0
+    ],
+    [
+     9.6,
+     3.6
+    ],
+    [
+     8.0,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     0,
+     3.6
+    ],
+    [
+     4.4,
+     3.6
+    ],
+    [
+     4.4,
+     7.4
+    ],
+    [
+     0,
+     7.4
+    ]
+   ]
+  },
+  {
+   "name": "Küche",
+   "art": "kueche",
+   "punkte": [
+    [
+     4.4,
+     3.6
+    ],
+    [
+     7.0,
+     3.6
+    ],
+    [
+     7.0,
+     7.4
+    ],
+    [
+     4.4,
+     7.4
+    ]
+   ]
+  },
+  {
+   "name": "Bad",
+   "art": "bad",
+   "punkte": [
+    [
+     7.0,
+     3.6
+    ],
+    [
+     9.6,
+     3.6
+    ],
+    [
+     9.6,
+     5.8
+    ],
+    [
+     7.0,
+     5.8
+    ]
+   ]
+  },
+  {
+   "name": "WC",
+   "art": "wc",
+   "punkte": [
+    [
+     7.0,
+     5.8
+    ],
+    [
+     8.2,
+     5.8
+    ],
+    [
+     8.2,
+     7.4
+    ],
+    [
+     7.0,
+     7.4
+    ]
+   ]
+  }
+ ],
+ "fenster": [
+  [
+   [
+    1.2,
+    0
+   ],
+   [
+    2.4,
+    0
+   ]
+  ],
+  [
+   [
+    5.6,
+    0
+   ],
+   [
+    6.8,
+    0
+   ]
+  ],
+  [
+   [
+    1.2,
+    7.4
+   ],
+   [
+    2.4,
+    7.4
+   ]
+  ],
+  [
+   [
+    5.2,
+    7.4
+   ],
+   [
+    6.2,
+    7.4
+   ]
+  ]
+ ],
+ "tueren": [
+  {
+   "von": [
+    8.4,
+    0
+   ],
+   "bis": [
+    9.3,
+    0
+   ],
+   "seite": 1
+  }
+ ],
+ "wohnflaeche": 75,
+ "seiten": {
+  "oben": "Straße (Eingang)",
+  "unten": "Innenhof"
+ },
+ "hinweis": "aus 6 Fotos und dem Text geschätzt, nicht verbindlich. Lage der Räume (Zimmer zur Straße, Küche zum Hof) aus Fassadenfoto und Text; Raumgrößen geschätzt."
+}

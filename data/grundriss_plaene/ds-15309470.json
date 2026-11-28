@@ -1,0 +1,322 @@
+{
+ "ids": [
+  "ds-15309470"
+ ],
+ "ersetzt": [],
+ "schaetzung": true,
+ "titel": "Maisonette über 2 Ebenen (ca. 115 m²)",
+ "raeume": [
+  {
+   "name": "Wohnküche",
+   "art": "wohnen",
+   "punkte": [
+    [
+     0,
+     0
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "name": "Gang",
+   "art": "flur",
+   "punkte": [
+    [
+     6,
+     0
+    ],
+    [
+     8.2,
+     0
+    ],
+    [
+     8.2,
+     4
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "WC",
+   "art": "wc",
+   "punkte": [
+    [
+     6,
+     4
+    ],
+    [
+     7.2,
+     4
+    ],
+    [
+     7.2,
+     6
+    ],
+    [
+     6,
+     6
+    ]
+   ]
+  },
+  {
+   "name": "AR",
+   "art": "abstell",
+   "punkte": [
+    [
+     7.2,
+     4
+    ],
+    [
+     8.2,
+     4
+    ],
+    [
+     8.2,
+     6
+    ],
+    [
+     7.2,
+     6
+    ]
+   ]
+  },
+  {
+   "name": "Terrasse",
+   "art": "freiflaeche",
+   "punkte": [
+    [
+     0,
+     6
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     0,
+     9
+    ]
+   ]
+  },
+  {
+   "name": "Schlafzimmer",
+   "art": "schlafen",
+   "punkte": [
+    [
+     10,
+     0
+    ],
+    [
+     14,
+     0
+    ],
+    [
+     14,
+     4
+    ],
+    [
+     10,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "Schlafzimmer",
+   "art": "schlafen",
+   "punkte": [
+    [
+     14,
+     0
+    ],
+    [
+     18,
+     0
+    ],
+    [
+     18,
+     4
+    ],
+    [
+     14,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "Schlafzimmer",
+   "art": "schlafen",
+   "punkte": [
+    [
+     10,
+     4
+    ],
+    [
+     13.6,
+     4
+    ],
+    [
+     13.6,
+     7.6
+    ],
+    [
+     10,
+     7.6
+    ]
+   ]
+  },
+  {
+   "name": "Kabinett",
+   "art": "zimmer",
+   "punkte": [
+    [
+     13.6,
+     4
+    ],
+    [
+     15.8,
+     4
+    ],
+    [
+     15.8,
+     7.6
+    ],
+    [
+     13.6,
+     7.6
+    ]
+   ]
+  },
+  {
+   "name": "Bad",
+   "art": "bad",
+   "punkte": [
+    [
+     15.8,
+     4
+    ],
+    [
+     18,
+     4
+    ],
+    [
+     18,
+     6
+    ],
+    [
+     15.8,
+     6
+    ]
+   ]
+  },
+  {
+   "name": "WC",
+   "art": "wc",
+   "punkte": [
+    [
+     15.8,
+     6
+    ],
+    [
+     18,
+     6
+    ],
+    [
+     18,
+     7.6
+    ],
+    [
+     15.8,
+     7.6
+    ]
+   ]
+  }
+ ],
+ "fenster": [
+  [
+   [
+    1,
+    0
+   ],
+   [
+    2.6,
+    0
+   ]
+  ],
+  [
+   [
+    3.4,
+    0
+   ],
+   [
+    5,
+    0
+   ]
+  ],
+  [
+   [
+    11,
+    0
+   ],
+   [
+    12.6,
+    0
+   ]
+  ],
+  [
+   [
+    15,
+    0
+   ],
+   [
+    16.6,
+    0
+   ]
+  ],
+  [
+   [
+    10,
+    5
+   ],
+   [
+    10,
+    6.6
+   ]
+  ]
+ ],
+ "texte": [
+  {
+   "text": "Ebene 1",
+   "pos": [
+    4,
+    -0.6
+   ]
+  },
+  {
+   "text": "Ebene 2",
+   "pos": [
+    14,
+    -0.6
+   ]
+  }
+ ],
+ "wohnflaeche": 115,
+ "hinweis": "aus 6 Fotos und dem Text geschätzt (Raumliste: Wohnküche mit Zugang zur Terrasse, 3 Schlafzimmer, 1 Kabinett, 1 Bad, 2 WC, 1 Abstellraum, Korridor), nicht verbindlich; Verteilung auf die Ebenen geschätzt."
+}

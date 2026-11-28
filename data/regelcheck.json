@@ -7,78 +7,7 @@
    "adresse": null,
    "erstmals": "2026-11-13",
    "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1283942818",
-   "titel": "++NEU++ 3-Zimmer-Neubau mit Loggia, Tischlerküche und Erdwärme in Hernals - in E",
-   "adresse": "Leopold-Ernst-Gasse 10",
-   "erstmals": "2026-11-15",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1788352998",
-   "titel": "Raum für Wohnträume - 112 m² mit bis zu 4,5 Zimmern & Gartenmitbenützung",
-   "adresse": "Sollingergasse 1",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-849272944",
-   "titel": "PREISREDUKTION! ABSOLUTE TOPLAGE MIT RUHIGER INNENHOF-TERRASSE",
-   "adresse": "Graf-Starhemberg-Gasse 27",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-2121790420",
-   "titel": "GESCHÄFTSLOKAL ODER BÜRO IM SOUTTERRAIN IN TOPLAGE",
-   "adresse": "Graf-Starhemberg-Gasse 27",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-2146523080",
-   "titel": "PREISREDUKTION! GARTENWOHNUNG MIT GESCHÄFTSLOKAL - 2-STÖCKIG IN TOPLAGE",
-   "adresse": "Graf-Starhemberg-Gasse 27",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-2008513484",
-   "titel": "4 ZIMMER - ERSTBEZUG - 2026 GENERALRENOVIERT - GRÜNLAGE - 4. LIFTSTOCK - EINBAUK",
-   "adresse": "Johann-Strauß-Gasse 22",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1363362129",
-   "titel": "Ihr privater Rückzugsort in Hofruhelage - kernsaniert, Smart Home und Südwestter",
-   "adresse": "Lustkandlgasse 45",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss"
+    "keine Hausnummer"
    ],
    "im_nest": false
   }

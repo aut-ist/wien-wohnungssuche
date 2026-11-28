@@ -1,0 +1,401 @@
+{
+ "ids": [
+  "wh-2146523080"
+ ],
+ "ersetzt": [],
+ "schaetzung": true,
+ "titel": "Hochparterre + Souterrain (ca. 152 m²)",
+ "raeume": [
+  {
+   "name": "Zimmer",
+   "art": "schlafen",
+   "punkte": [
+    [
+     0,
+     0
+    ],
+    [
+     4.4,
+     0
+    ],
+    [
+     4.4,
+     3.6
+    ],
+    [
+     0,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     4.4,
+     0
+    ],
+    [
+     8.0,
+     0
+    ],
+    [
+     8.0,
+     3.6
+    ],
+    [
+     4.4,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Vorraum",
+   "art": "flur",
+   "punkte": [
+    [
+     5.6,
+     3.6
+    ],
+    [
+     8.0,
+     3.6
+    ],
+    [
+     8.0,
+     5.8
+    ],
+    [
+     5.6,
+     5.8
+    ]
+   ]
+  },
+  {
+   "name": "Bad",
+   "art": "bad",
+   "punkte": [
+    [
+     5.6,
+     5.8
+    ],
+    [
+     8.0,
+     5.8
+    ],
+    [
+     8.0,
+     8.6
+    ],
+    [
+     5.6,
+     8.6
+    ]
+   ]
+  },
+  {
+   "name": "Wohnküche",
+   "art": "wohnen",
+   "punkte": [
+    [
+     0,
+     3.6
+    ],
+    [
+     5.6,
+     3.6
+    ],
+    [
+     5.6,
+     9.0
+    ],
+    [
+     0,
+     9.0
+    ]
+   ]
+  },
+  {
+   "name": "Terrasse",
+   "art": "freiflaeche",
+   "punkte": [
+    [
+     0,
+     9.0
+    ],
+    [
+     8.0,
+     9.0
+    ],
+    [
+     8.0,
+     13.75
+    ],
+    [
+     0,
+     13.75
+    ]
+   ],
+   "m2": 38
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     11,
+     0
+    ],
+    [
+     15.4,
+     0
+    ],
+    [
+     15.4,
+     3.6
+    ],
+    [
+     11,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     15.4,
+     0
+    ],
+    [
+     19.0,
+     0
+    ],
+    [
+     19.0,
+     3.6
+    ],
+    [
+     15.4,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Eingang",
+   "art": "flur",
+   "punkte": [
+    [
+     19.0,
+     0
+    ],
+    [
+     20.6,
+     0
+    ],
+    [
+     20.6,
+     3.6
+    ],
+    [
+     19.0,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     11,
+     3.6
+    ],
+    [
+     15.4,
+     3.6
+    ],
+    [
+     15.4,
+     7.4
+    ],
+    [
+     11,
+     7.4
+    ]
+   ]
+  },
+  {
+   "name": "Küche",
+   "art": "kueche",
+   "punkte": [
+    [
+     15.4,
+     3.6
+    ],
+    [
+     18.0,
+     3.6
+    ],
+    [
+     18.0,
+     7.4
+    ],
+    [
+     15.4,
+     7.4
+    ]
+   ]
+  },
+  {
+   "name": "Bad",
+   "art": "bad",
+   "punkte": [
+    [
+     18.0,
+     3.6
+    ],
+    [
+     20.6,
+     3.6
+    ],
+    [
+     20.6,
+     5.8
+    ],
+    [
+     18.0,
+     5.8
+    ]
+   ]
+  },
+  {
+   "name": "WC",
+   "art": "wc",
+   "punkte": [
+    [
+     18.0,
+     5.8
+    ],
+    [
+     19.2,
+     5.8
+    ],
+    [
+     19.2,
+     7.4
+    ],
+    [
+     18.0,
+     7.4
+    ]
+   ]
+  }
+ ],
+ "fenster": [
+  [
+   [
+    0.8,
+    0
+   ],
+   [
+    1.8,
+    0
+   ]
+  ],
+  [
+   [
+    2.6,
+    0
+   ],
+   [
+    3.6,
+    0
+   ]
+  ],
+  [
+   [
+    5.6,
+    0
+   ],
+   [
+    6.8,
+    0
+   ]
+  ],
+  [
+   [
+    1.5,
+    9.0
+   ],
+   [
+    4.0,
+    9.0
+   ]
+  ],
+  [
+   [
+    12.2,
+    0
+   ],
+   [
+    13.4,
+    0
+   ]
+  ],
+  [
+   [
+    16.6,
+    0
+   ],
+   [
+    17.8,
+    0
+   ]
+  ],
+  [
+   [
+    12.2,
+    7.4
+   ],
+   [
+    13.4,
+    7.4
+   ]
+  ],
+  [
+   [
+    16.2,
+    7.4
+   ],
+   [
+    17.2,
+    7.4
+   ]
+  ]
+ ],
+ "texte": [
+  {
+   "text": "Hochparterre (ca. 78 m²)",
+   "pos": [
+    4,
+    -0.6
+   ]
+  },
+  {
+   "text": "Souterrain (ca. 75 m²)",
+   "pos": [
+    15.8,
+    -0.6
+   ]
+  }
+ ],
+ "wohnflaeche": 152,
+ "seiten": {
+  "oben": "Straße",
+  "unten": "Innenhof"
+ },
+ "hinweis": "aus 6 Fotos und dem Text geschätzt, nicht verbindlich. Lage der Räume (Zimmer zur Straße, Wohnküche/Terrasse zum Hof) aus Fassadenfoto und Text; Raumgrößen geschätzt. Beide Einheiten werden auch einzeln angeboten (Wendeltreppe im Hof)."
+}

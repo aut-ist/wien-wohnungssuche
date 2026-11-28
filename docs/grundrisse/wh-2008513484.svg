@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1468" viewBox="0 0 2560 1468" font-family="Helvetica, Arial, sans-serif">
+<rect width="2560" height="1468" fill="#ffffff"/>
+<polygon points="172.8,172.8 709.8,172.8 709.8,421.8 172.8,421.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="172.8,172.8 709.8,172.8 709.8,421.8 172.8,421.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="172.8,460.8 709.8,460.8 709.8,670.8 172.8,670.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="172.8,460.8 709.8,460.8 709.8,670.8 172.8,670.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="762.8,172.8 1055.8,172.8 1055.8,416.8 762.8,416.8" fill="#dcecf3" stroke="none"/>
+<polygon points="762.8,172.8 1055.8,172.8 1055.8,416.8 762.8,416.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1068.8,172.8 1168.8,172.8 1168.8,416.8 1068.8,416.8" fill="#dcecf3" stroke="none"/>
+<polygon points="1068.8,172.8 1168.8,172.8 1168.8,416.8 1068.8,416.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="709.8,434.8 1207.8,434.8 1207.8,670.8 1155.8,670.8 1155.8,1050.8 1050.8,1050.8 1050.8,670.8 709.8,670.8" fill="#efefec" stroke="none"/>
+<polygon points="709.8,434.8 1207.8,434.8 1207.8,670.8 1155.8,670.8 1155.8,1050.8 1050.8,1050.8 1050.8,670.8 709.8,670.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1175.8,683.8 1325.8,683.8 1325.8,840.8 1175.8,840.8" fill="#e6e6e2" stroke="none"/>
+<polygon points="1175.8,683.8 1325.8,683.8 1325.8,840.8 1175.8,840.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1207.8,172.8 1849.8,172.8 1849.8,539.8 1705.8,670.8 1705.8,919.8 1338.8,919.8 1338.8,670.8 1207.8,670.8" fill="#f4e9d6" stroke="none"/>
+<polygon points="1207.8,172.8 1849.8,172.8 1849.8,539.8 1705.8,670.8 1705.8,919.8 1338.8,919.8 1338.8,670.8 1207.8,670.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="1862.8,172.8 2386.8,172.8 2386.8,534.8 1862.8,534.8" fill="#e9eef5" stroke="none"/>
+<polygon points="1862.8,172.8 2386.8,172.8 2386.8,534.8 1862.8,534.8" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<line x1="172.8" y1="198.8" x2="172.8" y2="321.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="172.8" y1="198.8" x2="172.8" y2="321.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="172.8" y1="552.8" x2="172.8" y2="651.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="172.8" y1="552.8" x2="172.8" y2="651.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="2386.8" y1="238.8" x2="2386.8" y2="434.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="2386.8" y1="238.8" x2="2386.8" y2="434.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1705.8" y1="748.8" x2="1705.8" y2="866.8" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="1705.8" y1="748.8" x2="1705.8" y2="866.8" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="1055.8" y1="1050.8" x2="1149.8" y2="1050.8" stroke="#ffffff" stroke-width="16.0"/>
+<line x1="1055.8" y1="1050.8" x2="1055.8" y2="1144.8" stroke="#2f2f2f" stroke-width="3"/>
+<path d="M 1055.8 1144.8 A 94.0 94.0 0 0 0 1149.8 1050.8" fill="none" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="441.3" y="291.3" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Kinderzimmer</text>
+<text x="441.3" y="335.3" font-size="32.8" fill="#555" text-anchor="middle">13,38 m²</text>
+<text x="441.3" y="559.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Kinderzimmer</text>
+<text x="441.3" y="603.8" font-size="32.8" fill="#555" text-anchor="middle">11,28 m²</text>
+<text x="909.3" y="288.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="909.3" y="332.8" font-size="32.8" fill="#555" text-anchor="middle">6,89 m²</text>
+<text x="1118.8" y="290.5" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">WC</text>
+<text x="1118.8" y="322.2" font-size="23.6" fill="#555" text-anchor="middle">2,29 m²</text>
+<text x="945.8" y="546.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorzimmer</text>
+<text x="945.8" y="590.8" font-size="32.8" fill="#555" text-anchor="middle">16,13 m²</text>
+<text x="1250.8" y="758.0" font-size="28.8" font-weight="700" fill="#2b2b2b" text-anchor="middle">AR</text>
+<text x="1250.8" y="789.7" font-size="23.6" fill="#555" text-anchor="middle">2,28 m²</text>
+<text x="1521.8" y="389.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Wohn- Essbereich</text>
+<text x="1521.8" y="433.8" font-size="32.8" fill="#555" text-anchor="middle">39,73 m²</text>
+<text x="2124.8" y="347.8" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Schlafzimmer</text>
+<text x="2124.8" y="391.8" font-size="32.8" fill="#555" text-anchor="middle">18,42 m²</text>
+<text x="1521.8" y="827.8" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Küche</text>
+<text x="1102.8" y="1102.8" font-size="42.0" font-weight="700" fill="#666" text-anchor="start">Eingang</text>
+<text x="172.8" y="1243.7" font-size="46.0" font-weight="700" fill="#2b2b2b">4-Zimmer-Wohnung, 4. Liftstock (111 m² WFL)</text>
+<text x="172.8" y="1297.7" font-size="36.0" fill="#444">Wohnfläche ca. 111,00 m²</text>
+<text x="172.8" y="1347.7" font-size="28.0" fill="#888">Neu gezeichnet nach dem Bestandsplan des Maklers (Raumhöhe 250 cm); Küche ist Teil des Wohn-Essbereichs (39,73 m²). Maße ungefähr, nicht verbindlich.</text>
+<rect x="172.8" y="1379.7" width="100.0" height="10" fill="#2f2f2f"/><rect x="272.8" y="1379.7" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="172.8" y="1423.7" font-size="26.0" fill="#666">0</text><text x="372.8" y="1423.7" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+</svg>

@@ -1,0 +1,205 @@
+{
+ "ids": [
+  "wh-849272944"
+ ],
+ "ersetzt": [],
+ "schaetzung": true,
+ "titel": "Hochparterre, 3 Zimmer (ca. 78 m²)",
+ "raeume": [
+  {
+   "name": "Zimmer",
+   "art": "schlafen",
+   "punkte": [
+    [
+     0,
+     0
+    ],
+    [
+     4.4,
+     0
+    ],
+    [
+     4.4,
+     3.6
+    ],
+    [
+     0,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Zimmer",
+   "art": "zimmer",
+   "punkte": [
+    [
+     4.4,
+     0
+    ],
+    [
+     8.0,
+     0
+    ],
+    [
+     8.0,
+     3.6
+    ],
+    [
+     4.4,
+     3.6
+    ]
+   ]
+  },
+  {
+   "name": "Vorraum",
+   "art": "flur",
+   "punkte": [
+    [
+     5.6,
+     3.6
+    ],
+    [
+     8.0,
+     3.6
+    ],
+    [
+     8.0,
+     5.8
+    ],
+    [
+     5.6,
+     5.8
+    ]
+   ]
+  },
+  {
+   "name": "Bad",
+   "art": "bad",
+   "punkte": [
+    [
+     5.6,
+     5.8
+    ],
+    [
+     8.0,
+     5.8
+    ],
+    [
+     8.0,
+     8.6
+    ],
+    [
+     5.6,
+     8.6
+    ]
+   ]
+  },
+  {
+   "name": "Wohnküche",
+   "art": "wohnen",
+   "punkte": [
+    [
+     0,
+     3.6
+    ],
+    [
+     5.6,
+     3.6
+    ],
+    [
+     5.6,
+     9.0
+    ],
+    [
+     0,
+     9.0
+    ]
+   ]
+  },
+  {
+   "name": "Terrasse",
+   "art": "freiflaeche",
+   "punkte": [
+    [
+     0,
+     9.0
+    ],
+    [
+     8.0,
+     9.0
+    ],
+    [
+     8.0,
+     13.75
+    ],
+    [
+     0,
+     13.75
+    ]
+   ],
+   "m2": 38
+  }
+ ],
+ "fenster": [
+  [
+   [
+    0.8,
+    0
+   ],
+   [
+    1.8,
+    0
+   ]
+  ],
+  [
+   [
+    2.6,
+    0
+   ],
+   [
+    3.6,
+    0
+   ]
+  ],
+  [
+   [
+    5.6,
+    0
+   ],
+   [
+    6.8,
+    0
+   ]
+  ],
+  [
+   [
+    1.5,
+    9.0
+   ],
+   [
+    4.0,
+    9.0
+   ]
+  ]
+ ],
+ "tueren": [
+  {
+   "von": [
+    5.6,
+    4.2
+   ],
+   "bis": [
+    5.6,
+    5.0
+   ],
+   "seite": 1,
+   "offen": true
+  }
+ ],
+ "wohnflaeche": 78,
+ "seiten": {
+  "oben": "Straße",
+  "unten": "Innenhof"
+ },
+ "hinweis": "aus 6 Fotos und dem Text geschätzt, nicht verbindlich. Lage der Räume (Zimmer zur Straße, Wohnküche/Terrasse zum Hof) aus Fassadenfoto und Text; Raumgrößen geschätzt."
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="2112" viewBox="0 0 1360 2112" font-family="Helvetica, Arial, sans-serif">
+<rect width="1360" height="2112" fill="#ffffff"/>
+<rect x="0" y="0" width="1360" height="112" fill="#c0392b"/><text x="680.0" y="52.6" font-size="50.0" font-weight="800" fill="#ffffff" text-anchor="middle">SCHÄTZUNG</text><text x="680.0" y="91.8" font-size="28.0" fill="#ffffff" text-anchor="middle">kein Original-Grundriss · von Claude aus Fotos und Beschreibung geschätzt</text>
+<polygon points="280.0,302.5 720.0,302.5 720.0,662.5 280.0,662.5" fill="#e9eef5" stroke="none"/>
+<polygon points="280.0,302.5 720.0,302.5 720.0,662.5 280.0,662.5" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="720.0,302.5 1080.0,302.5 1080.0,662.5 720.0,662.5" fill="#f4e9d6" stroke="none"/>
+<polygon points="720.0,302.5 1080.0,302.5 1080.0,662.5 720.0,662.5" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="840.0,662.5 1080.0,662.5 1080.0,882.5 840.0,882.5" fill="#efefec" stroke="none"/>
+<polygon points="840.0,662.5 1080.0,662.5 1080.0,882.5 840.0,882.5" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="840.0,882.5 1080.0,882.5 1080.0,1162.5 840.0,1162.5" fill="#dcecf3" stroke="none"/>
+<polygon points="840.0,882.5 1080.0,882.5 1080.0,1162.5 840.0,1162.5" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="280.0,662.5 840.0,662.5 840.0,1202.5 280.0,1202.5" fill="#f4e9d6" stroke="none"/>
+<polygon points="280.0,662.5 840.0,662.5 840.0,1202.5 280.0,1202.5" fill="none" stroke="#2f2f2f" stroke-width="14.0" stroke-linejoin="miter"/>
+<polygon points="280.0,1202.5 1080.0,1202.5 1080.0,1677.5 280.0,1677.5" fill="#e3f0da" stroke="none"/>
+<polygon points="280.0,1202.5 1080.0,1202.5 1080.0,1677.5 280.0,1677.5" fill="none" stroke="#7a8f6e" stroke-width="6.0" stroke-linejoin="miter" stroke-dasharray="18 10"/>
+<line x1="360.0" y1="302.5" x2="460.0" y2="302.5" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="360.0" y1="302.5" x2="460.0" y2="302.5" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="540.0" y1="302.5" x2="640.0" y2="302.5" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="540.0" y1="302.5" x2="640.0" y2="302.5" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="840.0" y1="302.5" x2="960.0" y2="302.5" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="840.0" y1="302.5" x2="960.0" y2="302.5" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="430.0" y1="1202.5" x2="680.0" y2="1202.5" stroke="#ffffff" stroke-width="12.0"/>
+<line x1="430.0" y1="1202.5" x2="680.0" y2="1202.5" stroke="#6fa7cf" stroke-width="4"/>
+<line x1="840.0" y1="722.5" x2="840.0" y2="802.5" stroke="#ffffff" stroke-width="16.0"/>
+<text x="500.0" y="476.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="900.0" y="476.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Zimmer</text>
+<text x="960.0" y="766.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Vorraum</text>
+<text x="960.0" y="1016.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Bad</text>
+<text x="560.0" y="926.5" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Wohnküche</text>
+<text x="680.0" y="1434.0" font-size="40.0" font-weight="700" fill="#2b2b2b" text-anchor="middle">Terrasse</text>
+<text x="680.0" y="1478.0" font-size="32.8" fill="#555" text-anchor="middle">38,00 m²</text>
+<text x="680.0" y="252.0" font-size="38.0" font-weight="700" fill="#5b6b82" letter-spacing="1" text-anchor="middle">▲ Straße</text>
+<text x="680.0" y="1758.4" font-size="38.0" font-weight="700" fill="#5b6b82" letter-spacing="1" text-anchor="middle">▼ Innenhof</text>
+<text x="280.0" y="1888.0" font-size="46.0" font-weight="700" fill="#2b2b2b">Hochparterre, 3 Zimmer (ca. 78 m²)</text>
+<text x="280.0" y="1942.0" font-size="36.0" fill="#444">Wohnfläche ca. 78,00 m² · Freifläche ca. 38,00 m²</text>
+<text x="280.0" y="1992.0" font-size="28.0" fill="#888">aus 6 Fotos und dem Text geschätzt, nicht verbindlich. Lage der Räume (Zimmer zur Straße, Wohnküche/Terrasse zum Hof) aus Fassadenfoto und Text; Raumgrößen geschätzt.</text>
+<rect x="280.0" y="2024.0" width="100.0" height="10" fill="#2f2f2f"/><rect x="380.0" y="2024.0" width="100.0" height="10" fill="#ffffff" stroke="#2f2f2f" stroke-width="2"/><text x="280.0" y="2068.0" font-size="26.0" fill="#666">0</text><text x="480.0" y="2068.0" font-size="26.0" fill="#666" text-anchor="end">2 m</text>
+</svg>
