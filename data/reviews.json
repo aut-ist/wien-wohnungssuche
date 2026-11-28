@@ -35154,8 +35154,11 @@
  },
  "ds-15309470": {
   "lage": {
-   "sicherheit": "unklar",
-   "begruendung": "nur \"3. Bezirk\", \"U3 (5 Minuten zu Fuss)\", \"beliebte und bekannte Straße\", \"grosser Park\"; keine Straße, kein Außenfoto, kein Portalpunkt"
+   "adresse": "Steingasse 27",
+   "sicherheit": "ungefaehr",
+   "lat": 48.193034,
+   "lon": 16.393811,
+   "begruendung": "Gleiche Wohnung war bis 13.11. auf willhaben (wh-1626950338, Immo-Company, gleicher Titel, 115 m², 950.000 €) mit Kartenpunkt 48,19321/16,39423 (Steingasse 23-25, Umkreis unbekannt, Inserat inzwischen offline). Text: Neubau, 1. Stock mit Lift, 2-stöckig mit Terrasse -> nächstes Nachkriegs-Wohnhaus am Punkt ist Steingasse 27 (GEBAEUDEINFOOGD nach 1945, 5 Geschoße, 37 m). Schwach belegt: \"U3 5 Minuten\" und \"grosser Park\" passen nur mäßig."
   },
   "datum": "2026-11-28"
  },
@@ -35460,6 +35463,23 @@
  },
  "wh-2008513484": {
   "gleich_wie": "wh-871803992",
+  "datum": "2026-11-28"
+ },
+ "wh-1626950338": {
+  "lage": {
+   "adresse": "Steingasse 27",
+   "sicherheit": "ungefaehr",
+   "lat": 48.193034,
+   "lon": 16.393811,
+   "begruendung": "siehe ds-15309470 (gleiche Wohnung)"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-871803992": {
+  "eckdaten": {
+   "zimmer": 4,
+   "vorrang": true
+  },
   "datum": "2026-11-28"
  }
 }

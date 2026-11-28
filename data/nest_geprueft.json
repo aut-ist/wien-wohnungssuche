@@ -9252,10 +9252,11 @@
  },
  "ds-15309470": {
   "ids": [
-   "ds-15309470"
+   "ds-15309470",
+   "wh-1626950338"
   ],
   "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! 3. Bezirk. U3",
-  "ergebnis": "unklar: kein Portalpunkt/Suchkreis (nur 3. Bezirk); Schwester-Inserate: keine (kein Energieausweis); Grundriss-Ordner fehlt, 6 Fotos nur innen/Terrasse; Makler-Seite immo-company.at/immobilien?PLZ 1030 (11 Objekte, keines passt); derStandard-Detail 404; Websuche \"2-Stöckige Wohnung mit eigener geräumigen Terrasse\" ohne Treffer",
+  "ergebnis": "unklar: als ungefähr Steingasse 27 eingetragen (Punkt der offline willhaben-Kopie wh-1626950338 bei Steingasse 23-25, Umkreis unbekannt; nächstes Nachkriegs-Wohnhaus), dadurch raus (3. Bezirk außerhalb der Zone). Sonst: keine Schwester-Inserate mit Energieausweis, nur Innen-/Terrassenfotos, immo-company.at (PLZ 1030, 11 Objekte) ohne Treffer, derStandard-Detail 404, Websuche ohne Treffer",
   "datum": "2026-11-28"
  }
 }

@@ -1,15 +1,4 @@
 {
  "datum": "2026-11-28",
- "ohne_haus": [
-  {
-   "id": "ds-15309470",
-   "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! Absolute",
-   "adresse": null,
-   "erstmals": "2026-11-13",
-   "probleme": [
-    "keine Hausnummer"
-   ],
-   "im_nest": false
-  }
- ]
+ "ohne_haus": []
 }

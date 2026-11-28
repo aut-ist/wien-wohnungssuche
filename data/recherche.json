@@ -1535,41 +1535,5 @@
    }
   ],
   "kandidaten_radius_m": 263
- },
- {
-  "id": "ds-15309470",
-  "ids": [
-   "ds-15309470"
-  ],
-  "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! Absolute Ruhe! 3. Bezirk. U3",
-  "plz": 1030,
-  "links": [
-   "https://immobilien.derstandard.at/detail/15309470"
-  ],
-  "anbieter": "Immo-Company Haas & Urban Immobilien GmbH",
-  "adresse_im_inserat": null,
-  "lage": "Lage unklar, nur 3. Bezirk bekannt",
-  "punkt": [
-   48.19688,
-   16.401404
-  ],
-  "versatz_m": 0,
-  "portalpunkt": null,
-  "preis": 950000.0,
-  "flaeche": 115.0,
-  "zimmer": 5,
-  "stockwerk": null,
-  "energie": {
-   "hwb": null,
-   "hwb_class": null,
-   "fgee": null,
-   "fgee_class": null
-  },
-  "grundrisse": "data/grundrisse/ds-15309470/",
-  "im_nest": false,
-  "dokumente": [],
-  "erstmals": "2026-11-13",
-  "portaladresse_pruefen": false,
-  "frueher": "unklar: kein Portalpunkt/Suchkreis (nur 3. Bezirk); Schwester-Inserate: keine (kein Energieausweis); Grundriss-Ordner fehlt, 6 Fotos nur innen/Terrasse; Makler-Seite immo-company.at/immobilien?PLZ 1030 (11 Objekte, keines passt); derStandard-Detail 404; Websuche \"2-Stöckige Wohnung mit eigener geräumigen Terrasse\" ohne Treffer"
  }
 ]

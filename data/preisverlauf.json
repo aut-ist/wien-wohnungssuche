@@ -15494,7 +15494,7 @@
    "preis_inserat": null,
    "preis_hinweis": null,
    "flaeche": 110.0,
-   "zimmer": 3,
+   "zimmer": 4,
    "plz": 1040,
    "adresse": "Johann-Strauß-Gasse 22/22",
    "lage": "Zone Wieden/Mariahilf (Saads Zeichnung: Ring bis Quartier Belvedere, Naschmarkt bis Mariahilfer Straße) (aus Beschreibung: Johann-Strauß-Gasse 22/22)",
@@ -15534,9 +15534,9 @@
     ]
    ],
    "online_seit": "2026-10-26",
-   "baujahr": "1960 (Inserat; Infina nennt 1959), thermische Sanierung 2019",
+   "baujahr": null,
    "bauart": "Neubau",
-   "stockwerk": "4. Liftstock (willhaben: '4. Etage / 5. Wohnetage')",
+   "stockwerk": "4",
    "monatlich": 466.03,
    "bilder": [
     "https://cache.willhaben.at/mmo/4/200/851/3484_-474079201.jpg",
@@ -15573,7 +15573,7 @@
    "freiflaeche": [
     "Balkon"
    ],
-   "zustand": "Erstbezug nach Generalrenovierung 2026",
+   "zustand": "Erstbezug",
    "guertel": null,
    "zuletzt": "2026-11-28"
   },
