@@ -2,30 +2,8 @@
  "datum": "2026-11-28",
  "ohne_haus": [
   {
-   "id": "wh-984365366",
-   "titel": "Großzügige Dachgeschoss-Maisonette ohne Dachschrägen mit 44 m² Terrassenfäche | ",
-   "adresse": null,
-   "erstmals": "2026-11-11",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
    "id": "ds-15309470",
    "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! Absolute",
-   "adresse": null,
-   "erstmals": "2026-11-13",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "ds-15311994",
-   "titel": "SANIERTER ALTBAU MIT FUSSBODENHEIZUNG",
    "adresse": null,
    "erstmals": "2026-11-13",
    "probleme": [
@@ -45,23 +23,11 @@
    "im_nest": false
   },
   {
-   "id": "wh-1363362129",
-   "titel": "Ihr privater Rückzugsort in Hofruhelage - kernsaniert, Smart Home und Südwestter",
-   "adresse": "Lustkandlgasse",
+   "id": "wh-1788352998",
+   "titel": "Raum für Wohnträume - 112 m² mit bis zu 4,5 Zimmern & Gartenmitbenützung",
+   "adresse": "Sollingergasse 1",
    "erstmals": "2026-11-28",
    "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-532412981488",
-   "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Eckwohnung mit Parkblick",
-   "adresse": null,
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "keine Hausnummer",
     "kein Grundriss"
    ],
    "im_nest": false
@@ -69,10 +35,9 @@
   {
    "id": "wh-849272944",
    "titel": "PREISREDUKTION! ABSOLUTE TOPLAGE MIT RUHIGER INNENHOF-TERRASSE",
-   "adresse": null,
+   "adresse": "Graf-Starhemberg-Gasse 27",
    "erstmals": "2026-11-28",
    "probleme": [
-    "keine Hausnummer",
     "kein Grundriss"
    ],
    "im_nest": false
@@ -80,10 +45,9 @@
   {
    "id": "wh-2121790420",
    "titel": "GESCHÄFTSLOKAL ODER BÜRO IM SOUTTERRAIN IN TOPLAGE",
-   "adresse": null,
+   "adresse": "Graf-Starhemberg-Gasse 27",
    "erstmals": "2026-11-28",
    "probleme": [
-    "keine Hausnummer",
     "kein Grundriss"
    ],
    "im_nest": false
@@ -91,18 +55,7 @@
   {
    "id": "wh-2146523080",
    "titel": "PREISREDUKTION! GARTENWOHNUNG MIT GESCHÄFTSLOKAL - 2-STÖCKIG IN TOPLAGE",
-   "adresse": null,
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "keine Hausnummer",
-    "kein Grundriss"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "wh-1788352998",
-   "titel": "Raum für Wohnträume - 112 m² mit bis zu 4,5 Zimmern & Gartenmitbenützung",
-   "adresse": "Sollingergasse 1",
+   "adresse": "Graf-Starhemberg-Gasse 27",
    "erstmals": "2026-11-28",
    "probleme": [
     "kein Grundriss"
@@ -120,24 +73,12 @@
    "im_nest": false
   },
   {
-   "id": "is-065073109810",
-   "titel": "VILLAGE IM DRITTEN |4-ZIMMER FAMILIENHIT MIT ZWEI FREIFLÄCHEN | ANLEGER",
-   "adresse": "Hilde-Güden-Promenade 11",
+   "id": "wh-1363362129",
+   "titel": "Ihr privater Rückzugsort in Hofruhelage - kernsaniert, Smart Home und Südwestter",
+   "adresse": "Lustkandlgasse 45",
    "erstmals": "2026-11-28",
    "probleme": [
-    "kein Grundriss",
-    "vermutlich weggeworfen: gleich wie is-541136795894 (Papierkorb) -> gleich_wie setzen"
-   ],
-   "im_nest": false
-  },
-  {
-   "id": "is-800225689420",
-   "titel": "VILLAGE IM DRITTEN | BAUFELD 14B | Lokale, erneuerbare &amp; klimafreundliche En",
-   "adresse": "Hilde-Güden-Promenade 11",
-   "erstmals": "2026-11-28",
-   "probleme": [
-    "kein Grundriss",
-    "vermutlich weggeworfen: gleich wie is-541136795894 (Papierkorb) -> gleich_wie setzen"
+    "kein Grundriss"
    ],
    "im_nest": false
   }

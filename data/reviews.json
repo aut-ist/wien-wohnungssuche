@@ -11930,11 +11930,13 @@
  },
  "wh-988212014": {
   "lage": {
-   "adresse": "",
-   "sicherheit": "unklar",
-   "begruendung": "18. Bezirk, aber keine Straße oder Landmarke im Text"
+   "adresse": "Schumanngasse 42",
+   "sicherheit": "ungefaehr",
+   "lat": 48.221462,
+   "lon": 16.337489,
+   "begruendung": "Inserat ohne Adresse (nur 18. Bezirk, \"Adresse auf Anfrage\"), Punkt bis 263 m versetzt; Baujahr 2013, Tiefgarage (Stellplatz 17), DG-Maisonette mit Dachterrasse, Fernwärme, HWB 28,6: am ehesten ein Nachkriegs-/Neubau mit TG im Kreis; Schumanngasse 42 ist das nächste Wohnhaus \"nach 1945\" in 1180 am Portalpunkt (41 m). Schwach belegt; Alternativen: Antonigasse 29, Schumanngasse 34/32, Dempschergasse 5"
   },
-  "datum": "2026-10-29"
+  "datum": "2026-11-28"
  },
  "wh-2083560628": {
   "lage": {
@@ -35149,5 +35151,311 @@
    "begruendung": "Schantl-ITH-Inserat derselben Wohnung (is-181769158688): 'Top 12 in der Schelleingasse 23 … rund 104,7 m²', 'Die Schelleingasse 23 befindet sich …'; EDEX-Plan zeigt ebenfalls Top 12, 2. Stock; EDEX-Koordinaten liegen im Haus Nr. 23"
   },
   "datum": "2026-11-27"
+ },
+ "ds-15309470": {
+  "lage": {
+   "sicherheit": "unklar",
+   "begruendung": "nur \"3. Bezirk\", \"U3 (5 Minuten zu Fuss)\", \"beliebte und bekannte Straße\", \"grosser Park\"; keine Straße, kein Außenfoto, kein Portalpunkt"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-532412981488": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.18889442,
+   "lon": 16.39616763,
+   "begruendung": "Inserat: \"LAGE Otto-Preminger-Straße 16, 1030 Wien ... Hilde-Güden-Promenade 7\"; Projektseite villageimdritten.at/bauphase-3: Baufeld 14A = Otto-Preminger-Straße 16 (Village im Dritten, südlich Rennweg bei St. Marx). Portalpunkt lag 1,5 km falsch"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fertigstellung 2027, Termin erfragen (Inserat: \"Fertigstellung: voraussichtlich 2027\" / \"Verfügbar ab voraussichtlich 2027\"; Projektseite villageimdritten.at nennt keinen Monat)"
+  },
+  "preis": {
+   "eigennutzer": 895200,
+   "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer ... Vorsorgewohnung\"; Eigennutzerpreis nur auf Anfrage -> 746.000 € + 20 % USt"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1269782882": {
+  "lage": {
+   "adresse": "Otto-Preminger-Straße 16",
+   "sicherheit": "genau",
+   "lat": 48.18889442,
+   "lon": 16.39616763,
+   "begruendung": "Inserat: \"LAGE Otto-Preminger-Straße 16, 1030 Wien ... Hilde-Güden-Promenade 7\"; Projektseite villageimdritten.at/bauphase-3: Baufeld 14A = Otto-Preminger-Straße 16 (Village im Dritten, südlich Rennweg bei St. Marx). Portalpunkt lag 1,5 km falsch"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-065073109810": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "lat": 48.1885994,
+   "lon": 16.39674362,
+   "begruendung": "Inserat nennt Hilde-Güden-Promenade 11; laut ADRESSENOGD gleiches Haus wie Otto-Preminger-Straße 18 (Projektseite villageimdritten.at: Baufeld 14B). Bisheriger Kartenpunkt (48,2017) lag 1,4 km zu weit nördlich"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fertigstellung 2027, Termin erfragen (Inserat: \"Fertigstellung: voraussichtlich 2027\" / \"Verfügbar ab voraussichtlich 2027\"; Projektseite villageimdritten.at nennt keinen Monat)"
+  },
+  "preis": {
+   "eigennutzer": 862800,
+   "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer ... Vorsorgewohnung\"; Eigennutzerpreis nur auf Anfrage -> 719.000 € + 20 % USt"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-800225689420": {
+  "lage": {
+   "adresse": "Hilde-Güden-Promenade 11",
+   "sicherheit": "genau",
+   "lat": 48.1885994,
+   "lon": 16.39674362,
+   "begruendung": "Inserat nennt Hilde-Güden-Promenade 11; laut ADRESSENOGD gleiches Haus wie Otto-Preminger-Straße 18 (Projektseite villageimdritten.at: Baufeld 14B). Bisheriger Kartenpunkt (48,2017) lag 1,4 km zu weit nördlich"
+  },
+  "zustand": {
+   "ergebnis": "hinweis",
+   "begruendung": "Fertigstellung 2027, Termin erfragen (Inserat: \"Fertigstellung: voraussichtlich 2027\" / \"Verfügbar ab voraussichtlich 2027\"; Projektseite villageimdritten.at nennt keinen Monat)"
+  },
+  "preis": {
+   "eigennutzer": 948000,
+   "begruendung": "\"Der angeführte Kaufpreis versteht sich zuzüglich 20 % Umsatzsteuer ... Vorsorgewohnung\"; Eigennutzerpreis nur auf Anfrage -> 790.000 € + 20 % USt"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-849272944": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 27",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188835,
+   "lon": 16.371256,
+   "begruendung": "Fassadenfoto aller drei Betterhomes-Inserate zeigt Hausnummer 27 (Gründerzeithaus, rechts Nachbar ohne Stuck); Entfernungen laut Inserat (Hbf 650 m, Drasche-Park 500 m, Belvedere 800 m, Naschmarkt 1,3 km, Oper 1,8 km) passen von allen Nr. 27 in 1040/1050/1100 nur zur Graf-Starhemberg-Gasse 27 (Abweichung je ca. 30-200 m; nächste: Schönburgstraße 27 deutlich schlechter); GEBAEUDEINFOOGD 1848-1918, Nr. 25 nach 1945. Straßenname nicht im Foto lesbar"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-2121790420": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 27",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188835,
+   "lon": 16.371256,
+   "begruendung": "Fassadenfoto aller drei Betterhomes-Inserate zeigt Hausnummer 27 (Gründerzeithaus, rechts Nachbar ohne Stuck); Entfernungen laut Inserat (Hbf 650 m, Drasche-Park 500 m, Belvedere 800 m, Naschmarkt 1,3 km, Oper 1,8 km) passen von allen Nr. 27 in 1040/1050/1100 nur zur Graf-Starhemberg-Gasse 27 (Abweichung je ca. 30-200 m; nächste: Schönburgstraße 27 deutlich schlechter); GEBAEUDEINFOOGD 1848-1918, Nr. 25 nach 1945. Straßenname nicht im Foto lesbar"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-2146523080": {
+  "lage": {
+   "adresse": "Graf-Starhemberg-Gasse 27",
+   "sicherheit": "ungefaehr",
+   "lat": 48.188835,
+   "lon": 16.371256,
+   "begruendung": "Fassadenfoto aller drei Betterhomes-Inserate zeigt Hausnummer 27 (Gründerzeithaus, rechts Nachbar ohne Stuck); Entfernungen laut Inserat (Hbf 650 m, Drasche-Park 500 m, Belvedere 800 m, Naschmarkt 1,3 km, Oper 1,8 km) passen von allen Nr. 27 in 1040/1050/1100 nur zur Graf-Starhemberg-Gasse 27 (Abweichung je ca. 30-200 m; nächste: Schönburgstraße 27 deutlich schlechter); GEBAEUDEINFOOGD 1848-1918, Nr. 25 nach 1945. Straßenname nicht im Foto lesbar"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1363362129": {
+  "lage": {
+   "adresse": "Lustkandlgasse 45",
+   "sicherheit": "genau",
+   "lat": 48.229342,
+   "lon": 16.351669,
+   "begruendung": "Matterport-Tour \"ETW Lustkandlgasse\"; Straßenfoto: Neubau mit Garagentoren auf der Westseite, Blick nach Süden auf die Canisiuskirche (links); Baujahr 1982 + Tiefgarage + Hof mit Spielplatz, \"Region: Helene-Deutsch-Park\": einziges Nachkriegshaus der Lustkandlgasse dort ist Nr. 45 (GEBAEUDEINFOOGD nach 1945, 6 Geschoße; 11 und 18 liegen südlich der Kirche, dort stünde sie auf der anderen Seite)"
+  },
+  "heizung": {
+   "ergebnis": "gas",
+   "begruendung": "\"Gas-Zentralheizung\" (Hard Facts) und Heizkosten extra; Portalfeld \"Fernwärme\" ist allgemeiner"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1788352998": {
+  "lage": {
+   "adresse": "Sollingergasse 1",
+   "sicherheit": "genau",
+   "lat": 48.24092454,
+   "lon": 16.33509088,
+   "begruendung": "Inserat: \"Die Wohnung in der Sollingergasse 1 liegt nahe der Krottenbachstraße im 19. Bezirk\"; Koordinaten ADRESSENOGD"
+  },
+  "datum": "2026-11-28"
+ },
+ "ds-15311994": {
+  "lage": {
+   "adresse": "Geblergasse 92",
+   "sicherheit": "ungefaehr",
+   "lat": 48.21669638,
+   "lon": 16.32620055,
+   "begruendung": "Gleiche Wohnung wie wh-1169063397/is-051535514326 (Betterhomes, gleicher Titel, 84 m², 3 Zi, 320.000 €, gleiches Fassadenfoto); dort am 2026-11-11 Hausnummer 92 vom Fassadenfoto, \"43er gleich ums Eck\" -> Geblergasse 92 am wahrscheinlichsten (infina.at Objekt 227219 nennt nur Hernals)"
+  },
+  "gleich_wie": "wh-1169063397",
+  "datum": "2026-11-28"
+ },
+ "wh-984365366": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1273543576": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1966627398": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "wh-1830307583": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "fm-5777862": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-748356261313": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "ds-15308878": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-044763537082": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "fm-5785367": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "ds-15318034": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-876076928475": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "ds-15324699": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "fm-5790195": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "fm-5795404": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-378406579258": {
+  "lage": {
+   "adresse": "Geblergasse 72",
+   "sicherheit": "ungefaehr",
+   "lat": 48.216562,
+   "lon": 16.330166,
+   "begruendung": "WINEGG-Inserate nennen Geblergasse, \"nahe dem Elterleinplatz\"; willhaben-Punkt ohne Versatz liegt 3 m vor Geblergasse 72 (Ecke Ortliebgasse); Terrassenfoto blickt nach SW über einen begrünten Platz auf die BILLA-PLUS-Halle Geblergasse 73-75 mit Geblergasse rechts und Ortliebgasse links; Alternative Geblergasse 70 (gegenüberliegende Ecke)"
+  },
+  "datum": "2026-11-28"
+ },
+ "is-489415102969": {
+  "lage": {
+   "adresse": "Schumanngasse 42",
+   "sicherheit": "ungefaehr",
+   "lat": 48.221462,
+   "lon": 16.337489,
+   "begruendung": "Inserat ohne Adresse (nur 18. Bezirk, \"Adresse auf Anfrage\"), Punkt bis 263 m versetzt; Baujahr 2013, Tiefgarage (Stellplatz 17), DG-Maisonette mit Dachterrasse, Fernwärme, HWB 28,6: am ehesten ein Nachkriegs-/Neubau mit TG im Kreis; Schumanngasse 42 ist das nächste Wohnhaus \"nach 1945\" in 1180 am Portalpunkt (41 m). Schwach belegt; Alternativen: Antonigasse 29, Schumanngasse 34/32, Dempschergasse 5"
+  },
+  "datum": "2026-11-28"
+ },
+ "ds-15273117": {
+  "lage": {
+   "adresse": "Schumanngasse 42",
+   "sicherheit": "ungefaehr",
+   "lat": 48.221462,
+   "lon": 16.337489,
+   "begruendung": "Inserat ohne Adresse (nur 18. Bezirk, \"Adresse auf Anfrage\"), Punkt bis 263 m versetzt; Baujahr 2013, Tiefgarage (Stellplatz 17), DG-Maisonette mit Dachterrasse, Fernwärme, HWB 28,6: am ehesten ein Nachkriegs-/Neubau mit TG im Kreis; Schumanngasse 42 ist das nächste Wohnhaus \"nach 1945\" in 1180 am Portalpunkt (41 m). Schwach belegt; Alternativen: Antonigasse 29, Schumanngasse 34/32, Dempschergasse 5"
+  },
+  "datum": "2026-11-28"
  }
 }

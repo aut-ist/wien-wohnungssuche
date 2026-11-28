@@ -3965,8 +3965,8 @@
    "ds-15273117"
   ],
   "titel": "ZWEI EBENEN, EIN ZUHAUSE - Wohnen in Toplage mit Dachterrasse & TG-Platz",
-  "ergebnis": "unklar: Schwester-Inserate (HWB 28,6/fGEE 0,79): nur eigene Kopien. Grundriss: Maisonette TOP 92,69 m², Terrasse 6,95 m², ohne Schriftfeld/Nordpfeil. Ogulo-Tour tour.ogulo.com/Uf0P: tour.json location null, Headline '2699/1899'. Fotos: DG-Ausbau (Baujahr 2013) im Gründerzeit-Dachlandschaft, Fernwärme, Tiefgarage. Overpass gesperrt; 150 Kandidaten im 263-m-Kreis nicht eingrenzbar. RE/MAX-Seite (Cloudflare) nicht versucht.",
-  "datum": "2026-11-27"
+  "ergebnis": "unklar: als ungefähr Schumanngasse 42 eingetragen (nächstes Nachkriegs-Wohnhaus in 1180 am Punkt), aber schwach: Fotos zeigen nur Dachlandschaft + Hochhaus in der Ferne, TG-Stellplatz 17; Adresse laut RE/MAX nur auf Anfrage; Schwester-Inserate keine; Kandidaten mit TG weiter prüfen",
+  "datum": "2026-11-28"
  },
  "wh-1725543422": {
   "ids": [
@@ -9166,5 +9166,96 @@
   "titel": "Perfekt geschnittener Rückzugsort im Grünen: 97 m² Wohnkomfort mit Loggia, Balkon & Lift im 19. Bez.",
   "ergebnis": "unklar: kein Suchkreis (Portalpunkte zufällig). Geprüft: Schwester-Inserate (nur eigene Kopien; RKM-Townhouse Siolygasse Bj. 1984 ist andere Anlage), Grundriss (Scan ohne Schriftfeld), Klebl-Seite klebl-immobilien.at/immobilien/detail-infos/3293-... (onOffice, ImmoNr 2026-976, keine Adresse/Karte), willhaben-Detail (keine Koordinaten), Websuchen ('Rückzugsort im Grünen' Klebl, Bj. 1984 Sauna 1190). Spur: Loggia-Foto zeigt breite Allee mit Nebenfahrbahn und Hang mit neuen Terrassenhäusern + Garageneinfahrt gegenüber; Krottenbachstraße 27-41 und Sieveringer Straße 75 (Bj. 1962) passen nicht. Morgen: Ogulo/Fotos gegen Orthofoto Krottenbachstraße West/Sieveringer Straße, Hausverwaltung.",
   "datum": "2026-11-27"
+ },
+ "wh-1788352998": {
+  "ids": [
+   "wh-1788352998"
+  ],
+  "titel": "Raum für Wohnträume - 112 m² mit bis zu 4,5 Zimmern & Gartenmitbenützung",
+  "ergebnis": "genau: Sollingergasse 1 (Portaladresse bestätigt, Inseratstext \"Die Wohnung in der Sollingergasse 1\")",
+  "datum": "2026-11-28"
+ },
+ "is-532412981488": {
+  "ids": [
+   "is-532412981488",
+   "wh-1269782882"
+  ],
+  "titel": "VILLAGE IM DRITTEN | Traumhafte 4-Zimmer Eckwohnung mit Parkblick",
+  "ergebnis": "genau: Otto-Preminger-Straße 16 (Baufeld 14A), Inserat-LAGE + http://www.villageimdritten.at/bauphase-3; außerhalb der Zonen (südlich Rennweg)",
+  "datum": "2026-11-28"
+ },
+ "is-065073109810": {
+  "ids": [
+   "is-065073109810"
+  ],
+  "titel": "VILLAGE IM DRITTEN Baufeld 14B",
+  "ergebnis": "genau: Hilde-Güden-Promenade 11 = Otto-Preminger-Straße 18 (ADRESSENOGD, villageimdritten.at Baufeld 14B); Kartenpunkt war 1,4 km falsch; andere Einheit als wh-2130672232 (100,99 m², 7. Stock) – kein gleich_wie",
+  "datum": "2026-11-28"
+ },
+ "is-800225689420": {
+  "ids": [
+   "is-800225689420"
+  ],
+  "titel": "VILLAGE IM DRITTEN Baufeld 14B",
+  "ergebnis": "genau: Hilde-Güden-Promenade 11 = Otto-Preminger-Straße 18 (ADRESSENOGD, villageimdritten.at Baufeld 14B); Kartenpunkt war 1,4 km falsch; andere Einheit als wh-2130672232 (100,99 m², 7. Stock) – kein gleich_wie",
+  "datum": "2026-11-28"
+ },
+ "wh-849272944": {
+  "ids": [
+   "wh-849272944"
+  ],
+  "titel": "PREISREDUKTION! ABSOLUTE TOPLAGE MIT RUHIGER INNENHOF-TERRASSE",
+  "ergebnis": "ungefaehr: Graf-Starhemberg-Gasse 27 – Hausnummer 27 am Fassadenfoto (cache.willhaben.at …/944_-567136295.jpg), Entfernungsangaben passen nur zu dieser Nr. 27 (ADRESSENOGD alle Nr. 27 in 1040/1050/1100 verglichen); Websuche \"Graf-Starhemberg-Gasse 27\" ohne Treffer",
+  "datum": "2026-11-28"
+ },
+ "wh-2121790420": {
+  "ids": [
+   "wh-2121790420"
+  ],
+  "titel": "GESCHÄFTSLOKAL ODER BÜRO IM SOUTTERRAIN IN TOPLAGE",
+  "ergebnis": "ungefaehr: Graf-Starhemberg-Gasse 27 – Hausnummer 27 am Fassadenfoto (cache.willhaben.at …/944_-567136295.jpg), Entfernungsangaben passen nur zu dieser Nr. 27 (ADRESSENOGD alle Nr. 27 in 1040/1050/1100 verglichen); Websuche \"Graf-Starhemberg-Gasse 27\" ohne Treffer",
+  "datum": "2026-11-28"
+ },
+ "wh-2146523080": {
+  "ids": [
+   "wh-2146523080"
+  ],
+  "titel": "PREISREDUKTION! GARTENWOHNUNG MIT GESCHÄFTSLOKAL - 2-STÖCKIG IN TOPLAGE",
+  "ergebnis": "ungefaehr: Graf-Starhemberg-Gasse 27 – Hausnummer 27 am Fassadenfoto (cache.willhaben.at …/944_-567136295.jpg), Entfernungsangaben passen nur zu dieser Nr. 27 (ADRESSENOGD alle Nr. 27 in 1040/1050/1100 verglichen); Websuche \"Graf-Starhemberg-Gasse 27\" ohne Treffer",
+  "datum": "2026-11-28"
+ },
+ "wh-1363362129": {
+  "ids": [
+   "wh-1363362129"
+  ],
+  "titel": "Ihr privater Rückzugsort in Hofruhelage - kernsaniert, Smart Home und Südwestterrasse",
+  "ergebnis": "genau: Lustkandlgasse 45 – Matterport \"ETW Lustkandlgasse\", Straßenfoto mit Canisiuskirche im Süden, einziges Nachkriegshaus (Baujahr 1982, TG) beim Helene-Deutsch-Park (GEBAEUDEINFOOGD)",
+  "datum": "2026-11-28"
+ },
+ "ds-15311994": {
+  "ids": [
+   "ds-15311994"
+  ],
+  "titel": "SANIERTER ALTBAU MIT FUSSBODENHEIZUNG",
+  "ergebnis": "ungefaehr: Geblergasse 92 – gleiche Wohnung wie wh-1169063397 (Recherche 2026-11-11: Hausnummer 92 am Fassadenfoto, 43er ums Eck); gleich_wie gesetzt; infina.at/immobilien/finden/wohnung-wien-227219 nur Bezirk",
+  "datum": "2026-11-28"
+ },
+ "wh-984365366": {
+  "ids": [
+   "wh-984365366",
+   "wh-1273543576",
+   "wh-1966627398"
+  ],
+  "titel": "Großzügige Dachgeschoss-Maisonette ohne Dachschrägen (WINEGG)",
+  "ergebnis": "ungefaehr: Geblergasse 72 (Ecke Ortliebgasse) – willhaben-Punkt ohne Versatz 3 m davor, Terrassenblick auf BILLA PLUS Geblergasse 73-75; Alternative Geblergasse 70; winegg.at liefert 404, Websuche ohne Treffer",
+  "datum": "2026-11-28"
+ },
+ "ds-15309470": {
+  "ids": [
+   "ds-15309470"
+  ],
+  "titel": "2-Stöckige Wohnung mit eigener geräumigen Terrasse im Zentrum von Wien! 3. Bezirk. U3",
+  "ergebnis": "unklar: kein Portalpunkt/Suchkreis (nur 3. Bezirk); Schwester-Inserate: keine (kein Energieausweis); Grundriss-Ordner fehlt, 6 Fotos nur innen/Terrasse; Makler-Seite immo-company.at/immobilien?PLZ 1030 (11 Objekte, keines passt); derStandard-Detail 404; Websuche \"2-Stöckige Wohnung mit eigener geräumigen Terrasse\" ohne Treffer",
+  "datum": "2026-11-28"
  }
 }
