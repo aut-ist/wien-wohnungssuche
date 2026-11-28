@@ -371,5 +371,9 @@
   }
  ],
  "wohnflaeche": 76.26,
- "hinweis": "Neu gezeichnet nach dem abfotografierten Einreichplan im EDEX-Exposé (edeximmo.at, Top 17: 76,26 m², Terrasse 9,90 m²); Lage der Räume schematisch, m² laut Plan. Dachflächenfenster an der Dachschräge."
+ "hinweis": "Neu gezeichnet nach dem abfotografierten Einreichplan im EDEX-Exposé (edeximmo.at, Top 17: 76,26 m², Terrasse 9,90 m²); Lage der Räume schematisch, m² laut Plan. Dachflächenfenster an der Dachschräge.",
+ "seiten": {
+  "oben": "Innenhof (Südost, Terrasse)",
+  "unten": "Nordseite (beide Zimmer)"
+ }
 }
